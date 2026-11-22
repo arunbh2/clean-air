@@ -1,6 +1,6 @@
 # Clean Air site
 
-A static site generated entirely from `/research`. The templates hold layout and interface labels. Every finding, rating, figure and piece of copy comes from the research files:
+A static site generated entirely from `/research` (140 pages in the 22 November 2026 regional edition). The templates hold layout and interface labels. Every finding, rating, figure and piece of copy comes from the research files:
 
 - `research/report/*.md`: report sections; each site section renders the report sections listed for it.
 - `research/data/*.csv`: settings, communities, interventions, organisations, portfolios, evidence map, gaps, pathways, economic estimates, claims and sources.
@@ -37,6 +37,13 @@ Output goes to `site/dist/`, which is not committed. The pages use relative link
 | `organisations/` | report 07; `organisations.csv` |
 | `evidence/` | report 00, 10; claims, sources, evidence map, gaps, pathways, economic estimates, verification |
 | `support/` | report 09, 11; `portfolios.csv`; decision brief; downloads |
+| `start/`, `crisis/glossary.html` | `site-content/start.md`; `glossary.csv` |
+| `places/<country>.html`, `south-asia`, `southeast-asia`, `compare` | `countries.csv` |
+| `organisations/funding/`, `organisations/funders/` | `programmes.csv`, `funders.csv` |
+| `what-works/compare.html`, `not-a-solution.html` | `interventions.csv` |
+| `support/pathways/`, journeys | `decision-pathways.csv`; `site-content/stories/` |
+| `evidence/coverage.html` | computed from all registers at build time |
+| `about/` | `site-content/pages/` |
 
 ## Design
 

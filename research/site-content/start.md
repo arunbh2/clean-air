@@ -5,7 +5,7 @@ summary: "Air pollution in five minutes: what it is, who it hurts most, and what
 
 ## In one minute
 
-Air pollution is a mix of tiny particles and gases from traffic, fires, factories, farms and cooking. The smallest particles, called PM2.5, get deep into the lungs and blood. In India almost everyone breathes air dirtier than the World Health Organization's safe level [C021]. Across South Asia, smoke travels hundreds of kilometres, so cities and countries share the same polluted air [C125].
+Air pollution is a mix of tiny particles and gases from traffic, fires, factories, farms and cooking. The smallest particles, called PM2.5, get deep into the lungs and blood. In India almost everyone breathes air dirtier than the World Health Organization's safe level [C021]. Across South Asia, smoke travels hundreds of kilometres, so cities and countries share the same polluted air [C125]. Smoke from cooking with wood, dung or coal is a separate danger inside about 2.6 billion homes worldwide [C145].
 
 ## Why your city's number is not your number
 
@@ -13,7 +13,7 @@ The daily Air Quality Index (AQI) is a warning score, not a measure of what you 
 
 ## Who is hit hardest
 
-People who work outside all day and cannot stop earning: sweepers, waste pickers, vendors, drivers, construction workers [C082][C086]. Children and pregnant women are more vulnerable to harm [C050][C052]. When emergency rules stop work, many lose their wages, and only some are compensated [C044].
+People who work outside all day and cannot stop earning: sweepers, waste pickers, vendors, drivers, construction workers [C082][C086]. Children, pregnant women, older people, people with long-term illness and the poorest households are most at risk [C147][C050][C052]. When emergency rules stop work, many lose their wages, and only some are compensated [C044].
 
 ## What helps, and what does not
 

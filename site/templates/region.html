@@ -2,9 +2,9 @@
 {% block content %}
 <h1>{{ region }}</h1>
 {% if region == "South Asia" %}
-<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Much of South Asia shares one huge polluted airshed across the Indo-Gangetic plain and Himalayan foothills. Smoke travels hundreds of kilometres, so no city can clean its air alone {{ "C125;C123"|claims(rel)|safe }}.</p></section>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Much of South Asia shares one huge polluted airshed across the Indo-Gangetic plain and Himalayan foothills. Smoke travels hundreds of kilometres, so no city can clean its air alone {{ "C125;C123"|claims(rel)|safe }}. The World Bank estimates nearly one billion people there breathe unhealthy air, with around one million early deaths a year {{ "C124"|claims(rel)|safe }}.</p></section>
 {% else %}
-<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Southeast Asian countries have lower national averages than South Asia but serious city and seasonal problems: traffic in Jakarta, crop and forest burning in northern Thailand, and cross-border haze {{ "C133;C136;C140"|claims(rel)|safe }}.</p></section>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Southeast Asian countries have lower national averages than South Asia but serious city and seasonal problems: traffic in Jakarta, crop and forest burning in northern Thailand, and cross-border haze {{ "C133;C136;C140"|claims(rel)|safe }}. In 2021, one in three deaths across Central, Southeast and South Asia was linked to air pollution {{ "C146"|claims(rel)|safe }}. The Asian Development Bank assessed eight ASEAN cities in 2026 {{ "C130"|claims(rel)|safe }}.</p></section>
 {% endif %}
 <ul class="card-list">
 {% for c in rcountries %}

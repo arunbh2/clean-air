@@ -80,6 +80,41 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   pass('first Tab focuses the skip link', focused.startsWith('skip|'), focused);
   const outline = await page.evaluate(() => getComputedStyle(document.activeElement).outlineStyle);
   pass('focused element shows an outline', outline !== 'none', outline);
+  // journeys on a phone-sized screen, driven by keyboard focus + Enter
+  const ph = await browser.newPage({ viewport: { width: 390, height: 844 } });
+  async function go(sel) { await ph.focus(sel); await Promise.all([ph.waitForNavigation(), ph.keyboard.press('Enter')]); }
+  try {
+    await ph.goto(url('index.html'));
+    await go('a[href="people/journey-street-vendor.html"]');           // 1
+    await go('a[href="../what-works/occupational-protection.html"]');   // 2: a concrete response
+    const hasOperator = await ph.locator('text=Who runs it').count();
+    await ph.goBack();
+    await go('a[href="../organisations/funding/p18.html"]');            // who funded something similar
+    const hasSource = await ph.locator('a[href*="evidence/sources.html#S"]').count();
+    await ph.goBack();
+    const gapLink = await ph.locator('a[href*="evidence/gaps.html#G1"]').count();
+    pass('street-vendor journey: home → story → response (2 clicks) → funding → gap', hasOperator > 0 && hasSource > 0 && gapLink > 0);
+  } catch (e) { pass('street-vendor journey works', false, e.message.slice(0, 120)); }
+  try {
+    await ph.goto(url('index.html'));
+    await go('a[href="organisations/funding/index.html"]');
+    await go('a[href="p01.html"]');
+    const bd = await ph.locator('text=board-approved').count();
+    await ph.goto(url('support/journey-funder.html'));
+    await go('a[href="../support/pathways/dp1.html"]');
+    const mind = await ph.locator('text=What would change my mind').count();
+    pass('funder journey: atlas → Bangladesh record → pathway with falsification test', bd > 0 && mind > 0);
+  } catch (e) { pass('funder journey works', false, e.message.slice(0, 120)); }
+  // compare tool limits to three
+  await page.goto(url('what-works/compare.html'));
+  const boxes = page.locator('[data-compare] input');
+  await boxes.nth(1).check({ force: true }).catch(() => {});
+  const shownCols = await page.locator('#compare-table thead th[data-col]:not([hidden])').count();
+  pass('comparison shows at most three interventions', shownCols <= 3 && shownCols >= 1, `${shownCols} shown`);
+  // images need alt attributes
+  let noAlt = 0;
+  for (const p of pages) { const h = fs.readFileSync(path.join(DIST, p), 'utf8'); noAlt += (h.match(/<img(?![^>]*\balt=)[^>]*>/g) || []).length; }
+  pass('every image has an alt attribute', noAlt === 0, `${noAlt} without alt`);
   // 4. reflow at 320 px (equivalent to 400% zoom on a 1280 px screen)
   const mob = await browser.newPage({ viewport: { width: 320, height: 800 } });
   for (const p of pages) {

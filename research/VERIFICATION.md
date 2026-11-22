@@ -56,3 +56,23 @@ python3 research/analysis/verify.py
 ```
 
 The script keeps the manual verdict, action and note columns from earlier runs. New or changed claims need a fresh manual review.
+
+## Expansion verification (regional edition, same cutoff)
+
+Run on 22 November 2026 after the regional expansion added `S069`–`S110` and `C111`–`C153`.
+
+| | Count |
+|---|---|
+| Sources re-fetched (all) | 110 |
+| Sources reachable | 107 |
+| Unreachable | S028 (cpcb.nic.in), S082 (CCAC Cambodia page, 403), S110 (ACM DOI, no abstract) |
+| Claims reviewed (all) | 153 |
+| Supported after review | 149 |
+| Unverified, kept provisional | 4: C056, C135 (Cambodia project), C138 (Philippines e-mobility), C153 (CHI paper) |
+
+**Method notes for the expansion.**
+
+- **AQLI pages (C111–C118).** These pages are rendered by JavaScript, so the plain fetch returned an empty page. Figures were confirmed in text captured with a headless browser on the same day.
+- **Numbers written in words.** Two abstracts write their sample sizes in words, which the figure check cannot match. Those were confirmed by reading the abstracts.
+- **Correction.** C152 was corrected from 59% to 58.7%, the figure stated in the abstract.
+- **Funding records** (`programmes.csv`) cite the same sources as their claims. Amounts appear only where a primary record states them. The validator rejects an amount that rests on a search snippet.

@@ -86,6 +86,15 @@ if os.path.exists(os.path.join(D, "programmes.csv")):
         for r in load(name):
             if not r["url"].startswith("http"): errs.append(f"{name} {r['source_id']}: URL missing")
 
+# orphan claims (not cited anywhere) -> warning
+cited = set()
+for f in glob.glob(os.path.join(D, "*.csv")):
+    if os.path.basename(f) in ("claims.csv", "verification.csv"): continue
+    cited |= set(re.findall(r"C\d{3}", open(f).read()))
+for md_ in glob.glob(os.path.join(R, "**", "*.md"), recursive=True) + glob.glob(os.path.join(R, "..", "site", "templates", "*.html")):
+    cited |= set(re.findall(r"C\d{3}", open(md_).read()))
+for cid in claims:
+    if cid not in cited: warns.append(f"orphan claim {cid} (not cited in tables or text)")
 print(f"{len(claims)} claims, {len(src)} sources, {len(ints)} interventions")
 for w in sorted(set(warns)): print("WARN", w)
 for e in errs: print("ERROR", e)

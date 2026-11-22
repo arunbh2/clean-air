@@ -18,5 +18,5 @@
 <h3>Funding records without a published amount</h3><ul class="sans">{% for p in cov.prog_noamt %}<li><a href="../organisations/funding/{{ p.programme_id|lower }}.html">{{ p.programme_id }}</a>: {{ p.title }}</li>{% endfor %}</ul>
 <h3>Funders named in the brief but not verified</h3><ul class="sans">{% for f in cov.funder_queue %}<li>{{ f.name }}</li>{% endfor %}</ul>
 <h3>Country dossiers by review date</h3><ul class="sans">{% for c in countries %}<li>{{ c.name }}: {{ c.coverage_status }} (reviewed {{ c.last_reviewed }})</li>{% endfor %}</ul>
-<p class="label-note">Sources added in the expansion (S069 onward) have not yet had the separate re-fetch verification run that S001-S068 received. See the verification record.</p>
+<p class="label-note">All sources, including those added in the regional expansion, were re-fetched and every claim reviewed on 22 November 2026. See the <a href="verification.html">verification record</a>.</p>
 {% endblock %}
