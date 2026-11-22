@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Comparing countries fairly</h1>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">You can only compare places using the same kind of number, from the same source, for the same year. This table uses one satellite-based estimate for 2023 for every country. It does not rank cities, because city monitors and national AQI formulas differ.</p></section>
+<div class="table-wrap"><table>
+<caption>Average fine particles (PM2.5), 2023, one method (AQLI)</caption>
+<thead><tr><th scope="col">Country</th><th scope="col">PM2.5 µg/m³</th><th scope="col">Times WHO guideline (5)</th><th scope="col">National annual standard</th><th scope="col">Comparability</th><th scope="col">Evidence</th></tr></thead>
+<tbody>{% for c in cs %}{% set v = c.pm25_2023.split(' ')[0] %}<tr><th scope="row"><a href="{{ 'index.html' if c.country_id == 'india' else c.country_id ~ '.html' }}">{{ c.name }}</a></th><td class="num">{{ v }}</td><td class="num">{{ '%.1f'|format(v|float / 5) }}</td><td>{{ c.national_annual_standard }}</td><td>Same source, method and year</td><td>{{ c.claim_ids.split(';')[0]|claims(rel)|safe }}</td></tr>{% endfor %}</tbody>
+</table></div>
+<p class="label-note">"Times WHO guideline" is calculated here from the cited PM2.5 value divided by 5 µg/m³ {{ "C003"|claims(rel)|safe }}.</p>
+<h2>How does Lahore compare with Delhi?</h2>
+<p class="measure">Both sit in the same Indo-Gangetic airshed, and smoke crosses the border between them {{ "C125;C149"|claims(rel)|safe }}. But their source numbers come from different kinds of study. Lahore's comes from an emissions inventory (what is released), and Delhi's from measurements at monitors (what arrives) {{ "C149;C025"|claims(rel)|safe }}. They cannot be compared directly.</p>
+<ul class="measure"><li><strong>What may transfer:</strong> crop-residue alternatives, worker compensation during restrictions, and airshed-wide planning {{ "C067;C039;C125"|claims(rel)|safe }}.</li>
+<li><strong>Caveats:</strong> different monitoring networks, different AQI formulas, and inventories that miss informal sources {{ "C066;C150"|claims(rel)|safe }}.</li></ul>
+{% endblock %}

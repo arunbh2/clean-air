@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Who funded what?</h1>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">These records show who put money or support into clean-air work, through which instrument, at what stage, and with what results so far. An approved loan is not money spent, and a funder's own account is not proof of impact {{ "C120;C143"|claims(rel)|safe }}.</p></section>
+<div class="legend sans">
+<span class="fcat philanthropic">Philanthropic grant</span>
+<span class="fcat development-public">Development or public finance</span>
+<span class="fcat private-blended">Private or blended</span>
+<span class="fcat prospective">Prospective (not an award)</span>
+</div>
+<div class="filters" data-filter-for="fund-table" hidden>
+  <label>Country<select data-key="country"><option value="">All</option>{% for c in progs|map(attribute='country')|unique|sort %}<option value="{{ c }}">{{ C_BY[c].name if c in C_BY else 'Regional' }}</option>{% endfor %}</select></label>
+  <label>Type<select data-key="category"><option value="">All</option><option value="philanthropic">Philanthropic grant</option><option value="development-public">Development or public finance</option></select></label>
+  <label>Funder<select data-key="funder"><option value="">All</option>{% for f in funders if f.programme_ids %}<option value="{{ f.funder_id }}">{{ f.name }}</option>{% endfor %}</select></label>
+  <label>How verified<select data-key="ver"><option value="">All</option><option value="verified">Verified from funder or lender record</option><option value="funder account">Funder's own account</option><option value="government account">Government account</option><option value="search snippet">Not yet verified (provisional)</option></select></label>
+</div>
+<p class="count" id="fund-table-count" aria-live="polite"></p>
+<div class="table-wrap"><table id="fund-table">
+<caption>{{ progs|length }} funding records</caption>
+<thead><tr><th scope="col">Programme</th><th scope="col">Where</th><th scope="col">Funder and instrument</th><th scope="col">Amount</th><th scope="col">Approval stage</th><th scope="col">Operating</th><th scope="col">Results</th><th scope="col">Verified by</th></tr></thead>
+<tbody>{% for p in progs %}<tr class="frow {{ p.funding_category }}" data-country="{{ p.country }}" data-category="{{ p.funding_category }}" data-funder="{{ p.funder_ids }}" data-ver="{{ p.relationship_verification }}">
+<th scope="row"><a href="{{ p.programme_id|lower }}.html">{{ p.title }}</a><br><span class="fcat {{ p.funding_category }}">{{ {'philanthropic':'Philanthropic grant','development-public':'Development or public finance','private-blended':'Private or blended','prospective':'Prospective'}[p.funding_category] }}</span></th>
+<td>{{ C_BY[p.country].name if p.country in C_BY else 'Regional' }}<br><span class="muted">{{ p.city_or_area }}</span></td>
+<td>{% for f in p.funder_ids.split(';') %}<a href="../funders/{{ f }}.html">{{ F_BY[f].name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}<br><span class="muted">{{ p.instrument }}</span></td>
+<td>{{ fmt_amount(p) }}</td><td>{{ p.approval_stage }}</td><td>{{ p.operational_stage }}</td><td>{{ p.evidence_stage }}</td><td>{{ p.relationship_verification }}</td></tr>{% endfor %}</tbody>
+</table></div>
+<h2>Reading these records</h2>
+<ul class="measure">
+<li>Approval, operation and evidence are three separate stages. A programme can be approved with no results yet.</li>
+<li>Amounts appear only where a primary record states them. The amount type says whether it is approved, disbursed, or a project total.</li>
+<li>Philanthropic grant amounts are often not published. Where they are missing, the record says so.</li>
+<li>Global totals from different reports use different periods and bases, and are never added together {{ "C141;C142"|claims(rel)|safe }}.</li>
+</ul>
+<h2>Funders and partners</h2>
+<ul class="card-list three">{% for f in funders %}<li class="card"><h3><a href="../funders/{{ f.funder_id }}.html">{{ f.name }}</a></h3><p>{{ f.type }}</p><p class="meta">{{ f.verification }}</p></li>{% endfor %}</ul>
+{% endblock %}

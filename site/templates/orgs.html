@@ -1,7 +1,10 @@
-{% extends "base.html" %}{% from "macros.html" import articles_block %}
+{% extends "base.html" %}{% from "macros.html" import simple_layer, deep_heading, articles_block %}
 {% block content %}
 <h1>{{ sec.label }}</h1>
+{{ simple_layer(sec, rel) }}
+<h2 class="layer-label">Where the evidence points</h2>
 <p class="finding">{{ sec.intro }}</p>
+<p class="sans hubs"><a href="funding/index.html">Who funded what? (Funding Atlas)</a></p>
 <p class="notice">Only activities verified from public documents are listed. No organisation was contacted, and inclusion does not imply endorsement.</p>
 <div class="filters" data-filter-for="org-table" hidden>
   <label>Function<select data-key="fn"><option value="">All</option>{% for f in ["advocacy","research","monitoring","delivery","financing","enforcement","evaluation","litigation","organising"] %}<option>{{ f }}</option>{% endfor %}</select></label>
@@ -14,5 +17,6 @@
 <td>{{ o.functions }}</td><td>{{ o.specific_activity_verified }}<br><span class="muted">{{ o.location }} · {{ o.status_at_cutoff }}</span></td><td>{{ o.demonstrated_outcomes }}</td><td>{{ o.gaps }}</td>
 <td>{% for s in o.source_ids.split(';') if s %}<a href="../evidence/sources.html#{{ s }}">{{ s }}</a> {% endfor %}</td></tr>{% endfor %}</tbody>
 </table></div>
+{{ deep_heading() }}
 {{ articles_block(articles) }}
 {% endblock %}

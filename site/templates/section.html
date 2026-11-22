@@ -1,7 +1,11 @@
-{% extends "base.html" %}{% from "macros.html" import articles_block, contents %}
+{% extends "base.html" %}{% from "macros.html" import simple_layer, deep_heading, articles_block, contents %}
 {% block content %}
 <h1>{{ sec.label }}</h1>
+{{ simple_layer(sec, rel) }}
+<h2 class="layer-label">Where the evidence points</h2>
 <p class="finding">{{ sec.intro }}</p>
+{% if sec.label == "The crisis" %}<p class="sans hubs"><a href="../start/index.html">Start here</a> · <a href="glossary.html">Glossary</a></p>{% endif %}
 {% if articles|length > 1 %}{{ contents(articles) }}{% endif %}
+{{ deep_heading() }}
 {{ articles_block(articles) }}
 {% endblock %}

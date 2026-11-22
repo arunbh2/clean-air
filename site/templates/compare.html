@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Compare interventions</h1>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Pick up to three responses to see them side by side: what each changes, who benefits, how strong the evidence is, who has to run it and what it costs to keep going. There is no single score, and missing information is shown as "Not established".</p></section>
+{% set defaults = ['registration-compensation', 'school-education', 'smog-towers'] %}
+<fieldset class="compare-pick" data-compare hidden>
+<legend>Choose up to three</legend>
+<div class="pick-grid">{% for i in ints %}<label><input type="checkbox" value="{{ i.int_id }}" {% if i.int_id in defaults %}checked{% endif %}> {{ i.intervention|truncate(70) }}</label>{% endfor %}</div>
+<p class="count" id="compare-status" aria-live="polite"></p>
+</fieldset>
+<noscript><p class="notice">Showing three examples. With JavaScript you can choose which to compare.</p></noscript>
+{% set rows = [("What it changes","what_it_does"),("Approach","approach"),("Type","intervention_class"),("Who benefits","who_benefits"),("Problem exists","evidence_problem"),("Response works","evidence_intervention"),("Why","evidence_reason"),("Who runs it","operator"),("Depends on","institutional_dependencies"),("Upfront cost","capital_needs"),("Running cost","recurring_needs"),("Who pays","funder_fit"),("Fairness","equity"),("Risks","risks"),("Verdict","recommendation"),("Readiness class","portfolio_class")] %}
+<div class="table-wrap"><table id="compare-table">
+<caption>Side-by-side comparison</caption>
+<thead><tr><th scope="col">Question</th>{% for i in ints %}<th scope="col" data-col="{{ i.int_id }}" {% if i.int_id not in defaults %}hidden{% endif %}><a href="{{ i.int_id }}.html">{{ i.intervention|truncate(60) }}</a></th>{% endfor %}</tr></thead>
+<tbody>{% for label, key in rows %}<tr><th scope="row">{{ label }}</th>{% for i in ints %}<td data-col="{{ i.int_id }}" {% if i.int_id not in defaults %}hidden{% endif %}>{% set v = i.get(key, '') %}{% if key in ['evidence_problem','evidence_intervention'] %}{{ badge(v)|safe or 'Not established' }}{% elif key == 'recommendation' %}{{ rec_badge(v)|safe }}{% else %}{{ v if v and v != '—' else 'Not established' }}{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
+</table></div>
+{% endblock %}

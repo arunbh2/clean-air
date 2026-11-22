@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ region }}</h1>
+{% if region == "South Asia" %}
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Much of South Asia shares one huge polluted airshed across the Indo-Gangetic plain and Himalayan foothills. Smoke travels hundreds of kilometres, so no city can clean its air alone {{ "C125;C123"|claims(rel)|safe }}.</p></section>
+{% else %}
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Southeast Asian countries have lower national averages than South Asia but serious city and seasonal problems: traffic in Jakarta, crop and forest burning in northern Thailand, and cross-border haze {{ "C133;C136;C140"|claims(rel)|safe }}.</p></section>
+{% endif %}
+<ul class="card-list">
+{% for c in rcountries %}
+<li class="card"><h3>{% if c.coverage_status != 'research queue' %}<a href="{{ 'index.html' if c.country_id == 'india' else c.country_id ~ '.html' }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</h3>
+<p>{{ c.takeaway }}</p><p class="meta"><span class="badge">{{ c.coverage_status }}</span>{% if c.pm25_2023 %} PM2.5 2023: {{ c.pm25_2023 }} µg/m³{% endif %}</p></li>
+{% endfor %}
+</ul>
+<p class="sans"><a href="compare.html">Compare countries fairly</a></p>
+{% endblock %}

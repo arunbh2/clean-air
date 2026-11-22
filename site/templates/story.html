@@ -1,0 +1,18 @@
+{% extends "base.html" %}{% from "macros.html" import arrow_chain %}
+{% block content %}
+<h1>{{ st.title }}</h1>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">{{ st.answer|md(rel)|safe }}</p></section>
+<h2>How one thing may lead to another</h2>
+<p class="measure label-note">Each arrow is labelled with how well the evidence supports it here. A chain is only as strong as its weakest arrow.</p>
+{{ arrow_chain(st.steps, rel) }}
+<div class="prose">{{ body_html|safe }}</div>
+<h2>Follow the records</h2>
+<ul class="sans">
+{% if st.links.group %}<li>Community: <a href="../people/{{ st.links.group }}.html">{{ G_BY[st.links.group].group }}</a></li>{% endif %}
+{% if st.links.setting %}<li>Place: <a href="../places/{{ st.links.setting }}.html">{{ S_BY[st.links.setting].name }}</a></li>{% endif %}
+{% for i in st.links.interventions %}<li>Response: <a href="../what-works/{{ i }}.html">{{ I_BY[i].intervention }}</a> {{ rec_badge(I_BY[i].recommendation)|safe }}</li>{% endfor %}
+{% for p in st.links.programmes %}<li>Funding record: <a href="../organisations/funding/{{ p|lower }}.html">{{ P_BY[p].title }}</a></li>{% endfor %}
+{% for d in st.links.pathways or [] %}<li>Decision pathway: <a href="../support/pathways/{{ d|lower }}.html">{{ DP_BY[d].name }}</a></li>{% endfor %}
+{% for g in st.links.gaps %}<li>Open question: <a href="../evidence/gaps.html#{{ g }}">{{ g }}. {{ GAP_BY[g].question }}</a></li>{% endfor %}
+</ul>
+{% endblock %}

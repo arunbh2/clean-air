@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% from "macros.html" import dl %}
+{% block content %}
+<div class="btn-row"><button class="btn secondary" type="button" data-print>Print board briefing</button></div>
+<h1>{{ d.pathway_id }}. {{ d.name }}</h1>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">{{ d.plain_question }}</p><p>{{ d.theory_of_change }}</p></section>
+<h2>Who needs to change what</h2>
+<p class="measure">{{ d.who_changes_what }}</p>
+{% if dprogs %}<h2>Examples from verified records</h2><ul class="sans">{% for p in dprogs %}<li><a href="../../organisations/funding/{{ p.programme_id|lower }}.html">{{ p.title }}</a> — {{ C_BY[p.country].name if p.country in C_BY else 'Regional' }}; {{ fmt_amount(p) }}; {{ p.approval_stage }}; results: {{ p.evidence_stage }}</li>{% endfor %}</ul>{% endif %}
+{{ dl([("Kind of capital", d.capital_form|e), ("Order of magnitude", d.cost_order_of_magnitude|e), ("Infrastructure type", d.infrastructure_type|e), ("Prerequisites", d.prerequisites|e), ("Who runs it afterwards", d.owner_of_operations|e), ("Evidence available", d.evidence_available|e), ("Evidence thin", d.evidence_thin|e), ("Decisive question", d.decisive_questions|e), ("12-24 month learning agenda", d.learning_agenda_12_24m|e), ("Risks and who bears them", d.risks_and_distribution|e), ("Local partner roles", d.local_partner_roles|e), ("Exit and sustainability", d.exit_and_sustainability|e), ("What would change my mind", d.what_would_change_my_mind|e)]) }}
+{% if dints %}<p class="sans">Related responses: {% for i in dints %}<a href="../../what-works/{{ i.int_id }}.html">{{ i.intervention|truncate(60) }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+<p class="sans">Evidence: {{ d.claim_ids|claims(rel)|safe }}</p>
+<p class="notice">A decision pathway is an option to examine, not a validated investment recommendation. "Costing required" means no sourced cost was found.</p>
+{% endblock %}
