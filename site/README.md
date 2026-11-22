@@ -53,4 +53,5 @@ The design follows `docs/design-brief.md`:
 - Static files only, with no server code, no analytics and no cookies.
 - No domain is assumed. Any static host can serve `site/dist/` after `python3 site/build.py`.
 - The research cutoff (22 November 2026) appears in the header, footer, homepage and downloads.
+- GitHub Pages: `.github/workflows/pages.yml` builds on every pull request and deploys on every push to `main`. In repository Settings → Pages, the source must be "GitHub Actions".
 - Before deploying, run the Phase 4 QA checks in `site/qa/`.
