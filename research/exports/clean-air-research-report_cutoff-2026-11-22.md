@@ -569,6 +569,8 @@ A classroom purifier does nothing for a child's parent who loses a week's wages 
 
 It should not fund the transfers themselves. *Problem evidence: Strong. Intervention evidence: Limited*, but the mechanism is short and its outcome (payment received) is directly observable in board records. **Operator:** worker organisations and NGOs, with the welfare board as payer. **Recurring cost:** seasonal case workers, to be absorbed by the board over time.
 
+**Enrolling waste pickers and sanitation workers in existing entitlements.** Since 2024–25, waste pickers can receive occupational ID cards, PPE kits and PM-JAY health insurance through the NAMASTE scheme [C106]. The 2016 waste rules already required municipalities to issue ID cards, but most did not [C107]. The OSH Code now gives employees a free annual health check-up [C109]. Self-employed waste pickers have no employer to whom that duty attaches, so their route runs through schemes [C110]. Philanthropy can fund enrolment support and tracking of benefits received, and press for municipal compliance. It should not pay premiums or buy kits. *Problem evidence: Strong. Intervention evidence: Limited*, but enrolment is directly observable. **Operator:** waste-picker and sanitation worker organisations, with municipalities and the scheme as providers.
+
 **Air-pollution education in school curricula.** A two-year cluster-randomised trial in 180 Delhi classes raised awareness and protective behaviour, reduced self-reported breathing difficulty, and spread through peer networks. Effects weakened in the second year [C074][C076]. It is low-cost and runs through an existing school system. *Evidence: Moderate.* The full paper was not yet available at the cutoff, and a second setting is needed to test transfer.
 
 **Independent evaluation and spending accountability.** Visible measures have repeatedly scaled before evaluation [C079][C080]. Where evaluations were done, they changed decisions: Delhi's regulator acted on the tower study [C077]. Funds are under-used in places, for example Delhi's 17% use of NCAP funds [C030]. A standing, independent evaluation facility, with agreed government data access and use, is low-cost. It improves every other public investment in the field.
@@ -614,6 +616,15 @@ On current evidence, the strongest infrastructure case in this field is not a ne
 
 These are alternatives to compare, not a recommendation of one flagship. Each draws on the findings above. Structured fields are in `data/portfolios.csv`.
 
+## Focus of this dossier
+
+After the first round of findings, the dossier sets two priorities:
+
+1. **Outdoor informal workers in Delhi-NCR.** This covers PF1 (income) and PF3 (occupational protection).
+2. **Children in high-pollution cities.** This covers PF2.
+
+Both groups combine strong evidence of harm, identifiable institutions that can carry the work, and outcomes that can be observed within a season or a school year [C082][C044][C074]. PF4 is not prioritised. Its questions stay in the learning agenda. That choice reflects where evidence and operators are strongest today, not a judgement that kiln workers or rural households matter less.
+
 **Costs are not estimated here.** The study found few sourced cost figures beyond those cited:
 
 - purifiers about ₹40,000 per unit;
@@ -622,7 +633,7 @@ These are alternatives to compare, not a recommendation of one flagship. Each dr
 
 No cost-effectiveness ratio is offered. Any budgeting should separate capital, operating and evaluation costs, and label planning assumptions as such.
 
-## PF1. When the air stops work: income protection for restriction-affected workers
+## PF1. When the air stops work: income protection for restriction-affected workers (Priority 1)
 
 **Problem and population.** Construction workers first, then vendors, platform riders and small-enterprise workers who lose earnings when GRAP stops work. Migrants and women are most often excluded [C044][C089].
 
@@ -659,7 +670,7 @@ No cost-effectiveness ratio is offered. Any budgeting should separate capital, o
 
 **Class: A** for registration and monitoring; **B** for income-continuity design.
 
-## PF2. Children's air: schools and early years
+## PF2. Children's air: schools and early years (Priority 2)
 
 **Problem and population.** Children in high-exposure cities, especially in government schools and in households without private protection. Pregnant women are a linked group [C050][C052].
 
@@ -689,14 +700,18 @@ No cost-effectiveness ratio is offered. Any budgeting should separate capital, o
 
 **Class: A** for education; **B** for purifiers and continuity planning.
 
-## PF3. Essential work in toxic air: occupational protection
+## PF3. Essential work in toxic air: occupational protection (Priority 1)
 
 **Problem and population.** Sanitation workers, waste pickers, security guards and delivery riders, with documented high exposure and lung impairment [C082][C099].
 
-**Evidence for action.** Strong on the problem; limited on interventions [C085].
+**Evidence for action.** Strong on the problem; limited on interventions [C085]. Entitlements now exist but reach is uneven:
+
+- From 2024–25, waste pickers can receive ID cards, PPE kits and health insurance under the NAMASTE scheme [C106]. Municipal ID-card issuance has lagged [C107], and coverage figures are inconsistent [C108].
+- The OSH Code, in force since November 2025, gives employees a free annual health check-up [C109]. Self-employed waste pickers have no employer to whom that duty attaches [C110].
 
 **Combination.**
 
+- enrolment support so workers actually receive NAMASTE profiling, municipal ID cards, insurance and statutory health check-ups;
 - fit-tested respirator programmes with employer or municipal co-payment;
 - shift timing away from early-morning inversions;
 - periodic lung-function checks through public schemes;
@@ -717,9 +732,9 @@ No cost-effectiveness ratio is offered. Any budgeting should separate capital, o
 - Expand if exposure falls and adherence holds.
 - Redesign around shift timing if respirators fail.
 
-**Class: B.**
+**Class: A** for entitlement enrolment; **B** for respirator programmes and shift redesign.
 
-## PF4. Fair transition in production and rural energy
+## PF4. Fair transition in production and rural energy (not prioritised)
 
 **Problem and population.** Kiln workers, often SC and ST migrant families in debt bondage [C071][C072], and biomass-cooking households in rural Bihar and the Indo-Gangetic Plain [C058][C059].
 
@@ -760,11 +775,12 @@ No cost-effectiveness ratio is offered. Any budgeting should separate capital, o
 | Who keeps it running | Welfare boards; platform fund | Education departments | Employers; health departments | Pollution and labour boards |
 | Time to observable result | One season | One school year | One winter | One season (labour); years (health) |
 | Main risk | Data access | Behavioural offsets | Adherence | Owner resistance |
-| Class | A/B | A/B | B | C |
+| Class | A/B | A/B | A/B | C |
+| Priority | 1 | 2 | 1 | Learning only |
 
 A **vendor- and market-focused portfolio** was considered as an alternative. It would reach a large, mostly self-employed, often female workforce. But the evidence on vendors' exposure and earnings is thinnest of all the groups, and vendors have no employer or welfare board to carry recurring costs. On current evidence, vendors are better served inside PF1 (income-continuity design) and PF3 (occupational protection) than as a standalone portfolio. The first step for them is the measurement study in the learning agenda (G1).
 
-A **combined portfolio**, PF1 plus the education component of PF2, rests on the strongest evidence and the clearest operators. PF3 and PF4 can run as measured pilots alongside.
+The **prioritised portfolio** combines PF1 and the enrolment component of PF3 for outdoor workers with the education component of PF2 for children. Together these rest on the strongest evidence and the clearest operators. Respirator programmes (PF3) and redesigned purifiers (PF2) run alongside as measured pilots. PF4 waits on the learning agenda.
 
 # A proportionate learning agenda
 
@@ -836,6 +852,15 @@ Any future research with people requires informed consent, privacy protection an
 2. **Where children learn.** A low-cost education programme improved protective behaviour and some health outcomes in a rigorous Delhi trial [C074]. It runs through school systems that will continue it. Classroom filtration needs redesign before scale [C075].
 3. **Where public money is spent on clean air without anyone checking that it works.** Independent evaluation has already stopped one costly mistake [C077]. Repeated investment in unproven measures continues [C081]. An evaluation facility leaves behind better decisions, not an asset.
 
+## Priorities set for this dossier
+
+Two groups are prioritised:
+
+1. **Outdoor informal workers in Delhi-NCR**: construction workers, sanitation workers, waste pickers, guards and riders.
+2. **Children in high-pollution cities.**
+
+For the first group, the work is to make existing protections reach them. That means GRAP compensation [C044], NAMASTE and municipal ID cards [C106][C107], and statutory health check-ups [C109], alongside measured pilots of occupational protection. For children, it is curriculum education first, with redesigned classroom filtration tested before it scales [C074][C075].
+
 ## Answers to the five decisions
 
 **A. Which communities and settings merit priority?** These groups combine high exposure, weak protection and little capacity to absorb losses:
@@ -863,6 +888,7 @@ Delhi-NCR is the place to start because the institutions and legal duties exist 
 | Fund now (A) | Test first (B/C) | Investigate further |
 |---|---|---|
 | Registration, payment tracking and legal support for GRAP compensation | Income continuity beyond construction (B) | Informal earnings losses (G1) |
+| Enrolment of waste pickers and sanitation workers in NAMASTE, ID cards, insurance and health check-ups | | |
 | Curriculum air-pollution education | Redesigned classroom purifiers (B) | Debt after illness (G10) |
 | Independent evaluation and spending accountability | Occupational protection (B) | Pregnancy service reach (G5) |
 | | Sensors with response protocols (B) | School-closure learning loss (G8) |
@@ -1015,6 +1041,11 @@ The weakest parts of this study are its evidence on informal earnings and debt, 
 | C102 | Worker federations attribute low disbursement partly to welfare boards' weak enrolment and registration of workers. | S060 | read |
 | C103 | The Code on Social Security came into force on 21 November 2025, defining gig and platform workers and requiring aggregators to contribute 1-2% of annual turnover (capped at 5% of payments to workers) to a social security fund whose benefit framework was still being finalised. | S061 | read |
 | C105 | Dispersion modelling for Patna attributed about 11% of winter PM10 and 10% of winter PM2.5 to industry and brick kilns within and outside the city. | S031 | read |
+| C106 | From 2024-25 waste pickers were added to the NAMASTE scheme (Ministry of Social Justice), which offers enumeration, occupational safety training, PPE kits, occupation-based ID cards and Ayushman Bharat PM-JAY health insurance. | S062 | read |
+| C107 | The 2016 Solid Waste Management Rules required municipalities to recognise and issue ID cards to waste pickers, but most urban local bodies failed to issue cards because of budget constraints or reluctance, according to the waste pickers' federation. | S062 | read |
+| C108 | Reported NAMASTE coverage figures vary by date and definition: about 85,800 sewer and septic workers profiled and 76,700 given PPE kits by August 2025, and about 2.8 lakh waste pickers validated by mid-2026. | S064 | provisional |
+| C109 | The OSH Code came into force on 21 November 2025; government states every employee is eligible for a free annual health check-up and that the Code applies with a uniform threshold of 10 employees, or to any establishment with even one employee in hazardous work. | S063 | read |
+| C110 | The OSH Code creates duties for employers of wage workers (including contract and migrant workers) but self-employed waste pickers and vendors have no employer to whom these duties attach; their protection runs through schemes such as NAMASTE instead. | S063, S062 | read |
 
 # Appendix B. Source register
 
@@ -1081,3 +1112,6 @@ The weakest parts of this study are its evidence on informal earnings and debt, 
 | S059 | Riders in the smog: gig workers and pollution | Rest of World | 2024 | search-snippet-only | <https://restofworld.org/2024/riders-in-the-smog-gig-workers-pollution/> |
 | S060 | Construction workers: Rs 38,000 crore cess funds for welfare unused | Business Standard | 2023-04-03 | full-text-read | <https://www.business-standard.com/india-news/welfare-boards-coffers-remain-full-construction-workers-woes-continues-123040301104_1.html> |
 | S061 | India's gig workers win legal status, but access to social security remains elusive | TechCrunch | 2025-11-24 | full-text-read | <https://techcrunch.com/2025/11/24/indias-gig-workers-win-legal-status-but-access-to-social-security-remains-elusive/> |
+| S062 | India launches NAMASTE scheme to recognize and support waste pickers | International Alliance of Waste Pickers | 2025-04-02 | full-text-read | <https://wastepickersinternational.org/2025/04/02/india-launches-namaste-scheme-to-recognize-and-support-waste-pickers/> |
+| S063 | Occupational Safety, Health and Working Conditions Code, 2020: backgrounder | Press Information Bureau | 2025-11-22 | full-text-read | <https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251122702801.pdf> |
+| S064 | NAMASTE scheme coverage figures (news and government summaries) | Various | 2025-2026 | search-snippet-only | <https://organiser.org/2025/08/24/310713/bharat/namaste-scheme-brings-safety-dignity-85000-sanitation-workers-covered-76000-get-safety-kits-ayushman-cards/> |

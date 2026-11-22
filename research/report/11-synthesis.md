@@ -18,6 +18,15 @@ summary: The most avoidable burden is the one created by pollution control witho
 2. **Where children learn.** A low-cost education programme improved protective behaviour and some health outcomes in a rigorous Delhi trial [C074]. It runs through school systems that will continue it. Classroom filtration needs redesign before scale [C075].
 3. **Where public money is spent on clean air without anyone checking that it works.** Independent evaluation has already stopped one costly mistake [C077]. Repeated investment in unproven measures continues [C081]. An evaluation facility leaves behind better decisions, not an asset.
 
+## Priorities set for this dossier
+
+Two groups are prioritised:
+
+1. **Outdoor informal workers in Delhi-NCR**: construction workers, sanitation workers, waste pickers, guards and riders.
+2. **Children in high-pollution cities.**
+
+For the first group, the work is to make existing protections reach them. That means GRAP compensation [C044], NAMASTE and municipal ID cards [C106][C107], and statutory health check-ups [C109], alongside measured pilots of occupational protection. For children, it is curriculum education first, with redesigned classroom filtration tested before it scales [C074][C075].
+
 ## Answers to the five decisions
 
 **A. Which communities and settings merit priority?** These groups combine high exposure, weak protection and little capacity to absorb losses:
@@ -45,6 +54,7 @@ Delhi-NCR is the place to start because the institutions and legal duties exist 
 | Fund now (A) | Test first (B/C) | Investigate further |
 |---|---|---|
 | Registration, payment tracking and legal support for GRAP compensation | Income continuity beyond construction (B) | Informal earnings losses (G1) |
+| Enrolment of waste pickers and sanitation workers in NAMASTE, ID cards, insurance and health check-ups | | |
 | Curriculum air-pollution education | Redesigned classroom purifiers (B) | Debt after illness (G10) |
 | Independent evaluation and spending accountability | Occupational protection (B) | Pregnancy service reach (G5) |
 | | Sensors with response protocols (B) | School-closure learning loss (G8) |

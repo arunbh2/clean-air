@@ -49,10 +49,20 @@ National GDP-loss estimates (US$36.8 billion in 2019 [C018]) describe the econom
 
 None of these settings stands in for another.
 
+## Priorities
+
+This dossier prioritises two groups:
+
+1. **Outdoor informal workers in Delhi-NCR**: construction workers, sanitation workers, waste pickers, guards and riders.
+2. **Children in high-pollution cities.**
+
+Both combine strong evidence of harm with institutions that can carry the work and outcomes visible within a season or school year [C082][C044][C074]. Kiln clusters and rural household energy stay in the learning agenda.
+
 ## Strongest opportunities
 
 **Fund now (class A)**
 
+- **Enrol waste pickers and sanitation workers in what already exists.** That means NAMASTE profiling, PPE and health insurance (open to waste pickers since 2024–25), municipal ID cards that cities have been slow to issue, and the annual health check-ups the OSH Code gives employees [C106][C107][C109]. *Operator:* worker organisations, with municipalities and the scheme as providers.
 - **Close the compensation gap.** Fund registration and renewal drives, payment tracking after each GRAP closure, legal support, and independent reporting on who is missed. Public funds pay the transfers: 44% of construction-welfare cess was unspent nationally [C101]. *Operator:* worker organisations, with the welfare board as payer.
 - **School air-pollution education.** In a two-year randomised trial across 180 Delhi classes, it improved protective behaviour and reduced reported breathing difficulty [C074]. *Operator:* school systems.
 - **Independent evaluation of public clean-air spending.** The smog-tower evaluation showed what evidence can stop [C077]. Unproven measures are still expanding [C081].
@@ -100,6 +110,6 @@ Classroom purifiers clean the air, but in the Delhi trial children's outcomes la
 
 1. **Protection of income, or protection of lungs, or both?** The evidence is strongest that restriction-driven income loss is avoidable and that existing law can address it. Exposure protection for workers is needed but less proven.
 2. **Build new things, or make existing institutions deliver?** Welfare boards, school systems, shelter agencies and health departments already carry legal duties. Grants that strengthen their delivery can outlast themselves. Grants that create parallel assets usually cannot.
-3. **Start where institutions are strong, or where exposure is least visible?** Delhi-NCR offers duties, data and partners. Bihar offers the largest unseen burden. A portfolio can start in the first while building measurement in the second.
+3. **How fast to move beyond Delhi-NCR?** The priority groups are anchored where duties, data and partners exist. The same groups live in Patna, Lucknow and Mumbai, and the largest unseen burden lies in under-monitored districts. A second city should be chosen once the first season's results show what transfers.
 
 *Every bracketed reference resolves to a sourced claim in the accompanying register. Full report, tables and sources: `/research`.*

@@ -53,7 +53,7 @@ The script exits non-zero if any claim, source or intervention reference fails t
 
 ## Status at the end of Phase 1
 
-- 105 claims from 61 sources.
-- 7 claims are provisional because the source was only seen as a search snippet or could not be reached.
+- 110 claims from 64 sources.
+- 8 claims are provisional because the source was only seen as a search snippet or could not be reached.
 - Several official sites could not be reached from the research environment: `cpcb.nic.in` (TLS), CEEW PDFs and Lancet pages (blocked), and some NCDC files (missing).
 - Hindi-language sources were searched only lightly.

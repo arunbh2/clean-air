@@ -41,10 +41,20 @@ National GDP-loss estimates (US$36.8 billion in 2019 [C018]) describe the econom
 
 None of these settings stands in for another.
 
+## Priorities
+
+This dossier prioritises two groups:
+
+1. **Outdoor informal workers in Delhi-NCR**: construction workers, sanitation workers, waste pickers, guards and riders.
+2. **Children in high-pollution cities.**
+
+Both combine strong evidence of harm with institutions that can carry the work and outcomes visible within a season or school year [C082][C044][C074]. Kiln clusters and rural household energy stay in the learning agenda.
+
 ## Strongest opportunities
 
 **Fund now (class A)**
 
+- **Enrol waste pickers and sanitation workers in what already exists.** That means NAMASTE profiling, PPE and health insurance (open to waste pickers since 2024–25), municipal ID cards that cities have been slow to issue, and the annual health check-ups the OSH Code gives employees [C106][C107][C109]. *Operator:* worker organisations, with municipalities and the scheme as providers.
 - **Close the compensation gap.** Fund registration and renewal drives, payment tracking after each GRAP closure, legal support, and independent reporting on who is missed. Public funds pay the transfers: 44% of construction-welfare cess was unspent nationally [C101]. *Operator:* worker organisations, with the welfare board as payer.
 - **School air-pollution education.** In a two-year randomised trial across 180 Delhi classes, it improved protective behaviour and reduced reported breathing difficulty [C074]. *Operator:* school systems.
 - **Independent evaluation of public clean-air spending.** The smog-tower evaluation showed what evidence can stop [C077]. Unproven measures are still expanding [C081].
@@ -92,7 +102,7 @@ Classroom purifiers clean the air, but in the Delhi trial children's outcomes la
 
 1. **Protection of income, or protection of lungs, or both?** The evidence is strongest that restriction-driven income loss is avoidable and that existing law can address it. Exposure protection for workers is needed but less proven.
 2. **Build new things, or make existing institutions deliver?** Welfare boards, school systems, shelter agencies and health departments already carry legal duties. Grants that strengthen their delivery can outlast themselves. Grants that create parallel assets usually cannot.
-3. **Start where institutions are strong, or where exposure is least visible?** Delhi-NCR offers duties, data and partners. Bihar offers the largest unseen burden. A portfolio can start in the first while building measurement in the second.
+3. **How fast to move beyond Delhi-NCR?** The priority groups are anchored where duties, data and partners exist. The same groups live in Patna, Lucknow and Mumbai, and the largest unseen burden lies in under-monitored districts. A second city should be chosen once the first season's results show what transfers.
 
 *Every bracketed reference resolves to a sourced claim in the accompanying register. Full report, tables and sources: `/research`.*
 
@@ -139,6 +149,9 @@ Classroom purifiers clean the air, but in the Delhi trial children's outcomes la
 | C099 | Thirty food-delivery riders measured in Ghaziabad in December 2020 had breathing-zone exposures of 516 µg/m³ PM10 and 180 µg/m³ PM2.5 while riding, with benzene of 19 µg/m³ against a 5 µg/m³ national standard; 67% were unaware of health risks, and traffic junctions drove modelled risk. | S058 | read |
 | C101 | Of ₹87,478 crore collected nationally as construction workers' welfare cess up to November 2022, ₹49,269 crore (56%) had been spent and ₹38,209 crore (44%) remained unutilised, according to a reply in Parliament. | S060 | read |
 | C103 | The Code on Social Security came into force on 21 November 2025, defining gig and platform workers and requiring aggregators to contribute 1-2% of annual turnover (capped at 5% of payments to workers) to a social security fund whose benefit framework was still being finalised. | S061 | read |
+| C106 | From 2024-25 waste pickers were added to the NAMASTE scheme (Ministry of Social Justice), which offers enumeration, occupational safety training, PPE kits, occupation-based ID cards and Ayushman Bharat PM-JAY health insurance. | S062 | read |
+| C107 | The 2016 Solid Waste Management Rules required municipalities to recognise and issue ID cards to waste pickers, but most urban local bodies failed to issue cards because of budget constraints or reluctance, according to the waste pickers' federation. | S062 | read |
+| C109 | The OSH Code came into force on 21 November 2025; government states every employee is eligible for a free annual health check-up and that the Code applies with a uniform threshold of 10 employees, or to any establishment with even one employee in hazardous work. | S063 | read |
 
 # Appendix B. Source register
 
@@ -176,3 +189,5 @@ Classroom purifiers clean the air, but in the Delhi trial children's outcomes la
 | S058 | Gig workers in India are exposed to highly polluted air and carcinogens, finds preliminary study (reporting Sekar et al., Atmospheric Pollution Research) | Mongabay India | 2023-08 | full-text-read | <https://india.mongabay.com/2023/08/gig-workers-in-india-are-exposed-to-highly-polluted-air-and-carcinogens-finds-preliminary-study/> |
 | S060 | Construction workers: Rs 38,000 crore cess funds for welfare unused | Business Standard | 2023-04-03 | full-text-read | <https://www.business-standard.com/india-news/welfare-boards-coffers-remain-full-construction-workers-woes-continues-123040301104_1.html> |
 | S061 | India's gig workers win legal status, but access to social security remains elusive | TechCrunch | 2025-11-24 | full-text-read | <https://techcrunch.com/2025/11/24/indias-gig-workers-win-legal-status-but-access-to-social-security-remains-elusive/> |
+| S062 | India launches NAMASTE scheme to recognize and support waste pickers | International Alliance of Waste Pickers | 2025-04-02 | full-text-read | <https://wastepickersinternational.org/2025/04/02/india-launches-namaste-scheme-to-recognize-and-support-waste-pickers/> |
+| S063 | Occupational Safety, Health and Working Conditions Code, 2020: backgrounder | Press Information Bureau | 2025-11-22 | full-text-read | <https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251122702801.pdf> |

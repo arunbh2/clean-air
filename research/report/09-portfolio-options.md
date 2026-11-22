@@ -10,6 +10,15 @@ summary: Four alternatives grounded in the findings, each with its evidence clas
 
 These are alternatives to compare, not a recommendation of one flagship. Each draws on the findings above. Structured fields are in `data/portfolios.csv`.
 
+## Focus of this dossier
+
+After the first round of findings, the dossier sets two priorities:
+
+1. **Outdoor informal workers in Delhi-NCR.** This covers PF1 (income) and PF3 (occupational protection).
+2. **Children in high-pollution cities.** This covers PF2.
+
+Both groups combine strong evidence of harm, identifiable institutions that can carry the work, and outcomes that can be observed within a season or a school year [C082][C044][C074]. PF4 is not prioritised. Its questions stay in the learning agenda. That choice reflects where evidence and operators are strongest today, not a judgement that kiln workers or rural households matter less.
+
 **Costs are not estimated here.** The study found few sourced cost figures beyond those cited:
 
 - purifiers about ₹40,000 per unit;
@@ -18,7 +27,7 @@ These are alternatives to compare, not a recommendation of one flagship. Each dr
 
 No cost-effectiveness ratio is offered. Any budgeting should separate capital, operating and evaluation costs, and label planning assumptions as such.
 
-## PF1. When the air stops work: income protection for restriction-affected workers
+## PF1. When the air stops work: income protection for restriction-affected workers (Priority 1)
 
 **Problem and population.** Construction workers first, then vendors, platform riders and small-enterprise workers who lose earnings when GRAP stops work. Migrants and women are most often excluded [C044][C089].
 
@@ -55,7 +64,7 @@ No cost-effectiveness ratio is offered. Any budgeting should separate capital, o
 
 **Class: A** for registration and monitoring; **B** for income-continuity design.
 
-## PF2. Children's air: schools and early years
+## PF2. Children's air: schools and early years (Priority 2)
 
 **Problem and population.** Children in high-exposure cities, especially in government schools and in households without private protection. Pregnant women are a linked group [C050][C052].
 
@@ -85,14 +94,18 @@ No cost-effectiveness ratio is offered. Any budgeting should separate capital, o
 
 **Class: A** for education; **B** for purifiers and continuity planning.
 
-## PF3. Essential work in toxic air: occupational protection
+## PF3. Essential work in toxic air: occupational protection (Priority 1)
 
 **Problem and population.** Sanitation workers, waste pickers, security guards and delivery riders, with documented high exposure and lung impairment [C082][C099].
 
-**Evidence for action.** Strong on the problem; limited on interventions [C085].
+**Evidence for action.** Strong on the problem; limited on interventions [C085]. Entitlements now exist but reach is uneven:
+
+- From 2024–25, waste pickers can receive ID cards, PPE kits and health insurance under the NAMASTE scheme [C106]. Municipal ID-card issuance has lagged [C107], and coverage figures are inconsistent [C108].
+- The OSH Code, in force since November 2025, gives employees a free annual health check-up [C109]. Self-employed waste pickers have no employer to whom that duty attaches [C110].
 
 **Combination.**
 
+- enrolment support so workers actually receive NAMASTE profiling, municipal ID cards, insurance and statutory health check-ups;
 - fit-tested respirator programmes with employer or municipal co-payment;
 - shift timing away from early-morning inversions;
 - periodic lung-function checks through public schemes;
@@ -113,9 +126,9 @@ No cost-effectiveness ratio is offered. Any budgeting should separate capital, o
 - Expand if exposure falls and adherence holds.
 - Redesign around shift timing if respirators fail.
 
-**Class: B.**
+**Class: A** for entitlement enrolment; **B** for respirator programmes and shift redesign.
 
-## PF4. Fair transition in production and rural energy
+## PF4. Fair transition in production and rural energy (not prioritised)
 
 **Problem and population.** Kiln workers, often SC and ST migrant families in debt bondage [C071][C072], and biomass-cooking households in rural Bihar and the Indo-Gangetic Plain [C058][C059].
 
@@ -156,8 +169,9 @@ No cost-effectiveness ratio is offered. Any budgeting should separate capital, o
 | Who keeps it running | Welfare boards; platform fund | Education departments | Employers; health departments | Pollution and labour boards |
 | Time to observable result | One season | One school year | One winter | One season (labour); years (health) |
 | Main risk | Data access | Behavioural offsets | Adherence | Owner resistance |
-| Class | A/B | A/B | B | C |
+| Class | A/B | A/B | A/B | C |
+| Priority | 1 | 2 | 1 | Learning only |
 
 A **vendor- and market-focused portfolio** was considered as an alternative. It would reach a large, mostly self-employed, often female workforce. But the evidence on vendors' exposure and earnings is thinnest of all the groups, and vendors have no employer or welfare board to carry recurring costs. On current evidence, vendors are better served inside PF1 (income-continuity design) and PF3 (occupational protection) than as a standalone portfolio. The first step for them is the measurement study in the learning agenda (G1).
 
-A **combined portfolio**, PF1 plus the education component of PF2, rests on the strongest evidence and the clearest operators. PF3 and PF4 can run as measured pilots alongside.
+The **prioritised portfolio** combines PF1 and the enrolment component of PF3 for outdoor workers with the education component of PF2 for children. Together these rest on the strongest evidence and the clearest operators. Respirator programmes (PF3) and redesigned purifiers (PF2) run alongside as measured pilots. PF4 waits on the learning agenda.
