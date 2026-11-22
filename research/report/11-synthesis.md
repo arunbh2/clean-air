@@ -97,4 +97,4 @@ Delhi-NCR is the place to start because the institutions and legal duties exist 
 
 ## What remains uncertain
 
-The weakest parts of this study are its evidence on informal earnings and debt, its reliance on summaries for several official health documents, and the unpublished full results of the Delhi schools trial. Phase 2 will re-check every source. The conclusions most sensitive to new evidence are the purifier judgement and the scale of earnings losses outside construction.
+The weakest parts of this study are its evidence on informal earnings and debt, several sources read only as abstracts, and the unpublished full results of the Delhi schools trial. Phase 2 re-checked every source; its results are in `VERIFICATION.md`. The conclusions most sensitive to new evidence are the purifier judgement and the scale of earnings losses outside construction.

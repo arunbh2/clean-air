@@ -42,7 +42,7 @@ Delhi announced ₹8,000 per registered worker after the November 2024 closure, 
 
 These figures come from different dates and definitions and do not reconcile. The pattern is consistent, though: **compensation reaches registered workers, and registration is where migrants and casual workers are lost** [C044]. Nationally, 44% of the construction-welfare cess collected up to November 2022 (₹38,209 crore of ₹87,478 crore) was unspent [C101]. Worker federations blame weak enrolment by welfare boards [C102].
 
-No compensation mechanism covers street vendors, delivery riders, waste pickers or small enterprises whose earnings fall during restrictions. Gig workers describe lost incentives and penalties for logging off [C100]. A social security fund for platform workers came into force under the Code on Social Security in November 2025, but its benefits were still being designed at the cutoff [C103].
+No compensation mechanism covers street vendors, delivery riders, waste pickers or small enterprises whose earnings fall during restrictions. During GRAP-IV in December 2025, a gig workers' association said platform workers were working long hours outdoors without pollution allowance or health cover, and demanded a per-order "pollution surcharge" [C100]. A social security fund for platform workers came into force under the Code on Social Security in November 2025, but its benefits were still being designed at the cutoff [C103].
 
 ## D. Longer-term household consequences
 

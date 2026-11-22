@@ -35,7 +35,7 @@ Work relationships determine who has a duty to protect a worker:
 
 **Construction workers**, many of them migrants, face site dust and then lose wages when GRAP halts work. Registration determines whether they are compensated [C041][C044]. Women construction workers report feeling unwell on high-pollution days and fear speaking up [C089].
 
-**Drivers, delivery riders and guards** work in the most polluted microenvironments. Combustion particles, which fixed monitors understate, make up most of their extra exposure [C032]. Platform workers lose incentives if they log off [C100].
+**Drivers, delivery riders and guards** work in the most polluted microenvironments. Combustion particles, which fixed monitors understate, make up most of their extra exposure [C032]. Platform workers have asked for a pollution surcharge, masks and health cover on high-AQI days. A parliamentary committee recommended free N95 masks and company-funded health check-ups for delivery riders [C100].
 
 **Kiln workers** are seasonal migrant families, disproportionately from Scheduled Castes (47% of kiln migrants, against 18.8% of all migrant workers) and Scheduled Tribes (16% against 7.7%) [C072]. One survey found 96% had taken advances, wages withheld for whole seasons, and children working long hours [C071].
 

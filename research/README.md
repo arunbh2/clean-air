@@ -2,7 +2,7 @@
 
 **Shared air, unequal costs: where philanthropy can improve health and livelihood security in India**
 
-Research cutoff: **22 November 2026** · Phase 1 (research) complete · Phase 2 (source verification) pending
+Research cutoff: **22 November 2026** · Phase 1 (research) and Phase 2 (source verification) complete
 
 These files are the single source of truth for the Clean Air site. Pages are generated from them. If you change a rating here, the site changes with it.
 
@@ -49,11 +49,11 @@ These files are the single source of truth for the Clean Air site. Pages are gen
 python3 research/analysis/validate.py
 ```
 
-The script exits non-zero if any claim, source or intervention reference fails to resolve. Warnings list where provisional claims are cited. Phase 2 must resolve those.
+The script exits non-zero if any claim, source or intervention reference fails to resolve. Warnings list where provisional claims are cited.
 
 ## Status at the end of Phase 1
 
-- 110 claims from 64 sources.
-- 8 claims are provisional because the source was only seen as a search snippet or could not be reached.
+- 110 claims from 68 sources; 109 verified in Phase 2 (see `VERIFICATION.md`).
+- 2 claims remain provisional (C034, C056).
 - Several official sites could not be reached from the research environment: `cpcb.nic.in` (TLS), CEEW PDFs and Lancet pages (blocked), and some NCDC files (missing).
 - Hindi-language sources were searched only lightly.

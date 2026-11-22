@@ -67,4 +67,4 @@ None of these studies establishes that a particular person's illness was caused 
 
 ## Health system response
 
-The Health Ministry's National Programme on Climate Change and Human Health reportedly began air-pollution-linked respiratory surveillance in Delhi hospitals in 2017, and has asked states to expand sentinel networks. Its advisory names outdoor workers, pregnant women, children, older adults and people with heart or lung disease as more vulnerable [C087]. These documents were seen only as search summaries. How far the surveillance reaches, and whether it changes clinical practice during episodes, was not established.
+A November 2024 Health Ministry advisory asks states to scale up sentinel surveillance of air-pollution-related disease under the National Programme on Climate Change and Human Health and to expand sentinel hospital networks. It names children, pregnant women, the elderly, people with pre-existing conditions and at-risk occupations as vulnerable [C087]. How far the surveillance reaches, and whether it changes clinical practice during episodes, was not established.

@@ -18,7 +18,7 @@ Only activities that could be verified from public documents are recorded. The m
 - **State boards.** Bihar's board mandated kiln conversion and disputes the accuracy of rural sensor data [C059][C058]. Delhi's committee commissioned the smog-tower evaluation and acted on it [C077].
 - **Delhi BOCW Welfare Board.** The payer of GRAP compensation. Its reach is limited by registration [C041][C043].
 - **Delhi Urban Shelter Improvement Board.** Runs about 197 night shelters, expanded with winter tents [C092].
-- **Health Ministry (NPCCHH).** Respiratory sentinel surveillance and advisories; documents seen only as summaries [C087].
+- **Health Ministry (NPCCHH).** Advisory of November 2024 asking states to scale up respiratory sentinel surveillance and protect vulnerable groups [C087]; coverage and effect not established.
 - **Supreme Court.** Not an organisation to fund, but the main source of enforceable worker protection in this field [C039].
 
 ## Multilateral and bilateral finance
