@@ -1,0 +1,15 @@
+{% extends "base.html" %}{% from "macros.html" import articles_block %}
+{% block content %}
+<h1>{{ sec.label }}</h1>
+<p class="finding">{{ sec.intro }}</p>
+<ul class="card-list three">
+<li class="card"><h3><a href="claims.html">Claim register</a></h3><p>Every factual statement, its sources and its verification status.</p></li>
+<li class="card"><h3><a href="sources.html">Source register</a></h3><p>URLs, publication and access dates, type and access status.</p></li>
+<li class="card"><h3><a href="map.html">Evidence map</a></h3><p>Problems and responses rated separately, with reasons.</p></li>
+<li class="card"><h3><a href="gaps.html">Evidence gaps</a></h3><p>What is missing, why it matters and the lightest study to fill it.</p></li>
+<li class="card"><h3><a href="economics.html">Economic estimates</a></h3><p>Every figure with population, method and limits.</p></li>
+<li class="card"><h3><a href="pathways.html">Consequence pathways</a></h3><p>Each link from exposure to hardship, rated.</p></li>
+<li class="card"><h3><a href="verification.html">Verification record</a></h3><p>How every source and claim was re-checked.</p></li>
+</ul>
+{{ articles_block(articles) }}
+{% endblock %}

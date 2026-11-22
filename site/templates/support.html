@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% from "macros.html" import articles_block %}
+{% block content %}
+<h1>{{ sec.label }}</h1>
+<p class="finding">{{ sec.intro }}</p>
+<div class="btn-row"><a class="btn" href="brief.html">Read the decision brief</a><a class="btn secondary" href="downloads.html">Download report and data</a></div>
+<h2>Portfolio options compared</h2>
+<div class="table-wrap"><table>
+<caption>Four options, ordered by the dossier's priorities</caption>
+<thead><tr><th scope="col">Option</th><th scope="col">Priority</th><th scope="col">Evidence class</th><th scope="col">Who keeps it running</th><th scope="col">Recurring needs</th><th scope="col">Main risks</th><th scope="col">Expand, redesign or exit</th></tr></thead>
+<tbody>{% for p in portfolios %}<tr><th scope="row"><a href="{{ p.portfolio_id|lower }}.html">{{ p.name }}</a></th><td>{{ p.priority }}</td><td>{{ p.classes }}</td><td>{{ p.sustainability_and_adoption }}</td><td>{{ p.recurring_service_requirements }}</td><td>{{ p.main_uncertainties_and_failure_modes }}</td><td>{{ p.expand_redesign_exit_conditions }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{{ articles_block(articles) }}
+{% endblock %}

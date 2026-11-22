@@ -1,0 +1,111 @@
+claim_id,sources,figures_checked,figures_missing,auto_verdict,phase1_status,manual_verdict,action,note
+C001,S001,10 100 2.5 24 40 60,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C002,S001,104 24 98,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C003,S002;S067,10 15 2.5 24 25 35 37.5 50 75 99,,figures found,read,supported,source added,interim targets via AirClim reproduction of WHO table
+C004,S001;S002,2.5 35 40,35,derived: check inputs,read,supported,none,derived from C001 and C003; '35' is WHO interim target in AirClim table
+C005,S003,4.2 68 89,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C006,S004,100 101 200 201 300 301 400 401 50 500 51,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C007,S005,10 16 2.5 24,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C008,S005,1000 24 999,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C009,S005,45 59,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C010,S005,500,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C011,S004,1646 28 292 603,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C012,S004,11575.54 130 16423.55 20 26 70.5,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C013,S004,10 108 130 14 18 2.5 20 26 40 72,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C014,S004,10 40 50,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C015,S004,50,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C016,S006,0.61 0.98 1.42 1.67 1.92 17.8 95,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C017,S006,115.3 28.3 344.4 64.2,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C018,S006,1.36 27.4 36.8 47.7,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C019,S007,10 10.8 2.5 6.4 8.6 95,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C020,S007,13.0 16.6 2.5 2.9 21.8 3.8 4.9,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C021,S008,1.4 2.5 41 46,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C022,S008;S007,46 81.9,,derived: check inputs,read,supported,none,compares C021 and C019/C020 figures
+C023,S008,3.5 544.4 8.2,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C024,S008,10.5 131 40,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C025,S009,10 13 15 17 18 2.5 20 22 23 26 31 34,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C026,S009,168 2.5 254 45 92,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C027,S010,2.5 375,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C028,S011,2.5 20 39 41,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C029,S011,10 2.5 20 25 25.8 27.3 35 36 51 53,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C030,S011,14.1 17 81.36,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C031,S012,1.5 180 190 2.5 3.6 8.4,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C032,S012,2.5 30 68 86,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C033,S013,2.5 40,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C034,S014,10 15 200,,figures found,provisional,supported,none,all checked figures found in re-fetched source text
+C035,S013,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C036,S015,11.3 22 56.5 9.6,22,partly found,read,supported,none,"'22' is part of the year range 2021-22, not a figure"
+C037,S015,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C038,S018;S016,24 450,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C039,S018,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C040,S017;S019,10000 16 8000,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C041,S017,1288681 1378199 507863 716174 89518,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C042,S017,75 8000,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C043,S016,100 1700 2.15,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C044,S017;S016,,,derived: check inputs,read,supported,none,inference from registration and payment claims
+C045,S020,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C046,S021,10 582,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C047,S021,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C048,S021,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C049,S022,1.08 10 1285 2.5 6.76 95,,figures found,read,supported,corrected in Phase 2,CI corrected to 1.08-6.76 to match abstract
+C050,S023,10 12 2.5 21 40,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C051,S024,1.06 1.43 1.52 1.61 2.5 208181 52 56,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C052,S025,10 11 2.5,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C053,S026,0.7 1.4 10 2.2 2.5 24 60,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C054,S027,15,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C055,S027,30,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C056,S028,25.7 43.5,25.7 43.5,source unreachable,provisional,unverified: source unreachable,kept provisional,cpcb.nic.in TLS failure persists; figure used only with provisional label
+C057,S029,80 98,,figures found,read,supported,upgraded to read,conference abstract confirmed
+C058,S030,2.5 210 38 538 90,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C059,S030,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C060,S030,3.5,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C061,S031,10 16 2.5 21 23 24 28 30 46 57,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C062,S032,10 159.67 166.75 2.5 60,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C063,S032,240 359,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C064,S033,200,,figures found,read,supported,upgraded to read,abstract confirms >200 µg/m³ near plants
+C065,S034,10 2.5 22 26 48,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C066,S034,12 20,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C067,S035,15 30 5114 53 662 93,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C068,S036,10 16 167 18 19 2.5 26 3644,19,partly found,read,supported,none,'19' is part of 2018-19
+C069,S037,20 40 75,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C070,S037,120 150,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C071,S038,10 14 65 80 96,14,partly found,read,supported,none,source writes 'under fourteen' in words
+C072,S039,16 18.8 47 7.7,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C073,S039,250,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C074,S040,180 25 26 9000,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C075,S040,2.5,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C076,S040,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C077,S042;S041,109 12 13 199 20 21 30 34 48 56 99,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C078,S042,15 25 30,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C079,S068;S042,80,,derived: check inputs,read,supported,source added in Phase 2,80% claim sourced to Deccan Herald 1 Oct 2021
+C080,S043;S044,0.5 12 25 250 600 90,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C081,S044,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C082,S045,10 17 27 45 75 86,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C083,S045,30 50 60,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C084,S045,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C085,S046,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C086,S047;S021,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C087,S048,,,no figures: manual check,read,supported,rewritten in Phase 2,now based on the November 2024 advisory letter; 2017 start date removed
+C088,S049,75,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C089,S049,94,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C090,S050,100,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C091,S051,15000 299.66 3.9 300,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C092,S052,11000 15 197 400 7092,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C093,S053,15 16539 19 20 25 26 3072 3623 48,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C094,S053,23 2498 25 2741 53 72 90,23,partly found,read,supported,none,'23' is part of year ranges 2019-23 / 2023-25
+C095,S054,0.4 111,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C096,S055,10.1 19.6 2.5 23.9 3200 49.2 70.7 95,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C097,S055;S056,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C098,S057,,,no figures: manual check,read,supported,upgraded to read,UW DEOHS page states evidence inconclusive
+C099,S058,10 180 19 2.5 516 67,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C100,S065,95,,figures found,read,supported,rewritten in Phase 2,original wording about lost incentives/penalties unsupported; replaced with Deccan Herald report
+C101,S060,38209 44 49269 56 87478,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C102,S060,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C103,S061;S066,21,,figures found,read,supported,source added,effective date confirmed by PIB
+C104,S061,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C105,S031,10 11 2.5,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C106,S062,25,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C107,S062,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
+C108,S064,76736 85819,,figures found,provisional,supported,corrected in Phase 2,"figures corrected to 85,819 and 76,736; waste-picker figure dropped"
+C109,S063;S066,10 21,,figures found,read,supported,source added,effective date confirmed by PIB
+C110,S063;S062,,,derived: check inputs,read,supported,none,inference from OSH Code scope and NAMASTE design

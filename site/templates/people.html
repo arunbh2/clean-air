@@ -1,0 +1,16 @@
+{% extends "base.html" %}{% from "macros.html" import articles_block, contents %}
+{% block content %}
+<h1>{{ sec.label }}</h1>
+<p class="finding">{{ sec.intro }}</p>
+<h2>Explore a community</h2>
+<p class="measure">Each page sets out exposure, direct and knock-on impacts, what stops people protecting themselves, and how strong the evidence is. Groups marked as a priority are the focus of this dossier.</p>
+<ul class="card-list three">
+{% for g in groups %}
+  <li class="card"><h3><a href="{{ g.group_id }}.html">{{ g.group }}</a></h3>
+  <p>{{ g.direct_impacts|truncate(110) }}</p>
+  <p class="meta">{{ badge(g.evidence_confidence)|safe }}{% if g.priority_rank %} <span class="badge priority">Priority {{ g.priority_rank }}</span>{% endif %}</p></li>
+{% endfor %}
+</ul>
+{{ contents(articles) }}
+{{ articles_block(articles) }}
+{% endblock %}

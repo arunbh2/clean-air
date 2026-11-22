@@ -1,0 +1,14 @@
+{% macro articles_block(articles) %}
+{% for a in articles %}
+<article class="prose section-rule" id="{{ a.fm.id }}">
+  {{ a.html|safe }}
+</article>
+{% endfor %}
+{% endmacro %}
+{% macro contents(articles) %}
+<nav class="toc" aria-label="On this page"><strong>On this page</strong>
+<ul>{% for a in articles %}<li><a href="#{{ a.fm.id }}">{{ a.fm.title }}</a></li>{% endfor %}</ul></nav>
+{% endmacro %}
+{% macro dl(pairs) %}
+<dl class="kv">{% for k, v in pairs if v %}<dt>{{ k }}</dt><dd>{{ v|safe }}</dd>{% endfor %}</dl>
+{% endmacro %}

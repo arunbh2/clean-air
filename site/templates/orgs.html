@@ -1,0 +1,18 @@
+{% extends "base.html" %}{% from "macros.html" import articles_block %}
+{% block content %}
+<h1>{{ sec.label }}</h1>
+<p class="finding">{{ sec.intro }}</p>
+<p class="notice">Only activities verified from public documents are listed. No organisation was contacted, and inclusion does not imply endorsement.</p>
+<div class="filters" data-filter-for="org-table" hidden>
+  <label>Function<select data-key="fn"><option value="">All</option>{% for f in ["advocacy","research","monitoring","delivery","financing","enforcement","evaluation","litigation","organising"] %}<option>{{ f }}</option>{% endfor %}</select></label>
+</div>
+<p class="count" id="org-table-count" aria-live="polite"></p>
+<div class="table-wrap"><table id="org-table">
+<caption>Organisation and programme map</caption>
+<thead><tr><th scope="col">Organisation</th><th scope="col">Functions</th><th scope="col">Verified activity</th><th scope="col">Demonstrated outcomes</th><th scope="col">Gaps</th><th scope="col">Sources</th></tr></thead>
+<tbody>{% for o in orgs %}<tr data-fn="{{ o.functions }}" id="{{ o.org_id }}"><th scope="row">{{ o.organisation }}<br><span class="muted">{{ o.sector }}</span></th>
+<td>{{ o.functions }}</td><td>{{ o.specific_activity_verified }}<br><span class="muted">{{ o.location }} · {{ o.status_at_cutoff }}</span></td><td>{{ o.demonstrated_outcomes }}</td><td>{{ o.gaps }}</td>
+<td>{% for s in o.source_ids.split(';') if s %}<a href="../evidence/sources.html#{{ s }}">{{ s }}</a> {% endfor %}</td></tr>{% endfor %}</tbody>
+</table></div>
+{{ articles_block(articles) }}
+{% endblock %}

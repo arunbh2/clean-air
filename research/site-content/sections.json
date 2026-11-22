@@ -1,0 +1,9 @@
+{
+  "crisis":        {"label": "The crisis", "intro": "What people breathe, what the official numbers hide, and what the health evidence shows.", "report": ["pollution-exposure", "health"]},
+  "people":        {"label": "People and livelihoods", "intro": "Who is most exposed, who is least protected, and how pollution and its control reach income, work and care.", "report": ["livelihoods", "communities", "pathways"]},
+  "places":        {"label": "Places", "intro": "Delhi/NCR in depth, and five contrasting settings that each show something Delhi cannot.", "report": ["places"]},
+  "what-works":    {"label": "What works", "intro": "Interventions and infrastructure assessed on evidence, equity, who runs them and what they cost to keep going.", "report": ["interventions"]},
+  "organisations": {"label": "Organisations", "intro": "Public bodies, researchers, worker and community organisations, and funders, with verified activities only.", "report": ["organisations"]},
+  "evidence":      {"label": "Evidence", "intro": "Method, ratings, sources, claims, verification and the gaps that matter most.", "report": ["method", "learning"]},
+  "support":       {"label": "Where support could make a difference", "intro": "Portfolio options compared, with evidence gaps, operating responsibilities, recurring costs, equity and conditions for success.", "report": ["portfolios", "synthesis"]}
+}

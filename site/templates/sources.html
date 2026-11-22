@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Source register</h1>
+<p class="measure">Access status records how much of each source was read. Phase 2 re-fetched every source; the last column gives the result.</p>
+<div class="table-wrap"><table>
+<caption>{{ sources|length }} sources</caption>
+<thead><tr><th scope="col">Source</th><th scope="col">Title and link</th><th scope="col">Author or organisation</th><th scope="col">Published</th><th scope="col">Type</th><th scope="col">Access</th><th scope="col">Re-check</th></tr></thead>
+<tbody>{% for s in sources %}<tr id="{{ s.source_id }}"><th scope="row">{{ s.source_id }}</th><td><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a>{% if s.notes %}<br><span class="muted">{{ s.notes }}</span>{% endif %}</td>
+<td>{{ s.author_org }}</td><td>{{ s.pub_date }}</td><td>{{ s.source_type }}</td><td>{{ s.access_status }}<br><span class="muted">accessed {{ s.accessed }}</span></td>
+<td>{% set k = checks.get(s.source_id) %}{% if k %}{{ 'reachable' if k.reachable == 'yes' else 'unreachable' }}<br><span class="muted">{{ k.checked }}</span>{% endif %}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endblock %}

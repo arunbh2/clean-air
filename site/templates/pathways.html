@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Consequence pathways</h1>
+<p class="measure">A pathway is only as well evidenced as its weakest link. One established link does not make a whole chain proven.</p>
+<div class="table-wrap"><table>
+<caption>Links rated one by one</caption>
+<thead><tr><th scope="col">Pathway and step</th><th scope="col">From → to</th><th scope="col">Driven by</th><th scope="col">Confidence</th><th scope="col">Evidence</th><th scope="col">Other explanations</th><th scope="col">Where to intervene</th></tr></thead>
+<tbody>{% for p in paths %}<tr><th scope="row">{{ p.path_id }}.{{ p.step }} {{ p.pathway }}</th><td>{{ p.from_state }} → {{ p.to_state }}</td><td>{{ p.mediation }}</td><td>{{ badge(p.confidence)|safe }}</td><td>{{ p.supporting_evidence }} {{ p.claim_ids|claims(rel)|safe }}</td><td>{{ p.alternative_explanations }}</td><td>{{ p.intervention_point }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endblock %}
