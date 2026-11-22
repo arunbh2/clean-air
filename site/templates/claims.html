@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Claim register</h1>
+<p class="measure">Every factual statement on this site links here. Each claim lists its sources, where in the source it appears, the place and period it covers, and its verification status.</p>
+<div class="table-wrap"><table>
+<caption>{{ claims|length }} claims</caption>
+<thead><tr><th scope="col">Claim</th><th scope="col">Statement</th><th scope="col">Sources</th><th scope="col">Place and period</th><th scope="col">Status</th></tr></thead>
+<tbody>{% for c in claims %}<tr id="{{ c.claim_id }}"><th scope="row">{{ c.claim_id }}</th><td>{{ c.claim }}{% if c.notes %}<br><span class="muted">{{ c.notes }}</span>{% endif %}</td>
+<td>{% for s in c.source_ids.split(';') if s %}<a href="sources.html#{{ s }}">{{ s }}</a>: {{ sources[s].title|truncate(70) }} ({{ sources[s].pub_date }})<br>{% endfor %}<span class="muted">{{ c.locator }}</span></td>
+<td>{{ c.geography }}<br><span class="muted">{{ c.period }}</span></td>
+<td>{{ c.status }}<br><span class="muted">{{ verif.get(c.claim_id, {}).get('manual_verdict', '') }}</span></td></tr>{% endfor %}</tbody>
+</table></div>
+{% endblock %}

@@ -1,9 +1,9 @@
 ---
 id: places
-title: Places: Delhi and five contrasting settings
+title: "Places: Delhi and five contrasting settings"
 nav: places
 order: 5
-summary: Delhi shows how emergency controls create a livelihood crisis of their own; Bihar shows what monitoring misses; Singrauli, Mumbai, the paddy belt and kiln clusters each reveal something Delhi cannot.
+summary: "Delhi shows how emergency controls create a livelihood crisis of their own; Bihar shows what monitoring misses; Singrauli, Mumbai, the paddy belt and kiln clusters each reveal something Delhi cannot."
 ---
 
 # Places: Delhi and five contrasting settings

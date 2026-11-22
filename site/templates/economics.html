@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Economic estimates</h1>
+<p class="measure">National output losses describe the economy, not a household's finances. Each figure is labelled as measured, self-reported, modelled or administrative.</p>
+<div class="table-wrap"><table>
+<caption>Every economic figure used</caption>
+<thead><tr><th scope="col">Estimate</th><th scope="col">Pathway</th><th scope="col">Population, place, period</th><th scope="col">Exposure</th><th scope="col">Outcome and method</th><th scope="col">Uncertainty</th><th scope="col">Limitations</th><th scope="col">Type</th></tr></thead>
+<tbody>{% for e in econ %}<tr><th scope="row">{{ e.estimate }} {{ e.claim_ids|claims(rel)|safe }}</th><td>{{ e.pathway }}</td><td>{{ e.population }}; {{ e.place }}; {{ e.period }}</td><td>{{ e.exposure_measure }}</td><td>{{ e.economic_outcome }}; {{ e.method }}</td><td>{{ e.uncertainty }}</td><td>{{ e.limitations }}</td><td>{{ e.estimate_type }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endblock %}

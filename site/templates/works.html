@@ -1,0 +1,19 @@
+{% extends "base.html" %}{% from "macros.html" import articles_block %}
+{% block content %}
+<h1>{{ sec.label }}</h1>
+<p class="finding">{{ sec.intro }}</p>
+<div class="filters" data-filter-for="int-list" hidden>
+  <label>Recommendation<select data-key="rec"><option value="">All</option><option>Fund now</option><option>Test first</option><option>Not recommended</option></select></label>
+  <label>Who it serves<select data-key="group"><option value="">All</option><option value="outdoor-workers">Outdoor informal workers</option><option value="children">Children</option><option value="both">Both priority groups</option><option value="other">Other</option></select></label>
+</div>
+<p class="count" id="int-list-count" aria-live="polite"></p>
+<ul class="card-list" id="int-list">
+{% for i in ints %}
+<li class="card" data-rec="{{ i.recommendation }}" data-group="{{ i.priority_group }}">
+<h3><a href="{{ i.int_id }}.html">{{ i.intervention }}</a></h3>
+<p>{{ i.what_it_does|truncate(150) }}</p>
+<p class="meta">{{ rec_badge(i.recommendation)|safe }} Problem: {{ badge(i.evidence_problem)|safe }} Works: {{ badge(i.evidence_intervention)|safe }}</p></li>
+{% endfor %}
+</ul>
+{{ articles_block(articles) }}
+{% endblock %}

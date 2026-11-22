@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>{{ home.headline }}</h1>
+  <p class="lede">{{ home.lede }}</p>
+  <p class="cutoff">Evidence to {{ CUTOFF }} · Delhi/NCR anchor case with five contrasting Indian settings</p>
+  <div class="entry-grid">
+    {% for e in home.entry_points %}
+    <a class="entry" href="{{ e.href }}"><strong>{{ e.label }}</strong><span>{{ e.text }}</span></a>
+    {% endfor %}
+  </div>
+</section>
+<div class="prose">{{ body_html|safe }}</div>
+<section class="priority-band" aria-labelledby="prio">
+  <div class="wrap" style="padding:0">
+    <h2 id="prio">Start with a community</h2>
+    <ul class="card-list three">
+      {% for g in prio_groups %}
+      <li class="card"><h3><a href="people/{{ g.group_id }}.html">{{ g.group }}</a></h3>
+        <p>{{ g.exposure|truncate(120) }}</p>
+        <p class="meta">Evidence on harm: {{ badge(g.evidence_confidence)|safe }}</p></li>
+      {% endfor %}
+    </ul>
+    <p class="sans"><a href="people/index.html">All communities</a> · <a href="support/index.html">Where support could make a difference</a></p>
+  </div>
+</section>
+{% endblock %}

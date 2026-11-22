@@ -1,9 +1,9 @@
 ---
 id: synthesis
-title: Synthesis: what to fund, what to test, what to avoid
+title: "Synthesis: what to fund, what to test, what to avoid"
 nav: support
 order: 11
-summary: The most avoidable burden is the one created by pollution control without protection. Fund what helps existing institutions deliver; test exposure hardware before buying it; stop paying for visible gestures.
+summary: "The most avoidable burden is the one created by pollution control without protection. Fund what helps existing institutions deliver; test exposure hardware before buying it; stop paying for visible gestures."
 ---
 
 # Synthesis: what to fund, what to test, what to avoid

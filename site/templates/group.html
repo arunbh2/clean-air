@@ -1,0 +1,15 @@
+{% extends "base.html" %}{% from "macros.html" import dl %}
+{% block content %}
+<h1>{{ g.group }}</h1>
+<p>{{ badge(g.evidence_confidence)|safe }}{% if g.priority_rank %} <span class="badge priority">Priority {{ g.priority_rank }}</span>{% endif %} <span class="label-note">Evidence on harm</span></p>
+<p class="finding">{{ g.direct_impacts }}</p>
+{{ dl([("How work is organised", g.work_relationship|e), ("Exposure", g.exposure|e), ("Knock-on impacts", g.secondary_tertiary_impacts|e), ("What limits protection", g.protective_constraints|e), ("Community strengths", g.community_strengths|e)]) }}
+<details class="evidence"><summary>Why this rating, and the evidence behind it</summary>
+<p>{{ g.confidence_reason }}</p><p class="sans">Evidence: {{ g.claim_ids|claims(rel)|safe }}</p></details>
+{% if rsettings %}<h2>Where this plays out</h2>
+<ul class="card-list">{% for s in rsettings %}<li class="card"><h3><a href="../places/{{ s.setting_id }}.html">{{ s.name }}</a></h3><p>{{ s.illustrates_beyond_delhi|truncate(140) }}</p></li>{% endfor %}</ul>{% endif %}
+{% if rints %}<h2>Possible responses</h2>
+<ul class="card-list">{% for i in rints %}<li class="card"><h3><a href="../what-works/{{ i.int_id }}.html">{{ i.intervention }}</a></h3>
+<p class="meta">{{ rec_badge(i.recommendation)|safe }} Works? {{ badge(i.evidence_intervention)|safe }}</p></li>{% endfor %}</ul>{% endif %}
+<p class="notice">This is a summary of research about groups of people. It is not a medical recommendation for any individual.</p>
+{% endblock %}

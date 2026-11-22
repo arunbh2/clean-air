@@ -1,9 +1,9 @@
 ---
 id: interventions
-title: What works, what might, and what does not
+title: "What works, what might, and what does not"
 nav: works
 order: 8
-summary: The strongest evidence warns against visible hardware; the most promising options strengthen services people already use and entitlements they already have.
+summary: "The strongest evidence warns against visible hardware; the most promising options strengthen services people already use and entitlements they already have."
 ---
 
 # What works, what might, and what does not

@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% from "macros.html" import articles_block, contents %}
+{% block content %}
+<h1>{{ sec.label }}</h1>
+<p class="finding">{{ sec.intro }}</p>
+{% if articles|length > 1 %}{{ contents(articles) }}{% endif %}
+{{ articles_block(articles) }}
+{% endblock %}

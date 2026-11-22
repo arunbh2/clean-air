@@ -1,9 +1,9 @@
 ---
 id: pathways
-title: Tracing the consequences, link by link
+title: "Tracing the consequences, link by link"
 nav: people
 order: 6
-summary: Most chains from air to household hardship have one strong link and several unmeasured ones. The restriction pathway is the exception.
+summary: "Most chains from air to household hardship have one strong link and several unmeasured ones. The restriction pathway is the exception."
 ---
 
 # Tracing the consequences, link by link

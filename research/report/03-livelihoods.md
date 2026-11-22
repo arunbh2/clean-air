@@ -1,9 +1,9 @@
 ---
 id: livelihoods
-title: How pollution reaches income, work and household security
+title: "How pollution reaches income, work and household security"
 nav: people
 order: 3
-summary: Five distinct economic pathways; the best-documented loss is caused by pollution-control rules, not illness, and most of the rest is unmeasured for informal workers.
+summary: "Five distinct economic pathways; the best-documented loss is caused by pollution-control rules, not illness, and most of the rest is unmeasured for informal workers."
 ---
 
 # How pollution reaches income, work and household security

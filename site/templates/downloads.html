@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Downloads</h1>
+<p class="measure">Everything on this site is generated from these files. Research cutoff {{ CUTOFF }}.</p>
+<h2>Report and brief</h2>
+<ul class="sans">{% for f in exports %}<li><a href="../downloads/{{ f }}">{{ f }}</a></li>{% endfor %}</ul>
+<h2>Data tables (CSV)</h2>
+<ul class="sans">{% for t in tables %}<li><a href="../downloads/data/{{ t }}">{{ t }}</a></li>{% endfor %}</ul>
+{% endblock %}

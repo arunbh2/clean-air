@@ -1,9 +1,9 @@
 ---
 id: method
-title: How this study was done
+title: "How this study was done"
 nav: evidence
 order: 0
-summary: Desk research to a 22 November 2026 cutoff, organised around five funding decisions, with every claim traced to a source and every rating explained.
+summary: "Desk research to a 22 November 2026 cutoff, organised around five funding decisions, with every claim traced to a source and every rating explained."
 ---
 
 # How this study was done

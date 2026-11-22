@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="btn-row">{% for f in exports if 'decision-brief' in f and f.endswith('.pdf') %}<a class="btn" href="../downloads/{{ f }}" download>Download PDF</a>{% endfor %}<button class="btn secondary" type="button" data-print>Print or save as PDF</button></div>
+<div class="prose">{{ body_html|safe }}</div>
+{% endblock %}

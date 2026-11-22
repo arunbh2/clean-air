@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% from "macros.html" import articles_block %}
+{% block content %}
+<h1>{{ sec.label }}</h1>
+<p class="finding">{{ sec.intro }}</p>
+<div class="table-wrap"><table>
+<caption>Settings compared</caption>
+<thead><tr><th scope="col">Setting</th><th scope="col">Pollution and exposure</th><th scope="col">Communities</th><th scope="col">Evidence</th><th scope="col">Main gaps</th></tr></thead>
+<tbody>{% for s in settings %}<tr><th scope="row"><a href="{{ s.setting_id }}.html">{{ s.name }}</a><br><span class="muted">{{ s.unit_type }}</span></th>
+<td>{{ s.pollution_exposure_profile|truncate(220) }}</td><td>{{ s.communities_livelihoods|truncate(160) }}</td><td>{{ badge(s.evidence_confidence)|safe }}</td><td>{{ s.gaps|truncate(160) }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{{ articles_block(articles) }}
+{% endblock %}

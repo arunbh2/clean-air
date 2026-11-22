@@ -1,9 +1,9 @@
 ---
 id: communities
-title: Communities of fate
+title: "Communities of fate"
 nav: people
 order: 4
-summary: The same air, very unequal protection. Exposure, the ability to avoid it and the ability to recover from it all fall along lines of work, gender, caste, migration and tenure.
+summary: "The same air, very unequal protection. Exposure, the ability to avoid it and the ability to recover from it all fall along lines of work, gender, caste, migration and tenure."
 ---
 
 # Communities of fate

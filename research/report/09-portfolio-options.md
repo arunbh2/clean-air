@@ -1,9 +1,9 @@
 ---
 id: portfolios
-title: Four portfolio options
+title: "Four portfolio options"
 nav: support
 order: 9
-summary: Four alternatives grounded in the findings, each with its evidence class, operator, recurring costs, failure modes and conditions for expansion or exit.
+summary: "Four alternatives grounded in the findings, each with its evidence class, operator, recurring costs, failure modes and conditions for expansion or exit."
 ---
 
 # Four portfolio options

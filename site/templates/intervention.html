@@ -1,0 +1,23 @@
+{% extends "base.html" %}{% from "macros.html" import dl %}
+{% block content %}
+<h1>{{ i.intervention }}</h1>
+<p>{{ rec_badge(i.recommendation)|safe }} <span class="badge">Class {{ i.portfolio_class }}</span> <span class="muted sans">{{ i.category }} · {{ i.approach }}</span></p>
+<p class="notice">Not a validated investment recommendation. Ratings summarise published evidence to {{ CUTOFF }}.</p>
+<h2>What it does</h2>
+<p class="measure">{{ i.what_it_does }}</p>
+<p class="measure sans muted">Pollutant or pathway: {{ i.pollutant_or_pathway }}</p>
+<h2>Who benefits</h2>
+<p class="measure">{{ i.who_benefits }}</p>
+<p class="measure"><strong>Equity:</strong> {{ i.equity }}</p>
+{% if rgroups %}<p class="sans">Communities: {% for g in rgroups %}<a href="../people/{{ g.group_id }}.html">{{ g.group }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+<h2>Evidence</h2>
+<dl class="kv"><dt>Problem exists</dt><dd>{{ badge(i.evidence_problem)|safe }}</dd><dt>Intervention works</dt><dd>{{ badge(i.evidence_intervention)|safe }}</dd><dt>Relevance to India</dt><dd>{{ i.india_relevance }}</dd></dl>
+<p class="measure">{{ i.evidence_reason }}</p>
+<details class="evidence"><summary>Claims and sources</summary><p class="sans">{{ i.claim_ids|claims(rel)|safe }}</p>
+{% for e in emap %}<p class="sans"><strong>{{ e.question }}</strong> {{ badge(e.rating_intervention_works)|safe }} — {{ e.judgement }}</p>{% endfor %}</details>
+<h2>Operating requirements</h2>
+{{ dl([("Who runs it", i.operator|e), ("Depends on", i.institutional_dependencies|e), ("Role for philanthropy", i.philanthropy_role|e)]) }}
+<h2>Costs and uncertainties</h2>
+{{ dl([("Capital", i.capital_needs|e), ("Recurring", i.recurring_needs|e), ("Risks", i.risks|e)]) }}
+{% if rports %}<p class="sans">Part of: {% for p in rports %}<a href="../support/{{ p.portfolio_id|lower }}.html">{{ p.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+{% endblock %}

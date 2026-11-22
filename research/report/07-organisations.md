@@ -1,9 +1,9 @@
 ---
 id: organisations
-title: Who already acts, and where the gaps lie
+title: "Who already acts, and where the gaps lie"
 nav: organisations
 order: 7
-summary: Regulation, research and monitoring are crowded; delivery to affected workers and independent evaluation are thin; statutory money for worker protection sits unspent.
+summary: "Regulation, research and monitoring are crowded; delivery to affected workers and independent evaluation are thin; statutory money for worker protection sits unspent."
 ---
 
 # Who already acts, and where the gaps lie

@@ -1,0 +1,11 @@
+{% extends "base.html" %}{% from "macros.html" import dl %}
+{% block content %}
+<h1>{{ p.name }}</h1>
+<p><span class="badge priority">{{ p.priority }}</span> <span class="badge">{{ p.classes }}</span> <span class="muted sans">{{ p.approach }}</span></p>
+<p class="finding">{{ p.problem_and_population }}</p>
+<p class="notice">An option to compare, not a validated investment recommendation. No costs are estimated where sourced figures were not found.</p>
+{{ dl([("Evidence for action", p.evidence_supporting_action|e), ("What it combines", p.intervention_combination|e), ("Why philanthropy", p.why_philanthropy|e), ("Additionality", p.additionality|e), ("Potential partners", p.potential_partners|e), ("Geography", p.geography_and_rationale|e), ("Infrastructure", p.infrastructure_component|e), ("Recurring services", p.recurring_service_requirements|e), ("Outcomes and measurement", p.expected_outcomes_and_measurement|e), ("Uncertainties and failure modes", p.main_uncertainties_and_failure_modes|e), ("Sustainability", p.sustainability_and_adoption|e), ("Expand, redesign or exit", p.expand_redesign_exit_conditions|e)]) }}
+<h2>Interventions in this option</h2>
+<ul class="card-list">{% for i in pints %}<li class="card"><h3><a href="../what-works/{{ i.int_id }}.html">{{ i.intervention }}</a></h3><p class="meta">{{ rec_badge(i.recommendation)|safe }} Works: {{ badge(i.evidence_intervention)|safe }}</p></li>{% endfor %}</ul>
+<details class="evidence"><summary>Evidence behind this option</summary><p class="sans">{{ p.claim_ids|claims(rel)|safe }}</p></details>
+{% endblock %}

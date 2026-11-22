@@ -1,9 +1,9 @@
 ---
 id: health
-title: Health effects, from established to emerging
+title: "Health effects, from established to emerging"
 nav: crisis
 order: 2
-summary: The mortality evidence is strong and increasingly Indian; pregnancy and child-health associations are consistent but observational; cognitive effects in Indian children remain unproven.
+summary: "The mortality evidence is strong and increasingly Indian; pregnancy and child-health associations are consistent but observational; cognitive effects in Indian children remain unproven."
 ---
 
 # Health effects, from established to emerging

@@ -1,9 +1,9 @@
 ---
 id: learning
-title: A proportionate learning agenda
+title: "A proportionate learning agenda"
 nav: evidence
 order: 10
-summary: Twelve questions where an answer would change a funding decision, each matched to the lightest study that could answer it.
+summary: "Twelve questions where an answer would change a funding decision, each matched to the lightest study that could answer it."
 ---
 
 # A proportionate learning agenda

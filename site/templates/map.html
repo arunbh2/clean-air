@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Evidence map</h1>
+<p class="measure">Confidence that a problem exists and confidence that a response improves outcomes are rated separately. Ratings: Strong, Moderate, Limited/mixed, No adequate evidence found. Being unstudied locally does not make an intervention ineffective.</p>
+<div class="table-wrap"><table>
+<caption>Questions and judgements</caption>
+<thead><tr><th scope="col">Question</th><th scope="col">Problem exists</th><th scope="col">Response works</th><th scope="col">Status</th><th scope="col">Judgement</th><th scope="col">Evidence</th></tr></thead>
+<tbody>{% for e in emap %}<tr id="{{ e.map_id }}"><th scope="row">{{ e.question }}</th><td>{{ badge(e.rating_problem_exists)|safe }}</td><td>{{ badge(e.rating_intervention_works)|safe }}</td><td>{{ e.evidence_status }}</td><td>{{ e.judgement }}</td><td>{{ e.claim_ids|claims(rel)|safe }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endblock %}

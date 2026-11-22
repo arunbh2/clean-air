@@ -1,9 +1,9 @@
 ---
 id: pollution-exposure
-title: What people breathe, and what the numbers hide
+title: "What people breathe, and what the numbers hide"
 nav: crisis
 order: 1
-summary: India's standards are far looser than WHO's, the AQI hides the worst hours, monitors miss most of the country, and people who work in traffic breathe far more than any fixed monitor records.
+summary: "India's standards are far looser than WHO's, the AQI hides the worst hours, monitors miss most of the country, and people who work in traffic breathe far more than any fixed monitor records."
 ---
 
 # What people breathe, and what the numbers hide
