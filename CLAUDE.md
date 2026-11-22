@@ -1,100 +1,132 @@
-# Clean Air: how to choose a skill
+# Clean Air
 
-This repo holds the Clean Air work. Most requests here are for writing, decks, documents, analysis or
-visuals, not code. Many skills overlap, so use this file to choose one. If two skills could fit,
-the rules below decide.
+Clean Air is a standalone evidence website and research dossier about air pollution, livelihoods
+and unequal protection in India, with Delhi/NCR as the anchor case.
+Descriptor: *Air pollution, livelihoods and unequal protection.* Tagline: *Shared air. Unequal protection.*
 
-## Rules that decide between skills
+## The briefs (read before substantive work)
 
-1. **Think first, then produce.** For a proposal, deck or funder task, load the skill that decides
-   *what to say* before the skill that makes the file.
-2. **Practical Action branding beats generic.** If the output carries Practical Action's name, or
-   goes to a funder, partner or PA audience, use the `-2026` PA skill. Use the generic
-   `document-skills:*` / `anthropic-skills:*` file skills only for unbranded, internal or
-   working files. Never mix palettes.
-3. **Use the newest PA skill.** Prefer `pa-presentation-2026`, `pa-docx-2026` and
-   `pa-rfp-response-2026` over the old versions without the suffix. Use an old version only
-   if asked by name.
-4. **A named file type means that file.** If the user asks for ".docx", ".pptx", ".xlsx" or
-   ".pdf", produce that file. If they ask for "a document", "a page" or "a deck" with no file
-   type, first check whether a claude.ai artifact or doc would serve them better.
-5. **Write in Arunabha's voice only when it's theirs.** Apply `voice-dna` to LinkedIn posts,
-   donor stories, essays, op-eds and anything else published under Arunabha's name. Don't apply
-   it to internal analysis unless asked.
+| Brief | Governs | Wins on conflict over |
+|---|---|---|
+| `docs/site-brief.md` | What the site contains, its navigation, user journey and build rules | research brief |
+| `docs/research-brief.md` | Evidence, method, required outputs and the quality check | — |
+| `docs/design-brief.md` | How the site looks: colour, type, logo, layout, visual checks | — (visual polish must never distort the evidence) |
+
+The website **is** in scope. The site brief overrides the research brief's line about not building one.
+Reference logos: `docs/assets/wordmark.png` and `docs/assets/airflow-icon.png`. They are references
+for the redrawn assets, not final files.
+
+## Rules that apply everywhere
+
+### 1. Research cutoff date: 22 November 2026
+- Evidence is searched up to and including **22 November 2026**. Anything published later is out of scope
+  unless the cutoff is formally moved here.
+- Show the cutoff on the site, in every report and brief, and include it in output filenames
+  (e.g. `clean-air-decision-brief_cutoff-2026-11-22.pdf`).
+- Keep current conditions, seasonal episodes and long-term exposure separate. Use comparable time periods
+  and flag incomplete data.
+
+### 2. Never invent
+Do not invent any of the following:
+- current programmes
+- quantitative impacts
+- community quotations
+- costs
+- partnerships
+- funding relationships
+- claims of programme success
+
+Also: no invented returns or cost-effectiveness ratios. Costs are either sourced ranges or explicitly
+labelled planning assumptions, with capital, operating and evaluation costs kept separate.
+If evidence is inaccessible or contradictory, record that. If browsing is unavailable, mark the work incomplete.
+Every factual claim on the site must trace to a source-register entry with a URL and date.
+
+### 3. Evidence categories
+Use only these four labels, and explain each judgement in words (no unexplained scores):
+
+**Strong** | **Moderate** | **Limited/mixed** | **No adequate evidence found**
+
+- Rate two things separately: (A) confidence the problem or causal relationship exists, and
+  (B) confidence the intervention improves outcomes.
+- Keep four cases apart: absence of evidence; evidence of no effect; evidence of harm; evidence of benefit
+  under conditions that may not transfer locally.
+- Being unstudied locally does not make an intervention ineffective. Being unmonitored does not make
+  a settlement low-exposure.
+- One established link does not make a whole causal pathway "proven".
+- Classify funding options as **A** ready to support, **B** promising but needs adaptation, **C** needs proof of
+  concept or stronger causal evidence, **D** not recommended on present evidence.
+
+### 4. Clean Air is an independent brand. Don't use Practical Action styling.
+- No Practical Action palette, fonts, logos, lock-ups or document templates. Do not load the `pa-*`
+  skills (including the `-2026` versions) for anything in this repo.
+- Do not imply endorsement by Practical Action, any foundation, or any organisation named in the research.
+- Do not inherit Common Shade or beattheheat.asia branding, menus, analytics or deployment.
+- Do not reproduce The Economist's masthead, illustrations or proprietary assets. Borrow its editorial
+  principles only.
+- Do not assume a domain has been bought or chosen.
+
+### 5. Design brief (summary; `docs/design-brief.md` is authoritative)
+- **Principles:** restrained colour, deliberate typography, clear wayfinding, generous whitespace, consistent layouts.
+- **Tokens:**
+  ```css
+  --ca-ink: #1A1A1A;   --ca-navy: #141F52;  --ca-accent: #E3120B;
+  --ca-link: #2E45B8;  --ca-paper: #F5F4EF; --ca-surface: #FFFFFF;
+  --ca-muted: #595959; --ca-rule: #D9D9D9;  --ca-tint: #EBEDFA;
+  ```
+  Paper and white for surfaces, ink for text, navy for navigation, red sparingly.
+  No full-page red warning panels.
+- **Contrast:** red on paper is about 4.4:1. Use it only for large text, rules and icons. Small red text
+  goes on white (about 4.8:1) or uses a darker red.
+- **AQI colours** stay separate from brand colours. Use the verified CPCB classification, always with text labels.
+  **Never use green** to imply an intervention is proven or risk-free.
+- **Type:** an editorial serif (start with Georgia) for headlines and narrative, system sans-serif for navigation,
+  filters and tables. Narrative text 18–20px with a measure of about 65 characters, and tabular numerals
+  for comparisons. Check the licence of any added font.
+- **Logo:** one master SVG airflow geometry with flat fills and no embedded rasters. The wordmark is live or
+  licensed text, so never claim an exact match to the reference lettering. Produce six versions: horizontal,
+  reversed, navy mono, white mono, symbol, and a 16/32px favicon. The home link's accessible name is
+  "Clean Air — home", and decorative duplicates are hidden from assistive technology.
+- **Layout:** structure comes from rules and whitespace. Use cards only for distinct interactive objects.
+  Corners are subtle, with no decorative gradients or heavy shadows. Grid gaps are 12px on small screens and
+  16px on larger ones. Evidence details expand without hiding the main finding.
+- **Intervention pages, in this order:** what it does → who benefits → evidence → operating requirements → costs and uncertainties.
+- **Verify before calling it done:** contrast, keyboard focus, mobile, text zoom, print, logo transparency and
+  load performance, plus screenshots at mobile and desktop widths.
+
+### 6. Build rule
+Site pages are generated from `/research` (Markdown and CSV), not hand-written copy. Changing a rating in the
+evidence map must change the site.
 
 ## Which skill for which job
 
-### Funding and proposals
-| Situation | Skill |
-|---|---|
-| A funder or RFP is named and the next step is unclear, or the task covers several stages | `donor-os` (it routes the rest) |
-| Background on a funder, warming them up, keeping in touch, or a debrief after a decision | `funder-relations` |
-| Deciding whether to bid, the win theme, how the argument is built, a red-team review | `proposal-craft` |
-| Matching the language to a funder type, drafting sections in their terms | `donor-dialect` |
-| Writing the actual RFP, concept note or EOI response as a .docx | `pa-rfp-response-2026` |
-| A capacity statement, briefing, donor report or other long PA document | `pa-docx-2026` |
+Clean Air's own identity governs every visual output. Generic skills handle file mechanics and must
+use the Clean Air tokens, never their default themes.
 
-### Decks
 | Situation | Skill |
 |---|---|
-| Story, audience, slide titles, cutting or fixing a deck (always first) | `deck-craft` |
-| Choosing a chart, table or diagram for each claim | `exhibit-craft` |
-| Producing a Practical Action deck | `pa-presentation-2026` |
-| Rehearsing delivery, speaker notes, preparing for questions | `deck-delivery` |
-| An end-to-end deck run that covers several of the above | `deck-os` |
-| A deck someone asked for in BCG or PwC style | `bcg-presentation` / `pwc-presentation` |
-| Unbranded slides, or reading or editing an existing .pptx | `document-skills:pptx` |
-
-### Thinking and diagnosis
-| Situation | Skill |
-|---|---|
-| A deep systems diagnosis of a development problem (air pollution as a valuation failure, missing voices, programme design) | `vr4pp` |
-| Mapping how a system shifts, its leverage points and transitions | `system-shift` |
-| A real decision with trade-offs that needs pressure-testing | `llm-council` (several perspectives) or `decision-making` |
-| Arguing against the strongest version of an opposing case | `thinking-steel-manning` |
-| Choosing a mental model, or finding where effort could have outsized effect | `mental-models`, `find-leverage` |
-| Research across many sources | `deep-research` |
-
-### Files and data (generic, from the pinned Anthropic plugins)
-| Situation | Skill |
-|---|---|
-| Spreadsheets, CSV cleanup, models | `document-skills:xlsx` |
-| Reading, merging, filling or OCR-ing PDFs, or creating a PDF | `document-skills:pdf` |
-| An unbranded Word file, tracked changes, editing someone else's .docx | `document-skills:docx` |
-| Any chart, graph or dashboard | `dataviz` (read it before writing chart code) |
-
-### Visual and design work
-| Situation | Skill |
-|---|---|
-| A poster or static visual piece (.png/.pdf) | `example-skills:canvas-design` |
-| Generative or data-driven art | `example-skills:algorithmic-art` |
-| A web page, artifact or interface | `artifact-design`, then `frontend-design` |
-| Critique of a design | `design-council` (philosophy) or `design-skills:design-critique` (heuristics) |
-| Accessibility check | `design-skills:accessibility-audit` |
-| Applying a ready-made theme to an artifact | `example-skills:theme-factory` |
-
-### Writing and communications
-| Situation | Skill |
-|---|---|
-| Internal updates, status reports, newsletters | `example-skills:internal-comms` |
-| Co-writing a long document in stages | `example-skills:doc-coauthoring` |
-| Interface copy, error messages, button labels | `design-skills:ux-writing` |
-
-### Claude itself
-| Situation | Skill |
-|---|---|
-| Building anything on the Claude API or SDK, or a model or pricing question | `claude-api:claude-api` |
-| The user is learning how to use a Claude feature | `academy-guide:academy-guide` |
+| Large evidence scans across many sources | `deep-research` |
+| Systems diagnosis, leverage points and second-order pathways | `vr4pp`, `system-shift` |
+| Pressure-testing portfolio options or a "what not to fund" call | `llm-council`, `thinking-steel-manning`, `decision-making` |
+| Structuring the decision brief and portfolio concepts (the thinking, not the file) | `proposal-craft`, `exhibit-craft` |
+| CSV tables, source register, reproducible analysis | `document-skills:xlsx` |
+| PDF exports of the report and brief | `document-skills:pdf` |
+| Any chart, map or data display | `dataviz` (read it before writing chart code) |
+| Site design and components | `frontend-design`, `design-skills:design-systems`, `design-skills:interaction-design` |
+| Logo and SVG work | `design-skills:design-systems`, `design-council` for critique |
+| Accessibility checks | `design-skills:accessibility-audit` |
+| Interface copy, labels, empty and error states | `design-skills:ux-writing` |
+| Browser testing and screenshots | `example-skills:webapp-testing` |
 | After a substantive answer the user will act on (once per conversation) | `discernment-nudge:discernment-nudge` |
-| Building a new skill or improving an existing one | `example-skills:skill-creator` |
+| Claude API questions | `claude-api:claude-api` |
+
+Not for this repo: every `pa-*` skill, `bcg-presentation`, `pwc-presentation`, `example-skills:brand-guidelines`,
+`example-skills:theme-factory`. Use `voice-dna` only if the user asks for something under their own byline.
 
 ## Environment notes
 
-- The setup script on the **Clean Air** cloud environment installs the five Anthropic plugins
-  (`document-skills`, `example-skills`, `claude-api`, `academy-guide`, `discernment-nudge`) from
-  `anthropics/skills`, pinned to commit `e4bb5d960d87126ff3b3a8af1a104b7db67560ba`. They come
-  from a local copy at `/opt/anthropic-skills-pinned`, under the marketplace name `skills-pinned`.
-- Don't upgrade those plugins or run `claude plugin marketplace update` during a session unless
-  asked. Upgrading is a deliberate change to the `SHA=` line in the setup script.
-- If one of those skills is missing from a session, check `claude plugin list` and tell the user.
-  Don't silently fall back to a different skill.
+- The **Clean Air** cloud environment's setup script installs `document-skills`, `example-skills`, `claude-api`,
+  `academy-guide` and `discernment-nudge` from `anthropics/skills`, pinned to commit
+  `e4bb5d960d87126ff3b3a8af1a104b7db67560ba`. It installs them from a local copy at
+  `/opt/anthropic-skills-pinned` under the marketplace name `skills-pinned`.
+- Don't upgrade those plugins or run `claude plugin marketplace update` unless asked.
+- If an expected skill is missing, check `claude plugin list` and tell the user. Don't silently substitute another.
