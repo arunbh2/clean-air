@@ -1,7 +1,7 @@
 {% extends "base.html" %}{% from "macros.html" import dl %}
 {% block content %}
 <h1>{{ s.name }}</h1>
-<p>{{ badge(s.evidence_confidence)|safe }} <span class="muted sans">{{ s.unit_type }} · {{ s.selection_category }}</span></p>
+<p>{{ badge(s.evidence_confidence)|safe }} <span class="label-note">{{ s.unit_type }} · {{ s.selection_category }}</span></p>
 <p class="finding">{{ s.illustrates_beyond_delhi }}</p>
 {{ dl([("Why chosen", s.why_chosen|e), ("Pollution and exposure", s.pollution_exposure_profile|e), ("Communities and livelihoods", s.communities_livelihoods|e), ("Health and livelihood evidence", s.health_livelihood_evidence|e), ("Existing responses", s.existing_responses|e), ("Gaps", s.gaps|e), ("What cannot be generalised", s.cannot_generalise|e)]) }}
 <details class="evidence"><summary>Evidence behind this profile</summary><p class="sans">{{ s.claim_ids|claims(rel)|safe }}</p></details>

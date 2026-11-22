@@ -91,6 +91,7 @@ main{ padding:24px 0 64px; }
 .badge.none{ border-style:dashed; border-color:var(--ca-muted); color:#3d3d3d; }
 .badge.fund-now{ background:var(--ca-navy); color:#fff; }
 .badge.test-first{ background:var(--ca-surface); }
+.badge.negative{ border-color:var(--ca-accent-dark); color:var(--ca-accent-dark); background:var(--ca-surface); }
 .badge.not-recommended{ border-color:var(--ca-accent-dark); color:var(--ca-accent-dark); }
 .badge.priority{ background:var(--ca-tint); border-color:var(--ca-tint); }
 
@@ -154,6 +155,7 @@ details.evidence[open]{ border-left-color:var(--ca-navy); }
   a.cite::after{ content:""; }
   .prose a[href^="http"]::after{ content:" (" attr(href) ")"; font-size:.8em; word-break:break-all; }
   .table-wrap, .prose table{ overflow:visible; border:0; }
+  .badge{ background:none !important; color:#000 !important; border:1px solid #000 !important; }
   details.evidence{ display:block; }
   details.evidence > *{ display:block; }
   h2,h3{ break-after:avoid; }

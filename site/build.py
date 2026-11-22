@@ -14,9 +14,9 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-RES = os.path.join(ROOT, "research")
+RES = os.environ.get("CLEAN_AIR_RESEARCH", os.path.join(ROOT, "research"))
 DATA = os.path.join(RES, "data")
-DIST = os.path.join(HERE, "dist")
+DIST = os.environ.get("CLEAN_AIR_DIST", os.path.join(HERE, "dist"))
 CUTOFF = "22 November 2026"
 CUTOFF_ISO = "2026-11-22"
 
@@ -102,6 +102,7 @@ def md_inline(text, rel):
 
 def rating_class(v):
     v = (v or "").lower()
+    if "limited effect" in v or "no meaningful effect" in v or "of no effect" in v: return "negative"
     if v.startswith("strong"): return "strong"
     if v.startswith("moderate"): return "moderate"
     if v.startswith("limited"): return "limited"
@@ -230,7 +231,7 @@ render("evidence/pathways.html", "pathways.html", "Consequence pathways", "Each 
        "evidence", ev_crumbs, paths=paths)
 vfm, vbody = front(os.path.join(RES, "VERIFICATION.md"))
 render("evidence/verification.html", "simple.html", "Verification record", "How every source and claim was re-checked.",
-       "evidence", ev_crumbs, body_html=md(vbody, "../", 0))
+       "evidence", ev_crumbs, body_html=md(re.sub(r"\A# .*\n", "", vbody), "../", 0))
 render("404.html", "simple.html", "Page not found", "Page not found.", None, [],
        body_html='<p>This page does not exist. Try the <a href="index.html">home page</a>.</p>')
 

@@ -1,11 +1,11 @@
 {% extends "base.html" %}{% from "macros.html" import dl %}
 {% block content %}
 <h1>{{ i.intervention }}</h1>
-<p>{{ rec_badge(i.recommendation)|safe }} <span class="badge">Class {{ i.portfolio_class }}</span> <span class="muted sans">{{ i.category }} · {{ i.approach }}</span></p>
+<p>{{ rec_badge(i.recommendation)|safe }} <span class="badge">Class {{ i.portfolio_class }}</span> <span class="label-note">{{ i.category }} · {{ i.approach }}</span></p>
 <p class="notice">Not a validated investment recommendation. Ratings summarise published evidence to {{ CUTOFF }}.</p>
 <h2>What it does</h2>
 <p class="measure">{{ i.what_it_does }}</p>
-<p class="measure sans muted">Pollutant or pathway: {{ i.pollutant_or_pathway }}</p>
+<p class="measure label-note">Pollutant or pathway: {{ i.pollutant_or_pathway }}</p>
 <h2>Who benefits</h2>
 <p class="measure">{{ i.who_benefits }}</p>
 <p class="measure"><strong>Equity:</strong> {{ i.equity }}</p>

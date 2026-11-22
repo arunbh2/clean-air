@@ -1,0 +1,7 @@
+{
+  "name": "clean-air-qa",
+  "private": true,
+  "description": "QA checks for the Clean Air static site",
+  "scripts": { "qa": "node qa.js" },
+  "devDependencies": { "axe-core": "4.10.2" }
+}
