@@ -37,9 +37,55 @@ for f in glob.glob(os.path.join(D, "*.csv")):
         for col in ("evidence_confidence","confidence","rating_problem_exists","evidence_problem","confidence"):
             v = r.get(col)
             if v and v.split(" (")[0] not in RATINGS: errs.append(f"{name}:{i} bad rating '{v}' in {col}")
-for md in glob.glob(os.path.join(R, "report", "*.md")) + glob.glob(os.path.join(R, "*.md")) + glob.glob(os.path.join(R, "site-content", "*.md")):
+for md in glob.glob(os.path.join(R, "report", "*.md")) + glob.glob(os.path.join(R, "*.md")) + glob.glob(os.path.join(R, "site-content", "*.md")) + glob.glob(os.path.join(R, "site-content", "*", "*.md")):
     for cid in re.findall(r"\[(C\d{3})\]", open(md).read()):
         if cid not in claims: errs.append(f"{os.path.basename(md)}: unknown claim {cid}")
+
+# ---- expansion collections (countries, programmes, funders, pathways, glossary) ----
+def ids_of(name, key):
+    rows = load(name); seen = set()
+    for r in rows:
+        if r[key] in seen: errs.append(f"{name}: duplicate id {r[key]}")
+        seen.add(r[key])
+    return rows, seen
+if os.path.exists(os.path.join(D, "programmes.csv")):
+    progs, prog_ids = ids_of("programmes.csv", "programme_id")
+    funders, funder_ids = ids_of("funders.csv", "funder_id")
+    countries, country_ids = ids_of("countries.csv", "country_id")
+    CATS = {"philanthropic", "development-public", "private-blended", "prospective"}
+    for r in progs:
+        pid = r["programme_id"]
+        for f in filter(None, r["funder_ids"].split(";")):
+            if f not in funder_ids: errs.append(f"programmes.csv {pid}: unknown funder {f}")
+        if r["funding_category"] not in CATS: errs.append(f"programmes.csv {pid}: bad funding_category")
+        if r["country"] not in country_ids and r["country"] != "regional": errs.append(f"programmes.csv {pid}: unknown country {r['country']}")
+        if r["amount"] and not (r["amount_type"] and r["currency"] and r["source_ids"]):
+            errs.append(f"programmes.csv {pid}: amount without amount_type, currency or source")
+        if not r["relationship_verification"]: errs.append(f"programmes.csv {pid}: missing relationship_verification")
+        if not r["source_ids"]: errs.append(f"programmes.csv {pid}: no source")
+        if "snippet" in r["relationship_verification"] and r["amount"]:
+            errs.append(f"programmes.csv {pid}: amount resting on a search snippet")
+    for r in funders:
+        for x in filter(None, r["programme_ids"].split(";")):
+            if x not in prog_ids: errs.append(f"funders.csv {r['funder_id']}: unknown programme {x}")
+    for r in countries:
+        for x in filter(None, r["programme_ids"].split(";")):
+            if x not in prog_ids: errs.append(f"countries.csv {r['country_id']}: unknown programme {x}")
+        if r["coverage_status"] != "research queue" and not r["claim_ids"]:
+            errs.append(f"countries.csv {r['country_id']}: dossier without claims")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", r["last_reviewed"]): errs.append(f"countries.csv {r['country_id']}: bad last_reviewed date")
+    for r in load("decision-pathways.csv"):
+        for x in filter(None, r["example_programme_ids"].split(";")):
+            if x not in prog_ids: errs.append(f"decision-pathways.csv {r['pathway_id']}: unknown programme {x}")
+        for x in filter(None, r["related_intervention_ids"].split(";")):
+            if x not in ints: errs.append(f"decision-pathways.csv {r['pathway_id']}: unknown intervention {x}")
+    for r in load("interventions.csv"):
+        for x in filter(None, r.get("regional_cases", "").split(";")):
+            if x not in prog_ids: errs.append(f"interventions.csv {r['int_id']}: unknown programme {x}")
+    for name in ("sources.csv",):
+        for r in load(name):
+            if not r["url"].startswith("http"): errs.append(f"{name} {r['source_id']}: URL missing")
+
 print(f"{len(claims)} claims, {len(src)} sources, {len(ints)} interventions")
 for w in sorted(set(warns)): print("WARN", w)
 for e in errs: print("ERROR", e)
