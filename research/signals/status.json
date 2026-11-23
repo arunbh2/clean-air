@@ -1,0 +1,148 @@
+{
+ "last_run_at": "2026-11-23T11:43:38Z",
+ "last_run_id": "run-20261123T114338Z",
+ "last_run_outcome": "ok",
+ "last_successful_refresh": "2026-11-23T11:43:38Z",
+ "sources": {
+  "adb": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 10,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "bangkok-post": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 10,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "clean-air-fund": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 0,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "crossref": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 12,
+   "last_items": 100,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "daily-star-environment": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 2,
+   "last_items": 10,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "dawn": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 25,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "dialogue-earth": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 10,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "eco-business": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 20,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "europepmc": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 42,
+   "last_items": 300,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "hei": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 2,
+   "last_items": 10,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "icimod": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 9,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "kathmandu-post": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 40,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "mongabay-global": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 32,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "mongabay-india": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 20,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "state-of-global-air": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 4,
+   "last_items": 10,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "straits-times-asia": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 50,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "the-hindu-environment": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 6,
+   "last_items": 60,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "urbanemissions": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 1,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "vnexpress": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 60,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  },
+  "who-news": {
+   "last_attempt_at": "2026-11-23T11:43:38Z",
+   "last_included": 0,
+   "last_items": 83,
+   "last_result": "ok",
+   "last_success_at": "2026-11-23T11:43:38Z"
+  }
+ }
+}

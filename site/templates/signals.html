@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% from "_signal.html" import sig_item %}
+{% block content %}
+<h1>{{ title }}</h1>
+<p class="deck{% if kind == 'index' %} simple-answer{% endif %}">{{ deck }}</p>
+<div class="notice sig-refresh" data-refreshed="{{ SIG_LAST or '' }}" data-stale-hours="{{ SIG_STALE_HOURS }}">
+<p><strong>Last successful refresh:</strong> {{ sig_stamp(SIG_LAST) }}.{% if SIG_DELAYED %} <strong>Feed refresh delayed:</strong> no successful refresh in the {{ SIG_STALE_HOURS }} hours before this page was built.{% endif %}<span class="sig-delay" hidden> <strong>Feed refresh delayed:</strong> the last successful refresh is more than {{ SIG_STALE_HOURS }} hours old.</span></p>
+<p>New items are source records, not reviewed evidence. The research edition is dated {{ CUTOFF }}.</p>
+</div>
+{% if kind == 'index' %}
+<section class="section-rule" aria-labelledby="new"><h2 id="new">{{ 'What is new?' if featured else 'Recently discovered' }}</h2>
+{% if featured %}<p class="muted small">Selected and reviewed by Clean Air editors.</p>{% else %}<p class="muted small">The most recent records by publication date. No editor has selected these, and their order says nothing about importance.</p>{% endif %}
+<ul class="sig-list">{% for r in (featured or lead) %}{{ sig_item(r, rel, False, False) }}{% endfor %}</ul></section>
+{% for n in notes %}<section class="section-rule" aria-labelledby="note-{{ loop.index }}"><h2 id="note-{{ loop.index }}">{{ n.title }}</h2><p class="muted small">Editorial note, reviewed {{ n.reviewed }}. Clean Air's interpretation of the linked sources.</p>{{ n.html|safe }}</section>{% endfor %}
+{% endif %}
+{% if items %}
+<section class="section-rule" aria-labelledby="all"><h2 id="all">{{ list_heading }}</h2>
+{% if filters %}
+<form class="explorer sig-filters" data-sig-filter="sig-all" hidden role="search" aria-label="Filter signals">
+<label>Search<input type="search" data-q autocomplete="off"></label>
+<label>View<select data-f="view"><option value="">All</option>{% for k, v in SIG_VIEW_LABEL.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></label>
+<label>Place<select data-f="country"><option value="">All</option>{% for k, v in SIG_COUNTRY_LABEL.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}<option value="regional">Regional or cross-border</option></select></label>
+<label>Topic<select data-f="theme"><option value="">All</option>{% for k, v in SIG_THEME_LABEL.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></label>
+<label>Publisher type<select data-f="org"><option value="">All</option>{% for k, v in SIG_ORGTYPE_LABEL.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></label>
+<button type="button" data-clear>Clear</button>
+</form>
+<p class="count" id="sig-all-count" aria-live="polite">{{ items|length }} records{% if more_note %}. {{ more_note }}{% endif %}</p>
+<p class="muted small" id="sig-all-none" hidden>No matching records in this feed. Source coverage is limited; this does not mean no such work or research exists.</p>
+{% endif %}
+<ul class="sig-list" id="sig-all">{% for r in items %}{{ sig_item(r, rel) }}{% endfor %}</ul>
+</section>
+{% elif kind != 'index' %}<p>No matching records in this feed. Source coverage is limited; this does not mean no such work or research exists.</p>{% endif %}
+{% if extra %}{% for h, rows in extra %}<section class="section-rule" aria-labelledby="x{{ loop.index }}"><h2 id="x{{ loop.index }}">{{ h }}</h2>{% if rows %}<ul class="sig-list">{% for r in rows %}{{ sig_item(r, rel) }}{% endfor %}</ul>{% else %}<p>None in this feed.</p>{% endif %}</section>{% endfor %}{% endif %}
+{% if months %}<section class="section-rule" aria-labelledby="arch"><h2 id="arch">Archive by month of publication</h2>
+<ul class="inline-list">{% for m, label, n in months %}<li><a href="{{ rel }}signals/archive/{{ m }}.html">{{ label }}</a> ({{ n }})</li>{% endfor %}</ul></section>{% endif %}
+<section class="section-rule" aria-labelledby="more"><h2 id="more">Follow, reuse or report a problem</h2>
+<ul>
+<li><a href="{{ rel }}signals/feed.xml">Atom feed of new signals</a> (separate from the <a href="{{ rel }}feed.xml">site updates and corrections feed</a>). By view: {% for k, v in SIG_VIEW_LABEL.items() %}<a href="{{ rel }}signals/feeds/{{ k }}.xml">{{ v }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.</li>
+<li><a href="{{ rel }}downloads/data/signals.json">All records as JSON</a> (<a href="{{ rel }}downloads/schemas/signals.schema.json">schema</a>) and <a href="{{ rel }}downloads/data/signals.csv">CSV</a>. Static files, regenerated on each refresh; not a live query service.</li>
+<li><a href="{{ rel }}signals/recently-indexed.html">Recently indexed</a>: older papers newly added to an index, undated records and date anomalies.</li>
+<li><a href="{{ rel }}signals/awaiting-assessment.html">New sources awaiting assessment</a> · <a href="{{ rel }}signals/missing.html">What is missing?</a> · <a href="{{ rel }}signals/sources.html">Sources and coverage</a> · <a href="{{ rel }}signals/how-it-works.html">How this feed works</a></li>
+<li>A wrong date, a broken link, a misfiled record or a takedown request: see <a href="{{ rel }}signals/how-it-works.html#corrections-and-reports">corrections and reports</a>.</li>
+</ul></section>
+{% endblock %}

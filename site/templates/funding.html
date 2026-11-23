@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base.html" %}{% from "_signal.html" import sig_list %}
 {% block content %}
 <h1>Who funded what?</h1>
 <section class="layer simple" aria-label="The simple answer"><p class="simple-answer">These records show who put money or support into clean-air work, through which instrument, at what stage, and with what results so far. An approved loan is not money spent, and a funder's own account is not proof of impact {{ "C120;C143"|claims(rel)|safe }}.</p></section>
@@ -50,4 +50,5 @@
 <section aria-labelledby="deliver-h" class="section-rule"><h2 id="deliver-h">What will it take to deliver this?</h2>
 <p class="measure">Funding records show money approved or awarded. Whether a measure lasts depends on who pays for running costs, which kind of capital fits, and which of the <a href="../../what-works/four-is.html">4Is</a> are missing. See <a href="../../what-works/delivery.html">who pays to make clean air last</a>. Instruments recommended by the World Bank's 2025 book are not funding records and do not appear in this atlas unless a named, dated approval exists.</p>
 </section>
+{{ sig_list(SIG_FUNDING, rel, "Funding announcements found by the feed (not verified)", "Announcements, calls and pledges discovered by the scheduled feed. None is a verified funding record, none is counted in any figure on this page, and an announcement is not an approval, a disbursement or a result.", "signals/index.html", 10, "sig-funding") }}
 {% endblock %}

@@ -109,3 +109,31 @@ document.querySelectorAll('[data-print]').forEach(function (b) { b.addEventListe
   });
   apply(true);
 })();
+// Latest signals: search and filters over the static list; refresh-delay check. Without JS every record is listed.
+(function () {
+  var box = document.querySelector('.sig-refresh');
+  if (box) {
+    var t = Date.parse(box.getAttribute('data-refreshed') || ''), h = +box.getAttribute('data-stale-hours') || 36;
+    var d = box.querySelector('.sig-delay');
+    if (d && (!t || Date.now() - t > h * 3600000)) d.hidden = false;
+  }
+  var form = document.querySelector('[data-sig-filter]');
+  if (!form) return;
+  var id = form.getAttribute('data-sig-filter'), list = document.getElementById(id);
+  var items = Array.prototype.slice.call(list.children), q = form.querySelector('[data-q]');
+  var sels = form.querySelectorAll('select[data-f]'), count = document.getElementById(id + '-count'), none = document.getElementById(id + '-none');
+  form.hidden = false;
+  function apply() {
+    var text = q.value.trim().toLowerCase(), shown = 0;
+    items.forEach(function (el) {
+      var ok = !text || (el.getAttribute('data-search') || '').indexOf(text) !== -1;
+      sels.forEach(function (s) { if (ok && s.value && (el.getAttribute('data-' + s.getAttribute('data-f')) || '').split(' ').indexOf(s.value) === -1) ok = false; });
+      el.hidden = !ok; if (ok) shown++;
+    });
+    count.textContent = shown + ' of ' + items.length + ' records shown';
+    none.hidden = shown !== 0;
+  }
+  form.addEventListener('input', apply); form.addEventListener('change', apply);
+  form.addEventListener('submit', function (e) { e.preventDefault(); });
+  form.querySelector('[data-clear]').addEventListener('click', function () { q.value = ''; sels.forEach(function (s) { s.value = ''; }); apply(); q.focus(); });
+})();

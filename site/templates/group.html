@@ -1,4 +1,4 @@
-{% extends "base.html" %}{% from "macros.html" import dl %}
+{% extends "base.html" %}{% from "macros.html" import dl %}{% from "_signal.html" import sig_list %}
 {% block content %}
 <h1>{{ g.group }}</h1>
 <p>{{ badge(g.evidence_confidence)|safe }}{% if g.priority_rank %} <span class="badge priority">Priority {{ g.priority_rank }}</span>{% endif %} <span class="label-note">Evidence on harm</span></p>
@@ -13,5 +13,6 @@
 {% if rints %}<h2>Possible responses</h2>
 <ul class="card-list">{% for i in rints %}<li class="card"><h3><a href="../what-works/{{ i.int_id }}.html">{{ i.intervention }}</a></h3>
 <p class="meta">{{ rec_badge(i.recommendation)|safe }} Works? {{ badge(i.evidence_intervention)|safe }}</p></li>{% endfor %}</ul>{% endif %}
+{{ sig_list(SIG_BY_GROUP.get(g.group_id, []), rel, "Recent items on related topics", "Matched by topic words, not because the item studied this group. Not assessed; a headline is not evidence of any effect on the people described here.", "signals/index.html") }}
 <p class="notice">This is a summary of research about groups of people. It is not a medical recommendation for any individual.</p>
 {% endblock %}

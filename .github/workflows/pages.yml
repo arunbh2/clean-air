@@ -8,6 +8,10 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  workflow_run:                 # rebuild after a scheduled signals refresh has committed to main
+    workflows: ["Refresh signals"]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -20,10 +24,13 @@ concurrency:
 
 jobs:
   build:
+    # after a signals refresh, build only if the refresh succeeded (a failed refresh leaves the published site as it was)
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.ref }}   # pick up the refresh commit
           fetch-depth: 0   # build date comes from the last commit touching research/ or site/
       - uses: actions/setup-python@v5
         with:

@@ -1,4 +1,4 @@
-{% extends "base.html" %}{% from "macros.html" import dl %}
+{% extends "base.html" %}{% from "macros.html" import dl %}{% from "_signal.html" import sig_list %}
 {% block content %}
 <h1>{{ i.intervention }}</h1>
 <p>{{ rec_badge(i.recommendation)|safe }} <span class="badge">Class {{ i.portfolio_class }}</span> <span class="label-note">{{ i.category }} · {{ i.approach }}</span></p>
@@ -25,5 +25,6 @@
 {{ dl([("Who runs it", i.operator|e), ("Depends on", i.institutional_dependencies|e), ("Role for philanthropy", i.philanthropy_role|e)]) }}
 <h2>Costs and uncertainties</h2>
 {{ dl([("Capital", i.capital_needs|e), ("Recurring", i.recurring_needs|e), ("Risks", i.risks|e)]) }}
+{{ sig_list(SIG_BY_INT.get(i.int_id, []), rel, "Related new publications", "Recent records that mention this topic, found by the scheduled feed. Discovery pointers only: they have not been assessed and do not change the evidence rating on this page.", "signals/index.html") }}
 {% if rports %}<p class="sans">Part of: {% for p in rports %}<a href="../support/{{ p.portfolio_id|lower }}.html">{{ p.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
 {% endblock %}

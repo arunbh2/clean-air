@@ -283,6 +283,11 @@ llms = [f"# Clean Air", "", f"> Independent evidence on air pollution, livelihoo
         L("organisations/gaps/index.html"), L("organisations/methods/index.html"), "",
         "## What works", L("what-works/index.html"), L("what-works/four-is.html"), L("what-works/delivery.html"), L("what-works/not-a-solution.html"), L("what-works/compare.html"), "",
         "## People and places", L("crisis/index.html"), L("people/index.html"), L("places/index.html"), L("places/where-air-comes-from.html"), L("places/one-airshed.html"), L("places/south-asia.html"), L("places/southeast-asia.html"), "",
+        "## Latest signals (third-party discovery records, not verified evidence)",
+        "Signals are indexed third-party publications and announcements, not automatically verified Clean Air findings. They carry no evidence rating and do not change the research edition.",
+        L("signals/index.html"), L("signals/how-it-works.html"), L("signals/sources.html"), L("signals/awaiting-assessment.html"),
+        f"- [Signals as JSON]({BASE_URL}downloads/data/signals.json): every record with dates, place and topic tags, review status and the original link",
+        f"- [Signals Atom feed]({BASE_URL}signals/feed.xml): external records only; the site's own changes are in feed.xml", "",
         "## Decisions", L("support/index.html"), L("support/brief.html"), L("support/pathways/index.html"), "",
         "## Methods and limits", L("about/about.html"), L("about/update-policy.html"), L("about/reuse.html"), "",
         "## Optional", f"- [Full text of every page]({BASE_URL}llms-full.txt): one file, same records as the website",
@@ -314,8 +319,10 @@ for f in sorted(os.listdir(DATA)):
     datasets.append({"name": name, "description": schema["description"], "format": "text/csv", "url": f"{BASE_URL}downloads/data/{f}",
                      "schema": schema["$id"], "rows": len(rows), "columns": [{"name": c, "description": schema["properties"][c]["description"]} for c in cols]})
 for jname, jdesc in [("organisations-atlas.json", "Organisations, activity records, roles and funding links (public fields only)."),
-                     ("claims.json", "Every claim with its sources, verification state, provenance class and corrections.")]:
-    datasets.append({"name": jname[:-5], "description": jdesc, "format": "application/json", "url": f"{BASE_URL}downloads/data/{jname}"})
+                     ("claims.json", "Every claim with its sources, verification state, provenance class and corrections."),
+                     ("signals.json", "Latest signals: indexed third-party publications and announcements found by the scheduled feed. Discovery records, not verified findings; no evidence ratings.")]:
+    datasets.append({"name": jname[:-5], "description": jdesc, "format": "application/json", "url": f"{BASE_URL}downloads/data/{jname}"}
+                    | ({"schema": BASE_URL + "downloads/schemas/signals.schema.json", "rows": len(sig_export["records"]), "last_successful_refresh": SIG_LAST} if jname == "signals.json" else {}))
 catalogue = {"format_version": "1.0", "title": "Clean Air data catalogue", "research_cutoff": CUTOFF_ISO, "generated": BUILT,
              "publisher": "Clean Air (independent evidence resource)", "rights": "Licence for the site's original data not yet decided by the owner; see "
              + BASE_URL + "about/reuse.html. Third-party sources keep their own rights.",
@@ -337,7 +344,8 @@ open(os.path.join(DIST, "sitemap.json"), "w", encoding="utf-8").write(json.dumps
      "base_url": BASE_URL, "research_cutoff": CUTOFF_ISO,
      "pages": [{"html": BASE_URL + p, "markdown": BASE_URL + MD_FOR(p), "title": page_meta[p]["title"], "section": page_meta[p]["section"] or ""} for p in html_pages],
      "data": [BASE_URL + x for x in ["llms.txt", "llms-full.txt", "for-ai.json", "for-ai.txt", "packs/index.json", "downloads/data/catalogue.json",
-                                     "downloads/data/claims.json", "downloads/data/organisations-atlas.json", "feed.xml"]]}, ensure_ascii=False, indent=1))
+                                     "downloads/data/claims.json", "downloads/data/organisations-atlas.json", "feed.xml",
+                                     "downloads/data/signals.json", "signals/feed.xml"]]}, ensure_ascii=False, indent=1))
 open(os.path.join(DIST, "robots.txt"), "w").write(
     "# Clean Air crawling policy. robots.txt is a crawler convention, not a licence.\n"
     f"# Reuse, AI input and AI training are described at {BASE_URL}about/reuse.html\n"

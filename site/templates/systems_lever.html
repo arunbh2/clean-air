@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base.html" %}{% from "_signal.html" import sig_list %}
 {% block content %}
 <p class="layer-label">Lever · {{ l.mode }}</p>
 <h1>{{ l._name }}</h1>
@@ -26,5 +26,6 @@
 <p class="sans small">Costs recorded in the intervention assessment. Capital: {{ l._capital }}. Recurring: {{ l._recurring }}.</p></section>
 <section aria-labelledby="s7" class="section-rule"><h2 id="s7">7. What could go wrong</h2><p>{{ l.risks }}</p></section>
 <section aria-labelledby="s8" class="section-rule"><h2 id="s8">8. What remains unproven</h2><p>{{ l.unproven }}</p></section>
+{{ sig_list(SIG_BY_INT.get(l.lever_id, []), rel, "Related recent sources", "Matched by topic words. They add no connection to the map and do not rate this lever.", "signals/index.html") }}
 <p class="sans"><a href="../index.html?lever={{ l.lever_id }}#map">Switch this lever on in the map</a> · <a href="index.html">All levers</a></p>
 {% endblock %}

@@ -108,7 +108,7 @@ for f in sorted(os.listdir(os.path.join(RES, "report"))):
 
 NAV = [("crisis", "crisis/index.html"), ("people", "people/index.html"), ("places", "places/index.html"),
        ("what-works", "what-works/index.html"), ("organisations", "organisations/index.html"),
-       ("evidence", "evidence/index.html")]
+       ("evidence", "evidence/index.html"), ("signals", "signals/index.html")]
 
 # ---------- helpers ----------
 def slug(s):
@@ -202,6 +202,7 @@ env.globals.update(BASE_URL=BASE_URL, BUILT=BUILT, ARROW=ARROW, badge=badge, rec
 env.filters["md"] = lambda t, rel: md_inline(t, rel)
 env.filters["claims"] = lambda ids, rel: claim_links(ids, rel)
 env.filters["slug"] = slug
+exec(open(os.path.join(HERE, "signals_data.py"), encoding="utf-8").read())   # Latest Signals records for contextual lists (discovery only)
 
 def toc_for(html_text):
     items = re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', html_text)
@@ -533,4 +534,5 @@ render("evidence/coverage.html", "coverage.html", "Coverage and quality", "What 
 
 exec(open(os.path.join(HERE, "build_boc.py"), encoding="utf-8").read())
 exec(open(os.path.join(HERE, "build_map.py"), encoding="utf-8").read())
+exec(open(os.path.join(HERE, "build_signals.py"), encoding="utf-8").read())
 exec(open(os.path.join(HERE, "build_agent.py"), encoding="utf-8").read())

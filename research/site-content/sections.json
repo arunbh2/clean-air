@@ -75,6 +75,10 @@
    "limitation": "Some sources could only be read as summaries, and that is recorded for each one."
   }
  },
+ "signals": {
+  "label": "Latest signals",
+  "intro": "New research, reports, policy and practical work on cleaner air in Asia. Updated on a schedule. Each record links to its original source."
+ },
  "support": {
   "label": "Where support could make a difference",
   "intro": "Portfolio options compared, with evidence gaps, operating responsibilities, recurring costs, equity and conditions for success.",

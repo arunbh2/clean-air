@@ -1,4 +1,4 @@
-{% extends "base.html" %}{% from "macros.html" import simple_layer, deep_heading, articles_block %}
+{% extends "base.html" %}{% from "macros.html" import simple_layer, deep_heading, articles_block %}{% from "_signal.html" import sig_list %}
 {% block content %}
 <h1>{{ sec.label }}</h1>
 {{ simple_layer(sec, rel) }}
@@ -16,6 +16,7 @@
 <li class="card"><h3><a href="coverage.html">Coverage and quality</a></h3><p>What is covered, how well sourced, and open tasks.</p></li>
 <li class="card"><h3><a href="verification.html">Verification record</a></h3><p>How every source and claim was re-checked.</p></li>
 </ul>
+{{ sig_list(SIG_AWAITING, rel, "New sources awaiting assessment", "Papers and reports found by the scheduled feed since the evidence edition. Not read by Clean Air, not claims, and no rating depends on them.", "signals/awaiting-assessment.html", 5, "sig-awaiting") }}
 {{ deep_heading() }}
 {{ articles_block(articles) }}
 {% endblock %}

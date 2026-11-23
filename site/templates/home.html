@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base.html" %}{% from "_signal.html" import sig_list %}
 {% block content %}
 <section class="hero">
   <h1>{{ home.headline }}</h1>
@@ -71,6 +71,7 @@
     <p class="sans"><a href="people/index.html">All communities</a> · <a href="support/index.html">Where support could make a difference</a></p>
   </div>
 </section>
+{{ sig_list(SIG_TIMELINE, rel, "Latest signals", "New third-party records found by the scheduled feed, last refreshed " ~ sig_stamp(SIG_LAST) ~ ". Source records, not reviewed evidence; the evidence edition is dated " ~ CUTOFF ~ ".", "signals/index.html", 3, "home-signals") }}
 <section class="section-rule" aria-labelledby="updates"><div>
   <h2 id="updates">Evidence edition and corrections</h2>
   <p class="measure">This is the 22 November 2026 evidence edition. Every claim is listed in the <a href="evidence/claims.html">claim register</a>; coverage and open tasks are on the <a href="evidence/coverage.html">coverage page</a>. Found an error? See <a href="about/corrections.html">corrections</a>.</p>

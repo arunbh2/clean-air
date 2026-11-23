@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base.html" %}{% from "_signal.html" import sig_list %}
 {% block content %}
 {% set ld = {"@context": "https://schema.org", "@type": "Organization", "name": o.organisation, "description": o.summary} %}{% if o.website %}{% set _ = ld.update({"url": o.website}) %}{% endif %}
 <script type="application/ld+json">{{ ld|tojson }}</script>
@@ -77,6 +77,8 @@
 {% if fstory %}<p class="sans">Featured in: {% for s in fstory %}<a href="../stories/{{ s.id }}.html">{{ s.title }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>{% endif %}
 </section>
 
+{{ sig_list(SIG_BY_ORG_PUB.get(o.org_id, []), rel, "Recent publications and announcements", "Published by this organisation and found by the scheduled feed. The organisation's own account; not assessed by Clean Air.", "signals/index.html", 5, "sig-pub") }}
+{{ sig_list(SIG_BY_ORG_NAMED.get(o.org_id, []), rel, "Named in recent titles", "Records whose title names this organisation. A mention is not a partnership, a funding relationship or an endorsement.", "signals/index.html", 5, "sig-named") }}
 <section aria-labelledby="s10" class="section-rule"><h2 id="s10">Sources and record history</h2>
 <ol class="sources small">{% for s in o._sources %}<li id="src-{{ s.source_id }}"><a href="{{ rel }}evidence/sources.html#{{ s.source_id }}">{{ s.source_id }}</a> <cite>{{ s.title }}</cite>. {{ s.publisher or s.author_org }}, {{ s.pub_date }}. <span class="muted">{{ s.source_type }}; {{ s.access_status }}; accessed {{ s.accessed }}.</span> <a href="{{ s.url }}" rel="noopener noreferrer external">Open source<span class="visually-hidden"> {{ s.source_id }}</span> (external)</a></li>{% endfor %}</ol>
 <p class="muted small">Record added: {{ o.record_origin }} · last checked {{ o.date_last_checked }} · research cutoff {{ CUTOFF }}. Inclusion does not imply endorsement. To correct this record, see <a href="{{ rel }}about/corrections.html">corrections</a>.</p>

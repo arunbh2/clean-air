@@ -1,0 +1,561 @@
+# Latest Signals: source registry (docs/live-signals-master-brief.md, section 3).
+# One entry per external source. The ingestion job (tools/signals/ingest.py) reads only entries with enabled: true.
+# Never add an endpoint that has not been tested: record the test date, HTTP status and what came back.
+# Fields:
+#   id                 stable source ID (never reuse)
+#   name, publisher    as the source names itself
+#   org_type           government | ngo | foundation | development_bank | research | company | newsroom | multilateral
+#   atlas_org_id       organisation ID in research/data/organisations.csv when the publisher is in the atlas (exact match only)
+#   provenance_kind    official | peer_reviewed_metadata | preprint | publisher_report | NGO_self_report | company_self_report | independent_reporting
+#   default_type       news | research | preprint | report | policy | funding | project | other (rules in taxonomy.yml may refine it)
+#   access             rss | atom | api_europepmc | api_crossref | api_openalex | manual
+#   endpoint           the exact URL tested; {from_date} is filled by the job
+#   rights             metadata_only: title, date, publisher, link and tags only. No article text, abstract, image or description is stored.
+#   scope              geographic scope of the source: regional (the source itself is about South or Southeast Asia) or global (needs a place match)
+#   requires           what an item needs to be included: pollution (an air-pollution term) and place (a country, city or regional term)
+#   test               last manual connector test: date, HTTP status and result
+#   enabled            false = documented candidate, not fetched
+user_agent: "CleanAirSignals/1.0 (+https://arunbh2.github.io/clean-air/signals/how-it-works.html)"
+defaults:
+  timeout_seconds: 25
+  max_bytes: 3000000
+  retries: 2
+  window_days: 365          # research APIs: publication dates in the last 12 months
+  archive_days: 400         # records older than this (by publication date) are not added; existing records are kept
+sources:
+  # ---------- A. Scientific research and bibliographic metadata ----------
+  - id: europepmc
+    name: Europe PMC REST search
+    publisher: Europe PMC (EMBL-EBI)
+    org_type: research
+    provenance_kind: peer_reviewed_metadata
+    default_type: research
+    access: api_europepmc
+    endpoint: "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    query: '("air pollution" OR "air quality" OR "PM2.5" OR "particulate matter" OR "black carbon" OR "crop residue burning" OR "brick kiln" OR "household air pollution") AND (India OR Delhi OR Bangladesh OR Dhaka OR Nepal OR Kathmandu OR Pakistan OR Lahore OR Bhutan OR "Sri Lanka" OR Indonesia OR Thailand OR Vietnam OR "Viet Nam" OR Philippines OR Cambodia OR Laos OR Malaysia OR Singapore OR Myanmar OR "South Asia" OR "Southeast Asia" OR "Indo-Gangetic")'
+    page_size: 100
+    max_pages: 3
+    homepage: "https://europepmc.org/RestfulWebService"
+    cadence: daily index updates
+    licence_notes: "Metadata from the Europe PMC REST API. Abstracts are not stored. Preprints are labelled as preprints (Europe PMC source PPR)."
+    rights: metadata_only
+    scope: global
+    requires: [pollution, place]
+    pollution_in_title: true
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "92 hits for four South Asian countries, 1-23 Nov 2026; JSON with firstPublicationDate, doi, pubTypeList, journal title"}
+    enabled: true
+  - id: crossref
+    name: Crossref REST API (works)
+    publisher: Crossref
+    org_type: research
+    provenance_kind: peer_reviewed_metadata
+    default_type: research
+    access: api_crossref
+    endpoint: "https://api.crossref.org/works"
+    query: "air pollution PM2.5 India Bangladesh Nepal Pakistan Indonesia Thailand Vietnam Philippines"
+    rows: 100
+    homepage: "https://www.crossref.org/documentation/retrieve-metadata/rest-api/"
+    cadence: continuous deposits
+    licence_notes: "Bibliographic metadata, which Crossref describes as facts free to reuse. Not full text and not verification. Polite pool: identifying User-Agent."
+    rights: metadata_only
+    scope: global
+    requires: [pollution, place]
+    pollution_in_title: true
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "work-list JSON; relevance search is broad, so the title filter does most of the work; some issue dates are in 2027 (handled as future-dated)"}
+    enabled: true
+  - id: openalex
+    name: OpenAlex works API
+    publisher: OurResearch (OpenAlex)
+    org_type: research
+    provenance_kind: peer_reviewed_metadata
+    default_type: research
+    access: api_openalex
+    endpoint: "https://api.openalex.org/works"
+    query: "air pollution PM2.5 South Asia Southeast Asia"
+    homepage: "https://docs.openalex.org/"
+    cadence: daily
+    licence_notes: "Responses on 2026-11-23 carried usage-credit headers (x-ratelimit-limit-usd, x-ratelimit-cost-usd), so access is metered. Enabled only when the OPENALEX_API_KEY repository secret exists; the key is never committed or sent to the browser."
+    rights: metadata_only
+    scope: global
+    requires: [pollution, place]
+    pollution_in_title: true
+    language: en
+    secret: OPENALEX_API_KEY
+    test: {date: "2026-11-23", status: 200, result: "works JSON without a key, with metered credit headers; quota and pricing to be confirmed by the owner"}
+    enabled: false
+    status_note: "Disabled pending owner decision on an API key and budget (docs/LIVE_SIGNALS_AUDIT.md, decision 2)."
+
+  # ---------- B. Public-health and multilateral institutions ----------
+  - id: who-news
+    name: WHO news releases (English)
+    publisher: World Health Organization
+    org_type: multilateral
+    provenance_kind: official
+    default_type: policy
+    access: rss
+    endpoint: "https://www.who.int/rss-feeds/news-english.xml"
+    homepage: "https://www.who.int/news"
+    cadence: several items a week
+    licence_notes: "Official RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: global
+    requires: [pollution, place]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0; most items are not about air pollution, so the filter excludes them"}
+    enabled: true
+  - id: hei
+    name: Health Effects Institute news
+    publisher: Health Effects Institute
+    org_type: research
+    provenance_kind: publisher_report
+    default_type: report
+    access: rss
+    endpoint: "https://www.healtheffects.org/rss.xml"
+    homepage: "https://www.healtheffects.org/"
+    cadence: monthly
+    licence_notes: "Official RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: global
+    requires: [place]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 10 items, latest 17 Nov 2026"}
+    enabled: true
+  - id: state-of-global-air
+    name: State of Global Air news
+    publisher: Health Effects Institute (State of Global Air)
+    org_type: research
+    provenance_kind: publisher_report
+    default_type: report
+    access: rss
+    endpoint: "https://www.stateofglobalair.org/rss.xml"
+    homepage: "https://www.stateofglobalair.org/"
+    cadence: irregular
+    licence_notes: "Official RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: global
+    requires: [place]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 10 items, latest 15 Oct 2025"}
+    enabled: true
+  - id: adb
+    covers: []
+    name: Asian Development Bank news and publications
+    publisher: Asian Development Bank
+    org_type: development_bank
+    provenance_kind: official
+    default_type: policy
+    access: rss
+    endpoint: "https://www.adb.org/rss.xml"
+    homepage: "https://www.adb.org/"
+    cadence: irregular
+    licence_notes: "Official RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 10 items, latest 19 May 2026 (low volume)"}
+    enabled: true
+  - id: icimod
+    covers: [nepal, bhutan, india, pakistan, bangladesh]
+    name: ICIMOD news and resources
+    publisher: ICIMOD
+    org_type: research
+    atlas_org_id: icimod
+    provenance_kind: publisher_report
+    default_type: report
+    access: rss
+    endpoint: "https://www.icimod.org/feed/"
+    homepage: "https://www.icimod.org/"
+    cadence: weekly
+    licence_notes: "Official RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 9 items, latest 19 Nov 2026"}
+    enabled: true
+
+  # ---------- D. NGOs, research institutes, civil society ----------
+  - id: clean-air-fund
+    name: Clean Air Fund news
+    publisher: Clean Air Fund
+    org_type: foundation
+    atlas_org_id: clean-air-fund
+    provenance_kind: NGO_self_report
+    default_type: report
+    access: rss
+    endpoint: "https://www.cleanairfund.org/feed/"
+    homepage: "https://www.cleanairfund.org/"
+    cadence: irregular
+    licence_notes: "Official RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: global
+    requires: [place]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "valid RSS 2.0 with no items on the test date; kept enabled so new items appear"}
+    enabled: true
+  - id: urbanemissions
+    covers: [india]
+    name: UrbanEmissions.info
+    publisher: UrbanEmissions.info
+    org_type: research
+    provenance_kind: publisher_report
+    default_type: report
+    access: rss
+    endpoint: "https://urbanemissions.info/feed/"
+    homepage: "https://urbanemissions.info/"
+    cadence: irregular
+    licence_notes: "RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 1 item"}
+    enabled: true
+  - id: crea
+    name: CREA publications
+    publisher: Centre for Research on Energy and Clean Air
+    org_type: research
+    atlas_org_id: crea
+    provenance_kind: publisher_report
+    default_type: report
+    access: rss
+    endpoint: "https://energyandcleanair.org/feed/"
+    homepage: "https://energyandcleanair.org/"
+    licence_notes: "The feed returned RSS at 11:00 UTC on 2026-11-23 and a JavaScript bot check minutes later. Bot checks are not bypassed."
+    rights: metadata_only
+    scope: global
+    requires: [place]
+    test: {date: "2026-11-23", status: 200, result: "intermittent JavaScript challenge page instead of RSS"}
+    enabled: false
+    status_note: "Disabled: intermittent bot check. Candidate for manual records or a permission request."
+
+  # ---------- E. News and professional reporting ----------
+  - id: mongabay-india
+    covers: [india]
+    name: Mongabay India
+    publisher: Mongabay India
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://india.mongabay.com/feed/"
+    homepage: "https://india.mongabay.com/"
+    cadence: several items a day
+    licence_notes: "Publisher RSS feed. Title, date and link only; no article text."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0; one item time-stamped hours ahead of retrieval (time-zone labelling), handled by the date rules"}
+    enabled: true
+  - id: mongabay-global
+    name: Mongabay (global)
+    publisher: Mongabay
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://news.mongabay.com/feed/"
+    homepage: "https://news.mongabay.com/"
+    licence_notes: "Publisher RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: global
+    requires: [pollution, place]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0"}
+    enabled: true
+  - id: dialogue-earth
+    name: Dialogue Earth (English)
+    publisher: Dialogue Earth
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://dialogue.earth/en/feed/"
+    homepage: "https://dialogue.earth/"
+    licence_notes: "Publisher RSS feed. Title, date and link only. Topic feeds returned a bot check and are not used."
+    rights: metadata_only
+    scope: global
+    requires: [pollution, place]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 10 items, latest 18 Nov 2026"}
+    enabled: true
+  - id: eco-business
+    covers: [singapore, indonesia, malaysia, philippines, thailand, vietnam]
+    name: Eco-Business news
+    publisher: Eco-Business
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://www.eco-business.com/feeds/news/"
+    homepage: "https://www.eco-business.com/"
+    licence_notes: "Publisher RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 20 items"}
+    enabled: true
+  - id: the-hindu-environment
+    covers: [india]
+    name: The Hindu, energy and environment
+    publisher: The Hindu
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://www.thehindu.com/sci-tech/energy-and-environment/feeder/default.rss"
+    homepage: "https://www.thehindu.com/sci-tech/energy-and-environment/"
+    licence_notes: "Publisher RSS feed. Title, date and link only; paywalled text is never fetched."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 60 items"}
+    enabled: true
+  - id: daily-star-environment
+    covers: [bangladesh]
+    name: The Daily Star, environment
+    publisher: The Daily Star (Bangladesh)
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://www.thedailystar.net/environment/rss.xml"
+    homepage: "https://www.thedailystar.net/environment"
+    licence_notes: "Publisher RSS feed. Title, date and link only. Dates use two-digit years."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 10 items"}
+    enabled: true
+  - id: kathmandu-post
+    covers: [nepal]
+    name: The Kathmandu Post
+    publisher: The Kathmandu Post
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://kathmandupost.com/rss"
+    homepage: "https://kathmandupost.com/"
+    licence_notes: "Publisher RSS feed without item dates; the date is read from the article address (/yyyy/mm/dd/) and labelled as such."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 40 items, no pubDate"}
+    enabled: true
+  - id: dawn
+    covers: [pakistan]
+    name: Dawn
+    publisher: Dawn (Pakistan)
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://www.dawn.com/feeds/home"
+    homepage: "https://www.dawn.com/"
+    licence_notes: "Publisher RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 25 items"}
+    enabled: true
+  - id: straits-times-asia
+    covers: [singapore, malaysia, indonesia]
+    name: The Straits Times, Asia
+    publisher: The Straits Times
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://www.straitstimes.com/news/asia/rss.xml"
+    homepage: "https://www.straitstimes.com/asia"
+    licence_notes: "Publisher RSS feed. Title, date and link only; paywalled text is never fetched."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 50 items"}
+    enabled: true
+  - id: vnexpress
+    covers: [vietnam]
+    name: VnExpress International
+    publisher: VnExpress
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://e.vnexpress.net/rss/news.rss"
+    homepage: "https://e.vnexpress.net/"
+    licence_notes: "Publisher RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 60 items"}
+    enabled: true
+  - id: bangkok-post
+    covers: [thailand]
+    name: Bangkok Post top stories
+    publisher: Bangkok Post
+    org_type: newsroom
+    provenance_kind: independent_reporting
+    default_type: news
+    access: rss
+    endpoint: "https://www.bangkokpost.com/rss/data/topstories.xml"
+    homepage: "https://www.bangkokpost.com/"
+    licence_notes: "Publisher RSS feed. Title, date and link only."
+    rights: metadata_only
+    scope: regional
+    requires: [pollution]
+    language: en
+    test: {date: "2026-11-23", status: 200, result: "RSS 2.0, 10 items"}
+    enabled: true
+
+  # ---------- Tested and not enabled (documented so nobody re-adds a guessed endpoint) ----------
+  - id: world-bank-documents
+    name: World Bank Documents and Reports API
+    publisher: World Bank
+    org_type: development_bank
+    atlas_org_id: world-bank
+    provenance_kind: official
+    default_type: report
+    access: manual
+    endpoint: "https://search.worldbank.org/api/v2/wds"
+    homepage: "https://documents.worldbank.org/"
+    rights: metadata_only
+    scope: global
+    requires: [pollution, place]
+    test: {date: "2026-11-23", status: 200, result: "responds, but returns 0 documents dated 2026 and the newest air-pollution result is March 2025; index appears stale"}
+    enabled: false
+    status_note: "Disabled: returns no current records. Re-test before enabling."
+  - id: world-bank-projects
+    name: World Bank Projects API
+    publisher: World Bank
+    org_type: development_bank
+    atlas_org_id: world-bank
+    provenance_kind: official
+    default_type: funding
+    access: manual
+    endpoint: "https://search.worldbank.org/api/v2/projects"
+    homepage: "https://projects.worldbank.org/"
+    rights: metadata_only
+    scope: global
+    requires: [pollution, place]
+    test: {date: "2026-11-23", status: 200, result: "responds; 0 air-quality projects since November 2025 and newest approval in results is October 2024; index appears stale"}
+    enabled: false
+    status_note: "Disabled: returns no current records. Funding discovery uses manual records until a current connector is verified."
+  - id: reliefweb
+    name: ReliefWeb API
+    publisher: UN OCHA
+    org_type: multilateral
+    access: manual
+    endpoint: "https://api.reliefweb.int/v2/reports"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 403, result: "requires an approved appname"}
+    enabled: false
+    status_note: "Needs an approved appname (owner decision)."
+  - id: gdelt
+    name: GDELT DOC 2.0 API
+    publisher: The GDELT Project
+    org_type: research
+    access: manual
+    endpoint: "https://api.gdeltproject.org/api/v2/doc/doc"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 429, result: "rate limited to one request per 5 seconds; an aggregator, so entries would be discovery leads only"}
+    enabled: false
+    status_note: "Not enabled: aggregator; would duplicate the direct publisher feeds."
+  - id: pib-moefcc
+    name: Press Information Bureau (MoEFCC releases)
+    publisher: Government of India, Press Information Bureau
+    org_type: government
+    access: manual
+    endpoint: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 403, result: "Access Denied to automated requests"}
+    enabled: false
+    status_note: "Blocked to automated requests; manual records only."
+  - id: cpcb
+    name: Central Pollution Control Board
+    publisher: Government of India, CPCB
+    org_type: government
+    access: manual
+    endpoint: "https://cpcb.nic.in/rss.xml"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 0, result: "no response; no published feed found"}
+    enabled: false
+    status_note: "No working feed found; manual records only. CAQM and MoEFCC likewise have no tested feed."
+  - id: ccac
+    name: Climate and Clean Air Coalition
+    publisher: CCAC (UNEP)
+    org_type: multilateral
+    access: manual
+    endpoint: "https://www.ccacoalition.org/news/feed"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 403, result: "bot check"}
+    enabled: false
+  - id: the-third-pole
+    name: The Third Pole (legacy domain)
+    publisher: Dialogue Earth
+    org_type: newsroom
+    access: manual
+    endpoint: "https://www.thethirdpole.net/feed/"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 403, result: "bot check; content now under dialogue.earth, which is enabled"}
+    enabled: false
+  - id: ceew
+    name: CEEW
+    publisher: Council on Energy, Environment and Water
+    org_type: research
+    atlas_org_id: ceew
+    access: manual
+    endpoint: "https://www.ceew.in/feed"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 403, result: "forbidden to automated requests"}
+    enabled: false
+  - id: unep
+    name: UNEP news
+    publisher: UN Environment Programme
+    org_type: multilateral
+    access: manual
+    endpoint: "https://www.unep.org/rss.xml"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 404, result: "no feed at the tested addresses (rss.xml, news-and-stories/rss.xml)"}
+    enabled: false
+  - id: clean-air-asia
+    name: Clean Air Asia
+    publisher: Clean Air Asia
+    org_type: ngo
+    atlas_org_id: clean-air-asia
+    access: manual
+    endpoint: "https://cleanairasia.org/feed/"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 404, result: "no feed"}
+    enabled: false
+  - id: down-to-earth
+    name: Down To Earth (CSE), air
+    publisher: Down To Earth
+    org_type: newsroom
+    access: manual
+    endpoint: "https://www.downtoearth.org.in/rss/air"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 301, result: "redirects to an HTML page; no feed"}
+    enabled: false
+  - id: arxiv
+    name: arXiv API
+    publisher: arXiv
+    org_type: research
+    access: manual
+    endpoint: "https://export.arxiv.org/api/query"
+    rights: metadata_only
+    test: {date: "2026-11-23", status: 429, result: "rate limited from the test environment"}
+    enabled: false
+    status_note: "Preprints in this field are covered by Europe PMC (source PPR)."
