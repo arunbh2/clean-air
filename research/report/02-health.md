@@ -55,7 +55,7 @@ The one large randomised trial that changed household exposure during pregnancy 
 
 The most-cited Indian result (an IQ gap between high- and low-pollution sites in Odisha) is a conference abstract without established peer review [C057]. The Delhi schools trial found a marginal improvement in working memory from an education campaign. This tells us about the intervention, not about pollution's effect on cognition [C074].
 
-**Judgement: Limited/mixed** in India. Effect sizes should not be cited.
+**Judgement: Limited/mixed** in India. The effect sizes are not reliable enough to cite.
 
 ## Occupational and population-specific evidence
 

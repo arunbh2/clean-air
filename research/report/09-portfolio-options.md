@@ -25,7 +25,7 @@ Both groups combine strong evidence of harm, identifiable institutions that can 
 - smog towers ₹25 crore to build and ₹15 lakh a month to run;
 - kiln conversion about ₹40 lakh per kiln.
 
-No cost-effectiveness ratio is offered. Any budgeting should separate capital, operating and evaluation costs, and label planning assumptions as such.
+No cost-effectiveness ratio is offered. A budget built from these options is clearest when it keeps capital, operating and evaluation costs separate and labels planning assumptions as such.
 
 ## PF1. When the air stops work: income protection for restriction-affected workers (Priority 1)
 

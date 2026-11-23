@@ -13,6 +13,7 @@ Descriptor: *Air pollution, livelihoods and unequal protection.* Tagline: *Share
 | `docs/design-brief.md` | How the site looks: colour, type, logo, layout, visual checks | — (visual polish must never distort the evidence) |
 | `docs/clean-air-10x-expansion-brief.md` | The current mandate: regional expansion, layered reading, funding atlas, decision pathways | the site brief on scope and structure; never over the evidence standards, cutoff, claim/source IDs or design tokens above |
 | `docs/organisations-10x-brief.md` | The Organisations section: ecosystem atlas, organisation–project–funder links, private-sector diligence | the site brief on the Organisations section only; never over the evidence standards, cutoff, IDs or design tokens above |
+| `docs/three-audiences-governance-brief.md` | Cross-cutting quality layer: editorial voice, design guardrails, passage-level verification, corrections sync, agent-readable exports (llms.txt, Markdown mirrors, packs) | adds requirements across all sections; never over the evidence standards, cutoff, IDs, verdicts or design tokens above (conflicts are documented, not silently resolved) |
 
 The website **is** in scope. The site brief overrides the research brief's line about not building one.
 The expansion brief (owner instruction, 22 November 2026) is the updated mandate. It extends the site in place: keep existing
@@ -101,6 +102,21 @@ Use only these four labels, and explain each judgement in words (no unexplained 
 ### 6. Build rule
 Site pages are generated from `/research` (Markdown and CSV), not hand-written copy. Changing a rating in the
 evidence map must change the site.
+
+### 7. Three-audience governance (`docs/three-audiences-governance-brief.md`)
+Every change serves the human reader, the maintainer and the AI agent from **one canonical record** in `research/`.
+- **Voice** (`docs/editorial-voice.md`): no "should"/"must" in the site's own voice, no blame wording, no em dashes in
+  site-authored prose, no rankings, no hype; legal duties reported as "the rule requires". Enforced by `tools/check_voice.py`.
+- **Design** (`docs/design-guardrails.md`, `tools/design-tokens.json`): tokens only, four container families, no left
+  stripes, shadows or gradients, minimum 12px text, zoom-safe at 320px with 200% text. Enforced by `tools/check_design.py` and `site/qa/qa.js`.
+- **Evidence** (`docs/data-model.md`): every claim has a passage-level state in `research/data/claim-passages.csv`
+  (`research/analysis/passages.py`). New claims after C222 marked `read` need `passage_found`. Corrections and withdrawals go in
+  `research/data/corrections.csv`; claims are never deleted (status `withdrawn`). Approved, committed, disbursed and evaluated stay separate.
+- **Agent access** (`docs/agent-access.md`): Markdown mirror of every page, `llms.txt`, `llms-full.txt`, `for-ai`, packs, catalogue,
+  feed: all generated, never hand-written. Base URL only in `site/site.json`. Describe only real static-site capabilities.
+- **One command:** `python3 tools/check_all.py` (`--browser` for the Playwright/axe suite). CI runs it before deploying. Never weaken
+  a check to pass; add a narrow, documented exception instead. Maintenance steps: `docs/three-audiences-maintenance.md`.
+- Owner decisions still open (licence, AI training, security contact, custom domain): `docs/THREE_AUDIENCES_AUDIT.md` section 6.
 
 ## Which skill for which job
 

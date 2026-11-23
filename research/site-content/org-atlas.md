@@ -42,5 +42,5 @@ measurement:
   examples: "Cebu City's new network is tied to public health warnings and a first local ordinance [C184]. Dhaka's landfill monitors are meant to support enforcement through environmental lawyers [C179]. In Bengaluru, an independent test found that none of six sensor makers met precision targets for two gases [C202], which is why readings need checking before they drive decisions."
   limit: "In the sources read, no monitoring project in this directory has yet documented a decision that followed from its data."
 voices: "Worker collectives, parents' networks, residents' coalitions and community trainers appear here only where their work is publicly documented. They publish less than research institutes and funders, so they are under-counted. No quotations or testimonies have been added."
-responsibility: "A grant can start a monitoring network or a pilot. Someone must then pay for maintenance, data, staff and replacement. For most projects in this directory, the sources do not say who that is."
+responsibility: "A grant can start a monitoring network or a pilot. Someone then has to pay for maintenance, data, staff and replacement. For most projects in this directory, the sources do not say who that is."
 ---

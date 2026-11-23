@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block content %}
+<p class="layer-label">Evidence pack · {{ KIND_LABEL[pk.kind] }}</p>
+<h1>{{ pk.title }}</h1>
+{% if pk.question != pk.title %}<p class="deck">{{ pk.question }}</p>{% endif %}
+<section class="layer simple" aria-labelledby="pk-answer"><h2 id="pk-answer" class="layer-label">The short answer</h2>
+<div class="prose simple-answer">{{ answer_html|safe }}</div>
+{% if pk.audience_note %}<p class="layer-meta">{{ pk.audience_note }}</p>{% endif %}
+</section>
+<p class="muted sans small">Same content as <a href="{{ pk.pack_id.split('/')[1] }}.md">Markdown</a> and <a href="{{ pk.pack_id.split('/')[1] }}.json">JSON</a>. Research cutoff {{ CUTOFF }}. Not medical or investment advice. Inclusion is not endorsement, and nothing here is a ranking.</p>
+
+<section aria-labelledby="pk-known" class="section-rule"><h2 id="pk-known">What is known</h2>
+{% if pk.known %}<ul class="activities">{% for c in pk.known %}<li>{{ c.text }} {{ c.claim_id|claims(rel)|safe }}<br><span class="sans small muted">{{ c.place }}{% if c.period %}, {{ c.period }}{% endif %} · {{ c.provenance }} · {{ c.verification_label }} · sources: {% for s in c.source_ids %}<a class="src-link" href="{{ rel }}evidence/sources.html#{{ s }}">{{ s }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</span></li>{% endfor %}</ul>
+{% else %}<p>No verified claim is linked to this pack.</p>{% endif %}
+</section>
+
+<section aria-labelledby="pk-unc" class="section-rule"><h2 id="pk-unc">What remains uncertain</h2>
+{% if pk.uncertainties %}<ul>{% for u in pk.uncertainties %}<li>{{ u|md(rel)|safe }}</li>{% endfor %}</ul>{% else %}<p>No specific uncertainty is recorded beyond the caveats on each claim.</p>{% endif %}
+</section>
+
+{% if pk.interventions %}<section aria-labelledby="pk-int" class="section-rule"><h2 id="pk-int">Responses and their evidence</h2>
+<div class="table-wrap"><table class="data"><caption>Two separate ratings: does the problem exist, and does the response improve outcomes?</caption>
+<thead><tr><th scope="col">Response</th><th scope="col">Problem exists</th><th scope="col">Response improves outcomes</th><th scope="col">Why</th><th scope="col">Recommendation</th></tr></thead>
+<tbody>{% for i in pk.interventions %}<tr><th scope="row"><a href="{{ rel }}what-works/{{ i.int_id }}.html">{{ i.name }}</a></th><td>{{ badge(i.evidence_problem_exists)|safe }}</td><td>{{ badge(i.evidence_intervention_works)|safe }}</td><td>{{ i.reason }}</td><td>{{ rec_badge(i.recommendation)|safe }}</td></tr>{% endfor %}</tbody></table></div>
+</section>{% endif %}
+
+{% if pk.organisations %}<section aria-labelledby="pk-org" class="section-rule"><h2 id="pk-org">Organisations in the records</h2>
+<p class="muted small">Listed alphabetically, not ranked. Each line shows what kind of evidence the record rests on.</p>
+<ul class="compact-list">{% for o in pk.organisations|sort(attribute='name') %}<li><a href="{{ rel }}organisations/o/{{ O_BY[o.org_id].slug }}.html">{{ o.name }}</a> <span class="muted">({{ o.type }}; {{ o.countries|join(', ') }})</span>: {{ o.summary }} <span class="sans small muted">{{ o.evidence_basis }}{% if o.independent_test %} · {{ o.independent_test }}{% endif %}</span></li>{% endfor %}</ul>
+</section>{% endif %}
+
+{% if pk.funding_records or pk.funding_links %}<section aria-labelledby="pk-fund" class="section-rule"><h2 id="pk-fund">Funding</h2>
+<p class="muted small">Approved, committed and disbursed are different stages. "Amount not publicly disclosed" means no public source states it.</p>
+{% if pk.funding_records %}<div class="table-wrap"><table class="data"><caption>Funding records</caption>
+<thead><tr><th scope="col">Record</th><th scope="col">Funder</th><th scope="col">Instrument</th><th scope="col">Amount</th><th scope="col">Stage (source wording)</th><th scope="col">Stage</th><th scope="col">Results</th></tr></thead>
+<tbody>{% for p in pk.funding_records %}<tr><th scope="row"><a href="{{ rel }}organisations/funding/{{ p.record_id|lower }}.html">{{ p.title }}</a></th><td>{{ p.funders|join(', ') }}</td><td>{{ p.instrument }}</td><td>{{ p.amount_text }}</td><td>{{ p.stage_in_source }}</td><td>{{ p.funding_stage }}</td><td>{{ p.results }}</td></tr>{% endfor %}</tbody></table></div>{% endif %}
+{% if pk.funding_links %}<div class="table-wrap"><table class="data"><caption>Funding links between organisations</caption>
+<thead><tr><th scope="col">Funder</th><th scope="col">Recipient</th><th scope="col">For</th><th scope="col">Instrument</th><th scope="col">Amount</th><th scope="col">Stage (source wording)</th><th scope="col">Sources</th></tr></thead>
+<tbody>{% for f in pk.funding_links %}<tr><td>{{ f.funder }}</td><th scope="row">{{ f.recipient }}</th><td>{{ f.project or 'Not linked to a named project' }}</td><td>{{ f.instrument }}</td><td>{{ f.amount_text }}</td><td>{{ f.stage_in_source }}</td><td>{% for s in f.source_ids %}<a class="src-link" href="{{ rel }}evidence/sources.html#{{ s }}">{{ s }}</a> {% endfor %}</td></tr>{% endfor %}</tbody></table></div>{% endif %}
+</section>{% endif %}
+
+{% if pk.next_questions %}<section aria-labelledby="pk-next" class="section-rule"><h2 id="pk-next">Next questions</h2>
+<ul>{% for g in pk.next_questions %}<li><a href="{{ rel }}evidence/gaps.html#{{ g.gap_id }}">{{ g.question }}</a> <span class="muted">Missing: {{ g.what_is_missing }}</span></li>{% endfor %}</ul>
+</section>{% endif %}
+
+<section aria-labelledby="pk-src" class="section-rule"><h2 id="pk-src">Sources</h2>
+<p class="sans small">{% for s in pk.source_ids %}<a class="src-link" href="{{ rel }}evidence/sources.html#{{ s }}">{{ s }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+</section>
+{% endblock %}

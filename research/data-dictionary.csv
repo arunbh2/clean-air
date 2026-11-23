@@ -1,0 +1,89 @@
+dataset,column,description
+claims,*,One row per factual claim shown on the site. Claim IDs (Cnnn) are stable and never renumbered.
+claims,claim_id,Stable claim ID (Cnnn).
+claims,section,Report section the claim was first written for.
+claims,claim,"The claim text: the source's proposition, minimally edited."
+claims,source_ids,"Source IDs (Snnn), semicolon-separated."
+claims,locator,"Where in the source the claim appears (page, table, section)."
+claims,evidence_type,Kind of evidence; mapped to a provenance class on the site.
+claims,geography,Place the claim covers.
+claims,period,Period the claim covers.
+claims,status,"read, provisional or withdrawn."
+claims,notes,Research notes and caveats.
+sources,*,One row per source. Source IDs (Snnn) are stable.
+sources,source_id,Stable source ID (Snnn).
+sources,title,"Title as published (external text, not the site's voice)."
+sources,author_org,Author or authoring organisation.
+sources,publisher,Publisher.
+sources,pub_date,Publication date (on or before the 22 November 2026 cutoff).
+sources,url,Original URL.
+sources,accessed,Date the source was read.
+sources,source_type,Type of source.
+sources,language,Language code.
+sources,access_status,"How much was read: full-text-read, abstract-only, search-snippet-only, unreachable."
+sources,notes,Notes.
+claim-passages,*,Passage-level verification: one row per claim (research/analysis/passages.py).
+claim-passages,claim_id,Claim ID.
+claim-passages,verification_state,"passage_found, needs_manual_review, source_accessible_passage_not_found or not_accessible. A link that opens is never by itself 'verified'."
+claim-passages,source_id,Source in which the best passage was found.
+claim-passages,word_overlap,Share of the claim's content words found in the passage (0 to 1).
+claim-passages,figures_in_passage,Share of the claim's figures found in the same passage (0 to 1).
+claim-passages,locator_excerpt,Up to 30 words of the located passage (quoted source text).
+claim-passages,method,How the check was made.
+claim-passages,checked,Date of the check.
+corrections,*,"Corrections, withdrawals and rewordings. Each entry stays in the record permanently."
+corrections,correction_id,Stable correction ID (CRnnn).
+corrections,date,Date of the change.
+corrections,record_type,"Kind of record changed (claim, source, organisation, ...)."
+corrections,record_id,ID of the record changed.
+corrections,change_type,"corrected, withdrawn, superseded, source-added, url-changed, status-changed or reworded."
+corrections,old_text,Earlier wording where it was retained.
+corrections,new_text,Corrected wording if it differs from the current record; blank means the current record text.
+corrections,reason,Why the change was made.
+corrections,source_ids,Sources supporting the correction.
+corrections,note,"Pages or outputs affected, as recorded at the time."
+changelog,*,Dated public changes to the site; feeds feed.xml.
+changelog,change_id,Stable change ID.
+changelog,date,Date.
+changelog,title,Title.
+changelog,summary,Summary.
+changelog,url,"Page most affected, relative to the site root."
+organisation-project-roles,*,Who did what in each activity or funding record. Every row cites a source; co-mention alone never creates a role.
+organisation-project-roles,organisation_id,Organisation ID (organisations.csv org_id).
+organisation-project-roles,project_id,Activity record (Jnnn) or funding record (Pnn).
+organisation-project-roles,role,"One of a fixed vocabulary (grantmaker, lender, implementer, technical partner, supplier, evaluator, regulator ...)."
+organisation-project-roles,role_description,Role in the source's words.
+organisation-project-roles,source_ids,Sources stating the role.
+organisation-project-roles,verification_status,How the role was verified.
+funding-flows,*,Funding links between named organisations. Amounts only where a primary public record states them.
+funding-flows,flow_id,Stable flow ID (FLnnn).
+funding-flows,funder_organisation_id,Funder (organisations.csv).
+funding-flows,recipient_organisation_id,Recipient (organisations.csv).
+funding-flows,project_id,"Linked activity or funding record, if any."
+funding-flows,funding_instrument,"Grant, loan, contract, etc. as stated."
+funding-flows,amount,Amount in original currency; blank means not publicly disclosed.
+funding-flows,original_currency,Currency.
+funding-flows,commitment_or_disbursement,"Stage in the source's own words (awarded, approved, paid ...). Mapped, never inferred, to the site's stage vocabulary."
+funding-flows,approval_year,Year of approval or award.
+funding-flows,conditions_or_restrictions,Conditions stated in the source.
+funding-flows,public_source_ids,Sources.
+funding-flows,confidence_note,How certain the link is.
+projects,*,"Activity records (Jnnn): what an organisation did, with outputs, measured outcomes and evaluation kept separate."
+programmes,*,"Funding records (Pnn): grants, loans, technical assistance and public budgets, with approval, operation and results kept separate."
+organisations,*,Organisations atlas and first-edition India directory (95 records). Inclusion does not imply endorsement.
+organisations,org_id,Stable organisation ID.
+organisations,organisation,Name.
+organisations,category,"community, ngo, research, public, funder, multilateral, private or network."
+organisations,countries_active,Countries where documented work takes place.
+organisations,summary,One-sentence plain-language summary of verified work.
+organisations,claim_ids,Claims supporting the record.
+organisations,source_ids,Sources supporting the record.
+organisations,source_class,"What kind of evidence the record rests on (independent, official, funder, organisation's own account, news)."
+organisations,independent_test,"For companies: the independent test or evaluation found, or that none was found."
+organisations,date_last_checked,Date the record was last checked.
+interventions,*,"Interventions with two separate ratings: does the problem exist, and does the intervention improve outcomes."
+evidence-map,*,"Evidence map: confidence that problems exist and that responses work, rated separately with the four labels."
+evidence-gaps,*,Questions where an answer would change a funding decision.
+countries,*,"Country dossiers with takeaway, sources, actors and gaps."
+funders,*,Funders named in funding records.
+glossary,*,Plain-language definitions linked from first use on each page.

@@ -8,7 +8,7 @@ summary: "Twelve questions where an answer would change a funding decision, each
 
 # A proportionate learning agenda
 
-Not every uncertainty needs a randomised trial. Established protective measures should not be delayed to create one. The register in `data/evidence-gaps.csv` matches each question to the lightest method that could answer it:
+Not every uncertainty needs a randomised trial. Delaying established protective measures to create one is not necessary. The register in `data/evidence-gaps.csv` matches each question to the lightest method that could answer it:
 
 - better use of existing data;
 - exposure or service assessments;
@@ -39,7 +39,7 @@ Not every uncertainty needs a randomised trial. Established protective measures 
 
 ## Outcomes to measure
 
-Studies in this field should measure across eight domains:
+Studies in this field are most useful when they measure across eight domains:
 
 - exposure;
 - health;
@@ -54,7 +54,7 @@ Exposure reductions are valid intermediate outcomes. They do not by themselves e
 
 ## Distributional analysis
 
-Every evaluation should report who benefited, who did not, and whether any group bore new costs. Examples:
+The most useful evaluations report who benefited, who did not, and whether any group bore new costs. Examples:
 
 - workers paying for respirators;
 - children in purifier classrooms changing behaviour;

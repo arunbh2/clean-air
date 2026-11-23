@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Evidence packs</h1>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Each pack answers one practical question in plain language, then lists what is known, what is uncertain, which responses have evidence, who is acting, who funds it and what to ask next. Every pack is generated from the same records as the rest of the site.</p>
+<p class="layer-meta">Each pack is also available as Markdown and JSON at the same address. Packs do not rank places, organisations or technologies.</p></section>
+{% for kind, label in KIND_LABEL.items() %}
+<section aria-labelledby="k-{{ kind }}" class="section-rule"><h2 id="k-{{ kind }}">{{ label }}</h2>
+<ul class="hub-links sans">{% for p in packs if p.kind == kind %}<li><a href="{{ p.pack_id }}.html">{{ p.title }}</a> {{ p.question }} <span class="muted">(<a href="{{ p.pack_id }}.md">Markdown</a>, <a href="{{ p.pack_id }}.json">JSON</a>)</span></li>{% endfor %}</ul>
+</section>
+{% endfor %}
+{% endblock %}

@@ -29,7 +29,7 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
     const info = await page.evaluate(() => ({
       ids: [...document.querySelectorAll('[id]')].map(e => e.id),
       links: [...document.querySelectorAll('a[href]')].map(a => a.getAttribute('href')),
-      res: [...document.querySelectorAll('img[src],script[src],link[href]')].map(e => e.getAttribute('src') || e.getAttribute('href')),
+      res: [...document.querySelectorAll('img[src],script[src],link[rel=stylesheet],link[rel=icon]')].map(e => e.getAttribute('src') || e.getAttribute('href')),
       cutoff: document.body.innerText.includes('22 November 2026'),
       logoName: (document.querySelector('a.brand') || {}).getAttribute ? document.querySelector('a.brand').getAttribute('aria-label') : null,
       h1: document.querySelectorAll('h1').length,
@@ -158,6 +158,56 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   await mob.goto(url('index.html')); await mob.evaluate(() => { document.documentElement.style.fontSize = '200%'; });
   const z = await mob.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   pass('home page has no horizontal scroll with text at 200%', z <= 0, `${z}px`);
+  // 4b. three-audience browser checks: 320/375/768/1280 with text at 200%, keyboard focus, reduced motion, rendered type size
+  const REP = ['index.html', 'organisations/index.html', 'organisations/o/clean-up-nepal.html', 'evidence/claims.html', 'packs/questions/bangladesh-funding.html',
+               'packs/questions/low-cost-sensors.html', 'what-works/smog-towers.html', 'about/corrections.html', 'for-ai/index.html', 'people/construction-workers.html'];
+  const zoomFail = [];
+  for (const w of [320, 375, 768, 1280]) {
+    await mob.setViewportSize({ width: w, height: 900 });
+    for (const p of REP) {
+      await mob.goto(url(p)); await mob.evaluate(() => { document.documentElement.style.fontSize = '200%'; });
+      const o = await mob.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+      if (o > 0) zoomFail.push(`${p}@${w}px:+${o}`);
+    }
+  }
+  pass('no horizontal page scroll at 320, 375, 768 and 1280 px with text at 200% (10 representative pages)', zoomFail.length === 0, zoomFail.slice(0, 5).join(', '));
+  const kb = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+  await kb.goto(url('organisations/index.html'));
+  let noRing = [];
+  for (let i = 0; i < 30; i++) {
+    await kb.keyboard.press('Tab');
+    const f = await kb.evaluate(() => { const e = document.activeElement; const cs = getComputedStyle(e); const r = e.getBoundingClientRect();
+      return { tag: e.tagName, txt: (e.textContent || '').trim().slice(0, 30), ring: cs.outlineStyle !== 'none' && parseFloat(cs.outlineWidth) >= 2, w: r.width, h: r.height }; });
+    if (!f.ring || f.w === 0) noRing.push(`${f.tag}:${f.txt}`);
+  }
+  pass('first 30 keyboard stops on the organisations page each show a visible focus ring', noRing.length === 0, noRing.slice(0, 4).join('; '));
+  const rm = await browser.newContext({ reducedMotion: 'reduce' }); const rmp = await rm.newPage();
+  let anim = 0;
+  for (const p of REP) { await rmp.goto(url(p)); anim += await rmp.evaluate(() => document.getAnimations().length); }
+  pass('no running animations with prefers-reduced-motion (10 pages)', anim === 0, `${anim} animations`);
+  await rm.close();
+  const small = [];
+  for (const p of REP) {
+    await kb.goto(url(p));
+    const r = await kb.evaluate(() => { let min = 99, where = ''; const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+      while (walker.nextNode()) { const n = walker.currentNode; if (!n.textContent.trim()) continue; const e = n.parentElement; const cs = getComputedStyle(e);
+        if (cs.display === 'none' || cs.visibility === 'hidden' || e.closest('.visually-hidden,[hidden],[aria-hidden="true"]')) continue;
+        const fs = parseFloat(cs.fontSize); if (fs < min) { min = fs; where = e.tagName + '.' + e.className + ':' + n.textContent.trim().slice(0, 20); } }
+      return { min, where }; });
+    if (r.min < 12) small.push(`${p}: ${r.min}px ${r.where}`);
+  }
+  pass('no rendered public text below 12 px (10 pages)', small.length === 0, small.slice(0, 3).join('; '));
+  const mdLinks = await kb.evaluate(() => 0);
+  let noAlt2 = [];
+  for (const p of pages.filter(p => p !== '404.html')) { const h = fs.readFileSync(path.join(DIST, p), 'utf8'); if (!h.includes('type="text/markdown"')) noAlt2.push(p); }
+  pass('every page declares its Markdown mirror (rel=alternate)', noAlt2.length === 0, noAlt2.slice(0, 3).join(', '));
+  const shots = path.resolve(__dirname, '..', '..', 'docs', 'screenshots', 'three-audiences'); fs.mkdirSync(shots, { recursive: true });
+  for (const [p, n] of [['packs/questions/bangladesh-funding.html', 'pack-bangladesh'], ['packs/questions/low-cost-sensors.html', 'pack-sensors'],
+                        ['about/corrections.html', 'corrections'], ['for-ai/index.html', 'for-ai'], ['evidence/claims.html', 'claims']]) {
+    const d = await browser.newPage({ viewport: { width: 1280, height: 900 }, deviceScaleFactor: 2 }); await d.goto(url(p)); await d.screenshot({ path: path.join(shots, n + '-desktop.png') }); await d.close();
+    const m = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 }); await m.goto(url(p)); await m.screenshot({ path: path.join(shots, n + '-mobile.png') }); await m.close();
+  }
+  await kb.close();
   // 5. print
   for (const p of ['support/brief.html', 'what-works/smog-towers.html', 'index.html']) {
     await page.goto(url(p)); await page.emulateMedia({ media: 'print' });

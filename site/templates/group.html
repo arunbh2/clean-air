@@ -2,7 +2,9 @@
 {% block content %}
 <h1>{{ g.group }}</h1>
 <p>{{ badge(g.evidence_confidence)|safe }}{% if g.priority_rank %} <span class="badge priority">Priority {{ g.priority_rank }}</span>{% endif %} <span class="label-note">Evidence on harm</span></p>
-<p class="finding">{{ g.direct_impacts }}</p>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">{{ g.direct_impacts }}</p>
+<p class="layer-meta"><strong>How sure:</strong> {{ g.evidence_confidence }}. Next: <a href="../packs/communities/{{ g.group_id }}.html">evidence pack</a> (what is known, responses, who acts, who funds, open questions).</p></section>
 {{ dl([("How work is organised", g.work_relationship|e), ("Exposure", g.exposure|e), ("Knock-on impacts", g.secondary_tertiary_impacts|e), ("What limits protection", g.protective_constraints|e), ("Community strengths", g.community_strengths|e)]) }}
 <details class="evidence"><summary>Why this rating, and the evidence behind it</summary>
 <p>{{ g.confidence_reason }}</p><p class="sans">Evidence: {{ g.claim_ids|claims(rel)|safe }}</p></details>

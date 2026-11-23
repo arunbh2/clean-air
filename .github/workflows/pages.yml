@@ -23,15 +23,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # build date comes from the last commit touching research/ or site/
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Install build dependencies
         run: pip install -r site/requirements.txt
-      - name: Check research registers
-        run: python research/analysis/validate.py
-      - name: Build site
-        run: python site/build.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install browser QA dependencies
+        working-directory: site/qa
+        run: |
+          npm ci
+          npm install --no-save playwright@1.63.0
+          npx playwright install --with-deps chromium
+      # One command: registers, build, voice, design, links, agent files, format comparison,
+      # CSV safety, propagation, every checker's failing fixture, and the Playwright + axe browser suite.
+      # Nothing is uploaded or deployed unless every check passes.
+      - name: Validate and build (tools/check_all.py)
+        run: python tools/check_all.py --browser
       - uses: actions/configure-pages@v5
         if: github.event_name != 'pull_request'
       - uses: actions/upload-pages-artifact@v3

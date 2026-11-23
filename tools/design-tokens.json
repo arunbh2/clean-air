@@ -1,0 +1,244 @@
+{
+  "_about": "Machine-readable design guardrails for Clean Air. Human explanation: docs/design-guardrails.md. Token values must match site/static/css/site.css :root; tools/check_design.py enforces both.",
+  "colour_tokens": {
+    "--ca-ink": "#1A1A1A",
+    "--ca-navy": "#141F52",
+    "--ca-accent": "#E3120B",
+    "--ca-accent-dark": "#B50E08",
+    "--ca-link": "#2E45B8",
+    "--ca-paper": "#F5F4EF",
+    "--ca-surface": "#FFFFFF",
+    "--ca-muted": "#595959",
+    "--ca-rule": "#D9D9D9",
+    "--ca-tint": "#EBEDFA",
+    "--ca-on-navy": "#FFFFFF",
+    "--ca-muted-strong": "#3D3D3D",
+    "--ca-highlight": "#FFF8D6"
+  },
+  "colour_roles": {
+    "brand accent (rules, large text, active nav marker; never small text on paper)": [
+      "--ca-accent",
+      "--ca-accent-dark"
+    ],
+    "navigation and headings": [
+      "--ca-navy",
+      "--ca-on-navy"
+    ],
+    "links and focus": [
+      "--ca-link"
+    ],
+    "text": [
+      "--ca-ink",
+      "--ca-muted",
+      "--ca-muted-strong"
+    ],
+    "surfaces and rules": [
+      "--ca-paper",
+      "--ca-surface",
+      "--ca-rule",
+      "--ca-tint",
+      "--ca-highlight"
+    ],
+    "evidence strength (always with a text label; navy fill/outline/dash, never green)": [
+      "--ca-navy",
+      "--ca-muted",
+      "--ca-muted-strong"
+    ],
+    "measured AQI categories (reserved prefix --aqi-*; none used in this edition, see guardrails)": []
+  },
+  "radius_tokens": [
+    "var(--radius)",
+    "var(--radius-chip)",
+    "0"
+  ],
+  "container_families": {
+    "card": [
+      ".card",
+      ".org-card",
+      ".preset",
+      ".entry"
+    ],
+    "note": [
+      ".notice",
+      ".layer.simple",
+      ".trust"
+    ],
+    "row": [
+      ".flow",
+      ".chain-step"
+    ],
+    "panel": [
+      ".explorer",
+      ".toc",
+      ".compare-pick",
+      "details.q"
+    ]
+  },
+  "left_rule_allowed": [
+    ".finding",
+    "details.evidence",
+    "details.evidence[open]"
+  ],
+  "shadow_allowed": [],
+  "font_families_allowed": [
+    "var(--serif)",
+    "var(--sans)",
+    "inherit"
+  ],
+  "min_font_px": 12,
+  "root_px": 16,
+  "em_context_px": 14,
+  "type_roles": {
+    "page title": "h1: var(--serif) clamp(1.9rem, 4.5vw, 2.8rem)",
+    "section heading": "h2: var(--serif) clamp(1.4rem, 3vw, 1.8rem)",
+    "subheading": "h3: var(--serif) 1.2rem",
+    "narrative / lede": ".deck, .finding, .simple-answer: var(--serif) 1.2rem",
+    "body": "body: var(--serif) 1.125rem (18px), 1.1875rem (19px) from 720px",
+    "caption / metadata": ".crumbs, .label-note, .muted.small, .layer-label: var(--sans) .75 to .9rem",
+    "numeric / table data": "table: var(--sans) .88rem, tabular numerals"
+  },
+  "contrast_pairs": [
+    {
+      "name": "body text on paper",
+      "fg": "--ca-ink",
+      "bg": "--ca-paper",
+      "min": 4.5
+    },
+    {
+      "name": "body text on surface",
+      "fg": "--ca-ink",
+      "bg": "--ca-surface",
+      "min": 4.5
+    },
+    {
+      "name": "muted text on paper",
+      "fg": "--ca-muted",
+      "bg": "--ca-paper",
+      "min": 4.5
+    },
+    {
+      "name": "muted text on surface",
+      "fg": "--ca-muted",
+      "bg": "--ca-surface",
+      "min": 4.5
+    },
+    {
+      "name": "link on paper",
+      "fg": "--ca-link",
+      "bg": "--ca-paper",
+      "min": 4.5
+    },
+    {
+      "name": "link on surface",
+      "fg": "--ca-link",
+      "bg": "--ca-surface",
+      "min": 4.5
+    },
+    {
+      "name": "link on tint",
+      "fg": "--ca-link",
+      "bg": "--ca-tint",
+      "min": 4.5
+    },
+    {
+      "name": "link on highlighted target",
+      "fg": "--ca-link",
+      "bg": "--ca-highlight",
+      "min": 4.5
+    },
+    {
+      "name": "headings (navy) on paper",
+      "fg": "--ca-navy",
+      "bg": "--ca-paper",
+      "min": 4.5
+    },
+    {
+      "name": "nav and footer text on navy",
+      "fg": "--ca-on-navy",
+      "bg": "--ca-navy",
+      "min": 4.5
+    },
+    {
+      "name": "evidence chip Strong (white on navy)",
+      "fg": "--ca-on-navy",
+      "bg": "--ca-navy",
+      "min": 4.5
+    },
+    {
+      "name": "evidence chip Moderate (navy on surface)",
+      "fg": "--ca-navy",
+      "bg": "--ca-surface",
+      "min": 4.5
+    },
+    {
+      "name": "evidence chip Limited/None (muted-strong on surface)",
+      "fg": "--ca-muted-strong",
+      "bg": "--ca-surface",
+      "min": 4.5
+    },
+    {
+      "name": "tag (navy on tint)",
+      "fg": "--ca-navy",
+      "bg": "--ca-tint",
+      "min": 4.5
+    },
+    {
+      "name": "small red text on white (accent-dark)",
+      "fg": "--ca-accent-dark",
+      "bg": "--ca-surface",
+      "min": 4.5
+    },
+    {
+      "name": "red accent as large text or rule on paper",
+      "fg": "--ca-accent",
+      "bg": "--ca-paper",
+      "min": 3.0
+    },
+    {
+      "name": "focus outline (link blue) against paper",
+      "fg": "--ca-link",
+      "bg": "--ca-paper",
+      "min": 3.0
+    },
+    {
+      "name": "focus outline on navy nav and footer (white)",
+      "fg": "--ca-on-navy",
+      "bg": "--ca-navy",
+      "min": 3.0
+    }
+  ],
+  "budgets_bytes": {
+    "css_total": 40000,
+    "js_total": 15000,
+    "html_page_default": 120000,
+    "html_page_exceptions": {
+      "evidence/claims.html": 400000,
+      "evidence/sources.html": 250000,
+      "organisations/index.html": 250000,
+      "evidence/verification.html": 200000
+    },
+    "markdown_page_default": 120000,
+    "llms_full_txt": 3000000
+  },
+  "inline_components": {
+    "_about": "Bordered elements that are not containers: chips (labels), controls (buttons, inputs) and data tables. Registered so the card check can tell them apart from cards.",
+    "chip": [
+      ".badge",
+      ".fcat",
+      ".tag"
+    ],
+    "control": [
+      ".btn",
+      ".btn.secondary",
+      ".btn-clear",
+      ".btn-more",
+      ".filters select",
+      ".ex-search input"
+    ],
+    "data": [
+      ".table-wrap",
+      ".prose table",
+      "table"
+    ]
+  }
+}

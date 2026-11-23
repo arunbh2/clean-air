@@ -776,7 +776,7 @@ FLOWS = [
 
 # ---------- candidates (incl. exclusions) ----------
 CAND = [
- ("GreenHub (Viet Nam)", "vietnam", "NGO", "not published", "Own site failed TLS; USAID fact sheet unreachable; role known only from search snippets", "https://www.greenhub.org.vn/cagc-en"),
+ ("GreenHub (Viet Nam)", "vietnam", "NGO", "not published", "Own site could not be reached (TLS error); USAID fact sheet unreachable; role known only from search snippets", "https://www.greenhub.org.vn/cagc-en"),
  ("Viet Nam Green Generation Network", "vietnam", "Youth network", "not published", "Named only in a search snippet of a partner page", ""),
  ("GreenID (Viet Nam)", "vietnam", "NGO", "not published", "Current clean-air activity not verified from a primary page", ""),
  ("Clean Air Asia country networks", "regional", "Network", "not published", "Site returns HTTP 403 to automated access; not bypassed", "https://www.cleanairasia.org/who-we-are/country-networks"),

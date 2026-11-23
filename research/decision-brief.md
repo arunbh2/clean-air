@@ -41,7 +41,7 @@ The strongest opportunities for a foundation are therefore not new pieces of cle
 | **Transition costs** fall on workers | **No adequate evidence found** on outcomes | Kiln conversion cuts emissions; workers' pay and debt unmeasured [C069][C071] |
 | **School closures** disrupt learning and care | **Limited/mixed** | Up to 15 days of closures; unequal digital access [C054][C055] |
 
-National GDP-loss estimates (US$36.8 billion in 2019 [C018]) describe the economy. They do not describe a household's finances and should not be used as if they did.
+National GDP-loss estimates (US$36.8 billion in 2019 [C018]) describe the economy. They do not describe a household's finances and are not a measure of household finances.
 
 ## Geographic differences
 
@@ -106,10 +106,10 @@ Classroom purifiers clean the air, but in the Delhi trial children's outcomes la
 4. Whether respirator programmes cut outdoor workers' exposure in practice (G4).
 5. What happens to kiln workers after conversion (G6).
 
-## Decisions a foundation must make
+## Decisions for a foundation
 
 1. **Protection of income, or protection of lungs, or both?** The evidence is strongest that restriction-driven income loss is avoidable and that existing law can address it. Exposure protection for workers is needed but less proven.
 2. **Build new things, or make existing institutions deliver?** Welfare boards, school systems, shelter agencies and health departments already carry legal duties. Grants that strengthen their delivery can outlast themselves. Grants that create parallel assets usually cannot.
-3. **How fast to move beyond Delhi-NCR?** The priority groups are anchored where duties, data and partners exist. The same groups live in Patna, Lucknow and Mumbai, and the largest unseen burden lies in under-monitored districts. A second city should be chosen once the first season's results show what transfers.
+3. **How fast to move beyond Delhi-NCR?** The priority groups are anchored where duties, data and partners exist. The same groups live in Patna, Lucknow and Mumbai, and the largest unseen burden lies in under-monitored districts. A second city can be chosen once the first season's results show what transfers.
 
 *Every bracketed reference resolves to a sourced claim in the accompanying register. Full report, tables and sources: `/research`.*

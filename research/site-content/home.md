@@ -24,7 +24,7 @@ People who work in traffic breathe far more than fixed monitors record [C031]. I
 
 ## How health connects to work, income and care
 
-Illness can cost earnings and add medical bills [C047]. But the best-documented income loss comes from pollution control itself. When Delhi's emergency plan stops construction, the law says idled workers must be paid, yet compensation reaches registered workers far more often than migrants [C039][C041][C044]. When schools close, children without devices lose most, and caregivers lose working time [C054][C055].
+Illness can cost earnings and add medical bills [C047]. But the best-documented income loss comes from pollution control itself. When Delhi's emergency plan stops construction, the law says idled workers are to be paid, yet compensation reaches registered workers far more often than migrants [C039][C041][C044]. When schools close, children without devices lose most, and caregivers lose working time [C054][C055].
 
 ## What you can explore
 

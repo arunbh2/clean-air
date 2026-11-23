@@ -1,0 +1,6 @@
+/* Deliberately bad CSS: every guardrail must fire on this file. Never loaded by the site. */
+:root{ --ca-go:#22AA44; }
+.promo-card{ background:var(--ca-surface); border:1px solid var(--ca-rule); border-left:6px solid var(--ca-accent); border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,.3); }
+.hero{ background:linear-gradient(90deg, #ff0000, #0000ff); text-shadow:0 0 12px #fff; font-family:"Anton", sans-serif; }
+.tiny{ font-size:9px; color:green; }
+.badge-proven{ background:#22AA44; }

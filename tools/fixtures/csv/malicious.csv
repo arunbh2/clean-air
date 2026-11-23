@@ -1,0 +1,15 @@
+id,value,expect
+1,=1+1,escape
+2,+cmd|' /C calc'!A0,escape
+3,-2+3,escape
+4,@SUM(A1:A2),escape
+5,"	=tab-led",escape
+6,"  =space-led",escape
+7,"
+=newline-led",escape
+8,-3.5,keep
+9,+12,keep
+10,45%,keep
+11,Plain text - with a dash,keep
+12,1-2 June 2025,keep
+13,,keep

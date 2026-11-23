@@ -19,16 +19,16 @@ errs, warns = [], []
 for c in claims.values():
     for s in filter(None, c["source_ids"].split(";")):
         if s not in src: errs.append(f"{c['claim_id']}: unknown source {s}")
-RATINGS = {"Strong","Moderate","Limited/mixed","No adequate evidence found","Limited","—"}
+RATINGS = {"Strong","Moderate","Limited/mixed","No adequate evidence found","Limited","—","Not applicable"}
 for f in glob.glob(os.path.join(D, "*.csv")):
     name = os.path.basename(f)
     if name in ("sources.csv", "claims.csv"): continue
     for i, r in enumerate(csv.DictReader(open(f)), 2):
         for col in ("claim_ids",):
-            for cid in filter(lambda x: x and x != "—", r.get(col, "").split(";")):
+            for cid in filter(lambda x: x and x not in ("—","Not applicable","Not recorded","None recorded"), r.get(col, "").split(";")):
                 if cid not in claims: errs.append(f"{name}:{i} unknown claim {cid}")
                 elif claims[cid]["status"] == "provisional": warns.append(f"{name}:{i} cites provisional {cid}")
-        for sid in filter(lambda x: x and x != "—", r.get("source_ids", "").split(";")):
+        for sid in filter(lambda x: x and x not in ("—","Not applicable","Not recorded","None recorded"), r.get("source_ids", "").split(";")):
             if sid not in src: errs.append(f"{name}:{i} unknown source {sid}")
         for sid in filter(None, r.get("related_settings", "").split(";")):
             if sid not in settings: errs.append(f"{name}:{i} unknown setting {sid}")
@@ -127,7 +127,7 @@ if os.path.exists(os.path.join(D, "projects.csv")):
         if p["status"].startswith(("operating", "active")) and p["end_date"] and p["end_date"] < CUT[:7]: errs.append(f"projects.csv {pid}: ended but labelled {p['status']}")
         if p["air_quality_objective"] not in ("primary", "co-benefit", "unverified co-benefit"): errs.append(f"projects.csv {pid}: bad air_quality_objective")
         if re.search(r"\d", p["outcomes_measured"]) and "independent" not in p["evaluation_type"].lower() and "organisation-reported" not in p["outputs_reported"]:
-            warns.append(f"projects.csv {pid}: numeric outcome without independent evaluation — check wording")
+            warns.append(f"projects.csv {pid}: numeric outcome without independent evaluation: check wording")
     ROLES_OK = {"grantmaker", "co-funder", "lender", "borrower", "implementer", "delivery partner", "technical partner", "supplier", "evaluator",
                 "regulator", "public duty holder", "operator", "network member"}
     for i, r in enumerate(load("organisation-project-roles.csv"), 2):
@@ -145,6 +145,50 @@ if os.path.exists(os.path.join(D, "projects.csv")):
             elif f["amount"] and S_ROWS[sid]["access_status"] == "search-snippet-only": errs.append(f"flows:{i} amount rests on a snippet")
         if f["amount"] and not (f["original_currency"] and f["approval_year"] and f["commitment_or_disbursement"]): errs.append(f"flows:{i} amount without currency/year/stage")
     print(f"atlas: {len(O)} organisations, {len(projs)} projects, {len(load('organisation-project-roles.csv'))} roles, {len(load('funding-flows.csv'))} flows")
+# ---- three-audience governance gates (docs/three-audiences-governance-brief.md, sections 4 and 5) ----
+STATES = {"passage_found", "source_accessible_passage_not_found", "not_accessible", "needs_manual_review"}
+LAST_LEGACY_CLAIM = 222          # claims up to C222 predate passage-level gating; later claims must have a located passage
+if os.path.exists(os.path.join(D, "claim-passages.csv")):
+    pas = {r["claim_id"]: r for r in load("claim-passages.csv")}
+    for cid, c in claims.items():
+        if c["status"] not in ("read", "provisional", "withdrawn"): errs.append(f"claims.csv {cid}: unknown status '{c['status']}'")
+        r = pas.get(cid)
+        if not r: errs.append(f"claim-passages.csv: no passage-level check for {cid} (run research/analysis/passages.py)"); continue
+        if r["verification_state"] not in STATES: errs.append(f"claim-passages.csv {cid}: unknown state {r['verification_state']}")
+        if int(cid[1:]) > LAST_LEGACY_CLAIM and c["status"] == "read" and r["verification_state"] != "passage_found":
+            errs.append(f"{cid}: new claim marked 'read' but no supporting passage located ({r['verification_state']}); mark provisional or locate the passage")
+        if r["verification_state"] == "passage_found" and not r["locator_excerpt"]: errs.append(f"claim-passages.csv {cid}: passage_found without excerpt")
+    for cid in pas:
+        if cid not in claims: errs.append(f"claim-passages.csv: unknown claim {cid}")
+else:
+    errs.append("claim-passages.csv missing (run research/analysis/passages.py)")
+CHANGE_TYPES = {"corrected", "withdrawn", "superseded", "source-added", "url-changed", "status-changed", "reworded"}
+if os.path.exists(os.path.join(D, "corrections.csv")):
+    seen = set()
+    for i, r in enumerate(load("corrections.csv"), 2):
+        if r["correction_id"] in seen: errs.append(f"corrections.csv:{i} duplicate id {r['correction_id']}")
+        seen.add(r["correction_id"])
+        if r["change_type"] not in CHANGE_TYPES: errs.append(f"corrections.csv:{i} unknown change_type {r['change_type']}")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", r["date"]): errs.append(f"corrections.csv:{i} bad date")
+        if r["record_type"] == "claim" and r["record_id"] not in claims: errs.append(f"corrections.csv:{i} unknown claim {r['record_id']}")
+        if r["change_type"] == "withdrawn" and claims.get(r["record_id"], {}).get("status") != "withdrawn":
+            errs.append(f"corrections.csv:{i} withdraws {r['record_id']} but claims.csv status is not 'withdrawn'")
+        if not r["reason"]: errs.append(f"corrections.csv:{i} no reason")
+    for cid, c in claims.items():
+        if c["status"] == "withdrawn" and not any(r["record_id"] == cid and r["change_type"] == "withdrawn" for r in load("corrections.csv")):
+            errs.append(f"{cid}: withdrawn without a corrections.csv entry")
+qdir = os.path.join(R, "site-content", "questions")
+if os.path.isdir(qdir):
+    import yaml
+    orgs_ = {r["org_id"] for r in load("organisations.csv")}; progs_ = {r["programme_id"] for r in load("programmes.csv")}
+    gaps_ = {r["gap_id"] for r in load("evidence-gaps.csv")}
+    for f in sorted(glob.glob(os.path.join(qdir, "*.md"))):
+        m = re.match(r"\A---\n(.*?)\n---\n(.*)\Z", open(f).read(), re.S); fm = yaml.safe_load(m.group(1)); body = m.group(2)
+        for k, pool in (("org_ids", orgs_), ("claim_ids", claims), ("intervention_ids", ints), ("programme_ids", progs_), ("gap_ids", gaps_)):
+            for x in fm.get(k, []) or []:
+                if x not in pool: errs.append(f"{os.path.basename(f)}: unknown {k[:-1]} {x}")
+        for tok, ref in re.findall(r"\{\{(\w+):([\w-]+)\}\}", body):
+            if ref not in progs_ and ref not in ints: errs.append(f"{os.path.basename(f)}: token {{{{{tok}:{ref}}}}} references unknown record")
 print(f"{len(claims)} claims, {len(src)} sources, {len(ints)} interventions")
 for w in sorted(set(warns)): print("WARN", w)
 for e in errs: print("ERROR", e)

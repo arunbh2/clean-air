@@ -64,3 +64,7 @@ The design follows `docs/design-brief.md`:
 - The research cutoff (22 November 2026) appears in the header, footer, homepage and downloads.
 - GitHub Pages: `.github/workflows/pages.yml` builds on every pull request and deploys on every push to `main`. In repository Settings → Pages, the source must be "GitHub Actions".
 - Before deploying, run the Phase 4 QA checks in `site/qa/`.
+
+## Validation (three-audience governance)
+
+Run `python3 tools/check_all.py` (add `--browser` for the Playwright and axe suite). It validates the registers, builds the site, Markdown mirrors, packs and agent files, and runs every voice, design, link, agent-file, format, CSV and propagation check. See `docs/three-audiences-maintenance.md`.
