@@ -45,7 +45,7 @@ Every record starts as **source record, not assessed**. A curator can move it fo
 3. **Proposed for the evidence register:** a new claim or an amendment is drafted through the normal research process, with a located passage.
 4. **Linked to the evidence register:** allowed only when a claim in a dated research edition cites this source. The feed cannot create a claim or change a rating.
 
-**Who reviews.** Reviews are carried out by the editor, or by an AI reviewer working on the editor's behalf. Both follow the same rules: the source is read before any note is written, each note records what it rests on, and no review can create a claim or change a rating.
+**How reviews work.** Every review follows the same rules: the source is read before any note is written, each note records what it rests on, and no review can create a claim or change a rating.
 
 Funding announcements stay apart from verified funding records. An amount appears only after its stage (requested, announced, pledged, approved, contracted, disbursed or evaluated), currency and source have been checked, and it is never added to a funding total on this site.
 

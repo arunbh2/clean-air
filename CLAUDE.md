@@ -147,7 +147,7 @@ Every change serves the human reader, the maintainer and the AI agent from **one
   only from reviewed rows in `review-decisions.csv`. Unverified amounts never enter funding totals. `feed.xml` stays reserved for site updates and corrections.
 - **Reviewers (owner decision, 23 November 2026):** the owner and Claude both review signals. Records show "Reviewed by Clean Air" with no
   per-record attribution (owner decision); the `reviewer` column in `review-decisions.csv` keeps the internal record (Claude uses
-  `AI reviewer (Claude), delegated by the editor`), and the how-it-works page states that reviews are by the editor or an AI reviewer acting for them.
+  `AI reviewer (Claude), delegated by the editor`). Public pages name no reviewer and do not say whether a person or an AI reviewed (owner decision).
   Read the source before any note; never write a claim or change a rating from a signal.
 - Enforced by `tools/signals/test_signals.py`, `tools/signals/validate.py`, `tools/check_signals.py` and `tools/signals/test_base_url.py` (all in `tools/check_all.py`).
   Audit and owner decisions: `docs/LIVE_SIGNALS_AUDIT.md`. Method: `docs/live-signals-method.md`. Maintenance: `docs/live-signals-maintenance.md`.
