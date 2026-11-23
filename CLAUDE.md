@@ -13,6 +13,7 @@ Descriptor: *Air pollution, livelihoods and unequal protection.* Tagline: *Share
 | `docs/design-brief.md` | How the site looks: colour, type, logo, layout, visual checks | — (visual polish must never distort the evidence) |
 | `docs/clean-air-10x-expansion-brief.md` | The current mandate: regional expansion, layered reading, funding atlas, decision pathways | the site brief on scope and structure; never over the evidence standards, cutoff, claim/source IDs or design tokens above |
 | `docs/organisations-10x-brief.md` | The Organisations section: ecosystem atlas, organisation–project–funder links, private-sector diligence | the site brief on the Organisations section only; never over the evidence standards, cutoff, IDs or design tokens above |
+| `docs/three-audiences-governance-brief.md` | Cross-cutting quality layer: editorial voice, design guardrails, passage-level verification, corrections sync, agent-readable exports (llms.txt, Markdown mirrors, packs) | adds requirements across all sections; never over the evidence standards, cutoff, IDs, verdicts or design tokens above (conflicts are documented, not silently resolved) |
 
 The website **is** in scope. The site brief overrides the research brief's line about not building one.
 The expansion brief (owner instruction, 22 November 2026) is the updated mandate. It extends the site in place: keep existing
