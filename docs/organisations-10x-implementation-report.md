@@ -102,7 +102,7 @@ Fewer were published because each one needed a primary source we could read, and
   - UNDP Viet Nam (403).
 
   An attempt to fetch blocked pages with a browser user agent was refused by the session's safety controls and not repeated.
-- Source and claim verification re-run: see section 7.
+- Source and claim verification re-run on 23 November 2026: 177 of 180 sources reachable (all 70 new ones); 218 of 222 claims supported. Details in `research/VERIFICATION.md`.
 
 ## 5. Unverified candidates and exclusions
 
@@ -132,4 +132,35 @@ Bicara Udara is not described as a mothers' group because its pages do not say s
 
 ## 7. Validation, tests and deployment
 
-Results are in section 8, filled in after the final runs.
+All run on the final build (279 pages):
+
+| Check | Result |
+|---|---|
+| `python3 research/analysis/validate.py` | 0 errors. One expected warning: J020 has a figure in its outcome field (a stated 30% potential, labelled as not measured) |
+| `node site/qa/qa.js` | 26 of 26 checks pass |
+| axe, WCAG 2.1 and 2.2 A/AA (target size added) | 0 violations on all 279 pages. Citation links and small lists were enlarged to 24 px targets |
+| Explorer | Every one of the 8 filters narrows results; search works; the no-results message shows; the live count is announced; the business preset shows only companies |
+| Comparison tools | Capped at three, for both interventions and organisations |
+| Profiles | No empty profiles: all 95 have a summary, sources and the four evidence rows |
+| Links and anchors | 0 broken internal links or anchors; first-edition anchors (`#cpcb`, `#mht`, ...) still resolve |
+| Citations | 1,502, all resolving to a claim |
+| Layout | No horizontal scroll at 320 px; none at 200% text |
+| Print and logos | Print hides navigation and produces a PDF; logos are vector-only with transparent backgrounds |
+| Weight | Homepage 58 KB. The Organisations hub is 170 KB raw (34 KB gzipped) and shows 10 cards on phones, then "Show more" |
+| Data export | Valid JSON with no e-mail addresses |
+| `python3 site/qa/rating_change_test.py` | Pass |
+| Manual sample | 24 organisations and 42 claims checked figure by figure against source text: all found |
+| Without JavaScript | Every card is listed and the original table is reachable; the filters and presets are hidden |
+
+Screenshots at 390 px and 1280 px are in `docs/screenshots/organisations/`: hub, a profile, Follow the money, Who is missing.
+
+**Deployment.** The branch is pushed. GitHub Pages deploys when `main` changes (pull requests build only). This work goes live when it is merged into `main`. No pull request has been opened yet.
+
+**Remaining work.**
+- Read the World Bank and ADB results frameworks, and the six queued foundations' grant databases.
+- Fetch the Airparif challenge results and Indi-SET's per-device PM2.5 results.
+- Find grant amounts for the 39 flows that have none.
+- Find community and worker groups in Pakistan, Thailand and Viet Nam.
+- Cover Lao PDR, Myanmar, Timor-Leste and Singapore.
+- Verify Clean Air Asia, GreenHub and HACCAP from their own records.
+- Run screen-reader testing and lay-reader tests of the five acceptance scenarios.

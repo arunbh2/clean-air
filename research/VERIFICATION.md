@@ -76,3 +76,20 @@ Run on 22 November 2026 after the regional expansion added `S069`–`S110` and `
 - **Numbers written in words.** Two abstracts write their sample sizes in words, which the figure check cannot match. Those were confirmed by reading the abstracts.
 - **Correction.** C152 was corrected from 59% to 58.7%, the figure stated in the abstract.
 - **Funding records** (`programmes.csv`) cite the same sources as their claims. Amounts appear only where a primary record states them. The validator rejects an amount that rests on a search snippet.
+
+## Organisations atlas verification (same cutoff)
+
+Run on 23 November 2026 after the atlas added `S111`–`S180` and `C154`–`C222`.
+
+| | Count |
+|---|---|
+| Sources re-fetched (all) | 180 |
+| Sources reachable | 177 (the same three unreachable as before: S028, S082, S110) |
+| New sources reachable | 70 of 70 |
+| New claims | 69: figures found in source for 32; 37 qualitative claims read against the source text |
+| Claims supported after review (all) | 218 of 222 |
+
+**Method notes.**
+- Clean Air Fund grant listings were parsed from all 79 listing pages; each grant is cited to the page it appeared on, and listing order can shift.
+- Funder awardee pages describe planned activities; claims say "supports" or "plans", never "achieved".
+- A 24-organisation sample (42 claims across Nepal, Pakistan, Bangladesh, Indonesia, Thailand, Viet Nam, Philippines, India, Bhutan and the ASEAN region; NGOs, community groups, companies, funders, public bodies) was re-checked figure by figure against cached source text: all figures found.

@@ -150,5 +150,74 @@ C148,S105,40,,figures found,read,supported,none,all checked figures found in re-
 C149,S106,2.5 21 29 33 35 83,,figures found,read,supported,none,all checked figures found in re-fetched source text
 C150,S106,30 59,,figures found,read,supported,none,all checked figures found in re-fetched source text
 C151,S108,228 63,228,partly found,read,supported,none,sample size written in words in abstract
-C152,S109,298 44 59 65,59,partly found,read,supported,corrected,corrected to 58.7% to match abstract
+C152,S109,298 44 58.7 65,,figures found,read,supported,corrected,corrected to 58.7% to match abstract
 C153,S110,,,source unreachable,provisional,unverified: source blocked or abstract unavailable,kept provisional,primary page blocked or not accessible
+C154,S125,1.5 18 39,,figures found,read,supported,,Figures found in source on re-fetch
+C155,S145,20 50,,figures found,read,supported,,Figures found in source on re-fetch
+C156,S116,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C157,S116,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C158,S116,10,,figures found,read,supported,,Figures found in source on re-fetch
+C159,S116;S123,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C160,S116,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C161,S117,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C162,S117,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C163,S117,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C164,S116;S118;S119,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C165,S119,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C166,S120;S121,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C167,S116;S124;S050,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C168,S112,40,,figures found,read,supported,,Figures found in source on re-fetch
+C169,S114;S115,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C170,S092;S111,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C171,S113,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C172,S122,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C173,S132,2.5 70,,figures found,read,supported,,Figures found in source on re-fetch
+C174,S133,21,,figures found,read,supported,,Figures found in source on re-fetch
+C175,S134,40,,figures found,read,supported,,Figures found in source on re-fetch
+C176,S136,10 160,,figures found,read,supported,,Figures found in source on re-fetch
+C177,S135,10,,figures found,read,supported,,Figures found in source on re-fetch
+C178,S137,15 2.5,,figures found,read,supported,,Figures found in source on re-fetch
+C179,S126,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C180,S127,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C181,S129,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C182,S130,2.5,,figures found,read,supported,,Figures found in source on re-fetch
+C183,S128,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C184,S131,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C185,S138,1500 2.5 40 80,,figures found,read,supported,,Figures found in source on re-fetch
+C186,S139,10 12 2.5,,figures found,read,supported,,Figures found in source on re-fetch
+C187,S171,30,,figures found,read,supported,,Figures found in source on re-fetch
+C188,S172,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C189,S140,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C190,S140,175 2.5 93,,figures found,read,supported,,Figures found in source on re-fetch
+C191,S168,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C192,S169,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C193,S170,38,,figures found,read,supported,,Figures found in source on re-fetch
+C194,S154,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C195,S155,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C196,S156,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C197,S158,10 2.5,,figures found,read,supported,,Figures found in source on re-fetch
+C198,S159,129,,figures found,read,supported,,Figures found in source on re-fetch
+C199,S160,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C200,S161,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C201,S162,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C202,S163;S164;S165,48,,figures found,read,supported,,Figures found in source on re-fetch
+C203,S141,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C204,S142;S147,100,,figures found,read,supported,,Figures found in source on re-fetch
+C205,S143,219 23,,figures found,read,supported,,Figures found in source on re-fetch
+C206,S144,14 19 50,,figures found,read,supported,,Figures found in source on re-fetch
+C207,S146,10 2.5,,figures found,read,supported,,Figures found in source on re-fetch
+C208,S166,16,,figures found,read,supported,,Figures found in source on re-fetch
+C209,S167,13,,figures found,read,supported,,Figures found in source on re-fetch
+C210,S148,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C211,S149,28,,figures found,read,supported,,Figures found in source on re-fetch
+C212,S150;S151,20 21 309 414,,figures found,read,supported,,Figures found in source on re-fetch
+C213,S152,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C214,S153,10 1700,,figures found,read,supported,,Figures found in source on re-fetch
+C215,S173,69 93,,figures found,read,supported,,Figures found in source on re-fetch
+C216,S174,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C217,S176,10609 3788990 77477969,,figures found,read,supported,,Figures found in source on re-fetch
+C218,S175,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C219,S177,350 500,,figures found,read,supported,,Figures found in source on re-fetch
+C220,S178,43,,figures found,read,supported,,Figures found in source on re-fetch
+C221,S179,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
+C222,S180,,,no figures: manual check,read,supported,,Qualitative: claim read against source text on 2026-11-23 (atlas edition)
