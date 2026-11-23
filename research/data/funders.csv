@@ -1,0 +1,22 @@
+funder_id,name,type,role_in_this_edition,programme_ids,verification,source_ids,notes
+world-bank,World Bank (IBRD/IDA),multilateral development bank,"Lender for state and national clean-air programmes in Bangladesh, India, Nepal and Pakistan",P01;P02;P03;P04;P05;P06,verified: own press releases,S069;S070;S071;S051;S072,Board approvals verified; disbursements not checked
+adb,Asian Development Bank,multilateral development bank,Regional technical assistance under Asia Clean Blue Skies; Southeast Asia city assessment,P07,verified: project data sheet,S078;S077,
+japan-jcm,Japan Fund for the Joint Crediting Mechanism,bilateral trust fund (ADB-administered),Co-source of ADB TA 10537-REG,P07,verified: ADB data sheet,S078,
+fcdo,"UK Foreign, Commonwealth and Development Office",bilateral donor,Funds the World Bank Resilient Asia Program grant to Nepal; Climate Action for a Resilient Asia,P03,verified: World Bank release names it,S070;S072,Own records not checked
+sdc,Swiss Agency for Development and Cooperation,bilateral donor,Co-funds the Resilient Asia Program grant to Nepal; earlier IGP transboundary support,P03,verified: World Bank release names it,S070,See also C094
+clean-air-fund,Clean Air Fund,philanthropic intermediary,Grants in India and Indonesia; community monitoring; funding analysis,P08;P09;P10;P11;P12;P17,funder account (own pages),S049;S079;S080;S093;S091,Grant amounts not published on pages read
+bloomberg-philanthropies,Bloomberg Philanthropies,philanthropic foundation,Partner in Breathe Cities (Jakarta named); funded the Patna source-apportionment study,P10,named by partners (Clean Air Fund; TERI),S079;S031,Own grant records not checked
+c40,C40 Cities,"city network (partner, not confirmed as funder)",Partner in Breathe Cities,P10,named by partner,S079,Role may be delivery partner rather than funder
+ccac,Climate and Clean Air Coalition (UNEP-hosted),UN coalition fund,Funds the Cambodia rice-straw project,P13,search snippet only,S082,Provisional
+gef,Global Environment Facility,multilateral fund,Reported funder of E-Mobility ASAP (Philippines),P16,search snippet only,S088,Provisional
+wellcome,Wellcome,philanthropic research funder,PREDICT-ASIA research grant,P15,verified: own grant page,S083,
+thailand-government,Government of Thailand (MHESI and Ministry of Agriculture),national government,Zero Burn to Earn pilot,P14,government account,S085,
+moefcc,"Government of India: Ministry of Environment, Forest and Climate Change",national government,NCAP performance-linked grants,P19,verified: government backgrounder,S004,
+msje,Government of India: Ministry of Social Justice and Empowerment,national government,NAMASTE scheme,P20,verified: federation account and ministry figures in news,S062,
+delhi-bocw-board,Delhi Building and Other Construction Workers Welfare Board,state statutory board,GRAP compensation payments,P18,verified via court and news reporting,S016,
+ciff,Children's Investment Fund Foundation,philanthropic foundation,No specific South or Southeast Asian clean-air grant verified in this edition,,research queue,,
+ikea-foundation,IKEA Foundation,philanthropic foundation,No specific South or Southeast Asian clean-air grant verified in this edition,,research queue,,
+sequoia-climate,Sequoia Climate Foundation,philanthropic foundation,No specific South or Southeast Asian clean-air grant verified in this edition,,research queue,,
+mccall-macbain,McCall MacBain Foundation,philanthropic foundation,No specific South or Southeast Asian clean-air grant verified in this edition,,research queue,,
+open-philanthropy,Open Philanthropy,philanthropic funder,No specific South or Southeast Asian clean-air grant verified in this edition,,research queue,,
+bezos-earth-fund,Bezos Earth Fund,philanthropic foundation,No specific South or Southeast Asian clean-air grant verified in this edition,,research queue,,

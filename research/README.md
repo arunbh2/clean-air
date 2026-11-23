@@ -53,7 +53,7 @@ The script exits non-zero if any claim, source or intervention reference fails t
 
 ## Status at the end of Phase 1
 
-- 110 claims from 68 sources; 109 verified in Phase 2 (see `VERIFICATION.md`).
-- 2 claims remain provisional (C034, C056).
+- 153 claims from 110 sources; 149 verified (see `VERIFICATION.md`). Regional expansion: countries, programmes, funders, glossary and decision pathways (see `docs/IMPLEMENTATION_REPORT.md`).
+- 5 claims remain provisional (C034, C056, C135, C138, C153).
 - Several official sites could not be reached from the research environment: `cpcb.nic.in` (TLS), CEEW PDFs and Lancet pages (blocked), and some NCDC files (missing).
 - Hindi-language sources were searched only lightly.

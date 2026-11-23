@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>What not to mistake for a solution</h1>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Some popular measures are visible and easy to announce but do little for the air people breathe, or have no good evidence yet. Personal protection can reduce exposure, but it can never replace cutting pollution at its source {{ "C077;C085"|claims(rel)|safe }}.</p></section>
+{% for i in nots %}
+<article class="section-rule">
+<h2 id="{{ i.int_id }}"><a href="{{ i.int_id }}.html">{{ i.intervention }}</a></h2>
+<p>{{ rec_badge(i.recommendation)|safe }} Works: {{ badge(i.evidence_intervention)|safe }}</p>
+<p class="measure">{{ i.evidence_reason }}</p>
+<p class="measure label-note"><strong>Where it may still help:</strong> {{ i.who_benefits }}. <strong>Better use of the money:</strong> {{ i.philanthropy_role }}</p>
+<p class="sans">Evidence: {{ i.claim_ids|claims(rel)|safe }}</p>
+</article>
+{% endfor %}
+<h2>Not yet assessed</h2>
+<p class="measure">Tree planting as a citywide cure, indoor plants, dashboards without action and symbolic one-day bans are often promoted. This edition did not gather enough sourced evidence to judge them. They are in the research queue, not ruled in or out.</p>
+{% endblock %}

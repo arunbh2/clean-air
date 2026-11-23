@@ -1,0 +1,22 @@
+{% extends "base.html" %}{% from "macros.html" import dl %}
+{% block content %}
+<h1>{{ c.name }}</h1>
+<p><span class="badge">{{ c.region }}</span> <span class="badge">Coverage: {{ c.coverage_status }}</span> <span class="label-note">Last reviewed {{ c.last_reviewed }} · Data year {{ c.data_year }}</span></p>
+<section class="layer simple" aria-label="The simple answer">
+<p class="simple-answer">{{ c.takeaway }}</p>
+<h2 class="layer-label">Three things a resident should know</h2>
+<ol>{% for pt in c.resident_points.split('|') if pt %}<li>{{ pt }}</li>{% endfor %}</ol>
+<p class="label-note">Evidence: {{ c.claim_ids|claims(rel)|safe }}</p>
+</section>
+<h2 class="layer-label">Where the evidence points</h2>
+{{ dl([("Average fine particles (PM2.5), 2023", (c.pm25_2023 ~ " µg/m³ (satellite estimate, AQLI; WHO guideline 5)")|e), ("National annual standard", c.national_annual_standard|e), ("Main sources", c.main_sources|e), ("How sure we are about sources", c.source_evidence_note|e), ("Who is most exposed", c.most_exposed|e), ("Who regulates, funds and delivers", c.who_acts|e), ("Interventions and experiments", c.interventions_and_experiments|e)]) }}
+{% if progs %}<h2>Who funded what here</h2>
+<div class="table-wrap"><table><caption>Verified funding records</caption><thead><tr><th scope="col">Programme</th><th scope="col">Funder</th><th scope="col">Amount</th><th scope="col">Stage</th><th scope="col">Results</th></tr></thead><tbody>
+{% for p in progs %}<tr><th scope="row"><a href="../organisations/funding/{{ p.programme_id|lower }}.html">{{ p.title }}</a></th><td>{% for f in p.funder_ids.split(';') %}{{ F_BY[f].name }}{% if not loop.last %}; {% endif %}{% endfor %}</td><td>{{ fmt_amount(p) }}</td><td>{{ p.approval_stage }}</td><td>{{ p.evidence_stage }}</td></tr>{% endfor %}
+</tbody></table></div>{% endif %}
+{% if rints %}<h2>Related responses</h2><ul class="card-list">{% for i in rints %}<li class="card"><h3><a href="../what-works/{{ i.int_id }}.html">{{ i.intervention }}</a></h3><p class="meta">{{ rec_badge(i.recommendation)|safe }} Works: {{ badge(i.evidence_intervention)|safe }}</p></li>{% endfor %}</ul>{% endif %}
+<h2 class="layer-label" id="deep">Explore the evidence, methods and decisions</h2>
+{{ dl([("What may transfer from elsewhere", c.transferable|e), ("What may not transfer", c.not_transferable|e), ("Gaps and open questions", c.gaps|e)]) }}
+{% if rsettings %}<p class="sans">Related Indian settings: {% for s in rsettings %}<a href="{{ s.setting_id }}.html">{{ s.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+<p class="notice">Country averages come from one consistent satellite-based estimate (AQLI, 2023) so countries can be compared fairly. They are not ground-monitor measurements, and they do not describe any one person's exposure. <a href="compare.html">How to compare countries fairly</a>.</p>
+{% endblock %}

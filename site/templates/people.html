@@ -1,7 +1,10 @@
-{% extends "base.html" %}{% from "macros.html" import articles_block, contents %}
+{% extends "base.html" %}{% from "macros.html" import simple_layer, deep_heading, articles_block, contents %}
 {% block content %}
 <h1>{{ sec.label }}</h1>
+{{ simple_layer(sec, rel) }}
+<h2 class="layer-label">Where the evidence points</h2>
 <p class="finding">{{ sec.intro }}</p>
+<p class="sans hubs"><a href="journey-street-vendor.html">Guided journey: a street vendor in Delhi</a></p>
 <h2>Explore a community</h2>
 <p class="measure">Each page sets out exposure, direct and knock-on impacts, what stops people protecting themselves, and how strong the evidence is. Groups marked as a priority are the focus of this dossier.</p>
 <ul class="card-list three">
@@ -12,5 +15,6 @@
 {% endfor %}
 </ul>
 {{ contents(articles) }}
+{{ deep_heading() }}
 {{ articles_block(articles) }}
 {% endblock %}

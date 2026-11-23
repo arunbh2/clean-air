@@ -49,6 +49,20 @@ S_BY = {s["setting_id"]: s for s in settings}
 I_BY = {i["int_id"]: i for i in ints}
 G_BY = {g["group_id"]: g for g in groups}
 sections = json.load(open(os.path.join(RES, "site-content", "sections.json"), encoding="utf-8"))
+def load_opt(name):
+    return load(name) if os.path.exists(os.path.join(DATA, name)) else []
+countries = load_opt("countries.csv")
+programmes = load_opt("programmes.csv")
+funders = load_opt("funders.csv")
+glossary = load_opt("glossary.csv")
+dpaths = load_opt("decision-pathways.csv")
+C_BY = {c["country_id"]: c for c in countries}
+P_BY = {p["programme_id"]: p for p in programmes}
+F_BY = {f["funder_id"]: f for f in funders}
+GAP_BY = {g["gap_id"]: g for g in gaps}
+DP_BY = {d["pathway_id"]: d for d in dpaths}
+ARROW = {"Strong": "well established", "Moderate": "supported but context dependent",
+         "Limited/mixed": "plausible / needs testing", "No adequate evidence found": "not yet established in this setting"}
 reports = {}
 for f in sorted(os.listdir(os.path.join(RES, "report"))):
     fm, body = front(os.path.join(RES, "report", f))
@@ -100,6 +114,31 @@ def md_inline(text, rel):
     h = MD.convert(cites(text or "", rel))
     return re.sub(r"^<p>(.*)</p>$", r"\1", h.strip(), flags=re.S)
 
+from bs4 import BeautifulSoup, NavigableString
+NO_AUTOLINK = {"association", "exposure", "dose", "board-approval", "modelled-estimate", "causal-evidence"}  # common words: glossary page only
+GLOSS = sorted([g for g in glossary if g["slug"] not in NO_AUTOLINK], key=lambda g: -len(g["term"]))
+def glossify(html_text, rel):
+    """Link the first use of each glossary term on a page ("Explain that")."""
+    if not GLOSS: return html_text
+    soup = BeautifulSoup(html_text, "html.parser"); used = set()
+    skip = ["a", "code", "h1", "h2", "h3", "h4", "summary", "th", "caption", "script", "style", "title", "button", "label", "option"]
+    queue = [n for n in soup.find_all(string=True) if not n.find_parent(skip)]
+    while queue:
+        node = queue.pop(0); text = str(node); best = None
+        for g in GLOSS:
+            if g["slug"] in used: continue
+            label = g["term"].split(" (")[0]
+            flags = 0 if sum(ch.isupper() for ch in label) >= 2 else re.I
+            m = re.search(r"(?<![\\w-])" + re.escape(label) + r"(?![\\w-])", text, flags)
+            if m and (best is None or m.start() < best[0].start()): best = (m, g)
+        if not best: continue
+        m, g = best; used.add(g["slug"])
+        link = soup.new_tag("a", href=f"{rel}crisis/glossary.html#{g['slug']}")
+        link["class"] = "term"; link["title"] = g["plain"]; link.string = m.group(0)
+        before, after = soup.new_string(text[:m.start()]), soup.new_string(text[m.end():])
+        node.replace_with(before); before.insert_after(link); link.insert_after(after)
+        queue.insert(0, after)
+    return str(soup)
 def rating_class(v):
     v = (v or "").lower()
     if "limited effect" in v or "no meaningful effect" in v or "of no effect" in v: return "negative"
@@ -116,7 +155,7 @@ def badge(v):
 def rec_badge(v):
     return f'<span class="badge {slug(v)}">{html.escape(v)}</span>' if v else ""
 
-env.globals.update(badge=badge, rec_badge=rec_badge, CUTOFF=CUTOFF, CUTOFF_ISO=CUTOFF_ISO, sections=sections, NAV=NAV)
+env.globals.update(ARROW=ARROW, badge=badge, rec_badge=rec_badge, CUTOFF=CUTOFF, CUTOFF_ISO=CUTOFF_ISO, sections=sections, NAV=NAV)
 env.filters["md"] = lambda t, rel: md_inline(t, rel)
 env.filters["claims"] = lambda ids, rel: claim_links(ids, rel)
 env.filters["slug"] = slug
@@ -131,6 +170,9 @@ def render(path, template, title, description, section=None, crumbs=None, **ctx)
     rel = "../" * depth
     out = env.get_template(template).render(rel=rel, path=path, title=title, description=description,
                                             section=section, crumbs=crumbs or [], **ctx)
+    if ctx.get("glossify", True) and "<main" in out:
+        a, rest = out.split("<main", 1); mid, b = rest.split("</main>", 1)
+        out = a + "<main" + glossify(mid, rel) + "</main>" + b
     full = os.path.join(DIST, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
     open(full, "w", encoding="utf-8").write(out)
@@ -157,7 +199,8 @@ for f in sorted(os.listdir(ex_dir)):
 # home
 hfm, hbody = front(os.path.join(RES, "site-content", "home.md"))
 prio_groups = [g for g in groups if g.get("priority_rank")]
-render("index.html", "home.html", "Clean Air", hfm["lede"], None, home=hfm,
+mfm, _ = front(os.path.join(RES, "site-content", "home-modules.md"))
+render("index.html", "home.html", "Clean Air", hfm["lede"], None, home=hfm, mods=mfm, I_BY=I_BY, GAP_BY=GAP_BY,
        body_html=md(hbody, "", 0), prio_groups=prio_groups)
 
 # section pages built from report sections
@@ -234,6 +277,90 @@ render("evidence/verification.html", "simple.html", "Verification record", "How 
        "evidence", ev_crumbs, body_html=md(re.sub(r"\A# .*\n", "", vbody), "../", 0))
 render("404.html", "simple.html", "Page not found", "Page not found.", None, [],
        body_html='<p>This page does not exist. Try the <a href="index.html">home page</a>.</p>')
+
+
+# ---------- expansion pages ----------
+def site_md(path):
+    fm, body = front(os.path.join(RES, "site-content", path)); return fm, body
+def fmt_amount(p):
+    if not p["amount"]: return "Not published" if p["amount_type"] else "Not established"
+    n = float(p["amount"]); cur = p["currency"]
+    txt = f"{cur} {n/1e9:,.2f} billion" if n >= 1e9 else (f"{cur} {n/1e6:,.2f} million" if n >= 1e6 else f"{cur} {n:,.0f}")
+    return f"{txt} ({p['amount_type']})"
+env.globals.update(fmt_amount=fmt_amount, C_BY=C_BY, P_BY=P_BY, F_BY=F_BY, I_BY=I_BY, G_BY=G_BY, S_BY=S_BY, GAP_BY=GAP_BY, DP_BY=DP_BY)
+home_c = [("Clean Air", "index.html")]
+# Start here, glossary
+sfm, sbody = site_md("start.md")
+render("start/index.html", "simple.html", sfm["title"], sfm["summary"], None, home_c, body_html=md(sbody, "../", 0))
+render("crisis/glossary.html", "glossary.html", "Glossary", "Plain-language definitions of the terms used on this site.", "crisis",
+       home_c + [("The crisis", "crisis/index.html")], terms=sorted(glossary, key=lambda g: g["term"].lower()), glossify=False)
+# journeys
+for story in sorted(os.listdir(os.path.join(RES, "site-content", "stories"))):
+    fm, body = site_md(os.path.join("stories", story))
+    out = "people/journey-street-vendor.html" if fm["id"] == "journey-street-vendor" else "support/journey-funder.html"
+    sec = fm["section"]; crumbs = home_c + [(sections[sec]["label"], f"{sec}/index.html")]
+    render(out, "story.html", fm["title"], fm["answer"], sec, crumbs, st=fm, body_html=md(body, "../", 0))
+# countries and regions
+active = [c for c in countries if c["coverage_status"] != "research queue"]
+for c in active:
+    if c["country_id"] == "india": continue
+    progs = [P_BY[x] for x in c["programme_ids"].split(";") if x in P_BY]
+    rel_s = [S_BY[x] for x in c["related_settings"].split(";") if x in S_BY]
+    rel_i = sorted({i for p in progs for i in p["intervention_ids"].split(";") if i in I_BY})
+    render(f"places/{c['country_id']}.html", "country.html", c["name"], c["takeaway"], "places",
+           home_c + [("Places", "places/index.html")], c=c, progs=progs, rsettings=rel_s, rints=[I_BY[i] for i in rel_i])
+for region, slug_ in [("South Asia", "south-asia"), ("Southeast Asia", "southeast-asia")]:
+    rc = [c for c in countries if c["region"] == region]
+    render(f"places/{slug_}.html", "region.html", region, f"{region}: country dossiers and what is still in the research queue.", "places",
+           home_c + [("Places", "places/index.html")], region=region, rcountries=rc, claims=claims)
+render("places/compare.html", "compare_places.html", "Comparing countries fairly", "Comparable indicators only: one source, one method, one year.", "places",
+       home_c + [("Places", "places/index.html")], cs=active)
+# funding atlas
+fa_c = home_c + [("Organisations", "organisations/index.html"), ("Who funded what?", "organisations/funding/index.html")]
+render("organisations/funding/index.html", "funding.html", "Who funded what?", "Verified grants, loans, technical assistance and public budgets, with stage, amount type and source.", "organisations",
+       home_c + [("Organisations", "organisations/index.html")], progs=programmes, funders=funders)
+for p_ in programmes:
+    render(f"organisations/funding/{p_['programme_id'].lower()}.html", "programme.html", p_["title"], p_["beneficiaries"], "organisations", fa_c, p=p_)
+for f in funders:
+    fp = [P_BY[x] for x in f["programme_ids"].split(";") if x in P_BY]
+    render(f"organisations/funders/{f['funder_id']}.html", "funder.html", f["name"], f["role_in_this_edition"], "organisations", fa_c, f=f, fprogs=fp)
+# what works: compare and not-a-solution
+ww_c = home_c + [("What works", "what-works/index.html")]
+render("what-works/compare.html", "compare.html", "Compare interventions", "Compare up to three interventions side by side, without a single score.", "what-works", ww_c, ints=ints)
+render("what-works/not-a-solution.html", "not_solution.html", "What not to mistake for a solution", "Popular measures that the evidence does not support as air-quality investments, and why.", "what-works", ww_c,
+       nots=[i for i in ints if i["recommendation"] == "Not recommended"])
+# decision pathways
+sp_c = home_c + [("Where support could make a difference", "support/index.html")]
+render("support/pathways/index.html", "pathways_index.html", "For funders and decision-makers", "Six decision pathways, from protecting people now to building investable systems.", "support", sp_c, dps=dpaths)
+for d in dpaths:
+    render(f"support/pathways/{d['pathway_id'].lower()}.html", "pathway.html", d["name"], d["plain_question"], "support",
+           sp_c + [("Pathways", "support/pathways/index.html")], d=d,
+           dprogs=[P_BY[x] for x in d["example_programme_ids"].split(";") if x in P_BY],
+           dints=[I_BY[x] for x in d["related_intervention_ids"].split(";") if x in I_BY])
+# footer pages
+for pg in sorted(os.listdir(os.path.join(RES, "site-content", "pages"))):
+    fm, body = site_md(os.path.join("pages", pg))
+    render(f"about/{pg.replace('.md', '.html')}", "simple.html", fm["title"], fm["summary"], None, home_c, body_html=md(body, "../", 0))
+# coverage dashboard
+from collections import Counter
+cov = {
+  "claims": len(claims), "claims_read": sum(1 for c in claims.values() if c["status"] == "read"),
+  "claims_prov": [c for c in claims.values() if c["status"] == "provisional"],
+  "sources": len(sources), "src_access": Counter(s["access_status"] for s in sources.values()),
+  "src_type": Counter(s["source_type"] for s in sources.values()),
+  "unreachable": [checks[k] for k in checks if checks[k]["reachable"] != "yes"],
+  "countries": Counter(c["coverage_status"].split(" (")[0] for c in countries),
+  "prog_cat": Counter(p["funding_category"] for p in programmes),
+  "prog_ver": Counter(p["relationship_verification"].split(":")[0] for p in programmes),
+  "prog_noamt": [p for p in programmes if not p["amount"]],
+  "int_class": Counter(i.get("intervention_class", "") for i in ints),
+  "int_ev": Counter(i["evidence_intervention"].split(" (")[0] for i in ints),
+  "funder_queue": [f for f in funders if f["verification"] == "research queue"],
+  "gaps": len(gaps), "glossary": len(glossary), "pathways": len(dpaths),
+  "verified": sum(1 for v in verif.values() if v.get("manual_verdict") == "supported"),
+}
+render("evidence/coverage.html", "coverage.html", "Coverage and quality", "What this edition covers, how well it is sourced, and what is still open.", "evidence",
+       home_c + [("Evidence", "evidence/index.html")], cov=cov, countries=countries)
 
 # sitemap
 open(os.path.join(DIST, "sitemap.txt"), "w").write("\n".join(sorted(pages)) + "\n")

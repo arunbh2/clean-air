@@ -12,3 +12,28 @@
 {% macro dl(pairs) %}
 <dl class="kv">{% for k, v in pairs if v %}<dt>{{ k }}</dt><dd>{{ v|safe }}</dd>{% endfor %}</dl>
 {% endmacro %}
+{% macro simple_layer(sec, rel) %}
+{% if sec.simple %}
+<section class="layer simple" aria-labelledby="simple-h">
+  <h2 id="simple-h" class="layer-label">The simple answer</h2>
+  <p class="simple-answer">{{ sec.simple.answer|md(rel)|safe }}</p>
+  <p class="layer-meta"><strong>Example:</strong> {{ sec.simple.example|md(rel)|safe }}</p>
+  <p class="layer-meta"><strong>Honest limit:</strong> {{ sec.simple.limitation|md(rel)|safe }}</p>
+</section>
+{% endif %}
+{% endmacro %}
+{% macro deep_heading() %}
+<h2 class="layer-label deep-label" id="deep">Explore the evidence, methods and decisions</h2>
+{% endmacro %}
+{% macro arrow_chain(steps, rel) %}
+<ol class="chain">
+{% for st in steps %}
+  <li class="chain-step">
+    <span class="chain-from">{{ st.from }}</span>
+    <span class="chain-arrow conf-{{ st.confidence|slug }}">→ <em>{{ ARROW.get(st.confidence, st.confidence) }}</em></span>
+    <span class="chain-to">{{ st.to }}</span>
+    <span class="chain-ev">{{ st.claims|claims(rel)|safe }}</span>
+  </li>
+{% endfor %}
+</ol>
+{% endmacro %}

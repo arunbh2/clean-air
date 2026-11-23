@@ -1,0 +1,20 @@
+{% extends "base.html" %}{% from "macros.html" import dl %}
+{% block content %}
+<h1>{{ p.title }}</h1>
+<p><span class="fcat {{ p.funding_category }}">{{ {'philanthropic':'Philanthropic grant','development-public':'Development or public finance','private-blended':'Private or blended','prospective':'Prospective (not an award)'}[p.funding_category] }}</span> <span class="label-note">{{ C_BY[p.country].name if p.country in C_BY else 'Regional' }} · {{ p.city_or_area }}</span></p>
+<dl class="kv">
+<dt>Funder</dt><dd>{% for f in p.funder_ids.split(';') %}<a href="../funders/{{ f }}.html">{{ F_BY[f].name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</dd>
+<dt>Instrument</dt><dd>{{ p.instrument }}</dd>
+<dt>Amount</dt><dd>{{ fmt_amount(p) }}</dd>
+<dt>Year</dt><dd>{{ p.nominal_year }}</dd>
+<dt>Implementer</dt><dd>{{ p.implementer }}</dd>
+<dt>Direct recipient</dt><dd>{{ p.direct_recipient }}</dd>
+<dt>Air quality aim</dt><dd>{{ p.air_quality_intent }}</dd>
+</dl>
+<h2>Three separate stages</h2>
+<dl class="kv"><dt>Approval</dt><dd>{{ p.approval_stage }}</dd><dt>Operation</dt><dd>{{ p.operational_stage }}</dd><dt>Evidence</dt><dd>{{ p.evidence_stage }}</dd></dl>
+{{ dl([("What it pays for", p.sector|e), ("Intended beneficiaries", p.beneficiaries|e), ("Public good or implementation", p.public_good_or_implementation|e), ("Documented outcome", p.documented_outcome|e), ("Evaluation quality", p.evaluation_quality|e), ("How the relationship was verified", p.relationship_verification|e), ("Notes", p.notes|e)]) }}
+{% if p.intervention_ids %}<p class="sans">Related responses: {% for i in p.intervention_ids.split(';') if i in I_BY %}<a href="../../what-works/{{ i }}.html">{{ I_BY[i].intervention }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+<details class="evidence" open><summary>Sources</summary><p class="sans">{% for s in p.source_ids.split(';') if s %}<a href="../../evidence/sources.html#{{ s }}">{{ s }}</a> {% endfor %} · Claims: {{ p.claim_ids|claims(rel)|safe }}</p></details>
+<p class="notice">This record describes funding and stated aims. It is not an endorsement or evidence that the programme works.</p>
+{% endblock %}

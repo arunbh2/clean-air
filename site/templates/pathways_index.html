@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>For funders and decision-makers</h1>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Six ways to think about where support could help, from protecting people now to building systems that keep working after a grant ends. Each one names who has to change what, real examples, what is known, what is not, and what would change the judgement.</p></section>
+<p class="notice">These pathways sit alongside the four dated India portfolio options of 22 November 2026, which remain unchanged. <a href="../index.html">See the India options</a>.</p>
+<ul class="card-list">{% for d in dps %}<li class="card"><h3><a href="{{ d.pathway_id|lower }}.html">{{ d.pathway_id }}. {{ d.name }}</a></h3><p>{{ d.plain_question }}</p><p class="meta">{{ d.infrastructure_type }} · {{ d.priority_link }}</p></li>{% endfor %}</ul>
+<h2>Four kinds of infrastructure</h2>
+<dl class="kv"><dt>Prevention</dt><dd>Cuts emissions at the source: cleaner kilns, buses, boilers.</dd><dt>Protective</dt><dd>Cleaner spaces, worker protection, health-system response.</dd><dt>Information and governance</dt><dd>Monitoring, open data, regulation, procurement, accountability.</dd><dt>Market and transition</dt><dd>Finance, equipment and service models, training, replacement livelihoods.</dd></dl>
+<p class="sans"><a href="../journey-funder.html">Take the funder's guided route</a></p>
+{% endblock %}

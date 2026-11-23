@@ -11,8 +11,12 @@ Descriptor: *Air pollution, livelihoods and unequal protection.* Tagline: *Share
 | `docs/site-brief.md` | What the site contains, its navigation, user journey and build rules | research brief |
 | `docs/research-brief.md` | Evidence, method, required outputs and the quality check | — |
 | `docs/design-brief.md` | How the site looks: colour, type, logo, layout, visual checks | — (visual polish must never distort the evidence) |
+| `docs/clean-air-10x-expansion-brief.md` | The current mandate: regional expansion, layered reading, funding atlas, decision pathways | the site brief on scope and structure; never over the evidence standards, cutoff, claim/source IDs or design tokens above |
 
 The website **is** in scope. The site brief overrides the research brief's line about not building one.
+The expansion brief (owner instruction, 22 November 2026) is the updated mandate. It extends the site in place: keep existing
+URLs, claim IDs (`Cnnn`), source IDs (`Snnn`), verdicts and the four India portfolio options as a dated baseline.
+New records append (`C111+`, `S069+`). Audit: `docs/CURRENT_STATE_AUDIT.md`.
 Reference logos: `docs/assets/wordmark.png` and `docs/assets/airflow-icon.png`. They are references
 for the redrawn assets, not final files.
 

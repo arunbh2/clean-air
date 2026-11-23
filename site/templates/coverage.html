@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Coverage and quality</h1>
+<p class="finding">What this 22 November 2026 edition covers, how well it is sourced, and what remains open. Generated from the research files at build time.</p>
+<div class="table-wrap"><table><caption>Records</caption><tbody>
+<tr><th scope="row">Claims</th><td class="num">{{ cov.claims }}</td><td>{{ cov.claims_read }} read in source; {{ cov.claims_prov|length }} provisional; {{ cov.verified }} confirmed in the verification pass</td></tr>
+<tr><th scope="row">Sources</th><td class="num">{{ cov.sources }}</td><td>{% for k, v in cov.src_access.most_common() %}{{ k }}: {{ v }}{% if not loop.last %}; {% endif %}{% endfor %}</td></tr>
+<tr><th scope="row">Source types</th><td></td><td>{% for k, v in cov.src_type.most_common() %}{{ k }}: {{ v }}{% if not loop.last %}; {% endif %}{% endfor %}</td></tr>
+<tr><th scope="row">Countries</th><td class="num">{{ countries|length }}</td><td>{% for k, v in cov.countries.most_common() %}{{ k }}: {{ v }}{% if not loop.last %}; {% endif %}{% endfor %}</td></tr>
+<tr><th scope="row">Funding records</th><td class="num">{{ cov.prog_cat.values()|sum }}</td><td>{% for k, v in cov.prog_cat.most_common() %}{{ k }}: {{ v }}{% if not loop.last %}; {% endif %}{% endfor %} · verification: {% for k, v in cov.prog_ver.most_common() %}{{ k }}: {{ v }}{% if not loop.last %}; {% endif %}{% endfor %}</td></tr>
+<tr><th scope="row">Interventions</th><td class="num">{{ cov.int_class.values()|sum }}</td><td>{% for k, v in cov.int_class.most_common() %}{{ k }}: {{ v }}{% if not loop.last %}; {% endif %}{% endfor %}</td></tr>
+<tr><th scope="row">Intervention evidence</th><td></td><td>{% for k, v in cov.int_ev.most_common() %}{{ k }}: {{ v }}{% if not loop.last %}; {% endif %}{% endfor %}</td></tr>
+<tr><th scope="row">Evidence gaps</th><td class="num">{{ cov.gaps }}</td><td>Glossary terms: {{ cov.glossary }}; decision pathways: {{ cov.pathways }}</td></tr>
+</tbody></table></div>
+<h2>Open review tasks</h2>
+<h3>Provisional claims</h3><ul class="sans">{% for c in cov.claims_prov %}<li><a href="claims.html#{{ c.claim_id }}">{{ c.claim_id }}</a>: {{ c.claim|truncate(120) }} <span class="muted">({{ c.notes|truncate(80) }})</span></li>{% endfor %}</ul>
+<h3>Unreachable at last check</h3><ul class="sans">{% for k in cov.unreachable %}<li><a href="sources.html#{{ k.source_id }}">{{ k.source_id }}</a> ({{ k.http_status }})</li>{% else %}<li>None</li>{% endfor %}</ul>
+<h3>Funding records without a published amount</h3><ul class="sans">{% for p in cov.prog_noamt %}<li><a href="../organisations/funding/{{ p.programme_id|lower }}.html">{{ p.programme_id }}</a>: {{ p.title }}</li>{% endfor %}</ul>
+<h3>Funders named in the brief but not verified</h3><ul class="sans">{% for f in cov.funder_queue %}<li>{{ f.name }}</li>{% endfor %}</ul>
+<h3>Country dossiers by review date</h3><ul class="sans">{% for c in countries %}<li>{{ c.name }}: {{ c.coverage_status }} (reviewed {{ c.last_reviewed }})</li>{% endfor %}</ul>
+<p class="label-note">All sources, including those added in the regional expansion, were re-fetched and every claim reviewed on 22 November 2026. See the <a href="verification.html">verification record</a>.</p>
+{% endblock %}

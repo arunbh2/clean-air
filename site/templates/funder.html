@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ f.name }}</h1>
+<p><span class="badge">{{ f.type }}</span> <span class="label-note">Verification: {{ f.verification }}</span></p>
+<p class="finding">{{ f.role_in_this_edition }}</p>
+{% if fprogs %}<h2>Records in this edition</h2>
+<div class="table-wrap"><table><caption>Chronology</caption><thead><tr><th scope="col">Year</th><th scope="col">Programme</th><th scope="col">Instrument</th><th scope="col">Amount</th><th scope="col">Stage</th></tr></thead><tbody>
+{% for p in fprogs|sort(attribute='nominal_year') %}<tr><td>{{ p.nominal_year }}</td><th scope="row"><a href="../funding/{{ p.programme_id|lower }}.html">{{ p.title }}</a></th><td>{{ p.instrument }}</td><td>{{ fmt_amount(p) }}</td><td>{{ p.approval_stage }}</td></tr>{% endfor %}
+</tbody></table></div>
+{% else %}<p class="notice">No specific South or Southeast Asian clean-air grant from this funder was verified for this edition. It is listed so that the gap is visible, not as a claim of involvement.</p>{% endif %}
+{% if f.notes %}<p class="label-note">{{ f.notes }}</p>{% endif %}
+{% if f.source_ids %}<p class="sans">Sources: {% for s in f.source_ids.split(';') if s %}<a href="../../evidence/sources.html#{{ s }}">{{ s }}</a> {% endfor %}</p>{% endif %}
+{% endblock %}

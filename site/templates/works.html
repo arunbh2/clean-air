@@ -1,19 +1,24 @@
-{% extends "base.html" %}{% from "macros.html" import articles_block %}
+{% extends "base.html" %}{% from "macros.html" import simple_layer, deep_heading, articles_block %}
 {% block content %}
 <h1>{{ sec.label }}</h1>
+{{ simple_layer(sec, rel) }}
+<h2 class="layer-label">Where the evidence points</h2>
 <p class="finding">{{ sec.intro }}</p>
+<p class="sans hubs"><a href="compare.html">Compare up to three</a> · <a href="not-a-solution.html">What not to mistake for a solution</a></p>
 <div class="filters" data-filter-for="int-list" hidden>
   <label>Recommendation<select data-key="rec"><option value="">All</option><option>Fund now</option><option>Test first</option><option>Not recommended</option></select></label>
+  <label>Type<select data-key="cls"><option value="">All</option><option value="emissions">Cut emissions</option><option value="exposure">Reduce exposure</option><option value="health">Health response</option><option value="livelihood-social-protection">Livelihood and social protection</option><option value="governance">Governance and data</option></select></label>
   <label>Who it serves<select data-key="group"><option value="">All</option><option value="outdoor-workers">Outdoor informal workers</option><option value="children">Children</option><option value="both">Both priority groups</option><option value="other">Other</option></select></label>
 </div>
 <p class="count" id="int-list-count" aria-live="polite"></p>
 <ul class="card-list" id="int-list">
 {% for i in ints %}
-<li class="card" data-rec="{{ i.recommendation }}" data-group="{{ i.priority_group }}">
+<li class="card" data-rec="{{ i.recommendation }}" data-group="{{ i.priority_group }}" data-cls="{{ i.intervention_class }}">
 <h3><a href="{{ i.int_id }}.html">{{ i.intervention }}</a></h3>
 <p>{{ i.what_it_does|truncate(150) }}</p>
 <p class="meta">{{ rec_badge(i.recommendation)|safe }} Problem: {{ badge(i.evidence_problem)|safe }} Works: {{ badge(i.evidence_intervention)|safe }}</p></li>
 {% endfor %}
 </ul>
+{{ deep_heading() }}
 {{ articles_block(articles) }}
 {% endblock %}

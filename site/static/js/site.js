@@ -20,3 +20,17 @@ document.querySelectorAll('[data-filter-for]').forEach(function (box) {
   box.addEventListener('change', apply); apply();
 });
 document.querySelectorAll('[data-print]').forEach(function (b) { b.addEventListener('click', function () { window.print(); }); });
+// Compare up to three interventions: toggles table columns; without JS three defaults show.
+(function () {
+  var box = document.querySelector('[data-compare]');
+  if (!box) return;
+  box.hidden = false;
+  var status = document.getElementById('compare-status');
+  function apply() {
+    var picked = Array.prototype.filter.call(box.querySelectorAll('input'), function (i) { return i.checked; }).map(function (i) { return i.value; });
+    document.querySelectorAll('#compare-table [data-col]').forEach(function (c) { c.hidden = picked.indexOf(c.getAttribute('data-col')) === -1; });
+    box.querySelectorAll('input').forEach(function (i) { i.disabled = !i.checked && picked.length >= 3; });
+    if (status) status.textContent = 'Comparing ' + picked.length + ' of up to 3';
+  }
+  box.addEventListener('change', apply); apply();
+})();

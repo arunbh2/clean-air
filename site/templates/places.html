@@ -1,12 +1,16 @@
-{% extends "base.html" %}{% from "macros.html" import articles_block %}
+{% extends "base.html" %}{% from "macros.html" import simple_layer, deep_heading, articles_block %}
 {% block content %}
 <h1>{{ sec.label }}</h1>
+{{ simple_layer(sec, rel) }}
+<h2 class="layer-label">Where the evidence points</h2>
 <p class="finding">{{ sec.intro }}</p>
+<p class="sans hubs"><a href="south-asia.html">South Asia airshed and countries</a> · <a href="southeast-asia.html">Southeast Asia</a> · <a href="compare.html">Compare countries fairly</a></p>
 <div class="table-wrap"><table>
 <caption>Settings compared</caption>
 <thead><tr><th scope="col">Setting</th><th scope="col">Pollution and exposure</th><th scope="col">Communities</th><th scope="col">Evidence</th><th scope="col">Main gaps</th></tr></thead>
 <tbody>{% for s in settings %}<tr><th scope="row"><a href="{{ s.setting_id }}.html">{{ s.name }}</a><br><span class="muted">{{ s.unit_type }}</span></th>
 <td>{{ s.pollution_exposure_profile|truncate(220) }}</td><td>{{ s.communities_livelihoods|truncate(160) }}</td><td>{{ badge(s.evidence_confidence)|safe }}</td><td>{{ s.gaps|truncate(160) }}</td></tr>{% endfor %}</tbody>
 </table></div>
+{{ deep_heading() }}
 {{ articles_block(articles) }}
 {% endblock %}

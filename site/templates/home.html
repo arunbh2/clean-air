@@ -10,6 +10,43 @@
     {% endfor %}
   </div>
 </section>
+
+<section class="beginner" aria-labelledby="six-q">
+  <h2 id="six-q">Six questions, two sentences each</h2>
+  <div class="q-grid">
+  {% for q in mods.questions %}<details class="q"><summary>{{ q.q }}</summary><p>{{ q.a|md("")|safe }}</p></details>{% endfor %}
+  </div>
+</section>
+<section aria-labelledby="choose">
+  <h2 id="choose">Where do you want to start?</h2>
+  <div class="entry-grid">{% for ch in mods.choices %}<a class="entry" href="{{ ch.href }}"><strong>{{ ch.label }}</strong></a>{% endfor %}</div>
+</section>
+<section class="vignette section-rule" aria-labelledby="vig">
+  <h2 id="vig">{{ mods.vignette.title }}</h2>
+  <p class="measure">{{ mods.vignette.text|md("")|safe }}</p>
+  <p class="label-note">An illustrative person built from study findings, not a real individual.</p>
+  <p class="sans"><a href="{{ mods.vignette.href }}">Follow her story through the evidence</a></p>
+</section>
+<section class="section-rule" aria-labelledby="regional">
+  <h2 id="regional">India, South Asia and Southeast Asia</h2>
+  <p class="measure">{{ mods.regional|md("")|safe }}</p>
+  <p class="sans"><a href="places/south-asia.html">South Asia</a> · <a href="places/southeast-asia.html">Southeast Asia</a> · <a href="places/compare.html">Compare countries fairly</a></p>
+</section>
+<section class="section-rule" aria-labelledby="action">
+  <h2 id="action">Action is possible</h2>
+  <ul class="card-list three">{% for iid in mods.action_ids %}{% set i = I_BY[iid] %}<li class="card"><h3><a href="what-works/{{ i.int_id }}.html">{{ i.intervention|truncate(80) }}</a></h3><p>{{ rec_badge(i.recommendation)|safe }} Works: {{ badge(i.evidence_intervention)|safe }}</p><p><strong>Limit:</strong> {{ i.risks|truncate(110) }}</p><p class="meta">{{ i.claim_ids|claims("")|safe }}</p></li>{% endfor %}</ul>
+  <p class="sans"><a href="what-works/not-a-solution.html">What not to mistake for a solution</a></p>
+</section>
+<section class="section-rule" aria-labelledby="money">
+  <h2 id="money">Following the money</h2>
+  <p class="measure">{{ mods.money|md("")|safe }}</p>
+  <p class="sans"><a href="organisations/funding/index.html">Who funded what?</a> · <a href="support/pathways/index.html">For funders and decision-makers</a></p>
+</section>
+<section class="section-rule" aria-labelledby="gapsh">
+  <h2 id="gapsh">Questions researchers still cannot answer</h2>
+  <ul class="card-list three">{% for gid in mods.gap_ids %}{% set g = GAP_BY[gid] %}<li class="card"><h3><a href="evidence/gaps.html#{{ gid }}">{{ g.question|truncate(110) }}</a></h3><p>{{ g.why_it_matters }}</p></li>{% endfor %}</ul>
+</section>
+
 <div class="prose">{{ body_html|safe }}</div>
 <section class="priority-band" aria-labelledby="prio">
   <div class="wrap" style="padding:0">
@@ -22,6 +59,11 @@
       {% endfor %}
     </ul>
     <p class="sans"><a href="people/index.html">All communities</a> · <a href="support/index.html">Where support could make a difference</a></p>
+  </div>
+</section>
+<section class="section-rule" aria-labelledby="updates"><div>
+  <h2 id="updates">Evidence edition and corrections</h2>
+  <p class="measure">This is the 22 November 2026 evidence edition. Every claim is listed in the <a href="evidence/claims.html">claim register</a>; coverage and open tasks are on the <a href="evidence/coverage.html">coverage page</a>. Found an error? See <a href="about/corrections.html">corrections</a>.</p>
   </div>
 </section>
 {% endblock %}

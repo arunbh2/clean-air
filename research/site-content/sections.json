@@ -1,9 +1,91 @@
 {
-  "crisis":        {"label": "The crisis", "intro": "What people breathe, what the official numbers hide, and what the health evidence shows.", "report": ["pollution-exposure", "health"]},
-  "people":        {"label": "People and livelihoods", "intro": "Who is most exposed, who is least protected, and how pollution and its control reach income, work and care.", "report": ["livelihoods", "communities", "pathways"]},
-  "places":        {"label": "Places", "intro": "Delhi/NCR in depth, and five contrasting settings that each show something Delhi cannot.", "report": ["places"]},
-  "what-works":    {"label": "What works", "intro": "Interventions and infrastructure assessed on evidence, equity, who runs them and what they cost to keep going.", "report": ["interventions"]},
-  "organisations": {"label": "Organisations", "intro": "Public bodies, researchers, worker and community organisations, and funders, with verified activities only.", "report": ["organisations"]},
-  "evidence":      {"label": "Evidence", "intro": "Method, ratings, sources, claims, verification and the gaps that matter most.", "report": ["method", "learning"]},
-  "support":       {"label": "Where support could make a difference", "intro": "Portfolio options compared, with evidence gaps, operating responsibilities, recurring costs, equity and conditions for success.", "report": ["portfolios", "synthesis"]}
+ "crisis": {
+  "label": "The crisis",
+  "intro": "What people breathe, what the official numbers hide, and what the health evidence shows.",
+  "report": [
+   "pollution-exposure",
+   "health"
+  ],
+  "simple": {
+   "answer": "Air pollution means tiny particles and gases that get into your lungs and blood. In India almost everyone breathes air dirtier than the World Health Organization's safe level, and studies link it to more than a million early deaths a year [C016][C021].",
+   "example": "On a smoggy day in Delhi, a rickshaw passenger breathes more soot than the nearest monitor shows [C031].",
+   "limitation": "Death totals are model estimates, and the number changes with the assumptions used [C020]."
+  }
+ },
+ "people": {
+  "label": "People and livelihoods",
+  "intro": "Who is most exposed, who is least protected, and how pollution and its control reach income, work and care.",
+  "report": [
+   "livelihoods",
+   "communities",
+   "pathways"
+  ],
+  "simple": {
+   "answer": "The same air does not hurt everyone equally. People who work outside all day, such as street sweepers and waste pickers, breathe more of it and have fewer ways to protect themselves [C082]. When rules stop work to cut pollution, many lose wages too [C044].",
+   "example": "In Delhi, 75% of waste pickers tested had abnormal lung function, against 45% of office workers [C082].",
+   "limitation": "How much money informal workers lose to pollution has not yet been measured [C047]."
+  }
+ },
+ "places": {
+  "label": "Places",
+  "intro": "Delhi/NCR in depth, and five contrasting settings that each show something Delhi cannot.",
+  "report": [
+   "places"
+  ],
+  "simple": {
+   "answer": "Pollution has different causes in different places: traffic and dust in cities, crop burning in farm belts, kilns and coal plants in industrial areas, and smoke that drifts across borders [C025][C125]. That is why one city's numbers cannot describe another.",
+   "example": "In Jakarta, vehicles caused about half of fine particles in the dry season [C133]; around Dhaka, brick kilns were a major seasonal source [C148].",
+   "limitation": "Many places have no recent source study, and country averages come from satellite estimates [C111]."
+  }
+ },
+ "what-works": {
+  "label": "What works",
+  "intro": "Interventions and infrastructure assessed on evidence, equity, who runs them and what they cost to keep going.",
+  "report": [
+   "interventions"
+  ],
+  "simple": {
+   "answer": "Cutting pollution at its source is the only lasting fix. While that happens, some protection works, such as teaching children how to avoid exposure [C074] and making sure idled workers are paid [C039]. Some popular ideas, like outdoor smog towers, barely help [C077].",
+   "example": "A Delhi smog tower cleaned the air mainly within about 200 metres [C077].",
+   "limitation": "Most programmes have not been independently evaluated yet [C120][C122]."
+  }
+ },
+ "organisations": {
+  "label": "Organisations",
+  "intro": "Public bodies, researchers, worker and community organisations, and funders, with verified activities only.",
+  "report": [
+   "organisations"
+  ],
+  "simple": {
+   "answer": "Governments set rules and run services; development banks lend; foundations fund research, pilots and community groups; local organisations do much of the outreach [C012][C122][C088]. This section lists only what each one has publicly been shown to do.",
+   "example": "The World Bank approved US$290 million for Dhaka's clean-air project in 2025 [C120].",
+   "limitation": "An approved loan is not money spent, and a funder's own account is not proof of impact [C143]."
+  }
+ },
+ "evidence": {
+  "label": "Evidence",
+  "intro": "Method, ratings, sources, claims, verification and the gaps that matter most.",
+  "report": [
+   "method",
+   "learning"
+  ],
+  "simple": {
+   "answer": "Every fact on this site links to a claim, and every claim links to its sources with dates. We rate how sure we are that a problem exists separately from how sure we are that a fix works.",
+   "example": "Pollution's link to early death is rated Strong; classroom air purifiers improving children's health is rated Limited/mixed [C053][C075].",
+   "limitation": "Some sources could only be read as summaries, and that is recorded for each one."
+  }
+ },
+ "support": {
+  "label": "Where support could make a difference",
+  "intro": "Portfolio options compared, with evidence gaps, operating responsibilities, recurring costs, equity and conditions for success.",
+  "report": [
+   "portfolios",
+   "synthesis"
+  ],
+  "simple": {
+   "answer": "The clearest chances to help are where protections already exist on paper but do not reach people, and where cheap, tested programmes can run through schools and public services [C044][C074][C106]. Big infrastructure is mostly a job for governments and development banks.",
+   "example": "Delhi's idled construction workers are owed compensation, but many are not registered to receive it [C041].",
+   "limitation": "These are options to compare, not tested investment recommendations."
+  }
+ }
 }

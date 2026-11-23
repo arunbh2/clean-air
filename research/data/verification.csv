@@ -106,6 +106,49 @@ C104,S061,,,no figures: manual check,read,supported,none,qualitative claim; key 
 C105,S031,10 11 2.5,,figures found,read,supported,none,all checked figures found in re-fetched source text
 C106,S062,25,,figures found,read,supported,none,all checked figures found in re-fetched source text
 C107,S062,,,no figures: manual check,read,supported,none,qualitative claim; key terms present in re-fetched source (keyword overlap check) and wording reviewed
-C108,S064,76736 85819,,figures found,provisional,supported,corrected in Phase 2,"figures corrected to 85,819 and 76,736; waste-picker figure dropped"
+C108,S064,76736 85819,,figures found,read,supported,corrected in Phase 2,"figures corrected to 85,819 and 76,736; waste-picker figure dropped"
 C109,S063;S066,10 21,,figures found,read,supported,source added,effective date confirmed by PIB
 C110,S063;S062,,,derived: check inputs,read,supported,none,inference from OSH Code scope and NAMASTE design
+C111,S097,2.5 5.5 60.8,2.5 5.5 60.8,figures not found,read,supported,checked against browser-rendered page,AQLI pages are JavaScript-rendered; figures confirmed in rendered text on 2026-11-22
+C112,S098,2.5 3.3 38.3,2.5 3.3 38.3,figures not found,read,supported,checked against browser-rendered page,AQLI pages are JavaScript-rendered; figures confirmed in rendered text on 2026-11-22
+C113,S099,2.5 3.3 39.0,2.5 3.3 39.0,figures not found,read,supported,checked against browser-rendered page,AQLI pages are JavaScript-rendered; figures confirmed in rendered text on 2026-11-22
+C114,S100,1.3 18.6 2.5 51,1.3 18.6 2.5 51,figures not found,read,supported,checked against browser-rendered page,AQLI pages are JavaScript-rendered; figures confirmed in rendered text on 2026-11-22
+C115,S101,1.8 2.5 23.1 32,1.8 2.5 23.1 32,figures not found,read,supported,checked against browser-rendered page,AQLI pages are JavaScript-rendered; figures confirmed in rendered text on 2026-11-22
+C116,S102,2.5 22 25.6,2.5 22 25.6,figures not found,read,supported,checked against browser-rendered page,AQLI pages are JavaScript-rendered; figures confirmed in rendered text on 2026-11-22
+C117,S103,1.2 17.1 2.5 57,1.2 17.1 2.5 57,figures not found,read,supported,checked against browser-rendered page,AQLI pages are JavaScript-rendered; figures confirmed in rendered text on 2026-11-22
+C118,S104,1.4 18.8 2.5 48,1.4 18.8 2.5 48,figures not found,read,supported,checked against browser-rendered page,AQLI pages are JavaScript-rendered; figures confirmed in rendered text on 2026-11-22
+C119,S069,159000 2.5 8.3,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C120,S069,18 20 290 400,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C121,S070,11 400 52,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C122,S071,13 2.5 28 300 35 5000 600,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C123,S072,,,no figures: manual check,read,supported,none,qualitative; read in IGP-HF brief
+C124,S073,10,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C125,S076,2.5,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C126,S076,0.11 30 40 5.7,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C127,S074,26000 3.4,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C128,S075,200 300,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C129,S078,001 1.0 1.5 10537 58076 630000,1.5,partly found,read,supported,none,1.50 written with trailing zero in source
+C130,S077,,,no figures: manual check,read,supported,none,qualitative; publication page read
+C131,S079,10000 2.2 2.9 5000,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C132,S079,14 40,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C133,S107,14 16 2.5 32 41 42 57,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C134,S080;S081,100 34 85,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C135,S082,,,source unreachable,provisional,unverified: source blocked or abstract unavailable,kept provisional,primary page blocked or not accessible
+C136,S085;S086,30 330000 40000,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C137,S087,2.5 20 80,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C138,S088,,,no figures: manual check,provisional,unverified: source blocked or abstract unavailable,kept provisional,primary page blocked or not accessible
+C139,S083,,,no figures: manual check,read,supported,none,grantholders and year read on grant page
+C140,S084,300000,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C141,S089,124.6,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C142,S090,0.1 478,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C143,S091,600,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C144,S093,,,no figures: manual check,read,supported,none,qualitative; country page read
+C145,S094,2.6 60 95,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C146,S095,,,no figures: manual check,read,supported,none,qualitative; regional page read
+C147,S096,6.6 84,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C148,S105,40,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C149,S106,2.5 21 29 33 35 83,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C150,S106,30 59,,figures found,read,supported,none,all checked figures found in re-fetched source text
+C151,S108,228 63,228,partly found,read,supported,none,sample size written in words in abstract
+C152,S109,298 44 59 65,59,partly found,read,supported,corrected,corrected to 58.7% to match abstract
+C153,S110,,,source unreachable,provisional,unverified: source blocked or abstract unavailable,kept provisional,primary page blocked or not accessible

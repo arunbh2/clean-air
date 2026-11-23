@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Glossary</h1>
+<p class="finding">Plain-language meanings of the words used on this site. Underlined terms elsewhere link here.</p>
+<dl class="glossary">
+{% for g in terms %}
+<div class="gl-item" id="{{ g.slug }}">
+<dt>{{ g.term }}</dt>
+<dd><p>{{ g.plain }}</p>
+{% if g.analogy %}<p class="label-note"><strong>Think of it as:</strong> {{ g.analogy }}</p>{% endif %}
+{% if g.caution %}<p class="label-note"><strong>Careful:</strong> {{ g.caution }} {{ g.claim_ids|claims(rel)|safe }}</p>{% endif %}
+</dd></div>
+{% endfor %}
+</dl>
+{% endblock %}
