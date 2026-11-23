@@ -4,7 +4,7 @@ title: "Indonesia: a company, its foundation and a bank's grant"
 country: indonesia
 orgs: [nafas-indonesia, nafas-foundation, dbs-foundation, airly, fkm-ui]
 projects: [J016, J017]
-summary: "Indonesia's largest sensor network is run by a company and its non-profit foundation and partly paid for by a bank's foundation. Readers should keep the three roles apart."
+summary: "Indonesia's largest sensor network is run by a company and its non-profit foundation and partly paid for by a bank's foundation. The three roles are distinct, and this page keeps them apart."
 ---
 ## The problem in everyday language
 

@@ -1,13 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
 <h1>Claim register</h1>
-<p class="measure">Every factual statement on this site links here. Each claim lists its sources, where in the source it appears, the place and period it covers, and its verification status.</p>
+<p class="measure">Every factual statement on this site links here. Each claim lists its sources, where in the source it appears, the place and period it covers, what kind of source it rests on, and whether a supporting passage has been located.</p>
+<p class="measure sans small">Verification states: <strong>Supporting passage located</strong> (an automated check found the figures and wording in one passage of an accessible copy); <strong>passage not yet re-located</strong> (an earlier human review said supported, but the passage check has not confirmed it, so treat it as awaiting re-check); <strong>source could not be checked automatically</strong> (not the same as a dead link). A page that opens is never, by itself, called verified. Withdrawn claims stay listed and link to the <a href="../about/corrections.html">corrections register</a>. Also as <a href="../downloads/data/claims.json">JSON</a>.</p>
 <div class="table-wrap"><table>
 <caption>{{ claims|length }} claims</caption>
-<thead><tr><th scope="col">Claim</th><th scope="col">Statement</th><th scope="col">Sources</th><th scope="col">Place and period</th><th scope="col">Status</th></tr></thead>
-<tbody>{% for c in claims %}<tr id="{{ c.claim_id }}"><th scope="row">{{ c.claim_id }}</th><td>{{ c.claim }}{% if c.notes %}<br><span class="muted">{{ c.notes }}</span>{% endif %}</td>
+<thead><tr><th scope="col">Claim</th><th scope="col">Statement</th><th scope="col">Sources</th><th scope="col">Place and period</th><th scope="col">Source type and verification</th></tr></thead>
+<tbody>{% for c in claims %}<tr id="{{ c.claim_id }}"{% if c._withdrawn %} class="withdrawn"{% endif %}><th scope="row">{{ c.claim_id }}</th><td>{% if c._withdrawn %}<strong>Withdrawn.</strong> <del>{{ c.claim }}</del>{% else %}{{ c.claim }}{% endif %}{% for r in c._corrections %}<br><span class="sans small"><a href="../about/corrections.html#{{ r.correction_id }}">{{ r.correction_id }}</a> ({{ r.date }}, {{ r.change_type }})</span>{% endfor %}{% if c.notes %}<br><span class="muted">{{ c.notes }}</span>{% endif %}</td>
 <td>{% for s in c.source_ids.split(';') if s %}<a href="sources.html#{{ s }}">{{ s }}</a>: {{ sources[s].title|truncate(70) }} ({{ sources[s].pub_date }})<br>{% endfor %}<span class="muted">{{ c.locator }}</span></td>
 <td>{{ c.geography }}<br><span class="muted">{{ c.period }}</span></td>
-<td>{{ c.status }}<br><span class="muted">{{ verif.get(c.claim_id, {}).get('manual_verdict', '') }}</span></td></tr>{% endfor %}</tbody>
+<td>{{ c._provenance }}<br><strong>{{ c._state_label }}</strong>{% if c._excerpt %}<br><span class="muted small" data-voice="verbatim">Passage: “{{ c._excerpt }}”</span>{% endif %}<br><span class="muted">Status: {{ c.status }}; earlier review: {{ verif.get(c.claim_id, {}).get('manual_verdict', 'none') }}</span></td></tr>{% endfor %}</tbody>
 </table></div>
 {% endblock %}

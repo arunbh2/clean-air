@@ -13,6 +13,6 @@
 <div class="table-wrap"><table id="compare-table">
 <caption>Side-by-side comparison</caption>
 <thead><tr><th scope="col">Question</th>{% for i in ints %}<th scope="col" data-col="{{ i.int_id }}" {% if i.int_id not in defaults %}hidden{% endif %}><a href="{{ i.int_id }}.html">{{ i.intervention|truncate(60) }}</a></th>{% endfor %}</tr></thead>
-<tbody>{% for label, key in rows %}<tr><th scope="row">{{ label }}</th>{% for i in ints %}<td data-col="{{ i.int_id }}" {% if i.int_id not in defaults %}hidden{% endif %}>{% set v = i.get(key, '') %}{% if key in ['evidence_problem','evidence_intervention'] %}{{ badge(v)|safe or 'Not established' }}{% elif key == 'recommendation' %}{{ rec_badge(v)|safe }}{% else %}{{ v if v and v != '—' else 'Not established' }}{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
+<tbody>{% for label, key in rows %}<tr><th scope="row">{{ label }}</th>{% for i in ints %}<td data-col="{{ i.int_id }}" {% if i.int_id not in defaults %}hidden{% endif %}>{% set v = i.get(key, '') %}{% if key in ['evidence_problem','evidence_intervention'] %}{{ badge(v)|safe or 'Not established' }}{% elif key == 'recommendation' %}{{ rec_badge(v)|safe }}{% else %}{{ v if v and v not in ('—','Not applicable','Not recorded') else 'Not established' }}{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
 </table></div>
 {% endblock %}

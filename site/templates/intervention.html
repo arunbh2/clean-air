@@ -2,7 +2,9 @@
 {% block content %}
 <h1>{{ i.intervention }}</h1>
 <p>{{ rec_badge(i.recommendation)|safe }} <span class="badge">Class {{ i.portfolio_class }}</span> <span class="label-note">{{ i.category }} · {{ i.approach }}</span></p>
-<p class="notice">Not a validated investment recommendation. Ratings summarise published evidence to {{ CUTOFF }}.</p>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">{{ i.what_it_does }} Evidence that it improves outcomes: <strong>{{ i.evidence_intervention }}</strong>. {{ i.evidence_reason }}</p>
+<p class="layer-meta">Not a validated investment recommendation. Ratings summarise published evidence to {{ CUTOFF }}. Next: <a href="../packs/interventions/{{ i.intervention_class }}.html">compare responses in the same class</a>.</p></section>
 <h2>What it does</h2>
 <p class="measure">{{ i.what_it_does }}</p>
 <p class="measure label-note">Pollutant or pathway: {{ i.pollutant_or_pathway }}</p>
@@ -14,7 +16,7 @@
 <dl class="kv"><dt>Problem exists</dt><dd>{{ badge(i.evidence_problem)|safe }}</dd><dt>Intervention works</dt><dd>{{ badge(i.evidence_intervention)|safe }}</dd><dt>Relevance to India</dt><dd>{{ i.india_relevance }}</dd></dl>
 <p class="measure">{{ i.evidence_reason }}</p>
 <details class="evidence"><summary>Claims and sources</summary><p class="sans">{{ i.claim_ids|claims(rel)|safe }}</p>
-{% for e in emap %}<p class="sans"><strong>{{ e.question }}</strong> {{ badge(e.rating_intervention_works)|safe }} — {{ e.judgement }}</p>{% endfor %}</details>
+{% for e in emap %}<p class="sans"><strong>{{ e.question }}</strong> {{ badge(e.rating_intervention_works)|safe }}. {{ e.judgement }}</p>{% endfor %}</details>
 <h2>Operating requirements</h2>
 {{ dl([("Who runs it", i.operator|e), ("Depends on", i.institutional_dependencies|e), ("Role for philanthropy", i.philanthropy_role|e)]) }}
 <h2>Costs and uncertainties</h2>

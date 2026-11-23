@@ -17,8 +17,8 @@ The study asks where a foundation could reduce the pollution people breathe, pro
 - **A.** Which communities and exposure settings merit priority?
 - **B.** Which pathways create the greatest avoidable health and livelihood burdens?
 - **C.** Which interventions are effective, usable and feasible for the institutions that would run them?
-- **D.** What should be funded now, tested first or investigated further?
-- **E.** What should not be funded on current evidence?
+- **D.** What is ready for funding now, what needs testing first, and what needs further investigation?
+- **E.** What does current evidence not support funding?
 
 No technology or programme was assumed in advance. The study separates four kinds of response throughout: reducing emissions, reducing exposure while emissions persist, reducing health consequences, and protecting income and care during illness or restrictions.
 

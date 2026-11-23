@@ -1,0 +1,7 @@
+page,rule,phrase,reason
+about/corrections.*,prescriptive,Editorial voice:,The corrections register quotes the word that was removed (for example 'must') to explain a rewording; the quoted word is not the site's voice.
+about/corrections.*,blame,Editorial voice:,The corrections register quotes the replaced phrase 'failed to issue' to explain a rewording.
+about/corrections.md,prescriptive,| CR0,In the Markdown table the earlier wording cell cannot carry the verbatim marker; old wording is historical text kept for traceability.
+about/corrections.md,blame,| CR0,In the Markdown table the earlier wording cell cannot carry the verbatim marker; old wording is historical text kept for traceability.
+for-ai.json,prescriptive,Editorial voice:,The corrections summary in for-ai.json quotes the removed word to explain a rewording.
+for-ai.json,blame,Editorial voice:,The corrections summary in for-ai.json quotes the replaced phrase.

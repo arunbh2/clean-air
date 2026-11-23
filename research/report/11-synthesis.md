@@ -14,7 +14,7 @@ summary: "The most avoidable burden is the one created by pollution control with
 
 **Three places stand out.**
 
-1. **Where pollution control takes away people's income.** Emergency restrictions in Delhi-NCR stop work, and the law already says idled construction workers must be paid from funds that exist [C039][C101]. Most are not paid, because they are not registered [C041][C044]. Closing that gap protects livelihoods directly. It also strengthens a statutory welfare board, and the board can carry the work after the grant. Extending the same logic to vendors and platform workers needs design and a public payer [C103].
+1. **Where pollution control takes away people's income.** Emergency restrictions in Delhi-NCR stop work, and the law already says idled construction workers are to be paid from funds that exist [C039][C101]. Most are not paid, because they are not registered [C041][C044]. Closing that gap protects livelihoods directly. It also strengthens a statutory welfare board, and the board can carry the work after the grant. Extending the same logic to vendors and platform workers needs design and a public payer [C103].
 2. **Where children learn.** A low-cost education programme improved protective behaviour and some health outcomes in a rigorous Delhi trial [C074]. It runs through school systems that will continue it. Classroom filtration needs redesign before scale [C075].
 3. **Where public money is spent on clean air without anyone checking that it works.** Independent evaluation has already stopped one costly mistake [C077]. Repeated investment in unproven measures continues [C081]. An evaluation facility leaves behind better decisions, not an asset.
 
@@ -64,7 +64,7 @@ Delhi-NCR is the place to start because the institutions and legal duties exist 
 | | Kiln conversion with labour standards (C) | |
 | | Health-system episode readiness (C) | |
 
-**E. What should not be funded on current evidence?**
+**E. What does current evidence not support funding?**
 
 - outdoor smog towers [C077][C078];
 - anti-smog guns and sprinklers as air-quality investments [C080];

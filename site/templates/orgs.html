@@ -88,7 +88,7 @@
 <caption>Companies, social enterprises and industry associations</caption>
 <thead><tr><th scope="col">Organisation</th><th scope="col">Business role</th><th scope="col">Independent test or evaluation</th><th scope="col">Possible conflict</th></tr></thead>
 <tbody>{% for o in orgs|sort(attribute='organisation') if o.category == 'private' %}<tr><th scope="row"><a href="o/{{ o.slug }}.html">{{ o.organisation }}</a><br><span class="muted small">{{ cname(o._countries[0]) }}</span></th>
-<td>{{ o.business_role or 'Not classified' }}</td><td>{{ o.independent_test or 'None found in sources read' }}</td><td>{{ o.conflict_note or '—' }}</td></tr>{% endfor %}</tbody>
+<td>{{ o.business_role or 'Not classified' }}</td><td>{{ o.independent_test or 'None found in sources read' }}</td><td>{{ o.conflict_note or 'None recorded' }}</td></tr>{% endfor %}</tbody>
 </table></div>
 </section>
 

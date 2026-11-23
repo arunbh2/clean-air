@@ -1,0 +1,5 @@
+change_id,date,title,summary,url
+E001,2026-11-22,First evidence edition published,"The Clean Air site, report and decision brief for India, generated from the research registers (cutoff 22 November 2026).",index.html
+E002,2026-11-22,Regional expansion,"Country dossiers for South and Southeast Asia, the funding atlas, decision pathways and layered reading added within the same cutoff.",places/index.html
+E003,2026-11-23,Organisations atlas,"95 organisation profiles, 28 activity records, 41 documented funding links, stories, gaps and a comparison tool.",organisations/index.html
+E004,2026-11-23,"Corrections register, passage-level verification and agent access","Corrections listed with old and new text; every claim shows a passage-level verification state; Markdown copies of every page, llms.txt, evidence packs and a data catalogue added. Four claims reworded for the site's editorial voice without changing meaning.",about/corrections.html

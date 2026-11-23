@@ -19,6 +19,21 @@ DATA = os.path.join(RES, "data")
 DIST = os.environ.get("CLEAN_AIR_DIST", os.path.join(HERE, "dist"))
 CUTOFF = "22 November 2026"
 CUTOFF_ISO = "2026-11-22"
+import subprocess, sys
+sys.path.insert(0, HERE)
+from csvsafe import safe_csv_text
+from mdmirror import html_to_markdown
+SITE_CFG = json.load(open(os.path.join(HERE, "site.json"), encoding="utf-8"))
+BASE_URL = os.environ.get("CLEAN_AIR_BASE_URL", SITE_CFG["base_url"]).rstrip("/") + "/"
+def _built():
+    """Build date = date of the last commit touching research/ or site/ (deterministic); falls back to today."""
+    try:
+        d = subprocess.check_output(["git", "-C", ROOT, "log", "-1", "--format=%cs", "--", "research", "site"], text=True).strip()
+        if d: return d
+    except Exception:
+        pass
+    import datetime; return datetime.date.today().isoformat()
+BUILT = os.environ.get("CLEAN_AIR_BUILT", _built())
 
 env = Environment(loader=FileSystemLoader(os.path.join(HERE, "templates")),
                   autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
@@ -61,6 +76,25 @@ atlas_roles = load_opt("organisation-project-roles.csv")
 atlas_flows = load_opt("funding-flows.csv")
 atlas_cands = load_opt("org-candidates.csv")
 C_BY = {c["country_id"]: c for c in countries}
+passages = {r["claim_id"]: r for r in load_opt("claim-passages.csv")}
+corrections = load_opt("corrections.csv")
+changelog = load_opt("changelog.csv")
+PROVENANCE = {"primary-study": "primary data or research study", "evaluation": "evaluation study", "legal-instrument": "regulator or official programme",
+              "official-document": "regulator or official programme", "official-dataset": "regulator or official programme (data)",
+              "organisational-report": "organisation or funder report (self-reported)", "programme-description": "organisation or funder report (self-reported)",
+              "journalism": "media account", "modelled-estimate": "modelled estimate", "community-research": "community research",
+              "derived": "site inference (derived from other claims)", "testimony": "testimony or court record", "reference": "reference work"}
+STATE_LABEL = {"passage_found": "Supporting passage located", "needs_manual_review": "Passage not yet re-located; earlier review said supported",
+               "source_accessible_passage_not_found": "Source read; supporting passage not found", "not_accessible": "Source could not be checked automatically"}
+CORR_BY_CLAIM = {}
+for r in corrections: CORR_BY_CLAIM.setdefault(r["record_id"], []).append(r)
+for cid, c in claims.items():
+    c["_withdrawn"] = c["status"] == "withdrawn"
+    c["_state"] = "withdrawn" if c["_withdrawn"] else passages.get(cid, {}).get("verification_state", "needs_manual_review")
+    c["_state_label"] = "Withdrawn (see corrections)" if c["_withdrawn"] else STATE_LABEL[c["_state"]]
+    c["_provenance"] = PROVENANCE.get(c["evidence_type"], c["evidence_type"])
+    c["_excerpt"] = passages.get(cid, {}).get("locator_excerpt", "")
+    c["_corrections"] = CORR_BY_CLAIM.get(cid, [])
 P_BY = {p["programme_id"]: p for p in programmes}
 F_BY = {f["funder_id"]: f for f in funders}
 GAP_BY = {g["gap_id"]: g for g in gaps}
@@ -80,12 +114,17 @@ NAV = [("crisis", "crisis/index.html"), ("people", "people/index.html"), ("place
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
+PLACEHOLDERS = {"—", "Not applicable", "Not recorded", "None recorded", "Not ranked"}
+
 def cite_html(cid, rel):
     c = claims.get(cid)
     if not c:
         return f"[{cid}]"
     srcs = ", ".join(sources[s]["publisher"] or sources[s]["author_org"] for s in c["source_ids"].split(";") if s in sources)
-    tip = (c["claim"][:180] + ("…" if len(c["claim"]) > 180 else "")) + f" — {srcs}"
+    tip = (c["claim"][:180] + ("…" if len(c["claim"]) > 180 else "")) + f" (source: {srcs})"
+    if c["status"] == "withdrawn":
+        return (f'<a class="cite" href="{rel}evidence/claims.html#{cid}" title="Withdrawn claim: see corrections" '
+                f'aria-label="Evidence {cid} (withdrawn)">{cid} withdrawn</a>')
     return (f'<a class="cite" href="{rel}evidence/claims.html#{cid}" title="{html.escape(tip, quote=True)}" '
             f'aria-label="Evidence {cid}">{cid}</a>')
 
@@ -93,7 +132,7 @@ def cites(text, rel):
     return re.sub(r"\[(C\d{3})\]", lambda m: cite_html(m.group(1), rel), text)
 
 def claim_links(ids, rel):
-    ids = [i for i in (ids or "").split(";") if i and i != "—"]
+    ids = [i for i in (ids or "").split(";") if i and i not in PLACEHOLDERS]
     return " ".join(cite_html(i, rel) for i in ids)
 
 MD = markdown.Markdown(extensions=["tables", "sane_lists", "toc"], extension_configs={"toc": {"permalink": False}})
@@ -153,13 +192,13 @@ def rating_class(v):
     return ""
 
 def badge(v):
-    if not v or v == "—": return ""
+    if not v or v in PLACEHOLDERS: return f'<span class="muted">{html.escape(v)}</span>' if v else ""
     return f'<span class="badge {rating_class(v)}">{html.escape(v)}</span>'
 
 def rec_badge(v):
     return f'<span class="badge {slug(v)}">{html.escape(v)}</span>' if v else ""
 
-env.globals.update(ARROW=ARROW, badge=badge, rec_badge=rec_badge, CUTOFF=CUTOFF, CUTOFF_ISO=CUTOFF_ISO, sections=sections, NAV=NAV)
+env.globals.update(BASE_URL=BASE_URL, BUILT=BUILT, ARROW=ARROW, badge=badge, rec_badge=rec_badge, CUTOFF=CUTOFF, CUTOFF_ISO=CUTOFF_ISO, sections=sections, NAV=NAV)
 env.filters["md"] = lambda t, rel: md_inline(t, rel)
 env.filters["claims"] = lambda ids, rel: claim_links(ids, rel)
 env.filters["slug"] = slug
@@ -169,6 +208,7 @@ def toc_for(html_text):
     return items
 
 pages = []
+page_meta = {}
 def render(path, template, title, description, section=None, crumbs=None, **ctx):
     depth = path.count("/")
     rel = "../" * depth
@@ -181,6 +221,7 @@ def render(path, template, title, description, section=None, crumbs=None, **ctx)
     os.makedirs(os.path.dirname(full), exist_ok=True)
     open(full, "w", encoding="utf-8").write(out)
     pages.append(path)
+    page_meta[path] = {"title": title, "description": re.sub(r"<[^>]+>", "", description or ""), "section": section}
 
 def report_html(rid, rel, shift=1):
     fm, body = reports[rid]
@@ -193,7 +234,8 @@ shutil.copytree(os.path.join(HERE, "static"), DIST)
 # downloads
 dl = os.path.join(DIST, "downloads"); os.makedirs(os.path.join(dl, "data"), exist_ok=True)
 for f in sorted(os.listdir(DATA)):
-    if f.endswith(".csv"): shutil.copy(os.path.join(DATA, f), os.path.join(dl, "data", f))
+    if f.endswith(".csv"):  # escaped copy: formula-injection guard (site/csvsafe.py); canonical file untouched
+        open(os.path.join(dl, "data", f), "w", encoding="utf-8").write(safe_csv_text(open(os.path.join(DATA, f), encoding="utf-8").read()))
 exports = []
 ex_dir = os.path.join(RES, "exports")
 for f in sorted(os.listdir(ex_dir)):
@@ -333,6 +375,7 @@ for d in dpaths:
            dints=[I_BY[x] for x in d["related_intervention_ids"].split(";") if x in I_BY])
 # footer pages
 for pg in sorted(os.listdir(os.path.join(RES, "site-content", "pages"))):
+    if pg == "corrections.md": continue  # rendered with the corrections register below
     fm, body = site_md(os.path.join("pages", pg))
     render(f"about/{pg.replace('.md', '.html')}", "simple.html", fm["title"], fm["summary"], None, home_c, body_html=md(body, "../", 0))
 
@@ -488,6 +531,4 @@ cov = {
 render("evidence/coverage.html", "coverage.html", "Coverage and quality", "What this edition covers, how well it is sourced, and what is still open.", "evidence",
        home_c + [("Evidence", "evidence/index.html")], cov=cov, countries=countries)
 
-# sitemap
-open(os.path.join(DIST, "sitemap.txt"), "w").write("\n".join(sorted(pages)) + "\n")
-print(f"built {len(pages)} pages into {DIST}")
+exec(open(os.path.join(HERE, "build_agent.py"), encoding="utf-8").read())

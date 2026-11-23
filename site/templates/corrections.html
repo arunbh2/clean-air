@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<div class="prose">{{ body_html|safe }}</div>
+<section aria-labelledby="reg-h" class="section-rule"><h2 id="reg-h">Corrections register</h2>
+<p class="measure">Each entry names the record, what changed, the earlier wording where it was retained, the current wording, the reason and the pages that cite the record. Withdrawn claims stay in the claim register, marked as withdrawn, so their history remains traceable. Every entry is generated from <a href="../downloads/data/corrections.csv"><code>corrections.csv</code></a>, and every web page, Markdown copy, data download and evidence pack is rebuilt from the corrected record in the same build.</p>
+{% if rows %}<div class="table-wrap"><table class="data"><caption>{{ rows|length }} recorded changes</caption>
+<thead><tr><th scope="col">Entry</th><th scope="col">Record</th><th scope="col">Change</th><th scope="col">Earlier wording</th><th scope="col">Current wording</th><th scope="col">Reason</th><th scope="col">Pages citing it</th></tr></thead>
+<tbody>{% for r in rows %}<tr id="{{ r.correction_id }}"><th scope="row">{{ r.correction_id }}<br><span class="muted">{{ r.date }}</span></th>
+<td>{% if r.record_type == 'claim' %}<a href="../evidence/claims.html#{{ r.record_id }}">{{ r.record_id }}</a>{% else %}{{ r.record_id }}{% endif %}</td>
+<td>{{ r.change_type }}</td><td data-voice="verbatim">{{ r.old_text or 'Not retained' }}</td><td>{{ r.current }}</td><td>{{ r.reason }}{% if r.note %} {{ r.note }}{% endif %}</td>
+<td>{% if r.affected %}{{ r.affected|length }}: {% for p in r.affected[:6] %}<a href="../{{ p }}">{{ p }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% if r.affected|length > 6 %} and {{ r.affected|length - 6 }} more{% endif %}{% else %}Claim register only{% endif %}</td></tr>{% endfor %}</tbody>
+</table></div>{% else %}<p>No corrections have been recorded.</p>{% endif %}
+</section>
+{% endblock %}

@@ -56,7 +56,7 @@ For Delhi, transport's share of the PM2.5 emission inventory has been put at 20%
 
 None of these numbers is "the" source share of Delhi, and none applies to Patna, Mumbai or rural Bihar. Patna's winter PM2.5 has a large household-fuel component [C061]. Mumbai's has a large marine and secondary component [C065]. Mumbai's study also shows that inventories systematically miss informal sources: receptor modelling attributed 12–20% of particulate matter to industry, while the inventory-based model gave under 1%, because small informal furnaces were not in the inventory [C066]. Plans built only on inventories can miss what workers in informal units breathe.
 
-Across NCAP cities, government attributes 40–50% of PM10 to construction and road dust [C014]. That is a PM10 finding. It should not be read as a statement about the fine particles that drive most health burden.
+Across NCAP cities, government attributes 40–50% of PM10 to construction and road dust [C014]. That is a PM10 finding. It is not a statement about the fine particles that drive most health burden.
 
 ## Personal exposure: why a fixed monitor understates the street
 

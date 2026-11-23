@@ -4,7 +4,7 @@
 <p><span class="badge">{{ c.region }}</span> <span class="badge">Coverage: {{ c.coverage_status }}</span> <span class="label-note">Last reviewed {{ c.last_reviewed }} · Data year {{ c.data_year }}</span></p>
 <section class="layer simple" aria-label="The simple answer">
 <p class="simple-answer">{{ c.takeaway }}</p>
-<h2 class="layer-label">Three things a resident should know</h2>
+<h2 class="layer-label">Three things for residents to know</h2>
 <ol>{% for pt in c.resident_points.split('|') if pt %}<li>{{ pt }}</li>{% endfor %}</ol>
 <p class="label-note">Evidence: {{ c.claim_ids|claims(rel)|safe }}</p>
 </section>

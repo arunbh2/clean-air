@@ -43,7 +43,7 @@ links:
 | What studies show | What we still don't know |
 |---|---|
 | People who work in traffic breathe far more soot than fixed monitors record [C031][C032] | How much income vendors lose to pollution, after allowing for weather and season (gap G1) |
-| Vendors' lung function falls with years of work (Chennai, cross-sectional) [C152] | Whether air alerts lead to safer choices for people who must earn (gap G19) |
+| Vendors' lung function falls with years of work (Chennai, cross-sectional) [C152] | Whether air alerts lead to safer choices for people who have to earn (gap G19) |
 | Work-from-home advice does not reach daily earners [C086] | Which protections reduce exposure without shifting costs onto vendors |
 
 ## What can change

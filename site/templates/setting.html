@@ -2,7 +2,9 @@
 {% block content %}
 <h1>{{ s.name }}</h1>
 <p>{{ badge(s.evidence_confidence)|safe }} <span class="label-note">{{ s.unit_type }} · {{ s.selection_category }}</span></p>
-<p class="finding">{{ s.illustrates_beyond_delhi }}</p>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">{{ s.illustrates_beyond_delhi }}</p>
+<p class="layer-meta"><strong>What cannot be generalised:</strong> {{ s.cannot_generalise }} Next: <a href="index.html">all places</a> · <a href="../what-works/index.html">what works</a> · <a href="../evidence/gaps.html">open questions</a>.</p></section>
 {{ dl([("Why chosen", s.why_chosen|e), ("Pollution and exposure", s.pollution_exposure_profile|e), ("Communities and livelihoods", s.communities_livelihoods|e), ("Health and livelihood evidence", s.health_livelihood_evidence|e), ("Existing responses", s.existing_responses|e), ("Gaps", s.gaps|e), ("What cannot be generalised", s.cannot_generalise|e)]) }}
 <details class="evidence"><summary>Evidence behind this profile</summary><p class="sans">{{ s.claim_ids|claims(rel)|safe }}</p></details>
 {% if rgroups %}<h2>Communities to follow here</h2><ul class="card-list three">{% for g in rgroups %}<li class="card"><h3><a href="../people/{{ g.group_id }}.html">{{ g.group }}</a></h3></li>{% endfor %}</ul>{% endif %}

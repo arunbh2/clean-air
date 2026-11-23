@@ -2,6 +2,9 @@
 {% block content %}
 <h1>{{ p.title }}</h1>
 <p><span class="fcat {{ p.funding_category }}">{{ {'philanthropic':'Philanthropic grant','development-public':'Development or public finance','private-blended':'Private or blended','prospective':'Prospective (not an award)'}[p.funding_category] }}</span> <span class="label-note">{{ C_BY[p.country].name if p.country in C_BY else 'Regional' }} · {{ p.city_or_area }}</span></p>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">{% for f in p.funder_ids.split(';') %}{{ F_BY[f].name }}{% if not loop.last %} and {% endif %}{% endfor %}: {{ p.instrument }}, {{ fmt_amount(p) }}. Stage recorded: {{ p.approval_stage }}. Operation: {{ p.operational_stage }}. Results: {{ p.evidence_stage }}.</p>
+<p class="layer-meta">An approval or award is not spending, and spending is not a result. Next: <a href="../../packs/funding/who-funds.html">all funding records and links</a>{% if p.country in C_BY and C_BY[p.country].coverage_status != 'research queue' %} · <a href="../../packs/countries/{{ p.country }}.html">{{ C_BY[p.country].name }} evidence pack</a>{% endif %}.</p></section>
 <dl class="kv">
 <dt>Funder</dt><dd>{% for f in p.funder_ids.split(';') %}<a href="../funders/{{ f }}.html">{{ F_BY[f].name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</dd>
 <dt>Instrument</dt><dd>{{ p.instrument }}</dd>
