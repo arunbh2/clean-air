@@ -145,6 +145,8 @@ Every change serves the human reader, the maintainer and the AI agent from **one
   Schedule: `.github/workflows/signals.yml` (02:17 and 14:17 UTC), which triggers the deploy workflow.
 - Signals never carry an evidence-strength label. Ingestion only writes `discovered_unreviewed`; editorial notes, claim links and funding amounts come
   only from reviewed rows in `review-decisions.csv`. Unverified amounts never enter funding totals. `feed.xml` stays reserved for site updates and corrections.
+- **Reviewer (owner decision, 23 November 2026):** signal review is delegated to Claude. Reviewer value `AI reviewer (Claude), delegated by the editor`;
+  the site discloses AI review on every reviewed record. Read the source before any note; never write a claim or change a rating from a signal.
 - Enforced by `tools/signals/test_signals.py`, `tools/signals/validate.py`, `tools/check_signals.py` and `tools/signals/test_base_url.py` (all in `tools/check_all.py`).
   Audit and owner decisions: `docs/LIVE_SIGNALS_AUDIT.md`. Method: `docs/live-signals-method.md`. Maintenance: `docs/live-signals-maintenance.md`.
 

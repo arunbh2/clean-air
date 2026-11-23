@@ -45,6 +45,8 @@ Every record starts as **source record, not assessed**. A curator can move it fo
 3. **Proposed for the evidence register:** a new claim or an amendment is drafted through the normal research process, with a located passage.
 4. **Linked to the evidence register:** allowed only when a claim in a dated research edition cites this source. The feed cannot create a claim or change a rating.
 
+**Who reviews.** The site's editor has delegated signal review to an AI reviewer (Claude, working in this repository). Every record it checks or reviews says so on the record itself. It reads the source before writing a note, records what the note rests on, and cannot create claims or change ratings: those still need the research process and a dated edition.
+
 Funding announcements stay apart from verified funding records. An amount appears only after its stage (requested, announced, pledged, approved, contracted, disbursed or evaluated), currency and source have been checked, and it is never added to a funding total on this site.
 
 ## Rights and privacy

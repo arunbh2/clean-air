@@ -70,6 +70,7 @@ def _apply(r):
     if d.get("related_intervention_ids") and r["review_status"] != "discovered_unreviewed":
         r["related_intervention_ids"] = [x for x in d["related_intervention_ids"].split(";") if x]
     r["reviewed_on"] = d.get("reviewed_on", "")
+    r["reviewer_ai"] = "ai" in re.findall(r"[a-z]+", (d.get("reviewer") or "").lower())   # delegated AI review is always disclosed
     r["_view"] = SIG_TAX["view_of_type"].get(r["source_type"], "news")
     src = SIG_SRC_BY.get(r["source_registry_id"], {})
     r["_org_type"] = src.get("org_type", "")
@@ -111,7 +112,10 @@ SIG_BY_ORG_NAMED = _idx(lambda r: [o["org_id"] for o in r["organisation_ids"] if
 SIG_FUNDING = [r for r in SIG_TIMELINE if r["_view"] == "funding"]
 SIG_AWAITING = [r for r in SIG_TIMELINE if r["source_type"] in ("research", "preprint", "report") and r["review_status"] in ("discovered_unreviewed", "metadata_checked")]
 SIG_FEATURED = [r for r in SIG_TIMELINE if r["featured"]][:5]
-env.globals.update(SIG_BY_INT=SIG_BY_INT, SIG_BY_GROUP=SIG_BY_GROUP, SIG_BY_NODE=SIG_BY_NODE, SIG_BY_ORG_PUB=SIG_BY_ORG_PUB, SIG_BY_ORG_NAMED=SIG_BY_ORG_NAMED,
+SIG_REVIEW_LABEL_AI = {"metadata_checked": "Details checked against the source by Clean Air's AI reviewer; content not assessed",
+                       "editorial_reviewed": "Reviewed by Clean Air's AI reviewer, delegated by the editor",
+                       "evidence_promoted": "Reviewed by Clean Air's AI reviewer and linked to the evidence register"}
+env.globals.update(SIG_REVIEW_LABEL_AI=SIG_REVIEW_LABEL_AI, SIG_BY_INT=SIG_BY_INT, SIG_BY_GROUP=SIG_BY_GROUP, SIG_BY_NODE=SIG_BY_NODE, SIG_BY_ORG_PUB=SIG_BY_ORG_PUB, SIG_BY_ORG_NAMED=SIG_BY_ORG_NAMED,
                    SIG_FUNDING=SIG_FUNDING, SIG_AWAITING=SIG_AWAITING, SIG_TIMELINE=SIG_TIMELINE, SIG_LAST=SIG_LAST, SIG_DELAYED=SIG_DELAYED,
                    SIG_TYPE_LABEL=SIG_TYPE_LABEL, SIG_PROV_LABEL=SIG_PROV_LABEL, SIG_REVIEW_LABEL=SIG_REVIEW_LABEL, SIG_THEME_LABEL=SIG_THEME_LABEL,
                    SIG_COUNTRY_LABEL=SIG_COUNTRY_LABEL, SIG_ORGTYPE_LABEL=SIG_ORGTYPE_LABEL, SIG_VIEW_LABEL=SIG_VIEW_LABEL, sig_stamp=sig_stamp,

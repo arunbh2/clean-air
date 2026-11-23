@@ -35,6 +35,6 @@ Tested and not enabled: OpenAlex (works without a key but returns metered-credit
 1. **Automatic commits to `main`.** The refresh workflow commits `research/signals/` to `main` with the built-in token (`contents: write`). If `main` gets branch protection that blocks this, the push fails and the run report says so; the alternatives are a pull request per refresh or a bot account allowed to push.
 2. **OpenAlex.** Enable only with an API key stored as the `OPENALEX_API_KEY` repository secret and a budget decision.
 3. **ReliefWeb appname**, and **permission or manual records** for CREA, CEEW, CPCB, CAQM and PIB.
-4. **Curators.** Nobody is assigned to review signals yet, so no record is past "not assessed", no editorial note exists and the "What is new?" lead shows "Recently discovered".
+4. **Curators.** Decided 23 November 2026: the owner delegated signal review to Claude. Each reviewed record is labelled as reviewed by an AI reviewer delegated by the editor. This departs from the brief's "human-reviewed" wording for editorial notes; the departure is documented here and disclosed on every record rather than silently resolved.
 5. **Local-language sources** and any **paid news API**.
 6. **A new dated evidence edition** if reviewed signals are to become claims.
