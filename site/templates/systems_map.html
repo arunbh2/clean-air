@@ -34,6 +34,7 @@
     </fieldset>
     <label>Show a feedback loop <select data-loop><option value="">None</option>{% for c in G.loops %}<option value="{{ c.loop_id }}">{{ c.loop_id }}: {{ c.title }}</option>{% endfor %}</select></label>
     <label>Switch on a lever <select data-lever><option value="">None</option></select></label>
+    <label>Why implementation succeeds or fails <select data-four><option value="">Choose one of the 4Is</option><option value="Information">Information</option><option value="Incentives">Incentives</option><option value="Institutions">Institutions</option><option value="Infrastructure">Infrastructure</option></select></label>
     <button type="button" class="btn-clear" data-reset>Clear all</button>
   </div></details>
 </div>

@@ -15,6 +15,7 @@ Descriptor: *Air pollution, livelihoods and unequal protection.* Tagline: *Share
 | `docs/organisations-10x-brief.md` | The Organisations section: ecosystem atlas, organisation–project–funder links, private-sector diligence | the site brief on the Organisations section only; never over the evidence standards, cutoff, IDs or design tokens above |
 | `docs/three-audiences-governance-brief.md` | Cross-cutting quality layer: editorial voice, design guardrails, passage-level verification, corrections sync, agent-readable exports (llms.txt, Markdown mirrors, packs) | adds requirements across all sections; never over the evidence standards, cutoff, IDs, verdicts or design tokens above (conflicts are documented, not silently resolved) |
 | `docs/systems-map-master-brief.md` | The Web of Dirty Air: the interactive systems map (`/systems-map/`), its graph data, loops, levers and journeys | the site brief on the systems map only; never over the evidence standards, cutoff, IDs, verdicts, design tokens or three-audience governance above |
+| `docs/breath-of-change-integration-brief.md` | Integrating the World Bank's *A Breath of Change* (2025) across the site: sources explainer, 4Is, what works by job, funding lens, systems map, regional collaboration | the site brief on these integrations only; never over the evidence standards, cutoff, IDs, verdicts, design tokens, three-audience governance or systems-map rules above. The PDF lives in `sources/private/` (git-ignored, copyright World Bank) |
 
 The website **is** in scope. The site brief overrides the research brief's line about not building one.
 The expansion brief (owner instruction, 22 November 2026) is the updated mandate. It extends the site in place: keep existing
@@ -126,6 +127,13 @@ Every change serves the human reader, the maintainer and the AI agent from **one
   interpretations unless studied end to end. Levers reuse intervention IDs and take their effectiveness rating only from `interventions.csv`.
 - Organisations and funders appear on a lever only through verified atlas roles. Never write "will eliminate", "saves lives" or "breaks the loop".
 - Enforced by `tools/check_systems_map.py` (in `tools/check_all.py`). Maintenance: `docs/SYSTEMS_MAP_METHOD.md`.
+
+### 9. A Breath of Change (`docs/breath-of-change-integration-brief.md`)
+- The World Bank book is source S182 (cited by printed page; PDF page = printed + 52). Findings live in `research/breath-of-change/`
+  (extraction register, origins, 4Is, delivery pathways, report-named organisations, chapter map) and claims C227-C267.
+- "35 by 35" is always aspirational or interim, never the WHO guideline. Origin shares and sector shares are never combined. Modelled
+  shares are not measurements. A World Bank recommendation is never a funding record. Ratings change only through a documented review.
+- The PDF and its text stay in `sources/private/` (git-ignored). Enforced by `tools/check_boc.py`. Audit: `docs/research/world-bank-breath-of-change-integration-audit.md`.
 
 ## Which skill for which job
 

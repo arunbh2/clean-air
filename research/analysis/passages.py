@@ -127,8 +127,16 @@ if __name__ == "__main__":
     claims = list(csv.DictReader(open(os.path.join(D, "claims.csv"))))
     verif = {r["claim_id"]: r for r in csv.DictReader(open(os.path.join(D, "verification.csv")))}
     texts = {}
+    lp = os.path.join(D, "source-local-texts.csv")
+    local = {r["source_id"]: os.path.join(ROOT, "..", r["path"]) for r in csv.DictReader(open(lp))} if os.path.exists(lp) else {}
+    prev = {r["claim_id"]: r for r in csv.DictReader(open(os.path.join(D, "claim-passages.csv")))} if os.path.exists(os.path.join(D, "claim-passages.csv")) else {}
+    missing_local = set()
     for sid, s in sources.items():
-        texts[sid] = norm(fetch(s["url"]))
+        if sid in local:
+            if os.path.exists(local[sid]): texts[sid] = norm(open(local[sid], errors="ignore").read())
+            else: texts[sid] = ""; missing_local.add(sid)   # owner-supplied text not in this workspace: keep earlier results
+        else:
+            texts[sid] = norm(fetch(s["url"]))
         print(sid, len(texts[sid]), flush=True)
     rp = os.path.join(D, "passage-reviews.csv")
     reviews = {r["claim_id"]: r for r in csv.DictReader(open(rp))} if os.path.exists(rp) else {}
@@ -157,6 +165,10 @@ if __name__ == "__main__":
                 state, method = "passage_found", "manual review: reviewer located the passage (data/passage-reviews.csv)"
             elif rev["decision"] == "partial" and all(has(f, pool) for f in figures(c["claim"])):
                 state, method = "passage_found", "manual review: main passage located; remaining figures found elsewhere in the same source"
+        if not cand and c["claim_id"] in prev and prev[c["claim_id"]]["verification_state"] != "not_accessible":
+            rows.append(prev[c["claim_id"]]); continue      # transient fetch failure: keep the earlier result rather than downgrade it
+        if missing_local and set(sids) <= missing_local and c["claim_id"] in prev:
+            rows.append(prev[c["claim_id"]]); continue
         rows.append({"claim_id": c["claim_id"], "verification_state": state,
                      "source_id": best[5] if best else ";".join(sids),
                      "word_overlap": f"{best[1]:.2f}" if best else "", "figures_in_passage": f"{best[2]:.2f}" if best else "",

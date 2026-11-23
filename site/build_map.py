@@ -154,7 +154,7 @@ GRAPH = {
                "loop_confidence": c["cycle_confidence"], "weakest_link": c["_weakest"], "measured_links": c["_measured"], "links": len(c["_edges"]),
                "contexts": c["contexts"], "caveats": c["caveats"], "url": f"{BASE_URL}systems-map/loops/{c['cycle_id'].lower()}.html"} for c in SM_CYC],
     "levers": [{"lever_id": l["lever_id"], "name": l["_name"], "mode": l["mode"], "targets": l["_targets"], "could_change": l["could_change"],
-                "effectiveness_rating": l["_rating"], "effectiveness_reason": l["_reason"], "recommendation": l["_rec"],
+                "effectiveness_rating": l["_rating"], "four_is": split(I_BY[l["lever_id"]].get("four_is", "")), "job": I_BY[l["lever_id"]].get("response_job", ""), "effectiveness_reason": l["_reason"], "recommendation": l["_rec"],
                 "capital_needs": l["_capital"], "recurring_needs": l["_recurring"], "risks": l["risks"], "measure": l["measure"], "unproven": l["unproven"],
                 "roles": [{"role": r, "institution": inst["label"]} for r, inst in l["_roles"]],
                 "documented_organisations": [{"org_id": o["org_id"], "name": o["organisation"], "role": role, "record": j["project_id"]} for o, role, j in l["_orgs"]],
@@ -193,7 +193,7 @@ env.globals.update(SM_NODE_BY=NODE_BY, SM_EDGE_BY=EDGE_BY, SM_SYS_BY=SYS_BY, SM_
 smfm, smbody = site_md("systems-map.md")
 map_data = {"nodes": GRAPH["nodes"], "edges": GRAPH["edges"], "loops": GRAPH["loops"], "systems": GRAPH["systems"],
             "levers": [{k: v for k, v in l.items() if k in ("lever_id", "name", "mode", "targets", "could_change", "effectiveness_rating", "effectiveness_reason",
-                                                         "recommendation", "risks", "measure", "unproven", "roles", "documented_organisations", "funding_records", "funding_links", "url")}
+                                                         "recommendation", "risks", "measure", "unproven", "roles", "four_is", "job", "documented_organisations", "funding_records", "funding_links", "url")}
                        for l in GRAPH["levers"]], "groups": [{"id": g["group_id"], "label": g["group"]} for g in groups if any(g["group_id"] in n["_pops"] for n in SM_NODES)]}
 render("systems-map/index.html", "systems_map.html", smfm["title"], smfm["lede"], None, home_c, smfm=smfm, intro_html=md(smbody, "../", 0), SVG=SVG,
        G=GRAPH, journeys=SM_J, questions=SM_Q, map_json=json.dumps(map_data, ensure_ascii=False).replace("</", "<\\/"), glossify=False)

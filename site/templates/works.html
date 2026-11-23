@@ -6,6 +6,10 @@
 <p class="finding">{{ sec.intro }}</p>
 <p class="sans">Which link in the system each response could weaken, and who could act: <a href="../systems-map/index.html">the web of dirty air</a>.</p>
 <p class="sans hubs"><a href="compare.html">Compare up to three</a> · <a href="not-a-solution.html">What not to mistake for a solution</a></p>
+<section aria-labelledby="jobs-h" class="section-rule"><h2 id="jobs-h">Three different jobs</h2>
+<p class="measure">Some responses cut pollution at its source, some protect people while it persists, and some help other solutions spread and last (the World Bank's 2025 book groups its measures the same way {{ "C240"|claims(rel)|safe }}). A protective measure does not clean the outdoor air. Whether any of them works depends on <a href="four-is.html">information, incentives, institutions and infrastructure</a>, and on <a href="delivery.html">who pays to keep it going</a>.</p>
+<div class="q-grid">{% for job, label in [('abatement','Reduce emissions at the source'),('protection','Protect people while pollution persists'),('enabler','Help solutions spread and last')] %}<details class="q" open><summary>{{ label }}</summary><ul class="sans small">{% for x in ints if x.response_job == job %}<li><a href="{{ x.int_id }}.html">{{ x.intervention|truncate(70) }}</a> <span class="muted">works: {{ x.evidence_intervention }}</span></li>{% endfor %}</ul></details>{% endfor %}</div>
+</section>
 <div class="filters" data-filter-for="int-list" hidden>
   <label>Recommendation<select data-key="rec"><option value="">All</option><option>Fund now</option><option>Test first</option><option>Not recommended</option></select></label>
   <label>Type<select data-key="cls"><option value="">All</option><option value="emissions">Cut emissions</option><option value="exposure">Reduce exposure</option><option value="health">Health response</option><option value="livelihood-social-protection">Livelihood and social protection</option><option value="governance">Governance and data</option></select></label>

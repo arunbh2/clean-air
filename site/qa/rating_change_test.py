@@ -14,7 +14,8 @@ p = os.path.join(res, "data", "interventions.csv")
 rows = list(csv.DictReader(open(p))); F = list(rows[0].keys())
 for r in rows:
     if r["int_id"] == "smog-towers": r["recommendation"] = "Fund now"; r["evidence_intervention"] = "Moderate"
-w = csv.DictWriter(open(p, "w", newline=""), fieldnames=F); w.writeheader(); w.writerows(rows)
+with open(p, "w", newline="", encoding="utf-8") as fh:  # close (flush) before the build reads it
+    w = csv.DictWriter(fh, fieldnames=F); w.writeheader(); w.writerows(rows)
 env = dict(os.environ, CLEAN_AIR_RESEARCH=res, CLEAN_AIR_DIST=dist)
 subprocess.run([sys.executable, os.path.join(ROOT, "site", "build.py")], env=env, check=True, capture_output=True)
 changed = open(os.path.join(dist, "what-works", "smog-towers.html")).read()

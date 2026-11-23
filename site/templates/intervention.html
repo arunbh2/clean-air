@@ -5,6 +5,7 @@
 <section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
 <p class="simple-answer">{{ i.what_it_does }} Evidence that it improves outcomes: <strong>{{ i.evidence_intervention }}</strong>. {{ i.evidence_reason }}</p>
 <p class="layer-meta">Not a validated investment recommendation. Ratings summarise published evidence to {{ CUTOFF }}. Next: <a href="../packs/interventions/{{ i.intervention_class }}.html">compare responses in the same class</a>.</p></section>
+<p class="sans"><span class="badge">Job: {{ {'abatement':'reduces emissions at the source','protection':'protects people while pollution persists','enabler':'helps solutions spread and last'}[i.response_job] }}</span> <span class="label-note">Needs: {% for x in i.four_is.split(';') %}<a href="four-is.html#{{ x|lower }}">{{ x }}</a>{% if not loop.last %}, {% endif %}{% endfor %} (<a href="four-is.html">the 4Is</a>)</span></p>
 <h2>What it does</h2>
 <p class="measure">{{ i.what_it_does }}</p>
 <p class="measure label-note">Pollutant or pathway: {{ i.pollutant_or_pathway }}</p>
@@ -12,6 +13,9 @@
 <p class="measure">{{ i.who_benefits }}</p>
 <p class="measure"><strong>Equity:</strong> {{ i.equity }}</p>
 {% if rgroups %}<p class="sans">Communities: {% for g in rgroups %}<a href="../people/{{ g.group_id }}.html">{{ g.group }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+{% if i.boc_note %}<h2>What the World Bank's 2025 book says</h2>
+<p class="measure">{{ i.boc_note|md(rel)|safe }}</p>
+<p class="measure label-note">A recommendation in the book is not evidence that the measure works here; Clean Air's ratings below are based on measured outcomes. <a href="../evidence/breath-of-change.html">How the book was read</a>.</p>{% endif %}
 <h2>Evidence</h2>
 <dl class="kv"><dt>Problem exists</dt><dd>{{ badge(i.evidence_problem)|safe }}</dd><dt>Intervention works</dt><dd>{{ badge(i.evidence_intervention)|safe }}</dd><dt>Relevance to India</dt><dd>{{ i.india_relevance }}</dd></dl>
 <p class="measure">{{ i.evidence_reason }}</p>

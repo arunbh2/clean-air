@@ -160,7 +160,7 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   pass('home page has no horizontal scroll with text at 200%', z <= 0, `${z}px`);
   // 4b. three-audience browser checks: 320/375/768/1280 with text at 200%, keyboard focus, reduced motion, rendered type size
   const REP = ['index.html', 'organisations/index.html', 'organisations/o/clean-up-nepal.html', 'evidence/claims.html', 'packs/questions/bangladesh-funding.html',
-               'packs/questions/low-cost-sensors.html', 'what-works/smog-towers.html', 'about/corrections.html', 'for-ai/index.html', 'people/construction-workers.html', 'systems-map/index.html', 'systems-map/links.html', 'systems-map/journeys/street-vendor.html', 'systems-map/levers/kiln-transition.html'];
+               'packs/questions/low-cost-sensors.html', 'what-works/smog-towers.html', 'about/corrections.html', 'for-ai/index.html', 'people/construction-workers.html', 'systems-map/index.html', 'systems-map/links.html', 'systems-map/journeys/street-vendor.html', 'systems-map/levers/kiln-transition.html', 'places/where-air-comes-from.html', 'what-works/four-is.html', 'what-works/delivery.html', 'evidence/breath-of-change.html'];
   const zoomFail = [];
   for (const w of [320, 375, 768, 1280]) {
     await mob.setViewportSize({ width: w, height: 900 });

@@ -48,6 +48,7 @@
 <br><span class="sans small">{{ f.funding_instrument|capitalize }} · {{ fmt_flow(f) }} · {{ f.commitment_or_disbursement }} {{ f.approval_year }} · {{ f.confidence_note }} · {{ f.public_source_ids|replace(';', ', ') }}</span></li>{% endfor %}</ul>
 {% else %}<p>No public funding record was found for this organisation. That does not mean it is unfunded.</p>{% endif %}
 {% if o.funder_id %}<p class="sans"><a href="../funders/{{ o.funder_id }}.html">Funder profile in the Funding Atlas</a></p>{% endif %}
+{% if o.org_id in BOC_NAMED_BY %}<p class="sans small"><strong>Named in the World Bank's 2025 book</strong> (p. {{ BOC_NAMED_BY[o.org_id].printed_page }}): {{ BOC_NAMED_BY[o.org_id].role_in_report }}. A mention is not a partnership, funding link or endorsement. <a href="../../evidence/breath-of-change.html#org-h">Details</a>.</p>{% endif %}
 {% if o.partners %}<p><strong>Partners named in sources:</strong> {{ o.partners }}</p>{% endif %}
 {% if o.funding_where_public %}<p><strong>Funding noted in the first edition:</strong> {{ o.funding_where_public }}</p>{% endif %}
 </section>

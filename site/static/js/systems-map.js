@@ -164,6 +164,14 @@
   });
   ctl.querySelector('[data-find]').addEventListener('click', function () { showPaths(selFrom.value, selTo.value, ctl.querySelector('[data-hyp]').checked); });
   ctl.querySelector('[data-loop]').addEventListener('change', function (ev) { if (ev.target.value) showLoop(ev.target.value); else clearMarks(); });
+  ctl.querySelector('[data-four]').addEventListener('change', function (ev) {
+    var v = ev.target.value; if (!v) { clearMarks(); return; }
+    var ls = D.levers.filter(function (l) { return l.four_is.indexOf(v) > -1; }); clearMarks();
+    mark([].concat.apply([], ls.map(function (l) { return l.targets; })), 'lever-target');
+    show('<h3>Levers that depend on ' + esc(v) + '</h3><p class="muted small">An illustration of prerequisites from the World Bank\'s 4Is framework, not a prediction. If ' + esc(v.toLowerCase()) + ' is missing, these levers are unlikely to work as intended.</p><ul>' +
+      ls.map(function (l) { return '<li><button type="button" class="linkish" data-lev="' + l.lever_id + '">' + esc(l.name) + '</button> <span class="muted small">' + esc(l.job) + '; evidence it works: ' + esc(l.effectiveness_rating) + '</span></li>'; }).join('') +
+      '</ul><p class="sans small"><a href="../what-works/four-is.html">The 4Is explained</a></p>');
+  });
   selLev.addEventListener('change', function (ev) { if (ev.target.value) showLever(ev.target.value); else clearMarks(); });
   ctl.querySelector('[data-reset]').addEventListener('click', function () {
     clearMarks(); ctl.querySelectorAll('select').forEach(function (s) { s.value = ''; });

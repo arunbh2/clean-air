@@ -1,0 +1,2 @@
+source_id,path,note
+S182,sources/private/a-breath-of-change.txt,"Text extracted page by page from the owner-supplied PDF (git-ignored, copyright World Bank). Present only in the workspace where the PDF was supplied; CI relies on the committed claim-passages.csv."

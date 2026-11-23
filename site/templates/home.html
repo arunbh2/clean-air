@@ -16,6 +16,11 @@
   <p class="measure">One source can trigger many consequences, and those consequences can reinforce one another. The systems map shows how pollution, exposure, health, earnings and institutions connect, and how strong the evidence is for each link.</p>
   <p class="btn-row sans"><a class="btn" href="systems-map/index.html#map">Explore the connections</a> <a class="btn secondary" href="systems-map/journeys/index.html">Start with one person's day</a></p>
 </section>
+<section class="section-rule" aria-labelledby="hard-h">
+  <h2 id="hard-h">{{ mods.airhard.title }}</h2>
+  <div class="q-grid">{% for pnt in mods.airhard.points %}<div class="q"><h3>{{ pnt.label }}</h3><p>{{ pnt.text|md("")|safe }}</p><p class="sans"><a href="{{ pnt.href }}">{{ pnt.link }}</a></p></div>{% endfor %}</div>
+  <p class="label-note">{{ mods.airhard.credit }} <a href="evidence/breath-of-change.html">How we read it</a>.</p>
+</section>
 <section class="beginner" aria-labelledby="six-q">
   <h2 id="six-q">Six questions, two sentences each</h2>
   <div class="q-grid">

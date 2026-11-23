@@ -1,0 +1,17 @@
+jurisdiction,country,metric,category,value,unit,period,method,printed_page,pdf_page,value_status
+IGP-HF average,Regional,geographic origin,Local,52,% of annual average PM2.5,2020-24,"GAINS model, population-weighted",xxi,21,stated in text
+Kathmandu Valley,Nepal,geographic origin,Local,63,% of annual average PM2.5,2020-24,GAINS model,22,74,stated in Chapter 2 text (overview says about 60%)
+Uttar Pradesh,India,geographic origin,Local,about 60,% of annual average PM2.5,2020-24,GAINS model,xxi,21,stated in overview text as an approximate maximum
+Greater Dhaka,Bangladesh,geographic origin,Local,about 60,% of annual average PM2.5,2020-24,GAINS model,xxi,21,stated in overview text as an approximate maximum
+Bangladesh,Bangladesh,geographic origin,Outside country (India),about 40,% of annual average PM2.5,2020-24,GAINS model,22,74,stated in Chapter 2 text
+Terai,Nepal,geographic origin,Outside country,68,% of annual average PM2.5,2020-24,GAINS model,xxi; 22,21; 74,stated in text
+Terai,Nepal,geographic origin,Local,about 20,% of annual average PM2.5,2020-24,GAINS model,22,74,stated in Chapter 2 text
+Punjab,Pakistan,geographic origin,Local,45,% of annual average PM2.5,2020-24,GAINS model,22,74,"stated in Chapter 2 text; Figure 3 appears higher, values not printed"
+Jharkhand,India,geographic origin,Outside the state,60-70,% of annual average PM2.5,2020-24,GAINS model,22,74,stated in Chapter 2 text
+"West Bengal, Bihar",India,geographic origin,All jurisdictions,not printed,,2020-24,GAINS model,xx,20,"chart only; bar values not printed, so not reproduced"
+IGP-HF average,Regional,emitting sector,Household cooking,33,% of population-weighted PM2.5 exposure,2020-24,GAINS model,xxi,21,stated in text
+IGP-HF average,Regional,emitting sector,Industry (small and large) and power plants,21,% of population-weighted PM2.5 exposure,2020-24,GAINS model,xxix,29,stated in text
+IGP-HF average,Regional,emitting sector,Transport,17 (range 10-40 across jurisdictions),% of PM2.5,2020-24,GAINS model,xxxii,32,stated in text
+IGP-HF average,Regional,emitting sector,"Agriculture (fertiliser, manure, crop residue)","12 (above 15 in Punjab India, Haryana, Terai, Uttar Pradesh)",% of PM2.5,2020-24,GAINS model,xxxv,35,stated in text
+IGP-HF jurisdictions,Regional,emitting sector,Waste,up to 10 in some jurisdictions,% of PM2.5,2020-24,GAINS model,xxi,21,stated in text
+Each jurisdiction,Regional,emitting sector,Top four sectors by jurisdiction,not printed,,2020-24,GAINS model,xxii,22,"chart only; bar values not printed, so not reproduced; leading sectors named in text (C238)"
