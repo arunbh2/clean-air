@@ -1,0 +1,598 @@
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The hidden burden of rural air pollution 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+   
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Features 
+ 
+ Videos   Podcasts   Specials   Articles 
+ Shorts   
+ Subscribe 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ English 
+ Español (Spanish) 
+ Français (French) 
+ Bahasa Indonesia (Indonesian) 
+ Brasil (Portuguese) 
+ India (English) 
+ हिंदी (Hindi) 
+ বাংলা (Bengali) 
+ Swahili 
+ 
+ 
+ 
+ 
+ Videos   Podcasts   Articles 
+ Short News   Feature Stories 
+ The Latest 
+ Explore All 
+ 
+ 
+ 
+ About 
+ Team 
+ Contact 
+ 
+ 
+ Subscribe page 
+ Submissions 
+ 
+ 
+ Privacy Policy 
+ Terms of Use 
+ Advertising 
+ 
+ 
+ Wild Madagascar 
+ For Kids 
+ Mongabay.org 
+ Reforestation App 
+ 
+ 
+ Planetary Health Check 
+ Conservation Effectiveness 
+ Mongabay Data Studio 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The hidden burden of rural air pollution 
+ 
+ 
+ 
+   
+ 
+ Himanshu Praveen 
+ 
+ 17 Jul 2026 
+ Bihar   Just Transitions   
+ 
+ 
+ 
+ Comments 
+ Share article 
+ 
+ 
+ 
+ 
+ Share this article 
+ If you liked this story, share it with other people. 
+ 
+ 
+ 
+ 
+ 
+ Facebook 
+ 
+ 
+ 
+ 
+ Linkedin 
+ 
+ 
+ Threads 
+ 
+ 
+ Whatsapp 
+ 
+ 
+ Reddit 
+ 
+ 
+ 
+ Email   
+ 
+ Page link 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Villages in Bhojpur, Bihar, face severe air pollution aggravated by the weather conditions in winter. A study highlights that rural Bihar exceeds national PM 2.5 standards on almost all days. The Bihar State Pollution Control Board (BSPCB) questions the reliability of the data. Experts say reducing rural air pollution requires adopting coordinated, airshed-level action across Bihar and Uttar Pradesh, along with improving the use of clean fuels. See All Key Ideas   
+ In the peak of summer, villages around Koilwar and Arrah in Bihar’s Bhojpur district are often hit by dust storms. By midday, strong winds sweep fine soil across agricultural fields, leaving crops and rooftops coated in dust. 
+ But the dust seen in summer is only the beginning. For local communities, air pollution typically worsens after the monsoon into the winter months when temperatures plunge, and ground-level wind speeds drop to near-stagnation. It prevents dust and emissions from industries and households from dispersing easily. As a result, pollutants accumulate near the ground, causing air quality to deteriorate. 
+ Vishwanath Pratap Singh, a local social activist based in Bhojpur, says, “During the summer, we somehow manage the heat and dust storms, which are challenging but still manageable. But the real disaster unfolds during the winter months when a strange heaviness grips the village air. “Persistent eye irritation and chronic throat infections have now become a daily reality for our children and the elderly,” he adds. 
+ Aamod Kumar, a resident of Koilwar, says the air becomes unbearable in winter. “Once the brick kilns start operating, the whole area fills with smoke, especially in the mornings. Ash settles on our crops, affecting the harvest. Stepping outside feels like breathing smoke instead of fresh air.” 
+ The concerns expressed by Aamod and Singh are not an isolated experience. It is supported by findings from a study conducted by Indian Institute of Technology (IIT) Kanpur. Under the project named the AMRIT (Ambient Air Quality Monitoring over Rural areas using Indigenous Technology) project, the IIT Kanpur team installed 538 indigenous sensor nodes across every block in Bihar’s 38 districts. The locations were designed to cover rural areas, small towns, industry locations (organised and unorganised) and also the urban regions, the study claims. 
+ The findings  published  in the  Environmental Science & Technology,  in November 2025 ,  show that air quality in rural Bihar violates national safety standards on nearly 90% of the days. The study finds that PM2.5 levels were two to three times higher than the national standard during the post-monsoon and winter seasons. 
+ Aamod Kumar, a resident of Koilwar, says the air becomes unbearable in winter once brick kilns start operating. Ash settles on crops, while the air suffocates. Image by Himanshu Praveen. 
+ The study found that winter PM2.5 concentrations in northwest Bihar, including Muzaffarpur and Gopalganj districts, routinely reached 210 μg/m³, far exceeding the national  safety standard  of 60 μg/m³. The study mentions presence of widespread brick kiln industries, sugar mills and thermal power stations in Muzaffarpur which may contribute the local air pollution. 
+ Similarly, Southwest Bihar, which includes districts such as Bhojpur, Buxar and rural Patna, exhibits a ‘uniformly polluted’ characteristic. For this region too, the study lists stubble burning and brick kilns industry may causing air pollution. 
+ However, D.P. Shukla, Chairman of the Bihar State Pollution Control Board (BSPCB), has questions the validity of the findings while talking to Mongabay-India. Shukla says the indigenous low-cost sensors used to collect air quality data in rural areas are only about 60% accurate. 
+ Sachidanand Tripathi, the National Clean Air Program Chair Professor at IIT Kanpur and chief investigator of the AMRIT project, counters this scepticism. “No instrument in the world of environmental science operates at 100% absolute accuracy,” states Tripathi. “Even the multi-crore imported regulatory monitors used by governments exhibit operational vulnerabilities depending on atmospheric fluxes. The essence of modern data science lies not in the cost of the hardware, but in how you mathematically calibrate that data against standard references.” 
+ Meenakshi Sundaram, a Project Consultant at the Centre of Excellence ( ATMAN ), IIT Kanpur, says, “Our indigenous sensors are scientifically highly accurate, and their data trends mirror official regulatory stations perfectly, as proven through our extensive co-location trials.” 
+ Tripathi highlights a data gap in traditional governance frameworks. Bihar spans  nearly 100,000 square kilometres  and is home to approximately  127 million people . To monitor this vast demographic footprint, the state operates  just 35 traditional  CAQM stations. 
+ “This implies there is roughly one regulatory monitor for every 3.5 to 4 million citizens, and even those are concentrated almost exclusively in urban hubs,” Tripathi emphasises. “The state effectively had zero empirical visibility into the air breathed by its rural majority. Project AMRIT has democratised this data landscape, providing hyper-local, block-level insights at a fraction of traditional infrastructure costs.” 
+ People walk past a smouldering stretch of plastic and domestic refuse set on fire along a busy highway, exposing nearby households and commuters to high particulate emissions. Image by Himanshu Praveen. 
+ Why villages suffer 
+ To resolve the paradox of how rural spaces register higher pollution loads without urban traffic etc., Sanjay Kumar, a geographer and Head of the Post Graduate, Department of Geography at Veer Kunwar Singh University, Ara, explains, “During the day, urban centers transform into heat islands due to high vehicular concentration and concrete density, creating a rising thermal dome,” Kumar explains. “However, as night falls and temperatures plunge, the regional wind dynamics shift. The cooler, denser air combined with high ambient moisture over the Indo-Gangetic Plains induces severe localised inversion. Instead of dispersing vertically, the rural moisture collides with dust and industrial smoke, trapping a thick, low-lying blanket of heavy smog directly over rural households from midnight through the early morning hours.” 
+ Kumar adds that winter highlights this geographical trap. “The drop in temperature coupled with very low wind speeds means that instead of dispersing vertically into the upper atmosphere, the pollutants remain trapped close to the ground, lingering over rural households from midnight through the early morning hours, taking a direct toll on the health of residents like Aamod.” 
+ 
+ Read more:  India’s urban-rural air quality divide 
+ 
+ Possible reason for local pollution 
+ The primary drivers of the high pollution level in rural areas ranges from the widespread domestic reliance on solid biomass (wood, agricultural waste, and dung cakes) to seasonal stubble burning and loose dust stagnation, the IIT study says. It also mentions traditional brick kilns as a potential reason for high air pollution. 
+ Manoj Singh, the State Spokesperson for the Bihar Brick Kiln Owners’ Association, refutes, “It is an oversimplification to scapegoat brick kilns as the solitary villains of rural air pollution. First, our industry is strictly seasonal, operating only during specific dry winter and summer months. Second, in alignment with the pollution control board’s directives, the vast majority of brick kilns across Bihar have successfully transitioned away from legacy models.” 
+ Citing the state government’s mandatory regulatory frameworks, including the Bihar State Pollution Control Board’s official  Gazette Notification , issued in March 2022, which legally mandated the transition to cleaner kiln operations, Manoj Singh adds, “Our kilns have shifted to cleaner ‘Zigzag Technology’ and installed specialised particulate filters in their chimneys. While our association remains fully committed to technological upgrades, the state must recognise that rural air quality is deeply tied to domestic biomass use, requiring collective solutions rather than industry-specific penalties.” 
+ According to Sundaram, the slow adoption of clean cooking energy is another issue. According to him, in rural belts adoption of clean cooking energy is not merely an economic issue of cylinder pricing, but is rooted in deeply entrenched cultural habits. 
+ A woman cooks on a traditional mud  chulha  (stove) using solid biomass, highlighting the deep-rooted challenge of ‘fuel stacking’ in rural Bihar. Image by Himanshu Praveen. 
+ “Our rural households have a multi-generational behavioural affinity for traditional mud cookstoves,” Sundaram explains. “The stark economic reality is that when agricultural residues, firewood, and dung cakes are available entirely for free or with minimal effort, rural families actively avoid burning paid LPG cylinders for heavy daily cooking. On the ground, even when households have Pradhan Mantri Ujjwala Yojana connections, they practice fuel stacking — using both LPG and biomass. Without shifting this baseline social behaviour, cleaning rural air remains a structural impossibility.” 
+ The study divides Bihar in different airsheds and prominent pollutants in each airshed. Targeting these sources in these individual airsheds, air quality can be improved significantly, it says. 
+ It reveals that a significant portion of Bihar and neighbouring Uttar Pradesh belongs to a shared, contiguous eastern Indo-Gangetic airshed. Transboundary northwesterly winds transport heavy regional pollution loads from Punjab, Haryana, Delhi, and western Uttar Pradesh, also affect the air quality in Bihar. It talks about the need for a comprehensive framework for air quality management. It also talks about cooperation frameworks between cities, districts and states. 
+ It also recommends other interventions to make LPG cylinder refills economically viable for the rural poor, alongside strict field audits of the zigzag transition in brick kilns. 
+   
+ Banner image:  A commuter rides through a dense, low-lying blanket of toxic smog at sunset, a common winter and post-monsoon reality along rural Bihar’s unmanaged waste dumping tracks. Image by Himanshu Praveen. 
+ 
+ 
+ 
+ Credits   
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ Kundan Pandey   Editor 
+ 
+ 
+ 
+ 
+ 
+ Topics Air Pollution Biofuels Clean Energy Energy Fossil Fuels Health impacts Human Rights Industry Pollution Villages Bihar See Topics   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Deep Sea Dreams 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ How an unfit boat design left Kerala’s fishers in debt 
+ 
+ Supriya Vohra, Roeqin 
+ 19 Nov 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ India’s deep-sea fishing dreams are struggling to stay afloat 
+ 
+ Supriya Vohra 
+ 8 Oct 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ India is promoting deep-sea fishing with the promise of better incomes for the country’s traditional fishers. Government schemes have sought to accelerate this transition by providing financial support for deep-sea fishing vessels. Yet the move into deeper waters has proved far more complicated than policy documents suggest. Across the coastal states of India, fishing communities […] 
+ 
+ 
+ Deep Sea Dreams series  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Free and open access to credible information 
+ 
+ 
+          Learn more 
+ 
+ 
+ 
+ 
+ 
+ 
+ Latest articles 
+ All articles 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ Forest villagers protest tourism curbs after tiger translocation 
+ 
+ 
+ Nabarun Guha 
+ 20 Nov 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ Global electrification push meets resistance over money and fairness 
+ 
+ 
+ Kundan Pandey 
+ 20 Nov 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ El Niño could deepen Tamil Nadu’s water stress and threaten agriculture 
+ 
+ 
+ Krithiga Narayanan 
+ 19 Nov 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ The world struggles to pay for the growing human cost of climate change 
+ 
+ 
+ Soumya Sarkar 
+ 19 Nov 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ Feature story 
+ 
+ How an unfit boat design left Kerala’s fishers in debt 
+ 
+ 
+ Supriya Vohra, Roeqin 
+ 19 Nov 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ Feature story 
+ 
+ The fragility of mountains loom large over COP31 
+ 
+ 
+ Simrin Sirur 
+ 18 Nov 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ Institutional campuses could expand India’s conservation network, but challenges remain 
+ 
+ 
+ Nikhil Sreekandan 
+ 17 Nov 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ Feature story 
+ 
+ Motherhood changes how sloth bears use forests in central India 
+ 
+ 
+ Ananya Singh 
+ 17 Nov 2026 
+ 
+ 
+ 
+ 
+ 
+ All articles 
+ 
+ 
+ 
+ 
+ 
+ 
+ Subscribe 
+ 
+ 
+            Stay informed with news and inspiration from nature’s frontline.           
+ 
+          Newsletter 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ News formats 
+ 
+ 
+ 
+ Videos 
+ Podcasts   Articles 
+ Specials 
+ Shorts   Features 
+ The Latest 
+ 
+ 
+ 
+ 
+ About 
+ 
+ 
+ 
+ About 
+ Contact 
+ Impacts 
+ 
+ Newsletters 
+ Submissions 
+ Terms of Use 
+ 
+ 
+ 
+ 
+ External links 
+ 
+ 
+ 
+ Wild Madagascar 
+ Lives in Nature 
+ For Kids 
+ Mongabay.org 
+ Reforestation App 
+ Planetary Health Check 
+ Conservation Effectiveness 
+ Mongabay Data Studio 
+ 
+ 
+ 
+ 
+ Social media 
+ 
+ 
+ 
+ LinkedIn   Instagram   Youtube   X   Facebook   Telegram   Android App   Apple News   RSS / XML 
+ 
+ 
+ 
+ 
+ 
+ 
+				© 2026 Copyright Conservation news. Mongabay is a U.S.-based non-profit conservation and environmental science news platform. Our EIN or tax ID is 45-3714703.
+			 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

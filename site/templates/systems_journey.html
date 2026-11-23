@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<p class="layer-label">Guided journey</p>
+<h1>{{ j.title }}</h1>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">{{ j.summary }}</p>
+<p class="layer-meta">{{ j.composite }}{% if j.population %} Evidence on this group: <a href="../../people/{{ j.population }}.html">{{ G_BY[j.population].group }}</a>.{% endif %} Back to <a href="index.html">all journeys</a> or the <a href="../index.html">map</a>.</p></section>
+<div class="journey-nav sans" data-journey-nav hidden><button type="button" class="btn-clear" data-jprev>Previous step</button> <span data-jcount aria-live="polite"></span> <button type="button" class="btn-more" data-jnext>Next step</button> <button type="button" class="btn-clear" data-jall>Show all steps</button></div>
+<ol class="journey" data-journey>
+{% for s in j.steps %}{% set e = SM_EDGE_BY[s.edge] %}
+<li class="j-step" id="step-{{ loop.index }}"><h2>Step {{ loop.index }}: {{ SM_NODE_BY[e.from].label }} → {{ SM_NODE_BY[e.to].label }}</h2>
+<dl class="kv">
+<dt>What happens?</dt><dd>{{ s.what }}</dd>
+<dt>Why?</dt><dd>{{ e.mechanism }}</dd>
+<dt>What is known?</dt><dd>{{ badge(e.strength)|safe }} {{ e.strength_reason }} {{ e.claim_ids|claims(rel)|safe }}{% if e._hyp %} <strong>This step is a reasoned hypothesis.</strong>{% endif %} <span class="muted">{{ e.uncertainty }}</span></dd>
+<dt>Who bears it?</dt><dd>{{ s.who_bears }}</dd>
+<dt>Where can it be interrupted?</dt><dd>{% if e._levers %}{% for l in e._levers %}<a href="../levers/{{ l }}.html">{{ SM_LEV_BY[l]._name }}</a> could weaken this link (evidence it works: {{ SM_LEV_BY[l]._rating }}){% if not loop.last %}; {% endif %}{% endfor %}{% else %}No lever on the map targets this link yet.{% endif %}</dd>
+<dt>Who could act or pay?</dt><dd>{% set ns = namespace(seen=[]) %}{% for l in e._levers %}{% for role, inst in SM_LEV_BY[l]._roles %}{% if inst.label not in ns.seen %}{% set ns.seen = ns.seen + [inst.label] %}{{ inst.label }}{% if role in ('pays', 'funds') %} (pays){% endif %}; {% endif %}{% endfor %}{% endfor %}{% if not e._levers %}Not mapped for this link.{% endif %}</dd>
+</dl><p class="sans small"><a href="../links.html#{{ e.edge_id }}">Full evidence for {{ e.edge_id }}</a></p></li>
+{% endfor %}
+</ol>
+{% endblock %}
+{% block scripts %}<script src="{{ rel }}js/systems-map.js" defer></script>{% endblock %}

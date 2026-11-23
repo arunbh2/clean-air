@@ -9,6 +9,7 @@ One canonical record in `research/`. Everything public is generated from it by `
 | `data/claims.csv` | `claim_id` (Cnnn, append-only) | claim text, sources, locator, evidence type, place, period, status (`read`, `provisional`, `withdrawn`) |
 | `data/sources.csv` | `source_id` (Snnn, append-only) | title, publisher, dates, URL, type, access status |
 | `data/claim-passages.csv` | `claim_id` | passage-level verification state, excerpt, scores, date |
+| `data/passage-reviews.csv` | `claim_id` | reviewer decisions (located, partial, not_located) for claims the automated check missed, with notes |
 | `data/verification.csv`, `data/source-checks.csv` | claim / source | earlier figure-level verification and reachability (kept) |
 | `data/corrections.csv` | `correction_id` (CRnnn) | what changed, earlier wording, reason, date |
 | `data/changelog.csv` | `change_id` | dated public changes (feed) |
@@ -30,12 +31,12 @@ One canonical record in `research/`. Everything public is generated from it by `
 
 | State | Meaning | Counts in this build |
 |---|---|---|
-| `passage_found` | an automated window of up to three sentences in an accessible copy holds every figure in the claim and at least 35% of its content words (50% when the claim has no figures) | 134 |
-| `needs_manual_review` | the passage check did not confirm it, but an earlier human review recorded "supported"; a person has to locate the passage | 85 |
+| `passage_found` | either an automated window of up to three sentences in an accessible copy holds every figure in the claim and at least 35% of its content words (50% when the claim has no figures), or a reviewer located the passage (recorded in `data/passage-reviews.csv`) | 201 (142 automated, 40 reviewer-located, 19 main passage located with remaining figures found elsewhere in the same source) |
+| `needs_manual_review` | the passage check did not confirm it, but an earlier human review recorded "supported"; a person has to locate the passage | 18 (each with a reviewer note saying what is missing) |
 | `source_accessible_passage_not_found` | text read, no supporting passage, no earlier human support | 0 |
 | `not_accessible` | no text could be obtained automatically (not the same as a dead link) | 3 |
 
-Gate: any claim after C222 that is marked `read` must be `passage_found`, or the validator fails. Claims C001 to C222 are reported as they stand, so the 85 awaiting review are visible on the claim register, in packs and in `claims.json`. **Limitation:** the matcher works on extracted text; passages from tables can read as a jumble (for example C001), and a match on figures plus wording is strong evidence of support, not proof of correct interpretation.
+Gate: any claim after C222 that is marked `read` must be `passage_found`, or the validator fails. Claims C001 to C222 are reported as they stand, so the 18 awaiting review are visible on the claim register, in packs and in `claims.json`. **Limitation:** the matcher works on extracted text; passages from tables can read as a jumble (for example C001), and a match on figures plus wording is strong evidence of support, not proof of correct interpretation.
 
 ## Integrity rules (`research/analysis/validate.py`)
 

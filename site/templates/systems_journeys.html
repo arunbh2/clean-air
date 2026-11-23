@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Start with one person's day</h1>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">Each journey follows one illustrative person or role through the map, one relationship at a time: what happens, why, what is known, who bears it, where it could be interrupted and who could act.</p>
+<p class="layer-meta">The people are composites built from the evidence, not real individuals. Back to the <a href="../index.html">map</a>.</p></section>
+<ul class="hub-links sans">{% for j in journeys %}<li><a href="{{ j.id }}.html">{{ j.title }}</a> {{ j.summary }}</li>{% endfor %}</ul>
+{% endblock %}

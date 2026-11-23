@@ -48,6 +48,7 @@ Approved, committed, disbursed and evaluated funding are different stages. A sou
 - [llms.txt](../llms.txt): a short index of the site, with links to clean Markdown copies of each page.
 - [llms-full.txt](../llms-full.txt): the full text of every page in one file, generated from the same records as the website.
 - [Evidence packs](../packs/index.html): short, sourced answers by country, community, intervention class and funding, including three worked questions.
+- [The web of dirty air](../systems-map/index.html): a systems map whose every connection carries an evidence rating and claims; also as [JSON](../systems-map/data/graph.json). A mapped path is not causal proof, and loops are interpretations unless stated.
 - [Data catalogue](../downloads/data/catalogue.json): every dataset, its columns, its JSON Schema, cutoff and provenance.
 - Every HTML page has a Markdown copy at the same address ending in `.md`.
 

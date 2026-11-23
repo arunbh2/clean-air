@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">The map links {{ G.counts.nodes }} parts of the system through {{ G.counts.edges }} connections, drawing on {{ G.counts.claims_linked }} claims from the claim register. Of the connections, {{ G.counts.by_strength['Strong'] }} are rated Strong, {{ G.counts.by_strength['Moderate'] }} Moderate, {{ G.counts.by_strength['Limited/mixed'] }} Limited/mixed and {{ G.counts.by_strength['No adequate evidence found'] }} No adequate evidence found.</p>
+<p class="layer-meta">Back to the <a href="index.html">map</a> · <a href="links.html">every link as text</a>.</p></section>
+<div class="prose">{{ body_html|safe }}</div>
+<section aria-labelledby="led-h" class="section-rule"><h2 id="led-h">Research ledger</h2>
+<p class="measure">Every candidate loop and contested link we considered, with the decision and the reason.</p>
+<div class="table-wrap"><table class="data"><caption>Accepted, contested and rejected candidates</caption><thead><tr><th scope="col">Candidate</th><th scope="col">Kind</th><th scope="col">Decision</th><th scope="col">Reason</th></tr></thead>
+<tbody>{% for r in ledger %}<tr><th scope="row">{{ r.candidate_id }}: {{ r.description }}</th><td>{{ r.kind }}</td><td>{{ r.decision }}</td><td>{{ r.reason }}{% if r.claim_ids %} {{ r.claim_ids|claims(rel)|safe }}{% endif %}</td></tr>{% endfor %}</tbody></table></div>
+</section>
+{% endblock %}

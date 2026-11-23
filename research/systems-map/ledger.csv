@@ -1,0 +1,18 @@
+candidate_id,kind,description,decision,reason,claim_ids
+A,loop,"Occupational exposure, illness, income loss, continued exposure",accepted as interpretive loop (L1),Closes over existing edges; first link mixed evidence; both return links unmeasured.,C082;C151;C152
+B,loop,"Clean-fuel affordability, solid fuel, indoor smoke, illness, spending",accepted as interpretive loop (L2),Closes; affordability and indoor-smoke links measured; health and budget links mixed or unmeasured.,C036;C145;C097;C047
+C,loop,"Waste services, open burning, exposure, local costs, weaker services",rejected as a loop; burning-to-air and burning-to-exposure kept as edges,No source supports the return link from local costs to waste-service investment.,C149;C083
+D,loop,"Kiln finance, high-emitting kilns, enforcement, adjustment cost",accepted as interpretive loop (L5),Closes; return link contested (reported payback of one to two years; most Bihar kilns converted under a mandate).,C069;C070;C059;C191
+E,loop,"Severe episodes, emergency restrictions, unequal livelihood effects, compliance",accepted as interpretive loop (L7); income-protection chain kept as a chain,"Compliance links are interpretations only. The wage-loss to unequal-protection to exposure sequence does not return to restrictions, so it is published as a chain, not a loop.",C038;C039;C046
+F,loop,"Transport and urban form: distances, vehicle activity, concentrations, impacts",rejected as a loop; exhaust edges kept,No verified return mechanism (travel choice or institutional response) in the sources read.,C028;C031
+G,loop,"Crop residue: harvest window, burning, restrictions, costs, limited alternatives",partly accepted: regional-coordination loop (L6); farm-cost return link rejected,No source links enforcement costs back to farmers' options; recent declines show the chain can be weakened.,C067;C136;C190
+H,loop,"Monitoring gaps, unseen exposure, poor prioritisation",accepted as interpretive loop (L4),Closes; built on a measured mismatch between monitor placement and pollution; not studied end to end.,C033;C035;C060
+I,loop,Dust and construction economy: compliance capacity and costs,rejected as a separate loop; covered by L7,No source on construction-sector compliance capacity.,C014;C038
+J,loop,Cross-border airshed coordination,accepted as interpretive loop (L6),Closes; coordination-to-burning link unmeasured.,C125;C225;C190
+K,loop,Black carbon and climate feedback,rejected,No regionally supported evidence of a local climate or fire feedback in the sources read; black carbon research grants (C170) are not findings.,C170
+L,loop,Protective technology inequality,rejected as a loop; kept as an unequal-protection pathway,"Unequal ownership of protection is measured, but it does not feed back into pollution levels.",C046;C048
+X1,edge,Secondary particles attributed to specific sectors,rejected,No source in the register apportions precursor gases to sectors for this region.,C027
+X2,edge,Health-service demand rising during episodes,research queue,The Health Ministry advisory sets out surveillance but no measured demand data were found.,C087
+X3,edge,School closures cause measurable learning loss,research queue,Digital access gaps documented; no learning-loss measurement found.,C055
+X4,edge,Pollution-related illness causes caregiver income loss (mostly women),research queue,No direct evidence found (consequence pathway P2).,
+X5,edge,Cross-border transport is the dominant source in Delhi,rejected,Delhi DSS analysis shows local sources at about 35% and NCR at about 26% in recent winters; neither dominant alone.,C029

@@ -1,0 +1,16 @@
+institution_id,label,plain
+national-government,National governments and line ministries,Fund national schemes such as clean-cooking subsidies and social protection.
+national-regulator,National environment ministries and pollution boards,"Set standards, run national monitoring and programmes such as NCAP."
+state-regulator,State pollution control boards and airshed commissions,"License and inspect polluters, enforce rules, run state monitoring (for example CAQM, state PCBs)."
+city-government,City and municipal governments,"Run waste, roads, construction rules and local clean-air plans."
+transport-authority,Transport departments and operators,"Run bus fleets, inspection centres and vehicle rules."
+labour-welfare,Labour departments and welfare boards,Register workers and pay compensation and benefits.
+health-system,Health departments and hospitals,"Run surveillance, primary care and treatment."
+education-system,Education departments and schools,"Decide closures, run schools and classroom measures."
+agriculture-department,Agriculture departments,Run residue machinery and payment schemes.
+courts,Courts and tribunals,"Order closures, compensation and compliance."
+development-finance,Development banks and bilateral donors,Lend and grant for public programmes.
+philanthropy,Foundations,"Fund research, pilots, monitoring and community groups."
+civil-society,"NGOs, worker and community organisations","Organise, inform, represent affected groups, monitor locally."
+research,Research and data organisations,"Measure, model and evaluate."
+private-sector,Companies and social enterprises,"Supply technology, operate services, and in some cases emit."

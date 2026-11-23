@@ -1,0 +1,1769 @@
+The Price of the Air We Breathe,
+The Heat We Endure
+Rohit Azad and Shouvik Chakraborty
+
+Prepared by: Rohit Azad & Shouvik Chakraborty
+Research assistance by: Alyasa Abbas and Briti Kar
+Primary survey assistance by: Aysha
+March 2023
+Cover Image: AI generated using ChatGPT
+Latex template of the report by: Ciro Garcı́a (January
+2018)
+
+Contents
+Introduction
+
+1
+
+1 Thematic Survey of Literature
+
+5
+
+2 Survey Design
+
+9
+
+3 At Home
+
+15
+
+4 Workplace
+
+35
+
+Questionnaire
+
+43
+
+Introduction
+Delhi has become uninhabitable for the better part of
+the year. Its summer is unbearably hot and its winter
+particularly unbreathable.
+A study by the Centre for Science and Environment
+(CSE), which analysed Landsat 8 satellite images, reported that the land surface temperature (LST) have
+soared in different parts of Delhi between 2014-2022
+(see figure 1). While there were some relatively blue
+spots, which signifies cooler temperatures in the figure, in 2014, it is mostly deep red 8 years later. As
+per this study, Delhi’s highest ever LST of 53.9°C was
+recorded on May 16, 2020. To be sure, the LST is
+usually higher than the air temperature, but even the
+latter has touched a record 52.3°C on 29 May 2024
+during the heatwave that year, according to the India
+Meteorological Department (IMD).
+While the winter months give respite from the sweltering heat of May, they come with their own set of
+
+problems. Pollution is at its peak during the months
+of Oct-Jan every year. We must add an important
+caveat here. Talking about pollution for the winters
+in Delhi gives the impression as if it is under control
+rest of the year. Nothing could be further from the
+truth. Pollution in Delhi is a yearlong problem. It
+just gets dangerously worse during the winters. Figure
+2, based on Central Pollution Control Board (CPCB)
+data, shows how the quality of air has been over a period of 7 years (2017-2023). A few things stand out in
+the figure. One, Delhi has had only two days of healthy
+air per year (as per the WHO standards of AQI<50)!
+Two, people are inhaling air unfit for breathing for
+close to five months every year on an average. Three,
+and quite remarkably, even for 2020, a lockdown year,
+things have only marginally been better (5 instead of
+2 days of healthy air quality). It’s clear there is something systemically wrong.
+Part of Delhi’s problem is global, and part local.
+Soaring temperatures over time is reflective of climate
+change for which Delhi alone is not responsible. But a
+significant part of the rise in the temperature is contributed by the city and its surrounding urban areas. Delhi, like other urban centres world over, suffers from what is called the Urban Heat Island (UHI)
+effect, where urban metropolitan areas experience significantly higher temperatures than their surrounding
+1
+
+CONTENTS
+
+Figure 1: Delhi’s summers
+
+Figure 2: Air Quality in Delhi
+
+2
+
+CONTENTS
+rural or suburban areas. This is because of high heat
+absorption by concrete and asphalt; lack of ”sweating” by plants (evapotranspiration) which could have
+cooled the air down; tall buildings trapping heat and
+blocking wind which could have carried a part of the
+heat away; anthropogenic heat generation by the ACs,
+cars, industries etc. Much like climate change, there
+is a feedback loop here. The hotter a city becomes,
+more is the use of air cooling devices, which further
+generates heat, thereby, creating a vicious cycle.
+Pollution, on the other hand, is much more of a
+local problem. The sources of pollution are local since
+pollutants have a geographically concentrated impact.
+The sources of pollution in Delhi come primarily from
+the way Delhi travels, the way it builds its offices and
+homes, and the stubble burning that takes place in the
+nearby rural areas during the winter season. Some of
+these polluting sources can be eliminated while others
+can be controlled to a large extent.
+Whatever the causes, the impacts of heat or pollution are not class neutral. The poor suffer more from
+both heat stress and pollution because of where and
+how they have to live as well as a lack of financial
+means to adapt to these changes.
+Against this backdrop, this study looks at the rising heat stress and air pollution in Delhi. The idea
+is to understand what are people’s perceptions about
+
+and how are they coping with the twin crises. To what
+extent is their class position shielding them from the ill
+effects of these crises? Do they believe the government
+is doing enough to tackle them? And last, but not the
+least, what, in their opinion, can be done about it?
+This report has the following structure. Chapter 1
+presents a thematic summary of literature on these issues both at the global level and Delhi specific studies.
+Chapter 2 describes the survey design. Our survey was
+visualised at two levels – home and workplace. Heat
+stress and exposure to pollution where people live has
+been explored in chapter 3, which are responses at the
+level of the household. On the other hand, their experience at the workplace has been explored in chapter
+4, the information for which has been collected for all
+working adults in these households. The questionnaire
+used has been attached at the end of this report.
+
+3
+
+CONTENTS
+
+4
+
+Chapter 1
+Thematic Survey of
+Literature
+General Studies on Heat Stress
+and Climate Vulnerability
+Global and national research underscores that heatrelated mortality risks rise non-linearly, with significant vulnerability among the elderly, children under
+five, and those with pre-existing conditions Prayas
+(Health Group) [2022]. In India, excess mortality
+during heatwaves has been documented as high as
+43.1% in cities like Ahmedabad, often resulting in severe acute morbidity and multiple organ dysfunction
+Mourougan et al. [2024]. To manage these risks, inter-
+
+national standards like ISO 7243 provide a framework
+for assessing occupational heat stress using the Wet
+Bulb Globe Temperature (WBGT) index across various work intensities ISO [2017], ?], Venugopal et al.
+[2015]. Successful interventions, such as the Ahmedabad Heat Action Plan, demonstrate that coordinated
+early warnings and community adaptation can effectively reduce these death tolls Ahmedabad Municipal
+Corporation [2018].
+The economic burden of heat is equally severe,
+with India projected to lose 5.8% of its total working
+hours—the equivalent of 34 million jobs—by 2030 due
+to thermal stress ILO [2019]. Micro-level data from
+Indian manufacturing shows that a 1°C temperature
+rise correlates with an average 2.1% drop in annual
+output, primarily through reduced labor productivity
+and increased absenteeism even in climate-controlled
+environments Somanathan et al. [2021]. This loss of
+work capacity is particularly acute in tropical regions,
+where projected global GDP losses could exceed 20%
+by the century’s end Kjellstrom et al. [2016].
+Vulnerability is often structural, as the “assetless poor” are trapped in cycles where environmental degradation forces them into low-paid, hazardous
+work to meet basic subsistence needs Barbier [2010].
+Social protection measures like MGNREGS can mitigate this precarity, with access to job cards reduc5
+
+CHAPTER 1. THEMATIC SURVEY OF LITERATURE
+ing the odds of climate-related distress migration
+by up to 66% Bharadwaj [2022], Bharadwaj et al.
+[2022]. Furthermore, air pollution exposure follows
+global patterns of environmental injustice, where lowsocioeconomic status communities consistently face
+higher concentrations of PM2.5 and NO2 Hajat et al.
+[2015], Chakraborty and Basu [2021].
+Policy choices can lead to maladaptation, where individually rational protective strategies result in collectively negative environmental or social outcomes,
+such as diesel-powered cooling worsening local air quality Antoci et al. [2024], Juhola et al. [2016]. This
+is compounded when vulnerability is “weaponized” to
+justify the displacement or exclusion of marginalized
+groups under the guise of security Thomas and Warner
+[2019]. While major urban strategies like London’s Environment Strategy or China’s air quality plans show
+health benefits, they can also impose regressive economic costs on small businesses and deprived communities GLA [2018], Huang et al. [2018], CEBR [2023],
+Wu et al. [2025].
+Significant barriers persist in research and infrastructure, including fragmented data access and low
+political prioritization of climate-sensitive health outcomes in India Shrikhande et al. [2023]. Global
+databases often fail to represent localized pollution
+hotspots, leaving the exposure of street vendors under6
+
+reported Schwela and Haq [2020]. Rising temperatures
+also amplify energy demand for cooling, creating a tension between adaptation and carbon mitigation van
+Ruijven et al. [2019]. In rural areas, this necessitates
+the development of Community Cooling Hubs to support agriculture, dairy, and healthcare Kumar et al.
+[2021a]. Finally, the link between informal settlements
+and occupation creates a double burden of exposure
+that urban climate policy must explicitly address Dodman et al. [2023], Gough et al. [2019], Satterthwaite
+et al. [2020].
+
+Delhi Studies on Heat Stress and
+Informal Labor
+In Delhi, nearly 88% of the city is categorized as being
+under moderate to highest heat stress risk, with spatial hazards heavily influenced by population density
+and weak infrastructure Kacker et al. [2024]. Although
+summer air temperatures have remained relatively stable, an 8% rise in humidity has added 3.3°C of effective heat stress to the urban environment via the Heat
+Index CSE [2024]. The urban heat island effect prevents nighttime cooling in the city core, while rapid
+urbanization and built-up expansion correlate directly
+with rising land surface temperatures that frequently
+
+CHAPTER 1. THEMATIC SURVEY OF LITERATURE
+exceed 40°C CSE [2024], Das et al. [2024]. These
+factors collectively challenge Delhi’s progress toward
+global sustainability goals Kumar et al. [2021b], Debnath et al. [2023].
+The health consequences are stark, as landlocked
+Delhi records up to 43.4% higher mortality during extreme heat events compared to coastal metros Bont
+et al. [2024]. Current monitoring often under-reports
+this risk; personalized indices show that nearly 98%
+of the city can be under extreme heat stress during
+peak maxima, requiring more granular and personalized early warning systems Kacker et al. [2025].
+Informal workers bear the heaviest burden, with
+heatwaves causing net earnings to plummet by 40%
+and every 1°C increase in wet-bulb temperature reducing labor supply by 19% Patwary [2025]. Workers in Delhi’s slums report reshaping their workdays
+to night shifts to avoid peak heat, leading to chronic
+sleep deprivation and exhaustion Greenpeace India
+[2025]. Vulnerable groups like domestic workers face
+pre-existing precarity, where a single healthcare visit
+can cost three-quarters of a week’s wages WIEGO
+[2020]. Outdoor workers, including sweepers and rickshaw drivers, also show high rates of restrictive lung
+impairment from the dual exposure to extreme heat
+and hazardous air Barthwal et al. [2022].
+Environmental injustice is evident in the spatial
+
+distribution of resources; wards with high proportions
+of children and outdoor laborers often have the least
+access to mitigating greenspace Mitchell et al. [2021].
+The 2024 Delhi Heat Action Plan attempts to address this through multi-sectoral coordination and infrastructure upgrades like cool roofs and water kiosks
+DDMA [2024]. However, public support for such policies can be polarized by gender and elite conflict,
+particularly regarding exemptions for specific groups
+from environmental regulations Beiser-McGrath et al.
+[2021].
+
+7
+
+CHAPTER 1. THEMATIC SURVEY OF LITERATURE
+
+8
+
+Chapter 2
+Survey Design
+How were the samples drawn?
+Since the study requires a coverage of residents from
+different income brackets, we chose six localities in
+Delhi – Adarsh Nagar middle income group (MIG),
+Adarsh Nagar jhuggi jhopri (JJ) Cluster, New Seemapuri JJ Cluster, Tughlakabad extension, Hauz Khas,
+Vasant Kunj (see figure 2.1). The idea was to gather
+samples from the low income group, the middle income group, and the high income group households in
+the city. Of these six location, two each belong to the
+three broad income profiles. Our survey shows that
+there is no clear one to one correspondence between the
+two locations and their income profiles. While the JJ
+
+clusters, by and large, covered the low income groups,
+some low income groups (especially tenants of smaller
+houses in the MIG areas) were living in the MIG areas
+as well. Such an overlap did not exist in the affluent
+part of the city.
+While the households in the Hauz Khas and Vasant Kunj areas were uniquely identifiable with their
+apartment/house number, the same was not the case
+for the remaining four areas. So, we had to use two
+different ways to draw random samples. For the high
+income houses, we fed all the unique apartment/house
+numbers to a computer programme and asked it to
+randomly identify a certain number of houses which
+the teams could survey. For the rest of the households,
+we fed the google coordinates of the outer bound of the
+area to be surveyed and asked Python to generate geographical coordinates (shown as blue pin drops in the
+figure) for a certain number of households depending
+on the total number of households we had to survey in
+that particular locality.
+There was an additional issue to take care of for
+the MIG localities because, unlike the mostly single
+storeyed JJ cluster houses, these were 2/3 storeyed
+buildings. Since the extent of heat stress varies according to the floor one lives on (with top floor being
+the hottest), we had to also randomise the floor for
+this set of households. Apart from the google coordi9
+
+CHAPTER 2. SURVEY DESIGN
+
+Figure 2.1: Survey areas in Delhi
+
+10
+
+CHAPTER 2. SURVEY DESIGN
+nates, therefore, we had to randomly generate which
+floor in that coordinate was to be surveyed.
+For each of the areas, some extra coordinates/apartment numbers were generated to account
+for the possibility of unavailability of some of the
+households during the survey.
+
+The Survey Process
+There were 7 teams conducting the survey over a period of nine days between September 14-22, 2025. The
+month of September is neither very hot nor is it as polluted as the winter months, so it can be safely assumed
+that the responses are not biased by the timing of the
+survey. Moreover the questionnaire was designed in a
+way which required people to respond with a longer
+time horizon in mind instead of an immediate recall
+period. The survey was conducted using digital devices with the help of the kobotool app.
+The total sample collected was of 582 households
+with 2022 adults (defined as those above the age of
+15 years).
+The survey team consisted of 18 people. 13 of these
+were carefully selected through a rigorous process of interviews based on their knowledge of the subject and
+familiarity with the survey process. These 13 were ac-
+
+companied by a lead surveyor who also provided local
+support in the JJ clusters and MIG areas, one research
+assistant associated with the project, a PhD scholar
+working in the field of climate change who volunteered
+for the work, the co-PI, and a volunteer from Japan,
+Keisuke Izume, who took photographs of the survey
+process, a collage of some is shown in figure 2.2. The
+selected surveyors, the lead surveyor, and the research
+assistant were paid commensurately for their services.
+However, no monetary incentives were given to the respondents for participating in the survey.
+We would like to thank the survey team for their
+excellent work. It won’t be amiss to mention their
+names:
+1. Alyasa Abbas (Research Assistant)
+2. Aysha (Lead Surveyor)
+3. Briti Kar (PhD Scholar)
+4. Abhigya Dahal
+5. Anchal Gupta
+6. Anushka Martolia
+7. Govind Gahlot
+8. Jayesh
+9. Kallol Kashyap
+10. Kanishka Jindal
+11. Mahmood Alam
+12. Manish
+11
+
+CHAPTER 2. SURVEY DESIGN
+
+Figure 2.2: Delhi survey in photos
+
+12
+
+CHAPTER 2. SURVEY DESIGN
+13. Pragya Bahadur
+14. Sakshi Singh
+15. Vandana Chaubey
+16. Yashaswini Lall
+A special thanks is due to Dipa Sinha, who played
+a key role in running a daylong workshop to explain
+the survey process, which proved to be quite crucial in
+its successful completion.
+
+13
+
+CHAPTER 2. SURVEY DESIGN
+
+14
+
+Chapter 3
+At Home
+In this chapter we will focus on the underlying issues
+of heat stress and exposure to pollution at the place
+of residence. The idea is to get a sense of where they
+live, how exposed their families are, and how, if at all,
+they adapt to these twin crises faced in the city. And
+most importantly, does class matter in all of this? If
+so, in what ways?
+
+between 1-15 members (the larger numbers are mostly
+joint families living together).
+In terms of religious representation, the two dominant affiliations are Hindus (65.2%), and Muslims
+(28.8%), with the rest of the sample constituting
+of Christians, Sikhs, Jains, Buddhists and others.
+In terms of social groups, 23.8% are other backward classes (OBCs), 19.2% from the scheduled castes
+(SCs), upper castes (40.7%). As can be noticed, there
+is a significant share (14.6%) under the ”not declared”
+category, which mostly constitute of upper class people
+(in Vasant Kunj and Azad Apartments) who refused
+to reveal their caste identity.
+Going forward, most of our analysis is going
+to be in terms of income classes. We have income data with six slabs – 0- |10,000; |10,000|25,000; |25,000-|35,000; |35,000-|50,000; |50,000|10,00,000; |1,00,000-|1,50,000; |1,50,000-|2,00,000;
+|2,00,000 and above. We have divided the overall sample into three classes for reasons of tractability (see
+figure 3.2).
+
+Household characteristics
+Figure 3.1 shows the basic characteristics of the households. Most households have five members in the family (overall distribution of the household size is depicted at the top of the chart). The family size ranges
+
+1. Underprivileged households (U): Those with a
+household income of |35,000 or less. Around
+71% of the surveyed households belong to this
+income class. Instead of mechanically creating a
+group who would otherwise constitute of the be15
+
+CHAPTER 3. AT HOME
+
+Figure 3.1: Demographic and Social Characteristics of the Surveyed Households
+
+16
+
+CHAPTER 3. AT HOME
+low poverty line (BPL) households (Delhi’s BPL
+limit, calculated as a monthly threshold level,
+would be |25,000 per annum per household), we
+have taken an additional slab above such households to be a part of this class. This has been
+done for three reasons. One, around 40 families living in the JJ clusters belonged to this
+additional slab, so it did not make much sense
+to treat them as a separate class even though
+their housing and living conditions were similar
+to those belonging to the bottom two. Two, it is
+better to err on the side of inclusion, which would
+also help us understand the mobility within this
+class. Three, some of our earlier work (both for
+Delhi and India) shows that till the 7th decile,
+families have similar consumption patterns, ownership of assets, as well as carbon footprints.
+2. Middle class (M): This constitutes of those with
+a household income in the range of |35,000 –
+|100,000. They constitute 17% of the total sample. They can be categorised as the middle class.
+3. Affluent class (A): Those with a household income of |100,000 and above. Around 12% of the
+households belong to this category. Although
+their share is a little over 10% in the sample, we
+can use this income class to represent the top
+10% of Delhi’s population.
+
+Henceforth, the entire analysis will be presented in
+terms of these three income classes. This will help us
+understand the role that class plays in terms of the
+effects of, and adaptations to heat stress and air pollution. While we find similar class differences across
+both these issues, it is varied in many ways between
+these issues. We will come to these dissimilarities of
+the role of class later in this chapter.
+
+Figure 3.2: Shares of the Three Income Classes
+Since income matters a great deal in how one
+adapts to these changes, another important component about the composition of the households needs
+to be looked at, which is how many working adults
+are supporting each family. Figure 3.3 tells us that as
+the size of the family rises, average number of working
+adults falls, which means, as expected, larger families
+have lesser financial means to adapt to these changes.
+However, a larger size of the family, which mostly
+are poorer households, does not mean they contribute
+to the problem, either of greenhouse gas (GHG) emissions or pollutants, more because of the family size.
+In most instances, their emissions would be far smaller
+17
+
+CHAPTER 3. AT HOME
+than an elite household with as nuclear a family as just
+two working adults. In other words, population per se
+is not a contributor to the problem, lifestyle is. But
+it would surely put a large family at a disadvantage
+when it comes to dealing with the consequences.
+
+Figure 3.3: Working Adults and Family Size
+
+Housing Facilities
+In terms of the kind of housing, very few in
+the sample had kaccha houses (houses made of
+mud/straw/bamboos) and they were all with the underprivileged sections. A great majority of families
+across income categories had pucca houses, though the
+18
+
+quality (not asked in the questionnaire) of housing varied greatly. The affluent class also had a high share
+of apartment buildings, which were much better constructed, ventilated, well spread out with better civic
+amenities (see figure 3.4).
+In terms of both exposure to indoor pollution
+as well as trapping of heat from cooking, nature of
+kitchen plays a key role. A separate well ventilated
+kitchen with a chimney, which we consider as the best
+of the options given, would trap less heat or contribute
+to indoor pollution compared to the one where the
+kitchen is in the same space of the bedroom without any exhaust, which can be considered the worst.
+More than half the underprivileged families have the
+worst while more than half of the affluent have the
+best kitchen facility (see the chart on kitchen in figure
+3.4). As for the middle classes, a large majority has
+at least a separate kitchen with natural exhaust. But
+the middle classes have the other extremes – without
+exhaust and with chimney – as well albeit in smaller
+proportions.
+In terms of drinking water, the affluent have the access to modern water purifier technology, which would
+keep them immune from water pollution. A significant
+section of the underprivileged use bottled water, which
+are large plastic jerrycans of water sold in the market.
+It is the lack of clean drinking water in Delhi which
+
+CHAPTER 3. AT HOME
+
+Figure 3.4: Nature of Housing and Basic Facilities
+
+19
+
+CHAPTER 3. AT HOME
+forces even the poor to buy water. Such purchases
+leave a significant dent in their budget as explained by
+many families during the survey but they said they had
+no other option. While the rich can buy their way out
+of water borne pollution/diseases, the poor are forced
+to spend because the government cannot provide for
+as basic a public good as clean water to drink. As for
+water for daily use, government supply is most accessible to the affluent while the poor have to also depend
+on submersible water pumps on a shared basis.
+
+significantly large proportion, live in rented accommodation.
+
+Household Assets
+Home Ownership Status
+In terms of ownership status of the house they were
+living in, a counterintuitive fact emerges – share of
+the house being ancestral decreases with income (see
+3.5). This is most likely because a relatively higher
+proportion of the poor (in our survey) seems to have
+migrated at least a generation ago. The rich surveyed
+for this project, on the other hand, were mostly the
+current generation of skilled migrants from other parts
+of the country. Lack of inheritance not withstanding,
+more than half the affluent sections has managed to
+buy the house they live in. The rest, which is also a
+20
+
+Figure 3.5: Home Ownership Status
+
+Access to Certain Household Items
+Access to Adaptation Devices
+Perhaps the most important result for the purposes
+of this study is the access to certain household items,
+such as air conditioners (ACs) or air purifiers, which
+are private solutions to public bads like heating climate
+and air pollution respectively (see figure 3.6). And the
+story could not have been starker. 9 out of 10 affluent
+
+CHAPTER 3. AT HOME
+households have access to ACs, whereas less than 1 out
+of 10 among the underprivileged have access to them
+and those too are from the |25,000-|35,000 slab. This
+shows that even the underprivileged families have been
+forced to purchase ACs despite it being financially burdensome both in terms of payment upfront as well as
+high electricity charges.
+
+Figure 3.6: Access to Adaptation Devices
+Among the middle class, 5 out of 10 have access to
+ACs. When it comes to air coolers, which are far more
+economical, even among the poor the access is for half
+the households. But coolers cannot bring the unbear-
+
+ably high temperatures down to bearable levels, added
+to that is the problem of humidity, where coolers are
+counterproductive.
+We can safely say that the rich have the means to
+implement a private solution to a negative externality
+(which they themselves contribute to) but the poor are
+forced to deal with the unbearable heat without much
+respite. With rising temperatures predicted, Delhi will
+become unlivable for most of these poor households
+and the human toll could be huge. At the same time,
+having more private solutions of this kind will just add
+to the feedback loop with more ACs generating more
+hot air, which heats up the city even more. The solution needs to be one which breaks this loop.
+There are multiple ways in which it can be done.
+One, we need to think of public goods, such as community cooling spaces, to address this externality.
+Two, such community hubs can at least partially be
+powered through solar sources of power generation.
+Three, there needs to be rationalisation of power usage with significantly greater cost for the affluent sections, which will also lead to conserving electricity usage. Four, at a macro level, the underlying energy
+mix of the city needs to change in favour of renewable sources, unlike thermal power which contributes
+to both pollution and GHG emissions.
+21
+
+CHAPTER 3. AT HOME
+Access to Polluting Items
+
+diesel guzzling SUVs. The poor are covering for the
+the profligacy of the rich.
+
+Having looked at the household items which help families adapt, let us look at items, which contribute to
+pollution and GHG emissions through their production and usage.
+This requires a different representation because we
+would like to show how un/equal is the contribution of
+each class to pollution and GHG emissions. Inequality funnel comes in handy for this purpose (see figure
+3.7. These are stacked columns with rich at the top
+and poor at the bottom. The size of each column represents each class’s share in ownership of a particular
+vehicle as a ratio of their share in population. A value
+greater than 1 (the numbers mentioned in each column) means that class has an unequally higher share
+in that particular category of vehicle. In a perfectly
+equal onwership, these would be same sized blocks one
+on top of the other. The more it looks like a funnel
+(higher share of the rich at the top and lower share of
+the poor at the bottom) the more unequal is the ownership. The more it looks like a pyramid, more is the
+share of the poor as against the rich and the middle
+classes.
+The top two funnels in figure 3.7 show while it’s
+the poor who have a higher share in those owning no
+vehicles (pyramid like structure), the rich own all the
+22
+
+Figure 3.7: Access to Vehicles
+
+In the lower panel we have presented three types of
+vehicles in increasing order of their contribution to pollution – bicycles, 2-wheelers, cars. Bicycles which are
+non-polluting vehicles (in their usage) are the closest
+to a rectangular box shape but it should be interpreted
+correctly. Bicycles for the poor are essentially used for
+cycling to work whereas the ones showing up among
+the rich are mostly used for recreational purposes of
+the kids (or in some case the adults too) in the family.
+
+CHAPTER 3. AT HOME
+
+Health
+Rising pollution and even hotter weather is going to
+aggravate health related problems, so we turn to that
+next.
+When it comes to chronic illness, its incidence is
+similar across classes (see figure 3.8). The word cloud
+throws some light on the nature of such illness of those
+who have it. While the rich have lifestyle health problems like diabetes, sugar, they also have pollution related health conditions, which just shows how pollution affects, albeit unequally, all the classes.
+How do people deal with such chronic illness?
+While India adopted a mixed model of public and private healthcare since its independence, things have
+tilted in favour of private healthcare over time, especially since the economic reforms of the 1990s. In
+terms of the nature of government intervention, the
+earlier model was one of direct public health provisioning with government hospitals/dispensaries as well as
+central and state health schemes which insulated particularly the poor and the vulnerable as well as government employees in particular.
+But since the economic reforms, the state has gradually withdrawn from this model of direct health care
+
+provisioning either through starving government hospitals of funds or withdrawing health schemes1 which
+insulated the poor against health related problems.
+While the change started from the 1990s, it has
+gained momentum during the current regime, where
+India has moved to a more insurance based health
+model, much like what’s prevalent in countries such
+as the US. A pan-India health insurance scheme called
+Ayushman Bharat Yojana (crudely translated as ’Long
+live India programme’) covers approximately 50 crore
+rural/urban poor. It has recently been expanded to
+include all senior citizens across classes.
+There is an inherent class bias in access to private
+hospitals, so the slow death of public hospitals make
+the poor especially vulnerable. The biggest casualty
+of this insurance-hospital healtcare model is steeply
+rising costs of healthcare, especially when it comes to
+inpatient treatments (i.e. those which require hospitalisation). It is said that a typical Indian family with
+even a middle income status is just one hospitalisation away from poverty. In such a situation, access to
+health insurance is a matter of life and death in the
+case of poor. The top chart in figure 3.8, which depicts
+access to health insurance across the three classes,
+gains special significance when seen in this backdrop.
+
+1
+
+It is interesting to note here that while such schemes have been withdrawn for the vulnerable sections of the population, they
+continue for the policy makers as well as other government employees
+
+23
+
+CHAPTER 3. AT HOME
+
+Figure 3.8: Chronic Illness and Access to Health Insurance
+
+24
+
+CHAPTER 3. AT HOME
+8 out of 10 among the poor and 6 out of 10 among the
+middle classes do not have any coverage.
+To be sure, the absence of the Ayushman insurance
+among the poor is because the previous state government had not implemented this central government
+scheme because it had its own scheme with direct public health provisioning in the form of mohalla clinics.
+This figure on access to Ayushman may change with
+the recent change of guard in Delhi. But even if it
+does, the fact remains that an insurance based scheme
+in a private healthcare system is usually rigged against
+the poor.
+
+Perception and Impact
+Classwise Perception
+When asked the question if there has been a general
+rise in temperatures in the recent years in comparison to a decade or two earlier, most people, across the
+three classes, believe it has. Of these, a small share
+believe it has increased marginally whereas a significant majority believed it has increased a lot. There is
+a slight variation across classes in those who believe
+the latter. While only one of five households among
+the rich and the middle classes believe it has not increased by a lot, for the poor it is every third house-
+
+hold. Though we cannot say with certainty why this
+is the case but this relatively lower perception of rising temperatures could perhaps be linked to their poor
+living conditions that may have internalised the level
+of heat exposure in their minds.
+When asked whether their homes are equipped to
+reduce heat stress, those who believe they were not
+increases as we moved from the rich to the underprivileged. This represents the varied access to cooling devices such as the ACs across classes. A rather surprising factor is a significant proportion (32.4%) among
+the rich believes they are not equipped while a significant numbers (21.2%) among the poor believes they
+are. This rather perplexing result could be because
+some among the rich may not have enough ACs (or
+ACs with good quality which cool their homes down
+even at higher temperatures) to cover as many rooms
+in their houses as they would desire or may have perceived this to be a question about the quality of the
+building they are living in. On the other hand, those
+among the poor believing their homes are equipped
+to deal with heat stress may be the same people who
+have internalised the high level of heat having lived in
+these conditions all their lives.
+As for disturbed sleep due to heat, every 2 out of
+3 households among the poor answered in the affirmative. This, as shall see in the next chapter, adversely
+25
+
+CHAPTER 3. AT HOME
+
+Figure 3.9: Class Perception and Impact of Heat Exposure
+
+26
+
+CHAPTER 3. AT HOME
+affects their level of functioning at work. We have a
+similar perplexing result of some among the rich having disturbed sleep and some among the poor having
+no issues with their sleep and the reason could be that
+it’s the same set of people who believe their homes are
+not equipped/equipped among the rich and the poor
+respectively.
+As for pollution, when asked about how they perceive the air quality to be during the winters as compared to the summers, we received a rather perplexing
+response. Figure 3.10 shows that while the rich perceive the air quality to be far worse during the winters,
+which matches the data on air quality index, the poor
+(and the middle classes) did the opposite.
+Seen in light of the disproportionately higher exposure to air pollution, and thereby its long term devastating health impacts, that the poor have to face, this
+seems ironical. We believe this is both an issue of perception and awareness. We especially asked why they
+believe air quality in the winters is better than the
+summers and the response was quite revealing. Most
+of these families (including the so called middle class)
+lived in localities which are polluted through the year
+(some are colonies next to a garbage dump, some others near the biggest waste landfill in Delhi. In sharp
+contrast were the rich who lived far away from such
+localities.
+
+Figure 3.10: Perception of Air Quality
+The poor said they have to breathe filthy/smelly
+air through the year, so winters don’t make much of a
+difference. In fact, winters are more bearable because
+the air is not so hot. While hot air and polluted air
+are not the same thing, bringing this issue up is to
+show how the issue of pollution is perceived by people
+of different classes. When probed further, some others
+27
+
+CHAPTER 3. AT HOME
+went to the extent of saying pollution is an issue of
+the rich, for them it’s the same throughout, so it does
+not really bother them. We believe this is quite astute
+an observation given the fact that so far it is only the
+rich classes which have got mobilised on the issue of
+pollution in Delhi even though it has consistently been
+the most polluted capital in the world.
+
+among the rich and the middle classes. What is furthermore interesting in this regard is that 1 in every
+4 rich household also believe that it is the lifestyle
+choices of the Indian elite (i.e. they self-confessedly
+acknowledge their own role) and those of the global
+elite which are also responsible for climate change. A
+similar proportion of middle class households also hold
+the same opinion on these two options.
+
+Causes of Heat and Pollution
+When asked which sources cause rising temperatures,
+29% believe vehicles are responsible. And, across
+classes, the proportion among the rich who believe so
+is the highest at 65.3% (see the upper panel in figure
+3.11. Deforestation as a reason also shows up significantly, the most among the middle classes. Of all
+the causes mentioned, climate change ranks the lowest
+among people’s perception as a cause, perhaps because
+of the lack of awareness about it. In fact, when asked
+if they are aware of the term climate change, around
+40% of the households had never heard of it.
+Among the rest 60% who are aware of climate
+change, there is a broad similarity in the pattern of
+responses between the rich and the middle classes (see
+the lower panel in figure 3.11), which shows education
+plays a role in raising awareness. Industrial waste production is also a significant cause according to many
+28
+
+Figure 3.11: Sources of Heat and Climate Change
+
+CHAPTER 3. AT HOME
+indicates that while they aware of pollution and its
+cause, they believe it is more of a year round problem
+than just the winters.
+
+Impacts of heat and pollution
+Monetary and Health Impacts
+
+Figure 3.12: Sources of Pollution
+Coming to pollution, 7 out of 10 households believe
+vehicles, which is a local source, are primarily responsible for it. The second largest cause, across classes, is
+waste/stubble burning (see figure 3.12). These being
+the top two leading causes of pollution is also representative of the slugfest Delhi witnesses every winter
+about which of these two causes is more responsible
+for Delhi’s conditions. There is a variation of opinion
+on construction, with the rich giving it as much an importance as stubble burning. Factories, for the middle
+classes trumps over stubble burning when it comes to
+pollution. This response shows that people are by and
+large aware of the sources of pollution. When seen in
+the context of their perception about air quality, this
+
+Power cuts and lack of adequate water supply are the
+two most common problems during summer in Delhi.
+When posed these questions, there is a noticeable difference across classes (see figure 3.13). Not only do
+the poor and the middle classes face more unscheduled power cuts as compared to the rich, they face a
+significant lack of water supply as well. This points
+to a class bias of the government when it comes to
+providing basic amenities. To be sure, the overall situation of electricity is not all that bad in Delhi, as
+even among the poor, two thirds do not face any effect on supply of electricity during these months. As
+for water supply, those facing problems either buy the
+deficit from some other sources (bottled water) or borrow from their neighbours.
+As for the monetary impact of increasing temperatures, there is a significant rise in electricity bills during the summer months (see figure 3.14). While this is
+expected among the rich because of the higher usage
+29
+
+CHAPTER 3. AT HOME
+
+Figure 3.13: Impact on Basic Amenities Due to Heat Waves
+
+30
+
+CHAPTER 3. AT HOME
+of ACs, it rises even for the poor with 4 out of every five households witnessing a hole in their already
+small pockets. This is because of the increase in usage
+of coolers (mostly rented) for those who can afford it
+or fans come into use as opposed to them not being
+used during the winters.
+
+While there is an increase in expenses during the
+summer months, there is also an increase during pollution days. The only difference is this increase is dominated by medical expenses with some changes in electricity bills, but the latter is because of increased usage
+of electric heaters, which is unrelated to pollution, at
+least directly. Air purifiers, mostly owned by the rich,
+don’t consume a lot of electricity.
+
+Figure 3.14: Impact on Household Expenses
+
+Figure 3.15: Impact on Health
+31
+
+CHAPTER 3. AT HOME
+Figure 3.15 shows the impact on health during
+these two periods. Dehydration and dizziness are the
+two most common health impacts of high heat. Heat
+rashes are high among the underprivileged. During the
+pollution months, coughing, breathing difficulties and
+irritation in the eyes were the most common health
+impacts.
+
+Impact on School
+
+Schools get closed down both during heatwaves and
+high air pollution (see figure 3.16). So, the loss arising out of the twin-problem is more long term. Closure of schools with such frequency across both the
+seasons has a serious repercussion for general learning
+outcomes. In this context, at least the richer households have access to online classes to a certain extent,
+which also shows the infrastructural means available
+both at the school and the families for such classes to
+be conducted.
+32
+
+Figure 3.16: Impact on School Days
+
+Take on anti-pollution measures
+A few questions were asked about certain antipollution policies of the government. To the question whether the government is taking adequate steps
+to control pollution, a very small proportion, across
+classes, believed it is (see the upper panel in figure
+3.17).
+
+CHAPTER 3. AT HOME
+
+Figure 3.17: Households’ Response to Government Policies to Curb Pollution
+
+33
+
+CHAPTER 3. AT HOME
+Three other questions in this regard were posed –
+one about an existing policy and two about prospective changes. The government has enacted a policy
+of decommissioning older vehicles (15 years for petrol
+cars and 10 years for diesel cars) to curb pollution. Of
+the three classes, the middle classes are least in agreement. As seen above, the middle classes too have a
+share in car ownership, so this relatively lower acceptability could arise from a potential conflict of interest.
+While this conflict of interest is visible among the rich
+as well, the acceptability for the policy is a bit higher
+than the middle classes. Among the poor, while the
+pattern is the same as others, around 20% are either
+unaware or did not have an opinion on the matter.
+This pattern follows for the prospective policies –
+whether second car registration within a family should
+be made more expensive, and if parking charges should
+be increased. Rich being more accepting of these policies shows that there is currency for such policies even
+as it may affect them adversely. For the middle classes,
+a relatively lower acceptability could be because this
+would increase hardships on their already low budget
+living in an otherwise expensive city. The poor won’t
+be affected by such policies and yet a lower acceptability could be indicative of empathy towards the other
+classes who may be adversely affected. Just as they
+would not like the government to increase financial
+34
+
+burden of them, they do not want it inflicted on the
+others either.
+
+Chapter 4
+Workplace
+In this chapter we are going to discuss the issues of
+heat and pollution from the lens of work and their
+workplace. Block 7 of the questionnaire was addressed
+to the adults in the age group of 14 and above.
+
+Work Status and Conditions
+The upper chart in figure 4.1 represents the age profile
+of adults, which shows that a majority of them belong
+to the age group of 20-30. Also notable is the fact that
+around 14% of them are in the age group of 14-20, a
+significant number of whom may be school/college going students, especially among the rich/middle income
+households. This should be borne in mind while inter-
+
+preting some of these results.
+Around one fourth of the adults do not have any
+formal education, which is not surprising given that a
+significant share of the sample belongs to the very poor
+income category. Even though these households may
+have enrolled their own children in school, those from
+earlier generations from these humble backgrounds
+may not have had access or financial means to go to
+school. Those who have gone to school but not college
+are an additional 50%. A little under one fourth have
+gone beyond school. Again this is just reflective of
+the income class that the households belong to. The
+pressure to work at an early age as well as financial
+hardships in pursuing education beyond school may
+force people from the poorer background to actively
+look for jobs.
+Related to these observations is their employment
+status. A significant number of them is out of the
+labour force, which is on account of students who may
+be pursuing their studies, women of working age but
+not engaged in wage work as well as some senior citizens who may have retired from work.
+Of those offering themselves for work, one in five
+are out of employment (12% unemployed adults as a
+ratio of 60% who are in the labour force), which is a
+very high rate but something which matches the macro
+statistics of high urban unemployment, particularly
+35
+
+CHAPTER 4. WORKPLACE
+among the youth, which also dominates our sample.
+Around 24% are in regular wage employment while
+the rest half are in casual or self employment categories. An overwhelming majority among the regular
+wage employees are adults from the richer households.
+
+figure 4.2. While two thirds among the rich said they
+do, less than one in ten among the poor and two in
+ten among the middle classes said they do. And the
+ones among the poor who said yes were the domestic help workers or nursing/cleaning staff in certain
+sectors. Not to be able to take care of oneself even
+in severe conditions makes them vulnerable to health
+risks beyond normal.
+
+Location of Work
+
+Figure 4.2: Availability of Paid Leaves
+Since both severe heatwaves and air pollution lead
+to disruption of work every year, we asked the respondents if their workplaces have paid leave options (see
+36
+
+Exposure to heat and pollution depends on the nature
+of one’s workplace. More than three fourths among
+the rich have access to air conditioned workplace (see
+figure 4.3. Some others even among the rich may have
+to work outdoors, like a civil engineer supervising a
+construction site, because of the nature of the work.
+A section among the middle class and a much lower
+proportion among the poor too have access to such
+spaces. This somewhat unexpected result among the
+poor is reflective of some casual workers having access
+to airconditioned office spaces (say guards in banks or
+nurses in hospitals).
+In sharp contrast to the rich, two out of every three
+workers among the poor have to work either outdoors
+(most without even a shade) or, even if indoors, with-
+
+CHAPTER 4. WORKPLACE
+
+Figure 4.1: Age, Education and Employment Status of Adults
+
+37
+
+CHAPTER 4. WORKPLACE
+
+Figure 4.3: Location of Workplace
+38
+
+CHAPTER 4. WORKPLACE
+out proper ventilation.
+The direct impact of the nature of workplace is the
+exposure to both heat and air pollution. Higher the
+class lower is such exposure. This just confirms our
+expectation that the impact of heat and air pollution
+is directly related to the class one belongs to. When
+seen in the context of the content of the previous chapter where we saw it is the rich who contribute more to
+emissions and pollutants, it just reinforces the dictum
+– those who contribute the least face the brunt of it
+all.
+While nothing much can be done as far as exposure
+to heat when working outdoors is concerned, workers
+can be protected from very harmful pollutants by the
+use of mask etc. But do they use such protective measures during periods of severe pollution in Delhi? Figure 4.4 shows that an overwhelming majority across
+classes does not. This is true even of the rich classes
+despite the awareness regarding pollution. Till such
+time that pollution can be controlled, masks are the
+only protective measure people have. A change in
+attitude, therefore, may be necessary. For this the
+period of Covid can come in handy. When it was a
+health emergency, people across classes were made to
+wear masks. Pollution has a similar health impact, albeit over a much longer time span, so the government
+would have to take similar steps to raise awareness
+
+about the use of masks during these months.
+
+Figure 4.4: Use of Mask Against Pollution
+
+How do people travel to work?
+Figure 4.5 shows how different class of people travel to
+their place of work. Rich travel using private vehicles
+while the poor mostly either walk or use local means of
+transport (rickshaws etc). An interesting factor is that
+the use of public transport is almost the same across
+the three classes. This tells us a few things. One, the
+rich are also using public transport, which may mostly
+be the use of Delhi Metro and perhaps AC buses to a
+very limited extent (we can’t be certain about this di39
+
+CHAPTER 4. WORKPLACE
+vision because metros and AC buses were clubbed as
+an option). Two, poor don’t have the means to use private transport but they are not using public transport
+as a substitute and are instead spending on other local
+modes of transport. Three, an improvement in public
+transport may have more takers among all the classes.
+Apart from a significantly lower emissions/pollutants
+per person as compared to private vehicles, air conditioned public transport also takes care of the heat
+exposure to those travelling to work.
+To understand the reasons why they choose the
+mode they do, four options were given to them – availability, affordability, convenience, reliability. The rich
+prefer private modes of travel because of availability,
+reliability and convenience even as it may not be an inexpensive option (among the fours reasons affordability is the lowest ranked reason). As for public transport, the rich believe it is low on reliability (about the
+timings of the buses) and convenience (lack of last mile
+connectivity). On both these counts though the Delhi
+Metro does much better and, therefore, its use among
+the rich is high. Reliability and convenience of public transport is the lowest for both the middle and the
+underprivileged classes, which casts a serious doubt on
+the level of public transport in Delhi. What is interesting is that the underprivileged find public transport to
+be less affordable than local modes of travel or walking.
+40
+
+So, not only does the public transport need to improve
+its reliability and last mile connectivity, it needs to be
+made cheaper so that those at lower end of the income
+spectrum can also use it.
+
+Figure 4.5: Mode of Travel to Work
+
+CHAPTER 4. WORKPLACE
+
+Are Work Conditions Affected?
+In this subsection, we will discuss the specific ways in
+which the workers were, if at all, affected by the twin
+problems. We start with productivity and then discuss
+impact on earnings.
+
+Productivity
+
+We asked certain questions on the levels of fatigue and
+sweating, which were directly linked to the nature of
+their workplace. The results are along the expected
+lines (see figure 4.6).
+The level of fatigue and sweat are arranged in a decreasing order of severity. The level of fatigue was the
+highest among the underprivileged, who have to spend
+significantly longer hours under the sun. The most severe form of fatigue, i.e. taking a break from work,
+was as high as one in every five workers for the underprivileged workers. For sweating as well, the most
+severe form of sweating is the highest among the underprivileged.
+
+Earnings
+
+Figure 4.6: Level of Fatigue and Sweating
+
+When asked if earnings were affected during these
+times, the pattern of response was the same across
+these two seasons (see figure 4.7). The impact of earnings is more prominent among the poor. Earnings of
+the rich are mostly not affected by heat or air pollution. To compensate for this loss in earnings, the
+poor (and the middle classes) have to work longer
+hours, which makes them even more vulnerable to both
+heat and pollution. To be sure, there were some occupations, among the poor, whose earnings actually
+increased during the heatwaves (not reported here).
+41
+
+CHAPTER 4. WORKPLACE
+This was mostly the case for those who were selling
+drinking water, ice/ice cream.
+
+Figure 4.7: Earnings and Extra Work
+
+42
+
+So, in sum, the poor, by virtue of being exposed to
+heat significantly more than their richer counterparts,
+are exhausted. This affects their earnings, which they
+compensate for by working more, thereby, bearing an
+even higher level of heat stress. It is a vicious cycle.
+
+Questionnaire
+Block 1: Identification of Sample Household
+HH No:
+
+Block 2: Particulars of Field Operation
+1. Time:
+2. Date:
+3. Surveyor:
+4. Schedule Number:
+
+Block 3: Household Characteristics
+1. Household Size:
+• No. of adults (age ≥ 14):
+• No. of children (age ≤ 14):
+43
+
+CHAPTER 4. WORKPLACE
+2. Religion (Code)
+1. Hinduism 2. Islam 3. Christianity 4. Sikhism 5. Jainism 6. Buddhism 7. Zoroastrianism 8. None 9.
+Others.
+3. Social Group (Code)
+1. Scheduled Tribe 2. Scheduled Caste 3. OBC 9. Others
+4. Caste (Jati):
+5. Type of House:
+1. Pucca 2. Semi-pucca 3. Kaccha 4. Standalone apartment 5. Gated society
+6. How long has it been since you moved to this place? **aimed at the HH head
+1. Since birth 2. 20 years earlier 3. 10–20 years earlier 4. 5–10 years earlier, 5. Less than 5 years
+7. How many adults are employed in the HH?:
+8. Does anyone in the household have any health condition ?
+1. No health condition 2.Chronic illness 3. Disability 4. Other
+9. Does anyone in the household have Health Insurance?
+1. Ayushman Bharat 2. Other government schemes 3. Private Insurance 4. None
+10. Have you ever received coverage from your Health Insurance ?
+1. Full amount 2.around 50 percent 3.less than 50 percent 4.No coverage received
+11. What is the main cooking fuel in your house?
+1. LPG/Piped gas 2. Biogas 3. Kerosene 4 .Coal/lignite 5. Wood 6. Cow dung 7. Crop residue 8.
+Electricity/Induction 9. Others
+12. Cooking Space and ventilation
+1.Separate kitchen with chimney 2.Separate kitchen with exhaust 3.Separate kitchen without exhaust/ chimney with open space 4. Same room used for living/sleeping but open doors and windows 5. Outdoors/veranda
+6.Others
+13. What is the dominant source of drinking water in your household ?
+1.Surface water (tap water supply) 2.Groundwater / submersible (shared) 3. Groundwater / submersible
+(Personal) 4. government tanker 5.RO and Purifier 6. Bottled water 7.Boiled water 8.Other
+44
+
+CHAPTER 4. WORKPLACE
+14. The dominant source of water for other household purposes.
+1.Surface water (tap water supply) 2. Groundwater / submersible (shared) 3.Groundwater / submersible
+(Personal) 4. Government tanker 5.Other
+15. Do you have school-going children in your family? (If Option 1 [Yes] Open Blocks 5.3 and 6.3. Else skip
+these.)
+1. Yes 2. No
+1a. Type of School. (If Option 3 [Both], Open Blocks 5.3 and 6.3 separately for the types of school.)
+1. Government 2. Private 3.Both (ask gender)
+1a3-i. What is the gender of the child going to private school?
+1. Male 2. Female
+1a3-ii. What is the gender of the child going to government school?
+1. Male 2. Female
+
+Block 4: Income and Wealth
+
+1. In which income bracket does your family income fall (monthly)?
+1. 0–10,000 2. 10,000–25,000 3. 25,000–35,000 4. 35,000–50,000 5. 50,000–1,00,000 6. 1,00,000–1,50,000 7.
+1,50,000–2,00,000 8. 2,00,000 and above
+2. Do you own any one of the following?
+45
+
+CHAPTER 4. WORKPLACE
+Sl. No
+
+1
+2
+3
+4
+5
+6
+7
+
+Item
+
+Units
+
+Was any loan involved for purchasing or renting?
+
+Brought/Rented
+
+Bicycle
+2-wheelers
+Rickshaw
+Cart
+Auto
+Cars
+SUV
+
+Codes:
+
+• Loan Involved: 0 = No loan, 1 = Loan involved
+• Brought/Rented: 1 = Bought, 2 = Rented
+• Purpose: 1 = Commercial, 2 = Personal Use
+• EV/Non-EV: 1 = EV, 2 = Non-EV
+
+3. Are the following items present in the household?
+46
+
+Purpose
+
+EV/Non-EV
+
+CHAPTER 4. WORKPLACE
+Sl. No
+
+1
+2
+3
+4
+5
+6
+7
+
+Item
+
+Units
+
+Was any EMI
+/ loan involved
+for purchasing
+or renting?
+
+Brought/Rented
+
+Did you buy it
+in the last 3
+years?
+
+Table fan / Stand fan
+Ceiling fan
+Fridge / Refrigerator
+Cooler
+AC
+Air Purifier
+Exhaust fan
+
+Codes:
+• Did you buy it in the last 3 years?: 1= Yes, 2 = No
+
+4. Do you own any land/ building/ shop either here or in some other place (say ancestral village)? Include
+things which are there on their name and are likely to be inherited.
+Sl. No
+
+1
+2
+3
+4
+5
+
+Item
+
+Yes or No
+
+Is there any loan
+pending on any
+of these?
+
+Ownership Status
+
+Land
+Residential Property
+Shop area
+Livestock
+Pond / Talao
+47
+
+CHAPTER 4. WORKPLACE
+Codes:
+• Loan Pending: 1= No Loan Pending, 2 = Loan Pending
+• Ownership Status: 1= Self-occupied, 2= Rented out, 3= Mortgaged
+5. What is the ownership status of your home?
+(Can choose more than one option if it is security.)
+1. Rented, 2. Self-Owned / Purchased, 3. Ancestral / Inherited, 4. Security / Mortgage
+6. Do you have any savings (include cash, shares, bonds, loans given out)?
+1. Yes 2. No
+7. Do you have any debts (including debts to pay to formal and informal institutions, relatives, pending bills
+for more than a month with any shopkeeper)?
+1. Yes 2. No
+8. Do you have more savings than your debt?
+1. Yes 2. No
+
+Block 5: Impact of Heat
+5.1 At Home
+1. Are the homes built and equipped to reduce heat stress? (building style, location in relation to shade trees,
+air conditioning, etc.)
+1. Yes 2. No 3. Maybe
+2. Do you spend more money during hot seasons to cope with the heat?
+1. Yes 2. No
+2a If yes, list why:
+1. Medical bills 2. Food expenditure 3.Electricity 4.Travel 5. Others.
+48
+
+CHAPTER 4. WORKPLACE
+3. During summer, is your night’s sleep disturbed?
+1. Yes because of heat 2. Yes because of urban noise due to open door/ window for ventilation 3. Yes other
+reasons 4. No 5. Maybe
+4. Where do non-working members spend most of their afternoon on an extremely hot day?
+1. Indoors, at home 2. Indoors, at neighbour’s home 3. Outdoors 4. Other
+5. Have you noticed any tendency towards higher heat exposure during recent years compared to 10-20 years
+ago?
+1. Yes, increased a lot 2. Yes, increased somewhat 3. Similar 4. No, Decreased somewhat 5. No- Decreased
+a lot
+6. Which sources do you feel contribute most to rising heat in recent years? (multiple options allowed)
+1. Traffic/Vehicles 2. Factories/ Industries 3. Construction/concrete buildings 4. climate change 5. Deforestation 6. Others
+7. Have you heard of climate change?
+1. Yes 2. No
+7a If yes, what/how is responsible for it?
+1. Lifestyle of the global rich 2. Lifestyle of the rich in India 3. Emissions from agriculture 4. others
+8. How has your household’s power services been affected during summers?
+1. No effect 2. Regular power-cuts 3. Frequent power failures (due to several reasons) 4. Complete disruption
+(long-term failure) 5. Others, Specify
+9. Does your electricity bill increase during summer months?
+1. Yes 2. No
+9a. If yes, by how much in INR?
+1. 0-200 2. 200-500 3. 500- 1000 4. 1000-2000 5. 2000-5000 6. 5000 and above
+10. Has the water supply been affected during summer?
+1. Yes 2. No
+10 a. Is there any alternate external assistance provided to your household to meet the drinking water needs?
+1. Borrowing from neighbour 2. Water tanks from the government 3. Borrowing from place of work 4.
+49
+
+CHAPTER 4. WORKPLACE
+Buying from water ATM 5. Buying from other sources 6. Others
+10 b. Is there any alternate external assistance provided to your household to meet the other household purpose
+water needs?
+1. Borrowing from neighbour 2. Water tanks from the government 3. Buying from tanker 4. Others
+11. If you are purchasing water from a tanker/ buying from the market or spending on submersible , how much
+money do you spend on it in a year?
+1. 0-200 2. 200-500 3. 500- 1000 4. 1000-2000 5. 2000-5000 6. 5000 and above
+
+5.2 Health Effects
+1. Have you heard of heat waves?
+1. Yes 2. No
+2. If yes, has heat waves affected the health of you or any of your family members in the past 2-3 years?
+1. Yes 2. No 3. Maybe
+2a. Effect of heat waves on you / your family member. Prompt the options.
+Sl No
+1
+2
+3
+4
+
+Effect
+
+Anyone Affected
+
+How many members
+were affected?
+
+Died
+Was Hospitalised
+Was ill but not hospitalised.
+Experienced, but no one fell ill from it.
+
+Codes:
+• Anyone Affected : 1 = Yes, 2 = No
+2b. If option a-d in the previous question. What specific heat illness was faced? Select from below: Prompt the
+50
+
+CHAPTER 4. WORKPLACE
+options.
+Sl No
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+Effect
+
+Anyone Affected
+
+How many members
+were affected?
+
+Heat Rash
+Heat Cramps
+Heat Exhaustion
+Heat Stroke
+Dizziness/ Headache/ Fainting
+Nausea or Vomiting
+Loss of Appetite
+Dehydration / Loose Motion
+Other
+
+Codes:
+• Anyone Affected : 1 = Yes, 2 = No
+
+5.3 On School Education
+If the option is “3- Both” for type of school, then proceed separately for the government and
+private schools- i.e. repeat this block twice
+1. If there are school going children in the household, how has education been affected by heatwaves?
+1. Schools closed 2. Accessibility to schools affected 3. School timings changed 4. Shifted to online mode 5.
+Child did not want to go to school because of extreme heat 6. Others, Specify
+2. Number of school days lost due to extreme heat during the entire summer season. (Except for the summer
+51
+
+CHAPTER 4. WORKPLACE
+vacation)
+1. Less than 5 2. 5 to 10 3. 10 to 20 4. More than 20
+3. Are there any preparatory and response measures taken by schools to avoid heat-related illness in children
+attending schools?
+1. Yes 2. No
+3a. If Yes, please explain.
+1. Potable and cool water 2. Healthy meals 3. Awareness on heatwaves, impacts and precautions 4. Sufficient
+open and green areas within school premises 5. Active cooling mechanism (coolers/ac) 6. Others, Specify
+
+Block 6: Impact of Pollution
+Block 6.1 At Home
+1. How would you rate the quality of air around your home?
+Sl No
+a.
+b.
+
+Season
+Summer
+Winter
+
+Code (0–5)
+
+• Code : 0 =Very Poor, 1 = Poor, 2= Fair, 3= Good, 4= Very Good, 5= Excellent
+2. Do you spend more money during high pollution days to cope with the pollution?
+1. Yes 2. No
+2a. If yes, list why:
+1. Medical Bills 2. Higher electricity bill 3. Travel Expenses Increase 4. Others
+3. Where do non-working members spend most of their time on an extremely polluted day?
+1. Indoors, at home 2. Indoors, at neighbour’s home 3. Outdoors 4. Other
+52
+
+CHAPTER 4. WORKPLACE
+4. Have you noticed any tendency towards higher pollution exposure during recent years compared to 10 years
+ago?
+1. Yes, increased a lot 2. Yes, increased somewhat 3. Similar 4. No, Decreased somewhat 5. No, Decreased
+a lot
+
+Block 6.2 Health Effects
+1. Have you heard of air pollution?
+1. Yes 2. No
+2. If yes, have periods of high air pollution affected the health of you or any of your family members in the
+past 2-3 years?
+1. Yes 2. No 3. Maybe
+2a Effect of air pollution on you / your family member. Prompt the options.
+Sl No
+1
+2
+3
+4
+
+Effect
+
+Anyone Affected
+
+How many members
+were affected?
+
+Died
+Was Hospitalised
+Was ill but not hospitalised.
+Experienced, but no one fell ill from it.
+
+Codes:
+• Anyone Affected : 1 = Yes, 2 = No
+2b During periods of high air pollution in the past 2-3 years, did you or your family members experience any
+of the following symptoms: Prompt the options.
+53
+
+CHAPTER 4. WORKPLACE
+Sl No
+1
+2
+3
+4
+5
+6
+
+Effect
+Coughing/Wheezing
+Burning/Irritated eyes
+Headaches
+Breathing Difficulty
+Nausea
+Other
+
+Anyone Affected
+
+How many members were affected?
+
+Codes:
+• Anyone Affected : 1 = Yes, 2 = No
+
+Block 6.3 On School Education
+If the option is “3- Both” for type of school, then proceed separately for the government andprivate
+schools- i.e. repeat this block twice.
+1. If there are school going children in the household, how has education been affected by air pollution?
+1. schools closed 2. accessibility to schools affected 3. Shifted to online mode 4. Child did not want to go to
+school because of illness due to pollution 5. Child did not want to go to school because of extreme pollution
+6. Others, Specify
+2. Number of school days lost due to extreme air pollution during the entire winter season.
+1. Less than 5 2. 5 to 10 3. 10 to 20 4. More than 20
+3. Are there any preparatory and response measures taken by schools to avoid exposure to air pollution in
+children attending schools?
+1. Yes 2. No
+54
+
+CHAPTER 4. WORKPLACE
+3a If Yes, please explain.
+1. Yes, air purifiers 2. Awareness on pollution, impacts and precautions 3. Sufficient open and green areas
+within school premises 4. Others, Specify
+
+Block 7: Work (Age ≥ 14)
+To be canvassed for every employed member of the household.
+1. Person Serial No:
+2. Age:
+3. Gender: Male (1) / Female (2) / Other (3)
+4. Educational Qualification.
+1. Never attended formal education 2. Primary school 3. Secondary school 4. Higher Secondary 5. Graduatetechnical education 6. Diploma – technical education 7. Graduate (Non – technical education) 8. Post
+graduate and above
+5. Employment Status:
+1. Self-employed 2. RWE 3. CWE 4. Unemployed 5. Out of labour force
+If options 1-3 are chosen in the above question, only then continue with the rest of the block.
+6. What best describes the occupation you are engaged in?
+Specify in max 5-6 words
+7. Which industry are you engaged in?
+National Industry Code
+8. How do you usually reach your worksite?
+1. bus 2. metro/AC bus 3. auto 4. cab 5. covered (car, suv) – EV 6. covered (car, suv) - non EV 7.
+uncovered (2 wheeler)- EV 8. uncovered (2 wheeler)- non EV 9. Walk/ E-rickshaw/ rickshaw/ cycle
+55
+
+CHAPTER 4. WORKPLACE
+9. Why do you travel by this mode? (multiple options)
+1. convenient 2. reliable 3. cheaper 4. available 5. eco-friendly 6. other
+10. Time spent commuting to work? 1. Less than 20 Min. 2. 20-40 Min. 3. 40-60 Min 4. 1-2 hours 5. More
+than 2 hours
+11. What is the type of job contract that you have?
+1. no written job contract 2. written job contract: for 1 year or less 3. more than 1 year to 3 years 4. more
+than 3 years
+12. Are you eligible for paid leaves?
+1.Yes 2. No
+13. What is the location of your workplace?
+1. outdoor with exposure to sun 2. outdoor in a shed 3. indoor with ac 4. indoor with no ac but proper
+ventilation 5. indoor without proper ventilation 6. Both outdoor and indoor 7. No fixed workplace 8. Other
+14. Do you have access to proper sanitation facilities at your workspace?
+1. Yes 2. No
+
+Block 7.1 Impact of Heat on work
+1. Are you exposed to extreme heat and humidity at the workplace?
+1. Yes 2. No
+1a If yes, what are you specifically exposed to?
+1. wearing high levels of personal protective equipment 2. heat from extremely hot or molten material 3.
+sun exposure due to outdoor work 4. difficulty in accessing shade or places of respite from the heat during
+breaks 5. difficulty in accessing re-hydration because of the work location 6. Others, Specify
+2. Duration of exposure to heat at your workplace.
+1. 0-1 hour 2. 1-3 hours 3. 3-5 hours 4. More than 5 hours
+3. Are your monthly earnings affected in the summer months due to high heat?
+1. Yes 2. No 3. Maybe
+56
+
+CHAPTER 4. WORKPLACE
+3a By how much are they affected on an average?
+1. Decrease: A week’s income 2. Decrease: 2 week’s income 3. Decrease: 4 week’s income 4. Increase: A
+week’s income 5. Increase: 2 week’s income 6. Increase: 4 week’s income
+3b Why does your income increase or decrease? Specify in max 5-6 words.
+4. Do you have to work extra hours in the summer months in order to maintain your earnings?
+1. Yes 2. No
+5. Where do you spend your afternoons during summer?
+1. Indoor in workplace with AC 2. Indoor in workplace without AC 3. Outdoor in workplace 4. Work is
+halted at the workplace 5. Work is halted and I go back home
+6. How many cases of heat stroke did you witness around you during work during the hot season?
+1.None ( 0 ) 2. Less than 5 2. 5-10 3.10-20 4. 20 and above.
+7. Are you more fatigued at work during extreme hot and humid days?
+1. I’m not tired at all 2.I’m a little tired 3. I’m tired 4.I’m exhausted 5. I’m so exhausted I desire to have a
+break
+8. How much is the amount of sweating throughout your work? 1. I do not feel sweat 2. I feel the sweat on
+the armpit and inguinal 3. I feel sweat on the chest and back 4. Sweating is so severe that the underwear
+clothing get wet 5. Sweating is so severe I feel it on my face 6. Sweating is so severe it is flowing all over my
+body
+9. How much is the intensity of your thirst when you are at work? 1. I don’t get thirsty 2. I get a little thirsty
+3. I get thirsty 4. I get very thirsty 5. I get so thirsty that my mouth and throat get dry and they can’t be
+wet with saliva
+10. Is sufficient water available at all times during the summer months when you need it?
+1.Sufficient cold water available 2.Sufficient water available, but not cold 3.Insufficient water availability
+4.Have to carry own water or rely on nearest public source of water 5.Other
+
+57
+
+CHAPTER 4. WORKPLACE
+
+Block 7.2 Impact of Air Pollution on work
+
+1. Does your work site expose you to air pollution?
+1. Yes 2. No
+1a If yes, how is work adjustment done on high pollution days (Select Multiple)?
+1. Shorter Shift 2. Start earlier/later 3. Multiple shifts 4. Rotate tasks 5. Provide masks 6. Water/eye wash
+7. Take leave for a few days 8. Work is halted by the employer or due to regulations 9. other 10. None
+2. . Are your monthly earnings affected in the winter months due to high pollution?
+1. Yes 2. No 3. Maybe
+2a. By how much are they affected on an average?
+1. Decrease: A week’s income 2. Decrease: 2 week’s income 3. Decrease: 4 week’s income 4. Increase: A
+week’s income 5. Increase: 2 week’s income 6. Increase: 4 week’s income
+2b Why does your income increase or decrease?
+Specify in max 5-6 words.
+3. Do you have to work extra hours in months with high pollution in order to maintain your earnings?
+1. Yes 2. No
+4. Do you use protection from air pollution at your workplace?
+1. Yes 2. No
+4a If Yes, how do you protect yourself?
+1. Cloth mask / Surgical Mask 2. N95/Respirator 3. Dupatta/Scarf / Cloth to cover the face 4. Reuse
+Cotton mask with valve 5. Other 6. None
+4b Is the protection provided by your employer?
+1. Yes 2. No
+58
+
+CHAPTER 4. WORKPLACE
+
+Block 8: Government Actions
+Block 8.1: Heat Action Plan (HAP)
+1. Have you seen any government hoardings or posters, or participated in any workshop by the government on
+how to protect yourself during extreme heat?
+1. Yes 2. No
+2. Did you ever receive prior warnings about extreme hot days from the government in the last 3 years?
+1. Yes 2. No
+2a. If yes, how do you get this information?
+1. SMS and WhatsApp messages 2. Word of mouth 3. Newspaper 4. Internet/ Social Media 5. TV/ Radio
+6. Mobile broadcast 7. Public announcement 8. CSO/Anganwadi 9. Other
+3. Did you change your behavior based on such an alert?
+1. Yes 2. No
+3a. If No, why?
+1. I cannot afford to change my behaviour as it affects my earnings. 2. I don’t think it is necessary to change
+my behaviour. 3. Other, specify
+4. Would you like to change your behavior based on such an alert?
+1. Yes 2. No 3. Maybe
+5. Has the government implemented or supported roof cooling solutions in your residential community?
+1. Yes 2. No 3. Don’t Know
+6. How far is the nearest public garden, cooling shelter, or other cooling center from your home?
+1. Less than a 5 minute walk 2. Between a 5 and 10 minute walk 3. Between a 10 and 15 minute walk 4.
+More than a 15 minute walk 5. There is no such space at walking distance from my house.
+7. How often do you visit your nearest public green space?
+1. Often 2. Sometimes 3. Rarely 4. Never
+8. Are you satisfied that your nearest public green space is a place where you can go to cool down on a
+59
+
+CHAPTER 4. WORKPLACE
+particularly hot day?
+1. Yes 2. No
+9. How much does the way you are treated by people and safety concerns influence your likelihood to go to
+public green spaces?
+1. Has a lot of influence 2. Has some influence 3. Has a little influence 4. Has no influence
+10. Do you think the government is taking adequate cooling solutions?
+1. Yes 2. No 3. Maybe
+
+Block 8.2: Graded Response Action Plan (GRAP)
+1. Have you seen any government hoardings or posters, or participated in any workshop by the government on
+how to protect yourself during days of extreme pollution?
+1. Yes 2. No
+2. Did you ever receive prior warnings about extreme polluted days from the government in the last 3 hours?
+1. Yes 2. No
+2a. If yes, how do you get this information?
+1. SMS and WhatsApp messages 2. Word of mouth 3. Newspaper 4. Internet/ Social Media 5. TV/ Radio
+6. Mobile broadcast 7. Public announcement 8. CSO/Anganwadi
+3. Did you change your behavior based on such an alert?
+1. Yes 2. No 3. Maybe
+3a. If No, why?
+1. I cannot afford to change my behaviour as it affects my earnings 2. I don’t think it is necessary to change
+my behaviour 3. Other, specify
+4. Would you like to change your behavior based on such an alert?
+1. Yes 2. No 3. Maybe
+5. Which sources do you feel contribute most to air pollution in your area? (You may select up to 3)
+1. Traffic/Vehicles 2. Factories 3. Garbage/Stubble Burning 4. Cooking Smoke 5. Construction Dust 6.
+60
+
+CHAPTER 4. WORKPLACE
+Festivals 7. Others
+6. Do you agree with government’s decommissioning of old vehicles?
+1. Yes 2. No 3. Maybe
+7. Should the second car registration in a family be made more expensive?
+1. Yes 2. No 3. Maybe
+8. Should the parking fees be increased in the city?
+1. Yes 2. No 3. Maybe
+9. Do you think the government is taking adequate steps to control pollution?
+1. Yes 2. No 3. Maybe
+
+61
+
+CHAPTER 4. WORKPLACE
+
+62
+
+Bibliography
+Ahmedabad Municipal Corporation. Ahmedabad heat action plan. Secondary Data, 2018.
+Angelo Antoci et al. Maladaptation in an unequal world. Secondary Data, 2024.
+Edward B. Barbier. Poverty, development, and environment. Secondary Data, 2010.
+Vaishnavi Barthwal et al. Health impact assessment of delhi’s outdoor workers. Primary Data, 2022.
+Liam F. Beiser-McGrath et al. Do policy clashes between the judiciary and the executive affect public opinion?
+Primary Data, 2021.
+Ritu Bharadwaj. Social protection to enhance climate resilience. Technical report, IIED, 2022.
+Ritu Bharadwaj et al. Social protection and informal job market reform. Survey Data, 2022.
+De Bont et al. Impact of heatwaves on all-cause mortality in india: A comprehensive multi-city study. Secondary
+Data, 2024.
+CEBR. The economic and social impacts of ulez extension. Technical report, CEBR, 2023.
+Jayajit Chakraborty and Pratyusha Basu. Air quality and environmental injustice in india. Secondary Data, 2021.
+63
+
+BIBLIOGRAPHY
+CSE. Urban heat stress tracker: Delhi. Technical report, Centre for Science and Environment, 2024.
+Sumanta Das et al. Unraveling the urban climate crisis. Secondary Data, 2024.
+DDMA. Delhi heat action plan. Technical report, Delhi Disaster Management Authority, 2024.
+Debnath et al. Lethal heatwaves are challenging india’s sustainable development. Secondary Data, 2023.
+David Dodman et al. Climate change and informal workers. Survey, 2023.
+GLA. London environment strategy. Technical report, Greater London Authority, 2018.
+Katherine V. Gough et al. Vulnerability to extreme weather events in cities. Survey Data, 2019.
+Greenpeace India. Labouring through the climate crisis. Technical report, Greenpeace India, 2025.
+Anjum Hajat et al. Socioeconomic disparities and air pollution exposure: A global review. Secondary Data, 2015.
+Huang et al. Health impact of china’s air pollution prevention and control action plan. Secondary Data, 2018.
+ILO. Working on a warmer planet. Technical report, International Labour Organization, 2019.
+ISO. Iso 7243:2017 assessment of heat stress using the wbgt index. Technical report, International Organization
+for Standardization, 2017.
+Sirkku Juhola et al. Redefining maladaptation. Secondary Data, 2016.
+Kshitij Kacker et al. Heat stress risk at an intra-urban level: A case study of delhi, india. Primary Data, 2024.
+Kshitij Kacker et al. Personalized heat stress early warning system for an urban area. Primary Data, 2025.
+Tord Kjellstrom et al. Heat, human performance, and occupational health. Secondary Data, 2016.
+64
+
+BIBLIOGRAPHY
+Kumar et al. Rural cooling needs assessment towards designing community cooling hubs. Primary Data, 2021a.
+Priyanka Kumar et al. Analysis of heat stress and heat wave in the four metropolitan cities of india in recent
+period. Secondary Data, 2021b.
+Bruce C. Mitchell et al. Social inequities in urban heat and greenspace. Secondary Data, 2021.
+Mourougan et al. Heat stress in india: A review. Secondary Data, 2024.
+Mahmud Al Haq Patwary. The impacts of heat on labour supply, productivity, and earnings: insights from india.
+Secondary Data, 2025.
+Prayas (Health Group). A review of heat and health research in india. Secondary Data, 2022.
+David Satterthwaite et al. Building resilience to climate change in informal settlements. Secondary Data, 2020.
+Dietrich H. Schwela and Gary Haq. Strengths and weaknesses of the who global ambient air quality database.
+Secondary Data, 2020.
+Shreya Shrikhande et al. Barriers to climate change and health research in india. Primary Data, 2023.
+Somanathan et al. The impact of temperature on productivity and labor supply. Survey Data, 2021.
+Kimberley Anh Thomas and Benjamin P. Warner. Weaponizing vulnerability to climate change. Secondary Data,
+2019.
+Bas J. van Ruijven et al. Amplification of future energy demand growth due to climate change. Secondary Data,
+2019.
+Vidhya Venugopal et al. Occupational heat stress profiles in selected workplaces in india. Survey, 2015.
+65
+
+BIBLIOGRAPHY
+WIEGO. Domestic workers, risk and social protection in delhi national capital region. Technical report, WIEGO,
+2020.
+Xinyu Wu et al. The impact of the ultra-low emission zone on high streets economy. Secondary Data, 2025.
+
+66
+
+

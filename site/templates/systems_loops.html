@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Feedback loops</h1>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">A feedback loop is a chain of effects that returns to where it started, so a harm can reinforce itself. The map shows {{ loops|length }} loops. Each link in a loop has its own evidence, but none of these loops has been studied from start to finish, so each is an interpretation to test, not a finding.</p>
+<p class="layer-meta">Back to the <a href="../index.html">map</a> · <a href="../links.html">every link as text</a> · <a href="../method.html">how loops were chosen</a>.</p></section>
+<section aria-labelledby="acc-h" class="section-rule"><h2 id="acc-h">Loops on the map</h2>
+<div class="table-wrap"><table class="data"><caption>Loops, with how much of each is measured</caption>
+<thead><tr><th scope="col">Loop</th><th scope="col">Steps</th><th scope="col">Links measured</th><th scope="col">Weakest link</th><th scope="col">Loop as a whole</th></tr></thead>
+<tbody>{% for c in loops %}<tr><th scope="row"><a href="{{ c.cycle_id|lower }}.html">{{ c.cycle_id }}: {{ c.title }}</a></th><td>{% for n in c._nodes %}{{ SM_NODE_BY[n].label }} → {% endfor %}{{ SM_NODE_BY[c._nodes[0]].label }}</td><td>{{ c._measured }} of {{ c._edges|length }}</td><td>{{ c._weakest }}</td><td>{{ c.cycle_confidence }}</td></tr>{% endfor %}</tbody></table></div>
+</section>
+<section aria-labelledby="rej-h" class="section-rule"><h2 id="rej-h">Candidate loops we checked</h2>
+<p class="measure">Twelve candidate loops were investigated. Some were accepted as interpretive loops; others were rejected because no source supports the link that would close them, and remain on the map as chains.</p>
+<div class="table-wrap"><table class="data"><caption>Research ledger: candidate loops</caption><thead><tr><th scope="col">Candidate</th><th scope="col">Decision</th><th scope="col">Reason</th></tr></thead>
+<tbody>{% for r in ledger %}<tr><th scope="row">{{ r.candidate_id }}: {{ r.description }}</th><td>{{ r.decision }}</td><td>{{ r.reason }}{% if r.claim_ids %} {{ r.claim_ids|claims(rel)|safe }}{% endif %}</td></tr>{% endfor %}</tbody></table></div>
+</section>
+{% endblock %}

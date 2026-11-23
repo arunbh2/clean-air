@@ -41,7 +41,7 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   for (const p of pages) {
     for (const href of results[p].links) {
       if (/^(https?:|mailto:)/.test(href)) { results.external.push(href); continue; }
-      const [file, hash] = href.split('#');
+      const [fileq, hash] = href.split('#'); const file = fileq.split('?')[0];
       const target = file ? path.normalize(path.join(path.dirname(p), file)) : p;
       if (!fs.existsSync(path.join(DIST, target))) { results.links.push({ page: p, href, problem: 'missing file' }); continue; }
       if (hash && target.endsWith('.html')) {
@@ -160,7 +160,7 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   pass('home page has no horizontal scroll with text at 200%', z <= 0, `${z}px`);
   // 4b. three-audience browser checks: 320/375/768/1280 with text at 200%, keyboard focus, reduced motion, rendered type size
   const REP = ['index.html', 'organisations/index.html', 'organisations/o/clean-up-nepal.html', 'evidence/claims.html', 'packs/questions/bangladesh-funding.html',
-               'packs/questions/low-cost-sensors.html', 'what-works/smog-towers.html', 'about/corrections.html', 'for-ai/index.html', 'people/construction-workers.html'];
+               'packs/questions/low-cost-sensors.html', 'what-works/smog-towers.html', 'about/corrections.html', 'for-ai/index.html', 'people/construction-workers.html', 'systems-map/index.html', 'systems-map/links.html', 'systems-map/journeys/street-vendor.html', 'systems-map/levers/kiln-transition.html'];
   const zoomFail = [];
   for (const w of [320, 375, 768, 1280]) {
     await mob.setViewportSize({ width: w, height: 900 });
@@ -208,6 +208,33 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
     const m = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 }); await m.goto(url(p)); await m.screenshot({ path: path.join(shots, n + '-mobile.png') }); await m.close();
   }
   await kb.close();
+  // 4c. The web of dirty air: interactions, keyboard, no-JS fallback, reduced motion
+  try {
+    const sm = await browser.newPage({ viewport: { width: 1280, height: 900 } }); const smErr = [];
+    sm.on('pageerror', e => smErr.push(e.message));
+    await sm.goto(url('systems-map/index.html'));
+    await sm.click('.node[data-id="ambient"]'); const pn = await sm.textContent('#map-panel');
+    await sm.selectOption('[data-loop]', 'L1'); const hl = await sm.locator('.edge.on').count();
+    await sm.selectOption('[data-lever]', 'registration-compensation'); const lt = await sm.locator('.edge.lever-target').count();
+    const lp = await sm.textContent('#map-panel');
+    await sm.selectOption('[data-from]', 'vehicles'); await sm.selectOption('[data-to]', 'mortality'); await sm.click('[data-find]');
+    const pf = await sm.textContent('#map-panel');
+    await sm.selectOption('[data-from]', 'mortality'); await sm.selectOption('[data-to]', 'vehicles'); await sm.click('[data-find]');
+    const np = await sm.textContent('#map-panel');
+    await sm.keyboard.press('Escape'); const closed = await sm.evaluate(() => !document.querySelector('.map-svg').classList.contains('focus'));
+    pass('systems map: node, loop, lever and path interactions work without script errors',
+      pn.includes('Outdoor fine-particle levels') && hl === 3 && lt === 2 && lp.includes('could be weakened') && pf.includes('not a causal proof') && np.includes('No checked pathway found yet') && closed && smErr.length === 0,
+      `loop edges ${hl}, lever edges ${lt}, errors ${smErr.length}`);
+    pass('systems map: a lever never claims an outcome or a broken loop', !/will (eliminate|end|break)|loop is broken|saves .* lives/i.test(lp.replace(/does not mean[^.]*\./g, '')));
+    await sm.focus('.node[data-id="weather"]'); await sm.keyboard.press('Enter'); const kp = await sm.textContent('#map-panel');
+    pass('systems map: a box can be opened from the keyboard', kp.includes('Winter weather'));
+    const nj = await browser.newContext({ javaScriptEnabled: false }); const njp = await nj.newPage();
+    await njp.goto(url('systems-map/index.html'));
+    const visEdges = await njp.locator('.edge .line').evaluateAll(l => l.filter(x => getComputedStyle(x).display !== 'none').length);
+    const total = await njp.locator('.edge').count();
+    pass('systems map without JavaScript shows the whole web and links every part to text', visEdges === total && total > 40 && await njp.locator('a.node[href^="links.html#node-"]').count() > 30, `${visEdges}/${total} edges visible`);
+    await nj.close(); await sm.close();
+  } catch (e) { pass('systems map interactions', false, e.message.slice(0, 160)); }
   // 5. print
   for (const p of ['support/brief.html', 'what-works/smog-towers.html', 'index.html']) {
     await page.goto(url(p)); await page.emulateMedia({ media: 'print' });

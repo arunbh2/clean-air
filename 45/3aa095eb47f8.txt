@@ -1,0 +1,594 @@
+
+ 
+ 
+ Pakistan: World Bank Supports Punjab’s Smog Mitigation Action Plan with $300 Million Concessional Loan 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ false 
+ 
+ 
+ 
+ 
+ Home 
+ https://www.worldbank.org/ext/en/home 
+ 
+ News 
+ https://www.worldbank.org/ext/en/news 
+ 
+ Press Release 
+ https://www.worldbank.org/en/news/all?displayconttype_exact=Press+Release&lang_exact=English 
+ 
+ Pakistan: World Bank Supports Punjab’s Smog Mitigation Action Plan with $300 Million Concessional Loan 
+ https://www.worldbank.org/en/news/press-release/2025/03/27/pakistan-world-bank-supports-punjab-s-smog-mitigation-action-plan-with-300-million-concessional-loan 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-8 
+ 
+ 
+ col-lg-8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ jcrtitle 
+ 
+ Pakistan: World Bank Supports Punjab’s Smog Mitigation Action Plan with $300 Million Concessional Loan 
+ 
+ 
+ 
+ jcrpagetitle 
+ Pakistan: World Bank Supports Punjab’s Smog Mitigation Action Plan with $300 Million Concessional Loan 
+ 
+ 
+ jcrnavtitle 
+ Pakistan: World Bank Supports Punjab’s Smog Mitigation Action Plan with $300 Million Concessional Loan 
+ 
+ 
+ jcrdescription 
+ Press Release on Punjab Clean Air Program 
+ 
+ 
+ jcrtags 
+ 
+ 
+ wbg:country/pakistan 
+ wbg:topic/climate_broad 
+ 
+ 
+ 
+ 
+ jcrimage 
+ https://delivery-p136806-e1377785.adobeaemcloud.com/adobe/assets/urn:aaid:aem:bcd7e4d4-a970-415f-87df-a7ba7800ee4a/as/WBG-Logo.jpg 
+ 
+ 
+ content-type 
+ Press Release 
+ 
+ 
+ writer 
+ 000300487 
+ 
+ 
+ first-appeared-in 
+ 2025-03-28 
+ 
+ 
+ expert-id 
+ 000606793 
+ 
+ 
+ country 
+ Pakistan 
+ 
+ 
+ keyframe-img 
+ https://delivery-p136806-e1377785.adobeaemcloud.com/adobe/assets/urn:aaid:aem:bcd7e4d4-a970-415f-87df-a7ba7800ee4a/as/WBG-Logo.jpg 
+ 
+ 
+ result 
+ false 
+ 
+ 
+ funding-mechanism 
+ 
+ 
+ ida, IDA 
+ 
+ 
+ 
+ 
+ content-date 
+ March 28, 2025 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-3 
+ 
+ 
+ col-lg-3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-xlarge 
+ 
+ 
+ style 
+ default 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-7 
+ 
+ 
+ col-lg-7 
+ 
+ 
+ 
+ 
+ add-style 
+ font-medium 
+ lp-body-content 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ WASHINGTON, March 28, 2025  – The World Bank Group Board of Directors approved today a USD 300 million International Development Association (IDA) loan, for the  Punjab Clean Air Program (PCAP)  to strengthen air quality management and combat air pollution. 
+ PCAP will support the Government of Punjab’s Smog Mitigation Action Plan (SMAP) in tackling the pressing issue of smog and air pollution with the launch of several comprehensive initiatives aimed at improving air quality and public health across the province particularly in key sectors such as transport, agriculture, industry, energy, and municipal services. 
+ "The Punjab Clean Air Program supports the Province’s Smog Mitigation Action Plan and is a landmark initiative to significantly improve air quality and enhance the health and well-being of millions of residents,” said  Najy Benhassine, World Bank Country Director for Pakistan . “Cleaner air will reduce the incidence of respiratory and cardiovascular diseases and contribute to a healthier, more livable environment.” 
+ The Punjab Clean Air Program (PCAP) aligns with the new World Bank Country Partnership Framework (CPF) and aims to reduce PM2.5 levels by 35% over the next decade, significantly decreasing the incidence of respiratory illnesses and other pollution-related health issues for the 13 million residents of Lahore Division. The program focuses on the continuation of strengthening air quality management (AQM) infrastructure, enhancing regulatory and institutional capacity, targeted sectoral abatement measures and promoting public awareness. 
+ Key interventions include the investment of 5000 super seeders to reduce the main issue of the excessive seasonal fog -crop residue burning, the introduction of 600 electric buses to foster a modal shift to public transport, the expansion of regulatory-grade air quality monitoring stations across Punjab, and the enhancement of fuel quality testing through the establishment of two new fuel testing laboratories. 
+ Recognizing the importance of public participation in achieving cleaner air, the program promotes behavioral change and active citizen engagement, utilizing air quality monitoring data and emissions inventories to educate stakeholders about air pollution sources, health impacts, and reduction measures. Special attention will be given to vulnerable populations through targeted messaging and advisories, including schools and hospitals 
+ The PCAP’s climate co-benefit of reducing PM 2.5 includes a reduction in greenhouse gas emissions (GHGs). The estimated reduction in GHGs for the Program is 35.6 million metric tons of carbon dioxide over the next 12 years, significantly benefiting the environment and contributing to climate change mitigation.The program will also develop an integrated pollutant and GHG emissions inventory system to provide a comprehensive approach to tracking and managing emissions data. 
+ “The Punjab Clean Air Program will significantly benefit farmers by improving access to advanced technologies for better crop management, create job opportunities in the e-bus and depot sectors, and support vehicle owners in renewing aging vehicles,” said  Shyam Srinivasan, Task Team Leader for the Project. “ Additionally, it will enhance the skills and knowledge of government officials through training and capacity building, ultimately contributing to a healthier and more sustainable environment." 
+ The World Bank in Pakistan 
+ Pakistan has been a member of the World Bank since 1950. Since then, the World Bank has provided over $48.3 billion in assistance. The current portfolio has 54 projects and a total commitment of $15.7 billion. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Contacts 
+ 
+ 
+ 
+ Mariam Sara Altaf 
+ 
+ Senior External Affairs Officer 
+ 
+ mariamaltaf@worldbank.org 
+ 
+ in Islamabad 
+ 
+ 
+ 
+ Diana Chung 
+ 
+ Senior External Affairs Officer 
+ 
+ dchung1@worldbank.org 
+ 
+ in Washington 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About The World Bank 
+ The World Bank Group has a bold vision: to create a world free of poverty on a livable planet. In more than 100 countries, the World Bank Group provides financing, advice, and innovative solutions that improve lives by creating jobs, strengthening economic growth, and confronting the most urgent global challenges. For more information, please visit  www.worldbank.org ,  www.miga.org , and  www.ifc.org . 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-3 
+ 
+ 
+ col-lg-3 
+ 
+ 
+ 
+ 
+ add-style 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ RELATED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lp-heading-bottom-medium 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ PCAP Project Documents 
+ https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010725222020043 
+ 
+ 
+ 
+ 
+ 
+ 
+ The World Bank in Pakistan 
+ https://www.worldbank.org/ext/en/country/pakistan 
+ 
+ 
+ 
+ 
+ 
+ 
+ World Bank Pakistan on Facebook 
+ https://www.facebook.com/WorldBankPakistan 
+ 
+ 
+ 
+ 
+ 
+ 
+ World Bank Pakistan on X 
+ https://x.com/wbpakistancd?lang=en 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ style 
+ default 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ OMBC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Online Media Briefing Center (OMBC) news for accredited journalists 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sign In 
+ 
+ 
+ https://media.worldbank.org/ 
+ 
+ 
+ 
+ 
+ 
+ Register 
+ 
+ 
+ https://media.worldbank.org/user/register 
+ 
+ 
+ 
+ 
+ 
+ secondary 
+ 
+ 
+ 
+ 
+ 
+ white-btn 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ sec-swoosh 
+ sec-swoosh-type12 
+ 
+ 
+ style 
+ default, lp-signup-wrapper, border-radius-medium, bg-primary-blue-80, heading-v1 
+ 
+ 
+ sec-inside-container 
+ true 
+ 
+ 
+ 
+ 
+ 
+ 
+ everything 
+ 
+ 
+ https://webapi.worldbank.org/aemsite/everything/search 
+ 
+ 
+ true 
+ 
+ 
+ {"facets":[],"orderby":"contentDate desc","select":"*","searchFields":"*","search":"*","filter":"contentType eq 'Press Release'","top":20,"skip":0} 
+ 
+ 
+ 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ no 
+ 
+ 
+ yes 
+ 
+ 
+ no 
+ 
+ 
+ whats_news 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ style 
+ default, bg-neutrals-15-gradient 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

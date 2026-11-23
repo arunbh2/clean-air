@@ -1,0 +1,75 @@
+Abstracts
+
+Assessment of the adverse effect of crop residue burning on
+respiratory health: a case study of Patiala, India
+Mahima Uttreja, Sujit Kumar Ghosh, Anand Krishnan, Kanhaiya Lal, Meena Sehgal
+
+Abstract
+
+Background Crop residue burning (CRB) is one of the top contributors to ambient air pollution (particulate
+matter 2·5 [PM2·5]) in north-western India. Despite the magnitude of the problems associated with high particulate
+amounts, there are few epidemiological data in India on the associated health effects of CRB, focusing on rural
+populations. The present study was conducted to quantify the effect of PM2·5 from CRB on the respiratory health of
+agricultural community in the Nabha block in Patiala, India.
+Methods Participants aged 10–60 years who were residents of six villages in the Nabha block in Patiala, India, who had
+resided in the area for at least 10 years and had self-reported as being in good health and non-pregnant women were
+enrolled in this cross-sectional study using purposive sampling. The participants were recruited from their residence,
+and all volunteered to participate in the study. The study population was surveyed for self-reported health symptoms
+and other exposure confounders. Lung function tests (LFTs) were done to examine forced expiratory volume in one
+second (FEV1), forced vital capacity (FVC), and peak expiratory flow (PEF), both during CRB and non-CRB periods.
+24-h continuous PM2·5 monitoring was done using the modified low-volume Combo Dust Samplers and particles
+were collected in glass fiber filters. The PM2·5 mass concentrations were analysed using the standard gravimetric
+method. Multiple regression models were used to quantify the association of PM2·5 from CRB on respiratory health
+after controlling for other exposure variables; namely, cooking fuel, ventilation, and distance from the road.
+
+Published Online
+October 31, 2022
+The Energy and Resources
+Institute, New Delhi, India
+(M Uttreja MSc, K Lal PhD,
+M Sehgal MPH); Department of
+Statistics, North Carolina State
+University, Raleigh, NC, USA
+(Prof S K Ghosh PhD); All India
+Institute of Medical Sciences,
+New Delhi, India
+(Prof A Krishnan PhD); The
+Energy and Resources Institute,
+New Delhi, India (K Lal PhD,
+M Sehgal, M Uttreja)
+Correspondence to:
+Mrs Meena Sehgal, The Energy
+and Resources Institute,
+New Delhi 110003, India
+meena.sehgal@gmail.com
+
+Findings A total of 3644 participants were enrolled from Oct 16 to 26, 2018, and March 7 to April 3, 2019 (the non-CRB
+periods), and from Oct 27 to Nov 20, 2018 and from Nov 3 to 13, 2019 (CRB periods). The present study showed
+significant associations between PM2·5 exposure and poor respiratory health with an increased prevalence of
+respiratory symptoms and lung function decrement among the study population. The older group (>40–60 years)
+reported more respiratory complaints during CRB than the younger groups (10–18 and >18–40 years), including
+coughs (OR 1·57; 95% CI 1·14–2·16), phlegm (1·69; 1·19–2·16), and itchiness of the eyes (3·44; 2·54–4·66). The
+study found a decrease in the results of LFTs with increasing PM2·5 across all age groups during CRB compared with
+the non-CRB period. The youngest group (10–18 years) had the highest reduction in lung capacity based on
+LFT variables. In men, FEV1 declined 16% in those aged 10–18 years, 9% in those aged older than 18 to 40 years, and
+10% in those older than 40 to 60 years; and in women, it declined 26% in those aged 10–18 years, 12% in those older
+than 18 to 40 years, and 7% in those older than 40 to 60 years, during CRB (with a mean PM2·5 increase of 167 µg/m³).
+Similar declines were noted for the other (FVC and PEF) lung function variables.
+Interpretation This study, which shows the adverse effects on health from CRB (increases in respiratory symptoms
+and poor lung function), highlights to need to accelerate policy interventions and engage farmers in discussions on
+CRB elimination.
+Funding Central Pollution Control Board of India (B-33014/40/2018/AQM-EPC 9836).
+Copyright © 2022 The Author(s). Published by Elsevier Ltd. This is an Open Access article under the CC BY 4.0 license.
+Contributors
+MS conceptualised the idea and designed the methods along with AK and SKG. MU led the survey data collection, and contributed to revising the
+methods with help of MS. SKG and MS did the data processing. MS and MU analysed and interpreted the figures as per the guidance of SKG
+and AK. KL assisted in manuscript proofreading. MU and MS wrote the manuscript with inputs from SKG, AK, and KL. MS and MU accessed and
+verified the data.
+Declaration of interests
+We declare no competing interests.
+
+www.thelancet.com/planetary-health
+
+5
+
+

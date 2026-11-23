@@ -1,0 +1,14 @@
+{% macro edge_block(e, rel, base='') %}
+<article class="sm-edge" id="{{ e.edge_id }}">
+<h3>{{ e.edge_id }}: <a href="{{ base }}links.html#node-{{ e.from }}">{{ SM_NODE_BY[e.from].label }}</a> → <a href="{{ base }}links.html#node-{{ e.to }}">{{ SM_NODE_BY[e.to].label }}</a></h3>
+<p>{{ e.mechanism }}</p>
+<dl class="kv">
+<dt>Evidence that this connection exists</dt><dd>{{ badge(e.strength)|safe }} {{ e.strength_reason }}</dd>
+<dt>Kind of connection</dt><dd>{{ SM_KIND[e.relation_kind] }} · {{ e._order }} effect</dd>
+<dt>Where</dt><dd>{{ e.geography or 'Not specified' }}</dd>
+<dt>Uncertainty</dt><dd>{{ e.uncertainty }}</dd>
+{% if e._claims %}<dt>Evidence</dt><dd><ul class="activities">{% for c in e._claims %}<li>{{ c.text }} {{ c.claim_id|claims(rel)|safe }} <span class="sans small muted">{{ c.verification_label }} · {{ c.provenance }}</span></li>{% endfor %}</ul></dd>{% else %}<dt>Evidence</dt><dd>No claim supports this connection; it is a reasoned hypothesis.</dd>{% endif %}
+{% if e._loops %}<dt>Part of loops</dt><dd>{% for l in e._loops %}<a href="{{ base }}loops/{{ l|lower }}.html">{{ l }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</dd>{% endif %}
+{% if e._levers %}<dt>Levers that could weaken it</dt><dd>{% for l in e._levers %}<a href="{{ base }}levers/{{ l }}.html">{{ SM_LEV_BY[l]._name }}</a> <span class="muted">(works: {{ SM_LEV_BY[l]._rating }})</span>{% if not loop.last %}; {% endif %}{% endfor %}</dd>{% endif %}
+</dl></article>
+{% endmacro %}

@@ -1,0 +1,388 @@
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CPCB Admits PM Readings Above 999 µg/m³ Excluded From AQI Calculation; Reviews 2015 Methodology 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Free Press Journal 
+ 
+ 
+ 
+ 
+ 
+ 
+ e-Paper 
+ 
+ 
+ Get App 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ Mumbai News FPJ Shorts Entertainment Bollywood Hollywood Television Regional Film News Movie Reviews Business Technology Games Features Weekend Lifestyle India Sports SportVot Viral Education Study Abroad   
+ Tech 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home India CPCB Admits PM Readings Above 999 µg/m³ Excluded From AQI Calculation; Reviews 2015 Methodology   
+ CPCB Admits PM Readings Above 999 µg/m³ Excluded From AQI Calculation; Reviews 2015 Methodology 
+ CPCB has acknowledged that particulate matter readings exceeding 999 µg/m³ are excluded from AQI calculations under its existing 2015 methodology. The board is reviewing the data-validation framework amid concerns over missing readings at 45 of Delhi's 59 monitoring stations during extreme pollution episodes. 
+ 
+ 
+ 
+ 
+ ANI Updated:  Wednesday, November 11, 2026, 06:59 PM IST 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CPCB is reviewing its air quality data-validation framework after acknowledging that extreme particulate pollution readings beyond the monitoring system's calibrated range are excluded from AQI calculations. | Representative image 
+ 
+ 
+ 
+ 
+ 
+ 
+ New Delhi, November 11, 2026:  The Central Pollution Control Board (CPCB) on Tuesday acknowledged that particulate matter readings exceeding 999 micrograms per cubic metre (µg/m³) are excluded from the Air Quality Index (AQI) calculation under the existing methodology, as the monitoring system was originally designed to measure concentrations within a range of 0–1,000 µg/m³.   The pollution watchdog also indicated that it is reviewing the existing methodology, with internal deliberations and consultations underway on processing data beyond the system's designed measurement range. Sources in the Environment Ministry, meanwhile, acknowledged that the 2015 data-validation framework is outdated and needs to be revised, pointing out that although monitoring instruments have been upgraded over the years, the methodology governing data validation has remained unchanged.   The Central Pollution Control Board (CPCB) stated that the maximum AQI cap of 500 is a deliberate design feature aligned with global standards, as numbers beyond 500 do not alter the 'Severe' health advisory category. Official data relies on a scientifically validated 24-hour rolling average to measure sustained human exposure, while private apps often track instant hourly spikes using uncalibrated, low-cost sensors. Because private apps track instant readings, they spike faster during peak pollution but drop much lower than the official NAQI once air quality starts clearing up.
+
+(Source: CPCB) — ANI (@ANI)  November 10, 2026 
+ Monitoring System's Measurement Limit Sources said the particulate matter analysers deployed when the National Air Quality Index (NAQI) was introduced in 2015 were calibrated for a measurement range of 0–1,000 µg/m³, and the methodology was developed accordingly.   
+ 
+ 
+ "However, over the years, the instruments have been upgraded, but the methodology has remained the same," a source said.   
+ 
+ 
+ 
+ 
+ In a detailed 11-point statement issued on X, CPCB said: "The particulate matter analysers deployed at the time of introduction of the NAQI were calibrated for a measurement range of 0–1,000 µg/m³. Accordingly, consistent with this, the designed system of automated data validation treats hourly readings beyond the calibrated range as outside range, and such readings are not used in the computation." "During extreme episodes, which are occasional like Diwali firecracker bursting, this may appear as a data gap at the particular station concerned, and those hours do not contribute to the 24-hour average of relevant pollutant for concerned station," it added. Missing Readings And Data Gaps This comes amid reports that 45 of Delhi's 59 monitoring stations recorded missing hourly readings for at least one pollutant, with experts pointing out that several monitoring stations showed data gaps as PM2.5 concentrations approached 1,000 µg/m³. Explaining why such readings appear as missing data, a source in the ministry said: "It is not that the data is missing. We have the data. However, that data is not used in the calculation." "Those data missing bands that you see on CPCB, we have the complete data. However, that data is not used in the calculation," the source added. Methodology Review Underway On the need to revise the methodology, another source said internal discussions were already underway, although no external expert committee had officially been constituted so far. "What I know is that internally, two-three scientists are already working on this." "Officially, as of now, no external expert group, like the one formed in 2015, has been constituted," the source said, adding that an expert group should be formed to examine the issue. "It is the right time, rather high time. It is a late thing. This should have been revised two-three years ago. If they had revised it and incorporated everything properly, these issues would not have arisen," the source said. "They are increasing the number of instruments, replacing the instruments, but the actual methodology is still the same old outdated methodology. The instruments have changed, but the methodology has not changed," the source added. CPCB Clarifies AQI Scale CPCB, in its statement, also clarified that the NAQI operates on a scale of 0 to 500, with the upper limit representing the highest level of health concern. "Beyond this level, the AQI remains in the 'Severe' category and extrapolation of the index would not alter the assigned health impact category," it said. The board said the capping at 500 was a design feature of the 2015 NAQI methodology, developed in line with prevailing international practices, including the US Environmental Protection Agency's AQI scale. Differences In Air Quality Readings On differences between government and private air quality platforms, CPCB said variations could arise from differences in measurement techniques, averaging periods and methodologies. "The difference in AQI values is thus attributable to differences in measurement of pollutant concentration and in methodology, and not to under-reporting," it said. Under the NAQI, the AQI is generated every hour using sub-indices for eight pollutants -- PM2.5, PM10, carbon monoxide (CO), nitrogen dioxide (NO2), sulphur dioxide (SO2), ammonia (NH3), ozone and lead. The highest sub-index among the pollutants is taken as the AQI for that hour. The calculation is based on a running average of the preceding 24 hours, with at least 16 hours of available data required for generating a sub-index, except in the case of CO and ozone. Also Watch:     
+ 
+ 
+ 
+ Read Also 
+ 
+ Punjab Stubble Burning Down Nearly 95% Since 2020, Claims AAP Minister Aman Arora; Challenges BJP... 
+ 
+ 
+ 
+ 
+ CPCB said the NAQI is computed and disseminated through a fully automated system without human intervention, while individual pollutant concentrations recorded at Continuous Ambient Air Quality Monitoring Stations (CAAQMS) are also made available in the public domain. ( Disclaimer:  Except for the headline, this article has not been edited by FPJ's editorial team and is auto-generated from an agency feed.) To get details on exclusive and budget-friendly property deals in Mumbai & surrounding regions, do visit:  https://budgetproperties.in/     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Follow us on 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   Add FPJ As a   Trusted Source   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Free Press Journal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Analysis 
+ City News 
+ Mumbai News 
+ Indore News 
+ Bhopal News 
+ Delhi News 
+ Education 
+ 
+ 
+ Entertainment News 
+ Bollywood News 
+ Hollywood News 
+ Movie Reviews  
+ Movie Trailers  
+ Regional Film News 
+ Television News 
+ 
+ 
+ BrandSutra 
+ Corporate Gallery 
+ FPJ initiative 
+ Horoscope 
+ Legal 
+ Science 
+ Spirituality 
+ 
+ 
+ Sports 
+ Cricket News 
+ Footall 
+ Lifestyle 
+ Health 
+ Travel 
+ Food 
+ 
+ 
+ Top News 
+ Photo Gallery 
+ Tech News 
+ Videos 
+ Viral News 
+ Weekend News 
+ Press Release  
+ 
+ 
+ 
+ 
+ 
+ 
+ About Us 
+ Editorial Policy 
+ Careers 
+ Disclaimer 
+ Privacy Policy 
+ Contact Us 
+ Advertise With Us 
+ RSS 
+ Authors 
+ 
+ 
+                © The Free Press Journal
+             
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,573 @@
+
+ 
+ 
+ World Bank Helps Bangladesh Improve Energy Security, Air Quality 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ false 
+ 
+ 
+ 
+ 
+ Home 
+ https://www.worldbank.org/ext/en/home 
+ 
+ News 
+ https://www.worldbank.org/ext/en/news 
+ 
+ Press Release 
+ https://www.worldbank.org/en/news/all?displayconttype_exact=Press+Release&lang_exact=English 
+ 
+ World Bank Helps Bangladesh Improve Energy Security, Air Quality 
+ https://www.worldbank.org/en/news/press-release/2025/06/18/world-bank-helps-bangladesh-improve-energy-security-air-quality 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-8 
+ 
+ 
+ col-lg-8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ jcrtitle 
+ 
+ World Bank Helps Bangladesh Improve Energy Security, Air Quality 
+ 
+ 
+ 
+ jcrpagetitle 
+ World Bank Helps Bangladesh Improve Energy Security, Air Quality 
+ 
+ 
+ jcrnavtitle 
+ World Bank Helps Bangladesh Improve Energy Security, Air Quality 
+ 
+ 
+ jcrdescription 
+ WASHINGTON DC, June 18, 2025—The World Bank’s Board of Executive Directors today approved two projects totaling $640 million to help Bangladesh improve gas supply and air quality. “Enhancing energy security and air quality are critical economic and development priorities for Bangladesh,” said Gayle Martin, World Bank Interim Country Director for Bangladesh. “By addressing the root causes of gas supply constraints and urban air pollution, these two projects will help Bangladesh boost economic growth, improve productivity, and create jobs.” The Energy Sector Security Enhancement Project ($350 million) will help improve gas supply security by facilitating access to cost-effective financing for Petrobangla, the state-owned oil and gas company. The project will utilize an IDA guarantee to mobilize up to $2.1 billion in private capital over seven years for new Liquefied Natural Gas (LNG) imports. The backing of an IDA guarantee will improve Petrobangla’s creditworthiness to secure LNG supplies. Imported LNG accounts for over one-fourth of total gas consumption in Bangladesh. About 42 percent of total gas consumption is in the power sector. Hence, gas supply shortages disrupt electricity generation, negatively impacting the economy. This project will provide payment security and working capital solutions to facilitate LNG imports under long-term contract and thereby reduce dependency on expensive spot market gas imports. “The project will help Bangladesh enhance gas supply security in a cost-efficient manner, contributing to reliable and affordable electricity for industries and domestic users,” said Olayinka Bisiriyu Edebiri, World Bank Senior Energy Specialist and Task Team Leader for the program. “By ensuring reliable gas supply, the project will help boost economic growth and resilience.” The Bangladesh Clean Air Project ($290 million) will take a comprehensive approach to tackle air pollution. In Bangladesh, air pollution caused over 159,000 premature deaths and 2.5 billion days of illness, with estimated health costs equivalent to 8.3 percent of the gross domestic product (GDP) in 2019. Dhaka remains one of the most polluted cities in the world with annual levels of fine particulate matter (PM2.5) exceeding by 18 times the WHO Air Quality Guidelines. The project will help focus on air quality management by strenghtening Department of Enviornment’s air quality monitoring network with new and improved stations. It will help operationalize the Continuous Emissions Monitoring Program for real-time monitoring of major industrial sources of air pollution. Based on an integrated network of automated monitoring systems, the monitoring program will allow enforcement of emissions limits, and disclosure of preliminary data collected at major sources. The project aims to improve vehicle emissions control and introduce a fleet of 400 zero-emission electric bus services by replacing aging, polluting diesel buses. These buses will operate under a unified “single operator per franchise” model for better service quality. The project will establish depots for charging, parking, and maintaining the electric buses. It will construct five new Vehicle Inspection Centers, upgrade two non-functioning ones, and deploy mobile Vehicle Inspection Centers and 20 mobile vehicle emissions testing units. Combined, these interventions in the transport sector are expected to reduce primary PM2.5 emissions by approximately 2,734 metric tons per year. “This will be the first in a new series of projects to improve the country’s air quality,” said Ana Luisa Gomes Lima, World Bank Lead Environment Specialist and Task Team Leader for the project. “As air travels across borders, no single country can contain air pollution on its own. The project will facilitate regional dialogue and data sharing for reducing air pollution.” The World Bank was among the first development partners to support Bangladesh following its independence. Since then, the World Bank has committed about $45 billion in grants, zero- and low-interest credits to Bangladesh. In recent years, Bangladesh has been among the largest recipients of the World Bank’s concessional financing from IDA. 
+ 
+ 
+ jcrtags 
+ 
+ 
+ wbg:country/bangladesh 
+ wbg:regions/south-asia 
+ wbg:topic/energy_broad/energy_efficiency 
+ wbg:topic/environment_broad 
+ 
+ 
+ 
+ 
+ jcrimage 
+ https://delivery-p136806-e1377785.adobeaemcloud.com/adobe/assets/urn:aaid:aem:bcd7e4d4-a970-415f-87df-a7ba7800ee4a/as/WBG-Logo.jpg 
+ 
+ 
+ content-type 
+ Press Release 
+ 
+ 
+ writer 
+ 000620605 
+ 
+ 
+ first-appeared-in 
+ 2025-06-18 
+ 
+ 
+ expert-id 
+ 000620605 
+ 
+ 
+ country 
+ Bangladesh 
+ 
+ 
+ keyframe-img 
+ https://delivery-p136806-e1377785.adobeaemcloud.com/adobe/assets/urn:aaid:aem:bcd7e4d4-a970-415f-87df-a7ba7800ee4a/as/WBG-Logo.jpg 
+ 
+ 
+ result 
+ false 
+ 
+ 
+ content-date 
+ June 18, 2025 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-3 
+ 
+ 
+ col-lg-3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-xlarge 
+ 
+ 
+ style 
+ default 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-7 
+ 
+ 
+ col-lg-7 
+ 
+ 
+ 
+ 
+ add-style 
+ font-medium 
+ lp-body-content 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ WASHINGTON DC, June 18, 2025  — The World Bank’s Board of Executive Directors today approved two projects totaling $640 million to help Bangladesh improve gas supply and air quality. 
+ “Enhancing energy security and air quality are critical economic and development priorities for Bangladesh,”  said Gayle Martin, World Bank Interim Country Director for Bangladesh . “By addressing the root causes of gas supply constraints and urban air pollution, these two projects will help Bangladesh boost economic growth, improve productivity, and create jobs.” 
+ The Energy Sector Security Enhancement Project ($350 million)  will help improve gas supply security by facilitating access to cost-effective financing for Petrobangla, the state-owned oil and gas company. The project will utilize an IDA guarantee to mobilize up to $2.1 billion in private capital over seven years for new Liquefied Natural Gas (LNG) imports. The backing of an IDA guarantee will improve Petrobangla’s creditworthiness to secure LNG supplies. 
+ Imported LNG accounts for over one-fourth of total gas consumption in Bangladesh. About 42 percent of total gas consumption is in the power sector. Hence, gas supply shortages disrupt electricity generation, negatively impacting the economy. This project will provide payment security and working capital solutions to facilitate LNG imports under long-term contract and thereby reduce dependency on expensive spot market gas imports. 
+ “The project will help Bangladesh enhance gas supply security in a cost-efficient manner, contributing to reliable and affordable electricity for industries and domestic users,” said  Olayinka Bisiriyu Edebiri , World Bank****  Senior   Energy Specialist and Task Team Leader for the program . “By ensuring reliable gas supply, the project will help boost economic growth and resilience.” 
+ The  Bangladesh Clean Air Project ($290 million) will take a comprehensive approach  to tackle air pollution. In Bangladesh, air pollution caused over 159,000 premature deaths and 2.5 billion days of illness, with estimated health costs equivalent to 8.3 percent of the gross domestic product (GDP) in 2019. Dhaka remains one of the most polluted cities in the world with annual levels of fine particulate matter (PM 2.5 ) exceeding by 18 times the WHO Air Quality Guidelines. 
+ The project will help focus on air quality management by strenghtening Department of Enviornment’s air quality monitoring network with new and improved stations. It will help operationalize the Continuous Emissions Monitoring Program for real-time monitoring of major industrial sources of air pollution. Based on an integrated network of automated monitoring systems, the monitoring program will allow enforcement of emissions limits, and disclosure of preliminary data collected at major sources. 
+ The project aims to improve vehicle emissions control and introduce a fleet of 400 zero-emission electric bus services by replacing aging, polluting diesel buses. These buses will operate under a unified “single operator per franchise” model for better service quality. The project will establish depots for charging, parking, and maintaining the electric buses. 
+ It will construct five new Vehicle Inspection Centers, upgrade two non-functioning ones, and deploy mobile Vehicle Inspection Centers and 20 mobile vehicle emissions testing units. Combined, these interventions in the transport sector are expected to reduce primary PM 2.5  emissions by approximately 2,734 metric tons per year. 
+ “This will be the first in a new series of projects to improve the country’s air quality,”said  Ana Luisa Gomes Lima, World Bank   Lead Environment Specialist and Task Team Leader for the project . “As air travels across borders, no single country can contain air pollution on its own. The project will facilitate regional dialogue and data sharing for reducing air pollution.” 
+ The World Bank was among the first development partners to support Bangladesh following its independence. Since then, the World Bank has committed about $45 billion in grants, zero- and low-interest credits to Bangladesh. In recent years, Bangladesh has been among the largest recipients of the World Bank’s concessional financing from IDA. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Contacts 
+ 
+ 
+ 
+ Mehrin Ahmed Mahbub 
+ 
+ 
+ 
+ mmahbub@worldbank.org 
+ 
+ In Dhaka 
+ 
+ 
+ 
+ Diana Chung 
+ 
+ 
+ 
+ dchung1@worldbank.org 
+ 
+ In Washington 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About The World Bank 
+ The World Bank Group has a bold vision: to create a world free of poverty on a livable planet. In more than 100 countries, the World Bank Group provides financing, advice, and innovative solutions that improve lives by creating jobs, strengthening economic growth, and confronting the most urgent global challenges. For more information, please visit  www.worldbank.org ,  www.miga.org , and  www.ifc.org . 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-3 
+ 
+ 
+ col-lg-3 
+ 
+ 
+ 
+ 
+ add-style 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ RELATED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lp-heading-bottom-medium 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The World Bank in Bangladesh 
+ https://www.worldbank.org/ext/en/country/bangladesh 
+ 
+ 
+ 
+ 
+ 
+ 
+ World Bank Bangladesh on Facebook 
+ https://www.facebook.com/WorldBankBangladesh 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ style 
+ default 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ OMBC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Online Media Briefing Center (OMBC) news for accredited journalists 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sign In 
+ 
+ 
+ https://media.worldbank.org/ 
+ 
+ 
+ 
+ 
+ 
+ Register 
+ 
+ 
+ https://media.worldbank.org/user/register 
+ 
+ 
+ 
+ 
+ 
+ secondary 
+ 
+ 
+ 
+ 
+ 
+ white-btn 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ sec-swoosh 
+ sec-swoosh-type12 
+ 
+ 
+ style 
+ default, lp-signup-wrapper, border-radius-medium, bg-primary-blue-80, heading-v1 
+ 
+ 
+ sec-inside-container 
+ true 
+ 
+ 
+ 
+ 
+ 
+ 
+ everything 
+ 
+ 
+ https://webapi.worldbank.org/aemsite/everything/search 
+ 
+ 
+ true 
+ 
+ 
+ {"facets":[],"orderby":"contentDate desc","select":"*","searchFields":"*","search":"*","filter":"contentType eq 'Press Release'","top":20,"skip":0} 
+ 
+ 
+ 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ no 
+ 
+ 
+ yes 
+ 
+ 
+ no 
+ 
+ 
+ whats_news 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ style 
+ default, bg-neutrals-15-gradient 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

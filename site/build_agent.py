@@ -225,7 +225,7 @@ for_ai = {"format_version": "1.0", "name": "Clean Air", "tagline": "Shared air. 
           "resources": {"llms_txt": BASE_URL + "llms.txt", "llms_full_txt": BASE_URL + "llms-full.txt", "for_ai_html": BASE_URL + "for-ai/index.html",
                         "packs_index": BASE_URL + "packs/index.json", "data_catalogue": BASE_URL + "downloads/data/catalogue.json",
                         "claims_json": BASE_URL + "downloads/data/claims.json", "organisations_atlas_json": BASE_URL + "downloads/data/organisations-atlas.json",
-                        "sitemap_json": BASE_URL + "sitemap.json", "feed": BASE_URL + "feed.xml", "corrections": BASE_URL + "about/corrections.html",
+                        "sitemap_json": BASE_URL + "sitemap.json", "systems_map_graph": BASE_URL + "systems-map/data/graph.json", "feed": BASE_URL + "feed.xml", "corrections": BASE_URL + "about/corrections.html",
                         "reuse_policy": BASE_URL + "about/reuse.html", "markdown_mirrors": "Every HTML page has a .md copy at the same path."},
           "capabilities": "Static files only (GitHub Pages). No API, search endpoint, authentication, content negotiation or server-side processing.",
           "not_advice": "Not medical advice. Not investment advice. Inclusion does not imply endorsement; the site does not rank."}
@@ -276,6 +276,9 @@ llms = [f"# Clean Air", "", f"> Independent evidence on air pollution, livelihoo
         "## Evidence", L("evidence/index.html"), L("evidence/claims.html"), L("evidence/sources.html"), L("evidence/map.html"), L("evidence/gaps.html"),
         L("evidence/verification.html"), L("evidence/coverage.html"), L("about/corrections.html"), "",
         "## Evidence packs (short sourced answers)", L("packs/index.html")] + [L(f"packs/{p['pack_id']}.html", note=p["question"]) for p in packs if p["kind"] == "questions"] + [
+        "", "## The web of dirty air (systems map)", L("systems-map/index.html"), L("systems-map/links.html"), L("systems-map/loops/index.html"),
+        L("systems-map/levers/index.html"), L("systems-map/journeys/index.html"), L("systems-map/method.html"),
+        f"- [Systems map graph (JSON)]({BASE_URL}systems-map/data/graph.json): nodes, edges with evidence ratings and claims, loops, levers, journeys, ledger",
         "", "## Organisations and funding", L("organisations/index.html"), L("organisations/projects/index.html"), L("organisations/funding/index.html"),
         L("organisations/gaps/index.html"), L("organisations/methods/index.html"), "",
         "## What works", L("what-works/index.html"), L("what-works/not-a-solution.html"), L("what-works/compare.html"), "",

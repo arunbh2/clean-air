@@ -26,6 +26,8 @@ STEPS = [
     ("Agent-file checker fails on damaged build", T("tools", "check_agent_files.py") + ["--self-test"]),
     ("Worked questions identical across HTML, Markdown, JSON", T("tools", "test_formats.py")),
     ("Format comparison fails on tampered JSON", T("tools", "test_formats.py") + ["--self-test"]),
+    ("Systems map: graph, evidence, loops, levers, equivalence", T("tools", "check_systems_map.py")),
+    ("Systems-map validator fails on bad fixture", T("tools", "check_systems_map.py") + ["--self-test"]),
     ("CSV formula-injection guard (malicious fixture)", T("tools", "test_csv_safety.py")),
     ("Canonical edit and withdrawal propagate everywhere", T("tools", "test_propagation.py")),
 ]

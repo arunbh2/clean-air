@@ -1,0 +1,21 @@
+{% extends "base.html" %}{% from "_sm_edge.html" import edge_block %}
+{% block content %}
+<p class="layer-label">Feedback loop {{ c.cycle_id }}</p>
+<h1>{{ c.title }}</h1>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">{{ c.why_feedback }}</p>
+<p class="layer-meta"><strong>Loop as a whole:</strong> {{ c.cycle_confidence }} (not studied end to end). <strong>Links measured:</strong> {{ c._measured }} of {{ c._edges|length }}. <strong>Weakest link:</strong> {{ c._weakest }}. <strong>Where:</strong> {{ c.contexts }}.</p></section>
+<section aria-labelledby="seq-h" class="section-rule"><h2 id="seq-h">The loop, step by step</h2>
+<ol class="loop-seq">{% for x in c._edges %}{% set e = SM_EDGE_BY[x] %}<li><strong>{{ SM_NODE_BY[e.from].label }}</strong> → {{ SM_NODE_BY[e.to].label }}. <span class="sans small">{{ e.strength }}{% if e._hyp %}, reasoned hypothesis{% endif %} (<a href="#{{ e.edge_id }}">{{ e.edge_id }}</a>)</span></li>{% endfor %}</ol>
+<p class="notice">{{ c.caveats }}</p>
+</section>
+<section aria-labelledby="ev-h" class="section-rule"><h2 id="ev-h">Evidence for each link</h2>
+{% for x in c._edges %}{{ edge_block(SM_EDGE_BY[x], rel, '../') }}{% endfor %}
+</section>
+<section aria-labelledby="brk-h" class="section-rule"><h2 id="brk-h">Where the loop could be weakened</h2>
+{% set ns = namespace(any=false) %}<ul>{% for x in c._edges %}{% for l in SM_EDGE_BY[x]._levers %}{% set ns.any = true %}<li><a href="../levers/{{ l }}.html">{{ SM_LEV_BY[l]._name }}</a> could weaken link {{ x }}. Evidence that it works: {{ SM_LEV_BY[l]._rating }}.</li>{% endfor %}{% endfor %}</ul>
+{% if not ns.any %}<p>No lever on the map targets these links yet.</p>{% endif %}
+<p class="muted small">A lever could weaken a link. That does not mean the loop is broken, and no lever here has been shown to stop a loop.</p>
+</section>
+<p class="sans"><a href="../index.html?loop={{ c.cycle_id }}#map">Show this loop on the map</a> · <a href="index.html">All loops</a></p>
+{% endblock %}

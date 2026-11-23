@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<p class="layer-label">Lever · {{ l.mode }}</p>
+<h1>{{ l._name }}</h1>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">{{ l.could_change }}</p>
+<p class="layer-meta"><strong>Evidence that it works:</strong> {{ l._rating }}. {{ l._reason }} <strong>Recommendation in this edition:</strong> {{ l._rec }}. Full assessment: <a href="../../what-works/{{ l.lever_id }}.html">what works</a>.</p></section>
+<section aria-labelledby="s1" class="section-rule"><h2 id="s1">1. The connection it targets</h2>
+<ul>{% for t in l._targets %}{% set e = SM_EDGE_BY[t] %}<li><a href="../links.html#{{ t }}">{{ t }}</a>: {{ SM_NODE_BY[e.from].label }} → {{ SM_NODE_BY[e.to].label }}. {{ e.mechanism }} <span class="sans small">Evidence the connection exists: {{ e.strength }}.</span></li>{% endfor %}</ul></section>
+<section aria-labelledby="s2" class="section-rule"><h2 id="s2">2. What changes in practice</h2>
+<p>{{ l.could_change }} This lever is about <strong>{{ 'cutting pollution at its source' if l.mode == 'source reduction' else ('protecting people while sources persist' if l.mode == 'exposure protection' else ('reducing harm after exposure' if l.mode == 'healthcare' else ('protecting income' if l.mode == 'livelihood support' else 'information, accountability and coordination'))) }}</strong>.</p></section>
+<section aria-labelledby="s3" class="section-rule"><h2 id="s3">3. Who could act</h2>
+<p class="muted small">Kinds of institution by function, not named endorsements.</p>
+<ul>{% for role, inst in l._roles %}<li><strong>{{ role|capitalize }}:</strong> {{ inst.label }}</li>{% endfor %}</ul>
+<p class="sans small">Who usually runs it: {{ l._operator }}</p></section>
+<section aria-labelledby="s4" class="section-rule"><h2 id="s4">4. Who is documented doing related work</h2>
+{% if l._orgs %}<ul>{% for o, role, j in l._orgs %}<li><a href="../../organisations/o/{{ o.slug }}.html">{{ o.organisation }}</a> ({{ role }}) on <a href="../../organisations/projects/{{ j.project_id|lower }}.html">{{ j.title }}</a></li>{% endfor %}</ul>
+{% else %}<p>No verified activity record in the organisations atlas is linked to this lever yet. That does not mean no one is doing this work.</p>{% endif %}
+<p class="muted small">Listed only through a verified role on a documented activity record. Inclusion is not endorsement and not evidence of success.</p></section>
+<section aria-labelledby="s5" class="section-rule"><h2 id="s5">5. Who has funded related work</h2>
+{% if l._progs or l._flows %}<ul>{% for p in l._progs %}<li><a href="../../organisations/funding/{{ p.programme_id|lower }}.html">{{ p.title }}</a>: {{ fmt_amount(p) }}; stage recorded: {{ p.approval_stage }}; results: {{ p.evidence_stage }}</li>{% endfor %}
+{% for f in l._flows %}<li>{{ O_BY[f.funder_organisation_id].organisation if f.funder_organisation_id in O_BY else f.funder_organisation_id }} → {{ O_BY[f.recipient_organisation_id].organisation if f.recipient_organisation_id in O_BY else 'recipient not established' }}: {{ f.funding_instrument }}, {{ fmt_flow(f) }}, {{ f.commitment_or_disbursement }}</li>{% endfor %}</ul>
+{% else %}<p>No verified funding record is linked to this lever.</p>{% endif %}
+<p class="muted small">Approved or awarded money is not spending, and spending is not a result.</p></section>
+<section aria-labelledby="s6" class="section-rule"><h2 id="s6">6. What to measure</h2><p>{{ l.measure }}</p>
+<p class="sans small">Costs recorded in the intervention assessment. Capital: {{ l._capital }}. Recurring: {{ l._recurring }}.</p></section>
+<section aria-labelledby="s7" class="section-rule"><h2 id="s7">7. What could go wrong</h2><p>{{ l.risks }}</p></section>
+<section aria-labelledby="s8" class="section-rule"><h2 id="s8">8. What remains unproven</h2><p>{{ l.unproven }}</p></section>
+<p class="sans"><a href="../index.html?lever={{ l.lever_id }}#map">Switch this lever on in the map</a> · <a href="index.html">All levers</a></p>
+{% endblock %}

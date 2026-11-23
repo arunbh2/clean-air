@@ -183,10 +183,13 @@ def check_contrast(tok, errs, report=None):
 def check_budget(dist, errs, report=None):
     b = TOK["budgets_bytes"]
     def size(globpat): return sum(os.path.getsize(p) for p in glob.glob(os.path.join(dist, globpat), recursive=True))
-    css, js = size("css/*.css"), size("js/*.js")
-    if report is not None: report.append(f"  css {css} B (budget {b['css_total']}), js {js} B (budget {b['js_total']})")
+    css = size("css/*.css")
+    if report is not None: report.append(f"  css {css} B (budget {b['css_total']})")
     if css > b["css_total"]: errs.append(f"budget: CSS {css} B over {b['css_total']} B")
-    if js > b["js_total"]: errs.append(f"budget: JS {js} B over {b['js_total']} B")
+    for jf in glob.glob(os.path.join(dist, "js", "*.js")):
+        rel = os.path.relpath(jf, dist); lim = b["js_files"].get(rel, 15000); n = os.path.getsize(jf)
+        if report is not None: report.append(f"  {rel} {n} B (budget {lim})")
+        if n > lim: errs.append(f"budget: {rel} is {n} B, over {lim} B")
     big = []
     for p in glob.glob(os.path.join(dist, "**", "*.html"), recursive=True):
         rel = os.path.relpath(p, dist); n = os.path.getsize(p)

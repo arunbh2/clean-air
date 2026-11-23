@@ -1,0 +1,529 @@
+Main Sources
+of Air
+Pollution in
+Jakarta
+
+Acknowledgements
+
+The receptor-based source apportionment study was made possible with financial
+support from Bloomberg Philanthropies and Climate Works Foundation to supplement
+an ongoing project of Bandung Institute of Technology funded by the Toyota Clean Air
+Project (TCAP).
+For further details, visit www.vitalstrategies.org/source-apportionment-report.
+
+Main Sources of Air Pollution
+in Jakarta
+Policy Brief
+
+I
+
+ndonesia has the highest number of premature deaths
+(more than 50,000) associated with air pollution in
+Southeast Asia in 2017.1 With annual average PM2.5 concentrations in Jakarta routinely four to five times higher than
+World Health Organization (WHO) health-based Air Quality
+Guidelines,2 the capital city observed the largest number of
+deaths (nearly 36) per 100,000 attributed to ambient PM2.5
+pollution, compared to 20 per 100,000 nationwide. An
+estimated 5.5 million cases of air pollution-related illness
+were reported in 2010 (nearly 11 cases per minute) in Jakarta,
+costing an equivalent of IDR 60.8 trillion in 2020 in direct
+medical expenses.3
+Effective air quality management for Greater Jakarta
+requires knowing the leading sources of pollution in the city.
+Information on what share of the air pollution problem is
+attributable to different sources (e.g., traffic) allows
+effective clean air actions to be prioritized.6 In general, this
+involves two complementary approaches: the sourcebased approach using emissions inventories to model air
+pollution levels, and the receptor-based approach using air
+filter samples to chemically characterize the sources that
+contribute to air pollution.
+Reliable and recent information on leading sources of air
+pollution in Jakarta is scarce. Over the past decade, two
+ad-hoc air pollution emissions inventories were developed
+by civil society and academia, in 2012 and 2015, respectively,7,8
+and no receptor-based source apportionment data are
+available. To address this major evidence gap, Vital Strategies
+worked with the Bandung Institute of Technology to expand
+an ongoing receptor-based source apportionment study
+to identify the leading sources of ambient PM2.5 levels in
+and around Jakarta. The findings will inform policymakers
+on the leading sources of air pollution in the city, and provide
+a check on findings from earlier emissions inventory results.
+
+Particulate matter with a
+diameter of 2.5 microns or
+less (PM2.5) poses the greatest
+risk to health. PM2.5 causes
+and worsens chronic heart
+disease, lung disease, diabetes
+and cancer, and also impacts
+child health through adverse
+birth outcomes, slowing
+lung growth and causing
+pneumonia and stunting.4,5
+
+References
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+8
+
+9
+
+2
+
+State of Global Air. Explore the Data. https://www.
+stateofglobalair.org/data/#/air/plot. Published
+2019. Accessed September 5, 2019.
+The United States Department of State. AirNow.
+https://airnow.gov/index.cfm?action=airnow.
+global_summary. Accessed January 8, 2019.
+Ministry of Environment Republic of Indonesia.
+Cost Benefit Analysis for Fuel Qualtiy and Fuel
+Economy Initiative in Indonesia.; 2010.
+World Health Organization. WHO Air Quality
+Guidelines for Particulate Matter, Ozone, Nitrogen Dioxide and Sulfur Dioxide. Global Update
+2005, Summary of Risk Assessment. Geneva,
+Switzerland; 2006.
+Fenske N, Burns J, Hothorn T, Rehfuess EA. Understanding child stunting in India: A comprehensive
+analysis of socio-economic, nutritional and environmental determinants using additive quantile
+regression. PLoS One. 2013;8(11). doi:10.1371/journal.
+pone.0078692
+Vital Strategies. Accelerating City Progress on
+Clean Air - Innovation and Action Guide. New
+York, NY; 2020. https://www.vitalstrategies.org/
+wp-content/uploads/AcceleratingCityProgressCleanAir.pdf.
+Lestari P. Inventarisasi Emisi PM2.5, CO, NOx, SO2,
+BC, Dan GHG Di Jakarta.; 2019.
+Breathe Easy J. Factsheet 3: Emission Inventory.
+http://www.urbanemissions.info/wp-content
+/uploads/docs/2017-01-Jakarta-Facsheet3
+-Emissions-Inventory.pdf. Published 2016.
+Ministry of Energy and Mineral Resource. Coal
+Consumption for Power Plants Continues to
+Increase. https://www.liputan6.com/bisnis/
+read/3867935/konsumsi-batu-bara-untuk-pembangkit-listrik-terus-meningkat.
+
+Main Sources of Air Pollution in Jakarta
+
+The
+Approach
+
+3
+
+Policy Brief
+
+Where
+
+PM2.5 was collected on filters at three air quality monitoring
+sites across the city: Gelora Bung Karno (GBK), Kebon
+Jeruk (KJ) and Lubang Buaya (LB). These sites were
+selected based on land use features, weather and other
+considerations to capture potential variation in air pollution sources.
+
+When
+
+One wet season (October 2018–March 2019) and one dry
+season (July–September 2019).
+
+How
+
+PM2.5 were collected on filters and analyzed for their
+chemical composition. Two statistical methods (receptor
+models) were used to estimate the source contribution to
+ambient PM2.5 concentrations, and results were compared
+to increase confidence in the findings.
+
+Main Sources of Air Pollution in Jakarta
+
+Findings
+Most average daily PM2.5 levels in Jakarta across the city and
+seasons exceed the WHO health-based Air Quality
+Guideline (see Figure 1).
+Daily pollution levels are significantly higher in the dry
+season than the wet season.
+The variation in pollution levels in different areas of the city
+was greater in the wet season than during the dry season.
+
+Figure 1
+
+Average daily PM2.5 concentration in Jakarta
+80
+Concentration (ug/m3)
+
+Air Pollution Levels in Jakarta
+
+70
+
+Indonesia PM2.5 24-hr standard
+
+60
+
+58
+
+50
+
+20
+10
+
+63
+
+49
+
+40
+30
+
+58
+
+WHO PM2.5 24-hr guideline
+
+21
+
+31
+
+0
+Wet Season
+GBK
+
+KJ
+
+Dry Season
+LB
+
+Vehicle exhaust, coal combustion, open burning, construction, road dust, and resuspended soil particles are the main
+sources of air pollution in Jakarta.
+• Gasoline and diesel vehicles contributed to 32%–57% of
+PM2.5 levels, though it is unclear how much of these came
+from on-road vehicles and how much from off-road
+emissions (e.g., logistic vehicles).
+
+Primary aerosols occur as a result of direct
+emissions from an air pollution source. Sea
+salts, a natural marine emission, are formed
+due to wind action at the ocean surface.
+Secondary aerosols (e.g., ammonium
+nitrate or sulfate) are formed when precursor
+gaseous pollutants, such as sulfur oxides
+and nitrogen oxides, undergo chemical
+reactions within the atmosphere.
+
+4
+
+Policy Brief
+
+• Non-vehicular primary sources accounted for 17%–46% of
+ambient polluted air across sampling sites and seasons,
+including contribution from anthropogenic sources such
+as: coal combustion, open burning, construction
+(non-combustion) activities and road dust; and natural
+sources such as: soil and sea salt.
+• Secondary inorganic aerosol accounted for 1%–16%.
+• The contributions of leading sources to outdoor PM2.5
+concentration varied across seasons and by location.
+This may be explained by variation in local activities, or
+regional sources of pollution, depending on weather
+conditions (e.g., upwind emissions from adjacent cities).
+
+Main Sources of Air Pollution in Jakarta
+
+Differences in pollution sources by season were observed.
+Figure 2a
+
+Figure 2b
+
+Source contribution (%) to PM2.5 concentrations in Jakarta
+
+Non-vehicular primary source contribution (%) to PM2.5
+concentrations in Jakarta
+
+100%
+80%
+60%
+40%
+
+2%
+26%
+
+31%
+
+17%
+
+22%
+
+1%
+
+7%
+
+6%
+
+30%
+1%
+20%
+
+32%
+
+41%
+
+20%
+
+34%
+
+34%
+
+42%
+
+46%
+
+0%
+GBK
+
+KJ
+
+LB
+
+GBK
+
+KJ
+
+LB
+
+Dry Season
+
+Wet Season
+
+10%
+0%
+
+25%
+
+17%
+
+19%
+
+43%
+
+42%
+
+38%
+
+50%
+40%
+
+57%
+
+16%
+
+11%
+
+10%
+
+Unidentified
+
+Secondary aerosols
+
+Vehicle exhaust
+
+Non-vehicular primary sources
+
+Major sources
+of pollution in wet season
+
+22%
+
+14%
+9%
+
+1%
+6%
+
+13%
+
+11%
+1%
+
+12%
+
+GBK
+
+KJ
+
+LB
+
+GBK
+
+10%
+
+9%
+
+22%
+
+11%
+
+10%
+
+Wet Season
+
+18%
+9%
+
+KJ
+Dry Season
+
+Paved road dust
+
+Construction
+
+Soil*
+
+Open burning
+
+Sea salt
+
+Coal combustion
+*Natural sources
+
+Major sources
+of pollution in dry season
+
+Vehicle exhaust 32–41% The highest
+
+Vehicle exhaust 42%–57% across
+
+vehicular emissions were observed at the city
+center (GBK).
+
+the city
+
+Coal combustion 14% in the east (LB)
+Construction activities 13% in the
+
+LB
+
+Open burning: 9% in the east (LB)
+Paved road dust: 9% in the west
+of the city (KJ)
+
+west of the city (KJ).
+
+Open burning of biomass or other fuels:
+11% in the outskirts of the city (KJ and LB).
+
+Paved road dust: <1%–6% was observed
+
+Sea salt 19%–22%
+Resuspended soil particles
+10%–18% were observed across the city, most
+evidently in the east (LB), due to dry conditions.
+
+in the center (GBK) and east of the city (LB).
+
+Secondary aerosol (6%–16%) and
+sea salt (1%–10%) were found across the city.
+
+Secondary aerosol: 1%–7%
+
+This study was conducted within the Jakarta city boundary. While the results cannot directly
+differentiate contributions from local and regional emissions, existing knowledge on emission
+activities and locations of point- and area-sources around the sampling sites and neighbourhood
+area (e.g., Greater Jakarta) may shed light on the potential contributing emission sources. For
+instance, biomass burning activities in paddy fields west of Kebon Jeruk may explain the source
+contribution from open burning in that site; similarly, coal-fired power plants operating outside of
+the city boundary, and to a lesser extent, manufacturing industries in Jakarta, may contribute to
+source contribution from coal combustion at Lubang Buaya. Secondary aerosols represent mainly
+long-range, transboundary contribution to ambient PM2.5 pollution.
+
+5
+
+Policy Brief
+
+Main Sources of Air Pollution in Jakarta
+
+Policy
+Recommendations
+
+T
+
+o rapidly improve air quality in Jakarta,
+reduce the burden of air pollution on health
+and save lives, Vital Strategies recommends
+implementing the following proven solutions to
+tackle the emissions sources identified through
+this source apportionment study:
+
+Limit
+Vehicle Exhaust
+Reduce vehicular emissions through comprehensive
+and synergistic vehicle pollution control strategies
+that target: fuel quality and emissions control standards, compulsory emissions testing of all vehicles,
+alternative technologies (e.g., hybrid or electric
+vehicles), and road maintenance. In addition, continuing and accelerating the expansion of integrated
+public transit systems in Jakarta can reduce the
+dependence on private vehicles and subsequently
+reduce vehicle emissions. Modernizing emissions
+requirements for vehicles to the latest standards
+along with mandatory and incentivized retirement of
+older vehicles has proven effective in many cities.
+
+6
+
+Policy Brief
+
+Reduce
+Coal Combustion
+About 80% of coal consumed in 2018 was used to
+generate electricity9, with the remaining used by the
+industrial sector. The impact of coal combustion on air
+quality in Jakarta can already be detected, despite the
+fact that none of the coal-fired power plants are
+within the city limits. Given that Indonesia plans to
+construct more coal-fired power plants within 100
+kilometers of Jakarta, their contribution to ambient
+PM2.5 pollution in Jakarta will increase over time.
+To reduce emissions from coal combustion in the near
+term, install scrubber and filter systems and cleaner
+production technologies, and introduce stringent
+emissions standards for coal-fired power plants and
+industries. To promote compliance, it is critical to
+enforce standards through regular inspection schedules to monitor and control air pollution emissions
+levels. Mandatory installation of continuous emissions
+monitoring systems for all power plants and industries
+will also provide actionable data for enforcement and
+enable plants to improve their efficiency and compliance. For longer-term pollution control measures, the
+city should consider switching to cleaner fuel (e.g,
+natural gas), and expanding to increasingly affordable
+solar, wind and other zero-emissions options.
+
+Enforce
+Open Burning Bans
+
+Control Construction Dust, and
+Paved Road Dust, and Exposed Soil
+
+Enforce the ban on open burning of biomass (Local
+Government Regulation No 2/2005). To prevent trash
+burning, introduce interventions to improve solid
+waste collection, management and recycling, and
+conduct regular clean-up and awareness campaigns.
+Open burning of other fuels or materials may also
+contribute to ambient air pollution, and should be
+included in the ban
+
+Minimize resuspension of dust and soil particles by the
+wind by using abatement measures such as: watering
+all exposed surfaces (e.g., construction sites, road and
+soil surfaces); applying dust suppressant/dust binders
+(e.g., chemical reagents) to maintain a wet surface;
+covering vehicles transporting soil/sand; and planting
+appropriate vegetation to maintain soil moisture.
+
+

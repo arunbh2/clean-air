@@ -531,4 +531,5 @@ cov = {
 render("evidence/coverage.html", "coverage.html", "Coverage and quality", "What this edition covers, how well it is sourced, and what is still open.", "evidence",
        home_c + [("Evidence", "evidence/index.html")], cov=cov, countries=countries)
 
+exec(open(os.path.join(HERE, "build_map.py"), encoding="utf-8").read())
 exec(open(os.path.join(HERE, "build_agent.py"), encoding="utf-8").read())

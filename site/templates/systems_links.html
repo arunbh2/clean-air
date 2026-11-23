@@ -1,0 +1,21 @@
+{% extends "base.html" %}{% from "_sm_edge.html" import edge_block %}
+{% block content %}
+<h1>Every link as text</h1>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">This page lists all {{ G.counts.nodes }} parts of the systems map and all {{ G.counts.edges }} connections, in the same order as the map, with the evidence for each. {{ G.counts.measured_edges }} connections rest on cited claims; {{ G.counts.hypothesis_edges }} are reasoned hypotheses that have not been measured.</p>
+<p class="layer-meta">Back to the <a href="index.html">interactive map</a> · <a href="loops/index.html">loops</a> · <a href="levers/index.html">levers</a> · <a href="data/graph.json">data (JSON)</a>. Research cutoff {{ CUTOFF }}.</p></section>
+<nav class="toc" aria-label="Contents"><ul>{% for lay, label in SM_LAYER.items() %}<li><a href="#layer-{{ lay }}">{{ label }}</a></li>{% endfor %}</ul></nav>
+{% for lay, label in SM_LAYER.items() %}
+<section aria-labelledby="layer-{{ lay }}" class="section-rule"><h2 id="layer-{{ lay }}">{{ label }}</h2>
+{% for n in nodes if n.layer == lay %}
+<section class="sm-node" id="node-{{ n.node_id }}" aria-labelledby="h-{{ n.node_id }}">
+<h3 id="h-{{ n.node_id }}">{{ n.label }}</h3>
+<p>{{ n.explanation }}{% if n.claim_ids %} {{ n.claim_ids|claims(rel)|safe }}{% endif %}</p>
+<p class="sans small muted">System: {{ SM_SYS_BY[n.system_id].title }} · {{ n.node_type }} · {{ n.geography }} · {{ n.timescale }}{% if n._pops %} · Who: {% for p in n._pops %}<a href="../people/{{ p }}.html">{{ G_BY[p].group }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</p>
+{% if n._out %}<h4>Leads to</h4>{% for e in n._out %}{{ edge_block(e, rel) }}{% endfor %}{% endif %}
+{% if n._in %}<p class="sans small">Comes from: {% for e in n._in %}<a href="#{{ e.edge_id }}">{{ SM_NODE_BY[e.from].label }} ({{ e.edge_id }}, {{ e.strength }})</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>{% endif %}
+</section>
+{% endfor %}
+</section>
+{% endfor %}
+{% endblock %}
