@@ -41,11 +41,11 @@ A record without a date is shown as "Date unknown" outside the timeline. A date 
 Every record starts as **source record, not assessed**. A curator can move it forward in `research/signals/review-decisions.csv`, and each step is checked when the site is built:
 
 1. **Details checked:** title, date and publisher confirmed against the source.
-2. **Reviewed by editors:** an editor has read the source. Only now can a "Why it may matter" note appear, labelled as Clean Air's interpretation and linked to the material it rests on, or a summary of what a study actually tested.
+2. **Reviewed by Clean Air:** a reviewer has read the source. Only now can a "Why it may matter" note appear, labelled as Clean Air's interpretation and linked to the material it rests on, or a summary of what a study actually tested.
 3. **Proposed for the evidence register:** a new claim or an amendment is drafted through the normal research process, with a located passage.
 4. **Linked to the evidence register:** allowed only when a claim in a dated research edition cites this source. The feed cannot create a claim or change a rating.
 
-**Who reviews.** The site's editor has delegated signal review to an AI reviewer (Claude, working in this repository). Every record it checks or reviews says so on the record itself. It reads the source before writing a note, records what the note rests on, and cannot create claims or change ratings: those still need the research process and a dated edition.
+**Who reviews.** Reviews are carried out by the editor, or by an AI reviewer working on the editor's behalf. Both follow the same rules: the source is read before any note is written, each note records what it rests on, and no review can create a claim or change a rating.
 
 Funding announcements stay apart from verified funding records. An amount appears only after its stage (requested, announced, pledged, approved, contracted, disbursed or evaluated), currency and source have been checked, and it is never added to a funding total on this site.
 
