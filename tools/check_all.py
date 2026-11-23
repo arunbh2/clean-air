@@ -28,6 +28,8 @@ STEPS = [
     ("Format comparison fails on tampered JSON", T("tools", "test_formats.py") + ["--self-test"]),
     ("Systems map: graph, evidence, loops, levers, equivalence", T("tools", "check_systems_map.py")),
     ("Systems-map validator fails on bad fixture", T("tools", "check_systems_map.py") + ["--self-test"]),
+    ("A Breath of Change: target wording, origins vs sectors, locators, funding, claim kinds", T("tools", "check_boc.py")),
+    ("Report checks fail on injected faults (WHO target, funding, orphan claim, unit)", T("tools", "check_boc.py") + ["--self-test"]),
     ("CSV formula-injection guard (malicious fixture)", T("tools", "test_csv_safety.py")),
     ("Canonical edit and withdrawal propagate everywhere", T("tools", "test_propagation.py")),
 ]

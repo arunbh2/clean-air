@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ fm.title }}</h1>
+{% if fm.answer %}<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">{{ fm.answer|md(rel)|safe }}</p>
+{% if fm.limit %}<p class="layer-meta"><strong>Evidence limit:</strong> {{ fm.limit }}</p>{% endif %}
+<p class="layer-meta sans small">Draws on the World Bank's <a href="{{ rel }}evidence/breath-of-change.html">A Breath of Change</a> (2025), read through Clean Air's evidence standards. Research cutoff {{ CUTOFF }}.</p></section>{% endif %}
+{% if kind == 'origins' %}<div class="prose">{{ body_html|safe }}</div>
+{% for metric, cap in [('geographic origin', 'Where did this pollution originate? (share of annual average PM2.5 by place of origin)'), ('emitting sector', 'Which activities contribute most? (share of PM2.5 exposure by sector)')] %}
+<section aria-labelledby="t-{{ loop.index }}" class="section-rule"><h2 id="t-{{ loop.index }}">{{ cap.split(' (')[0] }}</h2>
+<div class="table-wrap"><table class="data"><caption>{{ cap }}. Modelled, not measured personal exposure.</caption>
+<thead><tr><th scope="col">Where</th><th scope="col">Category</th><th scope="col">Value</th><th scope="col">Period and method</th><th scope="col">Book page</th><th scope="col">Status</th></tr></thead>
+<tbody>{% for r in origins if r.metric == metric %}<tr><th scope="row">{{ r.jurisdiction }} <span class="muted">({{ r.country }})</span></th><td>{{ r.category }}</td><td>{{ r.value }}{% if r.unit %} <span class="muted small">{{ r.unit }}</span>{% endif %}</td><td>{{ r.period }}; {{ r.method }}</td><td>p. {{ r.printed_page }}</td><td>{{ r.value_status }}</td></tr>{% endfor %}</tbody></table></div>
+</section>{% endfor %}
+<p class="sans small">Related: <a href="one-airshed.html">one airshed, many governments</a> · <a href="delhi-ncr.html">Delhi-NCR source studies</a> · <a href="{{ rel }}systems-map/index.html">the web of dirty air</a> · <a href="{{ rel }}downloads/data/breath-of-change-origins.csv">data (CSV)</a></p>
+{% elif kind == 'fouris' %}
+<section aria-labelledby="the-4" class="section-rule"><h2 id="the-4">The four prerequisites</h2>
+<div class="q-grid">{% for i in fouris %}<details class="q" id="{{ i.i_id }}" open><summary>{{ i.label }}: {{ i.question }}</summary>
+<p><strong>Examples:</strong> {{ i.examples }}.</p><p><strong>Common blockers:</strong> {{ i.typical_blockers }}.</p><p><strong>Who holds it:</strong> {{ i.who_holds_it }}. {{ i.claim_ids|claims(rel)|safe }}</p>
+<p class="sans small"><strong>Interventions that depend on it:</strong> {% for x in ints if i.label in x.four_is %}<a href="{{ x.int_id }}.html">{{ x.intervention|truncate(50) }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p></details>{% endfor %}</div>
+</section>
+<div class="prose">{{ body_html|safe }}</div>
+<p class="sans small">Next: <a href="delivery.html">who pays to make clean air last</a> · <a href="index.html">all interventions by job</a> · <a href="{{ rel }}systems-map/index.html">see the 4Is on the systems map</a></p>
+{% elif kind == 'delivery' %}<div class="prose">{{ body_html|safe }}</div>
+<section aria-labelledby="matrix-h" class="section-rule"><h2 id="matrix-h">Who pays for what, and when</h2>
+{% for d in pathways %}<article class="sm-edge" id="{{ d.pathway_id }}"><h3>{{ d.title }}</h3>
+<dl class="kv"><dt>Problem</dt><dd>{{ d.problem }}</dd><dt>Who controls it</dt><dd>{{ d.who_controls_it }}</dd><dt>Asset or service</dt><dd>{{ d.asset_or_service }}</dd>
+<dt>4Is it depends on</dt><dd>{% for i in d.four_is.split(';') %}<a href="four-is.html#{{ i|lower }}">{{ i }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</dd>
+<dt>Kind of capital</dt><dd>{{ d.capital_type }}</dd><dt>Who pays upfront</dt><dd>{{ d.who_pays_upfront }}</dd><dt>Who covers running costs</dt><dd>{{ d.who_covers_ongoing_costs }}</dd>
+<dt>Who benefits</dt><dd>{{ d.who_benefits }}</dd><dt>Implementation risk</dt><dd>{{ d.implementation_risk }}</dd><dt>Evidence needed</dt><dd>{{ d.evidence_needed }}</dd>
+<dt>What we know</dt><dd>{{ d.what_we_know }} {{ d.claim_ids|claims(rel)|safe }}</dd><dt>What is proposed</dt><dd>{{ d.what_is_proposed }}</dd><dt>What would need proof</dt><dd>{{ d.what_needs_proof }}</dd>
+<dt>Related</dt><dd>{% for l in d.lever_ids.split(';') %}<a href="{{ l }}.html">{{ I_BY[l].intervention|truncate(60) }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</dd></dl></article>{% endfor %}
+</section>
+<p class="sans small">Next: <a href="four-is.html">the 4Is</a> · <a href="{{ rel }}organisations/funding/index.html">verified funding records</a> · <a href="{{ rel }}support/pathways/index.html">decision pathways</a></p>
+{% elif kind == 'guide' %}<div class="prose">{{ body_html|safe }}</div>
+<section aria-labelledby="map-h" class="section-rule"><h2 id="map-h">Chapter by chapter: where it appears on Clean Air</h2>
+<div class="table-wrap"><table class="data"><caption>Reading map (printed page numbers)</caption><thead><tr><th scope="col">Chapter</th><th scope="col">Pages</th><th scope="col">How it was read</th><th scope="col">Where it appears</th><th scope="col">Claims</th></tr></thead>
+<tbody>{% for c in chapters %}<tr><th scope="row">{{ c.chapter }}: {{ c.title }}</th><td>{{ c.printed_pages }}</td><td>{{ c.read_depth }}</td><td>{% for u in c.main_clean_air_pages.split('; ') %}<a href="{{ rel }}{{ u }}">{{ u }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</td><td>{{ c.key_claims|claims(rel)|safe }}</td></tr>{% endfor %}</tbody></table></div></section>
+<section aria-labelledby="rel-h" class="section-rule"><h2 id="rel-h">How the book relates to earlier evidence</h2>
+{% for rel_kind, label in [('reinforce', 'Reinforces'), ('refine', 'Refines or qualifies'), ('add', 'Adds'), ('flag contradiction', 'Contradiction flagged')] %}<h3>{{ label }}</h3><ul class="sans small">{% for x in extraction if x.relation == rel_kind %}<li>{{ x.claim_id|claims(rel)|safe }} ({{ x.claim_kind }}; pp. {{ x.printed_pages }}){% if x.existing_claims %}: alongside {{ x.existing_claims|claims(rel)|safe }}{% endif %}{% if x.verification_note %} <span class="muted">{{ x.verification_note }}</span>{% endif %}</li>{% endfor %}</ul>{% endfor %}
+</section>
+<section aria-labelledby="org-h" class="section-rule"><h2 id="org-h">Organisations named in the book</h2>
+<p class="measure muted small">A mention in the book is not a partnership, funding link or endorsement. Leads are not published as atlas records until verified separately.</p>
+<ul>{% for o in named %}<li>{% if o.atlas_org_id and o.atlas_org_id in O_BY %}<a href="{{ rel }}organisations/o/{{ O_BY[o.atlas_org_id].slug }}.html">{{ o.name }}</a>{% else %}{{ o.name }}{% endif %} (p. {{ o.printed_page }}): {{ o.role_in_report }}. <span class="muted">{{ o.status }}</span></li>{% endfor %}</ul></section>
+{% endif %}
+{% endblock %}

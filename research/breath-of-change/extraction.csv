@@ -1,0 +1,42 @@
+claim_id,source_id,chapter,printed_pages,pdf_pages,claim_kind,geography,period,existing_claims,relation,site_use,verification_note
+C227,S182,Overview,xvii,17,definition,IGP-HF,2025,C123;C124,reinforce,places; one airshed; systems map,
+C228,S182,Overview; Ch. 12; Conclusion,xviii; 249; 264,18; 301; 316,policy description,IGP-HF,2022-2024,C003;C004,add,home; one airshed; reading guide,
+C229,S182,Overview,xviii; l,18; 50,policy description,IGP-HF,2025,C001;C004,refine,one airshed,National standards to be re-checked against each government's notification.
+C230,S182,Overview,xviii,18,observation and projection,IGP-HF,2021 data; projection,C021;C111,add,home; 4Is guide,
+C231,S182,Overview; Ch. 2,xx-xxi,20-21,attribution model,IGP-HF (8 jurisdictions modelled),2020-2024 averages,C029;C125,add,where our air comes from; one airshed; systems map,
+C232,S182,Ch. 2,22,74,attribution model,IGP-HF jurisdictions,2020-2024 averages,C125,flag contradiction,where our air comes from,Figure 3 bars carry no printed values; the overview and Chapter 2 text differ for some jurisdictions.
+C233,S182,Overview; Ch. 2,xxi; 22,21; 74,attribution model,IGP-HF,2020-2024 averages,C226;C025,add,where our air comes from; systems map,"The 33% is a regional modelled average, not a Delhi figure."
+C234,S182,Overview; Ch. 4,xxix,29,attribution model,IGP-HF,2020-2024,C066;C105,refine,where our air comes from; kilns,
+C235,S182,Overview; Ch. 5,xxxii,32,attribution model,IGP-HF,2020-2024,C028;C029,refine,where our air comes from,
+C236,S182,Overview; Ch. 6,xxi; xxxv,21; 35,attribution model and mechanism,IGP-HF,2020-2024,C027,add,systems map; where our air comes from,
+C237,S182,Ch. 2,19,71,mechanism,IGP-HF,not stated,C027;C025,reinforce,systems map; glossary,
+C238,S182,Overview; Ch. 2,xxi; 20,21; 72,attribution model,IGP-HF jurisdictions,2020-2024,C025;C029,add,where our air comes from,
+C239,S182,Overview,xxiii,23,framework,IGP-HF,2025,,add,4Is guide; what works; systems map,
+C240,S182,Overview,xxiii-xxiv,23-24,framework,IGP-HF,2025,,add,what works (three jobs); home,
+C241,S182,Overview; Ch. 3,xxvi-xxvii,26-27,observation,IGP-HF,2024 data,C036;C037,reinforce,clean cooking; 4Is guide,
+C242,S182,Overview; Ch. 3,xxvii,27,proposed measure,IGP-HF,2025,,add,clean cooking; funding lens,"Proposals, not evaluated programmes."
+C243,S182,Ch. 3,38,90,case study,Bihar,not stated,,add,clean cooking; organisations,
+C244,S182,Ch. 4,59,111,technology comparison,IGP-HF,sources 2013-2023,C069,refine,kilns; 4Is guide,"Table compiled from Alam and Barman 2019, Lalchandani and Maithel 2013, Thanumoorthi and Rajarathnam 2023."
+C245,S182,Ch. 4,59,111,implementation barrier,IGP-HF,2025,C070;C059,refine,kilns; systems map E45,
+C246,S182,Overview; Ch. 4,xxxi,31,proposed measure,IGP-HF,2025,,add,funding lens; kilns,"Proposals, not funded programmes."
+C247,S182,Ch. 4,65,117,case study (company-reported figures),"Surat, Gujarat",not stated,,add,industry; funding lens,"Figures are company and policy descriptions, not an independent evaluation."
+C248,S182,Ch. 11,xlvii; 240,47; 292,case study,"Surat, Gujarat",2019-2021,,flag contradiction,funding lens; market instruments,Primary evaluation checked: see C249.
+C249,S183,n/a,n/a,n/a,evaluated outcome,"Surat, Gujarat",2019-2021,,add,funding lens; market instruments,
+C250,S182,Ch. 11,240,292,limitation,IGP-HF,2025,,add,funding lens,
+C251,S182,Overview; Ch. 11,xxxii; xlvii,32; 47,economic estimate,South Asia / IGP-HF,2024 estimates; 2030 projection,,add,funding lens,
+C252,S182,Overview; Ch. 8,xli-xlii,41-42,observation,IGP-HF,2021-2024,C087,add,health; people,
+C253,S182,Overview; Ch. 8,xli,41,observation,Dhaka,2025 study,C046,add,people; protection,
+C254,S182,Ch. 8,174,226,case study,Thailand,2024-2025,C098,refine,protection; clean-air shelters,
+C255,S182,Ch. 8,174,226,case study (other exposure),Bangladesh,2020-2021,C085,refine,masks; protection,
+C256,S182,Ch. 8,171,223,policy description,Delhi-NCR,2021,C087,reinforce,health readiness,
+C257,S182,Ch. 1,6-7,58-59,exposure estimate,IGP-HF,circa 2022 (satellite PM2.5),,add,schools; people,
+C258,S182,Ch. 9,197,249,observation,IGP-HF; Punjab (Pakistan),2024,C075,refine,schools,
+C259,S182,Ch. 9,196; xliv,248; 44,observation,IGP-HF,2000-2022,C054;C055,reinforce,schools; systems map,
+C260,S182,Ch. 9,198,250,survey,Punjab (Pakistan),2024,,add,schools; funding lens,
+C261,S182,Ch. 10,xlvi,46,finding,South Asia,2025,C030,add,4Is guide; organisations,
+C262,S182,Ch. 12,xlviii-l; 248-249,48-50; 300-301,proposed framework,IGP-HF,2025,C125;C220,add,one airshed; systems map,
+C263,S182,Overview; Ch. 6,xxxv-xxxvi,35-36,observation,IGP-HF,2025,C067;C136,refine,crop residue; 4Is guide,
+C264,S182,Overview; Ch. 7,xxxix,39,proposed measure,IGP-HF,2025,C107;C106,add,waste; waste pickers,
+C265,S182,Ch. 1,10,62,economic estimate,South Asia,2019,C018;C124,refine,evidence; economics,
+C266,S182,Ch. 5,102,154,case study,Peshawar,not stated,,add,transport equity; funding lens,
+C267,S182,Overview; Ch. 9,xliv-xlv,44-45,observation and proposed measure,IGP-HF,2025,C074,add,schools; what works,

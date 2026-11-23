@@ -128,6 +128,13 @@ Every change serves the human reader, the maintainer and the AI agent from **one
 - Organisations and funders appear on a lever only through verified atlas roles. Never write "will eliminate", "saves lives" or "breaks the loop".
 - Enforced by `tools/check_systems_map.py` (in `tools/check_all.py`). Maintenance: `docs/SYSTEMS_MAP_METHOD.md`.
 
+### 9. A Breath of Change (`docs/breath-of-change-integration-brief.md`)
+- The World Bank book is source S182 (cited by printed page; PDF page = printed + 52). Findings live in `research/breath-of-change/`
+  (extraction register, origins, 4Is, delivery pathways, report-named organisations, chapter map) and claims C227-C267.
+- "35 by 35" is always aspirational or interim, never the WHO guideline. Origin shares and sector shares are never combined. Modelled
+  shares are not measurements. A World Bank recommendation is never a funding record. Ratings change only through a documented review.
+- The PDF and its text stay in `sources/private/` (git-ignored). Enforced by `tools/check_boc.py`. Audit: `docs/research/world-bank-breath-of-change-integration-audit.md`.
+
 ## Which skill for which job
 
 Clean Air's own identity governs every visual output. Generic skills handle file mechanics and must

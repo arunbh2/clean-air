@@ -23,6 +23,22 @@ vignette:
   title: "A street vendor in Delhi"
   text: "Picture a vendor selling food by a busy road. She breathes traffic smoke for hours that the nearest monitor does not fully capture [C031]. A Chennai study found vendors' lung function fell with years on the job [C152]. When smog is severe, offices tell staff to work from home, but she cannot [C086]. Whether she loses income through illness, fewer customers or rules that stop work has not been measured for vendors. Those are pathways to test, not proven losses [C047]."
   href: "people/journey-street-vendor.html"
+airhard:
+  title: "Why cleaning the air is hard, and possible"
+  points:
+    - label: "Air travels"
+      text: "A city breathes pollution from its own sources and from the wider region. On World Bank model estimates, about half of fine particles in the Indo-Gangetic plain comes from outside local boundaries [C231]."
+      href: "places/where-air-comes-from.html"
+      link: "Follow the air"
+    - label: "People differ"
+      text: "Exposure, health risk and the ability to protect income are unequal: outdoor workers, children and families cooking with solid fuels breathe more and can protect themselves less [C048][C257]."
+      href: "what-works/index.html"
+      link: "Explore what works"
+    - label: "Solutions need systems"
+      text: "Cleaner technology helps only when information, incentives, institutions and infrastructure make it usable over time. Cleaner stoves, retrofits and vehicles have not yet translated into significantly cleaner air across the region [C230]."
+      href: "what-works/four-is.html"
+      link: "See what it takes to implement"
+  credit: "Draws on the World Bank's A Breath of Change (2025), read through Clean Air's evidence standards."
 regional: "India is the anchor of this resource. South Asia shares one huge polluted airshed across the Indo-Gangetic plain, where smoke travels hundreds of kilometres across borders [C125]. Southeast Asian cities face different mixes: traffic in Jakarta, seasonal burning in northern Thailand, and new national targets in Viet Nam [C133][C136][C137]."
 action_ids: ["registration-compensation", "school-education", "entitlement-enrolment"]
 money: "Clean Air Fund's 2026 analysis found US$124.6 billion in air-quality-related international development funding committed in 2020-2024, but under 1% went to projects with outdoor air quality as an explicit goal [C141]. A separate analysis of foundations covers a different period and base, so the two cannot be added together [C142]."
