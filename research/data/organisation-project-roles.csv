@@ -1,0 +1,107 @@
+organisation_id,project_id,role,role_description,source_ids,verification_status
+clean-up-nepal,J001,implementer,Project lead,S138,documented
+gd-labs,J001,technical partner,Consortium partner; EPIC awardee for 40 school monitors,S138;S134,documented
+epic-aq-fund,J001,grantmaker,Funding/support organisation,S138;S134,documented
+openaq,J001,technical partner,Hosts the open data,S138,documented
+clean-energy-nepal,J002,implementer,Installs monitors with government partners,S133;S139,documented
+epic-aq-fund,J002,grantmaker,2025 award,S133,documented
+paqi,J003,implementer,Installs and runs monitors,S132,documented
+ndma-neoc,J003,public duty holder,Partner for real-time risk monitoring,S132,documented
+epic-aq-fund,J003,grantmaker,2025 award,S132,documented
+urban-unit,J004,implementer,Installs monitors; runs portal,S136,documented
+epic-aq-fund,J004,grantmaker,2025 award,S136,documented
+university-of-the-punjab,J005,implementer,Installs monitors,S135,documented
+epic-aq-fund,J005,grantmaker,2025 award,S135,documented
+habib-university,J006,implementer,Project lead,S129,documented
+sindh-epa,J006,regulator,Partner for reference-grade monitoring,S129,documented
+openaq,J006,technical partner,Data published via OpenAQ,S129,documented
+epic-aq-fund,J006,grantmaker,2026 award,S129,documented
+smart-air-bangladesh,J007,implementer,Project lead,S126,documented
+bigd,J007,technical partner,Research partner,S126,documented
+bela,J007,delivery partner,Legal use of evidence for enforcement,S126,documented
+epic-aq-fund,J007,grantmaker,2026 award,S126,documented
+obhizatrik,J008,implementer,Project lead,S127,documented
+epic-aq-fund,J008,grantmaker,2026 award,S127,documented
+sherubtse-college,J009,implementer,Project lead,S137,documented
+epic-aq-fund,J009,grantmaker,2025 award,S137,documented
+thingsnode,J010,implementer,Project lead,S130,documented
+epic-aq-fund,J010,grantmaker,2026 award,S130,documented
+upm-goaqs,J011,implementer,Project lead,S128,documented
+epic-aq-fund,J011,grantmaker,2026 award,S128,documented
+ateneo-asmph,J012,implementer,Project lead with Cebu City Government,S131,documented
+epic-aq-fund,J012,grantmaker,2026 award,S131,documented
+mht,J013,implementer,Trains and supports AQI ambassadors,S155,documented
+help-delhi-breathe,J013,implementer,Co-runs ambassadors; door-to-door drives,S155,documented
+clean-air-fund,J013,grantmaker,"Grants to Mahila Housing (Sewa) Trust, 2021 and 2023",S116;S120,documented
+cstep,J014,evaluator,Runs the facility and evaluation,S162;S163,documented
+respirer,J014,supplier,Devices tested,S164,documented
+airveda,J014,supplier,Devices tested,S164,documented
+aurassure,J014,supplier,Devices tested,S164,documented
+respirer,J015,implementer,Built and ran the sensor network,S158,documented
+iit-kanpur,J015,technical partner,Scientific partner,S158,documented
+shakti-foundation,J015,grantmaker,Funded the project,S158,documented
+nafas-indonesia,J016,implementer,Installs and runs sensors,S145;S144,documented
+dbs-foundation,J016,grantmaker,Business for Impact Grant 2023,S145,documented
+airly,J016,supplier,Sensor supplier to the Nafas network,S142,documented
+nafas-foundation,J017,implementer,Co-author (as Nafas Indonesia),S146,documented
+fkm-ui,J017,technical partner,Co-author,S146,documented
+dbs-foundation,J017,co-funder,Collaborator and supporter,S146,documented
+koalisi-ibukota,J018,implementer,Plaintiff coalition,S167,documented
+greenpeace-indonesia,J018,delivery partner,Public campaigning on the case,S166;S167,documented
+thailand-can,J019,implementer,Drafted one of seven bills,S149,documented
+icimod,J020,technical partner,Co-developed design manual; convened exchange,S171;S172,documented
+fnbi,J020,implementer,Industry co-launcher,S171,documented
+minergy,J020,technical partner,Design co-author,S171,documented
+live-and-learn-vietnam,J021,implementer,Runs the programme,S173,documented
+usaid,J021,grantmaker,Funded via CAfCA,S173,documented
+winrock,J022,implementer,Project lead,S174,documented
+vesdi,J022,technical partner,Craft-village pilot partner,S174,documented
+usaid,J022,grantmaker,Donor,S174,documented
+unido,J023,implementer,GEF implementing agency,S176,documented
+dti-philippines,J023,public duty holder,Government executing agency,S176;S175,documented
+clean-air-asia,J023,delivery partner,Consortium member (executing lead per press reports),S175,documented (press)
+dlsu,J023,delivery partner,Consortium member,S175,documented (press)
+evap,J023,delivery partner,Consortium member,S175,documented (press)
+uemi,J023,delivery partner,Consortium member,S175,documented (press)
+hcwh-sea,J024,implementer,Co-organiser,S177,documented
+350-pilipinas,J024,implementer,Co-organiser,S177,documented
+clean-air-fund,J025,grantmaker,Funder,S116;S117,documented
+cstep,J025,implementer,Punjab strategies (2023),S116,documented
+teri,J025,implementer,UP CAMP advisory unit (2023),S117,documented
+epic-india,J025,implementer,Delhi policy and transport units (2023),S117,documented
+cse,J025,implementer,NCAP good-practice compendium (2023),S117,documented
+wri-india,J025,implementer,"Agra and Gorakhpur accelerator (grant to World Resources Institute, 2023)",S116,documented (grant to WRI; India entity not named)
+iit-delhi,J025,implementer,Health and climate evidence (2023),S116,documented
+icct,J025,implementer,TRUE Initiative Delhi (2022),S119,documented
+iclei-south-asia,J025,implementer,NCR city leadership (2021),S120,documented
+pravah,J025,implementer,Youth in urban slums (2021),S120,documented
+sesame-india,J025,implementer,Children's voices (2021),S121,documented
+swaniti,J025,implementer,Policy support (2021),S121,documented
+clean-air-asia,J025,implementer,MSME learnings in Delhi (2021),S120,documented
+hcwh,J025,implementer,"Health sector (2019, 2023)",S116;S124,documented
+dfcca,J025,delivery partner,Partner programme named by funder,S050,documented
+cii,J025,implementer,"India CEO Forum for Clean Air (2019, 2023)",S116;S123,documented
+iit-kanpur,J025,implementer,Lucknow DSS (2021); ATMAN and core support (2023),S116;S118;S119,documented
+clean-air-fund,J026,grantmaker,2024 grants,S112,documented
+c40-org,J026,implementer,Clean Air Zone support,S112,documented
+vital-strategies,J026,implementer,Implementing Breathe Cities,S112,documented
+airparif,J027,evaluator,Ran the challenges,S114;S115,documented
+clean-air-fund,J027,grantmaker,Funder,S114;S115,documented
+bela,J028,implementer,Petitioner (Jashore kiln),S168,documented
+hrpb,J028,implementer,Petitioner (Dhaka air pollution),S169,documented
+mht,P08,implementer,Named implementer,S049,documented
+help-delhi-breathe,P08,implementer,Named implementer,S049,documented
+hcwh,P09,implementer,Named implementer,S050,documented
+iit-kanpur,P17,implementer,ATMAN Centre of Excellence,S118,documented
+vital-strategies,P11,implementer,With Jakarta Environment Agency,S079,documented
+unido,P16,implementer,GEF implementing agency,S176,documented
+clean-air-asia,P16,delivery partner,Consortium member,S175,documented (press)
+world-bank,P05,lender,IBRD financing approved Dec 2025,S051,documented
+world-bank,P06,lender,IBRD financing approved Dec 2025,S051,documented
+delhi-bocw-board,P18,public duty holder,Pays GRAP compensation to registered workers,S016;S019,documented (programme record)
+moefcc-ncap,P19,grantmaker,Public budget: performance-linked grants to cities,S004,documented (programme record)
+world-bank,P01,lender,IDA financing approved 2025,S069,documented (programme record)
+world-bank,P02,lender,Financing approved,S070,documented (programme record)
+world-bank,P04,lender,Financing approved,S071,documented (programme record)
+gef,P16,grantmaker,GEF grant approved 2022,S176,documented (programme record)
+construction-unions,P18,delivery partner,Litigation and claims for compensation (court reporting),S016;S018,documented (programme record)

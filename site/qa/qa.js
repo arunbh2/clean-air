@@ -22,7 +22,7 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
     await page.goto(url(p));
     await page.addScriptTag({ content: AXE });
     const r = await page.evaluate(async () => {
-      const res = await axe.run(document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'] } });
+      const res = await axe.run(document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'] } });
       return res.violations.map(v => ({ id: v.id, impact: v.impact, help: v.help, nodes: v.nodes.length, sample: v.nodes[0] && v.nodes[0].target.join(' ') }));
     });
     if (r.length) results.axe[p] = r;
@@ -64,10 +64,40 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   await page.selectOption('select[data-key="rec"]', 'Fund now');
   const shown = await page.locator('#int-list > li:not([hidden])').count();
   pass('intervention filter shows only "Fund now" items', shown === fundNow, `${shown} shown vs ${fundNow} in CSV`);
+  // organisations explorer: every filter narrows, presets work, no-results state is announced
   await page.goto(url('organisations/index.html'));
-  await page.selectOption('select[data-key="fn"]', 'delivery');
-  const orgShown = await page.locator('#org-table tbody tr:not([hidden])').count();
-  pass('organisation filter narrows the table', orgShown > 0 && orgShown < 21, `${orgShown} rows`);
+  const totalOrgs = await page.locator('#org-list > li').count();
+  const cnt = async () => parseInt((await page.textContent('#ex-count')).split(' of ')[0], 10);
+  const fsel = await page.locator('select[data-f]').evaluateAll(s => s.map(x => [x.getAttribute('data-f'), [...x.options].map(o => o.value).filter(Boolean)]));
+  let badFilter = [];
+  for (const [k, vals] of fsel) {
+    for (const v of vals) { await page.selectOption(`select[data-f="${k}"]`, v); const n = await cnt(); if (!(n >= 0 && n <= totalOrgs)) badFilter.push(k + '=' + v); }
+    const anyNarrow = await (async () => { for (const v of vals) { await page.selectOption(`select[data-f="${k}"]`, v); if (await cnt() < totalOrgs) return true; } return false; })();
+    if (!anyNarrow) badFilter.push(k + ' never narrows');
+    await page.selectOption(`select[data-f="${k}"]`, '');
+  }
+  pass('every explorer filter works and narrows results', badFilter.length === 0, badFilter.slice(0, 5).join(', ') + ` (${fsel.length} filters)`);
+  await page.fill('[data-q]', 'kathmandu'); const sq = await cnt();
+  await page.fill('[data-q]', 'zzqx'); const noneShown = await page.isVisible('#ex-none'); const live = await page.getAttribute('#ex-count', 'aria-live');
+  await page.click('[data-clear]');
+  pass('explorer search, no-results message and live count', sq > 0 && sq < totalOrgs && noneShown && live === 'polite', `search ${sq}`);
+  await page.click('[data-preset-id="business"]'); const biz = await cnt();
+  const bizOk = await page.locator('#org-list > li:not([hidden])').evaluateAll(l => l.every(x => x.getAttribute('data-category') === 'private'));
+  pass('"Explore solutions and businesses" preset shows only companies', biz > 0 && bizOk, `${biz} shown`);
+  await page.click('[data-clear]');
+  await page.goto(url('organisations/compare.html'));
+  const ob = page.locator('[data-compare] input'); await ob.nth(5).check({ force: true }).catch(() => {});
+  const oc = await page.locator('#compare-table thead th[data-col]:not([hidden])').count();
+  pass('organisation comparison shows at most three', oc >= 1 && oc <= 3, `${oc} shown`);
+  // no empty profile pages; each has sources and the four evidence rows
+  const profs = pages.filter(p => p.startsWith('organisations/o/'));
+  const emptyP = profs.filter(p => { const h = fs.readFileSync(path.join(DIST, p), 'utf8'); return !/<ol class="sources small"><li/.test(h) || !/Measured outcomes/.test(h) || !/In one sentence/.test(h); });
+  pass('no empty organisation profiles (sources, summary, evidence rows)', profs.length > 0 && emptyP.length === 0, `${profs.length} profiles; empty: ${emptyP.slice(0, 3).join(', ')}`);
+  const ex = JSON.parse(fs.readFileSync(path.join(DIST, 'downloads/data/organisations-atlas.json'), 'utf8'));
+  const leak = JSON.stringify(ex).match(/[\w.+-]+@[\w-]+\.[\w.]+/g) || [];
+  pass('public data export is valid JSON with no e-mail addresses', ex.organisations.length === profs.length && leak.length === 0, `${ex.organisations.length} orgs; ${leak.length} e-mails`);
+  // the old #anchors on the organisations page still resolve
+  pass('first-edition organisation anchors still exist', ['cpcb', 'mht', 'construction-unions'].every(a => ids['organisations/index.html'].has(a)));
   // citations resolve
   const claimsHtml = fs.readFileSync(path.join(DIST, 'evidence/claims.html'), 'utf8');
   const claimIds = new Set([...claimsHtml.matchAll(/<tr id="(C\d{3})"/g)].map(m => m[1]));
@@ -152,7 +182,7 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   pass('home page under 150 KB including CSS, JS and logos', home < 150000, `${Math.round(home / 1024)} KB`);
   // axe summary
   const axeCount = Object.values(results.axe).reduce((n, v) => n + v.length, 0);
-  pass('no axe WCAG 2.1 A/AA violations', axeCount === 0, axeCount + ' violation types across ' + Object.keys(results.axe).length + ' pages');
+  pass('no axe WCAG 2.1 and 2.2 A/AA violations', axeCount === 0, axeCount + ' violation types across ' + Object.keys(results.axe).length + ' pages');
   await browser.close();
   results.external = [...new Set(results.external)].length;
   pages.forEach(p => delete results[p]);

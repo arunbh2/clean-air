@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ st.title }}</h1>
+<section class="layer simple" aria-label="In short"><p class="simple-answer">{{ st.summary }}</p></section>
+<article class="prose">{{ body_html|safe }}</article>
+<section class="section-rule" aria-labelledby="rec-h"><h2 id="rec-h">Records behind this story</h2>
+<ul class="sans">{% for oid in st.orgs if oid in O_BY %}<li><a href="../o/{{ O_BY[oid].slug }}.html">{{ O_BY[oid].organisation }}</a></li>{% endfor %}
+{% for pid in st.projects %}{% set pr = proj_ref(pid, rel) %}{% if pr %}<li><a href="{{ pr.url }}">{{ pr.title }}</a> <span class="muted">({{ pr.kind }})</span></li>{% endif %}{% endfor %}</ul>
+<p class="muted small">Every statement links to a claim in the evidence register. Research cutoff {{ CUTOFF }}.</p></section>
+{% endblock %}

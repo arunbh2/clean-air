@@ -13,3 +13,13 @@ Research gaps that would change a funding decision are maintained in `research/d
 7. **Cambodia.** What are the budget and timeline of the CCAC-funded Cambodia rice-straw project?
 8. **Philippines.** What are the funding structure and budget of E-Mobility ASAP?
 9. **Unread research.** What does the CHI 2026 paper on marginalised livelihoods actually find?
+
+## Organisations atlas (23 November 2026)
+
+- Which EPIC-funded networks have led to a recorded decision (warning, ordinance, inspection)? None found yet.
+- Who pays running costs for the 28 activity records after their grants end? No source names an owner for any of them.
+- Did USAID-funded clean-air work in Viet Nam continue after 2025?
+- Is the ASEAN haze coordinating centre fully operating?
+- Results of the Airparif microsensor challenges (Thailand 2023, India 2024) and Indi-SET results for PM2.5 by device.
+- Grant amounts behind the 39 flows without amounts (funders' databases do not show them).
+- Verify GreenHub, HACCAP and Clean Air Asia roles from their own records when access allows.

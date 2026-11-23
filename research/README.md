@@ -16,7 +16,11 @@ These files are the single source of truth for the Clean Air site. Pages are gen
 | `data/claims.csv` | Claim-level evidence register. Each `Cnnn` links to one or more sources, with location, geography, period and read status |
 | `data/settings.csv` | (C) Geographic comparison of six settings |
 | `data/community-impacts.csv` | (D) Community impact matrix, 15 groups |
-| `data/organisations.csv` | (E) Organisation and programme map, verified activities only |
+| `data/organisations.csv` | (E) Organisation register: the 21 first-edition rows unchanged plus the atlas; 26 appended columns |
+| `data/projects.csv` | Activity records (J001+): activities, outputs, measured outcomes and evaluation kept apart |
+| `data/organisation-project-roles.csv` | Who did what on each project or funding record, with an exact role and source |
+| `data/funding-flows.csv` | Funder → recipient → project links; amounts only from primary records |
+| `data/org-candidates.csv` | Leads reviewed but not published, and coverage gaps, with reasons |
 | `data/interventions.csv` | (F) Intervention and infrastructure matrix with fund now / test first / not recommended |
 | `data/evidence-map.csv` | Two-dimension evidence ratings with written judgements |
 | `data/evidence-gaps.csv` | (G) Evidence-gap register with proportionate next studies |
@@ -53,7 +57,8 @@ The script exits non-zero if any claim, source or intervention reference fails t
 
 ## Status at the end of Phase 1
 
-- 153 claims from 110 sources; 149 verified (see `VERIFICATION.md`). Regional expansion: countries, programmes, funders, glossary and decision pathways (see `docs/IMPLEMENTATION_REPORT.md`).
+- 222 claims from 180 sources (see `VERIFICATION.md`). Regional expansion: countries, programmes, funders, glossary and decision pathways (see `docs/IMPLEMENTATION_REPORT.md`).
+- Organisations atlas (23 November 2026, same cutoff): 95 organisations, 28 activity records, 106 roles, 41 funding flows and a candidate log (see `docs/organisations-10x-implementation-report.md`; built by `analysis/add_org_atlas.py`).
 - 5 claims remain provisional (C034, C056, C135, C138, C153).
 - Several official sites could not be reached from the research environment: `cpcb.nic.in` (TLS), CEEW PDFs and Lancet pages (blocked), and some NCDC files (missing).
 - Hindi-language sources were searched only lightly.

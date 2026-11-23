@@ -1,0 +1,42 @@
+flow_id,funder_organisation_id,recipient_organisation_id,project_id,funding_instrument,amount,original_currency,commitment_or_disbursement,approval_year,conditions_or_restrictions,public_source_ids,confidence_note
+FL001,coefficient-giving,epic-aq-fund,,grant,1500000,USD,gift (launch),2024,,S125,Recipient's own announcement
+FL002,epic-aq-fund,clean-up-nepal,J001,grant,,,awarded,2025,,S138,Recipient names funder
+FL003,epic-aq-fund,gd-labs,J001,grant,,,awarded,2025,,S134,Funder's awardee page
+FL004,epic-aq-fund,clean-energy-nepal,J002,grant,,,awarded,2025,,S133,Funder's awardee page
+FL005,epic-aq-fund,paqi,J003,grant,,,awarded,2025,,S132,Funder's awardee page
+FL006,epic-aq-fund,urban-unit,J004,grant,,,awarded,2025,,S136,Funder's awardee page
+FL007,epic-aq-fund,university-of-the-punjab,J005,grant,,,awarded,2025,,S135,Funder's awardee page
+FL008,epic-aq-fund,habib-university,J006,grant,,,awarded,2026,,S129,Funder's awardee page
+FL009,epic-aq-fund,smart-air-bangladesh,J007,grant,,,awarded,2026,,S126,Funder's awardee page
+FL010,epic-aq-fund,obhizatrik,J008,grant,,,awarded,2026,,S127,Funder's awardee page
+FL011,epic-aq-fund,sherubtse-college,J009,grant,,,awarded,2025,,S137,Funder's awardee page
+FL012,epic-aq-fund,thingsnode,J010,grant,,,awarded,2026,,S130,Funder's awardee page
+FL013,epic-aq-fund,upm-goaqs,J011,grant,,,awarded,2026,,S128,Funder's awardee page
+FL014,epic-aq-fund,ateneo-asmph,J012,grant,,,awarded,2026,,S131,Funder's awardee page
+FL015,clean-air-fund,mht,J013,grant,,,awarded,2021; 2023,,S116;S120,Funder's grant database (as Mahila Housing Sewa Trust / Gujarat Mahila Housing Sewa Trust)
+FL016,shakti-foundation,respirer,J015,grant,,,funded,2017,,S158,Joint project report
+FL017,dbs-foundation,nafas-indonesia,J016,grant,,,awarded,2023,,S145,Funder group's own release
+FL018,usaid,live-and-learn-vietnam,J021,grant,,,funded (via CAfCA),2021-2023,,S173,Recipient's account
+FL019,usaid,winrock,J022,contract or grant (type not stated),,,funded,2023,,S174,Implementer's account
+FL020,gef,unido,J023,grant,3788990,USD,approved,2022,"Co-financing of US$77,477,969 recorded separately",S176,GEF project record
+FL021,clean-air-fund,cstep,J025,grant,,,awarded,2023,,S116,Funder's grant database
+FL022,clean-air-fund,teri,J025,grant,,,awarded,2023,,S117,Funder's grant database
+FL023,clean-air-fund,epic-india,J025,grant,,,awarded,2023,,S117,Funder's grant database
+FL024,clean-air-fund,cse,J025,grant,,,awarded,2023,,S117,Funder's grant database
+FL025,clean-air-fund,iit-delhi,J025,grant,,,awarded,2023,,S116,Funder's grant database
+FL026,clean-air-fund,iit-kanpur,J025,grant,,,awarded,2021; 2023,,S116;S118;S119,Funder's grant database
+FL027,clean-air-fund,icct,J025,grant,,,awarded,2022,,S119,Funder's grant database
+FL028,clean-air-fund,hcwh,J025,grant,,,awarded,2019; 2023,,S116;S124,Funder's grant database
+FL029,clean-air-fund,cii,J025,grant,,,awarded,2019; 2023,,S116;S123,Funder's grant database
+FL030,clean-air-fund,iclei-south-asia,J025,grant,,,awarded,2021,,S120,Funder's grant database (grant to ICLEI)
+FL031,clean-air-fund,pravah,J025,grant,,,awarded,2021,,S120,Funder's grant database
+FL032,clean-air-fund,sesame-india,J025,grant,,,awarded,2021,,S121,Funder's grant database
+FL033,clean-air-fund,swaniti,J025,grant,,,awarded,2021,,S121,Funder's grant database
+FL034,clean-air-fund,clean-air-asia,J025,grant,,,awarded,2021,,S120,Funder's grant database
+FL035,clean-air-fund,wri-india,J025,grant,,,awarded,2023,,S116,Funder lists World Resources Institute; India entity not named
+FL036,clean-air-fund,vital-strategies,J026,grant,,,awarded,2024,,S112,Funder's grant database
+FL037,clean-air-fund,c40-org,J026,grant,,,awarded,2024,,S112,Funder's grant database
+FL038,clean-air-fund,airparif,J027,grant,,,awarded,2023; 2024,,S114;S115,Funder's grant database
+FL039,clean-air-fund,university-of-dhaka,,grant (to Stockholm University; partner),,,awarded to lead partner,2024,,S092,Partner named in funder listing; direct receipt not established
+FL040,clean-air-fund,iit-bombay,,grant (with IGSD),,,awarded,2025,,S111,Funder's grant database
+FL041,purpose,help-delhi-breathe,,micro-grant,,,paid (as described),2015,,S154,Funder/agency's own account

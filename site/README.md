@@ -1,6 +1,6 @@
 # Clean Air site
 
-A static site generated entirely from `/research` (140 pages in the 22 November 2026 regional edition). The templates hold layout and interface labels. Every finding, rating, figure and piece of copy comes from the research files:
+A static site generated entirely from `/research` (279 pages: the 22 November 2026 regional edition plus the organisations atlas). The templates hold layout and interface labels. Every finding, rating, figure and piece of copy comes from the research files:
 
 - `research/report/*.md`: report sections; each site section renders the report sections listed for it.
 - `research/data/*.csv`: settings, communities, interventions, organisations, portfolios, evidence map, gaps, pathways, economic estimates, claims and sources.
@@ -39,7 +39,9 @@ Output goes to `site/dist/`, which is not committed. The pages use relative link
 | `support/` | report 09, 11; `portfolios.csv`; decision brief; downloads |
 | `start/`, `crisis/glossary.html` | `site-content/start.md`; `glossary.csv` |
 | `places/<country>.html`, `south-asia`, `southeast-asia`, `compare` | `countries.csv` |
-| `organisations/funding/`, `organisations/funders/` | `programmes.csv`, `funders.csv` |
+| `organisations/funding/`, `organisations/funders/` | `programmes.csv`, `funders.csv`, `funding-flows.csv` |
+| `organisations/index.html`, `o/<slug>.html`, `projects/`, `places/`, `gaps/`, `methods/`, `compare.html`, `stories/` | `organisations.csv`, `projects.csv`, `organisation-project-roles.csv`, `funding-flows.csv`, `org-candidates.csv`, `site-content/org-*.md`, `site-content/org-stories/` |
+| `downloads/data/organisations-atlas.json` | Public export of the atlas tables |
 | `what-works/compare.html`, `not-a-solution.html` | `interventions.csv` |
 | `support/pathways/`, journeys | `decision-pathways.csv`; `site-content/stories/` |
 | `evidence/coverage.html` | computed from all registers at build time |

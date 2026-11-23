@@ -95,6 +95,56 @@ for md_ in glob.glob(os.path.join(R, "**", "*.md"), recursive=True) + glob.glob(
     cited |= set(re.findall(r"C\d{3}", open(md_).read()))
 for cid in claims:
     if cid not in cited: warns.append(f"orphan claim {cid} (not cited in tables or text)")
+# ---- organisations atlas gates ----
+CUT = "2026-11-22"
+S_ROWS = {r["source_id"]: r for r in load("sources.csv")}
+for s in S_ROWS.values():
+    d = s["pub_date"][:10]
+    if re.match(r"\d{4}", d) and d > CUT and not d.startswith(CUT[:4] + "-11-2"): errs.append(f"{s['source_id']}: published after cutoff ({d})")
+    if not re.match(r"https?://", s["url"]): errs.append(f"{s['source_id']}: malformed URL")
+if os.path.exists(os.path.join(D, "projects.csv")):
+    orgs = load("organisations.csv"); O = {}
+    CATS = {"community", "ngo", "research", "public", "funder", "multilateral", "private", "network"}
+    countries_ok = {r["country_id"] for r in load("countries.csv")} | {"global", "regional", "maldives", "timor-leste"}
+    for i, o in enumerate(orgs, 2):
+        if o["org_id"] in O: errs.append(f"organisations.csv:{i} duplicate id {o['org_id']}")
+        O[o["org_id"]] = o
+        if not o.get("slug") or not re.fullmatch(r"[a-z0-9-]+", o["slug"]): errs.append(f"organisations.csv:{i} missing/bad slug")
+        if o.get("category") not in CATS: errs.append(f"organisations.csv:{i} bad category {o.get('category')}")
+        for cc in filter(None, (o.get("countries_active", "") + ";" + o.get("hq_country", "")).split(";")):
+            if cc not in countries_ok: errs.append(f"organisations.csv:{i} unknown country {cc}")
+        if o.get("website") and not o["website"].startswith("https://"): errs.append(f"organisations.csv:{i} insecure or malformed website")
+        if not o.get("summary"): errs.append(f"organisations.csv:{i} empty summary")
+        if o.get("category") == "private" and re.search(r"\b(proven|effective|best|impactful|verified)\b", o.get("summary", "") + o.get("why_it_matters", ""), re.I):
+            errs.append(f"organisations.csv:{i} promotional wording in company record")
+        if o.get("category") == "private" and o.get("record_origin", "").startswith("atlas") and "independent" in o.get("source_class", "") and not o.get("independent_test"):
+            errs.append(f"organisations.csv:{i} claims independent source without a named test")
+    projs = {r["project_id"]: r for r in load("projects.csv")}
+    progs = {r["programme_id"] for r in load("programmes.csv")}
+    for pid, p in projs.items():
+        if not p["claim_ids"]: errs.append(f"projects.csv {pid}: no claims")
+        if p["cost_amount"] and not (p["cost_currency"] and p["cost_type"] and p["source_ids"]): errs.append(f"projects.csv {pid}: amount without currency/type/source")
+        if p["status"].startswith(("operating", "active")) and p["end_date"] and p["end_date"] < CUT[:7]: errs.append(f"projects.csv {pid}: ended but labelled {p['status']}")
+        if p["air_quality_objective"] not in ("primary", "co-benefit", "unverified co-benefit"): errs.append(f"projects.csv {pid}: bad air_quality_objective")
+        if re.search(r"\d", p["outcomes_measured"]) and "independent" not in p["evaluation_type"].lower() and "organisation-reported" not in p["outputs_reported"]:
+            warns.append(f"projects.csv {pid}: numeric outcome without independent evaluation — check wording")
+    ROLES_OK = {"grantmaker", "co-funder", "lender", "borrower", "implementer", "delivery partner", "technical partner", "supplier", "evaluator",
+                "regulator", "public duty holder", "operator", "network member"}
+    for i, r in enumerate(load("organisation-project-roles.csv"), 2):
+        if r["organisation_id"] not in O: errs.append(f"roles:{i} unknown organisation {r['organisation_id']}")
+        if r["project_id"] not in projs and r["project_id"] not in progs: errs.append(f"roles:{i} unknown project {r['project_id']}")
+        if r["role"] not in ROLES_OK: errs.append(f"roles:{i} missing or unknown role '{r['role']}'")
+        if not r["source_ids"]: errs.append(f"roles:{i} no source")
+    for i, f in enumerate(load("funding-flows.csv"), 2):
+        for k in ("funder_organisation_id", "recipient_organisation_id"):
+            if f[k] and f[k] not in O: errs.append(f"flows:{i} unknown organisation {f[k]}")
+        if f["project_id"] and f["project_id"] not in projs and f["project_id"] not in progs: errs.append(f"flows:{i} unknown project {f['project_id']}")
+        if not f["public_source_ids"]: errs.append(f"flows:{i} no source")
+        for sid in f["public_source_ids"].split(";"):
+            if sid not in src: errs.append(f"flows:{i} unknown source {sid}")
+            elif f["amount"] and S_ROWS[sid]["access_status"] == "search-snippet-only": errs.append(f"flows:{i} amount rests on a snippet")
+        if f["amount"] and not (f["original_currency"] and f["approval_year"] and f["commitment_or_disbursement"]): errs.append(f"flows:{i} amount without currency/year/stage")
+    print(f"atlas: {len(O)} organisations, {len(projs)} projects, {len(load('organisation-project-roles.csv'))} roles, {len(load('funding-flows.csv'))} flows")
 print(f"{len(claims)} claims, {len(src)} sources, {len(ints)} interventions")
 for w in sorted(set(warns)): print("WARN", w)
 for e in errs: print("ERROR", e)

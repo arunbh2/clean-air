@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ j.title }}</h1>
+<p class="org-meta sans">Activity record {{ j.project_id }} · {{ cname(j.country) }} · {{ j.specific_location }}</p>
+<section class="layer simple" aria-label="In short"><p class="simple-answer">{{ j.short_plain_language_description }} {{ j.claim_ids|claims(rel)|safe }}</p>
+<p class="layer-meta"><strong>Status:</strong> {{ j.status }} · {{ j.start_date or 'start not stated' }}{% if j.end_date %} to {{ j.end_date }}{% endif %} · <strong>Air quality is</strong> {{ {'primary':'the main aim','co-benefit':'a co-benefit, not the main aim','unverified co-benefit':'a possible, unverified co-benefit'}[j.air_quality_objective] }}</p></section>
+<section aria-labelledby="who-h" class="section-rule"><h2 id="who-h">Who is involved, and in what role</h2>
+<ul>{% for r in jroles %}<li><a href="../o/{{ O_BY[r.organisation_id].slug }}.html">{{ O_BY[r.organisation_id].organisation }}</a>: <strong>{{ r.role }}</strong>{% if r.role_description %}, {{ r.role_description }}{% endif %} <span class="muted small">({{ r.verification_status }}; {{ r.source_ids|replace(';', ', ') }})</span></li>{% endfor %}</ul>
+<p><strong>Meant to benefit:</strong> {{ j.target_groups }}. <strong>Intended change:</strong> {{ j.intended_change }}.</p>
+</section>
+<section aria-labelledby="chg-h" class="section-rule"><h2 id="chg-h">What changed, and how do we know?</h2>
+<table class="data four-rows"><caption class="visually-hidden">Activities, outputs, outcomes and evaluation</caption><tbody>
+<tr><th scope="row">Activities</th><td>{{ j.activities }}</td></tr>
+<tr><th scope="row">Outputs</th><td>{{ j.outputs_reported or 'None reported' }}</td></tr>
+<tr><th scope="row">Measured outcomes</th><td>{{ j.outcomes_measured }}</td></tr>
+<tr><th scope="row">Independent evaluation</th><td>{{ j.evaluation_type }}</td></tr>
+</tbody></table>
+</section>
+<section aria-labelledby="pay-h" class="section-rule"><h2 id="pay-h">Who pays, builds and keeps it running</h2>
+{% if jflows %}<ul class="flow-list">{% for f in jflows %}<li class="flow"><span class="flow-node"><a href="../o/{{ O_BY[f.funder_organisation_id].slug }}.html">{{ O_BY[f.funder_organisation_id].organisation }}</a></span> <span class="flow-arrow" aria-hidden="true">→</span><span class="visually-hidden"> to </span> <span class="flow-node">{% if f.recipient_organisation_id %}<a href="../o/{{ O_BY[f.recipient_organisation_id].slug }}.html">{{ O_BY[f.recipient_organisation_id].organisation }}</a>{% else %}Recipient not established{% endif %}</span><br><span class="sans small">{{ f.funding_instrument|capitalize }} · {{ fmt_flow(f) }} · {{ f.confidence_note }}</span></li>{% endfor %}</ul>{% endif %}
+<dl class="kv"><dt>Funding visibility</dt><dd>{{ j.funding_visibility }}</dd>
+{% if j.cost_amount %}<dt>Amount</dt><dd>{{ j.cost_currency }} {{ "{:,.0f}".format(j.cost_amount|float) }} ({{ j.cost_type }})</dd>{% endif %}
+<dt>Who pays running costs</dt><dd>{{ j.continuing_cost_owner }}</dd></dl>
+</section>
+<section aria-labelledby="unc-h" class="section-rule"><h2 id="unc-h">What remains uncertain</h2><p>{{ j.limitations }}</p>
+{% if jstory %}<p class="sans">Featured in: {% for s in jstory %}<a href="../stories/{{ s.id }}.html">{{ s.title }}</a>{% endfor %}</p>{% endif %}</section>
+<section aria-labelledby="src-h" class="section-rule"><h2 id="src-h">Evidence</h2>
+<ul class="small">{% for c in jclaims %}<li>{{ c.claim }} {{ c.claim_id|claims(rel)|safe }}</li>{% endfor %}</ul>
+<p class="muted small">Last checked 2026-11-23 · research cutoff {{ CUTOFF }}.</p></section>
+{% endblock %}
