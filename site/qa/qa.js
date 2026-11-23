@@ -182,7 +182,7 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   pass('home page under 150 KB including CSS, JS and logos', home < 150000, `${Math.round(home / 1024)} KB`);
   // axe summary
   const axeCount = Object.values(results.axe).reduce((n, v) => n + v.length, 0);
-  pass('no axe WCAG 2.1 A/AA violations', axeCount === 0, axeCount + ' violation types across ' + Object.keys(results.axe).length + ' pages');
+  pass('no axe WCAG 2.1 and 2.2 A/AA violations', axeCount === 0, axeCount + ' violation types across ' + Object.keys(results.axe).length + ' pages');
   await browser.close();
   results.external = [...new Set(results.external)].length;
   pages.forEach(p => delete results[p]);

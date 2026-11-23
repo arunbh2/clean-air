@@ -398,7 +398,7 @@ env.globals.update(CAT_LABEL=CAT_LABEL, SYS_LABEL=SYS_LABEL, cname=cname, proj_r
                    O_BY=O_BY, J_BY=J_BY, R_BY_ORG=R_BY_ORG, R_BY_PROJ=R_BY_PROJ, FL_BY_ORG=FL_BY_ORG, split=split)
 def fmt_flow(f):
     if not f["amount"]: return "Amount not publicly disclosed"
-    n = float(f["amount"]); return f"{f['original_currency']} {n/1e6:,.2f} million ({f['commitment_or_disbursement']}, {f['approval_year']})"
+    n = float(f["amount"]); return f"{f['original_currency']} {n/1e6:,.2f} million"
 env.globals["fmt_flow"] = fmt_flow
 stories = []
 for fn in sorted(os.listdir(os.path.join(RES, "site-content", "org-stories"))):
