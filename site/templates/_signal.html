@@ -1,0 +1,22 @@
+{# One Latest Signals record. Source text is escaped by autoescape; the title sits in <cite> because it is the publisher's wording. #}
+{% macro sig_item(r, rel, compact=False, anchor=True) -%}
+<li class="sig"{% if anchor %} id="{{ r.signal_id }}"{% endif %} data-view="{{ r._view }}" data-country="{{ (r.countries + (['regional'] if r.cross_border_region else []))|join(' ') }}" data-theme="{{ r.subjects|join(' ') }}" data-org="{{ r._org_type }}" data-search="{{ r._search }}">
+<p class="sig-meta"><span class="tag">{{ SIG_TYPE_LABEL[r.source_type] }}</span> {{ r.publisher }}{% if r.journal and r.journal != r.publisher and not compact %} · <cite>{{ r.journal }}</cite>{% endif %}{% if r.source_registry_id in ('europepmc', 'crossref', 'openalex') and not compact %} <span class="muted">(via {{ {'europepmc': 'Europe PMC', 'crossref': 'Crossref', 'openalex': 'OpenAlex'}[r.source_registry_id] }})</span>{% endif %} · {% if r.published_at %}<time datetime="{{ r.published_at[:10] }}">{{ r._date }}</time>{% else %}Date unknown{% endif %}{% if r.date_basis == 'article address' %} <span class="muted">(date read from the article address)</span>{% endif %}{% if r.date_flag == 'future-dated' %} <span class="muted">(the source gives a future date; shown outside the timeline)</span>{% elif r.date_flag == 'ahead of retrieval' %} <span class="muted">(source time stamp is ahead of retrieval time, likely a time-zone label)</span>{% endif %}</p>
+<h3 class="sig-title"><a href="{{ r.canonical_url }}" rel="noopener external"><cite>{{ r.title_original }}</cite></a></h3>
+{% if not compact %}<p class="sig-tags">Places: {% if r.countries %}{% for c in r.countries %}{{ SIG_COUNTRY_LABEL[c] }}{% if not loop.last %}, {% endif %}{% endfor %}{% if r.cross_border_region %}; regional or cross-border{% endif %}{% elif r.cross_border_region %}Regional or cross-border{% else %}No place tagged{% endif %}{% if r.subjects %} · Topics: {% for t in r.subjects %}{{ SIG_THEME_LABEL[t] }}{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</p>{% endif %}
+<p class="sig-status">{{ SIG_REVIEW_LABEL[r.review_status] }} · {{ SIG_PROV_LABEL[r.provenance_kind] }}{% if r.correction_status %} · <strong>Publisher notice: {{ r.correction_status }}</strong>{% endif %}{% if r.also_listed_by and not compact %} · also listed by {{ r.also_listed_by|length }} other index{{ 'es' if r.also_listed_by|length > 1 }}{% endif %}</p>
+{% if r.why_it_may_matter %}<div class="sig-note notice"><p><strong>Why it may matter (Clean Air's interpretation, reviewed {{ r.reviewed_on }}):</strong> {{ r.why_it_may_matter }}</p>{% if r.note_source_refs %}<p class="small">Based on: {{ r.note_source_refs|claims(rel)|safe }}</p>{% endif %}</div>{% endif %}
+{% if r.study and not compact %}<details class="q"><summary>What the study actually tested</summary><dl class="facts"><dt>Question</dt><dd>{{ r.study.question }}</dd><dt>Design</dt><dd>{{ r.study.design }}</dd><dt>Measured outcomes</dt><dd>{{ r.study.outcomes }}</dd><dt>Limits</dt><dd>{{ r.study.limits }}</dd></dl></details>{% endif %}
+{% if r.funding_review and not compact %}<p class="small">Follow the money: stage stated in the source <strong>{{ r.funding_review.funding_stage }}</strong>{% if r.funding_review.announced_amount %}, {{ r.funding_review.currency }} {{ r.funding_review.announced_amount }}{% endif %}{% if r.funding_review.recipient %}, recipient {{ r.funding_review.recipient }}{% endif %}. Not part of any verified total.</p>{% endif %}
+{% if r.related_signal_ids and not compact %}<p class="sig-rel small">{% for x in r.related_signal_ids %}{% set o = SIG_BY_ID.get(x.signal_id) %}{% if o %}{{ x.relation|capitalize }}: <a href="{{ rel }}{{ o._page }}#{{ o.signal_id }}">{{ o.publisher }}, {{ o._date }}</a>{% if not loop.last %} · {% endif %}{% endif %}{% endfor %}</p>{% endif %}
+</li>
+{%- endmacro %}
+
+{% macro sig_list(items, rel, heading, note, more_href, limit=5, hid="sig-related") -%}
+{% if items %}
+<section class="section-rule sig-context" aria-labelledby="{{ hid }}"><h2 id="{{ hid }}">{{ heading }}</h2>
+<p class="muted small">{{ note }}</p>
+<ul class="sig-list">{% for r in items[:limit] %}{{ sig_item(r, rel, True, False) }}{% endfor %}</ul>
+<p class="sans small"><a href="{{ rel }}{{ more_href }}">{{ "More new sources awaiting assessment" if "awaiting" in more_href else "All latest signals" }}</a> · <a href="{{ rel }}signals/how-it-works.html">How this feed works</a></p></section>
+{% endif %}
+{%- endmacro %}

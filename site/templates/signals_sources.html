@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title }}</h1>
+<p class="deck">{{ description }}</p>
+<div class="notice"><p><strong>Last successful refresh:</strong> {{ sig_stamp(SIG_LAST) }}. Last run: {{ {'ok': 'every enabled source was read', 'partial': 'some sources could not be read', 'all sources failed': 'no source could be read', 'schema violation': 'output did not pass validation and was not published'}.get(SIG_STATUS.get('last_run_outcome'), 'not recorded') }}. A source that could not be read at its last check keeps its earlier records.</p></div>
+<section class="section-rule" aria-labelledby="on"><h2 id="on">Sources checked on each refresh ({{ enabled|length }})</h2>
+<div class="table-wrap"><table>
+<caption>Enabled sources, in registry order. Not a ranking.</caption>
+<thead><tr><th scope="col">Source</th><th scope="col">Kind</th><th scope="col">Access</th><th scope="col">Scope</th><th scope="col">Last successful check</th><th scope="col">Last result</th><th scope="col">Records held</th></tr></thead>
+<tbody>{% for s in enabled %}{% set st = SIG_STATUS.sources.get(s.id, {}) %}<tr id="src-{{ s.id }}"><th scope="row"><a href="{{ s.homepage or s.endpoint }}" rel="noopener external">{{ s.name }}</a><br><span class="small muted">{{ s.publisher }}</span></th>
+<td>{{ SIG_ORGTYPE_LABEL.get(s.org_type, s.org_type) }}; {{ SIG_PROV_LABEL.get(s.provenance_kind, s.provenance_kind) }}</td>
+<td>{{ access_label[s.access] }}</td><td>{{ 'South or Southeast Asia' if s.scope == 'regional' else 'Global, filtered by place' }}</td>
+<td>{{ sig_stamp(st.get('last_success_at')) }}</td><td>{{ sig_result(st.get('last_result')) }}</td><td>{{ held.get(s.id, 0) }}</td></tr>{% endfor %}</tbody></table></div>
+<p class="muted small">Every enabled endpoint was tested before it was switched on; the test date, HTTP status and result are in <a href="{{ rel }}downloads/data/signals-sources.yml">the source registry</a>. Only titles, dates, publishers and links are stored.</p></section>
+<section class="section-rule" aria-labelledby="off"><h2 id="off">Tested and not enabled ({{ disabled|length }})</h2>
+<div class="table-wrap"><table><caption>Candidate sources and why they are not fetched automatically.</caption>
+<thead><tr><th scope="col">Source</th><th scope="col">Tested</th><th scope="col">What happened</th><th scope="col">Status</th></tr></thead>
+<tbody>{% for s in disabled %}<tr><th scope="row">{{ s.name }}<br><span class="small muted">{{ s.publisher }}</span></th><td>{{ s.test.date }}, HTTP {{ s.test.status or 'no response' }}</td><td>{{ s.test.result }}</td><td>{{ s.status_note or 'Not enabled' }}</td></tr>{% endfor %}</tbody></table></div></section>
+<section class="section-rule" aria-labelledby="cov"><h2 id="cov">Coverage by place</h2>
+<p>Records currently held that name each place, in alphabetical order. These counts describe what the enabled feeds carry, not how much research or action exists, and they are not a comparison between countries.</p>
+<div class="table-wrap"><table><caption>Records by place tag</caption><thead><tr><th scope="col">Place</th><th scope="col">Records</th><th scope="col">Feeds that cover it directly</th></tr></thead>
+<tbody>{% for c, label, n, direct in coverage %}<tr><th scope="row">{{ label }}</th><td>{{ n }}</td><td>{{ direct or 'None; only global indexes' }}</td></tr>{% endfor %}</tbody></table></div>
+{{ blind|safe }}</section>
+{% endblock %}

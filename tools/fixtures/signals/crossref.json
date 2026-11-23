@@ -1,0 +1,6 @@
+{"status":"ok","message-type":"work-list","message":{"items":[
+{"DOI":"10.1000/ABC.2026.1","title":["Fine particulate (PM2.5) exposure and childhood asthma in Dhaka, Bangladesh"],"type":"journal-article","container-title":["Fixture Journal of Environmental Health"],"published-online":{"date-parts":[[2026,11,10]]},"publisher":"Fixture Press"},
+{"DOI":"10.1000/RETRACT.1","title":["Retraction notice: Brick kiln emissions and air pollution in the Kathmandu Valley, Nepal"],"type":"journal-article","container-title":["Fixture Atmospheric Letters"],"published-online":{"date-parts":[[2026,11,21]]},"update-to":[{"DOI":"10.1000/old.2024.9","type":"retraction"}]},
+{"DOI":"10.1000/future.1","title":["Air pollution projections for Indonesia"],"type":"journal-article","issued":{"date-parts":[[2027,12]]}},
+{"DOI":"10.1000/global.1","title":["Global air pollution burden across 200 countries"],"type":"journal-article","issued":{"date-parts":[[2026,11]]},"abstract":"India, Bangladesh, Nepal, Pakistan, Indonesia and Thailand among others."}
+]}}

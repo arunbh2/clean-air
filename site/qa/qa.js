@@ -64,6 +64,25 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   await page.selectOption('select[data-key="rec"]', 'Fund now');
   const shown = await page.locator('#int-list > li:not([hidden])').count();
   pass('intervention filter shows only "Fund now" items', shown === fundNow, `${shown} shown vs ${fundNow} in CSV`);
+  // latest signals: list readable without JS, filters narrow, no-results message, honest refresh stamp
+  {
+    const nojs = await browser.newContext({ javaScriptEnabled: false }); const np = await nojs.newPage();
+    await np.goto(url('signals/index.html'));
+    const staticItems = await np.locator('#sig-all > li').count(); const formHidden = await np.locator('[data-sig-filter]').isHidden();
+    pass('signals list readable without JavaScript (filters hidden, records shown)', staticItems > 0 && formHidden, `${staticItems} records`);
+    await nojs.close();
+    await page.goto(url('signals/index.html'));
+    const total = await page.locator('#sig-all > li').count();
+    await page.fill('[data-sig-filter] [data-q]', 'zzqqxx-no-match');
+    const none = await page.locator('#sig-all-none').isVisible(), zero = await page.locator('#sig-all > li:not([hidden])').count();
+    await page.fill('[data-sig-filter] [data-q]', '');
+    await page.selectOption('[data-sig-filter] select[data-f="view"]', 'research');
+    const research = await page.locator('#sig-all > li:not([hidden])').count();
+    const allResearch = await page.locator('#sig-all > li:not([hidden])').evaluateAll(l => l.every(x => x.getAttribute('data-view') === 'research'));
+    pass('signals filters narrow and announce no matches', zero === 0 && none && research < total && allResearch, `${research} research of ${total}`);
+    const stamp = await page.getAttribute('.sig-refresh', 'data-refreshed');
+    pass('signals page shows a dated refresh, not "live"', /^\d{4}-\d{2}-\d{2}T/.test(stamp || '') && !/updated just now|real-time/i.test(await page.textContent('main')), stamp);
+  }
   // organisations explorer: every filter narrows, presets work, no-results state is announced
   await page.goto(url('organisations/index.html'));
   const totalOrgs = await page.locator('#org-list > li').count();
@@ -159,7 +178,7 @@ const fail = []; const pass = (name, ok, detail = '') => { results.functional.pu
   const z = await mob.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   pass('home page has no horizontal scroll with text at 200%', z <= 0, `${z}px`);
   // 4b. three-audience browser checks: 320/375/768/1280 with text at 200%, keyboard focus, reduced motion, rendered type size
-  const REP = ['index.html', 'organisations/index.html', 'organisations/o/clean-up-nepal.html', 'evidence/claims.html', 'packs/questions/bangladesh-funding.html',
+  const REP = ['index.html', 'signals/index.html', 'organisations/index.html', 'organisations/o/clean-up-nepal.html', 'evidence/claims.html', 'packs/questions/bangladesh-funding.html',
                'packs/questions/low-cost-sensors.html', 'what-works/smog-towers.html', 'about/corrections.html', 'for-ai/index.html', 'people/construction-workers.html', 'systems-map/index.html', 'systems-map/links.html', 'systems-map/journeys/street-vendor.html', 'systems-map/levers/kiln-transition.html', 'places/where-air-comes-from.html', 'what-works/four-is.html', 'what-works/delivery.html', 'evidence/breath-of-change.html'];
   const zoomFail = [];
   for (const w of [320, 375, 768, 1280]) {

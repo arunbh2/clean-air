@@ -1,0 +1,228 @@
+# Latest Signals: classification rules. Inspectable, rule-based, precision before volume.
+# Patterns are Python regular expressions, matched case-insensitively unless the key ends in _cs (case-sensitive).
+# A record is included only when it meets every requirement its source declares in sources.yml (pollution, place),
+# no exclusion applies, and its link is a valid HTTPS URL. Every decision is recorded with its reason.
+# Country tags need the country, a city or a state in the title or the source's own summary. A regional term
+# ("South Asia", "Indo-Gangetic", "ASEAN") sets the Regional/Cross-border tag, never a country tag.
+
+pollution_terms:
+  - 'air pollut'
+  - 'air quality'
+  - '\bclean air\b'
+  - 'pm ?2\.5'
+  - '\bpm ?10\b'
+  - 'particulate'
+  - '\bsmog'
+  - '\bhaze\b'
+  - 'black carbon'
+  - '\bsoot\b'
+  - 'nitrogen dioxide'
+  - '\bno2\b'
+  - 'ground-level ozone|ozone pollution'
+  - 'sulph?ur dioxide|\bso2\b'
+  - '\baqi\b|air quality index'
+  - 'stubble burning|stubble fire|crop[- ]residue burning|crop burning|paddy straw|farm fires?'
+  - 'brick kilns?'
+  - 'cookstove|clean cooking|household air|solid fuels?|indoor air'
+  - 'vehicular emissions|vehicle emissions|exhaust emissions|tailpipe'
+  - '\bairshed'
+  - 'toxic air|dirty air|breathable air'
+  - 'dust pollution|road dust'
+  - 'wildfire smoke|forest fire smoke|peat(land)? fires?|transboundary haze'
+  - 'air purifier'
+  - '\bgrap\b|graded response action plan'
+  - '\bncap\b|national clean air programme'
+
+exclude_terms:            # excluded unless a specific air-pollution term above is also in the title
+  - 'water pollution'
+  - 'plastic pollution'
+  - 'noise pollution'
+  - 'light pollution'
+  - 'soil pollution'
+exclude_always:           # excluded whatever else matches
+  - 'tobacco|smoking cessation|e-cigarette'
+  - 'sensex|nifty|stock price|share price|shares (rose|fell|surge|slump)'
+  - '\bair force\b|\bair ?strike|\bairline|\bair india\b|air traffic'
+  - 'tomato leaf curl'
+  - 'sediment|wastewater|groundwater|seawater|river water|aquatic'
+out_of_scope_places:      # a title naming one of these, and no place in scope, is excluded (the summary may mention India in passing)
+  - '\bchina\b|chinese|beijing|shanghai|hebei|guangzhou|hong kong|taiwan|mongolia'
+  - '\bafrica|ghana|nigeria|kenya|ethiopia|egypt|uganda|south africa'
+  - '\beurope|united states|america|canada|mexico|brazil|chile|peru|colombia'
+  - '\bkorea|japan|iran|turkey|t\u00fcrkiye|saudi|yemen|iraq|israel|australia|\buk\b|united kingdom|england|germany|france|italy|spain|poland|sarajevo|bosnia|texas|california'
+instruction_like:         # titles that read like instructions to an automated system are held back for review
+  - 'ignore (all |any )?(previous|prior|above) instructions'
+  - 'system prompt'
+  - 'you are (now )?(an?|the) (ai|assistant|language model)'
+  - '<\s*script'
+
+countries:
+  india:
+    label: India
+    patterns: ['\bindia\b(?! ocean)', '\bindian\b(?! ocean)', '\bdelhi\b', '\bncr\b', 'mumbai', 'kolkata', 'chennai', 'bengaluru|bangalore', 'uttar pradesh', '\bbihar\b', 'haryana', 'lucknow', 'kanpur', '\bpatna\b', 'ahmedabad', 'gujarat', 'maharashtra', '\bpune\b', 'jharkhand', 'rajasthan', 'chandigarh', 'odisha', 'kerala', 'tamil nadu', 'karnataka', 'telangana', 'west bengal']
+  bangladesh:
+    label: Bangladesh
+    patterns: ['bangladesh', '\bdhaka\b', 'chattogram|chittagong', 'gazipur', 'narayanganj']
+  nepal:
+    label: Nepal
+    patterns: ['\bnepal', 'kathmandu', '\bterai\b', 'pokhara', 'lalitpur']
+  pakistan:
+    label: Pakistan
+    patterns: ['pakistan', '\blahore\b', 'karachi', 'islamabad', 'peshawar', 'faisalabad', 'khyber pakhtunkhwa', '\bsindh\b']
+  bhutan:
+    label: Bhutan
+    patterns: ['bhutan', 'thimphu']
+  sri-lanka:
+    label: Sri Lanka
+    patterns: ['sri lanka', '\bcolombo\b']
+  indonesia:
+    label: Indonesia
+    patterns: ['indonesia', 'jakarta', 'sumatra', 'kalimantan', '\briau\b', 'surabaya']
+  thailand:
+    label: Thailand
+    patterns: ['thailand', 'bangkok', 'chiang mai', '\bthai\b']
+  vietnam:
+    label: Vietnam
+    patterns: ['vietnam', 'viet nam', '\bhanoi\b', 'ho chi minh']
+  philippines:
+    label: Philippines
+    patterns: ['philippines?', '\bmanila\b', 'quezon city', '\bcebu\b']
+  cambodia:
+    label: Cambodia
+    patterns: ['cambodia', 'phnom penh']
+  laos:
+    label: Laos
+    patterns: ['\blaos\b', 'lao pdr', 'vientiane']
+  malaysia:
+    label: Malaysia
+    patterns: ['malaysia', 'kuala lumpur', '\bsarawak\b', '\bsabah\b']
+  singapore:
+    label: Singapore
+    patterns: ['singapore']
+  myanmar:
+    label: Myanmar
+    patterns: ['myanmar', '\bburma\b', 'yangon']
+ambiguous_places:         # matched, recorded, never turned into a country tag on their own
+  - 'punjab'
+  - 'hyderabad'
+  - 'borneo'
+  - 'kashmir'
+regional_terms:
+  - 'south asia'
+  - 'south[- ]east asia|southeast asia'
+  - 'indo-gangetic|gangetic plain'
+  - 'himalaya|hindu kush'
+  - '\basean\b'
+  - '\bmekong\b'
+crossborder_terms:        # set the cross-border flag only together with a country or named region; never a place on their own
+  - 'transboundary|cross-border|across borders'
+
+# Themes: label, title/summary patterns, and the existing records they point to as discovery context only.
+# related_interventions -> research/data/interventions.csv int_id; related_groups -> community-impacts.csv group_id;
+# related_nodes -> research/systems-map/nodes.csv node_id. A match is a topic association, never evidence.
+themes:
+  exposure:
+    label: PM2.5 and exposure
+    patterns: ['pm ?2\.5', 'particulate', 'exposure', '\baqi\b', 'air quality index', 'concentration']
+    related_nodes: [ambient]
+  sources-airsheds:
+    label: Source apportionment and airsheds
+    patterns: ['source apportionment', 'airshed', 'emission inventor', 'source contribution', 'sources of (air )?pollution', 'secondary (aerosol|particle)']
+    related_interventions: [airshed-management-plans]
+    related_nodes: [airshed, secondary, inventory-gaps]
+  health:
+    label: Health
+    patterns: ['mortality', 'deaths?\b', 'hospital', 'asthma', 'respiratory', 'cardio', '\blung', 'health', 'disease', 'pneumonia', 'stroke', 'cancer', 'dementia', 'life expectancy']
+    related_interventions: [health-readiness]
+    related_nodes: [mortality, lung-harm]
+  children-schools:
+    label: Children and schools
+    patterns: ['\bchild', 'school', 'student', 'infant', 'newborn', 'birth weight', 'preterm', 'pregnan']
+    related_interventions: [classroom-purifiers, school-education]
+    related_groups: [children, pregnant-women]
+    related_nodes: [school-exposure, child-health, birth-outcomes]
+  livelihoods-workers:
+    label: Livelihoods and workers
+    patterns: ['worker', 'labou?r', 'livelihood', 'vendor', 'informal sector', 'occupational', '\bwages?\b', 'income', 'gig ', 'delivery riders?']
+    related_interventions: [occupational-protection, restriction-income-design, worker-community-voice]
+    related_groups: [street-vendors, construction-workers, roadside-mobile-workers]
+    related_nodes: [work-exposure, wage-loss]
+  clean-cooking:
+    label: Clean cooking
+    patterns: ['cooking', 'cookstove', '\blpg\b', 'solid fuel', 'biomass fuel', 'household air', 'firewood', 'ujjwala']
+    related_interventions: [clean-cooking-sustained]
+    related_groups: [home-based-workers]
+    related_nodes: [household-fuel, indoor-exposure]
+  kilns-industry:
+    label: Brick kilns and industry
+    patterns: ['kiln', 'industr', 'factor(y|ies)', 'boiler', 'power plant', 'coal plant', 'thermal plant', 'steel', 'cement', 'smelter']
+    related_interventions: [kiln-transition, industrial-boiler-transition, continuous-emissions-monitoring]
+    related_groups: [kiln-small-manufacturing]
+    related_nodes: [kilns, industry]
+  transport:
+    label: Transport
+    patterns: ['vehic', 'traffic', 'transport', 'diesel', 'electric bus', 'e-bus', 'electric vehicle', '\bevs?\b', 'motorcycle', 'fuel standard', 'odd-even', 'commut']
+    related_interventions: [e-bus-fleet-renewal, vehicle-inspection-maintenance]
+    related_groups: [roadside-mobile-workers]
+    related_nodes: [vehicles, roadside-exposure]
+  agriculture:
+    label: Agriculture, ammonia and crop burning
+    patterns: ['stubble', 'crop residue', 'crop burning', 'paddy', 'farm fires?', 'ammonia', 'fertili[sz]', 'agricultur', 'farmer']
+    related_interventions: [residue-machinery, crop-residue-markets]
+    related_groups: [agricultural-workers]
+    related_nodes: [crop-burning, fertilizer-manure]
+  waste:
+    label: Waste
+    patterns: ['waste', 'garbage', 'landfill', 'open burning', 'trash']
+    related_interventions: [entitlement-enrolment]
+    related_groups: [waste-pickers, sanitation-workers]
+    related_nodes: [waste-burning]
+  monitoring:
+    label: Monitoring and sensors
+    patterns: ['sensor', 'monitor', 'satellite', 'measurement', 'forecast']
+    related_interventions: [low-cost-sensors-action, community-led-monitoring]
+    related_nodes: [monitoring-gaps]
+  justice:
+    label: Environmental justice
+    patterns: ['inequal', 'poorest', '\bpoor\b', '\bslums?\b', 'informal settlement', 'marginali', 'justice', 'vulnerable', 'homeless']
+    related_groups: [informal-settlements, homeless]
+    related_nodes: [unequal-protection]
+  governance:
+    label: Policy and governance
+    patterns: ['polic(y|ies)', 'regulat', '\blaw\b', '\bcourt\b', 'supreme court', '\bplan\b', 'programme', '\bncap\b', '\bgrap\b', 'standards?\b', '\bban\b', 'enforce', 'ministry', 'government', 'tribunal', '\bngt\b']
+    related_interventions: [airshed-management-plans, independent-evaluation]
+    related_nodes: [enforcement, fragmented-action]
+  finance:
+    label: Finance
+    patterns: ['\bfund', 'grant', '\bloan', 'invest', 'financ', '\bbond', 'philanthrop', 'donor', 'budget']
+  cross-border-smoke:
+    label: Cross-border smoke and haze
+    patterns: ['\bhaze\b', 'transboundary', 'cross-border', 'forest fire', 'wildfire', 'peat']
+    related_nodes: [airshed]
+  indoor-protection:
+    label: Indoor protection
+    patterns: ['purifier', 'indoor', 'filtration', '\bmasks?\b', 'shelter']
+    related_interventions: [classroom-purifiers, mass-masks, new-clean-air-shelters, night-shelter-filtration]
+    related_nodes: [indoor-exposure]
+  climate:
+    label: Climate co-benefits
+    patterns: ['climate', 'methane', 'net zero', 'net-zero', 'co-benefit', 'greenhouse', 'decarboni']
+  dust-construction:
+    label: Dust and construction
+    patterns: ['\bdust\b', 'construction']
+    related_groups: [construction-workers]
+    related_nodes: [dust]
+
+# Item type refinement for institutional and NGO sources (news sources stay "news"; research APIs stay research or preprint).
+type_rules:
+  funding: '\bgrants?\b|\bloans?\b|financing|\bfunding\b|\bpledges?\b|\binvestment\b|\bbonds?\b|philanthrop'
+  policy: '\bpolic(y|ies)\b|regulat|\blaw\b|\brules?\b|\bban\b|\bcourt\b|ministry|notif|\bstandards?\b|\bguidelines?\b|\bdirective\b|\bstrategy\b|action plan'
+  report: '\breport\b|\bstudy\b|\banalysis\b|\bassessment\b|\bindex\b|\bsurvey\b|\breview\b|\bbrief\b|\bdata\b|\bpaper\b'
+
+views:                     # the five reader views plus All
+  news: News
+  research: Research
+  report: Reports
+  policy: Policy and practice
+  funding: Funding and partnerships
+view_of_type: {news: news, research: research, preprint: research, report: report, policy: policy, project: policy, funding: funding, other: news}

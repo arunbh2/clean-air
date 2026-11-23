@@ -10,7 +10,7 @@ use_when:
 do_not_use_for:
   - "Medical advice or personal health decisions. Point to a health professional or official health advisory."
   - "Investment or grant decisions without reading the underlying sources and the decision brief's caveats."
-  - "Current air quality readings or forecasts. The site is a dated evidence edition, not a live feed."
+  - "Current air quality readings or forecasts. The evidence edition is dated; the latest signals section lists third-party publications on a schedule and carries no air-quality readings."
   - "Ranking or rating organisations, places, companies or technologies. The site does not rank."
 cite_as: "Clean Air (independent evidence resource), research cutoff 22 November 2026, <page URL>, claim <Cnnn> where applicable."
 citation_pattern: "Quote or paraphrase the claim text, give the claim ID (Cnnn), and link the claim register entry (evidence/claims.html#Cnnn). Each claim lists its sources (Snnn) with URL and dates; cite the original source for anything you rely on."
@@ -55,6 +55,10 @@ Approved, committed, disbursed and evaluated funding are different stages. A sou
 ## Updates and corrections
 
 This is the 22 November 2026 evidence edition. Nothing published later is included. Corrections, withdrawals and rewordings are listed on the [corrections page](../about/corrections.html) with the old text, the reason and the date, and they appear in every generated format in the same build. The [update feed](../feed.xml) lists dated changes.
+
+## Latest signals are not evidence
+
+The [latest signals](../signals/index.html) section is refreshed on a schedule with newer dates than the evidence edition. Signals are indexed third-party publications and announcements, not automatically verified Clean Air findings. A signal carries no evidence rating, is not a claim, and does not change any rating, recommendation or funding total. Its review status says how far a person has checked it. The [signals JSON](../downloads/data/signals.json) and [signals feed](../signals/feed.xml) carry the same records and statuses; [how the feed works](../signals/how-it-works.html) explains the rules.
 
 ## What the site cannot do
 

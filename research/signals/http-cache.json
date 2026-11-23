@@ -1,0 +1,68 @@
+{
+ "https://api.crossref.org/works?query.bibliographic=air+pollution+PM2.5+India+Bangladesh+Nepal+Pakistan+Indonesia+Thailand+Vietnam+Philippines&filter=from-pub-date%3A2026-10-09%2Cuntil-pub-date%3A2026-11-23%2Ctype%3Ajournal-article%2Ctype%3Aposted-content&rows=100&sort=published&order=desc": {},
+ "https://dialogue.earth/en/feed/": {
+  "etag": "\"996f95ec6c94d2191902f1e13b737ad8\"",
+  "last_modified": "Sun, 22 Nov 2026 10:21:10 GMT"
+ },
+ "https://e.vnexpress.net/rss/news.rss": {},
+ "https://india.mongabay.com/feed/": {
+  "etag": "W/\"edbf2a04c109b594798049420995d9dd\"",
+  "last_modified": "Mon, 23 Nov 2026 11:15:32 GMT"
+ },
+ "https://kathmandupost.com/rss": {
+  "last_modified": "Mon, 23 Nov 2026 17:15:55 +0545 GMT"
+ },
+ "https://news.mongabay.com/feed/": {
+  "etag": "W/\"c122e540126e20692d757f09b7ae4d46\"",
+  "last_modified": "Mon, 23 Nov 2026 11:05:36 GMT"
+ },
+ "https://urbanemissions.info/feed/": {
+  "etag": "\"57162f4cc2fd6e630a27db5c74f65034\"",
+  "last_modified": "Sun, 22 Nov 2026 12:00:11 GMT"
+ },
+ "https://www.adb.org/rss.xml": {
+  "etag": "\"1795431794\"",
+  "last_modified": "Mon, 23 Nov 2026 11:03:14 GMT"
+ },
+ "https://www.bangkokpost.com/rss/data/topstories.xml": {
+  "etag": "\"14e7-660efe08f9429\"",
+  "last_modified": "Mon, 23 Nov 2026 11:27:21 GMT"
+ },
+ "https://www.cleanairfund.org/feed/": {
+  "etag": "\"d986a82532e8cb398c9dbbc4a36b6f50\"",
+  "last_modified": "Fri, 20 Nov 2026 16:42:19 GMT"
+ },
+ "https://www.dawn.com/feeds/home": {
+  "last_modified": "Mon, 23 Nov 2026 11:43:30 GMT"
+ },
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22air+pollution%22+OR+%22air+quality%22+OR+%22PM2.5%22+OR+%22particulate+matter%22+OR+%22black+carbon%22+OR+%22crop+residue+burning%22+OR+%22brick+kiln%22+OR+%22household+air+pollution%22%29+AND+%28India+OR+Delhi+OR+Bangladesh+OR+Dhaka+OR+Nepal+OR+Kathmandu+OR+Pakistan+OR+Lahore+OR+Bhutan+OR+%22Sri+Lanka%22+OR+Indonesia+OR+Thailand+OR+Vietnam+OR+%22Viet+Nam%22+OR+Philippines+OR+Cambodia+OR+Laos+OR+Malaysia+OR+Singapore+OR+Myanmar+OR+%22South+Asia%22+OR+%22Southeast+Asia%22+OR+%22Indo-Gangetic%22%29+AND+FIRST_PDATE%3A%5B2026-10-09+TO+2026-11-23%5D&format=json&resultType=core&pageSize=100&sort=FIRST_PDATE_D+desc": {},
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22air+pollution%22+OR+%22air+quality%22+OR+%22PM2.5%22+OR+%22particulate+matter%22+OR+%22black+carbon%22+OR+%22crop+residue+burning%22+OR+%22brick+kiln%22+OR+%22household+air+pollution%22%29+AND+%28India+OR+Delhi+OR+Bangladesh+OR+Dhaka+OR+Nepal+OR+Kathmandu+OR+Pakistan+OR+Lahore+OR+Bhutan+OR+%22Sri+Lanka%22+OR+Indonesia+OR+Thailand+OR+Vietnam+OR+%22Viet+Nam%22+OR+Philippines+OR+Cambodia+OR+Laos+OR+Malaysia+OR+Singapore+OR+Myanmar+OR+%22South+Asia%22+OR+%22Southeast+Asia%22+OR+%22Indo-Gangetic%22%29+AND+FIRST_PDATE%3A%5B2026-10-09+TO+2026-11-23%5D&format=json&resultType=core&pageSize=100&sort=FIRST_PDATE_D+desc&cursorMark=AoJwgKvA1KEDKDU2OTYxMTk5": {},
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22air+pollution%22+OR+%22air+quality%22+OR+%22PM2.5%22+OR+%22particulate+matter%22+OR+%22black+carbon%22+OR+%22crop+residue+burning%22+OR+%22brick+kiln%22+OR+%22household+air+pollution%22%29+AND+%28India+OR+Delhi+OR+Bangladesh+OR+Dhaka+OR+Nepal+OR+Kathmandu+OR+Pakistan+OR+Lahore+OR+Bhutan+OR+%22Sri+Lanka%22+OR+Indonesia+OR+Thailand+OR+Vietnam+OR+%22Viet+Nam%22+OR+Philippines+OR+Cambodia+OR+Laos+OR+Malaysia+OR+Singapore+OR+Myanmar+OR+%22South+Asia%22+OR+%22Southeast+Asia%22+OR+%22Indo-Gangetic%22%29+AND+FIRST_PDATE%3A%5B2026-10-09+TO+2026-11-23%5D&format=json&resultType=core&pageSize=100&sort=FIRST_PDATE_D+desc&cursorMark=AoJwwIOqvaEDKDU2ODk1NzA4": {},
+ "https://www.eco-business.com/feeds/news/": {
+  "last_modified": "Mon, 23 Nov 2026 06:00:00 GMT"
+ },
+ "https://www.healtheffects.org/rss.xml": {
+  "etag": "\"1795432883-1\"",
+  "last_modified": "Mon, 23 Nov 2026 11:21:23 GMT"
+ },
+ "https://www.icimod.org/feed/": {
+  "etag": "\"db5d1d4fd549d365a84b00d3131e8ce2\""
+ },
+ "https://www.stateofglobalair.org/rss.xml": {
+  "etag": "\"1795276318\"",
+  "last_modified": "Sat, 21 Nov 2026 15:51:58 GMT"
+ },
+ "https://www.straitstimes.com/news/asia/rss.xml": {
+  "etag": "W/\"8e33-EMywqVv1GXgOBq+nXjG0XDHH8pI\""
+ },
+ "https://www.thedailystar.net/environment/rss.xml": {
+  "etag": "\"1795434025\"",
+  "last_modified": "Mon, 23 Nov 2026 11:40:25 GMT"
+ },
+ "https://www.thehindu.com/sci-tech/energy-and-environment/feeder/default.rss": {
+  "last_modified": "Sun, 22 Nov 2026 19:37:54 GMT"
+ },
+ "https://www.who.int/rss-feeds/news-english.xml": {
+  "last_modified": "Mon, 23 Nov 2026 10:33:50 GMT"
+ }
+}

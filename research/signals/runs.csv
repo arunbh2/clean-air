@@ -1,0 +1,2 @@
+run_id,outcome,sources_ok,sources_attempted,fetched,included,excluded,new,updated,duplicates,records_in_store
+run-20261123T114338Z,ok,20,20,860,68,792,67,1,0,67

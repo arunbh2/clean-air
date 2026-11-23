@@ -16,7 +16,7 @@ Descriptor: *Air pollution, livelihoods and unequal protection.* Tagline: *Share
 | `docs/three-audiences-governance-brief.md` | Cross-cutting quality layer: editorial voice, design guardrails, passage-level verification, corrections sync, agent-readable exports (llms.txt, Markdown mirrors, packs) | adds requirements across all sections; never over the evidence standards, cutoff, IDs, verdicts or design tokens above (conflicts are documented, not silently resolved) |
 | `docs/systems-map-master-brief.md` | The Web of Dirty Air: the interactive systems map (`/systems-map/`), its graph data, loops, levers and journeys | the site brief on the systems map only; never over the evidence standards, cutoff, IDs, verdicts, design tokens or three-audience governance above |
 | `docs/breath-of-change-integration-brief.md` | Integrating the World Bank's *A Breath of Change* (2025) across the site: sources explainer, 4Is, what works by job, funding lens, systems map, regional collaboration | the site brief on these integrations only; never over the evidence standards, cutoff, IDs, verdicts, design tokens, three-audience governance or systems-map rules above. The PDF lives in `sources/private/` (git-ignored, copyright World Bank) |
-| `docs/live-signals-master-brief.md` | Latest Signals (`/signals/`): a scheduled, curated discovery feed of external news, research, reports, policy and funding, with its own source registry, schema, review queue and Atom/JSON outputs | the site brief on the signals section only; never over the evidence standards, cutoff, IDs, verdicts, design tokens or three-audience governance above. Signals are discovery records, not evidence: they never change the research cutoff, claims, ratings or funding totals without a documented review. Not yet implemented |
+| `docs/live-signals-master-brief.md` | Latest Signals (`/signals/`): a scheduled, curated discovery feed of external news, research, reports, policy and funding, with its own source registry, schema, review queue and Atom/JSON outputs | the site brief on the signals section only; never over the evidence standards, cutoff, IDs, verdicts, design tokens or three-audience governance above. Signals are discovery records, not evidence: they never change the research cutoff, claims, ratings or funding totals without a documented review |
 
 The website **is** in scope. The site brief overrides the research brief's line about not building one.
 The expansion brief (owner instruction, 22 November 2026) is the updated mandate. It extends the site in place: keep existing
@@ -135,6 +135,18 @@ Every change serves the human reader, the maintainer and the AI agent from **one
 - "35 by 35" is always aspirational or interim, never the WHO guideline. Origin shares and sector shares are never combined. Modelled
   shares are not measurements. A World Bank recommendation is never a funding record. Ratings change only through a documented review.
 - The PDF and its text stay in `sources/private/` (git-ignored). Enforced by `tools/check_boc.py`. Audit: `docs/research/world-bank-breath-of-change-integration-audit.md`.
+
+### 10. Latest signals (`docs/live-signals-master-brief.md`)
+- **Narrow cutoff exception.** `/signals/` is a rolling discovery feed and may hold records published after 22 November 2026. These records do not
+  change the research cutoff, the claim register, any evidence rating or verdict, funder assessments or any assertion elsewhere on the site.
+  Only a documented review in a new dated research edition can turn a signal into a claim.
+- Canonical files in `research/signals/` (sources.yml registry with a recorded test per endpoint, taxonomy.yml rules, schema.json, signals.json store,
+  review-decisions.csv, status.json). Ingestion: `tools/signals/` (standard library HTTP, HTTPS allowlist, metadata only, no article text).
+  Schedule: `.github/workflows/signals.yml` (02:17 and 14:17 UTC), which triggers the deploy workflow.
+- Signals never carry an evidence-strength label. Ingestion only writes `discovered_unreviewed`; editorial notes, claim links and funding amounts come
+  only from reviewed rows in `review-decisions.csv`. Unverified amounts never enter funding totals. `feed.xml` stays reserved for site updates and corrections.
+- Enforced by `tools/signals/test_signals.py`, `tools/signals/validate.py`, `tools/check_signals.py` and `tools/signals/test_base_url.py` (all in `tools/check_all.py`).
+  Audit and owner decisions: `docs/LIVE_SIGNALS_AUDIT.md`. Method: `docs/live-signals-method.md`. Maintenance: `docs/live-signals-maintenance.md`.
 
 ## Which skill for which job
 

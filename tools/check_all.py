@@ -30,6 +30,11 @@ STEPS = [
     ("Systems-map validator fails on bad fixture", T("tools", "check_systems_map.py") + ["--self-test"]),
     ("A Breath of Change: target wording, origins vs sectors, locators, funding, claim kinds", T("tools", "check_boc.py")),
     ("Report checks fail on injected faults (WHO target, funding, orphan claim, unit)", T("tools", "check_boc.py") + ["--self-test"]),
+    ("Latest signals: pipeline fixtures (RSS, APIs, dedup, dates, outages, safety, reviews)", T("tools", "signals", "test_signals.py")),
+    ("Latest signals: store, registry and review decisions validate", T("tools", "signals", "validate.py")),
+    ("Latest signals: feeds, parity, links, evidence separation, refresh honesty", T("tools", "check_signals.py")),
+    ("Signals checks fail on injected faults", T("tools", "check_signals.py") + ["--self-test"]),
+    ("Signals outputs follow a changed base URL", T("tools", "signals", "test_base_url.py")),
     ("CSV formula-injection guard (malicious fixture)", T("tools", "test_csv_safety.py")),
     ("Canonical edit and withdrawal propagate everywhere", T("tools", "test_propagation.py")),
 ]

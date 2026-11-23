@@ -1,0 +1,77 @@
+# Latest Signals: scheduled collection (docs/live-signals-master-brief.md, section 4).
+# Twice a day, and on demand, read the enabled sources in research/signals/sources.yml, validate the result, run the
+# signals fixture tests, and commit research/signals/ to main if anything changed. The "Build and deploy site" workflow
+# then rebuilds and publishes the site (it listens for this workflow's completion), so every check in
+# tools/check_all.py --browser still gates what is published.
+#
+# GitHub may delay scheduled runs, and disables schedules in repositories with no activity for 60 days. This is a
+# scheduled refresh, not a real-time feed; the site shows the last successful refresh and says when it is delayed.
+name: Refresh signals
+
+on:
+  schedule:
+    - cron: "17 2,14 * * *"   # 02:17 and 14:17 UTC (07:47 and 19:47 IST); off-peak minute
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma-separated source IDs to refresh (blank = every enabled source)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write   # to commit research/signals/ back to main; nothing else
+
+concurrency:
+  group: signals-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r site/requirements.txt
+      - name: Pipeline fixture tests (no network)
+        run: python tools/signals/test_signals.py
+      - name: Collect signals
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}   # optional; the OpenAlex source is skipped when absent
+        run: |
+          if [ -n "${{ github.event.inputs.only }}" ]; then
+            python tools/signals/ingest.py --only "${{ github.event.inputs.only }}"
+          else
+            python tools/signals/ingest.py
+          fi
+      - name: Validate store, registry and review decisions
+        run: python tools/signals/validate.py
+      - name: Run summary
+        run: |
+          python - <<'PY'
+          import json
+          r = json.load(open("research/signals/run-report.json"))
+          lines = [f"### Signals run {r['run_id']}: {r['outcome']}", "", f"Records in store: {r['records_in_store']}", f"Totals: {r['totals']}", "",
+                   "| Source | Result | Items | Included |", "|---|---|---|---|"]
+          lines += [f"| {s['source']} | {s['result'][:80]} | {s['items']} | {s['included']} |" for s in r["sources"]]
+          open(__import__("os").environ["GITHUB_STEP_SUMMARY"], "a").write("\n".join(lines) + "\n")
+          PY
+      - name: Commit changes to research/signals
+        run: |
+          git config user.name "clean-air-signals[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/signals/
+          if git diff --cached --quiet; then
+            echo "No change to commit."
+          else
+            git commit -m "Refresh latest signals ($(date -u +%Y-%m-%dT%H:%MZ))"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              sleep $((i * 10))
+            done
+          fi

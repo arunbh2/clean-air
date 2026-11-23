@@ -17,6 +17,8 @@ How AI assistants (and people who prefer plain text or data) reach exactly the s
 | `downloads/data/catalogue.json`, `downloads/schemas/*.schema.json` | Data catalogue (version, cutoff, build date, rights status, provenance, escaping) and a JSON Schema per dataset. This replaces an `openapi.json`, which would wrongly suggest an API. | CSV headers + `research/data-dictionary.csv` |
 | `sitemap.xml`, `sitemap.json`, `sitemap.txt` | HTML pages; HTML + Markdown + data URLs with format version and an honest build date. | page list |
 | `feed.xml` | Atom feed of genuine dated changes (editions and corrections only). | `changelog.csv`, `corrections.csv` |
+| `signals/feed.xml`, `signals/feeds/<view>.xml` | Atom feeds of Latest Signals: dated third-party records only (never site changes). | `research/signals/signals.json` |
+| `downloads/data/signals.json`, `downloads/schemas/signals.schema.json`, `downloads/data/signals.csv` | Every public signal with dates and precision, place and topic tags, review status, rights and the original link. Signals are indexed third-party publications and announcements, not automatically verified Clean Air findings. Regenerated on each scheduled refresh; a static file, not a query service. | `research/signals/` |
 | `robots.txt` | Allows all crawlers, points to the sitemap and the reuse page, and says it is not a licence. | fixed |
 | `about/reuse.html` | Separate statements for search indexing, AI input, AI training and reuse; third-party rights preserved; undecided rights stated as undecided. | `pages/reuse.md` |
 

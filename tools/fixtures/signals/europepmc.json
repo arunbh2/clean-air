@@ -1,0 +1,5 @@
+{"version":"6.9","hitCount":3,"resultList":{"result":[
+{"id":"41000001","source":"MED","pmid":"41000001","doi":"10.1000/ABC.2026.1","title":"Fine particulate (PM&lt;sub&gt;2.5&lt;/sub&gt;) exposure and childhood asthma in Dhaka, Bangladesh","firstPublicationDate":"2026-11-10","firstIndexDate":"2026-11-12","pubTypeList":{"pubType":["research-article","Journal Article"]},"journalInfo":{"journal":{"title":"Fixture Journal of Environmental Health"}},"abstractText":"We studied 400 children in Dhaka."},
+{"id":"PPR900001","source":"PPR","doi":"10.1101/2026.05.01.123","title":"Fine particulate (PM2.5) exposure and childhood asthma in Dhaka, Bangladesh","firstPublicationDate":"2026-05-01","pubTypeList":{"pubType":["Preprint"]},"abstractText":"Preprint."},
+{"id":"41000002","source":"MED","pmid":"41000002","doi":"10.1000/old.2024.9","title":"Brick kiln emissions and air pollution in the Kathmandu Valley, Nepal","firstPublicationDate":"2024-03-01","firstIndexDate":"2026-11-20","pubTypeList":{"pubType":["Journal Article"]},"journalInfo":{"journal":{"title":"Fixture Atmospheric Letters"}},"commentCorrectionList":{"commentCorrection":[{"type":"Erratum in"}]}}
+]}}
