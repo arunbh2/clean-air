@@ -63,6 +63,7 @@ def _apply(r):
     reviewed = r["review_status"] in ("editorial_reviewed", "evidence_promoted")
     r["why_it_may_matter"] = d.get("why_it_may_matter", "") if reviewed else ""
     r["note_source_refs"] = d.get("note_source_refs", "") if reviewed else ""
+    r["note_claims"] = ";".join(x for x in r["note_source_refs"].split(";") if re.fullmatch(r"C\d{3}", x))   # "source" = the record itself
     r["featured"] = reviewed and d.get("featured") == "yes"
     r["study"] = {k: d.get("study_" + k, "") for k in ("question", "design", "outcomes", "limits")} if reviewed and d.get("study_question") else None
     r["funding_review"] = {k: d.get(k, "") for k in ("funding_stage", "announced_amount", "currency", "recipient", "instrument")} if d.get("funding_stage") else None

@@ -88,7 +88,9 @@ def validate_reviews(res, store_ids):
         if not r["reviewer"].strip(): errs.append(f"reviews:{i} reviewer role is required")
         if (r["why_it_may_matter"] or r["study_question"] or r["featured"] == "yes") and st not in ("editorial_reviewed", "evidence_promoted"):
             errs.append(f"reviews:{i} an editorial note, study summary or featured flag needs editorial_reviewed or evidence_promoted")
-        if r["why_it_may_matter"] and not r["note_source_refs"].strip(): errs.append(f"reviews:{i} an editorial note needs note_source_refs")
+        if r["why_it_may_matter"] and "source" not in r["note_source_refs"].split(";"): errs.append(f"reviews:{i} an editorial note needs note_source_refs starting with 'source' (the record read)")
+        for ref in [x for x in r["note_source_refs"].split(";") if x and x != "source"]:
+            if ref not in claims: errs.append(f"reviews:{i} note_source_refs entry {ref} is not an existing claim ID")
         if r["study_question"] and not all(r[k].strip() for k in ("study_design", "study_outcomes", "study_limits")):
             errs.append(f"reviews:{i} a study summary needs design, outcomes and limits read from the source")
         if r["related_claim_ids"] and st != "evidence_promoted": errs.append(f"reviews:{i} claim links need evidence_promoted")
