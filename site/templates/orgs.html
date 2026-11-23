@@ -1,22 +1,133 @@
 {% extends "base.html" %}{% from "macros.html" import simple_layer, deep_heading, articles_block %}
 {% block content %}
-<h1>{{ sec.label }}</h1>
+<h1>{{ amap.title }}</h1>
+<p class="deck">{{ amap.deck }}</p>
+<p class="trust sans">{{ amap.trust }} Research cutoff: {{ CUTOFF }}.</p>
+<p class="muted sans small">{{ amap.scope_note }}</p>
+<ul class="atlas-strip sans" aria-label="What this directory contains">
+  <li><strong>{{ strip.orgs }}</strong> organisations documented</li>
+  <li><strong>{{ strip.countries }}</strong> countries covered</li>
+  <li><strong>{{ strip.projects }}</strong> projects and funding records traced</li>
+  <li><strong>{{ strip.links }}</strong> funding links documented</li>
+</ul>
+<p class="muted sans small">Counts are of verified records only. They do not measure how much is happening in a country.</p>
+<nav class="presets sans" aria-label="Quick routes">
+{% for p in amap.presets %}<a class="preset" href="{{ {'community':'#voices','business':'#tested','money':'funding/index.html'}[p.id] }}" data-preset="{{ p.filter.category }}" data-preset-id="{{ p.id }}"><strong>{{ p.label }}</strong><span>{{ p.hint }}</span></a>
+{% endfor %}</nav>
 {{ simple_layer(sec, rel) }}
-<h2 class="layer-label">Where the evidence points</h2>
-<p class="finding">{{ sec.intro }}</p>
-<p class="sans hubs"><a href="funding/index.html">Who funded what? (Funding Atlas)</a></p>
-<p class="notice">Only activities verified from public documents are listed. No organisation was contacted, and inclusion does not imply endorsement.</p>
-<div class="filters" data-filter-for="org-table" hidden>
-  <label>Function<select data-key="fn"><option value="">All</option>{% for f in ["advocacy","research","monitoring","delivery","financing","enforcement","evaluation","litigation","organising"] %}<option>{{ f }}</option>{% endfor %}</select></label>
+
+<section id="explorer" aria-labelledby="explorer-h" class="section-rule">
+<h2 id="explorer-h">Find an organisation</h2>
+<form class="explorer sans" data-explorer hidden role="search" onsubmit="return false">
+  <div class="ex-row">
+    <label class="ex-search">Search names, places and aliases<input type="search" data-q autocomplete="off" placeholder="e.g. Kathmandu, sensors, Nafas"></label>
+  </div>
+  <div class="ex-row ex-selects">
+    <label>Country<select data-f="country"><option value="">All countries</option>{% for c in ACOUNTRIES %}<option value="{{ c }}">{{ cname(c) }}</option>{% endfor %}</select></label>
+    <label>Type<select data-f="category"><option value="">All types</option>{% for k, v in CAT_LABEL.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></label>
+  </div>
+  <details class="more-filters" data-more-filters><summary>More filters</summary>
+  <div class="ex-row ex-selects">
+    <label>Area of work<select data-f="domain"><option value="">All areas</option>{% for d in DOMAINS %}<option value="{{ d }}">{{ d|capitalize }}</option>{% endfor %}</select></label>
+    <label>What they do<select data-f="fn"><option value="">All activities</option>{% for f in FUNCTIONS %}<option value="{{ f }}">{{ f|capitalize }}</option>{% endfor %}</select></label>
+    <label>Part of the system<select data-f="sys"><option value="">All</option>{% for s in amap.system %}<option value="{{ s.key }}">{{ s.label }}</option>{% endfor %}</select></label>
+    <label>Funding<select data-f="funding"><option value="">Any</option><option value="funder">Gives or lends money</option><option value="funded">Funding received is documented</option><option value="not found">No funding record found</option></select></label>
+    <label>Status<select data-f="status"><option value="">Any</option>{% for k, v in STATUS_LABEL.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></label>
+    <label>Evidence<select data-f="ev"><option value="">Any</option>{% for k, v in EV_LABEL.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></label>
+  </div></details>
+  <div class="ex-row ex-meta"><p class="count" id="ex-count" aria-live="polite"></p><p class="ex-active" id="ex-active"></p><button type="button" class="btn-clear" data-clear>Clear all filters</button></div>
+</form>
+<ul class="org-list" id="org-list">
+{% for o in orgs|sort(attribute='organisation') %}
+<li class="org-card" data-category="{{ o.category }}" data-country="{{ o._countries|join(' ') }}" data-domain="{{ o._domains|join('|') }}" data-fn="{{ o._fns|join('|') }}"
+    data-sys="{{ o._sys|join(' ') }}" data-funding="{{ o._funding }}" data-status="{{ o._status }}" data-ev="{{ o._ev }}" data-search="{{ o._search }}">
+  <h3><a href="o/{{ o.slug }}.html">{{ o.organisation }}</a></h3>
+  <p class="org-meta sans">{{ CAT_LABEL[o.category] }} · {% for c in o._countries %}{{ cname(c) }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+  <p class="org-sum">{{ o.summary }}</p>
+  {% if o._fns %}<p class="tags sans">{% for f in o._fns[:4] %}<span class="tag">{{ f|capitalize }}</span>{% endfor %}</p>{% endif %}
+  {% if o.communities %}<p class="org-for sans"><strong>For:</strong> {{ o.communities }}</p>{% endif %}
+  <p class="org-ev sans">{{ EV_LABEL[o._ev] }}{% if o.category == 'private' %} · {{ o.independent_test or 'No independent test found' }}{% endif %} · {{ STATUS_LABEL[o._status] }}</p>
+  <p class="org-link sans"><a href="o/{{ o.slug }}.html">View verified work<span class="visually-hidden">: {{ o.organisation }}</span></a></p>
+</li>
+{% endfor %}
+</ul>
+<p class="ex-none notice" id="ex-none" hidden>No organisation matches these filters. That does not mean no one is doing this work: try fewer filters, or see <a href="gaps/index.html">who is missing</a>.</p>
+<p><button type="button" class="btn-more sans" id="ex-more" hidden>Show more organisations</button></p>
+</section>
+
+<section aria-labelledby="sys-h" class="section-rule">
+<h2 id="sys-h">Where they fit in the system</h2>
+<p class="measure">Air pollution moves from emissions, to the air people breathe, to harm to health and income, and back through rules, money and accountability. Organisations act at different points. Most do not clean the air directly.</p>
+<div class="system-grid">
+{% for s in amap.system %}
+<div class="sys-col"><h3>{{ s.label }}</h3><p class="muted small">{{ s.plain }}</p>
+{% set ns = namespace(n=0) %}<ul class="sys-list">{% for o in orgs|sort(attribute='organisation') if s.key in o._sys or (s.key == 'protect-health' and 'protect-income' in o._sys) %}{% set ns.n = ns.n + 1 %}<li><a href="o/{{ o.slug }}.html">{{ o.organisation }}</a></li>{% endfor %}</ul>
+<p class="sans small"><strong>{{ ns.n }}</strong> organisations</p></div>
+{% endfor %}
 </div>
-<p class="count" id="org-table-count" aria-live="polite"></p>
-<div class="table-wrap"><table id="org-table">
-<caption>Organisation and programme map</caption>
+</section>
+
+<section aria-labelledby="m2a-h" class="section-rule">
+<h2 id="m2a-h">From measurement to action</h2>
+<p class="measure">{{ measurement.intro }}</p>
+<ol class="m2a sans">{% for q in measurement.questions %}<li>{{ q }}</li>{% endfor %}</ol>
+<p class="measure">{{ measurement.examples|safe }}</p>
+<p class="finding">{{ measurement.limit }}</p>
+</section>
+
+<section id="voices" aria-labelledby="voices-h" class="section-rule">
+<h2 id="voices-h">Local voices and power</h2>
+<p class="measure">{{ amap.voices }}</p>
+<ul class="compact-list">{% for o in orgs|sort(attribute='organisation') if o.category == 'community' %}<li><a href="o/{{ o.slug }}.html">{{ o.organisation }}</a> <span class="muted">({{ cname(o._countries[0]) }})</span>: {{ o.summary }}</li>{% endfor %}</ul>
+</section>
+
+<section id="tested" aria-labelledby="tested-h" class="section-rule">
+<h2 id="tested-h">Is it independently tested?</h2>
+<p class="measure">Companies appear here because they supply, operate or are regulated, not because their products work. Where an independent test exists we say so; where none was found we say that too.</p>
+<div class="table-wrap"><table class="data">
+<caption>Companies, social enterprises and industry associations</caption>
+<thead><tr><th scope="col">Organisation</th><th scope="col">Business role</th><th scope="col">Independent test or evaluation</th><th scope="col">Possible conflict</th></tr></thead>
+<tbody>{% for o in orgs|sort(attribute='organisation') if o.category == 'private' %}<tr><th scope="row"><a href="o/{{ o.slug }}.html">{{ o.organisation }}</a><br><span class="muted small">{{ cname(o._countries[0]) }}</span></th>
+<td>{{ o.business_role or 'Not classified' }}</td><td>{{ o.independent_test or 'None found in sources read' }}</td><td>{{ o.conflict_note or '—' }}</td></tr>{% endfor %}</tbody>
+</table></div>
+</section>
+
+<section aria-labelledby="resp-h" class="section-rule">
+<h2 id="resp-h">Public responsibility</h2>
+<p class="measure">{{ amap.responsibility }}</p>
+<p class="finding">For {{ unowned }} of {{ nproj }} activity records, no source names who pays for running costs after the grant.</p>
+</section>
+
+<section aria-labelledby="stories-h" class="section-rule">
+<h2 id="stories-h">Ecosystem stories</h2>
+<ul class="story-list">{% for s in stories %}<li><a href="stories/{{ s.id }}.html">{{ s.title }}</a><p class="muted">{{ s.summary }}</p></li>{% endfor %}</ul>
+</section>
+
+<section aria-labelledby="more-h" class="section-rule">
+<h2 id="more-h">Go deeper</h2>
+<ul class="hub-links sans">
+<li><a href="projects/index.html">What are organisations doing?</a> Every project and funding record.</li>
+<li><a href="funding/index.html">Who funds what?</a> Grants, loans and public budgets, and the money trail.</li>
+<li><a href="places/index.html">Where is action documented?</a> By country.</li>
+<li><a href="compare.html">Compare organisations</a> Up to three, side by side, no ranking.</li>
+<li><a href="gaps/index.html">Who is missing?</a> Gaps and the candidate log.</li>
+<li><a href="methods/index.html">How this directory was built</a> Rules, sources and corrections.</li>
+<li><a href="../downloads/data/organisations-atlas.json">Download the data (JSON)</a> or the <a href="../downloads/data/organisations.csv">organisations table (CSV)</a>.</li>
+</ul>
+</section>
+
+<section aria-labelledby="base-h" class="section-rule">
+<h2 id="base-h">The original India directory (22 November 2026)</h2>
+<p class="measure">The first edition listed {{ baseline|length }} Indian organisations with their verified activity, outcomes and gaps. It is kept here unchanged so that earlier links still work.</p>
+<details><summary>Show the original table</summary>
+<div class="table-wrap"><table id="org-table" class="data">
+<caption>Organisation and programme map (India, first edition)</caption>
 <thead><tr><th scope="col">Organisation</th><th scope="col">Functions</th><th scope="col">Verified activity</th><th scope="col">Demonstrated outcomes</th><th scope="col">Gaps</th><th scope="col">Sources</th></tr></thead>
-<tbody>{% for o in orgs %}<tr data-fn="{{ o.functions }}" id="{{ o.org_id }}"><th scope="row">{{ o.organisation }}<br><span class="muted">{{ o.sector }}</span></th>
+<tbody>{% for o in baseline %}<tr id="{{ o.org_id }}"><th scope="row"><a href="o/{{ o.slug }}.html">{{ o.organisation }}</a><br><span class="muted">{{ o.sector }}</span></th>
 <td>{{ o.functions }}</td><td>{{ o.specific_activity_verified }}<br><span class="muted">{{ o.location }} · {{ o.status_at_cutoff }}</span></td><td>{{ o.demonstrated_outcomes }}</td><td>{{ o.gaps }}</td>
 <td>{% for s in o.source_ids.split(';') if s %}<a href="../evidence/sources.html#{{ s }}">{{ s }}</a> {% endfor %}</td></tr>{% endfor %}</tbody>
-</table></div>
+</table></div></details>
+</section>
 {{ deep_heading() }}
 {{ articles_block(articles) }}
 {% endblock %}

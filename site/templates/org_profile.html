@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block content %}
+{% set ld = {"@context": "https://schema.org", "@type": "Organization", "name": o.organisation, "description": o.summary} %}{% if o.website %}{% set _ = ld.update({"url": o.website}) %}{% endif %}
+<script type="application/ld+json">{{ ld|tojson }}</script>
+<h1>{{ o.organisation }}</h1>
+<p class="org-meta sans">{{ CAT_LABEL[o.category] }} · {{ o.primary_type }}</p>
+
+<section aria-labelledby="s1"><h2 id="s1" class="layer-label">In one sentence</h2>
+<p class="simple-answer">{{ o.summary }}{% if o.claim_ids %} {{ o.claim_ids|claims(rel)|safe }}{% endif %}</p>
+{% if o.why_it_matters %}<p class="layer-meta"><strong>Why it matters:</strong> {{ o.why_it_matters }}</p>{% endif %}
+</section>
+
+<section aria-labelledby="s2" class="section-rule"><h2 id="s2">At a glance</h2>
+<dl class="kv">
+<dt>Type</dt><dd>{{ o.primary_type }}{% if o.legal_form %} · <span class="muted">{{ o.legal_form }}</span>{% endif %}</dd>
+<dt>Home base</dt><dd>{{ cname(o.hq_country) if o.hq_country else 'Not established' }}</dd>
+<dt>Works in</dt><dd>{% for c in o._countries %}{{ cname(c) }}{% if not loop.last %}, {% endif %}{% endfor %}{% if o.places %}<br><span class="muted">{{ o.places }}</span>{% endif %}</dd>
+<dt>Public website</dt><dd>{% if o.website %}<a href="{{ o.website }}" rel="noopener noreferrer external">{{ o.website|replace('https://','')|trim('/') }} <span class="muted">(external site)</span></a>{% else %}Not listed{% endif %}</dd>
+<dt>Status</dt><dd>{{ o.record_status or o.status_at_cutoff }}{% if o.activity_period %} · {{ o.activity_period }}{% endif %}</dd>
+<dt>Evidence cutoff</dt><dd>{{ CUTOFF }} · record last checked {{ o.date_last_checked }}</dd>
+{% if o.aliases %}<dt>Also known as</dt><dd>{{ o.aliases }}</dd>{% endif %}
+</dl>
+</section>
+
+<section aria-labelledby="s3" class="section-rule"><h2 id="s3">What it does in practice</h2>
+<ul class="activities">
+{% for c in o._claims %}<li>{{ c.claim }} {{ c.claim_id|claims(rel)|safe }}{% if c.status == 'provisional' %} <span class="badge none">provisional</span>{% endif %}</li>{% endfor %}
+{% if o.record_origin.startswith('baseline') %}<li>{{ o.specific_activity_verified }}{% if o.programme_or_role %} <span class="muted">({{ o.programme_or_role }})</span>{% endif %}</li>{% endif %}
+</ul>
+</section>
+
+<section aria-labelledby="s4" class="section-rule"><h2 id="s4">Who is meant to benefit</h2>
+<p>{{ o.communities or o.communities_served or 'Not specified in the sources read.' }}</p>
+<p class="muted small">Being active in a place does not mean reaching the people most exposed there.</p>
+</section>
+
+<section aria-labelledby="s5" class="section-rule"><h2 id="s5">Projects in context</h2>
+{% if projs %}<ul class="proj-cards">{% for r, p in projs %}<li><a href="{{ p.url }}">{{ p.title }}</a> <span class="muted">· {{ p.kind }}</span><br><span class="sans small"><strong>Role:</strong> {{ r.role }}{% if r.role_description %} ({{ r.role_description }}){% endif %} · {{ p.dates or 'dates not stated' }} · {{ p.status }}</span></li>{% endfor %}</ul>
+{% else %}<p>No project record is linked yet. The activities above are documented, but not as a separate project.</p>{% endif %}
+</section>
+
+<section aria-labelledby="s6" class="section-rule"><h2 id="s6">Funding and partners</h2>
+{% if flows %}<ul class="flow-list">{% for f in flows %}<li class="flow">
+<span class="flow-node">{% if f.funder_organisation_id in O_BY %}<a href="{{ O_BY[f.funder_organisation_id].slug }}.html">{{ O_BY[f.funder_organisation_id].organisation }}</a>{% else %}{{ f.funder_organisation_id }}{% endif %}</span>
+<span class="flow-arrow" aria-hidden="true">→</span><span class="visually-hidden"> gave a {{ f.funding_instrument }} to </span>
+<span class="flow-node">{% if f.recipient_organisation_id in O_BY %}<a href="{{ O_BY[f.recipient_organisation_id].slug }}.html">{{ O_BY[f.recipient_organisation_id].organisation }}</a>{% else %}Recipient not established{% endif %}</span>
+{% set pr = proj_ref(f.project_id, rel) if f.project_id else none %}{% if pr %}<span class="flow-arrow" aria-hidden="true">→</span><span class="visually-hidden"> for </span><span class="flow-node"><a href="{{ pr.url }}">{{ pr.title }}</a></span>{% endif %}
+<br><span class="sans small">{{ f.funding_instrument|capitalize }} · {{ fmt_flow(f) }} · {{ f.commitment_or_disbursement }} {{ f.approval_year }} · {{ f.confidence_note }} · {{ f.public_source_ids|replace(';', ', ') }}</span></li>{% endfor %}</ul>
+{% else %}<p>No public funding record was found for this organisation. That does not mean it is unfunded.</p>{% endif %}
+{% if o.funder_id %}<p class="sans"><a href="../funders/{{ o.funder_id }}.html">Funder profile in the Funding Atlas</a></p>{% endif %}
+{% if o.partners %}<p><strong>Partners named in sources:</strong> {{ o.partners }}</p>{% endif %}
+{% if o.funding_where_public %}<p><strong>Funding noted in the first edition:</strong> {{ o.funding_where_public }}</p>{% endif %}
+</section>
+
+<section aria-labelledby="s7" class="section-rule"><h2 id="s7">What changed, and how do we know?</h2>
+<table class="data four-rows"><caption class="visually-hidden">Activities, outputs, outcomes and evaluations</caption><tbody>
+<tr><th scope="row">Activities</th><td>{{ 'Documented above' if o._claims or o.specific_activity_verified else 'Not documented' }}</td></tr>
+<tr><th scope="row">Outputs</th><td>{{ o.outputs or (jl|map(attribute='outputs_reported')|reject('equalto','')|join('; ')) or 'None reported in sources read' }}</td></tr>
+<tr><th scope="row">Measured outcomes</th><td>{{ o.demonstrated_outcomes or 'No adequate evidence found' }}</td></tr>
+<tr><th scope="row">Independent evaluation</th>{% set ev = namespace(t=o.independent_test) %}{% for j in jl if not ev.t and 'ndependent' in j.evaluation_type %}{% set ev.t = j.evaluation_type ~ ' (' ~ j.title ~ ')' %}{% endfor %}<td>{{ ev.t or 'None found' }}</td></tr>
+</tbody></table>
+</section>
+
+<section aria-labelledby="s8" class="section-rule"><h2 id="s8">What remains uncertain</h2>
+<ul>
+{% if o.gaps %}<li>{{ o.gaps }}</li>{% endif %}
+{% if o.conflict_note %}<li><strong>Possible conflict or caveat:</strong> {{ o.conflict_note }}</li>{% endif %}
+{% for j in jl %}{% if j.limitations %}<li>{{ j.title }}: {{ j.limitations }}</li>{% endif %}{% if j.continuing_cost_owner == 'Not established' %}<li>{{ j.title }}: who pays to keep it running is not established.</li>{% endif %}{% endfor %}
+<li>Sources are labelled "{{ EV_LABEL[o._ev] }}". Figures from an organisation's or company's own account are not independent results.</li>
+</ul>
+</section>
+
+<section aria-labelledby="s9" class="section-rule"><h2 id="s9">Where it fits in the system</h2>
+<p>{% for s in o._sys %}<span class="tag sans">{{ SYS_LABEL.get(s, s) }}</span> {% endfor %}{% if not o._sys %}Not classified.{% endif %}</p>
+<p class="muted small">Tags show what the documented work actually does, not what the organisation aims to do.</p>
+{% if fstory %}<p class="sans">Featured in: {% for s in fstory %}<a href="../stories/{{ s.id }}.html">{{ s.title }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>{% endif %}
+</section>
+
+<section aria-labelledby="s10" class="section-rule"><h2 id="s10">Sources and record history</h2>
+<ol class="sources small">{% for s in o._sources %}<li id="src-{{ s.source_id }}"><a href="{{ rel }}evidence/sources.html#{{ s.source_id }}">{{ s.source_id }}</a> {{ s.title }}. {{ s.publisher or s.author_org }}, {{ s.pub_date }}. <span class="muted">{{ s.source_type }}; {{ s.access_status }}; accessed {{ s.accessed }}.</span> <a href="{{ s.url }}" rel="noopener noreferrer external">Open source<span class="visually-hidden"> {{ s.source_id }}</span> (external)</a></li>{% endfor %}</ol>
+<p class="muted small">Record added: {{ o.record_origin }} · last checked {{ o.date_last_checked }} · research cutoff {{ CUTOFF }}. Inclusion does not imply endorsement. To correct this record, see <a href="{{ rel }}about/corrections.html">corrections</a>.</p>
+</section>
+{% endblock %}

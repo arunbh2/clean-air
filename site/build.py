@@ -56,6 +56,10 @@ programmes = load_opt("programmes.csv")
 funders = load_opt("funders.csv")
 glossary = load_opt("glossary.csv")
 dpaths = load_opt("decision-pathways.csv")
+atlas_projects = load_opt("projects.csv")
+atlas_roles = load_opt("organisation-project-roles.csv")
+atlas_flows = load_opt("funding-flows.csv")
+atlas_cands = load_opt("org-candidates.csv")
 C_BY = {c["country_id"]: c for c in countries}
 P_BY = {p["programme_id"]: p for p in programmes}
 F_BY = {f["funder_id"]: f for f in funders}
@@ -129,7 +133,7 @@ def glossify(html_text, rel):
             if g["slug"] in used: continue
             label = g["term"].split(" (")[0]
             flags = 0 if sum(ch.isupper() for ch in label) >= 2 else re.I
-            m = re.search(r"(?<![\\w-])" + re.escape(label) + r"(?![\\w-])", text, flags)
+            m = re.search(r"(?<![\w-])" + re.escape(label) + r"(?![\w-])", text, flags)
             if m and (best is None or m.start() < best[0].start()): best = (m, g)
         if not best: continue
         m, g = best; used.add(g["slug"])
@@ -217,7 +221,6 @@ section_page("crisis")
 section_page("people", "people.html", groups=groups)
 section_page("places", "places.html", settings=settings)
 section_page("what-works", "works.html", ints=ints)
-section_page("organisations", "orgs.html", orgs=orgs)
 section_page("support", "support.html", portfolios=portfolios, I_BY=I_BY, exports=exports)
 
 # group pages
@@ -315,15 +318,6 @@ for region, slug_ in [("South Asia", "south-asia"), ("Southeast Asia", "southeas
            home_c + [("Places", "places/index.html")], region=region, rcountries=rc, claims=claims)
 render("places/compare.html", "compare_places.html", "Comparing countries fairly", "Comparable indicators only: one source, one method, one year.", "places",
        home_c + [("Places", "places/index.html")], cs=active)
-# funding atlas
-fa_c = home_c + [("Organisations", "organisations/index.html"), ("Who funded what?", "organisations/funding/index.html")]
-render("organisations/funding/index.html", "funding.html", "Who funded what?", "Verified grants, loans, technical assistance and public budgets, with stage, amount type and source.", "organisations",
-       home_c + [("Organisations", "organisations/index.html")], progs=programmes, funders=funders)
-for p_ in programmes:
-    render(f"organisations/funding/{p_['programme_id'].lower()}.html", "programme.html", p_["title"], p_["beneficiaries"], "organisations", fa_c, p=p_)
-for f in funders:
-    fp = [P_BY[x] for x in f["programme_ids"].split(";") if x in P_BY]
-    render(f"organisations/funders/{f['funder_id']}.html", "funder.html", f["name"], f["role_in_this_edition"], "organisations", fa_c, f=f, fprogs=fp)
 # what works: compare and not-a-solution
 ww_c = home_c + [("What works", "what-works/index.html")]
 render("what-works/compare.html", "compare.html", "Compare interventions", "Compare up to three interventions side by side, without a single score.", "what-works", ww_c, ints=ints)
@@ -341,6 +335,138 @@ for d in dpaths:
 for pg in sorted(os.listdir(os.path.join(RES, "site-content", "pages"))):
     fm, body = site_md(os.path.join("pages", pg))
     render(f"about/{pg.replace('.md', '.html')}", "simple.html", fm["title"], fm["summary"], None, home_c, body_html=md(body, "../", 0))
+
+# ---------- organisations atlas ----------
+O_BY = {o["org_id"]: o for o in orgs}
+J_BY = {j["project_id"]: j for j in atlas_projects}
+CAT_LABEL = {"community": "Community, worker or parents' group", "ngo": "NGO", "research": "Research or data organisation",
+             "public": "Public body", "funder": "Funder", "multilateral": "Multilateral or UN body", "private": "Company or social enterprise",
+             "network": "Network or coalition"}
+SYS_LABEL = {s["key"]: s["label"] for s in front(os.path.join(RES, "site-content", "org-atlas.md"))[0]["system"]}
+SYS_LABEL.update({"protect-income": "Health and livelihood consequences"})
+EXTRA_C = {"global": "Global", "regional": "Regional", "maldives": "Maldives", "timor-leste": "Timor-Leste"}
+def cname(cid): return C_BY[cid]["name"] if cid in C_BY else EXTRA_C.get(cid, cid)
+def split(v): return [x.strip() for x in (v or "").split(";") if x.strip()]
+def proj_ref(pid, rel):
+    if pid in J_BY:
+        j = J_BY[pid]; return {"id": pid, "title": j["title"], "url": f"{rel}organisations/projects/{pid.lower()}.html", "status": j["status"],
+                               "country": j["country"], "dates": "–".join(x for x in [j["start_date"], j["end_date"]] if x), "kind": "Activity record"}
+    if pid in P_BY:
+        p = P_BY[pid]; return {"id": pid, "title": p["title"], "url": f"{rel}organisations/funding/{pid.lower()}.html", "status": p["operational_stage"],
+                               "country": p["country"], "dates": p["nominal_year"], "kind": "Funding record"}
+    return None
+def ev_bucket(o):
+    sc = (o.get("source_class") or "").lower()
+    if "independent" in sc: return "independent"
+    if "official" in sc: return "official"
+    if "company" in sc: return "company-reported"
+    if "funder" in sc: return "funder-reported"
+    if "journalism" in sc or "media" in sc or "court" in sc: return "journalism"
+    return "organisation-reported"
+EV_LABEL = {"independent": "Includes an independent test or evaluation", "official": "Official record", "funder-reported": "Funder's record",
+            "organisation-reported": "Organisation's own account", "company-reported": "Company's own account", "journalism": "News reporting"}
+def status_bucket(s):
+    s = (s or "").lower()
+    if s.startswith("historical") or "completed" in s or "report published" in s: return "historical"
+    if s.startswith("announced") or "approved" in s: return "announced"
+    return "active"
+STATUS_LABEL = {"active": "Active at cutoff", "historical": "Historical or completed", "announced": "Announced or approved"}
+R_BY_ORG, R_BY_PROJ = {}, {}
+for r in atlas_roles:
+    R_BY_ORG.setdefault(r["organisation_id"], []).append(r); R_BY_PROJ.setdefault(r["project_id"], []).append(r)
+FL_BY_ORG = {}
+for f in atlas_flows:
+    for k in ("funder_organisation_id", "recipient_organisation_id"):
+        if f[k]: FL_BY_ORG.setdefault(f[k], []).append(f)
+for o in orgs:
+    o["_countries"] = split(o.get("countries_active")) or ["india"]
+    o["_ev"] = ev_bucket(o); o["_status"] = status_bucket(o.get("record_status") or o.get("status_at_cutoff"))
+    o["_funding"] = "funder" if o["category"] in ("funder", "multilateral") or any(f["funder_organisation_id"] == o["org_id"] for f in FL_BY_ORG.get(o["org_id"], [])) \
+        else ("funded" if FL_BY_ORG.get(o["org_id"]) else "not found")
+    o["_domains"] = split(o.get("domains")); o["_fns"] = split(o.get("functions").replace(",", ";"))
+    o["_sys"] = split(o.get("system_roles"))
+    o["_search"] = " ".join([o["organisation"], o.get("aliases", ""), o.get("places", ""), o.get("summary", ""), o.get("primary_type", ""),
+                             " ".join(cname(c) for c in o["_countries"])]).lower()
+    o["_claims"] = [claims[c] for c in split(o.get("claim_ids")) if c in claims]
+    sids = split(o["source_ids"]) + [s for c in o["_claims"] for s in split(c["source_ids"])]
+    o["_sources"] = [sources[s] for s in dict.fromkeys(sids) if s in sources]
+amap = front(os.path.join(RES, "site-content", "org-atlas.md"))[0]
+DOMAINS = sorted({d for o in orgs for d in o["_domains"]})
+FUNCTIONS = sorted({f for o in orgs for f in o["_fns"]})
+ACOUNTRIES = sorted({c for o in orgs for c in o["_countries"]}, key=lambda c: (c in EXTRA_C, cname(c)))
+env.globals.update(CAT_LABEL=CAT_LABEL, SYS_LABEL=SYS_LABEL, cname=cname, proj_ref=proj_ref, EV_LABEL=EV_LABEL, STATUS_LABEL=STATUS_LABEL,
+                   O_BY=O_BY, J_BY=J_BY, R_BY_ORG=R_BY_ORG, R_BY_PROJ=R_BY_PROJ, FL_BY_ORG=FL_BY_ORG, split=split)
+def fmt_flow(f):
+    if not f["amount"]: return "Amount not publicly disclosed"
+    n = float(f["amount"]); return f"{f['original_currency']} {n/1e6:,.2f} million ({f['commitment_or_disbursement']}, {f['approval_year']})"
+env.globals["fmt_flow"] = fmt_flow
+stories = []
+for fn in sorted(os.listdir(os.path.join(RES, "site-content", "org-stories"))):
+    fm, body = front(os.path.join(RES, "site-content", "org-stories", fn)); fm["body"] = body; stories.append(fm)
+verified_prog_links = sum(len(split(p["funder_ids"])) for p in programmes if not p["relationship_verification"].startswith("search"))
+strip = {"orgs": len(orgs), "countries": len([c for c in ACOUNTRIES if c not in ("global", "regional")]),
+         "projects": len(atlas_projects) + len(programmes), "links": len(atlas_flows) + verified_prog_links}
+org_c = home_c + [("Organisations", "organisations/index.html")]
+sec = sections["organisations"]
+arts = []
+for rid in sec["report"]:
+    fm_, h = report_html(rid, "../", 1); arts.append({"fm": fm_, "html": h})
+unowned = sum(1 for j in atlas_projects if j["continuing_cost_owner"] == "Not established")
+render("organisations/index.html", "orgs.html", amap["title"], amap["deck"], "organisations", home_c, sec=sec, articles=arts,
+       orgs=orgs, baseline=[o for o in orgs if o["record_origin"].startswith("baseline")], amap=amap, amap_md=lambda k: md_inline(amap[k], "../"),
+       strip=strip, DOMAINS=DOMAINS, FUNCTIONS=FUNCTIONS, ACOUNTRIES=ACOUNTRIES, stories=stories, unowned=unowned, nproj=len(atlas_projects),
+       measurement=dict(intro=amap["measurement"]["intro"], questions=amap["measurement"]["questions"],
+                        examples=md_inline(amap["measurement"]["examples"], "../"), limit=amap["measurement"]["limit"]))
+for o in orgs:
+    projs = [(r, proj_ref(r["project_id"], "../../")) for r in R_BY_ORG.get(o["org_id"], [])]
+    jl = [J_BY[r["project_id"]] for r in R_BY_ORG.get(o["org_id"], []) if r["project_id"] in J_BY]
+    render(f"organisations/o/{o['slug']}.html", "org_profile.html", o["organisation"], (o.get("summary") or "")[:160], "organisations", org_c,
+           o=o, projs=[x for x in projs if x[1]], jl=jl, flows=FL_BY_ORG.get(o["org_id"], []),
+           fstory=[s for s in stories if o["org_id"] in s.get("orgs", [])])
+pr_c = org_c + [("What are organisations doing?", "organisations/projects/index.html")]
+allproj = [proj_ref(j["project_id"], "../../") | {"domain": j["domain"], "aq": j["air_quality_objective"], "desc": j["short_plain_language_description"]} for j in atlas_projects] + \
+          [proj_ref(p["programme_id"], "../../") | {"domain": p["sector"], "aq": p["air_quality_intent"], "desc": p["beneficiaries"]} for p in programmes]
+render("organisations/projects/index.html", "org_projects.html", "What are organisations doing?", "Every documented project and funding record, with who did what and what is known about results.",
+       "organisations", org_c, allproj=allproj)
+for j in atlas_projects:
+    render(f"organisations/projects/{j['project_id'].lower()}.html", "org_project.html", j["title"], j["short_plain_language_description"], "organisations", pr_c,
+           j=j, jroles=R_BY_PROJ.get(j["project_id"], []), jflows=[f for f in atlas_flows if f["project_id"] == j["project_id"]],
+           jclaims=[claims[c] for c in split(j["claim_ids"]) if c in claims], jstory=[s for s in stories if j["project_id"] in s.get("projects", [])])
+for s_ in stories:
+    render(f"organisations/stories/{s_['id']}.html", "org_story.html", s_["title"], s_["summary"], "organisations", org_c, st=s_, body_html=md(s_["body"], "../../", 0))
+places_rows = []
+for c in ACOUNTRIES:
+    os_ = [o for o in orgs if c in o["_countries"]]
+    places_rows.append(dict(cid=c, name=cname(c), n=len(os_), comm=sum(1 for o in os_ if o["category"] in ("community", "ngo")),
+                            priv=sum(1 for o in os_ if o["category"] == "private"), res=sum(1 for o in os_ if o["category"] in ("research", "public")),
+                            fund=sum(1 for o in os_ if o["category"] in ("funder", "multilateral")),
+                            proj=sum(1 for j in atlas_projects if j["country"] == c) + sum(1 for p in programmes if p["country"] == c),
+                            dossier=(c in C_BY and C_BY[c]["coverage_status"] != "research queue"), orgs=os_))
+render("organisations/places/index.html", "org_places.html", "Where is action documented?", "Organisations and projects by country, with an honest note on who is under-represented.",
+       "organisations", org_c, prows=places_rows, missing=[c for c in countries if c["country_id"] not in ACOUNTRIES])
+gfm, gbody = site_md("org-gaps.md")
+render("organisations/gaps/index.html", "org_gaps.html", gfm["title"], gfm["summary"], "organisations", org_c, body_html=md(gbody, "../../", 0), cands=atlas_cands)
+mfm2, mbody = site_md("org-methods.md")
+render("organisations/methods/index.html", "simple.html", mfm2["title"], mfm2["summary"], "organisations", org_c, body_html=md(mbody, "../../", 0))
+render("organisations/compare.html", "org_compare.html", "Compare organisations", "Compare up to three organisations side by side: what they do, who pays, and what evidence exists. No ranking.",
+       "organisations", org_c, orgs=[o for o in orgs if o["record_origin"].startswith("atlas")] + [o for o in orgs if o["record_origin"].startswith("baseline")])
+# public export (no internal research notes, no personal data)
+PUB_O = ["org_id", "organisation", "category", "primary_type", "legal_form", "profit_status", "hq_country", "countries_active", "places", "functions", "domains",
+         "communities", "system_roles", "summary", "website", "record_status", "activity_period", "date_last_checked", "source_class", "business_role",
+         "independent_test", "conflict_note", "claim_ids", "source_ids"]
+export = {"title": "Clean Air organisations atlas", "research_cutoff": CUTOFF_ISO,
+          "attribution": "Clean Air (independent evidence site). Reuse with attribution and a link to the source register; check each record's sources and last-checked date before relying on it. Inclusion does not imply endorsement.",
+          "organisations": [{k: o.get(k, "") for k in PUB_O} for o in orgs], "projects": atlas_projects, "roles": atlas_roles, "funding_flows": atlas_flows}
+open(os.path.join(DIST, "downloads", "data", "organisations-atlas.json"), "w", encoding="utf-8").write(json.dumps(export, ensure_ascii=False, indent=1))
+# funding atlas
+fa_c = home_c + [("Organisations", "organisations/index.html"), ("Who funded what?", "organisations/funding/index.html")]
+render("organisations/funding/index.html", "funding.html", "Who funded what?", "Verified grants, loans, technical assistance and public budgets, with stage, amount type and source.", "organisations",
+       home_c + [("Organisations", "organisations/index.html")], progs=programmes, funders=funders, flows=atlas_flows)
+for p_ in programmes:
+    render(f"organisations/funding/{p_['programme_id'].lower()}.html", "programme.html", p_["title"], p_["beneficiaries"], "organisations", fa_c, p=p_)
+for f in funders:
+    fp = [P_BY[x] for x in f["programme_ids"].split(";") if x in P_BY]
+    render(f"organisations/funders/{f['funder_id']}.html", "funder.html", f["name"], f["role_in_this_edition"], "organisations", fa_c, f=f, fprogs=fp)
 # coverage dashboard
 from collections import Counter
 cov = {

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>What are organisations doing?</h1>
+<section class="layer simple" aria-label="In short"><p class="simple-answer">Every documented project and funding record in one list. You can find local action without knowing who runs it. Each record separates what was done from what was measured to change.</p></section>
+<div class="filters" data-filter-for="proj-table" hidden>
+  <label>Country<select data-key="country"><option value="">All</option>{% for c in allproj|map(attribute='country')|unique|sort %}<option value="{{ c }}">{{ cname(c) }}</option>{% endfor %}</select></label>
+  <label>Record<select data-key="kind"><option value="">All</option><option>Activity record</option><option>Funding record</option></select></label>
+  <label>Air quality is<select data-key="aq"><option value="">Any</option><option value="primary">The main aim</option><option value="co-benefit">A co-benefit</option></select></label>
+</div>
+<p class="count" id="proj-table-count" aria-live="polite"></p>
+<div class="table-wrap"><table id="proj-table" class="data">
+<caption>{{ allproj|length }} projects and funding records</caption>
+<thead><tr><th scope="col">Project</th><th scope="col">Where</th><th scope="col">What it is</th><th scope="col">Status</th><th scope="col">Air quality</th></tr></thead>
+<tbody>{% for p in allproj %}<tr data-country="{{ p.country }}" data-kind="{{ p.kind }}" data-aq="{{ p.aq }}"><th scope="row"><a href="{{ p.url }}">{{ p.title }}</a><br><span class="muted small">{{ p.id }} · {{ p.kind }}</span></th>
+<td>{{ cname(p.country) }}</td><td>{{ p.desc }}</td><td>{{ p.status }}</td><td>{{ p.aq }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endblock %}

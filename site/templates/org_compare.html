@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Compare organisations</h1>
+<section class="layer simple" aria-label="The simple answer"><p class="simple-answer">Pick up to three organisations to see what each does, who pays, who it is for, what it has produced and whether anyone independent has checked. There is no score or ranking.</p></section>
+{% set defaults = ['clean-up-nepal', 'paqi', 'nafas-indonesia'] %}
+<fieldset class="compare-pick" data-compare hidden>
+<legend>Choose up to three</legend>
+<div class="pick-grid">{% for o in orgs|sort(attribute='organisation') %}<label><input type="checkbox" value="{{ o.org_id }}" {% if o.org_id in defaults %}checked{% endif %}> {{ o.organisation|truncate(60) }}</label>{% endfor %}</div>
+<p class="count" id="compare-status" aria-live="polite"></p>
+</fieldset>
+<noscript><p class="notice">Showing three examples. With JavaScript you can choose which to compare.</p></noscript>
+<div class="table-wrap"><table id="compare-table">
+<caption>Side-by-side comparison</caption>
+<thead><tr><th scope="col">Question</th>{% for o in orgs %}<th scope="col" data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}><a href="o/{{ o.slug }}.html">{{ o.organisation }}</a></th>{% endfor %}</tr></thead>
+<tbody>
+<tr><th scope="row">What it does</th>{% for o in orgs %}<td data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}>{{ o.summary }}</td>{% endfor %}</tr>
+<tr><th scope="row">Type</th>{% for o in orgs %}<td data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}>{{ CAT_LABEL[o.category] }}; {{ o.primary_type }}</td>{% endfor %}</tr>
+<tr><th scope="row">Where</th>{% for o in orgs %}<td data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}>{% for c in o._countries %}{{ cname(c) }}{% if not loop.last %}, {% endif %}{% endfor %}{% if o.places %}; {{ o.places }}{% endif %}</td>{% endfor %}</tr>
+<tr><th scope="row">For whom</th>{% for o in orgs %}<td data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}>{{ o.communities or o.communities_served or 'Not specified' }}</td>{% endfor %}</tr>
+<tr><th scope="row">Funding model</th>{% for o in orgs %}<td data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}>{% set fl = FL_BY_ORG.get(o.org_id, []) %}{% if fl %}{% for f in fl %}{% if f.recipient_organisation_id == o.org_id %}Receives {{ f.funding_instrument }} from {{ O_BY[f.funder_organisation_id].organisation }}{% else %}Gives {{ f.funding_instrument }} to {{ O_BY[f.recipient_organisation_id].organisation if f.recipient_organisation_id else 'unnamed recipient' }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}No public funding record found{% endif %}</td>{% endfor %}</tr>
+<tr><th scope="row">Outputs</th>{% for o in orgs %}<td data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}>{{ o.outputs or 'None recorded' }}</td>{% endfor %}</tr>
+<tr><th scope="row">Independent evidence of outcomes</th>{% for o in orgs %}<td data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}>{{ o.independent_test or o.demonstrated_outcomes or 'No adequate evidence found' }}</td>{% endfor %}</tr>
+<tr><th scope="row">Who keeps it running</th>{% for o in orgs %}<td data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}>{% set owners = [] %}{% for r in R_BY_ORG.get(o.org_id, []) if r.project_id in J_BY %}{% set _ = owners.append(J_BY[r.project_id].continuing_cost_owner) %}{% endfor %}{{ (owners|unique|join('; ')) or 'Not established' }}</td>{% endfor %}</tr>
+<tr><th scope="row">Evidence source</th>{% for o in orgs %}<td data-col="{{ o.org_id }}" {% if o.org_id not in defaults %}hidden{% endif %}>{{ EV_LABEL[o._ev] }}</td>{% endfor %}</tr>
+</tbody></table></div>
+{% endblock %}

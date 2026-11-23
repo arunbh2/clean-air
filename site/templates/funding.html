@@ -33,4 +33,18 @@
 </ul>
 <h2>Funders and partners</h2>
 <ul class="card-list three">{% for f in funders %}<li class="card"><h3><a href="../funders/{{ f.funder_id }}.html">{{ f.name }}</a></h3><p>{{ f.type }}</p><p class="meta">{{ f.verification }}</p></li>{% endfor %}</ul>
+<section class="section-rule" aria-labelledby="ftm-h" id="follow-the-money">
+<h2 id="ftm-h">Follow the money</h2>
+<p class="measure">Each row is one documented link from a funder to a recipient and, where known, a project. Missing links are shown as missing, never filled in by inference. Grants, loans and public budgets are different kinds of money and are not added together.</p>
+<div class="table-wrap"><table class="data" id="flow-table">
+<caption>{{ flows|length }} documented funding links</caption>
+<thead><tr><th scope="col">Funder</th><th scope="col">Recipient</th><th scope="col">Project</th><th scope="col">Instrument</th><th scope="col">Amount</th><th scope="col">Stage and year</th><th scope="col">How we know</th></tr></thead>
+<tbody>{% for f in flows %}<tr><td><a href="../o/{{ O_BY[f.funder_organisation_id].slug }}.html">{{ O_BY[f.funder_organisation_id].organisation }}</a></td>
+<td>{% if f.recipient_organisation_id %}<a href="../o/{{ O_BY[f.recipient_organisation_id].slug }}.html">{{ O_BY[f.recipient_organisation_id].organisation }}</a>{% else %}Not established{% endif %}</td>
+<td>{% set pr = proj_ref(f.project_id, rel) if f.project_id else none %}{% if pr %}<a href="{{ pr.url }}">{{ pr.title }}</a>{% else %}Not linked to a named project{% endif %}</td>
+<td>{{ f.funding_instrument }}</td><td>{{ fmt_flow(f) }}</td><td>{{ f.commitment_or_disbursement }} {{ f.approval_year }}</td>
+<td>{{ f.confidence_note }}<br>{% for s in f.public_source_ids.split(';') %}<a href="../../evidence/sources.html#{{ s }}">{{ s }}</a> {% endfor %}</td></tr>{% endfor %}</tbody>
+</table></div>
+<p class="muted small">"We could not find a public grant record" is not the same as "no one funds this".</p>
+</section>
 {% endblock %}

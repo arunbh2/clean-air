@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Where is action documented?</h1>
+<section class="layer simple" aria-label="In short"><p class="simple-answer">Counts show what we could verify, not how much is happening. A country with few records may have active groups that publish little in English.</p></section>
+<div class="table-wrap"><table class="data">
+<caption>Verified organisations and projects by country</caption>
+<thead><tr><th scope="col">Country</th><th scope="col">Organisations</th><th scope="col">Community groups and NGOs</th><th scope="col">Companies</th><th scope="col">Research and public bodies</th><th scope="col">Funders</th><th scope="col">Projects and funding records</th></tr></thead>
+<tbody>{% for r in prows %}<tr><th scope="row">{% if r.dossier %}<a href="../../places/{{ r.cid if r.cid != 'india' else 'index' }}.html">{{ r.name }}</a>{% else %}{{ r.name }}{% endif %}</th>
+<td>{{ r.n }}</td><td>{{ r.comm }}</td><td>{{ r.priv }}</td><td>{{ r.res }}</td><td>{{ r.fund }}</td><td>{{ r.proj }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% for r in prows if r.n %}<section class="section-rule" id="c-{{ r.cid }}"><h2>{{ r.name }}</h2>
+<p class="muted small">{% if r.comm < r.res %}Research and public bodies outnumber community groups and NGOs in our records here.{% else %}Community groups and NGOs are at least as visible as research and public bodies in our records here.{% endif %}</p>
+<ul class="compact-list">{% for o in r.orgs|sort(attribute='organisation') %}<li><a href="../o/{{ o.slug }}.html">{{ o.organisation }}</a> <span class="muted">({{ CAT_LABEL[o.category] }})</span></li>{% endfor %}</ul></section>{% endfor %}
+<section class="section-rule"><h2>No verified records yet</h2><p>{% for c in missing %}{{ c.name }}{% if not loop.last %}, {% endif %}{% endfor %}, Timor-Leste. See <a href="../gaps/index.html">who is missing</a>.</p></section>
+{% endblock %}

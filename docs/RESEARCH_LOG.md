@@ -26,3 +26,11 @@ Search results were used only to find sources. A claim is marked `read` only whe
 - World Bank and ADB project documents (results frameworks, disbursement) were not opened beyond press releases and data sheets.
 - Hindi and other local-language sources were searched only lightly.
 - No full reports were read for ADB (March 2026), the World Bank "A Breath of Change" report, or the Clean Air Fund and IGES Southeast Asia platform report. Only their landing pages and summaries were read.
+
+## 23 November 2026: organisations atlas (cutoff unchanged)
+
+- Read the five briefs; wrote `docs/organisations-10x-audit.md`.
+- Sources searched or read: Clean Air Fund grant database (all 79 listing pages parsed; 234 unique grants, 36 Asia-related), EPIC Air Quality Fund awardee pages (2024–2026; 12 Asian awardees read), organisations' own pages, GEF project record, ASEAN, ICIMOD, CSTEP (Indi-SET evaluation and annexures), DBS newsroom, Greenpeace, The Nation, Prachatai, Mongabay, The Business Standard, Dialogue Earth, YourStory, Winrock, Live & Learn, 350.org, SunStar.
+- Blocked (not bypassed): Clean Air Asia (403), CCAC partner pages (403), GreenHub (TLS), HACCAP page (403), UNDP Viet Nam (403). A browser-rendered fetch with a different user agent was refused by the session's safety controls and was not retried.
+- Registered S111–S180 and C154–C222 with `research/analysis/add_org_atlas.py`; P16 upgraded with the GEF record.
+- Exclusions and coverage gaps: `research/data/org-candidates.csv`.
