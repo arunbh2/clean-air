@@ -256,3 +256,53 @@ summary{min-height:24px;padding:.2rem 0}
 .src-link{display:inline-block;min-width:24px;min-height:24px;line-height:24px}
 .simple-answer ul,.simple-answer ol{margin:.5rem 0}
 table{overflow-wrap:normal}
+/* ---- Systems map (The web of dirty air) ---- */
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin:1rem 0}
+.map-controls{border:1px solid var(--ca-rule);background:var(--ca-surface);border-radius:var(--radius);padding:var(--pad-2);margin:0 0 12px}
+.mc-row{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:flex-end;margin:6px 0}
+.mc-row label{display:flex;flex-direction:column;font-size:.85rem;font-weight:600;gap:2px;flex:1 1 14rem;min-width:0;max-width:100%}
+.mc-row select{font:inherit;font-weight:400;min-height:44px;width:100%;max-width:100%;min-width:0;border:1px solid var(--ca-muted);border-radius:var(--radius);background:var(--ca-surface)}
+.mc-path{min-width:0;max-width:100%;flex:1 1 100%;border:1px solid var(--ca-rule);border-radius:var(--radius);display:flex;flex-wrap:wrap;gap:8px 12px;align-items:flex-end;padding:.5rem .75rem;margin:0}
+.mc-path legend{font-weight:600;font-size:.9rem}
+.mc-check{flex-direction:row!important;align-items:center;min-height:44px;flex:0 1 auto!important}
+.btn-clear,.btn-more{min-height:44px}
+.map-wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+.map-viewport{border:1px solid var(--ca-rule);background:var(--ca-surface);border-radius:var(--radius);overflow:auto;max-height:75vh;-webkit-overflow-scrolling:touch}
+.map-viewport:focus-visible{outline:3px solid var(--ca-link)}
+.map-svg{display:block;width:max(100%, 1100px);height:auto;font-family:var(--sans)}
+.map-zoom{display:flex;gap:8px}
+.map-zoom button{min-width:44px;min-height:44px;font:inherit;border:1px solid var(--ca-navy);background:var(--ca-surface);color:var(--ca-navy);border-radius:var(--radius);cursor:pointer}
+.map-panel{border-top:3px solid var(--ca-navy);background:var(--ca-surface);padding:var(--pad-2);font-size:1rem;max-height:none}
+.map-panel h3{margin-top:0}
+.linkish{font:inherit;background:none;border:0;padding:0;color:var(--ca-link);text-decoration:underline;cursor:pointer;min-height:24px;text-align:left}
+.layer-head{font-size:14px;font-weight:700;fill:var(--ca-navy);text-transform:uppercase;letter-spacing:.04em}
+.band-rule{stroke:var(--ca-rule);stroke-width:1}
+.node rect{fill:var(--ca-surface);stroke:var(--ca-navy);stroke-width:1.2}
+.node text{font-size:14px;fill:var(--ca-ink)}
+.node.t-source rect{stroke-width:2}
+.node.t-institutional-condition rect{stroke-dasharray:4 2}
+.node:focus-visible rect,.node:hover rect{stroke:var(--ca-link);stroke-width:3}
+.edge .line{fill:none;stroke:var(--ca-navy);stroke-width:1.3;opacity:.8}
+.edge.direct .line{stroke-width:2.4}
+.edge.hypothesis .line{stroke:var(--ca-muted);stroke-dasharray:2 4;stroke-width:1.6}
+.edge .hit{fill:none;stroke:transparent;stroke-width:12}
+.arrow{fill:var(--ca-navy)}
+.map-svg.simple .minor{display:none}
+.map-svg.focus .edge,.map-svg.focus .node{opacity:.18}
+.map-svg.focus .edge.on,.map-svg.focus .node.on,.map-svg.focus .edge.lever-target,.map-svg.focus .edge.path-on{opacity:1;display:inline}
+.map-svg.focus .node.on,.map-svg.focus .edge.on{display:inline}
+.edge.on .line,.edge.path-on .line{stroke:var(--ca-accent-dark);stroke-width:3;stroke-dasharray:8 3}
+.edge.lever-target .line{stroke:var(--ca-navy);stroke-width:4;stroke-dasharray:none}
+.edge.hypothesis.on .line,.edge.hypothesis.path-on .line{stroke-dasharray:2 4}
+.node.on rect{stroke:var(--ca-accent-dark);stroke-width:2.4}
+.map-legend{display:flex;flex-wrap:wrap;gap:4px 20px;font-size:.88rem;margin:8px 0}
+.map-legend p{margin:0;display:flex;align-items:center;gap:6px}
+.lg{stroke:var(--ca-navy);stroke-width:1.3}.lg.direct{stroke-width:2.4}.lg.hypothesis{stroke:var(--ca-muted);stroke-dasharray:2 4;stroke-width:1.6}.lg.loop{stroke:var(--ca-accent-dark);stroke-width:3;stroke-dasharray:8 3}
+.sm-node{border-top:1px solid var(--ca-rule);padding-top:.5rem;margin-top:1rem}
+.sm-edge{margin:.5rem 0 1rem}
+.sm-edge h3{font-size:1.05rem}
+.journey{padding-left:1.2rem}.j-step h2{font-size:1.25rem}
+.loop-seq li{margin:.3rem 0}
+@media print{.map-controls,.map-zoom,.map-viewport,.map-legend{display:none}}
+section:target{background:none}
+.toc a{display:inline-block;min-height:24px;line-height:24px}

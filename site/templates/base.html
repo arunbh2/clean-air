@@ -58,11 +58,12 @@
       <p><a href="{{ rel }}about/about.html">About</a> · <a href="{{ rel }}evidence/index.html">Methodology</a></p>
       <p><a href="{{ rel }}about/corrections.html">Corrections</a> · <a href="{{ rel }}about/update-policy.html">Update policy</a></p>
       <p><a href="{{ rel }}about/privacy.html">Privacy</a> · <a href="{{ rel }}about/accessibility.html">Accessibility</a></p>
-      <p><a href="{{ rel }}packs/index.html">Evidence packs</a> · <a href="{{ rel }}for-ai/index.html">For AI assistants</a> · <a href="{{ rel }}about/reuse.html">Reuse</a></p>
+      <p><a href="{{ rel }}systems-map/index.html">The web of dirty air</a> · <a href="{{ rel }}packs/index.html">Evidence packs</a> · <a href="{{ rel }}for-ai/index.html">For AI assistants</a> · <a href="{{ rel }}about/reuse.html">Reuse</a></p>
       {% if path != '404.html' %}<p><a href="{{ rel }}{{ path[:-5] }}.md">Markdown version of this page</a></p>{% endif %}
     </div>
   </div>
 </footer>
 <script src="{{ rel }}js/site.js" defer></script>
+{% block scripts %}{% endblock %}
 </body>
 </html>

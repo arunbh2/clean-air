@@ -71,7 +71,10 @@
       ".explorer",
       ".toc",
       ".compare-pick",
-      "details.q"
+      "details.q",
+      ".map-controls",
+      ".map-viewport",
+      ".mc-path"
     ]
   },
   "left_rule_allowed": [
@@ -209,16 +212,22 @@
   ],
   "budgets_bytes": {
     "css_total": 40000,
-    "js_total": 15000,
     "html_page_default": 120000,
     "html_page_exceptions": {
       "evidence/claims.html": 400000,
       "evidence/sources.html": 250000,
       "organisations/index.html": 250000,
-      "evidence/verification.html": 200000
+      "evidence/verification.html": 200000,
+      "systems-map/index.html": 300000,
+      "systems-map/links.html": 250000
     },
     "markdown_page_default": 120000,
-    "llms_full_txt": 3000000
+    "llms_full_txt": 3000000,
+    "js_files": {
+      "js/site.js": 15000,
+      "js/systems-map.js": 25000,
+      "_about": "site.js loads on every page; systems-map.js loads only on systems-map pages."
+    }
   },
   "inline_components": {
     "_about": "Bordered elements that are not containers: chips (labels), controls (buttons, inputs) and data tables. Registered so the card check can tell them apart from cards.",
@@ -233,7 +242,9 @@
       ".btn-clear",
       ".btn-more",
       ".filters select",
-      ".ex-search input"
+      ".ex-search input",
+      ".mc-row select",
+      ".map-zoom button"
     ],
     "data": [
       ".table-wrap",

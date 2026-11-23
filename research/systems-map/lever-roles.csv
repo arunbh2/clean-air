@@ -1,0 +1,91 @@
+lever_id,role,institution_id
+e-bus-fleet-renewal,sets rules,state-regulator
+e-bus-fleet-renewal,procures and operates,transport-authority
+e-bus-fleet-renewal,pays,development-finance
+e-bus-fleet-renewal,supplies,private-sector
+e-bus-fleet-renewal,evaluates,research
+vehicle-inspection-maintenance,sets rules,transport-authority
+vehicle-inspection-maintenance,operates,private-sector
+vehicle-inspection-maintenance,pays,development-finance
+vehicle-inspection-maintenance,evaluates,research
+continuous-emissions-monitoring,sets standard,national-regulator
+continuous-emissions-monitoring,enforces,state-regulator
+continuous-emissions-monitoring,supplies,private-sector
+continuous-emissions-monitoring,evaluates,research
+continuous-emissions-monitoring,represents communities,civil-society
+industrial-boiler-transition,sets standard,state-regulator
+industrial-boiler-transition,pays,development-finance
+industrial-boiler-transition,delivers,private-sector
+industrial-boiler-transition,evaluates,research
+kiln-transition,sets standard,state-regulator
+kiln-transition,orders compliance,courts
+kiln-transition,pays,development-finance
+kiln-transition,delivers training,civil-society
+kiln-transition,represents workers,civil-society
+kiln-transition,evaluates,research
+clean-cooking-sustained,pays,national-government
+clean-cooking-sustained,delivers,private-sector
+clean-cooking-sustained,supports uptake,civil-society
+clean-cooking-sustained,evaluates,research
+residue-machinery,pays,agriculture-department
+residue-machinery,enforces,state-regulator
+residue-machinery,supplies,private-sector
+residue-machinery,evaluates,research
+crop-residue-markets,pays,agriculture-department
+crop-residue-markets,buys residue,private-sector
+crop-residue-markets,evaluates,research
+anti-smog-guns,procures,city-government
+anti-smog-guns,supplies,private-sector
+anti-smog-guns,evaluates,research
+smog-towers,procures,city-government
+smog-towers,evaluates,research
+smog-towers,orders review,courts
+occupational-protection,sets duty,labour-welfare
+occupational-protection,delivers,civil-society
+occupational-protection,monitors health,health-system
+occupational-protection,represents workers,civil-society
+occupational-protection,evaluates,research
+mass-masks,procures,city-government
+mass-masks,evaluates,research
+school-education,delivers,education-system
+school-education,designs,civil-society
+school-education,evaluates,research
+classroom-purifiers,procures and operates,education-system
+classroom-purifiers,supplies,private-sector
+classroom-purifiers,evaluates,research
+night-shelter-filtration,operates,city-government
+night-shelter-filtration,supplies,private-sector
+night-shelter-filtration,evaluates,research
+new-clean-air-shelters,procures,city-government
+new-clean-air-shelters,evaluates,research
+health-readiness,delivers,health-system
+health-readiness,sets guidance,national-regulator
+health-readiness,evaluates,research
+registration-compensation,pays,labour-welfare
+registration-compensation,orders payment,courts
+registration-compensation,registers workers,civil-society
+registration-compensation,represents workers,civil-society
+registration-compensation,evaluates,research
+restriction-income-design,pays,labour-welfare
+restriction-income-design,designs,research
+restriction-income-design,represents workers,civil-society
+entitlement-enrolment,pays,national-government
+entitlement-enrolment,enrols,civil-society
+entitlement-enrolment,delivers care,health-system
+worker-community-voice,organises,civil-society
+worker-community-voice,funds,philanthropy
+worker-community-voice,responds,city-government
+low-cost-sensors-action,measures,research
+low-cost-sensors-action,supplies,private-sector
+low-cost-sensors-action,decides and pays,city-government
+low-cost-sensors-action,funds,philanthropy
+community-led-monitoring,measures,civil-society
+community-led-monitoring,funds,philanthropy
+community-led-monitoring,responds,city-government
+independent-evaluation,evaluates,research
+independent-evaluation,funds,philanthropy
+independent-evaluation,acts on findings,national-regulator
+airshed-management-plans,coordinates,state-regulator
+airshed-management-plans,sets framework,national-regulator
+airshed-management-plans,pays,development-finance
+airshed-management-plans,evaluates,research

@@ -151,7 +151,7 @@ if __name__ == "__main__":
             else: state = "source_accessible_passage_not_found"
         method = "automated window match (figures + wording)" if best else "no text retrieved automatically"
         rev = reviews.get(c["claim_id"])
-        if state == "needs_manual_review" and rev:
+        if state in ("needs_manual_review", "source_accessible_passage_not_found") and rev:
             pool = " ".join(texts.get(x, "") for x in sids)
             if rev["decision"] == "located":
                 state, method = "passage_found", "manual review: reviewer located the passage (data/passage-reviews.csv)"

@@ -76,3 +76,5 @@ C212,located,S150;S151,S150 21 October 2025 report; S151 3 September 2026 report
 C216,located,S174,Article body,"Winrock works with local partners through the USAID Reducing Pollution project on transport, open burning and other sources.",2026-11-23
 C217,not_located,S176,,"GEF project page content (IDs, dates, amounts) not present in the fetched text; the page appears to render with JavaScript. Kept for review.",2026-11-23
 C220,not_located,S178,,The soft-launch passage was not located in the fetched page text. Kept for review.,2026-11-23
+C224,located,S074,"Solutions section, household cooking","The page states: biomass-fueled stoves create both indoor and ambient air pollution.",2026-11-23
+C226,located,S181,Abstract,"Complete mitigation of household sources: national population-weighted mean 38 µg/m³ versus 55.1 at the 2015 baseline, meeting the 40 µg/m³ standard on average; Delhi would remain out of attainment.",2026-11-23

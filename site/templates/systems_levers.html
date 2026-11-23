@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Where action could weaken a link</h1>
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<p class="simple-answer">Each lever names the connection on the map that it could weaken. Its rating says, separately, how strong the evidence is that the action improves outcomes. Cutting pollution at its source is different from protecting people while sources persist, and both differ from supporting health and income.</p>
+<p class="layer-meta">A lever could weaken a connection; it does not guarantee an outcome. Back to the <a href="../index.html">map</a>.</p></section>
+{% for mode in ['source reduction', 'exposure protection', 'healthcare', 'livelihood support', 'governance and financing'] %}
+<section aria-labelledby="m-{{ loop.index }}" class="section-rule"><h2 id="m-{{ loop.index }}">{{ mode|capitalize }}</h2>
+<div class="table-wrap"><table class="data"><caption>{{ mode|capitalize }} levers</caption>
+<thead><tr><th scope="col">Lever</th><th scope="col">Could weaken</th><th scope="col">Evidence it works</th><th scope="col">Recommendation</th></tr></thead>
+<tbody>{% for l in levers if l.mode == mode %}<tr><th scope="row"><a href="{{ l.lever_id }}.html">{{ l._name }}</a></th><td>{% for t in l._targets %}<a href="../links.html#{{ t }}">{{ SM_NODE_BY[SM_EDGE_BY[t].from].label }} → {{ SM_NODE_BY[SM_EDGE_BY[t].to].label }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</td><td>{{ badge(l._rating)|safe }}</td><td>{{ rec_badge(l._rec)|safe }}</td></tr>{% endfor %}</tbody></table></div>
+</section>{% endfor %}
+{% endblock %}

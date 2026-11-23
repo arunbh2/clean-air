@@ -1,0 +1,11 @@
+system_id,title,plain,order
+emissions,Emissions and the polluting economy,"Where polluting particles and gases are released: vehicles, kilns, industry, power plants, homes and burning.",1
+atmosphere,Atmosphere and shared airsheds,"What happens in the air: weather that traps pollution, particles formed from gases, and pollution carried across borders.",2
+cities,Cities and infrastructure,"Construction, roads, waste systems and the way cities are built and run.",3
+places,"Homes, schools and workplaces","Where people actually breathe the air: kitchens, classrooms, roadsides and outdoor jobs.",4
+health,Health and health services,"Effects on lungs, hearts, pregnancies and early deaths, and how health services respond.",5
+work,Work and livelihoods,"Earnings, productivity and what happens to income when rules stop work.",6
+households,"Household finances, care and education","Medical bills, fuel costs, school closures and the pressures that fall on families.",7
+land,"Agriculture, land and ecosystems",Crop-residue burning and the farm economics behind it.,8
+governance,"Governance, accountability and public information","Monitoring, rules, emergency plans, courts and coordination between authorities.",9
+finance,"Finance, markets and distribution of costs","Who pays: public budgets, welfare funds, technology costs and the market for protection.",10

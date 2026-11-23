@@ -40,6 +40,7 @@ def check(dist):
                     if f and not os.path.exists(os.path.join(dist, f)): errs.append(f"internal: {rel}: {href} -> missing file")
                 continue
             path, _, frag = href.partition("#")
+            path = path.split("?", 1)[0]
             target = os.path.normpath(os.path.join(os.path.dirname(rel), path)) if path else rel
             if not os.path.exists(os.path.join(dist, target)): errs.append(f"internal: {rel}: {href} -> missing {target}"); continue
             if frag and target.endswith(".html") and frag not in ids_of(target): errs.append(f"anchor: {rel}: {href} -> no id '{frag}'")

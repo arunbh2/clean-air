@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ smfm.title }}</h1>
+<p class="deck">{{ smfm.lede }}</p>
+<p class="trust sans">{{ smfm.trust }} Research cutoff: {{ CUTOFF }}.</p>
+<ul class="atlas-strip sans" aria-label="What this map contains">
+  <li><strong data-count="systems">{{ G.counts.systems }}</strong> systems</li>
+  <li><strong data-count="nodes">{{ G.counts.nodes }}</strong> parts</li>
+  <li><strong data-count="edges">{{ G.counts.edges }}</strong> connections, <span data-count="hypothesis_edges">{{ G.counts.hypothesis_edges }}</span> of them unmeasured hypotheses</li>
+  <li><strong data-count="loops">{{ G.counts.loops }}</strong> feedback loops</li>
+  <li><strong data-count="levers">{{ G.counts.levers }}</strong> levers</li>
+</ul>
+<p class="btn-row sans"><a class="btn" href="#map">Explore the connections</a> <a class="btn secondary" href="journeys/index.html">Start with one person's day</a></p>
+
+<section class="layer simple" aria-labelledby="in-short"><h2 id="in-short" class="layer-label">In short</h2>
+<div class="prose simple-answer">{{ intro_html|safe }}</div></section>
+
+<section id="map" aria-labelledby="map-h" class="section-rule">
+<h2 id="map-h">Explore the connections</h2>
+<noscript><p class="notice">Without JavaScript the diagram shows the whole web. Select any box or arrow to open its entry on <a href="links.html">every link as text</a>.</p></noscript>
+<div class="map-controls sans" data-map-controls hidden>
+  <div class="mc-row">
+    <button type="button" class="btn-clear" data-view aria-pressed="false">Show the whole web</button>
+    <label>Highlight a system <select data-sys><option value="">None</option>{% for s in G.systems %}<option value="{{ s.system_id }}">{{ s.title }}</option>{% endfor %}</select></label>
+    <label>Highlight who is affected <select data-pop><option value="">Everyone</option></select></label>
+  </div>
+  <details class="more-filters" data-map-tools open><summary>Paths, loops and levers</summary>
+  <div class="mc-row">
+    <fieldset class="mc-path"><legend>How does one part connect to another?</legend>
+      <label>From <select data-from></select></label>
+      <label>To <select data-to></select></label>
+      <label class="mc-check"><input type="checkbox" data-hyp> Include unmeasured hypotheses</label>
+      <button type="button" class="btn-more" data-find>Find mapped paths</button>
+    </fieldset>
+    <label>Show a feedback loop <select data-loop><option value="">None</option>{% for c in G.loops %}<option value="{{ c.loop_id }}">{{ c.loop_id }}: {{ c.title }}</option>{% endfor %}</select></label>
+    <label>Switch on a lever <select data-lever><option value="">None</option></select></label>
+    <button type="button" class="btn-clear" data-reset>Clear all</button>
+  </div></details>
+</div>
+<div class="map-wrap">
+  <div class="map-viewport" role="region" aria-label="Systems map diagram. Scroll or use arrow keys inside this area to move around, and the zoom buttons to enlarge; every connection is also listed as text." tabindex="0" data-viewport>
+    {{ SVG|safe }}
+  </div>
+  <div class="map-zoom sans" data-zoom hidden><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">&minus;</button><button type="button" data-z="reset">Reset view</button></div>
+  <aside class="map-panel" id="map-panel" aria-live="polite" aria-label="Details"><p class="muted sans">Select a box or an arrow to see what it means and the evidence behind it. Press Escape to close details.</p></aside>
+</div>
+<div class="map-legend sans" aria-label="How to read the lines">
+  <p><svg width="44" height="10" aria-hidden="true"><line x1="0" y1="5" x2="44" y2="5" class="lg direct"/></svg> Direct effect (from a source or from the air)</p>
+  <p><svg width="44" height="10" aria-hidden="true"><line x1="0" y1="5" x2="44" y2="5" class="lg knock-on"/></svg> Knock-on effect</p>
+  <p><svg width="44" height="10" aria-hidden="true"><line x1="0" y1="5" x2="44" y2="5" class="lg hypothesis"/></svg> Reasoned hypothesis, not measured</p>
+  <p><svg width="44" height="10" aria-hidden="true"><line x1="0" y1="5" x2="44" y2="5" class="lg loop"/></svg> Part of the selected loop or path</p>
+  <p class="muted">Evidence strength is always written in words in the details, never shown by colour alone.</p>
+</div>
+</section>
+
+<section aria-labelledby="five-h" class="section-rule">
+<h2 id="five-h">Five questions to start with</h2>
+<div class="q-grid">{% for f in smfm.five %}<details class="q"><summary>{{ f.q }}</summary><p>{{ f.a }} <a href="{{ f.href }}">Explore</a></p></details>{% endfor %}</div>
+</section>
+
+<section aria-labelledby="layers-h" class="section-rule">
+<h2 id="layers-h">The parts of the system</h2>
+{% for lay, label in SM_LAYER.items() %}<h3 id="layer-{{ lay }}">{{ label }}</h3>
+<ul class="compact-list">{% for n in G.nodes if n.layer == lay %}<li><a href="links.html#node-{{ n.node_id }}">{{ n.label }}</a>: {{ n.explanation }}</li>{% endfor %}</ul>{% endfor %}
+</section>
+
+<section aria-labelledby="loops-h" class="section-rule">
+<h2 id="loops-h">Feedback loops</h2>
+<p class="measure">A loop returns to where it started, so a harm can reinforce itself. Each link has its own evidence; none of these loops has been studied end to end.</p>
+<ul class="hub-links sans">{% for c in G.loops %}<li><a href="loops/{{ c.loop_id|lower }}.html">{{ c.loop_id }}: {{ c.title }}</a> {{ c.measured_links }} of {{ c.links }} links measured; weakest link: {{ c.weakest_link }}.</li>{% endfor %}</ul>
+</section>
+
+<section aria-labelledby="q-h" class="section-rule">
+<h2 id="q-h">Questions this map can answer</h2>
+<dl class="kv">{% for q in questions %}<dt>{{ q.audience }}: {{ q.question }}</dt><dd>{{ q.answer }} {% for l in q.links.split(';') %}{% set k, v = l.split(':') %}<a class="src-link" href="{{ {'journey':'journeys/'~v~'.html','edge':'links.html#'~v,'loop':'loops/'~(v|lower)~'.html','lever':'levers/'~v~'.html'}[k] }}">{{ v if k != 'lever' else SM_LEV_BY[v]._name|truncate(40) }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</dd>{% endfor %}</dl>
+</section>
+
+<section aria-labelledby="more-h" class="section-rule">
+<h2 id="more-h">Go deeper</h2>
+<ul class="hub-links sans">
+<li><a href="links.html">Every link as text</a> The whole map in reading order, with evidence.</li>
+<li><a href="journeys/index.html">Start with one person's day</a> Five guided journeys.</li>
+<li><a href="levers/index.html">Where action could weaken a link</a> Levers, who could act and who has funded related work.</li>
+<li><a href="loops/index.html">Feedback loops</a> Including the loops we did not accept, and why.</li>
+<li><a href="method.html">How the map was built</a> Model, rules and limits.</li>
+<li>Download the data: <a href="data/graph.json">graph (JSON)</a>, <a href="data/nodes.csv">parts (CSV)</a>, <a href="data/edges.csv">connections (CSV)</a>, <a href="data/loops.json">loops</a>, <a href="data/levers.json">levers</a>.</li>
+</ul>
+</section>
+<script type="application/json" id="map-data">{{ map_json|safe }}</script>
+{% endblock %}
+{% block scripts %}<script src="{{ rel }}js/systems-map.js" defer></script>{% endblock %}
