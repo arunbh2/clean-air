@@ -1,0 +1,634 @@
+
+ 
+ 
+ India: World Bank Approves Financing for Programs to Promote Clean Air in Haryana and Uttar Pradesh States 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ false 
+ 
+ 
+ 
+ 
+ Home 
+ https://www.worldbank.org/ext/en/home 
+ 
+ News 
+ https://www.worldbank.org/ext/en/news 
+ 
+ Press Release 
+ https://www.worldbank.org/en/news/all?displayconttype_exact=Press+Release&lang_exact=English 
+ 
+ India: World Bank Approves Financing for Programs to Promote Clean Air in Haryana and Uttar Pradesh States 
+ https://www.worldbank.org/en/news/press-release/2025/12/10/india-world-bank-approves-financing-for-programs-to-promote-clean-air-in-haryana-and-uttar-pradesh-states 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-8 
+ 
+ 
+ col-lg-8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ jcrtitle 
+ 
+ India: World Bank Approves Financing for Programs to Promote Clean Air in Haryana and Uttar Pradesh States 
+ 
+ 
+ 
+ jcrpagetitle 
+ India: World Bank Approves Financing for Programs to Promote Clean Air in Haryana and Uttar Pradesh States 
+ 
+ 
+ jcrnavtitle 
+ India: World Bank Approves Financing for Programs to Promote Clean Air in Haryana and Uttar Pradesh States 
+ 
+ 
+ jcrdescription 
+ The World Bank Board of Executive Directors today approved financing for two critical programs in the Indian states of Uttar Pradesh and Haryana to help improve air quality for 270 million people, with clean air benefits spilling over to other states. These programs will also aim at further increasing the attractiveness of both states as business destinations and engines of job creation. 
+ 
+ 
+ jcrtags 
+ 
+ 
+ wbg:country/india 
+ wbg:regions/south-asia 
+ wbg:topic/environment_broad/environment_circular-economy-pollution 
+ wbg:topic/health_broad 
+ wbg:topic/transport_broad 
+ 
+ 
+ 
+ 
+ jcrimage 
+ https://delivery-p136806-e1377785.adobeaemcloud.com/adobe/assets/urn:aaid:aem:5a547c7c-85c3-48d7-b37e-906a179ec786/as/Air-Pollution-Gurgaon-Clean.jpg 
+ 
+ 
+ content-type 
+ Press Release 
+ 
+ 
+ writer 
+ 000581401 
+ 
+ 
+ first-appeared-in 
+ 2025-12-10 
+ 
+ 
+ expert-id 
+ 000581401 
+ 
+ 
+ country 
+ India 
+ 
+ 
+ keyframe-img 
+ https://delivery-p136806-e1377785.adobeaemcloud.com/adobe/assets/urn:aaid:aem:bcd7e4d4-a970-415f-87df-a7ba7800ee4a/as/WBG-Logo.jpg 
+ 
+ 
+ related-project-id 
+ 
+ 
+ P510686 
+ P510253 
+ 
+ 
+ 
+ 
+ result 
+ false 
+ 
+ 
+ funding-mechanism 
+ 
+ 
+ ibrd, IBRD 
+ 
+ 
+ 
+ 
+ content-date 
+ December 10, 2025 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-3 
+ 
+ 
+ col-lg-3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-xlarge 
+ 
+ 
+ style 
+ default 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-7 
+ 
+ 
+ col-lg-7 
+ 
+ 
+ 
+ 
+ add-style 
+ font-medium 
+ lp-body-content 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Air-Pollution-Gurgaon-Clean.jpg 
+ 
+ 
+ 
+ 
+ 
+ Adobe Stock 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ WASHINGTON, Dec. 10, 2025 –  The World Bank Board of Executive Directors today approved financing for two criticalprograms in the Indian states of Uttar Pradesh and Haryana to help improve air quality for 270 million people, with clean air benefits spilling over to other states. These programs will also aim at further increasing the attractiveness of both states as business destinations and engines of job creation. 
+ “Air pollution is causing severe health impacts, loss of productivity and reduced quality of life across South Asia,” said   Paul Procee, Acting Country Director, World Bank India.   “These operations in Haryana and Uttar Pradesh represent the first airshed-based, multi-sectoral programs undertaken by state governments in India to tackle the complex challenge of reducing air pollution. The programs will also demonstrate how air quality initiatives can increase productivity and create green jobs, especially for youth and women.” 
+ The  Uttar Pradesh (UP) Clean Air Management Program (UPCAMP)  ($299.66 million) will build on the Government of UP's Clean Air Plan by investing in key sectors such as transport, agriculture and industry to improve air quality for its people. The program will help 3.9 million households gain access to clean cooking. It will also encourage people to use clean transport by introducing 15,000 electric three-wheelers, and 500 electric-buses in the cities of Lucknow, Kanpur, Varanasi, and Gorakhpur. The project will support UP government’s plans to provide incentives to replace13,500 polluting heavy-duty vehicles with lower emitting vehicles. 
+ “By adopting an airshed approach – rather than city-level solutions – Uttar Pradesh aims to reduce air pollution faster and at lower cost by collaborating with other states to control transboundary emissions,”  said Ana Luisa Lima and Farah Zahir, the task team leaders of UPCAMP.  “Among its initiatives, the Program will incentivize farmers to adopt good practices to improve fertilizer use efficiency and manage livestock waste. It will also help MSMEs transition to cleaner technologies and promote e-mobility in urban centers.” 
+ The  Haryana Clean Air Project for Sustainable Development Operation  ($300 million) will support the Government of Haryana’s Action Plan aimed at reducing air pollution through a combination of multisectoral interventions. The project will invest in air quality and emission monitoring systems to strengthen the state’s ability to better gauge the impact of various sources of pollution. The project will also support investments in clean transport such as electric bus services and electric three wheelers in the cities of Gurugram, Sonipat, and Faridabad. These, in turn, will offer seamless connectivity and access to more jobs – especially for women. The project will also support the state’s efforts for the adoption of cleaner technologies by MSMEs, and promotion of machineries and technologies for agriculture waste management, and productive reuse of paddy stubble. 
+ “Recognizing clean air as a top priority, Haryana has adopted a forward-looking approach by setting up ARJUN, a special purpose vehicle, to facilitate coordination, implementation and monitoring amongst relevant agencies,” said  Sharlene Chichgar, Laghu Parashar, and Saumya Srivastava, task team leaders of the project.  “By targeting emissions in key sectors such as transport, agriculture, industry, and urban development, this program will also aim at mobilizing over $127 million from private capital mobilization.” 
+ The two programs are part of the World Bank’s  Regional Air Quality Management Program in the Indo-Gangetic Plains and Himalayan Foothills (IGP-HF) , a global air pollution hotspot. The programs will also receive grants from the World Bank’s  Resilient Asia Program  — funded by the United Kingdom’s Foreign, Commonwealth and Development Office and Swiss Government's Agency for Development and Cooperation — and the multi-donor  Energy Sector Management Assessment Program . 
+ The Uttar Pradesh program has a final maturity of 10 years including a grace period oftwo years, and the Haryana program has a final maturity of 23.5 years including a grace period ofsix years. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Contacts 
+ 
+ 
+ 
+ Washington 
+ 
+ 
+ 
+ dchung1@worldbank.org 
+ +1 202 473 8357 
+ 
+ 
+ 
+ 
+ New Delhi 
+ 
+ 
+ 
+ sbanerji1@worldbank.org 
+ +91-11-41479218 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About The World Bank 
+ The World Bank Group has a bold vision: to create a world free of poverty on a livable planet. In more than 100 countries, the World Bank Group provides financing, advice, and innovative solutions that improve lives by creating jobs, strengthening economic growth, and confronting the most urgent global challenges. For more information, please visit  www.worldbank.org ,  www.miga.org , and  www.ifc.org . 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-3 
+ 
+ 
+ col-lg-3 
+ 
+ 
+ 
+ 
+ add-style 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ RELATED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lp-heading-bottom-medium 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Project Documents 
+ 
+ 
+ Uttar Pradesh Clean Air Management Program 
+ India: Haryana Clean Air Project for Sustainable Development Operation 
+ 
+ 
+ 
+ 
+ 
+ 
+ Connect with us! 
+ 
+ 
+ World Bank India Website (English) 
+ World Bank India Website (Hindi) 
+ World Bank India Newsletters 
+ World Bank India Blogs 
+ Follow us on Facebook 
+ Follow us on X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ style 
+ default 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ OMBC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Online Media Briefing Center (OMBC) news for accredited journalists 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sign In 
+ 
+ 
+ https://media.worldbank.org/ 
+ 
+ 
+ 
+ 
+ 
+ Register 
+ 
+ 
+ https://media.worldbank.org/user/register 
+ 
+ 
+ 
+ 
+ 
+ secondary 
+ 
+ 
+ 
+ 
+ 
+ white-btn 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ sec-swoosh 
+ sec-swoosh-type12 
+ 
+ 
+ style 
+ default, lp-signup-wrapper, border-radius-medium, bg-primary-blue-80, heading-v1 
+ 
+ 
+ sec-inside-container 
+ true 
+ 
+ 
+ 
+ 
+ 
+ 
+ everything 
+ 
+ 
+ https://webapi.worldbank.org/aemsite/everything/search 
+ 
+ 
+ true 
+ 
+ 
+ {"facets":[],"orderby":"contentDate desc","select":"*","searchFields":"*","search":"*","filter":"contentType eq 'Press Release'","top":20,"skip":0} 
+ 
+ 
+ 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ no 
+ 
+ 
+ yes 
+ 
+ 
+ no 
+ 
+ 
+ whats_news 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ style 
+ default, bg-neutrals-15-gradient 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

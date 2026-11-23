@@ -1,0 +1,3000 @@
+Atmospheric Environment 45 (2011) 4470e4480
+
+Contents lists available at ScienceDirect
+
+Atmospheric Environment
+journal homepage: www.elsevier.com/locate/atmosenv
+
+Concentrations of ﬁne, ultraﬁne, and black carbon particles in auto-rickshaws
+in New Delhi, India
+Joshua S. Apte a, Thomas W. Kirchstetter b, Alexander H. Reich c, Shyam J. Deshpande c,
+Geetanjali Kaushik d, Arvind Chel d, Julian D. Marshall e, *, William W Nazaroff f
+a
+
+Energy and Resources Group, University of California, Berkeley, CA 94720-3050, USA
+Environmental Energy Technologies Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+Grinnell College, Grinnell, IA 50112-1670, USA
+d
+Indian Institute of Technology Delhi, Hauz Khas, New Delhi 110016, India
+e
+Department of Civil Engineering, University of Minnesota, 500 Pillsbury Drive SE, Minneapolis, MN 55455, USA
+f
+Department of Civil and Environmental Engineering, University of California, Berkeley, CA 94720-1710, USA
+b
+c
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+Article history:
+Received 15 February 2011
+Received in revised form
+7 May 2011
+Accepted 9 May 2011
+
+Concentrations of air pollutants from vehicles are elevated along roadways, indicating that human
+exposure in transportation microenvironments may not be adequately characterized by centrally located
+monitors. We report results from w180 h of real-time measurements of ﬁne particle and black carbon
+mass concentration (PM2.5, BC) and ultraﬁne particle number concentration (PN) inside a common
+vehicle, the auto-rickshaw, in New Delhi, India. Measured exposure concentrations are much higher in
+this study (geometric mean for w60 trip-averaged concentrations: 190 mg m3 PM2.5, 42 mg m3 BC,
+280  103 particles cm3; GSD w1.3 for all three pollutants) than reported for transportation microenvironments in other megacities. In-vehicle concentrations exceeded simultaneously measured
+ambient levels by 1.5 for PM2.5, 3.6 for BC, and 8.4 for PN. Short-duration peak concentrations
+(averaging time: 10 s), attributable to exhaust plumes of nearby vehicles, were greater than 300 mg m3
+for PM2.5, 85 mg m3 for BC, and 650  103 particles cm3 for PN. The incremental increase of withinvehicle concentration above ambient levelsdwhich we attribute to in- and near-roadway emission
+sourcesdaccounted for 30%, 68% and 86% of time-averaged in-vehicle PM2.5, BC and PN concentrations,
+respectively. Based on these results, we estimate that one’s exposure during a daily commute by autorickshaw in Delhi is as least as large as full-day exposures experienced by urban residents of many
+high-income countries. This study illuminates an environmental health concern that may be common in
+many populous, low-income cities.
+Ó 2011 Elsevier Ltd. All rights reserved.
+
+Keywords:
+Particulate matter
+Megacity
+Microenvironment
+Urban air quality
+Transportation
+Exposure
+
+1. Introduction
+New Delhi, India, is among the ten largest metropolitan areas
+worldwide, with an estimated year-2003 population of 18.6 million
+people (Forstall et al., 2009). Particulate air pollution has been
+a longstanding problem in Delhi. Ambient concentrations of PM2.5
+and PM10 (mass concentrations of airborne particles with aerodynamic diameters, dp, less than 2.5 and 10 mm, respectively) are
+regularly among the highest in the world and frequently an order of
+magnitude larger than in US cities (Gurjar et al., 2008; Mage et al.,
+1996). Air quality management efforts in Delhi devote special
+attention to vehicle emissions. Many private and public transit
+
+* Corresponding author. Tel.: þ1 612 625 2397; fax: þ1 612 626 7750.
+E-mail address: julian@umn.edu (J.D. Marshall).
+1352-2310/$ e see front matter Ó 2011 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.atmosenv.2011.05.028
+
+vehicles have been converted to operate using compressed natural
+gas (CNG) fuel, and two-stroke vehicles are being phased out of use
+(Reynolds and Kandlikar, 2008). However, owing to rapid increases
+in private motor vehicle use, the Delhi transportation sector
+remains a large and growing source of air pollution in that
+metropolis (Narain et al., 2010).
+Research from around the world indicates that particle
+concentrations in transportation microenvironments e on and near
+roadways and inside vehicles e often exceed nearby ambient levels.
+Therefore exposures of people while in transit and for those who
+live or work near roadways may not be well characterized by
+conventional air quality monitoring stations (Kaur et al., 2007).
+Short-term exposure to elevated in-vehicle particle concentrations
+has been associated with subclinical cardiovascular effects in
+healthy populations (Riediker et al., 2004; Jacobs et al., 2010), and
+might serve as a trigger of acute health effects (e.g., myocardial
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+infarction) for susceptible individuals (Peters et al., 2004). Relatively few studies have investigated in-trafﬁc exposures to particulate air pollution in developing-world megacities (Han and
+Naeher, 2006). Such exposures are of concern owing to highemitting vehicle ﬂeets, rapid increases in vehicle use, and long
+exposure durations in and near trafﬁc. For example, a 1997 study in
+Delhi reported that concentrations of PM5.0 and CO inside vehicles
+exceeded the high urban background concentrations by 1.5e10,
+depending on vehicle type (Saksena et al., 2007).
+In view of the limited data on this important air quality issue, we
+undertook an investigation of the ambient and in-vehicle concentrations in New Delhi of three constituents of vehicle exhaust: ﬁne
+particles (PM2.5), black carbon (BC), and ultraﬁne particle number
+(PN). Epidemiological evidence links PM2.5 exposure to elevated
+risks for several acute and chronic health outcomes, including
+cardiovascular disease and premature mortality (Pope and Dockery,
+2006; Brook et al., 2010). Black carbon e a product of incomplete
+combustion and a component of PM2.5 e is associated with
+“probable” human carcinogens such as diesel exhaust (IARC, 1989)
+and polycyclic aromatic hydrocarbons (IARC, 1983). Particle
+number is typically dominated by ultraﬁne particles (UFP;
+diameter < 0.1 mm), which are abundant in vehicle exhaust
+(Kittelson, 1998) and are an emerging public health concern
+(Oberdörster, 2001; Delﬁno et al., 2005). To our knowledge, the
+research reported here constitutes the ﬁrst published study that
+characterizes in-vehicle exposure concentrations to BC and PN on
+the Indian subcontinent. In addition, the measurements presented
+here represent one of the largest datasets for real-time, in-vehicle
+particle concentrations sampled anywhere.
+2. Materials and methods
+2.1. Site description and experimental design
+New Delhi is India’s capital and one of the country’s more
+afﬂuent cities. The region experiences cool winters (DeceJan);
+a brief, transitional spring (FebeMar); hot, dry summers (ApreJun);
+a hot, humid monsoon season (JuleSep); and a warm, dry postmonsoon season (OcteNov). Our study, conducted from February
+through May, spans the early spring through mid-summer period in
+Delhi. In this study, in-vehicle concentration measurements were
+
+4471
+
+collected primarily inside auto-rickshaws, a semi-enclosed, threewheeled vehicle that offers little evident protection from exhaust
+plumes in outside air. Auto-rickshaws are ubiquitous in many South
+Asian cities, serving a function similar to a conventional taxi but at
+lower fares (Harding and Hussein, 2010; Tiwari, 2003). The w55,000
+auto-rickshaws in New Delhi, comprising w1% of the vehicle ﬂeet,
+handle w4% of non-pedestrian person-trips. For comparison, there
+were w5 million registered private vehicles in Delhi in 2008
+(Harding and Hussein, 2010; Narain et al., 2010). During our
+measurement sessions, nearby trafﬁc consisted of motorcycles,
+auto-rickshaws, light-duty passenger vehicles (LDV), three-wheeled
+cargo vehicles, small trucks, and buses. The most common fuels in
+use during this study were gasoline, diesel, and CNG. Heavy-duty
+trucks are prohibited from being driven in Delhi during daytime
+hours (6:00e21:00). Diesel-fueled cars comprise w30% of the Delhi
+LDV ﬂeet (Narain et al., 2010).
+2.1.1. In-vehicle measurements
+We measured in-vehicle concentrations on 40 weekdays (total
+sampling time w180 h) during February 22 to May 26, 2010. Autorickshaw measurements (31 days, 62 trips, 160 h) were primarily
+conducted inside a single Bajaj model RE-4S TSR vehicle, the most
+common model in Delhi (Harding and Hussein, 2010). This opensided vehicle holds 1e4 occupants in an interior volume of
+w1 m3, has a maximum speed of 50e60 km h1, and is powered by
+a 300 cm3 displacement, 5e6 kW four-stroke compressed natural
+gas (CNG) engine. Instruments were carried inside the vehicle in
+a padded backpack designed to limit instrument tilt and vibration.
+We situated sampling lines for all instruments to measure at
+a typical breathing height for a passenger in the center of the rear
+passenger seat. Supplemental experiments suggest that selfpollution from the auto-rickshaw’s own exhaust did not make
+a substantial contribution to in-vehicle concentrations either while
+stopped or when traveling. (See Online Supplemental Information
+(SI) for details.) Drivers and research staff were nonsmokers.
+The sampling route (one-way length: 19.5 km, Fig. 1) was
+selected to reﬂect the range of trafﬁc conditions typical of south and
+central Delhi. The route connects an upper-income neighborhood,
+Chittaranjan Park (CRP), with a central commercial district, Connaught Place (CP). The route passes through residential, commercial,
+and ofﬁce districts and incorporates several road types, including
+
+Fig. 1. Map of New Delhi indicating the main sampling route used in the study. Each trip was driven out-and-back once each during AM and PM commute hours from the ambient
+monitoring site (Chittaranjan Park, CRP) to central New Delhi. Trips turned back at Connaught Place (CP; point 1 on map) during FebeApril (total distance: 39 km) and at Shrimant
+Madhav Rao Scindia Marg (point 2 on map) during May (total distance: 37 km). Each trip stopped at Lodhi Garden park (LG) for 30 min of ambient measurements.
+
+4472
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+narrow residential streets, 2e4 lane arterial roads with trafﬁc
+signals, and 6e8 lane arterial roads with ﬂyover intersections. The
+route was driven round-trip twice per sampling day: once during
+morning (08:30e11:30) and once during evening commute times
+(17:45e20:45; total travel: 78 km d1). We stopped midway
+through the route to measure ambient pollutant concentrations for
+30 min inside a large urban park (see next section). Drivers were
+instructed to drive as they normally would, which in Delhi involves
+frequently changing lanes to avoid stopped vehicles and to reach the
+front of the queue at signals. As is typical of many Indian cities, trafﬁc
+speeds were low. The median trip-integrated arithmetic mean
+speed was 18 km h1 (10% trimmed range: 15e20 km h1). In the
+ﬁnal sampling month (May 2010, 9 trips), we shortened our route by
+2 km (w5%) owing to terrorism concerns at CP; overall trafﬁc speeds
+and trip duration remained similar for the shortened route.
+In addition to the primary sampling program, we explored variability in exposure concentrations with vehicle type and ventilation
+setting, as follows. We measured concentrations at the driver’s side
+rear seat of a common car model (Tata Indica) on 15 trips on the same
+route and times-of-day, May 17e26. We operated the car either with
+open windows (5 trips) or with minimal air intake (10 trips). During
+open-window (OW) trips, windows were lowered halfway and the
+ventilation system was off. During trips with minimal air intake (RC),
+windows were closed, air conditioning was active, and the ventilation system was set to recirculate air at medium fan speed.
+2.1.2. Ambient air quality monitoring: Chittaranjan Park (CRP)
+and Lodhi Garden (LG)
+We conducted routine ambient air measurements in the Chittaranjan Park (CRP) neighborhood and inside Lodhi Garden (LG)
+park. The start of the sampling route was located at CRP, in south
+Delhi. Air-quality monitoring was performed continuously at this
+location. Like other afﬂuent neighborhoods in Delhi, CRP (area,
+A ¼ 1.1 km2, population density ¼ 16,000 people km2) contains
+3e5 story residential buildings and dense shade tree cover; vehicle
+trafﬁc is largely restricted to a few main roads. Monitoring was
+conducted on a building rooftop (height 13 m) situated 200e250 m
+from the nearest roadway with continuous vehicle ﬂow, and
+1000 m from the nearest major arterial roadway. Instruments were
+housed in a 1-m3 sampling enclosure with 24-h power supply via
+electricity with battery backup. Local sources of air pollution were
+only observed occasionally and included vehicle trafﬁc, wood and
+leaf combustion for heating and cooking outdoors (e.g., by security
+guards), trash burning, and construction activity.
+Measurements at LG (A ¼ 0.3 km2) occurred during a 15e20 min
+period midway through each morning and evening mobile monitoring session. There were no evident major emissions sources in
+the park and the sampling location (w1 m above ground) was more
+than 230 m from the nearest roadway.
+
+at CRP. The instrument was situated 2 m above roof height (15 m
+above ground level). Temperature (T), relative humidity (RH), wind
+speed (WS) and direction, and precipitation were logged at 5-min
+intervals over the entire study duration (14 weeks). The study
+was conducted between early spring (February, mean daily
+temperature range 16e27  C) and peak summer (AprileMay,
+30e44  C). The interquartile range (IQR) wind speed was
+0.7e1.3 m s1, primarily from the NE. Little rainfall occurred during
+the study (<2 cm month1). Trip-averaged meteorological data are
+reported in Table 1.
+2.2.2. Continuous and integrated PM2.5 measurements
+We measured PM2.5 concentrations using two DustTrak aerosol
+monitors (model 8520, TSI, Inc., Shoreview, MN). This instrument
+uses a laser photometer to determine real-time PM mass concentration based on 90 light scattering (Arku et al., 2008). Instruments
+were ﬁtted with manufacturer-supplied PM2.5 inlet nozzles and
+impactors. Each day, internal pumps were adjusted to the speciﬁed
+1.7 L min1 ﬂow rate. The instrument zero point was calibrated
+daily using an external HEPA ﬁlter. One DustTrak was continuously
+operated (except during maintenance) at the ambient sampling
+location (CRP) from February 16 to April 23. A second DustTrak was
+used for mobile sampling between February 16 and May 26 and for
+ambient measurements after April 23. A short length (<30 cm) of
+conductive tubing (6 mm in diameter) was used to minimize
+particle loss. The DustTrak’s recording interval was 1 s at LG and invehicle, and 30 s at CRP.
+The DustTrak’s light-scattering measurement technique is
+subject to error because the amount of light scattered by particles
+depends on relative humidity and particle properties such as shape,
+size, and refractive index (Arku et al., 2008; Chakrabarti et al., 2004;
+Ramachandran et al., 2003). We applied two corrections to minimize
+error. First, we accounted for real-time effects of RH on instrument
+response using the approach of Ramachandran et al. (2003):
+
+PM2:5RHcorrected ¼
+
+PM2:5raw
+RH2
+; CF ¼ 1 þ 0:25
+CF
+ð1  RHÞ
+
+(1)
+
+Here, RH is the most recent 5-min average RH at CRP, expressed
+as a fraction of 100%. Although Eq. (1) is unstable for very high
+relative humidity (RH / 1), the instantaneous relative humidity
+never exceeded 65% during our measurements. The trip-averaged
+RH correction factor (CF) was moderate during late February
+(mean: 1.17, maximum: 1.22) and small during other months
+(mean: 1.05, maximum: 1.15). Second, a mass-based calibration,
+derived from a comparison with PM2.5 concentrations determined
+by gravimetric analysis of 32 colocated ﬁlter samples (concentration range: w50e300 mg m3), was applied to the RH-corrected
+DustTrak measurements (see SI for details):
+
+PM2:5gravimetric ¼ 3:91ðPM2:5RHcorrected Þ0:706
+
+(2)
+
+2.2. Instrumentation
+2.2.1. Meteorological parameters
+We employed a weather station (Model PWS-1000TD, Zephyr
+Instruments, East Granby, CT) to record meteorological parameters
+
+Here, PM2.5gravimetric represents the estimated gravimetricequivalent concentration, based on RH-corrected DustTrak measurements, and both mass concentration determinations have units
+of mg m3. For the 60 sampling trips with available data, the mean
+
+Table 1
+Monthly mean and range of meteorological parameters at the Chittaranjan Park (CRP) ambient site during morning (AM) and evening (PM) auto-rickshaw trips.
+Wind speed (m s1)
+
+Month
+
+Hours
+
+Temperature ( C)
+
+(2010)
+
+(trips)
+
+AM
+
+PM
+
+AM
+
+PM
+
+AM
+
+PM
+
+Feb
+Mar
+Apr
+May
+
+23 (8)
+62 (22)
+48 (16)
+41 (16)
+
+26 (24e27)
+33 (27e39)
+41 (38e44)
+39 (34e43)
+
+23 (23e24)
+30 (25e34)
+37 (33e38)
+37 (28e40)
+
+52 (48e56)
+35 (19e46)
+16 (12e29)
+26 (12e48)
+
+56 (52e60)
+37 (23e51)
+21 (16e33)
+23 (13e52)
+
+0.9 (0.3e1.5)
+0.6 (0.3e0.9)
+0.5 (0.2e1.1)
+0.6 (0.3e1.1)
+
+0.2 (0.1e0.5)
+0.3 (0.1e0.7)
+<0.15
+0.4 (0e1.1)
+
+Relative humidity (%)
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+4473
+
+ratio of gravimetric-calibrated to RH-corrected PM2.5 concentration
+was 0.74 for in-vehicle measurements and 0.91 for ambient
+measurements.
+
+With the dilution system in place, concentrations still exceeded
+the 100,000 particles cm3 threshold for 5% of measurements. We
+used the following equation to account for undercounting
+(Westerdahl et al., 2005) and dilution:
+
+2.2.3. Black carbon measurements
+We measured black carbon (BC) concentrations in-vehicle and
+at CRP using two portable aethalometers (model AE-51 “microAeth,” Magee Scientiﬁc, Berkeley, CA). These instruments report BC
+concentration at 1-s intervals by measuring changes in light
+attenuation (l ¼ 880 nm) on a disposable ﬁlter through which
+sample air is drawn at 100e150 cm3 min1.
+Aethalometer measurements required substantial postprocessing. The aethalometer frequently recorded spurious
+concentration “spikes” of 200e2000 mg m3 BC when exposed to
+mild mechanical shock or vibration. As controlled testing of the
+instrument revealed a distinctive pattern for this spurious signal,
+we were able to remove nearly all occurrences of these spikes by
+developing and applying a custom post-processing algorithm to the
+1 Hz raw signal from the instrument (see SI).
+Previous laboratory and ﬁeld experiments have revealed that
+the default aethalometer algorithm underestimates BC concentration as ﬁlter BC mass increases, especially when sampling highly
+light-absorbing particles (Jimenez et al., 2007; Kirchstetter, 2007;
+Kirchstetter and Novakov, 2007). We corrected for this effect
+using the empirical relationship of Kirchstetter and Novakov
+(2007), which was subsequently found in a study of heavy-duty
+diesel exhaust plumes (Ban-Weiss et al., 2009) to yield good
+agreement between thermal-optical analysis and aethalometer
+measurements of BC:
+
+PN ¼ PNdiluted  DF;
+
+BC ¼ BCo ð0:88Tr þ 0:12Þ1
+
+(3)
+
+Here, BC is the corrected black carbon concentration, BCo is the
+instrument-reported concentration, and Tr ¼ exp(ATN/100) is the
+aethalometer ﬁlter transmission that is calculated from
+the instrument-reported attenuation coefﬁcient (ATN). We applied
+Eq. (3) to all BC measurements. Trip-averaged correction factors
+(BC/BCo) for in-vehicle BC measurements were greater than those
+for ambient measurements (medians: 1.58 in-vehicle, 1.23
+ambient) owing to the more rapid ﬁlter loading experienced in onroad sampling conditions.
+2.2.4. Ultraﬁne particle number concentration measurements
+We measured ultraﬁne particle number concentrations (PN)
+using a portable condensation particle counter (CPC, model CPC
+3007, TSI Inc., Shoreview, MN; frequency: 1 Hz). Although this
+instrument detects particles in the size range 10 nm < dp < 1 mm,
+PN is a reasonable proxy for UFP (dp < 0.1 mm) under the conditions
+encountered in this study. Above the manufacturer-established
+concentration limit of 100,000 particles cm3, measurements are
+subject to undercounting because of particle coincidence errors
+(Knibbs et al., 2007; Westerdahl et al., 2005). To extend the effective
+maximum concentration limit of the instrument, we used an
+apparatus described by Ban-Weiss et al. (2009), which diluted the
+inﬂuent sample by w5.5. The device split the sample into two
+unequal paths: w15% of ﬂow passed through a 0.6 mm oriﬁce
+(O’Keefe Controls, Trumbull, CT) and w85% of ﬂow passed through
+a HEPA ﬁlter. The ﬂows were rejoined before entering the instrument. To ensure stable performance of the dilution system, we
+replaced the HEPA ﬁlter every 2e4 weeks and measured the dilution ratio daily. Over the life of each ﬁlter, measured dilution ratios
+were within 10e20% of the median value for that ﬁlter. For each
+ﬁlter used, we applied the median measured dilution ratio to all PN
+measurements made during the period of use of that ﬁlter (range:
+5.39e5.95).
+
+(
+PNdiluted ¼
+
+
+
+38456 exp PNraw  105 ;
+
+PNraw >105
+
+PNraw ;
+
+PNraw  105
+
+)
+(4)
+
+Here, all PN parameters are in units of particles cm3; PNraw
+represents instrument-measured PN; and DF is the dilution factor
+(whose average over all trips was w5.5). Including this correction
+for readings above 100,000 particles cm3 only slightly increased
+the overall trip-average PN concentrations (median increase: 3%;
+10% trimmed range: 2e8% increase). As only one CPC was available,
+ambient PN levels reported here reﬂect the average of three mean
+concentrations: at LG mid-trip and at CRP for the 30-min periods
+immediately preceding and following each in-vehicle sampling
+period.
+2.2.5. Other measurements and protocols
+We used a handheld GPS receiver (model GPSMap 60CSx, Garmin, Inc., Olathe, KS) to record position (accuracy: 3e5 m) and
+speed of the sampling vehicle at 1 Hz frequency. We synchronized
+instrument clocks daily. During each trip, we made a video
+recording of road conditions through the front window. We also
+manually recorded visual observations of local trafﬁc conditions,
+high-emitting vehicles, and prominent non-vehicular emissions
+(e.g., roadside trash burning). We checked all instruments every
+15 min to ensure proper operation. Malfunctioning instruments
+were restarted when possible.
+2.3. Quality control, data processing and analysis
+We downloaded, inspected, and archived real-time measurements immediately following each sampling session. Potential data
+quality issues (missing data, negative or otherwise spurious readings) were ﬂagged for subsequent evaluation and resolution. We
+used custom software written in MATLAB (Mathworks, Inc., Natick,
+MA) to import, synchronize, and combine datasets and to apply
+corrections and calibrations. We censored a small number of
+records owing to instrument malfunction or substantial missing
+data. Fig. 2 presents illustrative data.
+To ensure consistency between the paired instruments used to
+measure ambient and in-vehicle concentrations, we colocated both
+aethalometers and both DustTraks at CRP for the 30 min immediately before and after each sampling session. The DustTrak used for
+ambient measurements indicated a consistent bias of 7.3 
+3.0 mg m3 PM2.5 relative to the instrument used for in-vehicle
+measurements and gravimetric calibrations. To remove the mean
+bias, we adjusted the ambient instrument’s measurements
+by þ7.3 mg m3. Colocated measurements of BC agreed closely after
+applying the loading correction and spike-removing algorithm to
+the aethalometer data and so were not further adjusted (see SI).
+For each session, microenvironment, and pollutant, we
+computed time-integrated arithmetic mean concentrations and
+concentration rank-percentiles for the 1-Hz series. When simultaneous in-vehicle and ambient measurement was not possible (PN;
+some days of PM2.5 measurement), we imputed ambient levels as
+the arithmetic mean of the time-averaged values for the three
+short-duration ambient measurements: LG (mid-trip) and CRP
+(30 min before and after in-vehicle sampling). We validated this
+approach for the w40 sessions in which simultaneous real-time
+ambient PM2.5 and BC data were collected. The imputed and
+
+4474
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+Fig. 2. Example data for one trip (29 March 2010, evening). For visual presentation, plotted concentrations were smoothed using a 60-s moving average ﬁlter.
+
+Fig. 3. Lognormal probability plots (left) and box plots (right) for trip-averaged auto-rickshaw concentrations. For left frames, lines indicate the best-ﬁt lognormal distribution for
+each microenvironment and pollutant. Text boxes report geometric mean /O geometric standard deviation for each pollutant; N represents the number of valid, complete trips
+sampled for each pollutant. Here and elsewhere, box plots display the following distributional parameters: median (central horizontal line), mean (diamond), 25th and 75th
+percentiles (box), and 10th and 90th percentile (whiskers). Incremental in-vehicle concentrations (Δ, “delta”) are calculated as the difference between the mean in-vehicle and
+ambient concentration during each trip.
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+4475
+
+Table 2
+Distribution of average particulate matter concentrations for 62 auto-rickshaw trips in New Delhi.a
+Pollutant
+
+Location
+
+AM (SD)
+
+GM (GSD)
+
+Median
+
+Min
+
+P10
+
+P25
+
+P75
+
+P90
+
+Max
+
+PM2.5 (mg me3)
+N ¼ 60
+
+Auto-Rickshaw
+Ambient
+Difference
+
+200 (46)
+140 (52)
+58 (31)
+
+190 (1.27)
+130 (1.45)
+47 (2.50)
+
+200
+140
+56
+
+110
+66
+0
+
+130
+75
+23
+
+160
+100
+37
+
+230
+170
+72
+
+260
+220
+91
+
+340
+260
+160
+
+BC (mg me3)
+N ¼ 47
+
+Auto-Rickshaw
+Ambient
+Difference
+
+43 (12)
+14 (6.3)
+29 (9.0)
+
+42 (1.31)
+12 (1.61)
+28 (1.36)
+
+43
+13
+27
+
+22
+3.6
+10
+
+29
+6.5
+21
+
+33
+9.2
+24
+
+52
+17
+34
+
+58
+23
+40
+
+77
+34
+63
+
+PN (103 cm-3)
+N ¼ 50
+
+Auto-Rickshaw
+Ambient
+Difference
+
+290 (77)
+38 (12)
+250 (72)
+
+280 (1.35)
+35 (1.47)
+240 (1.41)
+
+280
+37
+240
+
+69
+9.8
+45
+
+200
+24
+180
+
+250
+30
+220
+
+320
+45
+280
+
+380
+51
+340
+
+500
+68
+460
+
+a
+“Difference” represents the trip-average concentration in the the auto-rickshaw microenvironment minus the concentration determined for the ambient site at Chittaranjan Park (CRP). Abbreviations: AM e arithmetic mean, SD e arithmetic standard deviation, GM e geometric mean, GSD e geometric standard deviation, P10, P25, P75, and
+P90 e 10th, 25th, 75th, and 90th percentiles of distribution of trip-average concentrations.
+
+actual mean concentrations agree well (median bias <5%, Pearson’s
+r2 of 0.89 for PM2.5 and 0.85 for BC). As only a single CPC was
+available, we were not able to directly validate this approach for PN.
+Quality control and data processing reduced the concentration
+dataset from w2  106 observations to, respectively, 60, 47 and 50
+matched pairs of arithmetic mean in-vehicle and ambient PM2.5,
+BC, and PN collected on a total of 62 trips.
+3. Results and discussion
+
+linking visible plumes with high PM2.5 emissions (Reynolds et al.,
+2011).
+Concentrations of the individual pollutants were only weakly
+correlated with each other: Pearson’s r2 for PM2.5–BC, PM2.5–PN,
+and BC–PN, respectively were 0.11, 0.28, and 0.08 for trip-average
+concentrations, and 0.33, 0.10, and 0.12 for 1-min average pollutant
+concentrations during trips (mean over all trips). Correlations
+between in-vehicle and ambient concentrations were also only
+moderate: Pearson’s r2 for trip-average concentrations were 0.65
+(PM2.5), 0.42 (BC), and 0.31 (PN).
+
+3.1. In-vehicle concentrations: auto-rickshaws
+Particle concentrations measured in auto-rickshaws were high.
+Trip-averaged concentrations were approximately lognormally
+distributed (Fig. 3), with geometric means of 190 mg m3 for PM2.5,
+42 mg m3 for BC, and 280  103 particles cm3 for PN (Table 2).
+Concentrations were elevated in-vehicle relative to ambient
+measurements at CRP, which had geometric means of 130 mg m3
+for PM2.5, 12 mg m3 for BC, and 35  103 particles cm3 for PN. Over
+all trips, the arithmetic mean incremental in-vehicle (auto-rickshaw minus ambient) concentration was 58  8.0 mg m3 for PM2.5,
+29  2.6 mg m3 for BC, and (250  20)  103 particles cm3 for PN
+(mean  95% CI). For context, note that annual average PM2.5
+among all ambient monitors in the US (sites predominantly urban)
+was 11 mg m3 during 2006e2008 (US EPA, 2008).
+We observed frequent short-duration (w10e100 s) concentration peaks for all monitored pollutants. The 95th percentile of 10-s
+averaged concentrations exceeded the trip arithmetic mean
+concentration by w1.5e2.3 (Table 3). Video data suggest that
+many transient high concentrations (PM2.5 > 500 mg m3,
+BC > 400 mg m3, PN > 106 particles cm3) may be attributable to
+visibly high-emitting vehicles, a ﬁnding that is consistent with
+recent laboratory emissions tests of New Delhi auto-rickshaws
+
+3.2. Contribution of proximate sources to in-vehicle exposure
+concentrations
+To the extent that in-vehicle concentrations differ systematically from ambient concentrations, ambient air quality measurements may not adequately represent in-trafﬁc exposures. The
+in-vehicle to ambient concentration ratio (g) is a metric that can
+usefully characterize this difference. In theory, this ratio will be
+greater for pollutants that are predominantly emitted on roadways.
+Furthermore, among those pollutants emitted primarily on roadways, the ratio will be higher for nonconserved pollutants that
+decay on time scales that are as fast or faster than the air transit
+time from emission site to ambient receptor. A review of 25 studies
+reported that a typical value of g for primary, vehicle-derived
+conserved pollutants is w4:1 (Marshall et al., 2003). For each of
+the pollutants measured in this study, we computed the distribution of g over all trips (Table 3). For BC e a primary, conserved
+pollutant and a marker for vehicle emissions e we found arithmetic
+mean g ¼ 3.6 (95% CI: 3.1e4.1), comparable to the value reported by
+Marshall et al. We obtained a lower mean value for PM2.5, g ¼ 1.5
+(95% CI: 1.4e1.6). That this result is less than for BC is not surprising
+because PM2.5 is a conserved, regional pollutant (i.e., not a tracer for
+
+Table 3
+Summary statistics for within-trip concentration distributions inside auto-rickshaws. a
+Pollutant
+
+PM2.5 (mg m3)
+BC (mg m3)
+PN (103 cm3)
+
+Auto-Rickshaw Concentrations
+
+Ratio Mean Auto: Mean Ambient
+(g)
+
+Ratio P95 Auto: Mean Auto
+
+Ratio P95 Auto: Mean Ambient
+
+P5
+
+P95
+
+Max
+
+GM (GSD)
+
+GM (GSD)
+
+GM (GSD)
+
+AM
+
+AM
+
+AM
+
+110 (1.4)
+12 (1.5)
+53 (1.4)
+
+300 (1.2)
+88 (1.3)
+650 (1.4)
+
+690 (1.4)
+400 (2.1)
+1600 (1.6)
+
+1.5
+3.6
+8.4
+
+1.5
+2.1
+2.3
+
+2.4
+7.8
+20
+
+a
+“P5” and “P95” indicate, respectively, the 5th and 95th percentile 10-s averaged concentration measurement for a given commute trip; Max indicates the maximum 10-s
+averaged concentration measurement for that trip. Measures of central tendency (AM ¼ arithmetic mean, GM ¼ geometric mean) and of spread (GSD ¼ geometric standard
+deviation) are for the distribution of values over all 47e60 trips with available data. Concentration ratios were computed for each individual trip; the value reported here is the
+AM of the distribution of ratios over all trips. See text for description of g, the ratio of trip-averaged in-vehicle to ambient concentration.
+
+4476
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+3.3. Seasonal and temporal variability in ambient and in-vehicle
+pollutant concentrations
+We used unbalanced two-way analysis of variance (ANOVA) to
+decompose the variability in ambient and in-vehicle
+
+Fig. 4. Box plots of trip-averaged in-vehicle concentration attributable to nearroadway microenvironment (4, see text). Numbers indicate mean  95% conﬁdence
+interval.
+
+vehicle emissions); thus in-vehicle concentrations are only
+moderately elevated above the high background levels. Receptor
+modeling for Delhi conducted in 2001 suggests that road dust and
+vehicle emissions each account for only w20e25% of ambient PM2.5
+during the spring (Chowdhury et al., 2007). The value g =1.5
+reported here for PM2.5 in Delhi is consistent with the value of 1.4
+reported by Both et al. (in press) for mid-day PM2.5 concentrations
+on-road versus on a residential roof in a low-income neighbourhood in Bangalore, India. Interestingly, for PN, we found a higher
+mean value, g ¼ 8.4 (95% CI: 7.3e9.6). This ﬁnding, too, is qualitatively consistent with expectations. PN, a strong marker for vehicle
+exhaust plumes, is a nonconserved pollutant. Coagulation, evaporation, and deposition onto surfaces can remove ultraﬁne particles
+at time scales that compete with the residence time of air in urban
+areas. (For advection across New Delhi, at a scale of 40e50 km with
+wind speeds of 1e2 m s1, the time scale is w5e10 h.) Mönkkönen
+et al. (2004) observed evidence of a strong coagulation sink for UFP
+in New Delhi. We estimate a time scale of w0.3e3 h for coagulation
+of 10e100 nm particles for ambient conditions in New Delhi (see
+SI).
+We infer the contribution of roadway emissions to in-vehicle
+exposures by computing the difference between mean in-vehicle
+and ambient (CRP) concentrations for each of the 62 trips. We
+estimate the fraction of the in-vehicle concentration attributable to
+the roadway microenvironment (4) as
+
+4 ¼ ðCveh  Camb Þ=Cveh ¼ 1  g1
+
+(5)
+
+Here, for a given sampling session, Cveh is the mean in-vehicle
+concentration and Camb is the mean ambient concentration at
+CRP. As illustrated in Fig. 4, 4 was smallest for PM2.5 (mean  95%
+CI: 30  4%), intermediate for BC (68  3%) and greatest for PN
+(86  1%). The values of this metric indicate that in-vehicle
+concentrations of BC and PN are dominated by local (near and
+on-roadway) emissions.
+As noted above, BC and UFP (and thus PN) are more speciﬁc
+markers of vehicle emissions than is PM2.5. The ratio of concentrations for these two pollutants to PM2.5 is an indicator of the
+extent to which microenvironmental concentrations are inﬂuenced
+by vehicle emissions. Over all trips, the mean ratio of BC:PM2.5 was
+twice as high in the auto-rickshaw cabin as it was at the ambient
+site (in-vehicle BC:PM2.5 ¼ 0.23; ambient BC:PM2.5 ¼ 0.10). The
+ratio of PN:PM2.5 was w5 higher inside the auto-rickshaw cabin
+than for ambient measurements (in-vehicle PN:PM2.5: 1.4  109
+particles mg1; ambient PN:PM2.5: 0.3  109 particles mg1).
+
+Fig. 5. Decomposition of variability in auto-rickshaw exposure concentrations into
+month-of-year and time-of-day components. Box plots indicate the distribution of invehicle concentrations for morning and evening trip samples during each month of the
+ﬁeld campaign. Arithmetic mean  95% CI concentrations are indicated for each month
+(inside frames) and separately by morning and evening trip (below frames). P-values
+represent the result of unbalanced two-factor ANOVA test for effect of month and
+time-of-day on total concentration variability.
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+concentrations into time-of-day (AM vs. PM), day-of-week, and
+seasonal (month) components (Fig. 5, Fig. SI.5). We found statistically signiﬁcant (p < 0.05) in-vehicle time-of-day trends for PM2.5
+and BC, but not for PN. On average, PM2.5 and BC concentrations
+were, respectively, 11% higher and 32% lower in the morning as
+compared with the evening commutes. The reasons for the
+different behavior among the three species are not known. One
+plausible explanation derives from recognizing that in-vehicle
+concentrations are dependent on contributions from both the
+urban background and the near-vehicle microenvironment. The
+timing of in-vehicle PM2.5 is dominated by the contribution from
+the urban background, whereas the temporal trend for BC appears
+to be attributable to the on-road microenvironment (Fig. SI.5). The
+increment for in-vehicle concentrations above the ambient levels
+was typically greater in the evening than in morning for both PM2.5
+and BC, which may reﬂect inﬂuences from temporal patterns of
+emissions and/or atmospheric transport and dispersion. We
+observed, for example, that wind speeds at the CRP ambient site
+were w60% lower in the evening than in the morning (Table 1),
+a characteristic that would be consistent with relatively higher
+contributions of vehicle emissions to on-roadway concentrations
+during the evening commutes. Based on tests using ANOVA by day
+of week and multi-factorial ANOVA by day of week, time of day, and
+month, we did not detect any consistent day-of-week differences in
+concentration. Sampling was limited to Monday through Friday, so
+any weekend effects would not have been detected.
+We found a statistically signiﬁcant downward trend for invehicle PM2.5 and PN concentrations between February and May.
+
+4477
+
+For PM2.5, the seasonal concentration decrease was similar for invehicle and ambient conditions (Fig. SI.5), suggesting that urbanscale trends (e.g., fuel use for heating, average mixing height) are
+responsible for observed seasonal changes for in-vehicle concentrations. In contrast, seasonal decreases for PN were noticeably
+larger for in-vehicle than for ambient conditions. We hypothesize
+that changes in temperatures may explain this in-vehicle/ambient
+PN difference, owing to shifts in gas-particle partitioning of semivolatile UFP constituents and the CPC’s 10-nm particle size cutpoint. Speciﬁcally, particles that would have been larger than 10 nm
+at lower temperatures might shrink via evaporation to diameters
+smaller than 10 nm at higher temperatures. The proportion of
+particles that are small (w10 nm) is expected to be higher nearsource (on-roadway air, with fresh emissions) than in ambient air
+(more aged aerosols).
+3.4. Comparisons among vehicle types
+We examined differences by vehicle type for the trip-average
+concentration inside auto-rickshaws, cars with open windows
+(OW; no fan ventilation), and cars with ventilation set to recirculate
+air (RC; windows closed and air conditioning on) in May (Fig. 6a).
+We found no statistically signiﬁcant difference between concentrations in auto-rickshaws and OW cars. However, concentrations
+were substantially lower inside RC cars than in the auto-rickshaw,
+with mean  95% CI concentration difference of 61  33 mg m3
+for PM2.5, 12  11 mg m3 for BC, and 130  41  103 particles cm3
+for PN. Concentration ratios (RC car: auto-rickshaw) were w0.6 for
+
+Fig. 6. Box plots of PM2.5, BC, and PN in-vehicle exposure concentrations sampled in May 2010, by vehicle type, showing (A) concentrations and (B) a measure of skew (ratio of each
+trip’s 95th percentile [P95] to median concentration based on 10-s averages of concentration). Vehicle types: AeR, auto rickshaw; Car OW, Tata Indica with windows open; Car RC,
+Tata Indica with windows closed, air conditioning on, and ventilation set to recirculate air. Left axis indicates PM2.5 and BC concentrations; right axis indicates PN concentration. Text
+displays arithmetic mean  95% CI. Total number of trips: auto-rickshaw (16), OW car (5), RC car (10).
+
+4478
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+Fig. 7. Comparison of in-vehicle (solid) and ambient (open) concentrations from this study (Delhi, DEL) and from other megacities. Whisker plots indicate means and range of
+observations. In-vehicle studies were for cars (London, LON; Kaur et al., 2005) and non-AC buses (Hong Kong, HK; Chan et al., 2002). Mobile on-road measurements were for Los
+Angeles (LA; Fruin et al., 2008) and Beijing (BJ; Westerdahl et al., 2009). Extreme conditions in these cities are plotted as LA* (freeway with extensive heavy-duty truck trafﬁc) and
+BJ* (truck dominated night trafﬁc).
+
+PM2.5, 0.7 for BC and 0.4 for PN. Relative to auto-rickshaw
+concentrations, the range of instantaneous in-vehicle concentrations (Fig. 6b) was reduced for OW cars, and more substantially
+reduced for RC cars, as would be expected given the reduced air
+exchange rates for such vehicles (Ott et al., 2008; Fruin et al., 2011).
+If the auto-rickshaw PN exposure concentration measurements are
+similar to outdoor on-road levels, then the in-vehicle to outdoor PN
+ratio for the RC cars tested here (w0.4) is within the range
+(w0.2e0.6) reported in a previous US study (Zhu et al., 2007). To
+the extent that concentrations in auto-rickshaws reﬂect on-road
+levels, then travelers using other unenclosed transport modes
+(such as motorcycles, which account for w20% of total trips in
+Delhi) may also experience trip-averaged exposures of similarly
+high magnitude. Further research is warranted to investigate
+exposures for unenclosed transport modes with driving patterns
+distinct from those of auto-rickshaws.
+3.5. Comparison to other megacities, and implications
+for time-integrated exposure
+In-vehicle concentrations reported here are w2e10 greater
+than in-vehicle and on-road concentrations previously reported for
+other megacities (London, Los Angeles, Beijing, Hong Kong; see
+Fig. 7 and SI). Mean BC exposure concentrations in Delhi autorickshaws were roughly twice those measured on Beijing roads
+during the daytime and w3e30 greater than those measured on
+Los Angeles arterial roadways and freeways with varying levels of
+diesel heavy-duty vehicle (HDV) trafﬁc (Fruin et al., 2008;
+Westerdahl et al., 2005, 2009). Although few HDV were in use
+during our measurements, the BC levels in Delhi are higher than
+reported elsewhere. This ﬁnding might indicate that LDV in Delhi
+are high-emitters of BC, perhaps because of the substantial (w30%)
+and growing market share of diesel LDV in India (Narain et al., 2010).
+A global review of 47 studies of commuter exposure to UFP reported geometric mean PN w 5e8 lower than measured in Delhi
+auto-rickshaws, depending on transport mode (Knibbs et al., 2011).
+However, there have been few prior investigations of in-vehicle
+exposure to PN in developing-world megacities. Auto-rickshaw
+PN exposure concentrations were 3 higher in Delhi than
+measured on Beijing roads during the daytime and comparable to
+levels measured there during diesel HDV-dominated nighttime
+trafﬁc (Westerdahl et al., 2009). Moreover, the Delhi measurements
+were largely conducted during time periods of strong vertical
+mixing (daytime, high mixing height), likely in contrast with the
+
+nighttime measurements in Beijing. As has been observed by
+others, ambient PN levels are remarkably similar for New Delhi,
+Beijing, and Los Angeles, despite substantial diversity in demographics, source types, and emissions among these cities (Laakso
+et al., 2006). This observation may be inﬂuenced by the high mass
+concentration providing an effective coagulation sink for UFP under
+more highly polluted conditions. Finally, we note that the instruments used in this study may underreport total PN relative to the
+instruments used in other studies because of differences in the
+minimum size cutpoint (10 nm here, versus 3e7 nm in some other
+studies (Table SI.3)).
+High in-vehicle concentrations in Delhi would lead to high timeintegrated exposures. For example, a typical time-integrated
+exposure during an average daily commute (1.9 h d1 for autorickshaw users (Saksena et al., 2007)) is w530  103 particles
+cm3 h d1, which is larger than any of (a) estimates for entire-day
+PN exposures for urban California residents (w330  103 particles
+cm3 h d1; Fruin et al., 2008), (b) the average in-home exposure
+contributions for residents of seven San Francisco Bay Area singlefamily homes (w300  103 particles cm3 h d1, Bhangar et al.,
+2011), and (c) the average for occupants of Beijing high-rise
+apartments (w290  103 particles cm3 h d1, Mullen et al., in
+press). During a typical daily work shift (10e16 h; Harding and
+Hussein, 2010), auto-rickshaw drivers may receive very high PN
+exposures, on the order of (3000e4000)  103 particles cm3 h d1.
+4. Conclusions
+We measured in-vehicle exposure concentrations to particulate
+air pollution for auto-rickshaw and car commuters during three
+months in New Delhi, India. This paper reports one of the ﬁrst sets
+of PN and BC exposure concentration measurements inside autorickshaws, a ubiquitous transport mode in South Asian urban
+areas. It also represents one of the longest-duration measurement
+campaigns of real-time, in-vehicle PN and BC concentrations
+anywhere. Auto-rickshaw exposure concentrations of PM2.5, BC,
+and PN were very high in comparison with in-vehicle concentrations measured in other cities around the world. Short-duration
+trips by auto-rickshaw in New Delhi result in time-integrated
+exposures to particulate air pollution comparable to or greater
+than full-day exposures that would be experienced by residents of
+many urban areas in high-income countries.
+Auto-rickshaw exposure concentrations were w1.5 to 8
+larger than, and only moderately correlated with, levels measured
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+at an urban background site. Correspondence between ambient and
+in-vehicle measurements was greatest for PM2.5, probably because
+of the high regional background from secondary PM2.5. In contrast,
+in-vehicle BC and PN exposures were predominantly attributable to
+in- and near-roadway sources. These results reinforce previously
+published ﬁndings that ambient monitoring often provides a poor
+proxy for in-vehicle exposures to vehicle-emitted pollutants.
+Over the past decade, Delhi has made strong steps towards
+reducing vehicle emissions of PM, especially with the conversion of
+much of the city’s bus ﬂeet from diesel to CNG fuel (Reynolds and
+Kandlikar, 2008). Despite these efforts, PM2.5, BC, and PN concentrations in Delhi’s auto-rickshaws are among the highest values
+reported in the literature for routine exposures in transportation
+microenvironments. These measurements in auto-rickshaws may
+be representative of other open-window or unenclosed vehicles in
+Delhi, India. Three current trends suggest that the public health
+risks that are likely to be associated with these high exposures may
+persist and even worsen in the future. First, vehicle ownership and
+use are growing rapidly in Delhi and other Indian cities. Second,
+diesel LDVs are increasingly popular in India. Without effective
+emission controls, a trend toward increasing diesel LDV use is likely
+to be accompanied by increasing on-road BC emissions and
+concentrations. Third, increased adoption of CNG may reduce PM2.5
+emissions from spark-ignition engines, but at the cost of higher PN
+emissions (Mönkkönen et al., 2005). We suggest that further study
+of exposure to particulate air pollution is warranted in other
+populous South Asian cities, which have different vehicle ﬂeets
+(older vehicles, more heavy-duty vehicles and two wheelers) and
+different fuel mixes (less CNG, more diesel and gasoline) in
+comparison to New Delhi.
+Acknowledgments
+The authors thank A. Sagar and G. Tiwari for hosting one of us
+(JSA) at the Indian Institute of Technology, Delhi during ﬁeld
+research. We thank M. Apte, J. Blair, M. Brauer, A. Grieshop, L.
+Gundel, S. Guttikunda, O. Hadley, T. Hansen, M. Lunden, C. Reynolds, and K. Smith for technical assistance and feedback. In addition, we gratefully acknowledge the efforts of our research assistant
+Phoolchand. Efforts by JSA were partially supported by a FulbrightNehru grant from the US-India Educational Foundation and by the
+US Environmental Protection Agency under the EPA STAR Graduate
+Fellowship Program. The funding agencies neither reject nor
+endorse the conclusions and the views expressed herein.
+Appendix. Supplementary material
+Supplementary data associated with this article can be found, in
+the online version, at doi:10.1016/j.atmosenv.2011.05.028.
+References
+Arku, R.E., Vallarino, J., Dionisio, K.L., Willis, R., Choi, H., Wilson, J.G., Hemphill, C.,
+Agyei-Mensah, S., Spengler, J.D., Ezzati, M., 2008. Characterizing air pollution in
+two low-income neighborhoods in Accra, Ghana. Science of the Total Environment 402, 217e231.
+Ban-Weiss, G.A., Lunden, M.M., Kirchstetter, T.W., Harley, R.A., 2009. Measurement
+of black carbon and particle number emission factors from individual heavyduty trucks. Environmental Science & Technology 43, 1419e1424.
+Bhangar, S., Mullen, N.A., Hering, S.V., Kreisberg, N.M., Nazaroff, W.W., 2011.
+Ultraﬁne particle concentrations and exposures in seven residences in northern
+California. Indoor Air 21, 132e144.
+Both, A.F., Balakrishnan, A., Joseph, B., Marshall, J.D. Spatiotemporal aspects of realtime PM2.5: low- and middle-income neighborhoods in Bangalore, India.
+Environmental Science & Technology, in press doi: 10.1021/es104331w.
+Brook, R.D., Rajagopalan, S., Pope III, C.A., Brook, J.R., Bhatnagar, A., Diez-Roux, A.V.,
+Holguin, F., Hong, Y., Luepker, R.V., Mittleman, M.A., Peters, A., Siscovick, D.,
+Smith Jr., S.C., Whitsel, L., Kaufman, J.D., 2010. Particulate matter air pollution
+
+4479
+
+and cardiovascular disease: an update to the scientiﬁc statement from the
+American Heart Association. Circulation 121, 2331e2378.
+Chakrabarti, B., Fine, P.M., Delﬁno, R., Sioutas, C., 2004. Performance evaluation of
+the active-ﬂow personal DataRAM PM2.5 mass monitor (Thermo Anderson pDR1200) designed for continuous personal exposure measurements. Atmospheric
+Environment 38, 3329e3340.
+Chan, L.Y., Lau, W.L., Lee, S.C., Chan, C.Y., 2002. Commuter exposure to particulate
+matter in public transportation modes in Hong Kong. Atmospheric Environment 36, 3363e3373.
+Chowdhury, Z., Zheng, M., Schauer, J.J., Sheesley, R.J., Salmon, L.G., Cass, G.R.,
+Russell, A.G., 2007. Speciation of ambient ﬁne organic carbon particles and
+source apportionment of PM2.5 in Indian cities. Journal of Geophysical Research
+112, D15303.
+Delﬁno, R.J., Sioutas, C., Malik, S., 2005. Potential role of ultraﬁne particles in
+associations between airborne particle mass and cardiovascular health. Environmental Health Perspectives 113, 934e946.
+Forstall, R.L., Greene, R.P., Pick, J.B., 2009. Which are the largest? Why lists of major
+urban areas vary so greatly. Tijdschrift voor economische en sociale geograﬁe
+100, 277e297.
+Fruin, S., Westerdahl, D., Sax, T., Sioutas, C., Fine, P.M., 2008. Measurements and
+predictors of on-road ultraﬁne particle concentrations and associated pollutants in Los Angeles. Atmospheric Environment 42, 207e219.
+Fruin, S.A., Hudda, N., Sioutas, C., Delﬁno, R.J., 2011. Predictive model for vehicle air
+exchange rates based on a large, representative sample. Environmental Science
+& Technology 45, 3569e3575.
+Gurjar, B.R., Butler, T.M., Lawrence, M.G., Lelieveld, J., 2008. Evaluation of emissions
+and air quality in megacities. Atmospheric Environment 42, 1593e1606.
+Han, X., Naeher, L.P., 2006. A review of trafﬁc-related air pollution exposure
+assessment studies in the developing world. Environment International 32,
+106e120.
+Harding, S., Hussein, A., 2010. On the Road to Nowhere? Auto-rickshaws in Delhi:
+The System, Problems and Recommendations, Informal Labour Portfolio. AMAN
+Public Charitable Trust, New Delhi. Accessed at: http://www.amanpanchayat.
+org/documents/reports/simon-auto-ﬁnal.doc.
+IARC, 1983. Polynuclear Aromatic Compounds, Part 1, Chemical, Environmental and
+Experimental Data, vol. 32. International Agency for Research on Cancer (IARC)
+Monographs on the Evaluation of Carcinogenic Risks to Humans. Accessed at:
+http://monographs.iarc.fr/ENG/Monographs/vol32/volume32.pdf.
+IARC, 1989. Diesel and Gasoline Engine Exhausts and Some Nitroarenes, vol. 46.
+International Agency for Research on Cancer (IARC) Monographs on the Evaluation of Carcinogenic Risks to Humans. Accessed at: http://monographs.iarc.fr/
+ENG/Monographs/vol46/volume46.pdf.
+Jacobs, L., Nawrot, T.S., de Geus, B., Meeusen, R., Degraeuwe, B., Bernard, A.,
+Sughis, M., Nemery, B., Int Panis, L., 2010. Subclinical responses in healthy
+cyclists brieﬂy exposed to trafﬁc-related air pollution: an intervention study.
+Environmental Health 9 Art. 64.
+Jimenez, J., Claiborn, C., Larson, T., Gould, T., Kirchstetter, T.W., Gundel, L., 2007.
+Loading effect correction for real-time aethalometer measurements of fresh
+diesel soot. Journal of the Air & Waste Management Association 57, 868e873.
+Kaur, S., Nieuwenhuijsen, M., Colvile, R., 2005. Personal exposure of street canyon
+intersection users to PM2.5, ultraﬁne particle counts and carbon monoxide in
+Central London, UK. Atmospheric Environment 39, 3629e3641.
+Kaur, S., Nieuwenhuijsen, M.J., Colvile, R.N., 2007. Fine particulate matter and
+carbon monoxide exposure concentrations in urban street transport microenvironments. Atmospheric Environment 41, 4781e4810.
+Kirchstetter, T.W., 2007. Evaluating Past and Improving Present and Future
+Measurements of Black Carbon Particles in the Atmosphere. California Energy
+Commission, PIER Energy-Related Environmental Research. CEC-500-2007-042.
+Kirchstetter, T.W., Novakov, T., 2007. Controlled generation of black carbon particles
+from a diffusion ﬂame and applications in evaluating black carbon measurement methods. Atmospheric Environment 41, 1874e1888.
+Kittelson, D.B., 1998. Engines and nanoparticles: a review. Journal of Aerosol Science
+29, 575e588.
+Knibbs, L.D., de Dear, R.J., Morawska, L., Coote, P.M., 2007. A simple and inexpensive
+dilution system for the TSI 3007 condensation particle counter. Atmospheric
+Environment 41, 4553e4557.
+Knibbs, L.D., Cole-Hunter, T., Morawska, L., 2011. A review of commuter exposure to
+ultraﬁne particles and its health effects. Atmospheric Environment 45,
+2611e2622.
+Laakso, L., Koponen, I.K., Mönkkönen, P., Kulmala, M., Kerminen, V.-M., Wehner, B.,
+Wiedensohler, A., Wu, Z., Hu, M., 2006. Aerosol particles in the developing
+world; a comparison between New Delhi in India and Beijing in China. Water,
+Air, and Soil Pollution 173, 5e20.
+Mage, D., Ozolins, G., Peterson, P., Webster, A., Orthofer, R., Vandeweerd, V.,
+Gwynne, M., 1996. Urban air pollution in megacities of the world. Atmospheric
+Environment 30, 681e686.
+Marshall, J.D., Riley, W.J., McKone, T.E., Nazaroff, W.W., 2003. Intake fraction of
+primary pollutants: motor vehicle emissions in the South Coast Air Basin.
+Atmospheric Environment 37, 3455e3468.
+Mönkkönen, P., Koponen, I.K., Lehtinen, K.E.J., Hämeri, K., Uma, R., Kulmala, M.,
+2005. Measurements in a highly polluted Asian mega city: observations of
+aerosol number size distribution, modal parameters and nucleation events.
+Atmospheric Chemistry and Physics 5, 57e66.
+Mönkkönen, P., Uma, R., Srinivasan, D., Koponen, I.K., Lehtinen, K.E.J., Hämeri, K.,
+Suresh, R., Sharma, V.P., Kulmala, M., 2004. Relationship and variations of
+
+4480
+
+J.S. Apte et al. / Atmospheric Environment 45 (2011) 4470e4480
+
+aerosol number and PM10 mass concentrations in a highly polluted urban
+environmentdNew Delhi, India. Atmospheric Environment 38, 425e433.
+Mullen, N.A., Liu, C., Zhang, Y., Wang, S., Nazaroff, W.W. Ultraﬁne particle concentrations and exposures in four high-rise Beijing apartments. Atmospheric
+Environment, doi: 10.1016/j.atmosenv.2010.07.060, in press.
+Narain, S., Roychowdhury, A., Mathur, H.B., Chattopadhyay, V., Chandola, P., Sen, J.,
+2010. Mobility Crisis: Agenda for Action 2010. Centre for Science and Environment, New Delhi, India, ISBN 978-81-86906-51-4.
+Oberdörster, G., 2001. Pulmonary effects of inhaled ultraﬁne particles. International
+Archives of Occupational and Environmental Health 74, 1e8.
+Ott, W., Klepeis, N., Switzer, P., 2008. Air change rates of motor vehicles and invehicle pollutant concentrations from secondhand smoke. Journal of Exposure Science and Environmental Epidemiology 18, 312e325.
+Peters, A., von Klot, S., Heier, M., Trentinaglia, I., Hörmann, A., Wichmann, H.E.,
+Löwel, H., 2004. Exposure to trafﬁc and the onset of myocardial infarction. New
+England Journal of Medicine 351, 1721e1730.
+Pope, C.A., Dockery, D.W., 2006. Health effects of ﬁne particulate air pollution:
+lines that connect. Journal of the Air & Waste Management Association 56,
+709e742.
+Ramachandran, G., Adgate, J.L., Pratt, G.C., Sexton, K., 2003. Characterizing indoor
+and outdoor 15 minute average PM2.5 concentrations in urban neighborhoods.
+Aerosol Science and Technology 37, 33e45.
+Reynolds, C.C.O., Kandlikar, M., 2008. Climate impacts of air quality policy:
+switching to a natural gas-fueled public transportation system in New Delhi.
+Environmental Science & Technology 42, 5860e5865.
+
+Reynolds, C.C.O., Kandlikar, M., Badami, M.G., 2011. Determinants of PM and GHG
+emissions from natural gas-fueled auto-rickshaws in Delhi. Transportation
+Research Part D: Transport and Environment 16, 160e165.
+Riediker, M., Cascio, W.E., Griggs, T.R., Herbst, M.C., Bromberg, P.A., Neas, L.,
+Williams, R.W., Devlin, R.B., 2004. Particulate matter exposure in cars is associated with cardiovascular effects in healthy young men. American Journal of
+Respiratory and Critical Care Medicine 169, 934e940.
+Saksena, S., Prasad, R.K., Shankar, V.R., 2007. Daily exposure to air pollutants in
+indoor, outdoor and in-vehicle microenvironments: a pilot study in Delhi.
+Indoor and Built Environment 16, 39e46.
+Tiwari, G., 2003. Transport and land-use policies in Delhi. Bulletin of the World
+Health Organization 81, 444e450.
+US EPA, 2008. Air, in US EPA’s 2008 Report on the Environment (Final Report). US
+Environmental Protection Agency, Washington, DC. Chapter 2 EPA/600/R-07/
+045F (NTIS PB2008e112484).
+Westerdahl, D., Fruin, S., Sax, T., Fine, P.M., Sioutas, C., 2005. Mobile platform
+measurements of ultraﬁne particles and associated pollutant concentrations on
+freeways and residential streets in Los Angeles. Atmospheric Environment 39,
+3597e3610.
+Westerdahl, D., Wang, X., Pan, X., Zhang, K.M., 2009. Characterization of on-road
+vehicle emission factors and microenvironmental air quality in Beijing, China.
+Atmospheric Environment 43, 697e705.
+Zhu, Y.F., Eiguren-Fernandez, A., Hinds, W.C., Miguel, A.H., 2007. In-cabin commuter
+exposure to ultraﬁne particles on Los Angeles freeways. Environmental Science
+& Technology 41, 2138e2145.
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+1
+
+Supplementary Information
+
+2
+3
+
+Concentrations of Fine, Ultrafine, and Black Carbon Particles in AutoRickshaws in New Delhi, India
+
+4
+5
+
+Joshua S. Apte, Thomas W. Kirchstetter, Alexander H. Reich, Shyam J. Deshpande, Geetanjali
+Kaushik, Arvind Chel, Julian D. Marshall, and William W Nazaroff
+
+6
+7
+
+Contents
+
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+
+SI.1 Methods
+SI.1.1 - Experiment to investigate self-pollution contribution to in-cabin exposures
+SI.1.2 - Gravimetric calibration of PM2.5 measurements
+SI.1.3 - Post-processing of aethalometer black carbon measurements
+
+18
+
+SI.1 Methods
+
+19
+
+SI.1.1 Experiment to investigate self-pollution contribution to in-cabin exposures
+
+SI.2 Results
+SI.2.1 - Estimating coagulation timescale for ambient ultrafine particles
+SI.2.2 - Seasonal and temporal variation in ambient particle concentrations
+SI.2.3 - Comparing results with studies from elsewhere
+
+20
+
+We conducted an experiment to investigate potential entrainment of the auto-rickshaw’s own
+
+21
+
+exhaust into the passenger compartment (self-pollution). The test route was a 600 m single-lane
+
+22
+
+loop that formed the perimeter of a forested park near the CRP site. Sampling was conducted on
+
+23
+
+a weekend morning to minimize encounters with other vehicles. At the start of each circuit
+
+24
+
+around the park, the auto-rickshaw paused with engine running for 1-2 min. After completing the
+
+25
+
+loop (average speed: 14 km h-1, maximum speed 18 km h-1), the vehicle’s engine was shut off
+
+26
+
+immediately, and remained off for 1-2 min. This protocol (engine start, 1-2 min idle, drive loop,
+
+27
+
+engine off 1-2 min) was repeated a total of 5 times. During the test, we continuously measured
+
+28
+
+PM2.5, BC, and PN concentrations using the same sampling methods described in §2 of the main
+
+Page SI.1
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+29
+
+text. BC measurements were discarded due to instrument malfunction. Mean wind speed at CRP
+
+30
+
+was 1.6 m s-1 during the test.
+
+31
+
+We did not find evidence of substantial self-pollution. The mean in-vehicle concentrations of
+
+32
+
+PM2.5 and PN were moderately lower than levels measured at CRP immediately following the
+
+33
+
+self-pollution test (Figure SI.1). In-vehicle PM2.5 and PN concentrations during the test did not
+
+34
+
+indicate the large and frequent variability that was typical of our main exposure measurements
+
+35
+
+(compare with Figure 2). Moreover, there was no pattern in pollutant concentrations that
+
+36
+
+correlated with engine on/off status. We observed one PN spike of ~80 × 103 cm-3 midway
+
+37
+
+through the second test iteration. The cause of this concentration spike is unclear, but we noted
+
+38
+
+passing a two-stroke motorcycle at approximately the same time. The ratio of mean (median)
+
+39
+
+concentration during periods with engine on to mean (median) concentration during periods with
+
+40
+
+engine off was 1.02 (1.02) for PM2.5 and 1.08 (0.99) for PN. An unpaired two-sample t-test
+
+41
+
+indicated that the difference in mean pollutant concentration between periods with engine on and
+
+42
+
+periods with engine off was statistically indistinguishable from zero (p = 0.12 for PM2.5, p = 0.34
+
+43
+
+for PN). Overall, the results of this experiment are consistent with the hypothesis that the
+
+44
+
+dominant contribution to in-vehicle concentrations along our main measurement route is from
+
+45
+
+sources other than the auto-rickshaw in which we sampled.
+
+Page SI.2
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+46
+47
+48
+49
+50
+51
+52
+53
+
+Figure SI.1. Traces of vehicle status and pollutant concentrations during an experiment to investigate
+potential self-pollution contribution to in-vehicle exposures. Engine on/off status was measured with a
+vibration transducer (Onset Corporation, Bourne, MA). Elapsed distance (red line) indicates the
+cumulative distance traveled around the ~ 600 m sampling loop over all iterations of the test. Note the
+relatively low and stable pollutant concentrations inside the auto-rickshaw (compare with Figure 2 in the
+main text).
+
+54
+
+SI.1.2 Gravimetric calibration of PM2.5 measurements
+
+55
+
+To calibrate the DustTrak optical-to-mass response for New Delhi’s aerosol, we developed a
+
+56
+
+calibration relationship based on filter samples. A total of 36 gravimetric filter measurements
+
+57
+
+were collected side-by-side with the DustTrak inside auto-rickshaws (16 samples) and at the
+
+58
+
+Chittaranjan Park (CRP) ambient site (20 samples) between late March and early June 2010. We
+
+59
+
+used an SKC PEM PM2.5 impactor (MSP Corporation, Shoreview, MN) and an SKC Leland
+
+60
+
+Legacy sampling pump operating at 10 L min-1 (SKC, Inc, Eighty Four, PA) to achieve a 2.5 µm
+
+Page SI.3
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+61
+
+aerodynamic diameter size cut on the sample aerosol, which was collected on a preweighed 37-
+
+62
+
+mm Teflon filters held by a rigid, porous backing plate. The median air volume sampled was 1.6
+
+63
+
+m3 (10% trimmed range: 0.86 – 4.3 m3).
+
+64
+
+Filter samples were conditioned for 24-72 hours before each weighing using a controlled
+
+65
+
+chamber equilibrated to 35-45% RH and 22-25 ºC. Each filter was discharged of static electricity
+
+66
+
+using a 210Po source and weighed pre- and post-sampling on a 0.1 µg precision Sartorius SE-2
+
+67
+
+Microbalance (Sartorius AG, Göttingen, Germany) at Lawrence Berkeley National Laboratory
+
+68
+
+(LBNL) in Berkeley, CA, USA. A total of 18 blank filters were retained for quality control, of
+
+69
+
+which 3 were stored at LBNL, 11 were taken to India and returned unhandled, and 4 handling
+
+70
+
+blanks were loaded and unloaded into the filter apparatus at the CRP ambient site but without
+
+71
+
+turning on the pump. Of the 36 non-blank filters sampled, four were rejected during the post-
+
+72
+
+sampling weighing session owing to visible damage, such as separation of the filter medium
+
+73
+
+from its support ring, thereby yielding the 32 samples employed in analysis below.
+
+74
+
+Summary statistics for all filter weight changes are presented in Table SI.1. All blank filters
+
+75
+
+recorded a loss in weight between the first and second weighing sessions (January 2010 and June
+
+76
+
+2010, respectively). To correct for this change in weight, we added the mean weight change for
+
+77
+
+the handling blanks (8.5 µg) to each sample weight before calculating final gravimetric PM2.5
+
+78
+
+concentrations.
+
+79
+
+We developed a calibration curve to represent the relationship between the gravimetric PM2.5
+
+80
+
+concentration and the time-averaged, RH-corrected PM2.5 concentrations reported by the
+
+81
+
+colocated DustTrak. Figure SI.2 presents scatter plots of DustTrak and gravimetric PM2.5
+
+82
+
+concentration measurements for the 32 valid sampling sessions. Exploratory data analysis
+
+83
+
+revealed that simple linear regressions performed poorly in describing the relationship between
+
+Page SI.4
+
+Submitted to Atmospheric Environment
+
+84
+
+Table SI.1. Summary of sample and blank filter weight changes (µg). a
+Gravimetric
+samples
+Min
+Median
+Mean
+Max
+
+85
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+a
+
+(N = 32)
+30
+230
+250
+630
+
+Blanks
+brought to
+India
+(N = 11)
+-19
+-14
+-13
+-5.3
+
+Handling
+blanks
+
+Blanks stored
+at LBNL
+
+(N = 4)
+-15
+-7.7
+-8.5
+-4.1
+
+(N = 3)
+-4.9
+-3.2
+-3.5
+-2.4
+
+N = number of samples analyzed.
+
+86
+
+DustTrak and gravimetric PM2.5 measurements, especially at relatively low ambient
+
+87
+
+concentrations for Delhi (< 75 µg m-3). We found that a power law regression relationship
+
+88
+
+satisfactorily fit the observed data while also accommodating the zero calibration point:
+
+89
+
+G* = a(D)b
+
+90
+
+Here, G* is the modeled gravimetric PM2.5 concentration (units: µg m-3), D is the RH-
+
+91
+
+corrected real-time DustTrak PM2.5 concentration, and a and b are empirically determined fitting
+
+92
+
+parameters via linear regression of the log-transformed data points. To account for the nonlinear
+
+93
+
+behavior of the power law relationship, we used an iterative fitting algorithm and obtained the
+
+94
+
+calibration relationship reported as equation 2 in the main text. Over all 60 sampling trips, the
+
+95
+
+mean ratio of gravimetric-calibrated to RH-corrected PM2.5 concentration was 0.74 for in-vehicle
+
+96
+
+measurements, and 0.91 for ambient measurements. For the 32 individual filter samples, the
+
+97
+
+root-mean-square error (RMSE) of the individual modeled gravimetric concentrations was 32 µg
+
+98
+
+m-3 (coefficient of variation: 23%). We estimate the mean ± 95% CI bias of the calibration
+
+99
+
+relationship to be 0 ± 9.1%. This uncertainty in the calibration relationship modestly reduces the
+
+100
+
+precision of estimated mean PM2.5 concentrations. Ratio comparisons between ambient and in-
+
+101
+
+vehicle concentrations (γ, φ) are not affected by this uncertainty.
+
+Page SI.5
+
+(SI.1)
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+102
+103
+104
+105
+106
+107
+
+Figure SI.2. Scatter plot of colocated gravimetric and time-averaged DustTrak PM2.5 concentration
+measurements. Points are plotted separately by measurement microenvironment (“auto” = auto-rickshaw,
+“CRP” = Chittaranjan Park ambient site) and by serial number of the TSI DustTrak used (“DT60”,
+“DT66”). The dashed line indicates the best-fit calibration relationship.
+
+108
+
+SI.1.3 Post-processing of aethalometer black carbon measurements
+
+109
+
+SI.1.3.1 Removal of vibration-affected data points
+
+110
+
+We discovered early during field sampling that the Magee Scientific AE-51
+
+111
+
+“microAethalometer” instruments had strong sensitivity to mechanical shock and vibration that
+
+112
+
+yielded spurious “spikes” in measured BC concentrations (Figure SI.3a). Controlled testing of
+
+113
+
+the instrument in clean-air conditions revealed that sudden, forceful movement of the instrument
+
+114
+
+caused a characteristic “spike” of ± 200 – 2000 µg m-3 that was typically short-lived (1-3 s). The
+
+115
+
+pattern of spikes typically involved a very large positive and negative excursion in reported BC
+
+116
+
+in close succession, within 1-3 s of each other. However, we found that the net contribution of a
+
+117
+
+set of positive and negative BC concentration spikes typically did not average to zero over the
+
+Page SI.6
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+118
+
+duration of each mechanical shock event. As this spurious signal likely introduces bias into the
+
+119
+
+sample, we developed a post-processing algorithm to identify the characteristic signature of
+
+120
+
+affected data points and exclude them from analysis. The algorithm identifies affected points by
+
+121
+
+searching for instances of high relative deviation between an individual observation and
+
+122
+
+surrounding data points, as follows:
+
+123
+
+1. Establish a moving baseline range of instrumental noise in the 1 Hz BC signal.
+
+124
+
+a. For each 1-s observation compute the difference between each individual 1-s
+
+125
+
+measurement of BC and the 30-s moving average of BC around that point.
+
+126
+
+This time series is termed the “local deviation,” or LD. For each time point i,
+
+127
+
+the local deviation LDi is computed as:
+
+LDi = BCiraw !
+
+128
+
+1 i +14
+" BCiraw
+30 i !15
+
+(SI.2)
+
+Here, BCiraw is the raw reported BC signal from the microAeth at time point i.
+
+129
+130
+
+b. For every 1-s observation, compute the 5-min moving-window 25th and 75th
+
+131
+
+percentile of the local deviation time series generated by equation SI.2
+
+132
+
+LDi
+
+133
+134
+135
+
+LDi
+
+Notation: the operator Pn computes the nth percentile of a series. For example,
+
+136
+
+LDi
+
+137
+
+over a 5-minute period of the LD time series centered on time point i, and
+
+138
+
+extending over the 5 minutes (300 seconds) from point (i – 150) to point (i +
+
+139
+
+149).
+
+5 min, p 75
+
+5 min, p 25
+
+5 min, p 75
+
+140
+
+Page SI.7
+
+= P 75 ( LDi !150 ,…, LDi +149 )
+
+= P 25 ( LDi !150 ,…, LDi +149 )
+
+(SI.3a)
+(SI.3b)
+
+is the 75th percentile of the local deviation time series LD, evaluated
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+141
+
+2. Identify individual 1-s observations as “candidate extreme values” for exclusion if the
+
+142
+
+local deviation (step 1a) of that observation is more than 5 times larger (smaller) than
+
+143
+
+the 75th (25th) percentile of the 5-min moving-window instrumental noise, as
+
+144
+
+calculated in step 1b:
+
+145
+
+,
+0
+& " LD > 5 ! LD 5 min, p 75 $
+)
+i
+i
+.
+.
+#
+%
++ , then
+TRUE
+. IF (
+.
+5
+min,
+p
+25
+(
++
+CEVi = 1
+"
+$
+' OR # LDi < 5 ! LDi
+%*
+.
+.
+.
+... else FALSE .2
+/
+
+146
+
+Here, CEVi represents whether an individual time point is determined to be a
+
+147
+
+candidate extreme value (CEVi = TRUE) or not (CEVi = FALSE).
+
+(
+
+(
+
+)
+
+)
+
+(SI.4)
+
+148
+
+3. Search for negative BC concentrations within 2 s of each candidate extreme value
+
+149
+
+identified in the previous step. Candidate extreme values that are negative or that
+
+150
+
+have a negative BC measurement within ± 2 s are classified as spurious observations
+
+151
+
+(SO). Each individual data point is evaluated for being a spurious observation with
+
+152
+
+the following expression:
+
+153
+
+/
+3
+) ( CEVi = TRUE )
+,
+1
+1
+.
+i+2
+1 IF +
+1
+TRUE
+, . , then
+&
++ AND ) #
+raw
+SOi = 0
+4
+BC
+<
+0
+>
+0
+i
+(
++* % "
+.- .
++*
+1
+1
+$ i!2
+'
+1
+1
+...else FALSE 5
+2
+
+154
+
+Here, SOi represents whether an individual time point is determined to be a spurious
+
+155
+
+observation (SOi = TRUE) or not (SOi = FALSE).
+
+156
+
+(
+
+)
+
+(SI.5)
+
+4. Remove each spurious BC observation and the other four BC observations within ± 2
+
+157
+
+s of the spurious value from analysis.
+
+Page SI.8
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+158
+
+After applying this algorithm, we computed cleaned BC time series using the “sensor” and
+
+159
+
+“reference” raw optical signals from the instrument, which measure the intensity of light (λ= 880
+
+160
+
+nm) transmitted through, respectively, the BC-laden filter spot and an area of filter unexposed to
+
+161
+
+sample air. To remove inherent 1-s instrumental noise, we applied a 10-s moving average
+
+162
+
+smoothing function to the sensor and reference optical signals, resulting in the variables IS and IR,
+
+163
+
+respectively. Next, we computed BC concentrations for each observation at time t =i using the
+
+164
+
+following relations (Hansen et al., 1984):
+
+(
+
+)
+
+165
+
+I S* = I S I R
+
+166
+
+dATN i* = !100 ln I S*i I S*(i-1)
+
+167
+
+*
+A " dATN i 100 %
+BCi = $
+'
+Vi #
+!
+&
+
+168
+
+In equation SI.6, I*Si represents the smoothed sensor beam signal at t = i, normalized for any
+
+i
+
+i
+
+i =1
+
+IR
+
+i
+
+(
+
+(SI.6)
+
+)
+
+(SI.7)
+
+(SI.8)
+
+169
+
+change in the smoothed reference beam signal IR between t = 1 and t = i. In equation SI.7, the
+
+170
+
+instantaneous change in filter light attenuation dATN is computed using a Beer-Lambert type
+
+171
+
+relation based on the change in instantaneous filter transmission. Equation SI.8 computes the
+
+172
+
+instantaneous BC (units: g m-3) concentration at t = i. Here, A represents the area of the filter
+
+173
+
+spot (7.1 × 10-6 m2), Vi represents the air volume swept through the filter between t = i-1 and t = i
+
+174
+
+(for 150 mL min-1 flow rate and 1 Hz data logging, V = 2.5 × 10-6 m3), and σ is the attenuation
+
+175
+
+coefficient, which for the manufacturer’s default calibration is 12.5 m2 g-1. The effect of the
+
+176
+
+cleaning algorithm is visible when comparing Figures SI.3a-c.
+
+Page SI.9
+
+Submitted to Atmospheric Environment
+
+177
+178
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+SI.1.3.2 Adjustment of BC measurements for filter loading
+We further corrected BC measurements to account for the decreased instrumental sensitivity
+
+179
+
+to BC with increased filter loading based on the empirical calibration of Kirchstetter and
+
+180
+
+Novakov (2007) (see §2.2.3, equation 3, in the main text).
+
+181
+
+182
+183
+184
+185
+186
+187
+
+Figure SI.3. Effect of post-processing algorithm on aethalometer black carbon (BC) data. Raw data from
+aethalometer is shown in (A), with extreme short-duration (1-3 s) excursions in measured BC evident.
+These spurious measurements are detected by the post-processing algorithm and are identified in red color
+in (B). The post-processed and smoothed time series is shown in (C).
+
+188
+
+Kirchstetter and Novakov attribute this effect to the true attenuation coefficient (σ, eq SI.8)
+
+189
+
+diminishing as filter transmission decreases (Tr), which corresponds with increased filter
+
+190
+
+loading. In contrast, the default manufacturer’s calibration of the instrument implies that σ is not
+
+Page SI.10
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+191
+
+affected by changes in filter loading. The coefficient values of 0.88 and 0.12 in equation 3 were
+
+192
+
+empirically derived from laboratory experiments based on comparison of time-resolved
+
+193
+
+aethalometer measurements with alternative non-filter based time-resolved methods and thermo-
+
+194
+
+optical analysis of time-integrated filter samples (Kirchstetter and Novakov, 2007). As we
+
+195
+
+collected a large set of colocated BC measurements with two separate microAethalometers, we
+
+196
+
+were able to validate the choice of these particular coefficient values. Our study protocol
+
+197
+
+included regular cross-comparison measurements between the two aethalometers (in-vehicle and
+
+198
+
+at CRP) immediately before in-vehicle sampling, when filters in both instruments were clean.
+
+199
+
+We repeated the same cross-comparison BC measurements immediately following in-vehicle
+
+200
+
+sampling, when the instrument filters had differential BC mass loading.
+
+201
+
+For each pre- and post-trip comparison session, we computed the difference between the
+
+202
+
+mean ambient BC concentrations measured by each instrument over the duration of the session.
+
+203
+
+The median difference in concentration reported by the two instruments was close to zero for the
+
+204
+
+pre-trip comparison sessions (Figure SI.4a). The effect of applying equation 3 was small for the
+
+205
+
+pre-trip BC measurements, as both instruments started the session with fresh filters and therefore
+
+206
+
+both had near-zero filter loading. In contrast, for post-trip measurements, filter loading was
+
+207
+
+typically higher for the in-vehicle instrument than for the CRP ambient instrument, owing to
+
+208
+
+higher on-roadway BC levels. As a result, the uncorrected post-trip ambient concentrations
+
+209
+
+measured by the in-vehicle instrument were typically lower than the same concentrations
+
+210
+
+measured simultaneously by the ambient site instrument (median difference: -2.7 µg m-3 BC,
+
+211
+
+Figure SI.4b). However, after correcting BC measurements for loading (equation 3), the median
+
+212
+
+bias between the two instruments was reduced to nearly zero (median difference: -0.3 µg m-3 BC
+
+Page SI.11
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+213
+
+over ~43 comparison sessions). We conclude that equation 3 appropriately corrects for
+
+214
+
+aethalometer loading effects.
+
+215
+216
+217
+218
+219
+220
+221
+222
+223
+
+Figure SI.4. Effect of filter loading correction (equation 3) on colocated BC measurements. Horizontal
+axis is the difference in measured concentration at the CRP site between two instruments operating
+simultaneously: the instrument typically used for in-vehicle measurements, and the instrument typically
+used for rooftop CRP measurements. The vertical axis displays the cumulative probability of the
+distribution of differences. Note that the effect of correction is small for fresh filters (A), while the effect
+of the correction is more pronounced for BC-laden filters (B). For loaded filters, the median difference
+between colocated measurements after correction approaches zero (B).
+
+Page SI.12
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+224
+
+SI.2 Results and Discussion
+
+225
+
+SI.2.1 Estimating coagulation timescale for ambient ultrafine particles
+
+226
+
+In §3.2, we suggest that the substantial elevation of on-road PN relative to urban background
+
+227
+
+levels may be attributable to the dynamic loss mechanisms for ambient ultrafine particles (UFP).
+
+228
+
+As previous work in New Delhi has identified coagulation as a possible sink for ambient
+
+229
+
+ultrafine mode particles (Laakso et al., 2006; Mönkkönen et al., 2004; Mönkkönen et al., 2005),
+
+230
+
+we present here calculations to demonstrate the plausibility of relatively rapid coagulation of
+
+231
+
+ambient UFP. To estimate the coagulation timescale τcoag,i for the coagulation of a single particle
+
+232
+
+in size bin i with another particle, we used the following relation (Seinfeld and Pandis, 2006):
+
+233
+
+! coag,i ~
+
+1
+# "i, j N j
+
+(SI.9)
+
+j > 10 nm
+
+234
+235
+
+Here, βi,j represents the coagulation coefficient (cm3 s-1) for a single particle in size bin i
+
+236
+
+coagulating with particles in size bin j, and Nj (cm-3) represents the number concentration of
+
+237
+
+particles in size bin j. This version of the coagulation timescale equation allows for the
+
+238
+
+possibility that the single particle will coagulate with either a larger or a smaller particle. As our
+
+239
+
+particle counter only detects particles with dp > 10 nm, we restrict the size of particles considered
+
+240
+
+to those greater than 10 nm. We note that this form of the coagulation coefficient differs from
+
+241
+
+another coagulation timescale, which evaluates the characteristic time for a particle of size i to
+
+242
+
+coagulate with a particle of diameter larger than itself.
+
+243
+
+We computed βi,j using the Fuchs form of the Brownian coagulation coefficient (Seinfeld and
+
+244
+
+Pandis, 2006) for T = 20 ºC. For these estimates, we employ the particle size distribution (PSD)
+
+245
+
+for ambient air in New Delhi, as reported by Laakso et al. (2006) for October – November 2002.
+
+246
+
+The distribution is idealized as the sum of three lognormal components (see Table SI.2).
+
+Page SI.13
+
+Submitted to Atmospheric Environment
+
+247
+248
+
+249
+250
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+Table SI.2. Sum-of-lognormals fit used to approximate New Delhi ambient particle size
+distribution (Laakso et al., 2006).
+Ntot
+GMD
+σ
+(particles cm-3)
+(nm)
+(-)
+Nucleation mode
+5150
+11
+1.4
+Aitken mode
+37930
+44
+1.8
+Accumulation mode
+22680
+147
+1.6
+
+Using the PSD reported by Laakso et al., we estimate that τcoag,i is in the range of 0.2 – 1.5 h
+
+251
+
+for particles of diameter range 10 – 100 nm. Averaging over the entire PSD > 10 nm, we
+
+252
+
+estimate that the mean coagulation timescale is ~ 1 h. However, the PN reported by Laakso et al.
+
+253
+
+(2006) was ~ 68 × 103 particles cm-3, roughly twice the level observed at the CRP ambient
+
+254
+
+monitoring site during our measurements. To evaluate the effect of lower ambient
+
+255
+
+concentrations, we scaled down the number concentration of each size bin of the PSD so that the
+
+256
+
+total PN was equivalent to the mean ambient PN concentration we measured, 35 × 103 particles
+
+257
+
+cm-3. Doing so resulted in longer coagulation time scales, with a range of ~ 0.3 – 3 h for particles
+
+258
+
+in the size range of 10 – 100 nm. Averaged over all particle sizes > 10 nm in the rescaled PSD,
+
+259
+
+we estimate that the mean coagulation timescale is ~ 2 h at this lower concentration. We
+
+260
+
+conclude that coagulation is a significant sink for ambient PN in New Delhi, since the
+
+261
+
+coagulation time scales we have estimated are shorter than the urban-air residence time of ~ 5-15
+
+262
+
+h, based on the ratio of the urban length scale, 40-50 km, to the typical 1-2 m s-1 near-surface
+
+263
+
+wind speed.
+
+264
+
+SI.2.2 Seasonal and temporal variation in ambient concentrations
+
+265
+
+We used unbalanced two-way ANOVA to decompose variability in ambient PM2.5, BC, and
+
+266
+
+PN measured concentrations into seasonal (month) and temporal (AM trip/ PM trip) components
+
+267
+
+(Figure SI.5). Holding time of day constant, there was a statistically significant declining trend in
+
+268
+
+ambient levels for all three pollutants during the February – May study period. The decline was
+
+Page SI.14
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+269
+
+most pronounced for PM2.5 and BC. We speculate that the observed decrease in ambient
+
+270
+
+concentrations is partially attributable to Delhi’s seasonally dependent patterns of 1) atmospheric
+
+271
+
+mixing and 2) emissions from solid fuel combustion for heat. In addition to the seasonal trends,
+
+272
+
+there was a statistically significant time-of-day trend for ambient PM2.5 levels throughout the
+
+273
+
+study period. Evening commute-time (6-9 PM) ambient concentrations were typically lower than
+
+274
+
+morning (9 AM – noon) commute-time ambient concentrations (median difference: ~25%). We
+
+275
+
+did not detect statistically significant differences in ambient BC and PN concentrations between
+
+276
+
+AM and PM commute hours.
+
+277
+
+SI.2.3 Comparing results with studies from elsewhere
+
+278
+
+Table SI.3 provides quantitative documentation for Figure 7 in the main article, which compares
+
+279
+
+the measured results from this study with the concentrations reported by other studies elsewhere.
+
+280
+
+Our survey of the literature is not exhaustive, but it is indicative of the range of exposure
+
+281
+
+concentrations in transportation microenvironments in urban areas around the world.
+
+282
+283
+
+Page SI.15
+
+Submitted to Atmospheric Environment
+
+284
+285
+286
+287
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+Figure SI.5. ANOVA decomposition of variability in ambient concentrations into month-of-year and
+time-of-day components.
+
+Page SI.16
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+288
+
+Table SI.3. Comparison of present study results with prior measurements in megacities and elsewhere. a
+Exposure Studies
+Study
+
+City/Microenvironment
+
+Present study New Delhi, India
+Auto-Rickshaw
+Car (AC / Non AC)
+
+Kaur et al.,
+2005
+
+Boogaard et
+al., 2009
+Knibbs and
+de Dear,
+2010
+Chan et al.,
+2002
+
+London, UK
+Car / Arterial
+Bus / Arterial
+Bicycle / Arterial
+11 Dutch Cities
+Car / Arterial
+Bicycle / Cycle Path
+Sydney, Australia
+Bus
+Car
+Hong Kong, China
+Bus (AC / Non AC)
+Tram (on roadway)
+
+-3
+
+Year Hours PM2.5 (µg m )
+Ambient Vehicle
+2010 ~160
+~20
+
+-3
+
+BC (µg m )
+Ambient Vehicle
+
+3
+
+-3 c
+
+PN (10 cm )
+Ambient Vehicle
+
+190
+110, 170
+
+10
+9
+
+43
+29, 49
+
+35
+(10)
+30
+
+(10)
+
+280
+100,
+(10)
+180
+
+9.9
+-
+
+38
+35
+34
+
+-
+
+-
+
+-
+
+100
+(20)
+100
+(20)
+94
+
+-
+
+49
+b
+44
+
+b
+
+-
+
+-
+
+~10
+(10)
+~10
+
+26
+(10)
+24
+
+-
+
+30
+b
+22
+
+b
+
+-
+
+-
+
+-
+
+84
+(10)
+75
+
+-
+
+51, 93
+110
+
+-
+
+-
+
+-
+
+-
+
+140
+120
+
+(10)
+
+2003
+
+2006
+
+(20)
+
+~30
+(10)
+
+(10)
+
+2004
+(10)
+
+2000
+
+On-Road Concentration Studies
+Study
+
+City / Microenvironment
+
+Westerdahl
+et al., 2009
+
+Beijing, China
+BJ - Arterials / Day-LDV
+BJ* - Arterials / Night-HDV
+Fruin et al.,
+Los Angeles, USA
+2008
+LA - Residential/LDV
+LA* - Urban/HDV
+Kittelson et
+Minneapolis, USA
+al., 2004
+Freeways
+Bukowiecki et Zürich, Switzerland
+al., 2003
+Arterials
+a
+
+-3
+
+Year Hours PM2.5 (µg m )
+Ambient On-road
+
+-3
+
+BC (µg m )
+Ambient On-road
+
+3
+
+2007
+
+~10
+
+-
+
+-
+
+3.4
+11
+
+22
+60
+
+27
+(6)
+19
+
+(6)
+
+82
+(6)
+290
+
+2003
+
+~15
+
+7.9
+17
+
+23
+54
+
+0.74
+1.5
+
+1.5
+12
+
+13
+(7)
+26
+
+(7)
+
+33
+(7)
+190
+
+2003
+
+~20
+
+-
+
+-
+
+-
+
+-
+
+9.4
+
+(3)
+
+400
+
+2000
+
+~5
+
+-
+
+-
+
+-
+
+-
+
+5-15
+
+(3)
+
+30-50
+
+Values are central tendency results from each study (geometric mean when available, otherwise
+arithmetic mean). Abbreviations: “PM2.5” – fine particle mass, “BC” – black carbon, “PN” – particle
+number concentration, “LDV” – light-duty vehicle, “HDV” – heavy-duty vehicle.
+b
+TSI DustTrak aerosol photometer used without adjustment for humidity or mass-based calibration
+against local aerosol, indicating possible overestimate.
+c
+Superscripts on PN concentrations indicate minimum particle diameter (nm) detected by instrument for
+given study.
+
+Page SI.17
+
+-3 c
+
+PN (10 cm )
+Ambient On-road
+(6)
+
+(7)
+
+(3)
+
+(3)
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+1
+
+References
+
+2
+
+Boogaard, H., Borgman, F., Kamminga, J., Hoek, G., 2009. Exposure to ultrafine and fine
+
+3
+
+particles and noise during cycling and driving in 11 Dutch cities. Atmospheric Environment
+
+4
+
+43, 4234-4242.
+
+5
+
+Bukowiecki, N., Dommen, J., Prévôt, A.S.H., Weingartner, E., Baltensperger, U., 2003. Fine and
+
+6
+
+ultrafine particles in the Zürich (Switzerland) area measured with a mobile laboratory: an
+
+7
+
+assessment of the seasonal and regional variation throughout a year. Atmopheric Chemistry
+
+8
+
+and Physics 3, 1477-1494.
+
+9
+
+Chan, L.Y., Lau, W.L., Lee, S.C., Chan, C.Y., 2002. Commuter exposure to particulate matter in
+
+10
+
+public transportation modes in Hong Kong. Atmospheric Environment 36, 3363-3373.
+
+11
+
+Fruin, S., Westerdahl, D., Sax, T., Sioutas, C., Fine, P.M., 2008. Measurements and predictors of
+
+12
+
+on-road ultrafine particle concentrations and associated pollutants in Los Angeles.
+
+13
+
+Atmospheric Environment 42, 207-219.
+
+14
+
+Hansen, A.D.A., Rosen, H., Novakov, T., 1984. The aethalometer - An instrument for the real-
+
+15
+
+time measurement of optical absorption by aerosol particles. Science of the Total
+
+16
+
+Environment 36, 191-196.
+
+17
+
+Kaur, S., Nieuwenhuijsen, M., Colvile, R., 2005. Personal exposure of street canyon intersection
+
+18
+
+users to PM2.5, ultrafine particle counts and carbon monoxide in Central London, UK.
+
+19
+
+Atmospheric Environment 39, 3629-3641.
+
+20
+
+Kirchstetter, T.W., Novakov, T., 2007. Controlled generation of black carbon particles from a
+
+21
+
+diffusion flame and applications in evaluating black carbon measurement methods.
+
+22
+
+Atmospheric Environment 41, 1874-1888.
+
+23
+24
+25
+26
+
+Kittelson, D.B., Watts, W.F., Johnson, J.P., 2004. Nanoparticle emissions on Minnesota
+highways. Atmospheric Environment 38, 9-19.
+Knibbs, L.D., de Dear, R.J., 2010. Exposure to ultrafine particles and PM2.5 in four Sydney
+transport modes. Atmospheric Environment 44, 3224-3227.
+
+27
+
+Laakso, L., Koponen, I.K., Mönkkönen, P., Kulmala, M., Kerminen, V.M., Wehner, B.,
+
+28
+
+Wiedensohler, A., Wu, Z., Hu, M., 2006. Aerosol particles in the developing world; a
+
+Page SI.18
+
+Submitted to Atmospheric Environment
+
+Submitted Feb. 14, 2011; revised May 6, 2011
+
+29
+
+comparison between New Delhi in India and Beijing in China. Water, Air, and Soil Pollution
+
+30
+
+173, 5-20.
+
+31
+
+Mönkkönen, P., Koponen, I.K., Lehtinen, K.E.J., Hämeri, K., Uma, R., Kulmala, M., 2005.
+
+32
+
+Measurements in a highly polluted Asian mega city: observations of aerosol number size
+
+33
+
+distribution, modal parameters and nucleation events. Atmospheric Chemistry and Physics 5,
+
+34
+
+57-66.
+
+35
+
+Mönkkönen, P., Uma, R., Srinivasan, D., Koponen, I.K., Lehtinen, K.E.J., Hämeri, K., Suresh,
+
+36
+
+R., Sharma, V.P., Kulmala, M., 2004. Relationship and variations of aerosol number and
+
+37
+
+PM10 mass concentrations in a highly polluted urban environment—New Delhi, India.
+
+38
+
+Atmospheric Environment 38, 425-433.
+
+39
+40
+
+Seinfeld, J.H., Pandis, S.N., 2006. Atmospheric Chemistry and Physics, Second Edition. WileyInterscience, Hoboken, NJ, Chapter 13.
+
+41
+
+Westerdahl, D., Wang, X., Pan, X., Zhang, K.M., 2009. Characterization of on-road vehicle
+
+42
+
+emission factors and microenvironmental air quality in Beijing, China. Atmospheric
+
+43
+
+Environment 43, 697-705.
+
+44
+
+Page SI.19
+
+

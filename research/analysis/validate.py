@@ -162,6 +162,13 @@ if os.path.exists(os.path.join(D, "claim-passages.csv")):
         if cid not in claims: errs.append(f"claim-passages.csv: unknown claim {cid}")
 else:
     errs.append("claim-passages.csv missing (run research/analysis/passages.py)")
+if os.path.exists(os.path.join(D, "passage-reviews.csv")):
+    for i, r in enumerate(load("passage-reviews.csv"), 2):
+        if r["claim_id"] not in claims: errs.append(f"passage-reviews.csv:{i} unknown claim {r['claim_id']}")
+        if r["decision"] not in ("located", "partial", "not_located"): errs.append(f"passage-reviews.csv:{i} bad decision {r['decision']}")
+        if not r["reviewer_note"]: errs.append(f"passage-reviews.csv:{i} no reviewer note")
+        for sid in filter(None, r["source_ids"].split(";")):
+            if sid not in src: errs.append(f"passage-reviews.csv:{i} unknown source {sid}")
 CHANGE_TYPES = {"corrected", "withdrawn", "superseded", "source-added", "url-changed", "status-changed", "reworded"}
 if os.path.exists(os.path.join(D, "corrections.csv")):
     seen = set()

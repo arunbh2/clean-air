@@ -1,0 +1,1124 @@
+
+ 
+ 
+ Air Quality Management in the Indo-Gangetic Plains and Himalayan Foothills 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ https://www.worldbank.org/ext/en/home 
+ 
+ News 
+ https://www.worldbank.org/ext/en/news 
+ 
+ Briefs 
+ https://www.worldbank.org/en/news/all?displayconttype_exact=Brief&lang_exact=English 
+ 
+ Air Quality Management in the Indo-Gangetic Plains and Himalayan Foothills 
+ https://www.worldbank.org/en/brief/2025/12/09/air-quality-management-in-the-indo-gangetic-plains-and-himalayan-foothills 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-8 
+ 
+ 
+ col-lg-8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ jcrtitle 
+ 
+ Air Quality Management in the Indo-Gangetic Plains and Himalayan Foothills 
+ 
+ 
+ 
+ jcrpagetitle 
+ Air Quality Management in the Indo-Gangetic Plains and Himalayan Foothills 
+ 
+ 
+ jcrdescription 
+ The World Bank Group is at the forefront of efforts to improve air quality across South Asia, working closely with governments to translate this vision into results on the ground. 
+ 
+ 
+ content-type 
+ brief 
+ 
+ 
+ content-date 
+ December 9, 2025 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-3 
+ 
+ 
+ col-lg-3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-xlarge 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-7 
+ 
+ 
+ col-lg-7 
+ 
+ 
+ 
+ 
+ add-style 
+ lp-body-content 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ AQM 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About 
+ 
+ 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ About 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ South Asia faces one of the most severe air pollution crises in the world. The region records some of the highest levels of fine particulate matter, or PM2.5, with concentrations in the Indo-Gangetic Plains and Himalayan Foothills (IGP-HF) more than twenty times higher than what the World Health Organization considers safe. This has serious health consequences, reducing life expectancy by up to three to five years in some of the most polluted areas. 
+ The World Bank Group (WBG) serves as a leading development partner on air quality across South Asia, working closely with governments and partners to improve air quality so people can breathe clean air, be healthier, and live longer lives. Through an expanding set of investment projects and advisory and analytical support in Bangladesh, India, Nepal, and Pakistan, we help countries put in place policies and set in motion actions that make a difference for the people and the economies. These efforts focus on reducing emissions from the most harmful sources of air pollution, improving monitoring and governance systems, improving protection of vulnerable populations, and fostering regional collaboration. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ AQM 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ In partnership with regional organizations such as  ICIMOD , we convene governments, research institutions, and development partners through regional platforms such as the Science Policy and Finance Dialogues. This has led to the  Kathmandu Roadmap  and  Thimphu Outcome  advancing the region’s shared “35 by 35” vision to reduce fine particulate matter (PM2.5) levels to 35 micrograms per cubic meter by 2035. Achieving this ambitious goal of cutting air pollution by more than half would lead to significantly improved health outcomes, make cities more livable, make economies more competitive, while also reducing important climate pollutants like black carbon, methane, and carbon dioxide. 
+ Achieving “35 by 35” requires urgent, coordinated action across borders and sectors, supported by effective institutions, sound policies, and sustained investment. 
+ As a knowledge organization, we draw on successful practices from countries that have effectively addressed pollution. Our analytical work contributes to a strong evidence base about the health and economic impacts of air pollution, its main sources, and barriers and opportunities for improving air quality across the region. 
+ Our financing supports countries in the world’s most polluted airshed, the IGP-HF, to translate this knowledge and coordination into concrete investments. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ We work with governments to strengthen macroeconomic, fiscal, and regulatory frameworks that enable the transition to cleaner technologies and practices. In parallel, the WBG supports catalytic financing instruments that help enterprises, farmers, and households adopt cleaner solutions at scale. By aligning policy reforms with targeted financial mechanisms, we help countries accelerate air-quality improvements, deliver climate benefits, and enable sustainable, private-sector-led growth. We are providing financing for clean air projects in Bangladesh, India and Pakistan and preparing a new project in Nepal. This includes the Punjab Clean Air Program in Pakistan, the Bangladesh Clean Air Project, and the India Clean Air Projects in Haryana and Uttar Pradesh, with Nepal anticipated in 2026. These programs help countries scale up cleaner industrial production, accelerate electric mobility transition, improve agricultural practices, and strengthen air-quality management institutions. 
+ 
+ 
+ https://delivery-p136806-e1377785.adobeaemcloud.com/adobe/assets/urn:aaid:aem:70ca2a17-737c-4083-a5ee-b5073d3bd64b/as/AirPollutionInfographics-04-2.jpg 
+ 
+ 
+ 
+ 
+ 
+ AQM 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Events & Dialogues 
+ 
+ 
+ 2 
+ 
+ 
+ 
+ 
+ 
+ Events & Dialogues 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Science, Policy and Finance Dialogue (SPFD) 2025 – Bhutan 
+ Held in Bhutan in December 2025, the Science, Policy and Finance Dialogue (SPFD) brought together government leaders, researchers, development partners, and technical experts from across South Asia to advance regional cooperation on air quality management. The dialogue focused on translating science into action, strengthening evidence-based policymaking, and mobilizing finance for cleaner air solutions. Through high-level discussions and knowledge exchange, participants explored innovative approaches to reducing air pollution, improving public health, and supporting sustainable economic development across the region. 
+ Watch the video highlights below for a recap of key discussions: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ embed-code 
+ 
+ 
+ 
+ 
+ 
+ <iframe src="https://worldbank.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://worldbank.scene7.com/is/content/&emailurl=https://worldbank.scene7.com/s7/emailFriend&serverUrl=https://worldbank.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://worldbank.scene7.com/skins/&config2=companypreset&asset=worldbankprod/AirPllition01-AVS?qlt=90" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ embed-code 
+ 
+ 
+ 
+ 
+ 
+ <iframe src="https://worldbank.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://worldbank.scene7.com/is/content/&emailurl=https://worldbank.scene7.com/s7/emailFriend&serverUrl=https://worldbank.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://worldbank.scene7.com/skins/&config2=companypreset&asset=worldbankprod/Ann-Jeannette-Glauber-AVS?qlt=90" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Country Engagement 
+ 
+ 
+ 3 
+ 
+ 
+ 
+ 
+ 
+ Country Engagement 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Bangladesh is implementing a $290 million  Bangladesh Clean Air Project (BCAP)  and a complementary $1.25 billion Green and Climate Resilient Development policy reform series. BCAP will enhance air quality monitoring, establish continuous emissions monitoring for industries, improve vehicle inspection systems, and introduce 400 electric buses in Dhaka. The policy reforms have already established the Air Pollution Control Rules, the country's first National Air Quality Management Plan (2024-2030), enforcement guidelines, and market-based fuel pricing to remove subsidies. These reforms were informed by World Bank analytics and lay the foundation for further emissions reductions across key sectors. 
+ 
+ 
+ In India, the World Bank is supporting efforts to improve air quality in the eight states spread across the Indo-Gangetic Plain, starting with pioneering state level clean air operations in Uttar Pradesh and Haryana. Uttar Pradesh has developed the  country’s first airshed-based Clean Air Plan , while Haryana has adopted a multisector strategy targeting priority pollution sources including transport, industry, and agriculture. Other IGP states are also advancing clean air efforts. 
+ 
+ 
+ In Pakistan, the  Punjab Clean Air Program  was approved in fiscal year 2025. This 300-million-dollar project is the first dedicated clean air operation under the regional platform. It builds on the Punjab Green Development Program and includes investments in public transport, to address crop residue burning and air quality management planning. 
+ 
+ 
+ In Nepal, the World Bank’s engagement is guided by the analytical insights and recommendations of the  Towards Clean Air in Nepal: Benefits, Pollution Sources, and Solutions  (2025) report. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Partnerships 
+ 
+ 
+ 4 
+ 
+ 
+ 
+ 
+ 
+ Partnerships 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The World Bank is working with a diverse network of partners to help countries in South Asia turn knowledge into action for cleaner air. Key partners include The International Centre for Integrated Mountain Development (ICIMOD), United Kingdom's Foreign, Commonwealth & Development Office (FCDO), and the Swiss Agency for Development and Cooperation (SDC). The FCDO and SDC funding is channeled through the World Bank’s South Asia Regional Umbrella Trust Fund, a multi-donor trust fund that supports activities that foster cross-country partnerships to address regional and transboundary challenges, including on climate resilience, infrastructure, and connectivity. The UK funding is delivered through Climate Action for a Resilient Asia, a flagship regional programme to build climate resilience in South Asia, Southeast Asia, and the Pacific islands. 
+ Together, these partnerships are expanding technical support, strengthening country programs, and mobilizing financing to scale solutions for cleaner industries, electric mobility, and stronger air-quality institutions. 
+ South Asia’s air pollution challenge is serious, but it is solvable. With coordinated action, strong policies, and sustained investment, countries across the region can clear the air and protect the health and future of millions. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Reports and Resources 
+ 
+ 
+ 5 
+ 
+ 
+ 
+ 
+ 
+ Reports and Resources 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A Breath of Change: Solutions for Cleaner Air in the Indo-Gangetic Plains and Himalayan Foothill   Report  I  Infographic 
+ 
+ 
+ Accelerating Access to Clean Air for a Livable Planet 
+ 
+ 
+ Striving for Clean Air: Air Pollution and Public Health in South Asia 
+ 
+ 
+ Towards Clean Air in Nepal: Benefits, Pollution Sources, and Solutions 
+ 
+ 
+ Bangladesh Country Environmental Analysis 2023 
+ 
+ 
+ Clearing the Air: A Tale of Three Cities 
+ 
+ 
+ #EndAirPollution Campaign 
+ 
+ 
+ Feature Story: Air Pollution Knows No Borders in South Asia, Neither Do Solutions 
+ 
+ 
+ Blog: A united South Asia can beat air pollution 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ embed-code 
+ 
+ 
+ 
+ 
+ 
+ <iframe src="https://worldbank.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://worldbank.scene7.com/is/content/&emailurl=https://worldbank.scene7.com/s7/emailFriend&serverUrl=https://worldbank.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://worldbank.scene7.com/skins/&config2=companypreset&asset=worldbankprod/AirPllition01-AVS?qlt=90" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ embed-code 
+ 
+ 
+ 
+ 
+ 
+ <iframe src="https://worldbank.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://worldbank.scene7.com/is/content/&emailurl=https://worldbank.scene7.com/s7/emailFriend&serverUrl=https://worldbank.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://worldbank.scene7.com/skins/&config2=companypreset&asset=worldbankprod/WB RISHABH PANT REEL 16_9-AVS?qlt=90" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-1 
+ 
+ 
+ col-lg-1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ col-xs-12 
+ 
+ 
+ col-sm-12 
+ 
+ 
+ col-md-3 
+ 
+ 
+ col-lg-3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Related 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lp-heading-bottom-large 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Related 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lp-heading-top-large 
+ 
+ 
+ lp-heading-bottom-large 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ New Report: A Breath of Change: Solutions for Cleaner Air in the Indo-Gangetic Plains and Himalayan Foothills 
+ https://www.worldbank.org/en/region/sar/publication/a-breath-of-change-solutions-for-cleaner-air-in-the-indo-gangetic-plains-and-himalayan-foothills 
+ 
+ 
+ 
+ 
+ 
+ 
+ Press Release: World Bank Approves Financing for Haryana, Uttar Pradesh 
+ https://www.worldbank.org/en/news/press-release/2025/12/10/india-world-bank-approves-financing-for-programs-to-promote-clean-air-in-haryana-and-uttar-pradesh-states 
+ 
+ 
+ 
+ 
+ 
+ 
+ #EndAirPollution Campaign 
+ https://www.worldbank.org/en/who-we-are/news/campaigns/2023/end-air-pollution-in-south-asia 
+ 
+ 
+ 
+ 
+ 
+ 
+ Report: Striving for Clean Air: Air Pollution and Public Health in South Asia 
+ https://www.worldbank.org/en/region/sar/publication/striving-for-clean-air 
+ 
+ 
+ 
+ 
+ 
+ 
+ Blog: A united South Asia can beat air pollution 
+ https://blogs.worldbank.org/en/endpovertyinsouthasia/united-south-asia-can-beat-air-pollution 
+ 
+ 
+ 
+ 
+ 
+ 
+ Video: Science, Policy and Finance Dialogue (SPFD) 2025 – Bhutan 
+ https://www.worldbank.org/en/news/video/2026/06/05/science-policy-and-finance-dialogue-spfd-2025-bhutan 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lp-heading-top-large 
+ 
+ 
+ lp-heading-bottom-large 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ style 
+ default, heading-vertical, lp-mini-card-primary, components-re-style 
+ 
+ 
+ 
+ 
+ 
+ 
+ everything 
+ 
+ 
+ https://webapi.worldbank.org/aemsite/everything/search 
+ 
+ 
+ true 
+ 
+ 
+ {"facets":[],"orderby":"contentDate desc","select":"*","searchFields":"*","search":"*","filter":"(contentType eq 'Brief')","top":20,"skip":0} 
+ 
+ 
+ 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ yes 
+ 
+ 
+ yes 
+ 
+ 
+ yes 
+ 
+ 
+ more-on-this-topic 
+ 
+ 
+ 
+ 
+ sec-spacing 
+ section-none 
+ 
+ 
+ sec-spacing-bottom 
+ section-padding-between 
+ 
+ 
+ style 
+ default, lp-mini-card-primary, bg-neutrals-15-gradient 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

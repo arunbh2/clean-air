@@ -1,0 +1,1094 @@
+
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Beyond household and individual factors: examining the association between ambient air pollution and birth outcomes in India | Journal of Biosocial Science | Cambridge Core 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Skip to main content
+ 
+ 
+ Accessibility help
+ 
+ 
+ 
+ Login Alert 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cancel 
+ 
+ Log in 
+ 
+ 
+ × 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ × 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Discover Content   Products and Services  Register Log In  (0) Cart  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Logo for Cambridge Core from Cambridge University Press. Click to return to homepage.  Search  Logo for Cambridge Core from Cambridge University Press. Click to return to homepage.  Browse Services Open research Institution Login Search 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+  Hostname: page-component-7b7567c8c-9cwtv Total loading time: 0 Render date: 2026-11-22T11:34:09.204Z Has data issue: false hasContentIssue false Home > Journals > Journal of Biosocial Science > Volume 57 Issue 4 > Beyond household and individual factors: examining... English Français Journal of Biosocial Science  Article contents Abstract Introduction Value added of this study Materials and methods Outcome variable Exposure assessment Confounding variables and adjustments Statistical analysis Results Discussion Strengths and limitations of the study Conclusion Supplementary material Data availability statement Financial support Competing interests Ethical standard Consent to participate Consent to publish References Beyond household and individual factors: examining the association between ambient air pollution and birth outcomes in India Published online by Cambridge University Press:   13 June 2025 Tapas Bera , Nihar Ranjan Rout  and Jalandhar Pradhan [Opens in a new window] Show author details  Tapas Bera Affiliation: Department of Humanities and Social Sciences, National Institute of Technology Rourkela, Odisha, India Nihar Ranjan Rout Affiliation: Department of Geography, Fakir Mohan University, Balasore, Odisha, India Jalandhar Pradhan* Affiliation: Department of Humanities and Social Sciences, National Institute of Technology Rourkela, Odisha, India  *  Corresponding author:  Jalandhar Pradhan; Email:  jpp_pradhan@yahoo.co.uk Article Figures Supplementary materials Metrics Article contents Abstract Introduction Value added of this study Materials and methods Outcome variable Exposure assessment Confounding variables and adjustments Statistical analysis Results Discussion Strengths and limitations of the study Conclusion Supplementary material Data availability statement Financial support Competing interests Ethical standard Consent to participate Consent to publish References Save PDF Save PDF (1 mb)  View PDF  [Opens in a new window] Save to Dropbox Save to Google Drive Save to Kindle Share Cite Rights & Permissions  [Opens in a new window] Abstract Low birth weight (LBW) and preterm birth (PTB) are primary factors contributing to morbidity and mortality among children aged under 5, resulting in a range of short- and long-term health consequences worldwide. Among the various risk factors, ambient air pollution poses a significant environmental risk and is a key determinant of child health. The prevalence of LBW and PTB among under 5 children sampled from the NFHS-5, 2019–2021, was combined with monthly PM 2.5  data (2013–2021) obtained from the Atmospheric Composition Analysis Group at Washington University. Multivariable logistic regression models were used, and a stratified analysis was applied to understand the potential effect modifiers in LBW and PTB. Further, the geographical variation of LBW and PTB spatial autocorrelation (Moran’s I) was used. Geographically weighted regression and ordinary least square spatial regression were used to identify the spatial heterogeneity associated with selected variables. The study comprises a total of 208,181 under 5 children. Out of these children, the LBW rate was 17.41%, and the rate of PTB was 12.42%. The in-utero exposure to the mean concentration of PM 2.5  was 56.01 μg/m 3 . The odds of suffering from LBW showed a non-linear shift when PM 2.5  levels rose from the first octile (<28.02 μg/m 3 ) to the last octile (>93.84 μg/m 3 ) (adjusted odds ratio (AOR): 1.06, 95% CI: 1.01–1.12). While comparing the first octile of exposure to PM 2.5  (>93.84 μg/m 3 ) to the last octile, there was a 52% more likelihood of having PTB (AOR: 1.52, 95% CI: 1.43–1.61) after accounting for all relevant factors. These findings highlight the urgent need for a thorough strategy to control the air quality in India. Further, to reduce adverse birth outcomes, longitudinal studies and other co-pollutants can consider assessing the possible mechanisms mediating the relationship between maternal exposure and ambient air pollution. Keywords Ambient particulate matter PM2.5 maternal exposure low birth weight preterm birth geographical weighted regression cross-sectional study Information Type Research Article Information Journal of Biosocial Science   ,  Volume 57   ,  Issue 4  , July 2025 , pp. 506 - 531 DOI:  https://doi.org/10.1017/S0021932025100370  [Opens in a new window] Creative Commons This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence ( https://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted re-use, distribution and reproduction, provided the original article is properly cited. Copyright © The Author(s), 2025. Published by Cambridge University Press 
+ 
+ 
+  Introduction 
+  The substantial morbidity and mortality rates associated with low birth weight (LBW) and preterm birth (PTB) impose a significant burden on health, education, and social services, as well as families (Petrou  et al. ,  Reference Petrou, Sach and Davidson 2001 ). To achieve the 2030 Agenda for Sustainable Development Goal (SDG) #3, which is looking towards improving the health and well-being of individuals across all age groups, it is vital to tackle worldwide issues concerning LBW and PTB (Kosciejew,  Reference Kosciejew 2020 ). Both LBW and PTB have been widely used as markers of premature deaths, are associated with morbidity, and have significant implications for both short- and long-term health consequences (Bukowski  et al. ,  Reference Bukowski, Smith, Malone, Ball, Nyberg, Comstock and D’Alton 2007 ; Huang  et al. ,  Reference Huang, Lin, Huang, Yang, Ding and Chen 2020 ). Despite the World Health Organization’s (WHO) continued efforts towards reducing the likelihood of adverse birth outcomes in 2020, around 13.4 million infants were born prematurely, and 19.8 million, which accounts for 14.7% of all newborns worldwide, had low birthweight (WHO,  2020 ; Ohuma  et al. ,  Reference Ohuma, Moller, Bradley, Chakwera, Hussain-Alkhateeb, Lewin and Moran 2023 ). Almost 20 million infants are estimated to have a LBW (WHO,  2019 ), while about 15 million PTBs are predicted to occur annually (Walani,  Reference Walani 2020 ). 
+  However, premature newborns are considerably more prone to encountering adverse outcomes in comparison to those born at the expected gestational age (Ohuma  et al. ,  Reference Ohuma, Moller, Bradley, Chakwera, Hussain-Alkhateeb, Lewin and Moran 2023 ). LBW is caused by either intrauterine growth restriction or premature birth, or an integration of both factors (Okwaraji  et al. ,  Reference Okwaraji, Krasevec, Bradley, Conkle, Stevens, Gatica-Domínguez and Hayashi 2024 ). Additionally, Pusdekar  et al.  ( Reference Pusdekar, Patel, Kurhe, Bhargav, Thorsten, Garces and Hibberd 2020 ) stated that gestational age predicts neonatal and childhood mortality risk more accurately than LBW. Further, Marete  et al.  ( Reference Marete, Ekhaguere, Bann, Bucher, Nyongesa, Patel and Esamai 2020 ) reported that LBW is more prevalent in low- and middle-income countries (LMICs), particularly in South Asia and sub-Saharan Africa. In contrast, PTB is also prevalent worldwide, accounting for 10.6% of cases, with South Asia bearing about one-third of the burden (Jana,  Reference Jana 2023 ). Based on the findings of the OECD and WHO ( 2020 ), India has a greater prevalence of LBW and PTB as compared to the neighbouring countries. The prevalence rate of LBW and PTB in India is 18% and 13%, respectively, whereas Sri Lanka has a prevalence rate of 15.9% for LBW and 7.0% for PTB. In comparison, China has LBW prevalence rate of 6.9% and a PTB prevalence rate of 5.3%, while Nepal has LBW prevalence rate of 12.3% and a PTB prevalence rate of 5.3%. 
+  LBW and PTB are associated with various socio-demographic risk factors, such as birth order, teenage motherhood, maternal weight, anaemic mothers, inadequate visits to antenatal care, and maternal education (Khanal  et al. ,  Reference Khanal, Zhao and Sauer 2014 ; Bhaskar  et al. ,  Reference Bhaskar, Deo, Neupane, Chaudhary Bhaskar, Yadav, Pokharel and Pokharel 2015 ). Furthermore, the use of tobacco during pregnancy and giving birth by a caesarean section are additional factors that can raise the likelihood of premature birth and having a baby with LBW (Jeena  et al. ,  Reference Jeena, Asharam, Mitku, Naidoo and Naidoo 2020 ). At the same time, research evidence showcases the detrimental impact of exposure to air pollution during pregnancy resulting in premature birth, LBW, and increased infant mortality (Pereira  et al. ,  Reference Pereira, Belanger, Ebisu and Bell 2014 ; Jacobs  et al. ,  Reference Jacobs, Zhang, Chen, Mullins, Bell, Jin and Pereira 2017 ). 
+  Among the different risk factors, ambient and household air pollution (AAP and HAP) are important environmental threats that considerably impact child health globally. Growing evidence suggests that around 90% of the world’s population is vulnerable to the harmful consequences of air pollution, posing a substantial and persistent risk to global health. Furthermore, 99% of the global population resides in regions where the WHO’s air quality standards have not been met (WHO,  2019 ; Shaddick  et al. ,  Reference Shaddick, Thomas, Mudu, Ruggeri and Gumy 2020 ; Murray  et al. ,  Reference Murray, Aravkin, Zheng, Abbafati, Abbas, Abbasi-Kangevari and Borzouei 2020 ). Air pollution causes one out of every nine deaths worldwide due to non-accidental diseases such as chronic obstructive pulmonary disease, respiratory infections, ischaemic heart disease, and lung cancer (Burnett  et al. ,  Reference Burnett, Chen, Szyszkowicz, Fann, Hubbell, Pope and Spadaro 2018 ; WHO,  2018 ), resulting in a significant economic burden (Di Renzo  et al. ,  Reference Di Renzo, Conry, Blake, DeFrancesco, DeNicola and Martin 2015 ). Whereas, out of the 6.7 million premature deaths annually, 4.2 million are caused by ambient air pollution. The majority of premature deaths, accounting for 89%, were in LMICs (Landrigan  et al. ,  Reference Landrigan, Fuller, Acosta, Adeyi, Arnold, Baldé and Zhong 2018 ; WHO,  2019 ; Murray  et al. ,  Reference Murray, Aravkin, Zheng, Abbafati, Abbas, Abbasi-Kangevari and Borzouei 2020 ). According to the Institute of Health Metric Evaluation (IHME), ambient air pollution is currently considered the second most significant risk factor for early mortality in children aged under 5, surpassed only by malnutrition (IHME,  2021 ). Additionally, research findings indicate that air pollution affects individuals irrespective of geographic location (Burnett  et al. ,  Reference Burnett, Chen, Szyszkowicz, Fann, Hubbell, Pope and Spadaro 2018 ; WHO,  2018 ). However, the severity of health consequences due to air pollution might vary across population groups. This is particularly so for children, elderly, pregnant women, and their unborn offspring (Di Renzo  et al. ,  Reference Di Renzo, Conry, Blake, DeFrancesco, DeNicola and Martin 2015 ; WHO,  2018 ). Although the fundamental causes of adverse birth outcomes remain ambiguous, there is increasing evidence from previous research indicating that environmental factors may have a substantial impact on adverse birth outcomes (Li  et al. ,  Reference Li, Huang, Jiao, Yang, Yun, Wang and Xiang 2017 ). 
+  Air pollution could contribute to a multifaceted combination of factors leading to increased likelihood of LBW and PTB. The observed effect is caused by several mechanisms, such as inflammation of placenta, poor foetal growth, oxidative stress, and impaired oxygen transport throughout the placenta, which can affect early-life child health and lead to growth failure among under 5 children in several ways (Slama  et al. ,  Reference Slama, Darrow, Parker, Woodruff, Strickland, Nieuwenhuijsen and Ritz 2008 ; Sinharoy  et al. , Reference Sinharoy, Clasen and Martorell 2020 ; Desouza  et al. ,  Reference Desouza, Hammer, Anthamatten, Kinney, Kim, Subramanian and Mwenda 2022 ). The association has been asserted by a time series study conducted in Iran (Sarizadeh  et al. ,  Reference Sarizadeh, Dastoorpoor, Goudarzi and Simbar 2020 ), a cohort study conducted in Europe (Pedersen  et al. ,  Reference Pedersen, Giorgis-Allemand, Bernard, Aguilera, Andersen, Ballester and Slama 2013 ), a cross-sectional study conducted in Africa (Bachwenkizi  et al. ,  Reference Bachwenkizi, Liu, Meng, Zhang, Wang, van Donkelaar and Kan 2021 ), as well as studies conducted in India (Balakrishnan  et al. ,  Reference Balakrishnan, Dey, Gupta, Dhaliwal, Brauer, Cohen and Dandona 2019 ; Goyal and Canning,  Reference Goyal and Canning 2021 ) and China (Liu  et al. ,  Reference Liu, Xu, Chen, Sun and Ma 2019 ). Among the various pollutants, prior research has shown that fine particulate matter has greater spatial homogeneity than other contaminants, which makes it a valuable indicator of individual exposure to compare with other pollutants (Sarnat  et al. ,  Reference Sarnat, Brown, Schwartz, Coull and Koutrakis 2005 ). 
+  As a developing country, India has a considerably greater incidence of morbidity and mortality due to air pollution than other countries (George  et al. ,  Reference George, Thakkar, Yasobant, Saxena and Shah 2024 ). Despite the country’s progress in reducing air pollution under National Clean Air Programme (NCAP), the long-term challenge of poor air quality has an alarming impact, particularly on child health outcomes (Mondal and Paul,  Reference Mondal and Paul 2020 ; Chowdhury  et al. ,  Reference Chowdhury, Pozzer, Dey, Klingmueller and Lelieveld 2020 ). In this scenario, air pollution in India is rising due to a lack of sufficient road infrastructure in the face of increasing urbanization, effective transportation management, and spontaneous dispersal of industry (Kaur and Pandey,  Reference Kaur and Pandey 2021 ). Studies suggest that in India, increased levels of PM 2.5  are primarily attributed to human activities such as industrial processes, commercial biomass burning, road transport, fossil fuel combustion from power generation, the functioning of brick kilns, incineration of waste, and the use of solid cooking fuel in the household (CPCB,  Reference CPCB 2010 ; Pant  et al. ,  Reference Pant, Shukla, Kohl, Chow, Watson and Harrison 2015 ; Gordon  et al. ,  Reference Gordon, Balakrishnan, Dey, Rajagopalan, Thornburg, Thurston and Nadadur 2018 ). As a result, India’s population-weighted annual exposure to PM 2.5  the predominant pollutant that affects human health is about 90 μg/m 3 , which is substantially higher than the WHO Air Quality Guideline (AQG) level of 5 μg/m 3  and India’s National Ambient Air Quality standards (NAAQS) of 40 μg/m 3  (WHO,  2024 ). Whereas, the levels of PM 2.5  levels in few cities are typically 5–25 times higher than the national average (Roy and Singha,  Reference Roy and Singha 2021 ). 
+  However, related to particulate matter air pollution, prior studies have largely discussed indoor air pollution and its toxic effects on respiratory symptoms, asthma, and lung disease among children aged under 5. Furthermore, exposure to air pollution by household solid cooking fuel and its association with child growth failure in India (Mishra and Ratheford,  Reference Mishra and Retherford 2007 ; Balietti and Dutta,  Reference Balietti and Datta 2017 ; Spears  et al. ,  Reference Spears, Dey, Chowdhury, Scovronick, Vyas and Apte 2019 ), but no study has estimated and compared the associations between ambient PM 2.5  with LBW and PTB of different gestation period of individuals (Mothers) and geographical heterogeneity of birth outcomes in India. At the same time, previous studies (Goyal and Canning,  Reference Goyal and Canning 2021 ; Desouza  et al. ,  Reference Desouza, Hammer, Anthamatten, Kinney, Kim, Subramanian and Mwenda 2022 ) assessed the average amount of exposure by computing the mean concentration of PM 2.5  over the total duration of pregnancy. Due to the high proportion of non-urban population in India, air pollution is not only an urban problem but can also occur in rural areas (Ravishankara  et al. ,  Reference Ravishankara, David, Pierce and Venkataraman 2020 ). However, exposure to air pollution is expected to result in long-lasting consequences similar to other health disorders across India (Balietti  et al. ,  Reference Balietti, Datta and Veljanoska 2022 ). Therefore, the current research evaluates the association of ambient PM 2.5  air pollution with the incidence of LBW and PTB among children aged under 5 in India. Additionally, it is crucial to consider the many ways in which household, maternal, child, and environmental level factors contribute to the estimation of the causal link. Hence, to effectively work towards the sustainable development goal of decreasing the incidence of LBW and PTB in children by 2025, it is essential to comprehend and draw well-informed policy conclusions. 
+ 
+ 
+  Value added of this study 
+  Reducing the burden of childhood morbidity and neonatal mortality, LBW and PTB are significant in promoting healthy lives and well-being for all ages. Beyond the various household, child and maternal level factors, sufficient evidence from ambient particulate matter (PM 2.5 ) as environmental factors and its association with adverse birth outcomes, LBW and PTB of different gestation periods of individuals is insufficient in the Indian context. 
+  Using remote sensing and Geographic Information Systems (GIS), this study combines the monthly concentration of PM 2.5  from different clusters with individual’s gestation period from National Family Health Survey (NFHS-5) data sets. Furthermore, the spatial regression analysis in the relationship of LBW and PTB with associated factors highlights that ambient PM 2.5  is one of the leading risk factors compared with child, maternal, and household level factors for adverse birth outcomes in India. 
+ 
+ 
+  Materials and methods 
+ 
+  Study design 
+  The data evaluated in this study have been derived from the most recent (5th) round of the National Family Health Survey (NFHS) conducted between 2019 and 2021 under the Ministry of Health and Family Welfare (MOHFW). The survey was conducted on a nationwide scale and employed a cross-sectional methodology. The primary goal of the NFHS is to furnish reliable and more accurate data on population and diverse health indicators. The survey was carried out in two phases. The first phase was conducted from June 17 th , 2019, to January 30 th , 2020, while the second phase was conducted from January 2 nd , 2020, to April 30 th , 2021. The sample design used in this study involves two stages and is stratified based on rural and urban locales. The selection of main sampling units in rural areas was based on villages, whereas census enumeration blocks were used in urban areas. The probability proportional size method determined the sampling units. Within each cluster, a total of 22 households were selected using a method called systematic sampling. These clusters with geographic location information are recorded as part of the survey process. Whereas, to maintain the respondent’s privacy, rural cluster displaced up to 10 km and the urban cluster up to 2 kn. Furthermore, the NFHS-5 (IIPS and ICF  Reference IIPS 2021 ) contains a comprehensive account of the techniques, design, collected data, study participants, and other relevant information. 
+  The NFHS-5 is a nationally representative survey that has collected data from 636,699 households. This sample consists of 724,115 women aged 15–49, 1,017,179 males aged 15–54, and 232,920 children. The current study focuses on births that occurred 5 years before the survey. Information regarding children was obtained through the kids recode (KR), while data on household conditions of the respondents was collected using household recode (HR). Observations for children with missing birth weight data ( n  = 23,654) were excluded from the sample. Hence, the overall sample size comprises 209,266 children. Additionally, observations with missing values (0.54%) for the average total pregnancies PM 2.5  exposure value (1,135) have been excluded, resulting in a final sample size of 2,08,181 children (refer to Fig.  1 ). 
+ 
+ Figure 1. 
+ Flow chart of selected variables. 
+ 
+ 
+ 
+ 
+ 
+ 
+  Outcome variable 
+  The study considers LBW and PTB as outcome variables. According to WHO, preterm newborns as those born before 37 weeks of gestation, while LBW infants are those who weigh less than 2500 grams at birth (Darmstadt  et al. ,  Reference Darmstadt, Al Jaifi, Arif, Bahl, Blennow, Cavallera and Yunis 2023 ). The NFHS-5 collects birth weight data using two methods: relying on the mother’s recall of her baby’s weight at the time of the survey and using any existing record of the baby’s weight (IIPS and IYCF,  Reference IIPS 2021 ). Additionally, PTB is determined based on the duration of gestation. Both outcome variables are binary, where ‘1’ indicates that the infants had LBW/PTB, and ‘0’ indicates that the kid did not have LBW/PTB. 
+ 
+ 
+  Exposure assessment 
+  Due to insufficient ground monitoring stations for air pollution (PM 2.5 ) across the Indian subcontinent, researchers relied on high-resolution geographic data acquired from satellites. These data were supplied by the Atmospheric Composition Analysis Group at Washington University. The dataset can be accessed by the public through the website  https://sites.wustl.edu/acag/datasets/surface-pm2-5/ . These data provided the monthly levels of PM 2.5  are accurately measured at a resolution of 0.01 × 0.01° (about 1 km × 1 km) by integrating satellite data, ground-based air quality monitoring data, and pollution source modelling. To verify and compare with ground-based surveillance, the prior estimations obtained from satellite data showed less accurate findings as compared to the Indian subcontinent, whereas the most recent version of these satellite-driven data exhibits a strong correlation (0.81) with ground-based monitoring data (Van Donkellar  et al. ,  Reference Van Donkelaar, Martin, Brauer, Hsu, Kahn, Levy and Winker 2016 ). To evaluate air pollution as a risk factor, the Global Burden of Disease (GBD) study adapted the same methodology (Brauer  et al. ,  Reference Brauer, Freedman, Frostad, Van Donkelaar, Martin, Dentener and Cohen 2016 ). PM 2.5  data and geospatial information taken from the standard DHS dataset for India NFHS-5 2019–21, including geocoded, were integrated to determine the extent of PM 2.5  pollution in India. Following that, the monthly PM 2.5  concentrations from each cluster in the dataset were then manually removed, merged with each individual from all clusters, and used as the primary variable for measuring exposure. Taking the advantage of remote sensing and geographic information system, this study revealed substantial variations in PM 2.5  concentrations among different clusters in India. However, the mean PM 2.5  exposures were calculated for the actual duration of the respondent’s pregnancy, excluding the month of birth and correlated with the reported length of pregnancy using monthly PM 2.5  data. 
+ 
+ 
+  Confounding variables and adjustments 
+  This study examines the correlation between the level of PM 2.5  and the incidence of LBW and PTB, identifying various potential factors that may affect the outcome variables. These determinants were present at the individual, maternal, and household levels. The selection of confounders was performed through an extensive review of pertinent literature and theoretical frameworks that demonstrate the association between PM 2.5  and LBW and PTB in children (Goyal and Canning,  Reference Goyal and Canning 2017 ; Goyal and Canning,  Reference Goyal and Canning 2021 ; Desouza  et al. ,  Reference Desouza, Hammer, Anthamatten, Kinney, Kim, Subramanian and Mwenda 2022 ). These determinants at the children’s level include the sex of the child and birth order. The maternal-level factors include the mother’s level of education, teenage motherhood, the underweight status of the mother (BMI <18.5 kg/m 2 ), mother’s age at birth, frequency of visiting antenatal care, and height of mothers. The household-level factors encompass the type of residence, availability of improved drinking water and sanitary facilities, use of unclean cooking fuel, and the wealth quintiles. 
+ 
+ 
+  Statistical analysis 
+  An analysis of descriptive statistics was conducted to provide insight into the characteristics of the participants in the study. The prevalence of LBW and PTB among children was assessed using a bivariate percentage distribution, considering confounding variables. The Pearson’s chi-square statistic was employed to measure the discrepancies between observed and expected frequencies. The sample weight was utilized to calculate the percentage distribution. Multivariate logistic regressions were applied to evaluate the association between PM 2.5  and the likelihood of experiencing LBW and PTB in children under the age of 5. In this model, PM 2.5  is evaluated as a continuous exposure and categorized by octiles. However, only categorized PM 2.5  exposure values were considered in model 1. Model II was used to investigate the contribution of maternal level factors, and model III was combined with all variables. After that, to show the best-fit model log-likelihood, Akaike information criterion (AIC) and Bayesian information criterion (BIC) were used, while lower AIC, BIC, and highest log-likelihood values show the best model. A stratified analysis by sex of the child and place of residence was also used to find out an effect modifier in LBW and PTB. Additionally, to find out the no-linear relationship between exposure level and adverse birth outcomes, a marginal effect analysis with a 95% confidence interval was applied (Rodriguez,  Reference Rodriguez 2016 ; Gudayu,  Reference Gudayu 2022 ). After running the nonlinear model like multivariate logistic regression, the marginal effect of the exposure variable is an appropriate way to find out how the probability change in the dependent variable occurs with one unit change of exposure variable (Onukwugha  et al. ,  Reference Onukwugha, Bergtold and Jain 2015 ; Norton  et al. ,  Reference Norton, Dowd and Maciejewski 2019 ). 
+  The spatial autocorrelation (Global Moran’s I) was applied to identify the spatial distribution (clustered, random, or dispersed) of LBW and PTB in India. To measure the spatial autocorrelation, Moran’s I value explained through non-random distribution value ranges from –1 to +1 (Anselin,  Reference Anselin 1995 ). The value closer to ‘0’ indicates a random pattern, closer to ‘+1’ indicates a cluster pattern, and closer to ‘–1’ explains a dispersed pattern (Chen,  Reference Chen 2021 ). Subsequently, to assess the spatial dependence between LBW and PTB using selected independent variables, ordinary least square (OLS) regression was applied, followed by geographically weighted regression (GWR) analysis. The OLS regression is a global statistical model that estimates the spatial relationship between the explanatory variables and dependent variables along with Koenkar (BP) Statistics, Joint Wald statistics, and Jarque-Bera Statistics, whereas GWR is a local statistic that estimates the different regression of each observation in the entire data set (Noresah and Sanjay,  Reference Noresah and Sanjay 2020 ; Tebeje  et al. ,  Reference Tebeje, Gelaye, Chekol, Tesfie, Gelaw, Mare and Seifu 2024 ). However, in the model comparison between OLS regression and GWR, the lowest AICs and highest adjusted R 2  were explained as the best-fit model for analysis. All these statistical analyses were conducted using STATA MP version 14.0 and ArcGis 10.8. 
+ 
+ 
+  Results 
+ 
+  Descriptive statistics 
+  Based on the analysis, this study estimated the level of exposure in utero from September 2013 to April 2021. Table  1  displays the outcomes obtained from the analysis utilizing descriptive statistics. The mean birth weight of the study sample is 2812.50 grams. The prevalence of LBW is 17.24% (36,249 cases), and PTB is 12.42% (25,846 cases). The mean exposure to PM 2.5  during pregnancy is 56.01 µg/m −3 , the mean exposure with LBW is 58.94 µg/m −3 , and the mean exposure with PTB is 59.06 µg/m 3 , all of which are 12 times higher than the WHO recommended level of 5 µg/m 3 . The exposure level is divided into octiles with corresponding child proportions in Table  1 , with each octile representing 12.5% of the sample as a whole. The reference group consists of children exposed to PM 2.5  levels in the lowest octile, which is below 28.02 m −3 . The results exhibit that there are different levels of risk for children, and those living with higher levels of PM 2.5  exposures are more likely to be LBW and PTB. The correlation between in utero PM 2.5  and LBW and PTB is represented in Table  2 . 
+ 
+ Table 1. 
+ Distribution of exposure level and descriptive statistics of study sample by health outcomes in India, NFHS-2021 
+ 
+ 
+ 
+  ***Significant at:  P  ≤ 0.001, **Significant at:  P  ≤ 0.01, * Significant at:  P  < 0.05. 
+ 
+ 
+ Table 2. 
+ Multivariate regression results showing the association between PM 2.5  with LBW and PTB among under-5 children ( n  = 208,181), NFHS-2021 
+ 
+ 
+ 
+ 
+ Note:  AIC: Akaike information criterion, BIC: Bayesian information criterion, AOR: adjusted odds ratio, ®: Reference category, * Significant at:  P  < 0.05; **Significant at:  P  ≤ 0.01, ***Significant at:  P  ≤ 0.001. 
+ 
+  Out of 208,181 children under the age of 5, 51.69% were males and 48.31% were females. Further, the sample was divided based on their area of residence. Around 79% of the total sample lived in rural areas, whereas 21% resided in urban areas. In addition, 93.64% of children resided in households with access to improved drinking water sources, and 7% of children lived in households that relied on unimproved sources of drinking water, such as surface water, as their main water source. It was observed that approximately a quarter of children resided in families lacking improved sanitation facilities (24.98%). Only 57.86% of women were taken to adequate ANC facilities. On the other hand, mothers age at birth less than 20 years was 11.4%. Further, 19.62% of mothers had no education, while only 12.4% had completed primary education. Moreover, around 18.56% of mothers had a body weight below normal BMI, while over 5% were teenage mothers, and based on birth records, 39.79% were experiencing their first childbirth. 
+  The data shown in Table  1  indicate that over 17% of children below the age of five in India have encountered a case of LBW, with 12% of these infants experiencing PTB in India. This table also explains the distribution of the prevalence of child health outcome episodes and the corresponding  x 
+ 
+ 2 
+  tests. The occurrence of LBW and PTB was substantially associated with exposure to PM 2.5 . However, LBW was particularly common among children as the level of PM 2.5  increased. The prevalence of LBW and PTB declined with enhanced levels of maternal education and household affluence. The proportion of LBW and PTB was higher among infants of teenage mothers. Additionally, the cases of LBW were more in the case of female infants, whereas PTB was more prevalent among male infants. Among children with a known birth order, approximately 18.22% of those who were the firstborn had a LBW, and 12.67% were born preterm. 
+ 
+ 
+  Multivariate regression analysis of predictor variables associated with LBW and PTB 
+  Table  2  presents a concise overview of the outcomes of a multivariate logistic regression analysis, which demonstrates the relationship between PM 2.5  exposures and the occurrence of LBW and PTB in children aged under 5. In model 1, which does not include adjusting for any confounders, the relationship between PM 2.5,  LBW, and PTB remained significant. At the last model III was the best-fitted model after accounting for all the factors upon controlling for variables such as PM 2.5  exposure level, sex of child, birth order, teenage motherhood, BMI of mother, mothers age at birth, visit of ANC, mother’s height, educational status of mother, type of residence, cooking fuel, type of sanitation, and drinking water facility and household wealth quintile, a notable and favourable correlation is observed between PM 2.5  exposure and health outcomes. 
+  Moreover, model I reflects that exposure levels up to 42.13 μg/m –3  have a less significant impact on the chance of LBW and PTB compared to the reference group. After accounting for different factors in model III, the odds ratio for LBW increased from 1.01 (CI: 0.96–1.06) with a concentration of 42.13–49.92 µg/m −3  to 1.04 (CI: 0.99–1.10) with a concentration of 49.92–59.92 m –3  in the fifth octile, and further increased to 1.06 (CI: 1.01–1.12) with a concentration of 93.84 µg/m −3  in the last octile. However, the findings indicated a lack of consistency in the dimension of LBW, which explains the existence of non-linear relationship between the variables. On the other hand, there was a consistent association between exposure to PM 2.5  at a level of 42.13 µg/m −3  and an increased risk of PTB. Children in the fourth octile of exposure, with a range of 42.13–49.92 m –3 , have a relative risk of PTB of 1.27, with a CI of 1.20–1.36. The risk of PTB increases steadily from the first to the fifth octile, with a risk ratio of 1.39 (95% CI: 1.31–1.48). The highest risk of PTB is observed in the last octile, with a risk ratio of 1.52 (95% CI: 1.43–1.61). 
+ 
+ 
+  Stratified analysis 
+  Additionally, to find out the potential effect modifiers that vary LBW and PTB across different subgroups, the association between maternal exposure to PM 2.5  and LBW and PTB are presented in Tables  S1  and  S2 . For LBW, stratified by sex of the child, a more significant association was observed among male children compared to female children. Similarly, stratified by place of residence more significant was found in rural areas. On the contrary, for PTB stratified by sex of the child, strong associations were observed among female children and the following subgroups: mothers had the highest education level and rural areas. Besides that, stratified by place of residence, higher exposure to PM 2.5  and mothers’ level of education in rural had a significant association. 
+ 
+ 
+  Marginal effect analysis 
+  Tables  S3  and  S4  show the marginal effect of LBW and PTB of maternal exposure to PM 2.5  by octile format. Overall, the results show that increasing the level of exposure to PM 2.5  increases the likelihood of LBW and PTB, although no linearity exists. For LBW, Table  S3  represents that after the third octile, it increased up to the fifth octile and then decreased in the sixth octile. After that, from the sixth octile, it increased continuously (Figs  2  and  3 ). Whereas, for PTB, it has been observed that after the second octile, the risk of PTB becomes more acute as the exposure to PM 2.5  level increases. 
+ 
+ Figure 2. 
+ Marginal effect analysis of low birth weight by octile of gestational exposure to PM 2.5 . 
+ 
+ 
+ 
+ 
+ Figure 3. 
+ Marginal effect analysis of preterm birth by octile of gestational exposure to PM 2.5 . 
+ 
+ 
+ 
+ 
+ 
+  Spatial autocorrelation and OLS regression analysis 
+  To understand the spatial pattern of LBW and PTB in India, spatial autocorrelation results were reported in Figs.  4  and  5 . It illustrates that the Moran’s Index value for LBW is 0.37 and PTB 0.16, representing the clustering pattern in India. Based on selected explanatory variables related to LBW and PTB, the OLS regression results are significant and explain about 16.7% (adjusted R2 = 0.167) of LBW and 13.7% (adjusted R2 = 0.137) of PTB spatial variation persisting, with non-existence of multicollinearity between predictors variables and birth outcomes (Tables  S5  and  S8 ). 
+  To understand the spatial pattern of LBW and PTB in India, spatial autocorrelation results were reported in Figs.  4  and  5 . It illustrates that the Moran’s Index value for LBW is 0.37 and PTB 0.16, representing the clustering pattern in India. Based on selected explanatory variables related to LBW and PTB, the OLS regression results are significant and explain about 16.7% (adjusted R2 = 0.167) of LBW and 13.7% (adjusted R2 = 0.137) of PTB spatial variation persisting, with non-existence of multicollinearity between predictors variables and birth outcomes (Tables  S5  and  S8 ). 
+ 
+ Figure 4. 
+ Spatial autocorrelation of low birth weight among under-5 children in India, NFHS-5. 
+ 
+ 
+ 
+ 
+ Figure 5. 
+ Spatial autocorrelation of preterm birth among under-5 children in India, NFHS-5. 
+ 
+ 
+ 
+  Additionally, Table  S6  revealed that joint F statistics and Joint Wald statistics are significant (<0.01), which shows that the association between predictors variables and LBW is free from non-stationary, and residuals are normally distributed, whereas Table  S9  explains that in the case of PTB, all four statistics, Jarque-Bera, Joint F, Joint Wald, and Koenkar statistics, are significant (<0.01), which explains that residuals are not normally distributed due to non-stationary among the data. However, compared between LBW and PTB among the five selected variables, only district-level average of PM 2.5  in the entire pregnancy received antenatal care less than 4 is statistically significant in both cases, and child from the poorest quintile is significantly associated with PTB. Therefore, the GWR model was considered for further analysis to give more strength and appropriate estimates in the analysis. 
+ 
+ 
+  GWR regression analysis 
+  After analysing the OLS regression, GWR modelling was performed to find out the spatial variation of predictor variables for LBW and PTB in India. Compared with the OLS model in GWR, the adjusted R2 value was increased from 0.17 to 0.37, with the AIC value decreased from 4317.1 to 4127.74 in LBW; this shows that the GWR model enhanced by 20% and the difference of AIC was 189.36 (Table  3 ). In contrast, for PTB, GWR R2 value increased from 0.14 to 0.24, whereas the AIC value decreased from 4876.18 to 4794.94 (Table  3 ). Overall, Table  3  revealed that the GWR model was improved than OLS regression both for LBW and PTB. 
+ 
+ Table 3. 
+ Model comparison between Ordinary least square regression and geographically weighted regression in India, NFHS-2021 
+ 
+ 
+ 
+ 
+ Note:  AIC: Akaike information criterion, OLS: ordinary least square, GWR: geographically weighted regression. 
+ 
+  Additionally, the GWR model illustrates that the predictor variables were strongly and negatively associated with LBW and PTB. In the case of LBW, Fig.  6 (a)–(f) explains that as the gestational average of PM 2.5  increased, the proportion of LBW increased in northeast India and parts of Jammu and Kashmir. Related to inadequate visits of ANC, GWR coefficient was strong in Jammu and Kashmir as well as Punjab and Himachal Pradesh. Furthermore, regarding the poorest wealth quintile, the GWR coefficient was strong in parts of Tamil Nadu and Kerala. For mothers who had no education, the GWR coefficient was moderately concentrated in the central and middle part of India, and adverse birth outcomes from rural areas were strongly found in northeast India and followed by the eastern part of India, whereas, the predicted LBW areas were mostly concentrated in districts of Uttar Pradesh and Madhya Pradesh. 
+ 
+ Figure 6. 
+ GWR coefficient of (a) district level ag. of PM 2.5 , (b) visit of antenatal care, (c) poorest wealth quintile, (d) mothers with no education, (e) rural residence for LBW, and (f) predicted LBW in India. 
+ 
+ 
+ 
+  On the contrary, Fig.  7 (a)–(f) shows the results of spatial variations of GWR coefficient of five predictor variables. The proportion of PTB with a gestational avg. of PM 2.5  was more concentrated in districts of West Bengal, Odisha, Bihar, and Jharkhand. The proportion of mothers who had visited less ANC care the GWR coefficient was strongly found in Assam, Arunachal Pradesh, and parts of Tripura. Similarly, the strong GWR coefficient for having the poorest wealth quintile with PTB was observed particularly in districts of Kerala and Tamil Nadu. Besides, for mothers who had no education with PTB, a moderate positive association was identified in most of the southern and eastern parts of Indian districts. In the same way regarding the GWR coefficient of being a PTB child from a rural residence, a strong and positive association was found in most parts of Gujrat, Kerala, and Ladakh. However, adjusted with five selected variables, Fig.  7  shows that the potential concentration of PTB is significantly dispersed. 
+ 
+ Figure 7. 
+ GWR coefficient of (a) district level ag. of PM 2.5 , (b) visit of antenatal care, (c) poorest wealth quintile, (d) mothers with no education, (e) rural residence for PTB, and (f) predicted PTB in India. 
+ 
+ 
+ 
+ 
+ 
+ 
+  Discussion 
+  Over the years, there has been a steady increase in the level of particulate matter air pollution globally. Between 1998 and 2021, there was a significant increase of 67.7% in the annual level of particulate matter air pollution, resulting in a decrease in average life expectancy by 2.3 years (CPCB,  Reference CPCB 2022 ). Over the last 10 years, India’s PM 2.5  levels have increased significantly by more than 1μg/m 3  per year (Dey  et al. ,  Reference Dey, Purohit, Balyan, Dixit, Bali, Kumar and Shukla 2020 ). However, India’s average PM 2.5  levels increased by 15% between 1998 and 2019 (Srivastava  et al. ,  Reference Srivastava, Kumar, Bauddh, Gautam and Kumar 2020 ). On an average, Delhi had the highest PM 2.5  concentrations, but the number of cities in Uttar Pradesh with high PM 2.5  levels was the most. From this study, it was observed that the air quality was consistently deteriorating and getting worse, reaching an average of 56.01 µg/m −3  in 2021. 
+  Additionally, India was responsible for 59.1% of the worldwide rise in air pollution from 2013 to 2021 (Slater  et al. ,  Reference Slater, Han, Adelina, Nikam, Archer, Nguyen and Kim 2022 ). Against this backdrop, a substantial quantity of cross-sectional research has examined the association between PM 2.5  and maternal exposure. Several suggested pathways by which PM 2.5  could cause PTB and LBW. Evidence suggests that pregnant women exposed to particulate matter air pollution may be at increased risk of PTB due to acute inflammation in the lungs and other organs (Liu  et al. ,  Reference Liu, Krewski, Shi, Chen and Burnett 2003 ). Furthermore, with a similar mechanism, a recent study evaluated whether certain maternal health conditions and pregnancy difficulties can influence the link between air pollution and poor birth outcomes (Laurent  et al. ,  Reference Laurent, Hu, Li, Cockburn, Escobedo, Kleeman and Wu 2014 ). 
+  The results demonstrated that there are direct and significant relationship between PM 2.5  exposures and LBW and PTB. Although maternal exposure to particulate matter air pollution is prevalent in India, only a few epidemiological studies have evaluated the outcome as an LBW and PTB independently (Goyal and Canning,  Reference Goyal and Canning 2021 ; Dimitrova  et al. ,  Reference Dimitrova, Marois, Kiesewetter, Rafaj, Pachauri, Samir and Tonne 2022 ; Jana,  Reference Jana 2023 ), while none of these studies have considered both the outcomes in the same study. After accounting for several confounding variables, the present study reveals a significant association between LBW and PTB, as well as an increased risk of these conditions among under 5 children in India. It shows that there is a lower chance of PTB exposed to PM 2.5  levels up to 40μg/m 3 . Beyond that point, it rises sharply to >93.84 μg/m 3  (OR 1.58, CI: 1.48–1.67). But when it comes to LBW, it is uneven from the first octile to the last octile. Similar to the previous study, the results of this study validate that overall, increasing the pollution level has higher odds of LBW and PTB, followed by ‘National Ambient Air Quality Standards’ (NAAQS), which has set a threshold value of 40 μg/m 3  for PM 2.5  in India (Adhikary  et al. ,  Reference Adhikary, Mal and Saikia 2024 ). Whereas, a meta-analysis of polling estimates indicated that there was an 11% increased likelihood of LBW (AOR 1.11, CI: 1.07–1.16), and a 12% chance of an early delivery (AOR 1.12, CI: 1.06–1.19) for every 10 μg/m 3  rise in ambient PM 2.5  levels (Ghosh  et al. ,  Reference Ghosh, Causey, Burkart, Wozniak, Cohen and Brauer 2021 ). 
+  Referring to the potential effect modifiers, the odds ratio for LBW and PTB are increased compared with the multivariate regression model. Earlier studies showed that the likelihood of LBW among female children (OR 1.19, CI: 1.17–1.22) is 19% more acute compared to males (Bachwenkizi  et al. ,  Reference Bachwenkizi, Liu, Meng, Zhang, Wang, van Donkelaar, Martin, Hammer, Chen and Kan 2022 ) As a result, LBW female children are at high risk to get disease in their later life as compared to male counterparts (Zimmermann  et al. ,  Reference Zimmermann, Gamborg, Sørensen and Baker 2015 ). Furthermore, compared to the first birth order child, increasing the birth order of children reduces the chances of LBW. Likewise, adjusting with other factors the study showed that increasing the mother’s level of education reduces the risk of LBW. On the contrary, by lowering the mother’s BMI, they were at more risk for delivering LBW infants. 
+  The present study found that inadequate visits to ANC care increase the likelihood of being PTB children compared with LBW children. Alignign with previous studies, it influences adverse birth outcomes, including PTB (Alexander and Kotelchuck,  Reference Alexander and Kotelchuck 1996 ). Therefore, to reduce the burden of PTB and LBW, increasing awareness of the ANC programme is one of the best public health strategies (Pervin  et al. ,  Reference Pervin, Rahman, Rahman, Aktar and Rahman 2020 ). The study also highlights that mothers who were in short stature were more likely to be associated with LBW and PTB. However, it remains unclear, whether tall stature reduces the risk of adverse birth outcomes or whether short stature has more risk of either LBW and PTB (Chan and Lao,  Reference Chan and Lao 2009 ; Han  et al. ,  Reference Han, Lutsiv, Mulla and McDonald 2012 ). 
+  Similar to cohort research conducted on 1285 pregnant women in Tamil Nadu, India, which reported that there was a 10 μg/m 3  increase in gestation period PM 2.5  after adjusting for the child’s sex, the mother’s age, her BMI, her history of LBW children, the birth order, and the season of conception. This study further reported a significant drop in birth weight by 4 gm odds ratio (CI: 1.08–6.76) decrease in birth weight and a 2% increase in the prevalence of LBW (OR 1.02, CI: 1.005–1.041) (Balakrishnan  et al. ,  Reference Balakrishnan, Ghosh, Thangavel, Sambandam, Mukhopadhyay, Puttaswamy and Thanasekaraan 2018 ). Consistent with previous research, the findings suggest that other factors, such as teenage motherhood, drinking water facilities, and forms of sanitation, were not statistically significant among LBW infants (Nazari  et al. ,  Reference Nazari, Zainiyah, Lye, Zalilah and Heidarzadeh 1995 ; Borkowski and Mielniczuk,  Reference Borkowski and Mielniczuk 2008 ). Earlier research, whereas advanced mothers age at birth (>35 years) is associated with LBW, PTB, and stillbirths (Fall  et al. ,  Reference Fall, Sachdev, Osmond, Restrepo-Mendez, Victora, Martorell and Richter 2015 ), the present study stated an uneven significant relationship between maternal exposure to PM 2.5  adjusted with other variables. 
+  Based on earlier studies, related to PTB findings, the study suggests that mothers’ exposure to PM 2.5  can increase the chances of premature birth (Bachwenkizi  et al. ,  Reference Bachwenkizi, Liu, Meng, Zhang, Wang, van Donkelaar, Martin, Hammer, Chen and Kan 2022 ; He  et al. ,  Reference He, Jiang, Yang, Xu, Zhang, Wang and Ma 2022 ). It seems that the growth and development of the placenta are adversely affected by the exposure of pregnant mothers to PM 2.5  during the gestation period (Lee  et al. ,  Reference Lee, Talbott, Roberts, Catov, Sharma and Ritz 2011 ; Van den Hooven  et al. ,  Reference Van den Hooven, de Kluizenaar, Pierik, Hofman, van Ratingen, Zandveld and Jaddoe 2012 ). Results show that compared to male counterparts, female children are at low risk of PTB. Similar to prior studies, multivariate analysis confirmed that male foetal is an independent risk factor for PTB (Peelen  et al. ,  Reference Peelen, Kazemier, Ravelli, De Groot, Van Der Post, Mol and Kok 2016 ). 
+  Women with higher educational levels have lower chances of giving PTB in comparison to women with lower educational levels. At the same time, it has been observed that the increased risk of having PTB is higher in women with low BMI. Prior literature explained that infants of teenagers are at high risk of poor infant outcomes (Carter  et al. ,  Reference Carter, Mulder, Frampton and Darlow 2007 ). More specifically, the results of this study determined that increasing the mother’s age at the time of birth reduces the risk of PTB. 
+  Studies suggest that children living in rural areas had a 13% higher chance of experiencing PTB compared to those living in urban areas. Research revealed that households utilizing unclean cooking fuel (OR 0.92, CI: 0.89–0.95) are less likely to experience PTB. Against this backdrop, despite urban regions having better access to improved water sources, increased urbanization, and industrialization in major cities, where pollution emissions from transportation and manufacturers are more pronounced, the diverse socio-economic differences between rural and urban areas can lead to these inequalities. 
+  The study revealed that, based on spatial dependency with predictor variables, the variation of LBW and PTB is significant. Similar to previous studies, spatial autocorrelation of LBW confirms the spatial heterogeneity in India (Banerjee  et al. ,  Reference Banerjee, Singh and Chaurasia 2020 ). Overall, it was depicted that different explanatory variables of LBW and PTB (district level ag. of PM2.5, visit of antenatal care, poorest wealth quintile, no education of mother, and rural residence) play a significant role in the entire India. This indicates that existing variability of LBW and PTB across India could be due to unequal availability and affordability of healthcare services, cultural practices, socio-economic disparities, geographical barriers, and lack of awareness among mothers in the time of their gestation period. Furthermore, the earlier studies predicted R2 map depicts that associated with exposure to PM 2.5  the potential area of LBW and PTB is also concentrated in places where the exposure level of PM 2.5  is higher (Jat and Gurjar,  Reference Jat and Gurjar 2021 ; Jana  et al. , Reference Jana, Pramanik, Maiti, Chattopadhyay and Abed Al Ahad 2024 ). 
+  However, the present study estimated the analysis based on octile categorization and individual’s different gestation periods. Therefore, the disparities between these findings and this analysis are attributable to the differences in the study design and methodology (Goyal and Canning,  Reference Goyal and Canning 2021 ). However, not all studies have found a consistent relationship between LBW, PTB, and maternal exposure to PM 2.5 . Multiple studies (Bonzini  et al. ,  Reference Bonzini, Carugno, Grillo, Mensi, Bertazzi and Pesatori 2010 ; Ghering  et al. ,  Reference Gehring, Wijga, Fischer, de Jongste, Kerkhof, Koppelman and Brunekreef 2011 ; Fleischer  et al. ,  Reference Fleischer, Merialdi, van Donkelaar, Vadillo-Ortega, Martin, Betran and Souza 2014 ; Jacobs  et al. ,  Reference Jacobs, Zhang, Chen, Mullins, Bell, Jin and Pereira 2017 ) have found no statistically significant relationship. Aligning with prior studies, several factors could contribute to the unpredictable findings in different studies on the association between PM 2.5  exposure and maternal outcomes (Ho  et al. ,  Reference Ho, Van Dang, Pham, Hien and Wangwongwatana 2023 ). The utilization of suitable models and exposure assessment approaches is of utmost importance (Fleischer  et al. ,  Reference Fleischer, Merialdi, van Donkelaar, Vadillo-Ortega, Martin, Betran and Souza 2014 ; Xiao  et al. ,  Reference Xiao, Chen, Strickland, Kan, Chang, Klein and Liu 2018 ). Furthermore, when particulate matter was chosen as a risk factor, various geographical areas with unique co-pollutants (PM 10 , PM 2.5 , NO 2 , and O 3 ) have exhibited varied results, particularly in LMICs with higher levels of air pollution (Bchwenkizi  et al. ,  Reference Bachwenkizi, Liu, Meng, Zhang, Wang, van Donkelaar and Kan 2021 ). Therefore, more extensive research is required to elucidate these conflicting results, and mechanistic investigations are necessary to substantiate the present findings, particularly in LMICs that face significant air pollution levels (Bchwenkizi  et al. ,  Reference Bachwenkizi, Liu, Meng, Zhang, Wang, van Donkelaar and Kan 2021 ). 
+ 
+ 
+  Strengths and limitations of the study 
+  The study comprehensively evaluates the association of PM 2.5  with LBW and PTB in India. It is the first of its kind to involve spatially connecting the NFHS-5 reported data with monthly PM 2.5  data to estimate the individual-level in-utero exposures in different gestation periods after controlling several confounding variables in India. Additionally, as ground monitoring stations were insufficient, satellite-derived PM 2.5  data were employed to provide spatial coverage of India. This allows us to determine the way PM 2.5  is connected with LBW and PTB at the individual level. Moreover, the calculation of PM 2.5  exposures depends on each individual’s gestation period, depending on the information provided in the NFHS-5 regarding the duration of their pregnancy. According to earlier research, the average gestation time for all mothers was predicted to be 9 months (Goyal and Canning,  Reference Goyal and Canning 2021 ; Goyal and Canning,  Reference Goyal and Canning 2017 ). Therefore, our method for estimating exposure is more refined than earlier studies. 
+  Despite the uniqueness and strengths of this study, it has certain limitations. The existing exposure model was limited to considering PM 2.5  as a pollutant, was unable to account for other types of pollutants, and did not adjust the spatial noise of DHS location with PM 2.5  data. Further data on the duration of pregnancy and birth weight were obtained using report cards and the mothers’ recalling basis, although, in NFHS datasets, there was no other available method to verify the accuracy of reported data. It might, therefore, be subject to recall information bias. Moreover, the trimester-wise exposure model was not applicable since the gestation time of each mother differed. On the other hand, average exposures from conception to the date of birth were the only ones that could be utilised for the actual duration of pregnancy. At last, individual’s information with a missing value of PM 2.5  indicates that this research has a measurement error. 
+ 
+ 
+  Conclusion 
+  The purpose of this study was to estimate the relationship between ambient PM 2.5  and maternal exposure. The study’s findings indicate that children aged under 5 had a significantly higher likelihood of experiencing LBW and PTB when exposed to higher levels of fine particulate matter (PM 2.5 ) during pregnancy. These findings demonstrate the crucial significance of prenatal and early-life exposure to air pollution for a child’s overall growth and health. This study will contribute to significant policy reforms pertaining to the reduction of air pollution in India. The findings of the study will encourage the extension of ground-based air monitoring throughout the nation. Additional research is required to verify these results by examining various pollutants or contaminants. Furthermore, conducting longitudinal studies to investigate the potential mechanism mediating the association between ambient air pollution and maternal exposure will add clarity to understanding the relationship among the above-mentioned constructs. 
+ 
+ 
+ 
+ 
+  Supplementary material 
+  The supplementary material for this article can be found at  https://doi.org/10.1017/S0021932025100370 
+ 
+ 
+ 
+  Data availability statement 
+  Not Available. 
+ 
+ 
+  Financial support 
+  The authors declare that no funds, grants, or other support were received during the preparation of this manuscript. 
+ 
+ 
+  Competing interests 
+  The authors declare no competing interests. 
+ 
+ 
+  Ethical standard 
+  Not applicable. 
+ 
+ 
+  Consent to participate 
+  Not applicable. 
+ 
+ 
+  Consent to publish 
+  All authors have given consent for publication. 
+ 
+ 
+ References Adhikary ,  M ,  Mal ,  P  and  Saikia ,  N  ( 2024 )  Exploring the link between particulate matter pollution and acute respiratory infection risk in children using generalized estimating equations analysis: a robust statistical approach .  Environmental Health   23 ( 1 ),  12 . CrossRef Google Scholar PubMed Alexander ,  GR  and  Kotelchuck ,  M  ( 1996 )  Quantifying the adequacy of prenatal care: a comparison of indices .  Public Health Reports   111 ( 5 ),  408 . Google Scholar PubMed Anselin ,  L  ( 1995 )  Local indicators of spatial association—LISA .  Geographical Analysis   27 ( 2 ),  93 – 115 . CrossRef Google Scholar Bachwenkizi ,  J ,  Liu ,  C ,  Meng ,  X ,  Zhang ,  L ,  Wang ,  W ,  van Donkelaar ,  A ,  Martin ,  RV ,  Hammer ,  MS ,  Chen ,  R  and  Kan ,  H  ( 2022 )  Maternal exposure to fine particulate matter and preterm birth and low birth weight in Africa .  Environment International   160 ,  107053 . CrossRef Google Scholar PubMed Bachwenkizi ,  J ,  Liu ,  C ,  Meng ,  X ,  Zhang ,  L ,  Wang ,  W ,  van Donkelaar ,  A , … and  Kan ,  H  ( 2021 )  Fine particulate matter constituents and infant mortality in Africa: a multicountry study .  Environment International   156 ,  106739 . CrossRef Google Scholar Balakrishnan ,  K ,  Dey ,  S ,  Gupta ,  T ,  Dhaliwal ,  RS ,  Brauer ,  M ,  Cohen ,  AJ , … and  Dandona ,  L  ( 2019 )  The impact of air pollution on deaths, disease burden, and life expectancy across the states of India: The Global Burden of Disease Study 2017 .  The Lancet Planetary Health   3 ( 1 ),  e26 – e39 . CrossRef Google Scholar Balakrishnan ,  K ,  Ghosh ,  S ,  Thangavel ,  G ,  Sambandam ,  S ,  Mukhopadhyay ,  K ,  Puttaswamy ,  N , … and  Thanasekaraan ,  V  ( 2018 )  Exposures to fine particulate matter (PM2.5) and birthweight in a rural-urban, mother-child cohort in Tamil Nadu, India .  Environmental Research   161 ,  524 – 531 . CrossRef Google Scholar Balietti ,  ANCA  and  Datta ,  SOUVIK  ( 2017 )  The Impact of Indoor Solid Fuel Use on the Stunting of Indian Children .  Cambridge, MA :  Center for International Development, Harvard Kennedy School of Government . Google Scholar Balietti ,  A ,  Datta ,  S  and  Veljanoska ,  S  ( 2022 )  Air pollution and child development in India .  Journal of Environmental Economics and Management   113 ,  102624 . CrossRef Google Scholar Banerjee ,  A ,  Singh ,  AK  and  Chaurasia ,  H  ( 2020 )  An exploratory spatial analysis of low birth weight and its determinants in India .  Clinical Epidemiology and Global Health   8 ( 3 ),  702 – 711 . CrossRef Google Scholar Bhaskar ,  RK ,  Deo ,  KK ,  Neupane ,  U ,  Chaudhary Bhaskar ,  S ,  Yadav ,  BK ,  Pokharel ,  HP  and  Pokharel ,  PK  ( 2015 )  A case control study on risk factors associated with low birth weight babies in Eastern Nepal .  International Journal of Pediatrics   2015 ,  807373 . CrossRef Google Scholar PubMed Bonzini ,  M ,  Carugno ,  M ,  Grillo ,  P ,  Mensi ,  C ,  Bertazzi ,  PA  and  Pesatori ,  AC  ( 2010 )  Impact of ambient air pollution on birth outcomes: systematic review of the current evidences .  La Medicina del Lavoro   101 ( 5 ),  341 – 363 . Google Scholar PubMed Borkowski ,  W  and  Mielniczuk ,  H  ( 2008 )  The influence of social and health factors including pregnancy weight gain rate and pre-pregnancy body mass on low birth weight of the infant] .  Ginekologia Polska   79 ( 6 ),  415 – 421 . Google Scholar PubMed Brauer ,  M ,  Freedman ,  G ,  Frostad ,  J ,  Van Donkelaar ,  A ,  Martin ,  RV ,  Dentener ,  F , … and  Cohen ,  A  ( 2016 )  Ambient air pollution exposure estimation for the global burden of disease 2013 .  Environmental Science & Technology   50 ( 1 ),  79 – 88 . CrossRef Google Scholar PubMed Bukowski ,  R ,  Smith ,  GC ,  Malone ,  FD ,  Ball ,  RH ,  Nyberg ,  DA ,  Comstock ,  CH , … and  D’Alton ,  ME  ( 2007 )  Fetal growth in early pregnancy and risk of delivering low birth weight infant: prospective cohort study .  BMJ   334 ( 7598 ),  836 . CrossRef Google Scholar PubMed Burnett ,  R ,  Chen ,  H ,  Szyszkowicz ,  M ,  Fann ,  N ,  Hubbell ,  B ,  Pope ,  CA , … and  Spadaro ,  JV  ( 2018 )  Global estimates of mortality associated with long-term exposure to outdoor fine particulate matter .  Proceedings of the National Academy of Sciences of the United States of America   115 ( 38 ),  9592 – 9597 . CrossRef Google Scholar PubMed Carter ,  JD ,  Mulder ,  RT ,  Frampton ,  CM  and  Darlow ,  BA  ( 2007 )  Infants admitted to a neonatal intensive care unit: parental psychological status at 9 months .  Acta Paediatrica   96 ( 9 ),  1286 – 1289 . CrossRef Google Scholar PubMed Chan ,  BCP  and  Lao ,  TTH  ( 2009 )  The impact of maternal height on intrapartum operative delivery: a reappraisal .  Journal of Obstetrics and Gynaecology Research   35 ( 2 ),  307 – 314 . CrossRef Google Scholar PubMed Chen ,  Y  ( 2021 )  An analytical process of spatial autocorrelation functions based on Moran’s index .  PLoS One   16 ( 4 ),  e0249589 . CrossRef Google Scholar PubMed Chowdhury ,  S ,  Pozzer ,  A ,  Dey ,  S ,  Klingmueller ,  K  and  Lelieveld ,  J  ( 2020 )  Changing risk factors that contribute to premature mortality from ambient air pollution between 2000 and 2015 .  Environmental Research Letters   15 ( 7 ),  074010 . CrossRef Google Scholar CPCB ,  F  ( 2010 )  Air Quality Monitoring, Emission Inventory and Source Apportionment Study for Indian Cities .  Delhi :  Central Pollution Control Board . Google Scholar CPCB ,  F  ( 2022 )  Air Quality Monitoring, Emission Inventory and Source Apportionment Study for Indian Cities .  Delhi :  Central Pollution Control Board . Google Scholar Darmstadt ,  GL ,  Al Jaifi ,  NH ,  Arif ,  S ,  Bahl ,  R ,  Blennow ,  M ,  Cavallera ,  V , … and  Yunis ,  K  ( 2023 )  New World Health Organization recommendations for care of preterm or low birth weight infants: health policy .  EClinicalMedicine   63 ,  102155 . CrossRef Google Scholar Desouza ,  PN ,  Hammer ,  M ,  Anthamatten ,  P ,  Kinney ,  PL ,  Kim ,  R ,  Subramanian ,  SV , … and  Mwenda ,  KM  ( 2022 )  Impact of air pollution on stunting among children in Africa .  Environmental Health   21 ( 1 ),  128 . CrossRef Google Scholar PubMed Dey ,  S ,  Purohit ,  B ,  Balyan ,  P ,  Dixit ,  K ,  Bali ,  K ,  Kumar ,  A , … and  Shukla ,  VK  ( 2020 )  A satellite-based high-resolution (1-km) ambient PM2. 5 databases for India over two decades (2000–2019): applications for air quality management .  Remote Sensing   12 ( 23 ),  3872 . CrossRef Google Scholar Di Renzo ,  GC ,  Conry ,  JA ,  Blake ,  J ,  DeFrancesco ,  MS ,  DeNicola ,  N ,  Martin ,  JN   Jr. ,  et al.  ( 2015 )  International federation of gynecology and obstetrics opinion on reproductive health impacts of exposure to toxic environmental chemicals .  International Journal of Gynecology & Obstetrics   131 ( 3 ),  219 – 225 . CrossRef Google Scholar PubMed Dimitrova ,  A ,  Marois ,  G ,  Kiesewetter ,  G ,  Rafaj ,  P ,  Pachauri ,  S ,  Samir ,  KC , … and  Tonne ,  C  ( 2022 )  Projecting the impact of air pollution on child stunting in India—synergies and trade-offs between climate change mitigation, ambient air quality control, and clean cooking access .  Environmental Research Letters   17 ( 10 ),  104004 . CrossRef Google Scholar Fall ,  CH ,  Sachdev ,  HS ,  Osmond ,  C ,  Restrepo-Mendez ,  MC ,  Victora ,  C ,  Martorell ,  R , … and  Richter ,  LM  ( 2015 )  Association between maternal age at childbirth and child and adult outcomes in the offspring: a prospective study in five low-income and middle-income countries (COHORTS collaboration) .  The Lancet Global Health   3 ( 7 ),  e366 – e377 . CrossRef Google Scholar PubMed Fleischer ,  NL ,  Merialdi ,  M ,  van Donkelaar ,  A ,  Vadillo-Ortega ,  F ,  Martin ,  RV ,  Betran ,  AP  and  Souza ,  JP  ( 2014 )  Outdoor air pollution, preterm birth, and low birth weight: analysis of the world health organization global survey on maternal and perinatal health .  Environmental Health Perspectives   122 ( 4 ),  425 – 430 . CrossRef Google Scholar PubMed Gehring ,  U ,  Wijga ,  AH ,  Fischer ,  P ,  de Jongste ,  JC ,  Kerkhof ,  M ,  Koppelman ,  GH , … and  Brunekreef ,  B  ( 2011 )  Traffic-related air pollution, preterm birth and term birth weight in the PIAMA birth cohort study .  Environmental Research   111 ( 1 ),  125 – 135 . CrossRef Google Scholar PubMed George ,  PE ,  Thakkar ,  N ,  Yasobant ,  S ,  Saxena ,  D  and  Shah ,  J  ( 2024 )  Impact of ambient air pollution and socio-environmental factors on the health of children younger than 5 years in India: a population-based analysis .  The Lancet Regional Health-Southeast Asia   20 ,  100328 . CrossRef Google Scholar PubMed Ghosh ,  R ,  Causey ,  K ,  Burkart ,  K ,  Wozniak ,  S ,  Cohen ,  A  and  Brauer ,  M  ( 2021 )  Ambient and household PM2.5 pollution and adverse perinatal outcomes: a meta-regression and analysis of attributable global burden for 204 countries and territories .  PLoS Medicine   18 ( 9 ),  e1003718 . CrossRef Google Scholar Gordon ,  T ,  Balakrishnan ,  K ,  Dey ,  S ,  Rajagopalan ,  S ,  Thornburg ,  J ,  Thurston ,  G , … and  Nadadur ,  S  ( 2018 )  Air pollution health research priorities for India: perspectives of the Indo-US Communities of Researchers .  Environment International   119 ,  100 . CrossRef Google Scholar Goyal ,  N  and  Canning ,  D  ( 2017 )  Exposure to ambient fine particulate air pollution in utero as a risk factor for child stunting in Bangladesh .  International Journal of Environmental Research and Public Health   15 ( 1 ),  22 . CrossRef Google Scholar PubMed Goyal ,  N  and  Canning ,  D  ( 2021 )  The association of in-utero exposure to ambient fine particulate air pollution with low birth weight in India .  Environmental Research Letters   16 ( 5 ),  054034 . CrossRef Google Scholar Gudayu ,  TW  ( 2022 )  Determinants of place birth: a multinomial logistic regression and spatial analysis of the Ethiopian mini demographic and health survey data, 2019 .  BMC Pregnancy and Childbirth   22 ( 1 ),  553 . CrossRef Google Scholar PubMed Han ,  Z ,  Lutsiv ,  O ,  Mulla ,  S ,  McDonald ,  SD  and  Knowledge Synthesis Group  ( 2012 )  Maternal height and the risk of preterm birth and low birth weight: a systematic review and meta-analyses .  Journal of Obstetrics and Gynaecology Canada   34 ( 8 ),  721 – 746 . CrossRef Google Scholar PubMed He ,  Y ,  Jiang ,  Y ,  Yang ,  Y ,  Xu ,  J ,  Zhang ,  Y ,  Wang ,  Q , … and  Ma ,  X  ( 2022 )  Composition of fine particulate matter and risk of preterm birth: a nationwide birth cohort study in 336 Chinese cities .  Journal of Hazardous Materials   425 ,  127645 . CrossRef Google Scholar PubMed Ho ,  TH ,  Van Dang ,  C ,  Pham ,  TTB ,  Hien ,  TT  and  Wangwongwatana ,  S  ( 2023 )  Ambient particulate matter (PM2.5) and adverse birth outcomes in Ho Chi Minh City, Vietnam .  Hygiene and Environmental Health Advances   5 ,  100049 . CrossRef Google Scholar Huang ,  S ,  Lin ,  D ,  Huang ,  Z ,  Yang ,  L ,  Ding ,  X  and  Chen ,  Q  ( 2020 )  Acute effects of exposure to ambient air pollutants on preterm birth in Xiamen City (2015–2018), China .  ACS Huomega   5 ( 13 ),  7462 – 7467 . Google Scholar PubMed IHME  ( 2021 ) GBD Compare.  https://vizhub.healthdata.org/gbd-compare/  (accessed 15 April, 2024). Google Scholar IIPS ,  ICF  ( 2021 )  National Family Health Survey (NFHS-5): 2019–21 India .  Mumbai :  International Institute for Population Sciences (IIPS) . Google Scholar Jacobs ,  M ,  Zhang ,  G ,  Chen ,  S ,  Mullins ,  B ,  Bell ,  M ,  Jin ,  L , … and  Pereira ,  G  ( 2017 )  The association between ambient air pollution and selected adverse pregnancy outcomes in China: a systematic review .  Science of the Total Environment   579 ,  1179 – 1192 . CrossRef Google Scholar Jana ,  A  ( 2023 )  Correlates of low birth weight and preterm birth in India .  PLoS One   18 ( 8 ),  e0287919 . CrossRef Google Scholar PubMed Jana ,  A ,  Pramanik ,  M ,  Maiti ,  A ,  Chattopadhyay ,  A  and  Abed Al Ahad ,  M  ( 2024 ) In-utero exposure to PM2.5 and adverse birth outcomes in India: Geostatistical modelling using remote sensing and demographic health survey data 2019–21.  medRxiv , 2024-09. Google Scholar Jat ,  R  and  Gurjar ,  BR  ( 2021 )  Contribution of different source sectors and source regions of Indo-Gangetic Plain in India to PM2. 5 pollution and its short-term health impacts during peak polluted winter .  Atmospheric Pollution Research   12 ( 4 ),  89 – 100 . CrossRef Google Scholar Jeena ,  PM ,  Asharam ,  K ,  Mitku ,  AA ,  Naidoo ,  P  and  Naidoo ,  RN  ( 2020 )  Maternal demographic and antenatal factors, low birth weight and preterm birth: findings from the mother and child in the environment (MACE) birth cohort, Durban, South Africa .  BMC Pregnancy and Childbirth   20 ,  1 – 11 . CrossRef Google Scholar PubMed Kaur ,  R  and  Pandey ,  P  ( 2021 )  Air pollution, climate change, and human health in Indian cities: a brief review .  Frontiers in Sustainable Cities   3 ,  705131 . CrossRef Google Scholar Khanal ,  V ,  Zhao ,  Y  and  Sauer ,  K  ( 2014 )  Role of antenatal care and iron supplementation during pregnancy in preventing low birth weight in Nepal: comparison of national surveys 2006 and 2011 .  Archives of Public Health   72 ,  1 – 10 . CrossRef Google Scholar PubMed Kosciejew ,  M  ( 2020 )  Public libraries and the UN 2030 agenda for sustainable development .  IFLA Journal   46 ( 4 ),  328 – 346 . CrossRef Google Scholar Landrigan ,  PJ ,  Fuller ,  R ,  Acosta ,  NJ ,  Adeyi ,  O ,  Arnold ,  R ,  Baldé ,  AB , … and  Zhong ,  M  ( 2018 )  The lancet commission on pollution and health .  The Lancet   391 ( 10119 ),  462 – 512 . CrossRef Google Scholar PubMed Laurent ,  O ,  Hu ,  J ,  Li ,  L ,  Cockburn ,  M ,  Escobedo ,  L ,  Kleeman ,  MJ  and  Wu ,  J  ( 2014 )  Sources and contents of air pollution affecting term low birth weight in Los Angeles County, California, 2001–2008 .  Environmental Research   134 ,  488 – 495 . CrossRef Google Scholar PubMed Lee ,  PC ,  Talbott ,  EO ,  Roberts ,  JM ,  Catov ,  JM ,  Sharma ,  RK  and  Ritz ,  B  ( 2011 )  Particulate air pollution exposure and C-reactive protein during early pregnancy .  Epidemiology   22 ( 4 ),  524 – 531 . CrossRef Google Scholar PubMed Li ,  X ,  Huang ,  S ,  Jiao ,  A ,  Yang ,  X ,  Yun ,  J ,  Wang ,  Y , … and  Xiang ,  H  ( 2017 )  Association between ambient fine particulate matter and preterm birth or term low birth weight: an updated systematic review and meta-analysis .  Environmental Pollution   227 ,  596 – 605 . CrossRef Google Scholar PubMed Liu ,  S ,  Krewski ,  D ,  Shi ,  Y ,  Chen ,  Y  and  Burnett ,  RT  ( 2003 )  Association between gaseous ambient air pollutants and adverse pregnancy outcomes in Vancouver, Canada .  Environmental Health Perspectives   111 ( 14 ),  1773 – 1778 . CrossRef Google Scholar PubMed Liu ,  Y ,  Xu ,  J ,  Chen ,  D ,  Sun ,  P  and  Ma ,  X  ( 2019 )  The association between air pollution and preterm birth and low birth weight in Guangdong, China .  BMC Public Health   19 ,  1 – 10 . CrossRef Google Scholar PubMed Marete ,  I ,  Ekhaguere ,  O ,  Bann ,  CM ,  Bucher ,  SL ,  Nyongesa ,  P ,  Patel ,  AB , … and  Esamai ,  F  ( 2020 )  Regional trends in birth weight in low-and middle-income countries 2013–2018 .  Reproductive Health   17 ,  1 – 8 . CrossRef Google Scholar PubMed Mishra ,  V  and  Retherford ,  RD  ( 2007 )  Does biofuel smoke contribute to anaemia and stunting in early childhood? .  International Journal of Epidemiology   36 ( 1 ),  117 – 129 . CrossRef Google Scholar PubMed Mondal ,  D  and  Paul ,  P  ( 2020 )  Effects of indoor pollution on acute respiratory infections among under-five children in India: Evidence from a nationally representative population-based study .  PLoS One   15 ( 8 ),  e0237611 . CrossRef Google Scholar PubMed Murray ,  CJ ,  Aravkin ,  AY ,  Zheng ,  P ,  Abbafati ,  C ,  Abbas ,  KM ,  Abbasi-Kangevari ,  M  and  Borzouei ,  S  ( 2020 )  Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019 .  The Lancet   396 ( 10258 ),  1223 – 1249 . CrossRef Google Scholar Nazari ,  M ,  Zainiyah ,  SS ,  Lye ,  MS ,  Zalilah ,  MS  and  Heidarzadeh ,  M  ( 1995 )  Comparison of maternal characteristics in low birth weight and normal birth weight infants .  EMHJ   19 ( 9 ),  775 – 781 . Google Scholar Noresah ,  MS  and  Sanjay ,  G  ( 2020 )  Geographically weighted regression model: a potential approach for better management of urban growth .  European Proceedings of Social and Behavioural Sciences   81 ,  776 – 784 . CrossRef Google Scholar Norton ,  EC ,  Dowd ,  BE  and  Maciejewski ,  ML  ( 2019 )  Marginal effects—quantifying the effect of changes in risk factors in logistic regression models .  JAMA   321 ( 13 ),  1304 – 1305 . CrossRef Google Scholar PubMed OECD/WHO  ( 2020 )  Health at a Glance: Asia/Pacific 2020: Measuring Progress Towards Universal Health Coverage .  Paris :  OECD Publishing . Google Scholar Ohuma ,  EO ,  Moller ,  AB ,  Bradley ,  E ,  Chakwera ,  S ,  Hussain-Alkhateeb ,  L ,  Lewin ,  A , … and  Moran ,  AC  ( 2023 )  National, regional, and global estimates of preterm birth in 2020, with trends from 2010: a systematic analysis .  The Lancet   402 ( 10409 ),  1261 – 1271 . CrossRef Google Scholar PubMed Okwaraji ,  YB ,  Krasevec ,  J ,  Bradley ,  E ,  Conkle ,  J ,  Stevens ,  GA ,  Gatica-Domínguez ,  G , … and  Hayashi ,  C  ( 2024 )  National, regional, and global estimates of low birthweight in 2020, with trends from 2000: a systematic analysis .  The Lancet   403 ( 10431 ),  1071 – 1080 . CrossRef Google Scholar PubMed Onukwugha ,  E ,  Bergtold ,  J  and  Jain ,  R  ( 2015 )  A primer on marginal effects—Part I: theory and formulae .  Pharmacoeconomics   33 ,  25 – 30 . CrossRef Google Scholar PubMed Pant ,  P ,  Shukla ,  A ,  Kohl ,  SD ,  Chow ,  JC ,  Watson ,  JG  and  Harrison ,  RM  ( 2015 )  Characterization of ambient PM2. 5 at a pollution hotspot in New Delhi, India and inference of sources .  Atmospheric Environment   109 ,  178 – 189 . CrossRef Google Scholar Pedersen ,  M ,  Giorgis-Allemand ,  L ,  Bernard ,  C ,  Aguilera ,  I ,  Andersen ,  AMN ,  Ballester ,  F , … and  Slama ,  R  ( 2013 )  Ambient air pollution and low birthweight: a European cohort study (ESCAPE) .  The Lancet Respiratory Medicine   1 ( 9 ),  695 – 704 . CrossRef Google Scholar PubMed Peelen ,  MJ ,  Kazemier ,  BM ,  Ravelli ,  AC ,  De Groot ,  CJ ,  Van Der Post ,  JA ,  Mol ,  BW , … and  Kok ,  M  ( 2016 )  Impact of fetal gender on the risk of preterm birth, a national cohort study .  Acta Obstetricia et Gynecologica Scandinavica   95 ( 9 ),  1034 – 1041 . CrossRef Google Scholar PubMed Pereira ,  G ,  Belanger ,  K ,  Ebisu ,  K  and  Bell ,  ML  ( 2014 )  Fine particulate matter and risk of preterm birth in Connecticut in 2000–2006: a longitudinal study .  American Journal of Epidemiology   179 ( 1 ),  67 – 74 . CrossRef Google Scholar PubMed Pervin ,  J ,  Rahman ,  SM ,  Rahman ,  M ,  Aktar ,  S  and  Rahman ,  A  ( 2020 )  Association between antenatal care visit and preterm birth: a cohort study in rural Bangladesh .  BMJ Open   10 ( 7 ),  e036699 . CrossRef Google Scholar PubMed Petrou ,  S ,  Sach ,  T  and  Davidson ,  L  ( 2001 )  The long-term costs of preterm birth and low birth weight: results of a systematic review .  Child: Care, Health and Development   27 ( 2 ),  97 – 115 . CrossRef Google Scholar PubMed Pusdekar ,  YV ,  Patel ,  AB ,  Kurhe ,  KG ,  Bhargav ,  SR ,  Thorsten ,  V ,  Garces ,  A , … and  Hibberd ,  PL  ( 2020 )  Rates and risk factors for preterm birth and low birthweight in the global network sites in six low-and low middle-income countries .  Reproductive Health   17 ,  1 – 16 . CrossRef Google Scholar Ravishankara ,  AR ,  David ,  LM ,  Pierce ,  JR  and  Venkataraman ,  C  ( 2020 )  Outdoor air pollution in India is not only an urban problem .  Proceedings of the National Academy of Sciences   117 ( 46 ),  28640 – 28644 . CrossRef Google Scholar Rodriguez ,  G  ( 2016 ) A note on interpreting multinomial logit coefficients. Generalized Linear Models. Princeton University, Princeton, NJ, USA. Available at:  https://data.princeton.edu/wws509/stata/mlogit . Google Scholar Roy ,  S  and  Singha ,  N  ( 2021 )  Reduction in concentration of PM2. 5 in India’s top most polluted cities: with special reference to post-lockdown period .  Air Quality, Atmosphere & Health   14 ( 5 ),  715 – 723 . CrossRef Google Scholar Sarizadeh ,  R ,  Dastoorpoor ,  M ,  Goudarzi ,  G  and  Simbar ,  M  ( 2020 )  The association between air pollution and low birth weight and preterm labor in Ahvaz, Iran .  International Journal of Women’s Health   12 ,  313 – 325 . CrossRef Google Scholar PubMed Sarnat ,  JA ,  Brown ,  KW ,  Schwartz ,  J ,  Coull ,  BA  and  Koutrakis ,  P  ( 2005 )  Ambient gas concentrations and personal particulate matter exposures: implications for studying the health effects of particles .  Epidemiology   16 ( 3 ),  385 – 395 . CrossRef Google Scholar PubMed Shaddick ,  G ,  Thomas ,  ML ,  Mudu ,  P ,  Ruggeri ,  G  and  Gumy ,  S  ( 2020 )  Half the world’s population are exposed to increasing air pollution .  NPJ Climate and Atmospheric Science   3 ( 1 ),  23 . CrossRef Google Scholar Sinharoy ,  SS ,  Clasen ,  T  and  Martorell ,  R  ( 2020 )  Air pollution and stunting: a missing link? .  The Lancet Global Health   8 ( 4 ),  e472 – e475 . CrossRef Google Scholar PubMed Slama ,  R ,  Darrow ,  L ,  Parker ,  J ,  Woodruff ,  TJ ,  Strickland ,  M ,  Nieuwenhuijsen ,  M , … and  Ritz ,  B  ( 2008 )  Meeting report: atmospheric pollution and human reproduction .  Environmental Health Perspectives   116 ( 6 ),  791 – 798 . CrossRef Google Scholar PubMed Slater ,  J ,  Han ,  JYC ,  Adelina ,  C ,  Nikam ,  J ,  Archer ,  D ,  Nguyen ,  H  and  Kim ,  D  ( 2022 )  Air Pollution and the World of Work .  Stockholm :  Stockholm Environment Institute . Google Scholar Spears ,  D ,  Dey ,  S ,  Chowdhury ,  S ,  Scovronick ,  N ,  Vyas ,  S  and  Apte ,  J  ( 2019 )  The association of early-life exposure to ambient PM 2.5 and later-childhood height-for-age in India: An observational study .  Environmental Health   18 ,  1 – 10 . CrossRef Google Scholar Srivastava ,  S ,  Kumar ,  A ,  Bauddh ,  K ,  Gautam ,  AS  and  Kumar ,  S  ( 2020 )  21-day lockdown in India dramatically reduced air pollution indices in Lucknow and New Delhi, India .  Bulletin of Environmental Contamination and Toxicology   105 ,  9 – 17 . CrossRef Google Scholar PubMed Tebeje ,  TM ,  Gelaye ,  KA ,  Chekol ,  YM ,  Tesfie ,  TK ,  Gelaw ,  NB ,  Mare ,  KU  and  Seifu ,  BL  ( 2024 )  Geographically weighted regression analysis to assess hotspots of early sexual initiation and associated factors in Ethiopia .  Heliyon   10 ( 9 ),  e30535 . CrossRef Google Scholar PubMed Van den Hooven ,  EH ,  de Kluizenaar ,  Y ,  Pierik ,  FH ,  Hofman ,  A ,  van Ratingen ,  SW ,  Zandveld ,  PY , … and  Jaddoe ,  VW  ( 2012 )  Chronic air pollution exposure during pregnancy and maternal and fetal C-reactive protein levels: the Generation R Study .  Environmental Health Perspectives   120 ( 5 ),  746 – 751 . CrossRef Google Scholar PubMed Van Donkelaar ,  A ,  Martin ,  RV ,  Brauer ,  M ,  Hsu ,  NC ,  Kahn ,  RA ,  Levy ,  RC , … and  Winker ,  DM  ( 2016 )  Global estimates of fine particulate matter using a combined geophysical-statistical method with information from satellites, models, and monitors .  Environmental Science & Technology   50 ( 7 ),  3762 – 3772 . CrossRef Google Scholar PubMed Walani ,  SR  ( 2020 )  Global burden of preterm birth .  International Journal of Gynecology & Obstetrics   150 ( 1 ),  31 – 33 . CrossRef Google Scholar PubMed WHO Ambient Air Quality Database  ( 2024 )  Version 6.1 .  Geneva :  World Health Organization . Google Scholar WHO  ( 2018 )  Air Pollution and Child Health: Prescribing Clean Air: Summary .  Geneva :  WHO . Google Scholar World Health Organization  ( 2019 )  Ambient Air Pollution: Training for Health Care Providers (No. WHO/CED/PHE/EPE/19.12. 14) .  Geneva :  WHO . Google Scholar Xiao ,  Q ,  Chen ,  H ,  Strickland ,  MJ ,  Kan ,  H ,  Chang ,  HH ,  Klein ,  M , … and  Liu ,  Y  ( 2018 )  Associations between birth outcomes and maternal PM2. 5 exposures in Shanghai: a comparison of three exposure assessment approaches .  Environment International   117 ,  226 – 236 . CrossRef Google Scholar Zimmermann ,  E ,  Gamborg ,  M ,  Sørensen ,  TI  and  Baker ,  JL  ( 2015 )  Sex differences in the association between birth weight and adult type 2 diabetes .  Diabetes   64 ( 12 ),  4220 – 4225 . CrossRef Google Scholar PubMed View in content Figure 1. Flow chart of selected variables. View in content Table 1. Distribution of exposure level and descriptive statistics of study sample by health outcomes in India, NFHS-2021 View in content Table 2. Multivariate regression results showing the association between PM 2.5  with LBW and PTB among under-5 children ( n  = 208,181), NFHS-2021 View in content Figure 2. Marginal effect analysis of low birth weight by octile of gestational exposure to PM 2.5 . View in content Figure 3. Marginal effect analysis of preterm birth by octile of gestational exposure to PM 2.5 . View in content Figure 4. Spatial autocorrelation of low birth weight among under-5 children in India, NFHS-5. View in content Figure 5. Spatial autocorrelation of preterm birth among under-5 children in India, NFHS-5. View in content Table 3. Model comparison between Ordinary least square regression and geographically weighted regression in India, NFHS-2021 View in content Figure 6. GWR coefficient of (a) district level ag. of PM 2.5 , (b) visit of antenatal care, (c) poorest wealth quintile, (d) mothers with no education, (e) rural residence for LBW, and (f) predicted LBW in India. View in content Figure 7. GWR coefficient of (a) district level ag. of PM 2.5 , (b) visit of antenatal care, (c) poorest wealth quintile, (d) mothers with no education, (e) rural residence for PTB, and (f) predicted PTB in India. Bera et al. supplementary material Bera et al. supplementary material File 29.8 KB You have  Access  Open access 1 Cited by Advertisement Cited by Loading... 
+ 
+ 
+ 
+ Cited by 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Crossref Citations 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                        This article has been cited by the following publications. This list is generated based on data provided by 
+     Crossref . 
+ 
+ 
+ 
+ 
+ 
+                                
+                                    
+                                    Zhou, Shuang
+                                    
+                                    Yuan, Xin
+                                    
+                                    Li, Tiantian
+                                    
+                                    Han, Na
+                                    
+                                    Lyu, Jinlang
+                                    
+                                    Yan, Shiyu
+                                    
+                                    Li, Qin
+                                    
+                                    Hu, Jianlin
+                                    
+                                    Liu, Ting
+                                    
+                                    Ji, Yuelong
+                                    
+                                    Wang, Hui
+                                    
+                                    Liu, Jue
+                                    
+                                    Wang, Hai-Jun
+                                     and 
+                                    Guo, Yuming
+                                  2026.
+                                   Prenatal exposure to PM2.5 constituents and weight growth trajectory from in utero to three years: a birth cohort study .
+                                  
+                                  
+                                  Journal of Hazardous Materials Advances, 
+                                  Vol. 23, 
+                                  Issue. , 
+                                
+                                    p. 
+                                    101332.
+                                
+                                 
+ 
+ CrossRef 
+ Google Scholar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Google Scholar Citations 
+ View all  Google Scholar citations 
+                    for this article.
+                   
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ × 
+ 
+ 
+ 
+ Our Site Accessibility Contact & Help Legal Notices Cookie Settings Cancel your order Quick Links Cambridge Core Cambridge Open Engage Cambridge Aspire website Our Products Journals Books Elements Textbooks Courseware Join us online Location  Please choose a valid location.  Update Legal Information Rights & Permissions Copyright Privacy Notice Terms of Use Cookies Policy  Cambridge University Press 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cancel 
+ Confirm 
+ 
+ 
+ × 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Save article to Kindle 
+ 
+ 
+ 
+ 
+ To send this article to your Kindle, first ensure no-reply@cambridge.org is added to your Approved Personal Document E-mail List under your Personal Document Settings on the Manage Your Content and Devices page of your Amazon account. Then enter the ‘name’ part of your Kindle email address below. Find out more about sending to your Kindle.
+               Find out more about saving to your Kindle .
+             
+ 
+              Note you can select to save to either the @free.kindle.com or @kindle.com variations. ‘@free.kindle.com’ emails are free but can only be saved to your device when it is connected to wi-fi. ‘@kindle.com’ emails can be delivered even when you are not connected to wi-fi, but note that service fees apply.
+             
+ 
+              Find out more about the  Kindle Personal Document Service. 
+ 
+ 
+ 
+ 
+ 
+ Beyond household and individual factors: examining the association between ambient air pollution and birth outcomes in India 
+ 
+ 
+ 
+ 
+ 
+ Volume 57,  Issue 4 
+ 
+ Tapas Bera   (a1) ,  Nihar Ranjan Rout   (a2)  and  Jalandhar Pradhan   (a1) 
+ 
+ DOI:  https://doi.org/10.1017/S0021932025100370 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Your Kindle email address 
+ 
+ 
+ 
+ 
+ Please provide your Kindle email. 
+ 
+ 
+ @free.kindle.com 
+ @kindle.com ( service fees apply ) 
+ 
+ 
+ 
+ 
+ 
+ 
+ Available formats 
+ 
+  PDF
+                     
+ Please select a format to save. 
+   
+ 
+ 
+ 
+ 
+ 
+                  By using this service, you agree that you will only keep content for personal use, and will not openly distribute them via Dropbox, Google Drive or other file sharing services
+                   Please confirm that you accept the terms of use. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cancel 
+ 
+ 
+ 
+                Save
+               
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ × 
+ 
+ 
+ 
+ Save article to Dropbox 
+ 
+ 
+ 
+ 
+ 
+              To save this article to your Dropbox account, please select one or more formats and confirm that you agree to abide by our usage policies. If this is the first time you used this feature, you will be asked to authorise Cambridge Core to connect with your Dropbox account.
+               Find out more about saving content to Dropbox .
+             
+ 
+ 
+ 
+ Beyond household and individual factors: examining the association between ambient air pollution and birth outcomes in India 
+ 
+ 
+ 
+ 
+ 
+ Volume 57,  Issue 4 
+ 
+ Tapas Bera   (a1) ,  Nihar Ranjan Rout   (a2)  and  Jalandhar Pradhan   (a1) 
+ 
+ DOI:  https://doi.org/10.1017/S0021932025100370 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Available formats 
+ 
+  PDF
+                     
+ Please select a format to save. 
+   
+ 
+ 
+ 
+ 
+ 
+                  By using this service, you agree that you will only keep content for personal use, and will not openly distribute them via Dropbox, Google Drive or other file sharing services
+                   Please confirm that you accept the terms of use. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cancel 
+ 
+ 
+ 
+                Save
+               
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ × 
+ 
+ 
+ 
+ Save article to Google Drive 
+ 
+ 
+ 
+ 
+ 
+              To save this article to your Google Drive account, please select one or more formats and confirm that you agree to abide by our usage policies. If this is the first time you used this feature, you will be asked to authorise Cambridge Core to connect with your Google Drive account.
+               Find out more about saving content to Google Drive .
+             
+ 
+ 
+ 
+ Beyond household and individual factors: examining the association between ambient air pollution and birth outcomes in India 
+ 
+ 
+ 
+ 
+ 
+ Volume 57,  Issue 4 
+ 
+ Tapas Bera   (a1) ,  Nihar Ranjan Rout   (a2)  and  Jalandhar Pradhan   (a1) 
+ 
+ DOI:  https://doi.org/10.1017/S0021932025100370 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Available formats 
+ 
+  PDF
+                     
+ Please select a format to save. 
+   
+ 
+ 
+ 
+ 
+ 
+                  By using this service, you agree that you will only keep content for personal use, and will not openly distribute them via Dropbox, Google Drive or other file sharing services
+                   Please confirm that you accept the terms of use. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cancel 
+ 
+ 
+ 
+                Save
+               
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ × 
+ 
+ 
+ × 
+ 
+ 
+ 
+ Reply to: 
+ 
+ Submit a response 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title *
+               
+ Please enter a title for your response. 
+ 
+ 
+ 
+ 
+ 
+ Contents * 
+ 
+ 
+ Contents help 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Close Contents help 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ - No HTML tags allowed - Web page URLs will display as text only - Lines and paragraphs break automatically - Attachments, images or tables are not permitted 
+ 
+ 
+ Please enter your response. 
+ 
+ 
+ 
+ 
+ 
+ Your details 
+ 
+ 
+ 
+ 
+ 
+ 
+ First name *
+                 
+ Please enter a valid first name. Only letters, spaces, hyphens, apostrophes, and periods are allowed. 
+ 
+ 
+ 
+ Last name *
+                 
+ Please enter a valid last name. Only letters, spaces, hyphens, apostrophes, and periods are allowed. 
+ 
+ 
+ 
+ Email * 
+ 
+ 
+ Email help 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Close Email help 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ Your email address will be used in order to notify you when your comment has been reviewed by the moderator and in case the author(s) of the article or the moderator need to contact you directly. 
+ 
+ 
+ Please enter a valid email address. 
+ 
+ 
+ 
+ 
+ Occupation
+                 
+ Please enter your occupation. 
+ 
+ 
+ 
+ Affiliation
+                 
+ Please enter any affiliation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ You have entered the maximum number of contributors 
+ 
+ 
+ 
+ Conflicting interests 
+ 
+ 
+ 
+ 
+ 
+            Do you have any conflicting interests? *
+             
+ Conflicting interests help 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Close Conflicting interests help 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ Please list any fees and grants from, employment by, consultancy for, shared ownership in or any close relationship with, at any time over the preceding 36 months, any organisation whose interests may be affected by the publication of the response. Please also list any non-financial associations or interests (personal, professional, political, institutional, religious or other) that a reasonable reader would want to know about in relation to the submitted work. This pertains to all the authors of the piece, their spouses or partners. 
+ 
+ 
+ 
+  Yes
+         
+ 
+  No
+         
+ 
+ 
+ More information *
+           
+ Please enter details of the conflict of interest or select 'No'. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Please tick the box to confirm you agree to our  Terms of use . * 
+ Please accept terms of use. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Please tick the box to confirm you agree that your name, comment and conflicts of interest (if accepted) will be visible on the website and your comment may be printed in the journal at the Editor’s discretion. * 
+ Please confirm you agree that your details will be displayed. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -130,6 +130,8 @@ if __name__ == "__main__":
     for sid, s in sources.items():
         texts[sid] = norm(fetch(s["url"]))
         print(sid, len(texts[sid]), flush=True)
+    rp = os.path.join(D, "passage-reviews.csv")
+    reviews = {r["claim_id"]: r for r in csv.DictReader(open(rp))} if os.path.exists(rp) else {}
     rows = []
     for c in claims:
         sids = [x for x in c["source_ids"].split(";") if x in sources]
@@ -147,11 +149,19 @@ if __name__ == "__main__":
             if ok: state = "passage_found"
             elif verif.get(c["claim_id"], {}).get("manual_verdict") == "supported": state = "needs_manual_review"
             else: state = "source_accessible_passage_not_found"
+        method = "automated window match (figures + wording)" if best else "no text retrieved automatically"
+        rev = reviews.get(c["claim_id"])
+        if state == "needs_manual_review" and rev:
+            pool = " ".join(texts.get(x, "") for x in sids)
+            if rev["decision"] == "located":
+                state, method = "passage_found", "manual review: reviewer located the passage (data/passage-reviews.csv)"
+            elif rev["decision"] == "partial" and all(has(f, pool) for f in figures(c["claim"])):
+                state, method = "passage_found", "manual review: main passage located; remaining figures found elsewhere in the same source"
         rows.append({"claim_id": c["claim_id"], "verification_state": state,
                      "source_id": best[5] if best else ";".join(sids),
                      "word_overlap": f"{best[1]:.2f}" if best else "", "figures_in_passage": f"{best[2]:.2f}" if best else "",
                      "locator_excerpt": excerpt(best[3], best[4]) if best and state == "passage_found" else "",
-                     "method": "automated window match (figures + wording)" if best else "no text retrieved automatically",
+                     "method": method,
                      "checked": CHECKED})
     with open(os.path.join(D, "claim-passages.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)

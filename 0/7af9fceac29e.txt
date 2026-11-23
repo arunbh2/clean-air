@@ -1,0 +1,515 @@
+India Fact Sheet
+After a record decline in 2022, particulate pollution levels in India increased in 2023 (Figure 1).¹ India’s annual-average
+PM2.5 concentrations in 2023 stood at 41 µg/m³, and reducing these levels to meet the WHO guideline of 5 µg/m³ could
+add 3.5 years onto the life expectancy of an average Indian.2
+
+KEY TAKE-AWAYS
+• According to the latest satellite-derived PM2.5 estimates, in
+2023, particulate concentrations in India were higher than
+in 2022. These levels are more than 8 times higher than the
+WHO guideline, and reducing them to permanently meet
+the WHO Guideline would add 3.5 years to the average life
+expectancy of Indians (Figure 2).
+
+Figure 1 · Annual average PM2.5 concentrations in India, 1998-2023
+
+• While particulate pollution takes 3.5 years off the life of the
+average Indian resident, child and maternal malnutrition
+takes off 1.6 years, tobacco use takes off 1.5 years, and unsafe
+water, sanitation, and handwashing takes off 8.4 months
+(Figure 3).
+• All of India’s 1.4 billion people live in areas where the
+annual average particulate pollution level exceeds the WHO
+guideline. This means that even people living in the cleanest
+regions of India could live 9.4 months longer if particulate
+concentrations in these regions were reduced to meet the
+WHO guideline.
+• 46 percent of the population lives in areas that exceed the
+country’s own national annual-PM2.5 standard of 40 µg/m³.
+Reducing particulate concentrations in these regions to meet India’s national standard could add 1.5 years to the life expectancy of people
+living in these regions.
+• In the most polluted region of the country—the Northern Plains—544.4 million residents or 38.9 percent of India’s population could gain 5
+years of life expectancy on average relative to the WHO guideline and 1.6 years relative to the national standard, if current pollution levels
+were reduced to meet the WHO guideline.3
+• If all of India were to reduce particulate pollution to meet the WHO guideline, residents in Delhi—India’s capital and most populous city—
+would see the maximum benefits with its residents gaining 8.2 years of life expectancy. Outside of Delhi and the Northern Plains of India,
+Rajasthan, Madhya Pradesh and Maharashtra face the highest health burden of particulate pollution. Reducing particulate pollution to
+meet the WHO guideline could add 3.3, 3.1 and 2.8 years respectively to the average life expectancy in these states (Figure 4).
+
+1
+
+1 This data is based on the AQLI 2023 dataset. All annual average PM2.5 values (measured in micrograms per cubic meter: µg/m³) are population weighted.
+2 Revised WHO Air Quality Guidelines. 2021
+3 Northern Plains of India are defined as the following seven states and union territories: Bihar, Chandigarh, Delhi, Haryana, Punjab, Uttar Pradesh, and West
+Bengal. In this analysis, Northern plains of India is synonymous with North India, Northern India, and the North Indian Belt.
+
+Figure 2.
+
+Potential gain in life expectancy
+from permanently reducing PM2.5
+from 2023 concentration to the
+WHO guideline
+
+PROGRESS OF INDIA’S NATIONAL CLEAN AIR PROGRAM
+In 2019, India launched its National Clean Air Programme (NCAP), with the stated goal of reducing particulate pollution by 20-30 percent
+nationally relative to 2017 levels by 2024. Initially the program focused on 102 cities that were not meeting India’s national annual PM2.5
+standard, termed “non-attainment cities”. In 2022, the Indian Government revamped its particulate pollution reduction target for NCAP,
+setting it to a 40 percent reduction relative to 2017 levels by 2026 for an expanded number of 131 non-attainment cities.4 If the ambition
+of the revised target is met, these cities’ overall annual average PM2.5 exposure would be 21.9 µg/m³ lower than 2017 levels, adding 2.1 years
+onto the life of the average Indian living in these cities, and 7.9 months to the national average life expectancy.
+As of 2023, pollution in the districts with non-attainment cities had declined by 10.5 percent relative to 2017 (base year for the NCAP)
+adding 6 months to the life expectancy of 443.4 million residents, and 2 months to India’s national average life expectancy.
+
+Figure 3 · Top external health threats to life expectancy in India
+
+Figure 4 · Potential gain in life expectancy from reducing PM2.5
+
+concentrations from 2023 levels to the WHO guideline in the 10 most
+populous states of India
+
+Sources: Global Burden of Disease (https://vizhub.healthdata.org/gbd-results/) level-2 causes and risks data and
+WHO Life Tables (https://apps.who.int/gho/data/node.main.LIFECOUNTRY?lang=en) were combined with the
+Life table method to arrive at these results. “PM2.5 relative to WHO Guideline” bar displays the reduction in life
+expectancy relative to the WHO guideline as calculated by the latest AQLI (2023 PM2.5 concentrations) data.
+
+1
+
+4
+
+https://indianexpress.com/article/india/centre-aims-at-40-percent-reduction-in-particulate-matter-2026-8175260/
+
+Potential life expectancy impacts of particulate pollution reductions in all states/
+UTs of India
+
+State/UT
+
+Population
+(Lakhs)
+
+Life Expectancy
+Life Expectancy
+Gains from reducing Gains from reducing
+Annual Average PM2.5 from 2023
+PM2.5 from 2023
+2023 PM2.5
+concentration to
+concentration to
+Concentration WHO PM2.5 guideline National PM2.5 standard
+(µg/m³)
+of 5 µg/m³)
+of 40 µg/m³
+
+State/UT
+
+Population
+(Lakhs)
+
+Life Expectancy
+Life Expectancy
+Gains from reducing Gains from reducing
+Annual Average PM2.5 from 2023
+PM2.5 from 2023
+2023 PM2.5
+concentration to
+concentration to
+Concentration WHO PM2.5 guideline National PM2.5 standard
+(µg/m³)
+of 5 µg/m³)
+of 40 µg/m³
+
+Andaman and
+Nicobar
+
+3.9
+
+14.9
+
+1.0
+
+0
+
+Madhya Pradesh
+
+852
+
+36.8
+
+Andhra Pradesh
+
+545.3
+
+26.0
+
+2.1
+
+0
+
+Maharashtra
+
+1281.6
+33.2
+
+3.1
+
+0
+
+33.9
+
+2.8
+
+0
+
+25.5
+
+2.0
+
+0
+
+Arunachal
+Pradesh
+
+16.1
+
+14.2
+
+0.9
+
+0
+
+Manipur
+
+Assam
+
+359
+
+28.4
+
+2.3
+
+0
+
+Meghalaya
+
+37.3
+
+28.8
+
+2.3
+
+0
+
+12.9
+
+24.5
+
+1.9
+
+0
+
+1257.3
+
+60.1
+
+5.4
+
+1.97
+
+Mizoram
+
+Chandigarh
+
+12.3
+
+44.8
+
+3.9
+
+0.47
+
+NCT of Delhi
+
+188.4
+
+88.4
+
+8.2
+
+4.74
+
+Chhattisgarh
+
+304
+
+51.5
+
+4.6
+
+1.12
+
+Nagaland
+
+20.3
+
+22.5
+
+1.7
+
+0
+
+Dadra and Nagar
+Haveli
+
+4.4
+
+28.7
+
+2.3
+
+0
+
+Odisha
+
+473.7
+
+36.4
+
+3.1
+
+0
+
+Daman and Diu
+
+2.9
+
+31.9
+
+2.6
+
+0
+
+Puducherry
+
+13.5
+
+22.2
+
+1.7
+
+0
+
+Goa
+
+15.8
+
+27.4
+
+2.2
+
+0
+
+Punjab
+
+310.8
+
+49.6
+
+4.4
+
+0.94
+
+Gujarat
+
+704.9
+
+29.5
+
+2.4
+
+0
+
+Rajasthan
+
+809
+
+38.3
+
+3.3
+
+0
+
+Haryana
+
+297.7
+
+58.7
+
+5.3
+
+1.83
+
+Sikkim
+
+6.5
+
+37.2
+
+3.2
+
+0
+0
+
+Bihar
+
+Himachal
+Pradesh
+Jammu and
+Kashmir
+
+77
+
+24.5
+
+1.9
+
+0
+
+Tamil Nadu
+
+823.4
+
+22.5
+
+1.7
+
+147.1
+
+21.3
+
+1.6
+
+0
+
+Telangana
+
+391.5
+
+29.3
+
+2.4
+
+0
+
+Jharkhand
+
+391.7
+
+42.1
+
+3.6
+
+0.2
+
+Tripura
+
+42.2
+
+47.1
+
+4.1
+
+0.7
+
+Karnataka
+
+695.9
+
+21.4
+
+1.6
+
+0
+
+Uttar Pradesh
+
+2347.9
+
+56.2
+
+5.0
+
+1.59
+
+Kerala
+
+348.4
+
+18.5
+
+1.3
+
+0
+
+Ladakh
+
+3.3
+
+7.8
+
+0.3
+
+0
+
+Lakshadweep
+
+0.5
+
+19.6
+
+1.4
+
+0
+
+Uttarakhand
+
+118.7
+
+33.2
+
+2.8
+
+0
+
+West Bengal
+
+1029.9
+
+46.9
+
+4.1
+
+0.68
+
+ABOUT THE AIR QUALITY LIFE INDEX (AQLI)
+The AQLI is a pollution index that translates particulate air pollution into perhaps the most important metric that exists: its impact on life expectancy. Developed by the
+University of Chicago’s Milton Friedman Distinguished Service Professor in Economics Michael Greenstone and his team at the Energy Policy Institute at the University
+of Chicago (EPIC), the AQLI is rooted in research that quantifies the causal relationship between long-term human exposure to air pollution and life expectancy. The Index
+then combines this research with hyper-localized, satellite measurements of global particulate matter (PM2.5), yielding unprecedented insight into the true cost of pollution
+in communities around the world. The Index also illustrates how air pollution policies can increase life expectancy when they meet the World Health Organization’s
+guideline for what is considered a safe level of exposure, existing national air quality standards, or user-defined air quality levels. This information can help to inform local
+communities and policymakers about the importance of air pollution policies in concrete terms.
+															
+Methodology: The life expectancy calculations made by the AQLI are based on a pair of peer-reviewed studies, Chen et al. (2013) and Ebenstein et al. (2017), co-authored by Michael Greenstone, that
+exploit a unique natural experiment in China. By comparing two subgroups of the population that experienced prolonged exposure to different levels of particulate air pollution, the studies were
+able to plausibly isolate the effect of particulate air pollution from other factors that affect health. Ebenstein et al. (2017) found that sustained exposure to an additional 10 μg/m 3 of PM10 reduces life
+expectancy by 0.64 years. In terms of PM2.5, this translates to the relationship that an additional 10 μg/m3 of PM2.5 reduces life expectancy by 0.98 years. This metric is then combined with sea-salt and
+mineral dust removed satellite-derived PM2.5 data. All 2023 annual average PM2.5 values are population-weighted, and AQLI’s source of population data is https://landscan.ornl.gov/. We are grateful to
+the Atmospheric Composition Analysis Group, based at Washington University in St. Louis, for providing us with the satellite data. The original dataset can be found here: https://sites.wustl.edu/acag/
+datasets/surface-pm2-5/. To learn more deeply about the methodology used by the AQLI, visit: aqli.epic.uchicago.edu/about/methodology.
+
+aqli-info@uchicago.edu
+
+aqli.epic.uchicago.edu
+
+@UChiAir #AQLI
+
+

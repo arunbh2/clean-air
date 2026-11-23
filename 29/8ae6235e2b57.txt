@@ -1,0 +1,5336 @@
+AIR
+UNF
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+QUALITY
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+JUNE 2023
+
+1
+
+About Chintan Environmental Research and Action Group
+We are a registered non-profit organization dedicated to
+achieving inclusive, sustainable, and equitable growth for
+all. Our objective is to make consumption more responsible
+and less taxing on the environment and the underprivileged.
+We conduct research, advocate for, and assist various
+stakeholders in transitioning from a linear to a circular
+economy and away from unsustainable consumerism. We
+combat air pollution by conducting research, strengthening
+capacity, and making science and policy more accessible
+to the public. In all our efforts, vulnerable populations—the
+poor, the marginalized, children, and women—will remain in
+the forefront of our attention.
+
+AIR
+UNF
+
+QUALITY
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+JUNE 2023
+
+A Reseach by
+Chintan Environmental Research and Action Group
+
+UNFAIR QUALITY
+
+Research Team
+This study was made possible with guidance from Dr. Randeep Guleria, Director, All India
+Institute of Medical Sciences, New Delhi and Dr. Tejas Menon Suri, Assistant Professor,
+All India Institute of Medical Sciences.
+
+Lead Authors
+Bharati Chaturvedi
+Shruti Sinha
+Komal Daal
+
+Data collection and field oversight
+Dr. Amit Kumar
+Sharang Goyal
+Yogesh Gupta
+Balmukund Kumar
+
+Acknowledgements
+Chintan is grateful to Dr. TK Joshi, Dr. Pallavi Pant, Anumita Roy Chowdhury, and Polash
+Mukerjee, for their input and detailed recommendations based on the findings of the
+report. Chintan would like to thank Meghlayana Banerjee for editing and writing support
+for the report.
+We would like to thank the New Delhi Municipal Council and the Municipal Council
+of Delhi for their support in conducting the survey. We would also thank the Central
+Association of Private Security Industry for the same.
+
+Chintan is also grateful to the Clean Air Fund.
+
+Editorial Design
+DamageControl
+
+Copyright notice
+© Copyright 2023, Chintan Environmental Research and Action Group
+238 Sidhartha Enclave, New Delhi-110014
+Email: info@chintan-india.org
+Website: www.chintan-india.org
+Chintan encourages you to use the data contained in this report with credit to Chintan.
+
+ii
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Contents
+
+List of Tables
+
+iv
+
+List of Maps
+
+iv
+
+List of Figures
+
+v
+
+List of Abbreviations
+
+vii
+
+Executive Summary
+
+vii
+
+CHAPTER 1
+Introduction
+
+1
+
+CHAPTER 2
+Methodology
+
+4
+
+CHAPTER 3
+Safai Karamcharis: The Results
+
+11
+
+CHAPTER 4
+Security Guards: The Results
+
+21
+
+CHAPTER 5
+Wastepickers: The Results
+
+31
+
+CHAPTER 6
+Comparative Analysis of Studied Groups and Control Group
+
+41
+
+CHAPTER 7
+Conclusions
+
+51
+
+CHAPTER 8
+Recommendations
+
+55
+
+ANNEXURE 1: Details of Pulmonary Function Test
+
+61
+
+ANNEXURE 2: Socio-demographic characteristics
+
+64
+
+ANNEXURE 3: Results of binary logistic regression
+
+65
+
+iii
+
+UNFAIR QUALITY
+
+List of Tables
+
+Table 1:
+Table 2:
+Table 3:
+Table 4:
+Table 5:
+Table 6:
+Table 7:
+Table 8:
+Table 9:
+Table 10:
+Table 11:
+Table 12:
+Table 13:
+Table 14:
+Table 15:
+Table 16:
+Table 17:
+
+Study sites and municipality.
+Details of study participants, their locations, and gender
+wise distribution.
+Obstruction vs restriction lung diseases.
+Demographic data collected from safai karamcharis.
+Lung function parameters for safai karamcharis.
+Lung function parameters for male and female safai karamcharis.
+Demographic data collected from security guards.
+Lung function parameters for security guards.
+Lung function parameters for male and female security guards.
+Demographic data collected from wastepickers.
+Lung function parameters for wastepickers.
+Lung function parameters for male and female wastepickers.
+Lung function parameters for studied groups and control group
+Comparison of demographic parameters for all groups.
+Odd ratios and standard errors of questionnaire based respiratory outcomes
+safai karamcharis.
+Odd ratios and standard error of questionnaire based respiratory outcomes
+security guards.
+Odd ratios and standard error of questionnaire based respiratory outcomes
+wastepickers.
+
+List of Maps
+Map 1:
+
+iv
+
+Map showing the study locations in Delhi.
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+List of Figures
+
+Figure 1:
+Figure 2:
+Figure 3:
+Figure 4:
+Figure 5:
+Figure 6:
+
+Overview of methodology.
+How the spirometry test is done.
+Sources of exposure to air pollution for safai karamcharis.
+Perception of safai karamcharis around PPE kits.
+Availability of PPE kits.
+Reported health impacts since starting work in their
+current role.
+Figure 7: Top occupational health concerns while working.
+Figure 8: Spirometry results for safai karamcharis
+Figure 9: Disease severity (%) of observed pulmonary impairments
+in safai karamcharis.
+Figure 10: Disease severity (%) for male and female safai karamcharis
+Figure 11: Sources of exposure to air pollution for security guards.
+Figure 12: Perception of security guards around PPE kits.
+Figure 13: Availability of PPE kits to security guards.
+Figure 14: Reported health concerns since starting work in the current role.
+Figure 15: Top health concerns faced while working.
+Figure 16: Spirometry results for security guards.
+Figure 17: Disease severity (%) of observed pulmonary impairments
+for security guards.
+Figure 18: Disease severity (%) for male and female security guards.
+Figure 19: Sources of exposure to air pollution for wastepickers.
+Figure 20: Perception of wastepickers around PPE kits.
+Figure 21: Availability of PPE kits to wastepickers.
+Figure 22: Reported health concerns since starting work in their current role.
+Figure 23: Top health concerns faced while working.
+Figure 24: Spirometry results for wastepickers.
+Figure 25: Disease severity (%) of observed pulmonary impairments for wastepickers.
+Figure 26: Disease severity (%) for male and female wastepickers.
+Figure 27: Cooking fuel usage.
+Figure 28: Extent of open burning during winter.
+Figure 29: Perception around Personal Protective Equipment (PPE).
+Figure 30: Availability of PPE kits.
+Figure 31: Top health concerns faced by all groups while working.
+Figure 32: Reported throat-related health concerns by all groups
+since starting current role.
+
+v
+
+UNFAIR QUALITY
+
+Figure 33: Reported eye-related health concerns by all groups since
+starting current role.
+Figure 34: Reported chest-related health concerns by all groups
+since starting current role.
+Figure 35: Healthcare access.
+Figure 36: Spirometry results for all groups.
+Figure 37: Disease severity for studied groups.
+Figure 38: Obstruction and restriction severity for all studied groups.
+Figure 39: Spirometry curves for normal, obstruction and restriction
+lung disease.
+Figure 40: Interpretation of spirometry results based on
+z-scores of FVC, FEV1 and FEV1/FVC.
+
+vi
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+List of Abbreviations
+
+AIDS:
+AQI:
+BMI:
+CAG:
+COPD:
+CoV:
+DWCC:
+EDMC:
+FEV1:
+FVC:
+GRAP:
+GLI:
+HIV:
+LLN:
+LPG:
+MRF:
+NCAP:
+NCR:
+NCT:
+N-DMC:
+New Delhi MC:
+NGO:
+OSH:
+PF:
+PFT:
+PPE:
+SD:
+SDMC:
+TPD:
+ULB:
+WHO:
+
+Acquired Immune Deficiency Syndrome
+Air Quality Index
+Body Mass Index CAG: Comptroller and Auditor General
+Comptroller and Auditor General
+Chronic Obstructive Pulmonary Disease
+Coefficient of Variation
+Dry Waste Collection Centre
+East Delhi Municipal Corporation
+Forced Expiratory Volume in one second
+Forced Vital Capacity
+Graded Rapid Action Plan
+Global Lung Function Initiative
+Human Immunodeficiency Virus
+Lower Limit of Normal
+Liquefied Petroleum Gas
+Material Recovery Facility
+National Clean Air Programme
+National Capital Region
+National Capital Territory
+North Delhi Municipal Corporation
+New Delhi Municipal Council
+Non-Governmental Organization
+Occupational Health and Safety
+Pulmonary Function
+Pulmonary Function Test
+Personal Protective Equipment
+Standard Deviation
+South Delhi Municipal Corporation
+Tonnes Per Day
+Urban Local Body
+World Health Organization
+
+vii
+
+UNFAIR QUALITY
+
+Executive Summary
+
+O
+
+utdoor air pollution is estimated to cause 4.2 million premature deaths worldwide
+in 2019. Indoor air pollution is additionally estimated to cause 3.2 million deaths
+in 2020, according to the World Health Organization fact sheets on ambient
+and household air pollution 20221. Air pollution has been included as the fifth risk factor
+for noncommunicable diseases2. The most vulnerable to the risks of air pollution are the
+outdoor occupational groups.
+This study is an assessment of the relationship between air pollution and incidence of
+respiratory illness for three essential occupational groups – wastepickers, safai karamcharis
+(municipal sweepers) and security guards. These groups were identified based on their
+everyday work, which regularly exposes them to dust, waste, particulate matter as well as
+toxic gases during their worktime.
+In order to conduct this investigation, 400 participants were selected across 15 sites
+across Delhi, the identified research site. Hundred participants were selected from each
+category and hundred from a control group. The participants were surveyed on-site using a
+questionnaire, followed by a pulmonary function (PF) test. The results were analyzed. The
+key results are as follows:
+■ Approximately 97% safai karamcharis, 95% wastepickers, and 82% security guards
+reported exposure to air pollution during work. However, more than 60% safai
+karamcharis, 50% wastepickers, and 30% security guards did not know about PPE kits
+that could reduce their exposure.
+■ Wintertime burning was identified as prevalent across the groups, but most widely
+amongst wastepickers. Nearly half of the wastepickers, 5% safai karamcharis and 9%
+security guards reported burning wood or coal to keep warm during winter. Waste
+burning was practiced by more than 30% wastepickers.
+■ Abnormal pulmonary function results were recorded in 86% safai karamcharis and
+security guards 75% wastepickers. In contrast, 45% of participants of the control group
+had abnormal lung function.
+■ No severe cases of lung illness were observed among the control group. However,
+17% wastepickers, 27% safai karamcharis, and 10% security guards were found to be
+suffering from severe lung illnesses.
+■ Women participants of all studied groups had lower lung function than the males.
+
+viii
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+The study discussed recommendations based on the findings of this study in consultation
+with the 3 groups and health and air pollution experts. These are as below:
+OCCUPATIONAL HEALTH AND SAFETY :
+■ Provision of Personal Protective Equipment (PPE) and trainings on efficient use of PPE
+must be ensured. Trainings on gargling after duty hours to effectively remove dust
+particles from nasal and throat cavities should be conducted.
+■ Provision of hand and face washing facilities near place of work should be mandated.
+■ Warm kits and heated bottles should be provided for the winter months to reduce
+open burning to security guards.
+POLLUTION MANAGEMENT:
+■ Sanitary inspectors should be delegated power to report and fine waste burning.
+■ Mechanized sweepers on larger arterial roads should be used.
+LIMITING EXPOSURE:
+■ Work shifts should be changed during hazardous AQI to reduce pollutant exposure.
+■ All resting places should be engineered at levels above the tail-pipe level of SUVs.
+■ Annual health check-ups focused on monitoring occupational health should be carried
+out.
+SYSTEMIC SHIFTS:
+■ Composting must be mandated to prevent landfill fires.
+■ In-situ horticulture waste management systems should be set up.
+■ Photographic compliance reports must be filed by ULBs every quarter.
+■ Improved access to healthcare for outdoor workers must be ensured.
+■ Drones and other imagery must be used to identify garbage burning.
+■ Bioremediation strategies should be executed to prevent landfill fires.
+
+ix
+
+UNFAIR QUALITY
+
+x
+
+1
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Introduction
+
+A
+
+ccording to the World Health Organization (WHO), outdoor air pollution was
+estimated to cause 4.2 million premature deaths worldwide in 20193, and indoor
+air pollution an additional 3.2 million deaths in 20204. The inclusion of air pollution
+as the fifth risk factor for noncommunicable diseases alongside tobacco, alcohol, unhealthy
+diets, and physical inactivity highlights the extent of risk from polluted air to human health5.
+Globally, loss of life expectancy from air pollution surpasses that of HIV/AIDS, parasitic,
+vector-borne, and other infectious diseases by a large margin6. In 2023, India was ranked as
+the world’s eighth most polluted country according to the Annual World Air Quality Report,
+IQAir7. Delhi continues to be the most polluted capital city and fourth most-polluted city in
+the world8.
+While air pollution is a global threat, its impacts are felt differently by the marginalized
+low-income communities, who bear a greater burden of excessive health risks compared
+to other communities9. They are particularly vulnerable to its impacts because of their
+occupation, inter-generational poverty and poor access to healthy lifestyles and healthcare.
+Low-income groups in the urban landscape (urban poor) lack access to basic healthcare
+and sanitation and there is low prevalence or awareness of health–promoting behaviors
+given the inadequate social support received by them. Irregular incomes and the time taken
+up due to livelihood pressures, prevent them from focusing on health-related concerns10.
+Further, due to their dependence on biomass burning for heating and cooking, they suffer
+from the additional health risks of indoor air pollution.
+
+1
+
+UNFAIR QUALITY
+
+In the past few decades, scholars have highlighted the urgent need to investigate
+how ambient air pollution affects various demographic groups around the world11. A
+study conducted in Iran to understand the effects of dust inhalation on street sweepers
+emphasized how outdoor workers such as sweepers are particularly exposed to air
+pollution12. Overall, however, limited studies have been conducted in India on the impact of
+air pollution exposure on these vulnerable groups13 .
+Upon conducting a literature review, no published reports were found on the comparative
+effects of ambient air pollution on occupationally exposed groups. The National Clean Air
+Programme (NCAP) was launched in 2019 as a policy with the goal of developing action
+plans to combat particulate matter pollution through periodic reviews based on scientific
+input. However, much is yet to be achieved in terms of limiting exposure to air pollution,
+particularly for the populations most exposed. There are some constraints to consider, such
+as inter-sectoral coordination, a lack of public awareness, and the capacity of State Boards.
+Due to various factors, as a result, occupationally exposed outdoor worker groups are more
+vulnerable because there are no defined laws to protect them. Further, the lack of insulation
+during winters, which includes blankets and heaters, warm homes, or clothing, often leads
+to open burning for warmth. This in turn adds to air pollution and particularly exposes
+these groups to particulate pollution. This study covers the three following occupationally
+exposed groups, all of whom work outdoors:
+
+SAFAI KARAMCHARIS
+
+‘Safai Karamchari’ refers to a person, including his or her dependents, engaged in or employed
+for any sanitation work and includes waste pickers, but excludes domestic worker and
+manual scavengers14 . For the purpose of this report, only the street and road-side sweepers
+who are contracted by the municipal body (municipal sweepers) are referred to as safai
+karamcharis. Wastepickers are considered as a separate category. The disproportionate
+impact of air pollution on safai karamcharis is due to their close exposure to dust itself while
+sweeping and handling waste.
+
+SECURITY GUARDS
+
+According to the Private Security Agencies (Regulation) Act, 2005, a ‘private security guard’
+means a person providing private security with or without arms to another person or
+property or both and includes a supervisor15.
+Due to the long hours spent at night and early mornings at work, security guards are exposed
+to air pollution in two primary ways. One, they are directly exposed to the outdoor air for
+extended periods of time and two, they often burn waste to keep themselves warm during
+extreme winter due to the lack of provisions for insulation or warm clothing at work.
+
+WASTEPICKERS
+
+The Solid Waste Management Rules, 2016 refer to wastepickers as “a person informally
+engaged in the collection and recovery of reusable and recyclable solid waste from the
+source of waste generation to sale of waste to recyclers directly or through intermediaries.”
+
+2
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+In India, wastepickers are the backbone of recycling. Even though the law mandates their
+inclusion in the formal waste management system via urban local bodies, the reality is far
+from it. Wastepickers continue to work hazardous conditions with waste, on sites ranging
+from landfills to industrial areas, exposing them to particulate matter, including that from
+waste.
+This research investigates the relationship between air pollution and respiratory health
+for three key outdoor occupational categories - safai karamcharis (municipal sweepers),
+security guards and wastepickers. Key research focus is:
+■ To investigate the state of knowledge on air pollution of the identified groups.
+■ To examine the respiratory health of these studied groups.
+■ To assess the relationship between respiratory health and occupational factors.
+■ To identify practical means of reducing exposure and protecting environmental health.
+
+3
+
+2
+
+UNFAIR QUALITY
+
+Methodology
+
+T
+
+his study was designed through extensive literature review along with consultations
+with medical professionals and air quality experts. A survey followed by pulmonary
+function tests (PFT) were used for data collection. Four hundred participants across
+Delhi were surveyed. The survey aimed to understand perception, lifestyle, and pollution
+exposure, while the PF Tests provided information about lung health. The gender differences
+in lung function were kept under consideration during participant selection. Approximately
+
+Figure 1: Overview of methodology.
+STUDY RESEARCH & DESIGN
+SITE SELECTION & PREPARATION OF AREA MAP
+SELECTION OF PARTICIPANTS
+
+100
+SAFAI KARAMCHARIS
+
+100
+SECURITY GUARDS
+
+100
+WASTEPICKERS
+
+100
+CONTROL GROUP
+
+QUESTIONNAIRE SURVEY + PF TEST
+INTERPRETATION OF PF TEST RESULTS
+
+ASSESSMENT OF NORMAL AND
+ABNORMAL LUNG FUNTION
+
+ASSESSMENT OF OBSTRUCTION
+OR/AND RESTRICTION
+
+STATISTICAL ANALYSIS OF PF
+TEST AND QUESTIONNAIRE
+RECOMMENDATIONS FROM EXPERTS
+REPORT
+WRITING
+
+4
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+equal male and female participants were surveyed from the selected groups, except for
+security guards due to the male-dominated nature of this occupation. The data collection
+was completed between May 2021 and December 2021.
+
+STUDY AREA
+
+The study was carried out in the Delhi National Capital Territory, a megacity located in the
+subtropical climate (28°36' N and 77°12' E). The overall area of the NCT, which includes
+11 districts, is approximately 1483 km2. According to the 2011 Census, the population of
+Delhi was 16.8 million, which has now grown to 32.94 million in 2023, according to the
+World Population Prospects 2022 of the United Nations16 . Delhi has four different seasons:
+Winter (December-February), Summer (March-May), Monsoon (June-September), and
+Post-Monsoon (October-November). In the previous 2-3 decades, Delhi has experienced
+significant urbanization, expansion of transportation network, construction activity, and
+land use change, all of which have contributed to a decline in air quality in the Delhi region.
+Delhi is 97.5% urbanized17 which also translates to increased demand for increased waste
+management, traffic control, sanitation, construction, etc. - all of which have increased
+the demand for the essential services provided by outdoor workers like safai karamcharis,
+security guards and wastepickers.
+
+SAMPLING
+
+To meet the objectives of the research, 15 sites were selected and presented in Map 1. The
+open-source software QGIS (version 3.22) was used to create the study area map.
+Map 1: The study locations in Delhi.
+
+28.75
+
+77.25
+
+1
+5
+
+15
+11
+10
+8
+14
+
+4
+3
+
+6
+
+9
+
+28.50
+
+5
+
+10
+
+15
+
+77.00
+
+2
+
+12
+13
+
+0
+
+7
+
+28.50
+
+28.75
+
+77.00
+
+25
+
+77.25
+
+5
+
+UNFAIR QUALITY
+
+Map 1 shows the 15 study sites marked by serial number. Details of the study sites and
+relevant municipal bodies are mentioned below.
+Table 1: Study sites and municipality
+S. No. Study site
+
+Municipality
+
+1
+
+Bhalaswa Landfill
+
+North Delhi Municipal Corporation
+
+2
+
+Ghazipur Landfill
+
+East Delhi Municipal Corporation
+
+3
+
+Mahipalpur
+
+South Delhi Municipal Corporation
+
+4
+
+Vivekanand Camp
+
+New Delhi Municipal Corporation
+
+5
+
+Prashant Vihar
+
+North Delhi Municipal Corporation
+
+6
+
+Vasant Vihar
+
+South Delhi Municipal Corporation
+
+7
+
+Madhu Vihar
+
+East Delhi Municipal Corporation
+
+8
+
+Khan Market
+
+New Delhi Municipal Council
+
+9
+
+Safdarjung Hospital
+
+South Delhi Municipal Corporation
+
+10
+
+CAG Building
+
+North Delhi Municipal Corporation
+
+11
+
+Reliance Building, Chandni Chowk
+
+North Delhi Municipal Corporation
+
+12
+
+Lajpat Nagar
+
+South Delhi Municipal Corporation
+
+13
+
+Saket
+
+South Delhi Municipal Corporation
+
+14
+
+Lodhi Colony
+
+New Delhi Municipal Council
+
+15
+
+Civil Lines
+
+North Delhi Municipal Corporation
+
+The study comprised 400 participants, 100 from each occupational category - safai
+karamcharis, security guards, and wastepickers, and 100 from a control group. The
+control group comprised of people who predominantly worked indoors, however, had
+no or less occupational exposure to air pollution. They were non-smokers and with no
+history of reported respiratory illness. The office staff of two schools, one shopping mall
+and a non-profit office were chosen as the control group. Participants in the study were
+randomly selected by zone (East, West, North, and South) to gather a representative
+sample having geographical diversity across Delhi as air pollution might be differently
+experienced across the city. Recommendations by the relevant municipalities based on
+suitability were also taken into account during selection. Table 2 contains information
+about the study participants, including their location, gender distribution, and the nature
+of their daily work.
+
+SURVEY
+
+The first stage of the study was to conduct an on-site survey. This was based on a tested
+survey instrument whetted by the study collaborators. The concept of consent was
+explained following which participants’ informed consent was obtained through signed
+consent forms in Hindi.
+
+6
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Table 2: Details of study participants, their locations, and gender wise distribution
+Study
+participants
+
+Location (Delhi)
+
+Bhalaswa landfill
+Ghazipur landfill
+Mahipalpur
+Vivekanand Camp
+
+Gender wise
+distribution
+
+Nature of job and
+working conditions
+
+Male
+
+Female
+
+45
+
+55
+
+Collection,
+segregation, and
+primary dumping
+of wastes
+
+Wastepickers
+(n=100)
+
+•
+•
+•
+•
+
+Safai
+Karamcharis
+(n=100)
+
+• Prashant Vihar, North Delhi
+Municipal Corporation
+• Vasant Vihar, South Delhi
+Municipal Corporation
+• Madhu Vihar, East Delhi Municipal
+Corporation
+• Khan Market, New Delhi Municipal
+Council
+
+57
+
+43
+
+Street cleaning
+with traditional
+brooms, collection
+of waste and
+disposal
+
+Security
+Guards
+(n=100)
+
+• Safdarjung Hospital
+• Government office, ITO
+• Private Sector Office, Chandni
+Chowk
+
+94
+
+6
+
+Indoor and outdoor
+duties at buildings,
+both day & night
+(rotation wise)
+
+Control
+Groups
+(n=100)
+
+• Office staff, offices located near
+busy traffic junctions and main
+roads in South Delhi
+• Select City Walk Mall, Saket
+• Sardar Patel School, Lodhi Colony
+• Cleaning and security staff, St.
+Xaviers School, Central Delhi
+
+63
+
+37
+
+Official work
+
+The questionnaire included questions about personal information, socioeconomic
+status (education, occupation, number of dependents), lifestyle and surroundings (smoking
+habits, cooking habits, etc.), working environment conditions, and health issues related to
+their job. Open-ended questions were also included to gather perceptions and viewpoints,
+such as solutions to air pollution exposure and workplace logistics.
+
+TESTING PULMONARY FUNCTION
+
+The Pulmonary Function Test (PFT) used to assess lung function was Spirometry. This test
+measures the volume of air exhaled at specific time points during complete exhalation by
+force, which is preceded by a maximal inhalation18. The Respiratory Function Spirometer
+tests were performed on all study groups (Model: RMS Helios 401, Version 1.3) by an
+
+7
+
+UNFAIR QUALITY
+
+accredited laboratory, Goodlife Diagnostics, Delhi, in accordance with the standard
+operating procedure. During the test, the subject exhales with force, followed by a deep
+inhalation into a tube linked to a spirometer. It measured the amount of air that enters and
+exits during the process. Each participant was evaluated at least three times but no more
+than five times, and the top values were chosen for analysis.
+The responses from stakeholders were gathered on the same day as the PF testing. The
+complete process, including the face-to-face interviews and PF testing, took about 30-40
+minutes per participant.
+
+LUNG FUNCTION PARAMETERS
+
+Two lung function parameters - forced vital capacity (FVC), forced expiratory volume in
+one second (FEV1), and FEV1/FVC ratios were used to trace respiratory disorders among
+participants. FEV1 and FVC are measurements used to identify signs of blockage and
+restriction in ventilatory dysfunction19.
+■ Forced Vital Capacity (FVC): FVC is defined as the entire volume of air that can be
+expelled at a maximal forced expiration effort after full inspiration. In general, FVC can
+be used as an indicator for lung capacity.
+■ Forced Expiratory Volume in one second (FEV1): FEV1 is the volume of air that can
+forcibly be blown out in the first 1 second, after full inspiration. In general, FEV1 can be
+used as an indicator for airway resistance.
+■ FEV1/FVC ratio: FEV1/FVC ratios imply the percentage of Forced Vital Capacity
+expired in one second.
+■ Obstruction and Restriction Lung Disorders: Obstruction and restriction are two
+significant lung disorders (air going in or out) that were identified using spirometry test
+readings20. The two types of respiratory disorders have been compared below.
+Table 3: Obstruction vs restriction lung diseases21
+
+8
+
+Obstruction
+
+Restriction
+
+Definition
+
+A person experiences shortness of
+breath due to difficulty exhaling all
+the air from the lungs because the
+lungs are obstructed.
+
+A person cannot fully fill their lungs because
+the lungs are restricted due to limitations in
+chest wall motion.
+
+Cause
+
+• Narrowing inside the lungs.
+(inflammation/ swellings in
+airways)
+• Thick mucus in the airways
+• Damage to the walls of the air
+sacs
+
+• Stiffness of the chest wall
+• Weak muscles
+• Damaged nerves
+
+Examples
+
+Asthma, COPD, Bronchiectasis,
+Cystic Fibrosis, etc.
+
+Sarcoidosis, Asbestosis, Silicosis, Muscular
+Dystrophy, Interstitial Lung Disease, etc.
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Figure 2: How the spirometry test is done
+
+Figure 2 depicts a diagrammatic representation of how the spirometry test works
+BMI =
+
+(Body Weight)
+(Height)2
+
+DATA ANALYSIS AND CONCLUSIONS
+
+The survey responses were analysed using binary logistic regression analysis and PF test
+results were analysed using descriptive statistics (details of the analyses in Annexures). The
+results were discussed with respect to health and occupational safety. Recommendations
+based on peer reviews, air quality experts and healthcare professionals were incorporated.
+
+9
+
+UNFAIR QUALITY
+
+10
+
+3
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Safai Karamcharis:
+The Results
+
+T
+
+his chapter discusses the results of survey data and conducted pulmonary function
+(PF) tests for safai karamcharis (municipal sweepers). A total of 100 safai karamcharis,
+57 men and 43 women were the respondents.
+
+OVERVIEW
+
+Table 4 summarises the demographic characteristics of safai karamcharis derived from the
+survey.
+Table 4: Demographic data collected from safai karamcharis.
+Sr. No.
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Characteristics
+
+Total (100)
+
+Male (57)
+
+Female (43)
+
+51
+49
+
+32
+25
+
+19
+24
+
+42
+42
+16
+
+20
+25
+12
+
+22
+17
+4
+
+47
+35
+18
+
+32
+16
+9
+
+15
+19
+9
+
+12
+88
+
+11
+46
+
+1
+42
+
+8
+92
+
+5
+52
+
+3
+40
+
+16
+84
+
+10
+47
+
+6
+37
+
+0
+55
+45
+
+30
+27
+
+25
+18
+
+Age (Years)
+18-45
+46-60 or above
+Educational status
+No education
+1–8
+8 – 12 or above
+BMI
+Normal (< 25 kg/m2)
+Overweight (25-29.9 kg/m2)
+Obese (>30 kg/m2)
+Smoking status
+Smoker
+Non-smoker
+Passive smoking at home or workplace
+Yes
+No
+Cooking fuel
+Wood/Dung cake
+LPG
+No of dependents
+No
+1-4
+>4
+
+11
+
+UNFAIR QUALITY
+
+The key learnings are as below:
+■ The studied subjects’ age ranges were 18-45 (51%) and 46-60 years (49%).
+■ Forty two percent of the safai karamcharis surveyed had no education.
+■ Almost 95% of them had engaged in sweeping on streets and 12% were also involved
+in waste segregation at waste disposal sites.
+■ Of the total respondents, 55% had at least 1 dependent and 45% had more than 4
+dependents.
+■ Upon being asked, 21% stated that they were given health insurance and 27% had life
+insurance.
+
+EXPOSURE AND PROTECTIVE GEAR
+
+While ambient air pollution causes serious health impacts, other sources also add to the
+risks. The additional sources of air pollution exposure are summarized below.
+Figure 3: Sources of exposure to air pollution for safai karamcharis.
+20
+
+16%
+
+Participants (%)
+
+15
+
+12%
+10
+
+8%
+5%
+
+5
+
+0%
+
+0
+Smoking
+
+Passive smoking
+
+Cooking using
+wood/coal
+
+Winter-time
+wood/coal
+burning
+
+Winter-time
+waste burning
+
+Based on the survey, the following observations about exposure to air pollution sources for
+safai karamcharis were made.
+■ Most of the study participants (97%) reported exposure to air pollution during their
+work. This perception was gathered by asking the participants if they were exposed to
+air pollution while working.
+■ Sixteen percent of participants reported using coal, cow dung, or wood for cooking,
+which exposes them to indoor air pollution.
+■ Exposure to air pollution through smoking was low; twelve percent of the participants
+were smokers and eight percent lived with smokers in their family.
+■ In total 5% safai karamcharis burn biomass to keep warm, while no one reported
+burning any waste during winter.
+
+12
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Figure 4: Perception of safai karamcharis around PPE kits.
+70
+61%
+
+Participants (%)
+
+60
+50
+40
+30
+
+26%
+
+20
+
+15%
+
+10
+0
+No idea
+
+■
+
+■
+
+Protective in nature
+
+Don't use due to breathing
+issues
+
+Based on the survey, it was found that the majority (61%) were unaware about the
+concept of PPE. This could also be because they do not use this specific terminology
+indicating the need for symmetry in terminology from top to bottom.
+Among the participants who were aware, approximately 20% participants reported not
+using PPE kits due to difficulty in breathing while using them during work.
+
+Figure 5: Availability of PPE kits.
+60
+
+56%
+
+Participants (%)
+
+50
+39%
+
+40
+
+30
+24%
+20
+
+10
+5%
+0%
+
+0
+Unavailable
+
+Mask
+
+Gloves
+
+Boot
+
+Jacket
+
+13
+
+UNFAIR QUALITY
+
+Even though their work exposes safai karamcharis to dust, solid waste, and toxic
+materials that they are at risk of touching, inhaling, or ingesting, PPE kits were neither
+available, nor used by more than half (52%) of the participants. Masks and gloves were the
+most used personal protective equipment. This can be explained by the easy availability of
+masks and gloves in a post COVID era.
+
+HEALTH IMPACTS
+■
+
+■
+■
+
+The majority, or 85% of the surveyed safai karamcharis know of air pollution and its
+health impacts and 61% feel that the nature of their job increases their risks from air
+pollution.
+Approximately 42% of safai karamcharis feel that they do not have access to appropriate
+health care facilities.
+Only 19% safai karamcharis reported visiting doctors annually regardless of illness.
+
+Figure 6: Reported health impacts since starting work in their current role.
+80
+
+55%
+
+Participants (%)
+
+60
+
+40
+
+34%
+
+20
+
+16%
+
+14%
+8%
+
+4%
+
+4%
+
+gh
+
+u
+Co
+
+t
+
+re
+
+So
+
+n
+
+si
+
+s
+ne
+
+r
+th
+
+ry
+
+D
+
+t
+
+n
+
+ai
+
+oa
+
+oa
+
+r
+th
+
+Ch
+
+e
+
+p
+st
+
+3%
+
+1%
+
+0
+
+e
+
+ch
+
+H
+
+e
+
+a
+ad
+
+a
+
+se
+
+N
+
+au
+
+iﬃ
+
+D
+
+c
+
+ul
+
+n
+ti
+
+e
+
+br
+
+g
+
+in
+
+h
+at
+
+0%
+
+s
+
+r
+
+Bu
+
+n
+
+tio
+
+g
+
+n
+ni
+
+s
+
+ye
+
+hm
+
+t
+As
+
+se
+
+a
+ns
+
+e
+in
+
+o
+
+N
+
+Pr
+
+s
+
+em
+
+l
+ob
+
+When asked about the status of their health since starting work in their current role,
+approximately 50% of participants reported health problems. Forty seven percent of the
+ﬁg 6:
+respondents
+reported facing health issues such as cough, headache, burning of eyes, sore
+throat, nausea, etc. Among them, only 11% visited hospitals for these health concerns.
+Air pollution (81%) and heat (83%) were the top two health challenges faced by safai
+karamcharis while working. Cuts, injury, mosquito bites and cold were the other health
+100
+problems
+faced due to the nature of their work.
+81%
+80
+
+nts (%)
+
+14
+60
+
+83%
+
+r
+
+D
+
+iﬃ
+
+D
+
+c
+r
+
+Bu
+
+g
+
+n
+ni
+
+se
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+ﬁg 6:
+Figure 7: Top occupational health concerns while working.
+100
+81%
+
+83%
+
+Participants (%)
+
+80
+
+60
+
+40
+23%
+
+22%
+
+18%
+
+20
+
+0
+Air pollutio
+
+Heat
+
+Cuts/Injury
+
+Mosquito
+bites
+
+2%
+
+3%
+
+Animal
+bites
+
+Burns or
+Fire
+accidents
+
+Cold
+
+PULMONARY FUNCTION TEST RESULTS
+
+Overall and gender-wise descriptive statistics of lung function parameters for safai
+karamcharis have been recorded in Table 5 and 6, respectively.
+Table 5: Lung function parameters for safai karamcharis.
+
+Fig 7:
+
+28
+Average ± SD
+
+Range
+
+CoV
+
+FVC absolute (L)
+
+2.1 ± 0.7
+
+0.8 - 4.1
+
+34.4
+
+FVC % predicted
+
+62.0 ± 14.7
+
+30 -94.6
+
+23.7
+
+FEV1 absolute (L)
+
+1.8 ± 0.6
+
+0.7 - 3.6
+
+35.2
+
+FEV1 % predicted
+
+64.2 ± 16.1
+
+30.5 - 107.9
+
+25.1
+
+FEV1/FVC
+
+0.85 ± 0.1
+
+0.59 - 1.0
+
+8.5
+
+The average FVC% predicted for safai karamcharis was found to be 62.0 ± 14.7 and
+average FEV1 % predicted was found to be 64.2 ± 16.1. Both results are significantly lower
+compared to the normal value of 80% for a healthy adult of their age and weight. Standard
+deviations of ± 14.7 and ± 16.1 indicate that the values in some participants could be higher,
+however in some cases significantly lower than the average, which is already lower than the
+normal healthy range.
+
+15
+
+UNFAIR QUALITY
+
+Table 6: Lung function parameters for male and female safai karamcharis.
+Male (n=57)
+
+Female (n=43)
+
+Average ± SD
+
+Range
+
+Average ± SD
+
+Range
+
+FVC absolute (L)
+
+2.5 ± 0.7
+
+1.3 - 4.1
+
+1.7 ± 0.5
+
+0.8 - 3.9
+
+FVC % predicted
+
+64.9 ± 14.5
+
+34.6 - 94.6
+
+58.2 ± 14.2
+
+30 - 85.5
+
+FEV1 absolute (L)
+
+2.1 ± 0.6
+
+1.1 - 3.6
+
+1.5 ± 0.5
+
+0.7 - 3.4
+
+FEV1 % predicted
+
+66.3 ± 15.7
+
+36.8 -107.9
+
+61.4 ± 16.4
+
+30.5 - 90.3
+
+FEV1/FVC
+
+0.84 ± 0.1
+
+0.62 - 0.97
+
+0.87 ± 0.1
+
+0.59 -1
+
+FVC % predicted was 64.9 ± 14.5 for males and 58.2 ± 14.2 for females. FEV1 %
+predicted was 66.3 ± 15.7 for men and 61.4 ± 16.4 for women. The observed lung function
+parameters for females were noted to be significantly lower as compared to males, which
+inferred that female safai karamcharis had more deteriorated lung capacities.
+The prevalence of pulmonary function impairment in safai karamcharis is presented in
+Figure 8.
+Fig, 8: Spirometry results for safai karamcharis.
+90
+80
+
+80
+70
+
+Participants (%)
+
+60
+50
+40
+
+40
+
+40
+
+30
+20
+14
+10
+
+12
+2
+
+0
+Normal
+
+1
+
+l
+
+0
+
+Only obstruction
+Total (100)
+
+16
+
+5
+1
+
+Only obstruction
+
+Only restriction
+
+Male (57)
+
+4
+
+1
+
+Obstruction +
+Restriction
+
+Female (43)
+
+Only restriction
+
+Obstruction + Restriction
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+The Pulmonary Function Test results showed the following:
+■ Only 14% showed normal spirometry (lung function capacity), while abnormal
+spirometry corresponded to 86% of the participants.
+■ Eighty percent of the participants showed only restriction, 1% showed only obstruction
+and 5% of participants showed both obstructive and restrictive lung disorders.
+Therefore,
+■ Total participants suffering from restriction = Only restriction + both = 80+5 = 85.
+■ Total participants suffering from obstruction = Only obstruction + both = 1+5 = 6.
+Co-existing obstruction and restriction disorders may have higher health impacts in some
+patients, while in some patients the severity of only obstruction or only restriction may be
+higher. This may require further medical intervention based on severity of the lung disorder.
+Figure 9 illustrates the observed severity of obstruction and restriction of respiratory
+illnesses for safai karamcharis.
+■ Six participants fell in the obstruction category. Severe obstruction was found in 50%
+of participants, followed by moderate (33%) and mild (17%) cases.
+■ Eighty five participants fell in the restriction category. Moderate illness (54%) was
+dominant followed by severe and mild cases.
+Figure 9: Disease severity (%) of observed pulmonary impairments in safai karamcharis.
+
+Obstruction (n=6)
+
+Restriction (n=85)
+
+Mild
+17%
+
+Severe
+50%
+
+Severe
+28%
+
+Moderate
+33%
+
+Severe
+
+Mild
+18%
+
+Moderate
+54%
+
+Mild
+
+Moderate
+
+17
+
+UNFAIR QUALITY
+
+GENDERED IMPACT
+
+A comparison of disease severity of pulmonary impairments in male and female safai
+karamcharis is illustrated in Figure 10.
+Further, the data reveled the following:
+■ Out of the total cases of restriction, 44 cases were recorded in males and 41 cases in
+females.
+■ Moderate restriction was dominant in both males (61%) and females (46%).
+■ Six cases of obstruction were recorded. Forthy percent of the cases were severe and
+moderate in males. The only case of obstruction in d=females was severe.
+Figure 10: Disease severity (%) for male and female safai karamcharis.
+
+Obstruction
+Male (n=5)
+
+Female (n=5)
+
+Severe
+40%
+
+Moderate
+0%
+
+Mild
+20%
+
+Mild
+0%
+
+Moderate
+40%
+
+Severe
+100%
+
+Restriction
+Male (n=44)
+
+Female (n=11)
+Mild
+16%
+
+Severe
+34%
+
+Severe
+23%
+
+Moderate
+61%
+
+Severe
+
+18
+
+Mild
+20%
+
+Moderate
+46%
+Mild
+
+Moderate
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+STATISTICAL ANALYSIS OF SURVEY RESPONSES
+
+In addition, the survey results indicate the following (details of analysis in Annexure 3):
+■ Female safai karamcharis were approximately 6 times more likely to have respiratory
+illness.
+■ Lack of education is associated with a 34% increase in the probability of respiratory
+illness.
+■ People with larger families had approximately 1.8 times more probability of respiratory
+illness.
+
+19
+
+UNFAIR QUALITY
+
+20
+
+4
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Security Guards:
+The Results
+
+T
+
+his chapter discusses the results of survey data and the conducted pulmonary
+function (PF) test for the security guards. A total of 100 security guards, 94 men and
+6 women were the respondents.
+
+OVERVIEW
+
+Table 7 summarises the demographic characteristics of security guards derived from the
+survey.
+Table 7: Demographic data collected from security guards.
+Sr. No.
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Characteristics
+Age (Years)
+18-45
+46-60 or above
+Educational status
+Illiterate
+1–8
+8 – 12 or above
+BMI
+Normal (< 25 kg/m2)
+Overweight (25-29.9 kg/m2)
+Obese (>30 kg/m2)
+Smoking status
+Smoker
+Non-smoker
+Passive smoking at home or
+workplace
+Yes
+No
+Cooking fuel
+Wood/Dung cake
+LPG
+No of dependents
+No
+1-4
+>4
+
+Total (100)
+
+Male (94)
+
+Female (6)
+
+66
+34
+
+62
+32
+
+4
+2
+
+3
+97
+
+3
+91
+
+6
+
+44
+47
+9
+
+43
+43
+8
+
+1
+4
+1
+
+16
+84
+
+16
+78
+
+6
+
+6
+94
+
+5
+86
+
+1
+8
+
+11
+89
+
+10
+84
+
+1
+5
+
+55
+45
+
+55
+39
+
+6
+
+21
+
+UNFAIR QUALITY
+
+The key learnings are as below:
+■ About 66% of the participants are in the age range of 18-45 years and 34% in the age
+range of 46-60 years.
+■ Fifty four percent security guards had both day and night-time duty at their workplace.
+■ Fifty five percent of the participants supported at least 1 dependent and 45% had
+greater than 4 dependents.
+■ Only 26% owned a life insurance policy.
+
+EXPOSURE AND PROTECTIVE GEAR
+
+While ambient air pollution causes serious health impacts, other sources also add to the
+risks. The additional sources of air pollution exposure are summarized below.
+Figure 11: Sources of exposure to air pollution for security guards.
+20
+16%
+
+Participants (%)
+
+15
+11%
+9%
+
+10
+6%
+5
+
+3%
+
+0
+Smoking
+
+Passive smoking
+
+Cooking using
+wood/coal
+
+Winter-time
+wood/coal
+burning
+
+Winter-time
+waste burning
+
+Air pollution
+Figuresources
+11: affecting security guards were the following:
+■ A large percentage (80%) of security guards reported encountering problems of air
+pollution at workplace.
+■ Sixteen percent of the security guards were smokers, while 6% of them had family
+members who smoked.
+■ Eleven percent of security guards were dependent on wood or dung cakes for cooking.
+Approximately 15% burned biomass or waste to keep warm during winter.
+Sixty two percent of the security guards believed that PPE kits were helpful to protect
+them from air pollution. Therefore, security guards demonstrated the knowledge of PPE
+kits but the incentives to use them are lacking. Approximately 30% were unaware of PPE
+terminology and concept.
+
+22
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Figure 12: Perception of security guards around PPE kits.
+70
+
+64%
+
+60
+
+Perception around PPE kits
+
+70
+50
+
+[VALUE]%
+
+Participants
+Participants
+(%) (%)
+
+60
+40
+50
+40
+30
+30
+
+30%
+[VALUE]%
+
+20
+20
+[VALUE]%
+
+10
+10
+
+6%
+
+0
+0
+
+No idea
+
+Protective in nature
+
+Don't use due to breathing
+issues
+Protective in nature
+Don't use due to
+breathing issue
+
+No idea
+
+Figure 12:
+Figure 13: Availability of PPE kits to security guards.
+
+80
+67%
+
+70
+60
+
+Participants (%)
+
+50
+40
+30
+
+29%
+23%
+
+20
+9%
+
+10
+
+5%
+
+0
+Unavailable
+
+Figure 13:
+
+Mask
+
+Gloves
+
+Boot
+
+Jacket
+
+23
+
+UNFAIR QUALITY
+
+Masks were the most used Personal Protective Equipment. Sixty seven percent of the
+security guards reported having access to masks. Seventy one percent of the participants
+reported not wearing jackets, which increases their propensity of burning biomass to keep
+warm during winter months.
+
+HEALTH IMPACTS
+
+Approximately 33% reported going to hospitals for an annual routine health check-up
+regardless of symptoms. Majority, or 86% of security guards, reported that they understood
+air pollution issues and 62% felt that the outdoor nature of the job increased the air pollution
+risk to them.
+Figure 14: Reported health concerns since starting work in the current role.
+60
+
+55%
+
+40
+Participants (%)
+
+34%
+
+20
+
+16%
+
+14%
+8%
+4%
+
+4%
+
+3%
+
+1%
+
+0%
+
+le
+m
+
+n
+
+a
+
+pr
+o
+N
+
+ns
+Se
+
+rn
+i
+
+ng
+
+ob
+
+at
+io
+
+m
+th
+As
+
+in
+th
+ea
+in
+
+ty
+ic
+ul
+D
+iff
+
+Bu
+
+g
+
+a
+se
+
+br
+
+da
+ea
+
+N
+au
+
+e
+ch
+
+n
+H
+
+es
+
+tp
+
+ai
+
+at
+Ch
+
+ro
+
+ne
+
+ss
+
+in
+
+th
+
+ro
+th
+D
+ry
+
+So
+
+re
+
+Co
+
+ug
+
+at
+
+h
+
+0
+
+Approximately 45% of the participants have been facing health issues such as cough,
+sore throat, burning sensation in eyes, headache etc., since they started work in their current
+role. Among them, only 13% visited hospitals for these health issues.
+
+24
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Figure 15: Top health concerns faced while working.
+100
+86%
+
+Participants (%)
+
+80
+
+72%
+
+60
+
+40
+
+20
+4%
+
+5%
+
+Cuts / Injury
+
+Mosquito
+bites
+
+9%
+2%
+
+0%
+
+Animal bites
+
+Burns or fire
+accidents
+
+0
+Air pollution
+
+Heat
+
+Cold
+
+Air pollution (72%) and heat (86%) were the top two health challenges faced by security
+guards while working.
+
+PULMONARY FUNCTION TEST RESULTS
+
+Overall and gender-wise descriptive statistics of lung function parameters for security
+guards have been recorded in Table 8 and 9, respectively.
+Table 8: Lung Function parameters of security guards.
+Average ± SD
+
+Range
+
+CoV
+
+FVC absolute (L)
+
+3.0 ± 0.6
+
+1.0 – 4.3
+
+0.21
+
+FVC % predicted
+
+71 ± 12.2
+
+32.9 – 97.3
+
+0.17
+
+FEV1 absolute (L)
+
+2.5 ± 0.6
+
+0.74 – 3.78
+
+0.22
+
+FEV1 % predicted
+
+72.1 ± 13.4
+
+30.5 – 102.3
+
+0.19
+
+FEV1/FVC
+
+0.84 ± 0.07
+
+0.59 – 0.98
+
+0.08
+
+Overall, the mean predicted value of FVC % was observed to be 71 ± 12.2 and mean
+predicted FEV1% was 72.1 ± 13.4, which are lower compared to the normal value of 80%
+for a healthy adult of their age and weight. Standard deviations of ± 12.2 and ± 13.4 suggest
+that some security guards can meet the healthy limits, however some were worse off than
+the average which is already lower than the normal healthy range.
+
+25
+
+UNFAIR QUALITY
+
+Table 9: Lung function parameters for male and female security guards.
+Male (n=94)
+
+Female (n=6)
+
+Average ± SD
+
+Range
+
+Average ± SD
+
+Range
+
+FVC absolute (L)
+
+3.1 ± 0.6
+
+1.4 – 4.3
+
+2.0 ± 0.5
+
+1.0 – 2.5
+
+FVC % predicted
+
+71.4 ± 11.8
+
+32.8 – 97.3
+
+64.6 ± 16.4
+
+34.8 – 79.1
+
+FEV1 absolute (L)
+
+2.6 ± 0.6
+
+1.3 – 3.8
+
+1.6 ± 0.5
+
+0.74 – 2.14
+
+FEV1 % predicted
+
+72.6 ± 12.8
+
+35 – 102.3
+
+64 ± 19.8
+
+30.5 – 81.9
+
+FEV1/FVC
+
+0.84 ± 0.07
+
+0.59 – 0.98
+
+0.82 ± 0.07
+
+0.72 – 0.89
+
+The average FVC% and FEV1% for men was observed to be above 70%, however in
+females the values were approximately 64%. Therefore, female security guards exhibited
+poorer lung function than males which signifies that they had higher deterioration in lung
+function.
+Figure 16: Spirometry results for security guards.
+90
+77%
+
+80
+
+73%
+
+70
+
+Participants (%)
+
+60
+50
+40
+30
+20
+
+14% 14%
+
+10
+
+0%
+
+3%
+
+3%
+
+0%
+
+4%
+
+6%
+
+4%
+
+2%
+
+0
+Normal
+
+Only obstruction
+Total (100)
+
+Male (94)
+
+Only restriction
+
+Obstruction
+and restriction
+
+Female (6)
+
+Figure 16 depicts the occurrence of pulmonary function impairment in security guards.
+■ Of the total, 14% showed normal lung function, whereas 86% showed abnormal lung
+function.
+■ The data shows 3% had only obstruction, 77% had only restriction and 6% had both.
+None of the female participants had normal lung function.
+Therefore,
+
+26
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Total participants suffering from obstruction = Only obstruction + both = 3+6 = 9.
+Total participants suffering from restriction = Only restriction + both = 77+6 = 83.
+Co-existing obstruction and restriction disorders may have higher health impacts in
+some patients, while in some patients the severity of only obstruction or only restriction
+may be higher. This may require further medical intervention based on severity of the lung
+disorder.
+■
+■
+
+Figure17: Disease severity (%) of observed pulmonary impairments for security guards.
+
+Obstruction (n=9)
+
+Severe
+22%
+
+Restriction (n=83)
+Severe
+10%
+
+Mild
+22%
+
+Mild
+48%
+
+Moderate
+42%
+
+Moderate
+56%
+
+Severe
+
+Mild
+
+Moderate
+
+The following observations were made from disease severity assessment:
+■ Of the 9 participants suffering from obstructive lung disease, 56% cases were moderate,
+and 22% cases were severe and mild each.
+■ Of the 83 participants suffering from restrictive lung disease, the majority of the cases
+were mild (48%) and moderate (42%).
+■ Ten percent of the restriction cases were severe.
+
+GENDERED IMPACT
+
+27
+
+UNFAIR QUALITY
+
+A comparison of disease severity of pulmonary impairments for male and female security
+
+Obstruction (9)
+Male (n=7)
+
+Female (n=2)
+Mild
+29%
+
+Severe
+14%
+
+Moderate
+50%
+
+Severe
+50%
+
+Moderate
+57%
+
+Restriction (83)
+Male (77)
+
+Female (n=6)
+
+Severe
+9%
+
+Severe
+17%
+
+Mild
+48%
+
+Moderate
+33%
+
+Moderate
+43%
+Severe
+
+28
+
+Mild
+
+Moderate
+
+Mild
+50%
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+guards is illustrated in Figure 18.
+Figure 18: Disease severity (%) for male and female security guards.
+
+Further the data revealed the following:
+■ Out of the total cases of restriction, 77 cases are recorded in males and 6 cases in
+females. Forty eight percent of the cases in males and fifty percent cases in females are
+mild.
+■ Out of the total cases of obstruction, 7 cases are recorded in males. Fifty seven percent
+cases in males are moderate.
+■ Out of the two obstruction cases one case is severe and one is moderate.
+
+STATISTICAL ANALYSIS OF SURVEY RESPONSES
+
+In addition, the survey results indicate the following (details of analysis in Annexure 4):
+■ Larger families had approximately 1.8 times more probability of respiratory illness than
+the smaller families.
+■ Lack of education increased the probability of respiratory illness by approximately 2.6
+times.
+
+29
+
+UNFAIR QUALITY
+
+30
+
+5
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Wastepickers:
+The Results
+
+T
+
+his chapter discusses the results of survey data and conducted pulmonary function
+(PF) tests for wastepickers. A total of 100 wastepickers, 45 men and 55 women were
+the respondents.
+
+OVERVIEW
+
+Table 10 summarises the demographic characteristics of wastepickers derived from the
+survey.
+Table 10: Demographic data collected from wastepickers.
+Sr. No.
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Characteristics
+Age (Years)
+18-45
+46-60 or above
+Educational status
+No education
+1–8
+8 – 12 or above
+BMI
+Normal (< 25 kg/m2)
+Overweight (25-29.9 kg/m2)
+Obese (>30 kg/m2)
+Smoking status
+Smoker
+Non-smoker
+Passive smoking at home or workplace
+Yes
+No
+Cooking fuel
+Wood/Dung cake
+LPG
+No. of dependents
+No
+1-4
+>4
+
+Total (100)
+
+Male (45)
+
+Female (55)
+
+83
+17
+
+38
+7
+
+45
+10
+
+41
+45
+14
+
+16
+21
+8
+
+25
+24
+6
+
+74
+20
+6
+
+37
+8
+-
+
+37
+12
+6
+
+17
+83
+
+15
+30
+
+2
+53
+
+24
+76
+
+2
+43
+
+22
+33
+
+84
+16
+
+34
+11
+
+50
+5
+
+2
+54
+44
+
+29
+16
+
+2
+25
+28
+
+31
+
+UNFAIR QUALITY
+
+The key learnings are as below:
+■ Approximately 83% of wastepickers were between the ages of 18 and 45, showing
+younger persons are being impacted, with impact on future productivity.
+■ Forty one percent of the respondents were uneducated.
+■ The working conditions for wastepickers were as follows: 46% worked near landfill
+sites, while 47% worked in other parts of the city.
+■ Most wastepickers (58%) were self-employed, while 36% worked with contractors.
+■ Approximately 54% of wastepickers supported at least 1 dependent and 44% supported
+more than 4 dependents.
+■ Only 4% have health insurance and 9% have life insurance. The lack of awareness and
+access to insurance increases wastepickers’ vulnerability to health risks.
+
+EXPOSURE AND PROTECTIVE GEAR
+
+While ambient air pollution causes serious health impacts, other additional sources also add
+to the risks.
+Ninety five percent of the wastepickers reported that they encounter air pollution at
+their workplace.
+Figure 19: Sources of exposure to air pollution for wastepickers.
+100
+84%
+
+Participants (%)
+
+80
+
+60
+
+49%
+
+40
+
+32%
+24%
+
+20
+
+17%
+
+0
+Smoking
+
+Passive smoking
+
+Cooking using
+wood / coal
+
+Winter-time
+wood / coal burning
+
+Winter-time
+waste burning
+
+Based on the survey, the following observations about exposure to air pollution sources for
+wastepickers were made.
+■ Approximately 17% of wastepickers were smokers and 24% reported passive smoking
+either at home or workplace.
+■ Majority, or 84% of wastepickers cooked using wood, dung cakes or kerosene, exposing
+them, particularly women, to additional air pollution burden.
+■ During the winters, 49% of wastepickers burn wood or coal while 32% burn waste to
+keep warm.
+
+32
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Figure 20: Perception of wastepickers around PPE kits.
+60
+52%
+50
+
+Participants (%)
+
+40
+29%
+
+30
+
+18%
+
+20
+10
+0
+No idea
+
+Protective in nature
+
+Don't use due to
+breathing issues
+
+More than 50% wastepickers had no knowledge of PPE kits. Since nearly 60% of them
+are self-employed, the lack of PPE use could be due to inaccessibility, and due to differing
+terminology used. This suggests the need for symmetry in terminology from top to bottom.
+Approximately 20% wastepickers reported not using PPE kits due to breathing issues.
+Figure 21: Availability of PPE kits to wastepickers.
+60
+
+56%
+
+Participants (%)
+
+50
+39%
+
+40
+
+30
+
+24%
+
+20
+
+10
+
+5%
+0%
+
+0
+
+Unavailable
+
+Mask
+
+Gloves
+
+Boot
+
+Jacket
+
+More than half (56% of wastepickers had no personal protective equipment (PPE) kits.
+
+33
+
+UNFAIR QUALITY
+
+HEALTH IMPACTS
+Figure 22: Reported health concerns since starting work in their current role.
+80
+
+68%
+
+60
+
+38%
+
+40
+35%
+Participants (%)
+
+31%
+26%
+20%
+
+19%
+
+20
+
+7%
+
+6%
+1%
+
+m
+ob
+pr
+N
+o
+
+at
+ns
+Se
+g
+
+rn
+
+in
+
+le
+
+io
+n
+
+a
+th
+m
+As
+
+br
+ea
+lty
+
+cu
+iff
+i
+D
+
+Bu
+
+th
+in
+g
+
+a
+se
+au
+
+e
+
+n
+
+ch
+da
+H
+ea
+
+tp
+
+ai
+
+t
+es
+
+N
+
+in
+
+es
+D
+
+ry
+n
+
+Ch
+
+si
+n
+
+th
+r
+
+oa
+
+t
+oa
+th
+r
+
+So
+
+re
+
+Co
+
+ug
+
+h
+
+0
+
+Since beginning work in their current role, 80% of wastepickers have been facing health
+issues such as cough, headache, burning of eyes, breathing problems, etc. Among them, only
+25% visited hospitals for these health issues. Less than 20% of participants reported no
+health problems.
+
+34
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Figure 23: Top health concerns faced while working.
+100
+86%
+
+86%
+
+Participants (%)
+
+80
+
+60
+47%
+40
+
+30%
+19%
+
+20
+
+10%
+3%
+
+0
+Air pollution
+
+Heat
+
+Cuts / Injury
+
+Mosquito
+bites
+
+Animal bites
+
+Burns or fire
+accidents
+
+Cold
+
+The following conclusions were drawn:
+■ Almost 90% of wastepickers were aware of the adverse impacts of air pollution on
+human health while 78% feel that their nature of job (outdoor, working on landfill/toxic
+wastes) increases the air pollution risk to them.
+■ Approximately 54% of wastepickers believe that they do not have access to appropriate
+health care facilities.
+■ Air pollution and heat were the top two challenges faced by 86% of the respondents.
+Cuts and injury were challenges for 47% of the respondents.
+
+PULMONARY FUNCTION TEST RESULTS
+
+Overall and gender-wise descriptive statistics of lung function parameters for wastepickers
+have been recorded in Table 11 and 12, respectively.
+Table 11: Lung function parameters for wastepickers.
+Average ± SD
+
+Range
+
+CoV
+
+FVC absolute (L)
+
+2.4 ± 0.7
+
+1.2 - 4.1
+
+28.6
+
+FVC % predicted
+
+72.9 ± 12.5
+
+40.5-100
+
+17.2
+
+FEV1 absolute (L)
+
+2.1 ± 0.7
+
+0.61 - 3.6
+
+32.1
+
+FEV1 % predicted
+
+73.2 ± 15.3
+
+24.2-105.1
+
+21
+
+FEV1/FVC
+
+0.85 ± 0.1
+
+0.43 – 0.99
+
+10.5
+
+35
+
+UNFAIR QUALITY
+
+The mean predicted value of FVC% was 72.9 ± 12.5 and mean predicted value of
+FEV1% was 73.2 ± 15.3, which is lower compared to the normal value of 80% for a healthy
+adult of their age and weight. Standard deviations of ± 12.5 and ± 15.3 suggest that some
+wastepickers would fall under the normal lung function category (80%), however others
+would have poorer lung function than the average.
+Table 12: Lung function parameters for male and female wastepickers
+Male (n=45)
+
+Female (n=55)
+
+Average ± SD
+
+Range
+
+Average ± SD
+
+Range
+
+FVC absolute (L)
+
+2.9 ± 0.6
+
+1.4 - 4.1
+
+2.0 ± 0.4
+
+1.2 - 3.2
+
+FVC % predicted
+
+75.4 ± 14.0
+
+40.5 -100
+
+70.8 ± 10.9
+
+41.4 - 92.9
+
+FEV1 absolute (L)
+
+2.5 ± 0.6
+
+0.9 - 3.6
+
+1.7 ± 0.4
+
+0.6 - 2.8
+
+FEV1 % predicted
+
+77.3 ± 16.5
+
+31.4 - 105.1
+
+69.9 ± 13.6
+
+24.2 - 92.8
+
+FEV1/FVC
+
+0.86 ± 0.1
+
+0.58 - 0.99
+
+0.85 ± 0.1
+
+0.43 - 0.99
+
+Male wastepickers showed FVC% and FEV1% values above 75, while females showed
+approximately 70%, which suggests poorer lung function among women wastepickers
+compared to men.
+Figure 24 shows the prevalence of pulmonary function impairment in wastepickers
+based on pulmonary function tests.
+Figure 24: Spirometry results for wastepickers.
+80
+68%
+
+70
+
+Participants (%)
+
+60
+50
+
+42%
+
+40
+30
+20
+
+26%
+
+25%
+15%
+10%
+
+7%
+
+10
+0%
+
+0%
+
+0%
+
+4%
+
+3%
+
+0
+Normal
+
+Only obstruction
+Total (100)
+
+36
+
+Male (94)
+
+Only restriction
+Female (6)
+
+Obstruction
+and restriction
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+The results of the spirometry test of wastepickers were as follows:
+■ Approximately, 75% of participants had abnormal spirometry patterns, and only 25%
+had normal lung function.
+■ A majority, or 68%, accounted for only restriction. Seven percent had both obstructive
+and restrictive disorders.
+Therefore,
+■ Total participants suffering from restriction = Only restriction + both = 68+7 = 75.
+■ Total participants suffering from obstruction = Only obstruction + both = 0+7 = 7.
+Figure 25: Disease severity (%) of observed pulmonary impairments for wastepickers.
+
+Obstruction (n=7)
+
+Restriction (n=75)
+
+Moderate
+43%
+
+Severe
+57%
+
+Severe
+17%
+
+Mild
+40%
+
+Moderate
+43%
+
+Severe
+
+Mild
+
+Moderate
+
+The severity of obstruction and restriction impairments for wastepickers is presented in
+Figure 25.
+■ Of the 7 participants suffering from obstructive lung disease 57% of the cases were
+severe. None had mild obstruction impairment.
+■ Of the 75 participants suffering from restrictive lung disease,43% of the cases were
+moderate, 40% of the cases were mild, and 17% cases were severe.
+
+GENDERED IMPACT
+
+A comparison of disease severity of pulmonary impairments in male and female wastepickers
+is illustrated in Figure 26.
+
+37
+
+UNFAIR QUALITY
+
+Figure 26: Disease severity (%) for male and female wastepickers.
+
+Obstruction
+Male (n=4)
+
+Female (n=3)
+
+Severe
+25%
+
+Moderate
+75%
+
+Severe
+100%
+
+Restriction
+
+Male (n=30)
+
+Female (n=45)
+Severe
+13%
+
+Severe
+23%
+
+Mild
+40%
+
+Moderate
+47%
+Moderate
+37%
+
+Severe
+
+38
+
+Mild
+
+Moderate
+
+Mild
+40%
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Further, the data revealed the following:
+■ Out of the total cases of restriction, 30 cases were recorded in males and 45 cases in
+females.
+■ Moderate cases were recorded in 47% females and 37% males.
+■ Out of the total cases of obstruction, all cases recorded in females were severe and
+75% cases in males were moderate.
+
+STATISTICAL ANALYSIS OF SURVEY RESPONSES
+
+In addition, the survey results indicate the following (details of analysis in Annexure 5):
+■ Female wastepickers are 3.9 times more likely to have respiratory illness.
+■ Lack of education is associated with a 17% increase in the probability of respiratory
+illness.
+
+39
+
+UNFAIR QUALITY
+
+40
+
+6
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Comparative Analysis of Studied
+Groups and Control Group
+
+T
+
+his chapter discusses the comparative analysis of the surveys and pulmonary function
+(PF) tests for the 100 participants from the 3 studied groups (safai karamcharis,
+security guards, and wastepickers) with the 100 participants from the control group.
+In the following sections, the response to the questionnaire will first be discussed, followed
+by the severity of the respiratory illness (obstruction and restriction) based on PF tests.
+
+EXPOSURE AND PROTECTIVE GEAR
+
+A significant percentage of the studied groups, 97% safai karamcharis, 95% wastepickers,
+and 82% security guards reported exposure to air pollution during work. This indicates that
+all three categories are aware of their exposure to air pollution during work.
+Figure 27: Cooking fuel usage.
+100
+90
+
+84%
+
+89%
+
+84%
+
+80
+Participants (%)
+
+70
+60
+50
+40
+30
+20
+
+16%
+
+16%
+11%
+
+10
+0
+Waste Pickers
+
+Safai Karamcharis
+Wood / Coal
+
+Security Guards
+LPG
+
+Wastepickers had the highest incidence (84%) of cooking with wood, dung and other
+fuels which are known to emit high amounts of pollutants. LPG cylinders are used by more
+than 80% safai karamcharis and security guards. The incidence of using polluting fuels is
+very high among wastepickers and the primary reason identified for the same is that clean
+cooking fuels such as liquified petroleum gas (LPG) is beyond their budget.
+
+41
+
+UNFAIR QUALITY
+
+Figure 28: Extent of open burning during winter.
+60
+49%
+
+Participants (%)
+
+50
+40
+
+32%
+
+30
+20
+10
+
+9%
+
+5%
+0%
+
+3%
+
+0
+Waste Pickers
+
+Safai Karamcharis
+Wood / Coal
+
+Security Guards
+Waste
+
+Nearly half, or 49% wastepickers, and a small percentage of safai karamcharis (5%) and
+security guards (9%) reported burning wood or coal to keep warm during winter. Waste
+burning is reported to be practiced by more than 30% wastepickers and less than 5%
+security guards. Safai karamcharis did not report burning waste.
+Figure 29: Perception around Personal Protective Equipment (PPE).
+70
+
+Participants (%)
+
+60
+
+64%
+
+61%
+52%
+
+50
+40
+
+30%
+
+30
+
+29%
+
+26%
+18%
+
+20
+
+15%
+6%
+
+10
+0
+
+No idea
+Waste Pickers
+
+Protective in nature
+Safai Karamcharis
+
+Don't use due to
+breathing issues
+Security Guards
+
+The survey results indicate the following:
+■ Approximately 61% safai karamcharis, 52% wastepickers, and 30% security guards are
+unaware of the PPE terminology and concept.
+■ Awareness of PPE kits is higher among security guards. Approximately 65% security
+guards believe that PPEs were protective in nature. Six percent of security guards said
+they didn’t use PPEs due to breathing issues.
+■ Almost 30% wastepickers and safai karamcharis stated that PPEs are protective in
+nature, however, nearly 20% and 15% said they don’t use them due to breathing issues.
+
+42
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Figure 30: Availability of PPE kits.
+
+67%
+
+70
+
+60
+
+56%
+
+Participants (%)
+
+52%
+48%
+
+50
+39%
+
+40
+
+30
+
+29%
+24%
+
+23%
+
+20%
+
+20
+9%
+
+10
+
+5%
+
+7%
+
+5%
+1%
+
+0%
+
+0
+Unavailable
+Waste Pickers
+
+Mask
+
+Gloves
+Safai Karamcharis
+
+Boot
+
+Jacket
+
+Security Guards
+
+In addition to low awareness, access to PPE kits was also low across all the groups.
+■ Wastepickers and safai karamcharis had minimum access to PPE kits. More than half,
+or 56% of the wastepickers and 52% safai karamcharis had no PPE kits. Approximately
+20% of security guards did not have access to PPE kits.
+■ Masks were the most used protective gear among all 3 groups. This might be due to the
+pandemic which shifted mask usage across populations.
+■ Gloves were used by approximately 24% wastepickers and 20% safai karamcharis. Poor
+use of gloves may pose increased health risks due to direct interaction of wastepickers
+and safai karamcharis with waste.
+
+HEALTH IMPACT OBSERVATIONS
+
+Of all the study participants, 90% of wastepickers, 85% safai karamcharis, and 86% security
+guards said they were aware of air pollution and its impacts. Thus, even though there is high
+awareness of the risks, they remain compelled to work in these professions for financial
+security.
+Most respondents from all groups perceived air pollution and extreme heat as the top
+two challenges during work.
+Since starting to work in their current role, 80% wastepickers, 47% of safai karamcharis,
+and 45% security guards have been experiencing health issues such as cough, headache,
+burning of eyes, breathing issues, chest pain, etc.
+
+43
+
+UNFAIR QUALITY
+
+Figure 31: Top health concerns faced by all groups while working.
+86%
+
+90
+80
+
+86%
+
+81%
+
+83%
+
+86%
+
+72%
+66%
+
+70
+
+63%
+
+60
+47%
+
+Participants (%)
+
+50
+40
+30
+
+23%
+
+20
+
+10%
+4%
+
+10
+0
+Air pollution
+
+Heat
+
+Waste Pickers
+
+Cuts / Injury
+
+Safai Karamcharis
+
+Security Guards
+
+Figure 32: Reported throat-related health concerns by all groups since starting current role.
+70
+
+68%
+
+60
+
+Participants (%)
+
+50
+40
+
+35%
+
+34% 34%
+
+30
+21%
+
+20%
+
+20
+10%
+
+14%
+7%
+
+10
+0
+
+2%
+Cough
+Waste Pickers
+
+Sore throat
+Safai Karamcharis
+
+Security Guards
+
+4%
+
+6%
+
+Dryness in throat
+Control Group
+
+Nearly 70% wastepickers and 34% safai karamcharis and security guards reported
+cough as the top throat-related health concern experienced since they started working in
+their current role.
+Burning sensation in eyes was experienced by 31% wastepickers and approximately
+15% safai karamcharis and security guards. Thirty eight percent wastepickers and sixteen
+percent safai karamcharis also experienced headaches since starting their current role.
+
+44
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+30%
+22%
+
+19%
+
+18%
+
+18%
+10%
+
+5%
+
+3%
+
+Mosquito bites
+
+2%
+
+4%
+
+2%
+
+3%
+
+Animal bites
+
+0%
+
+9%
+
+1%
+
+Burns or fire
+accidents
+
+Control Group
+
+15%
+
+Cold
+
+Figure 33: Reported eye-related health concerns by all groups since starting current role.
+
+40
+
+38%
+
+35
+31%
+
+Participants (%)
+
+30
+
+25
+
+20
+15%
+15
+
+16%
+
+16%
+
+15%
+
+12%
+
+10
+
+8%
+6%
+
+6%
+
+5
+
+3%
+1%
+
+0
+Burning sensation in eyes
+Waste Pickers
+
+Safai Karamcharis
+
+Headache
+Security Guards
+
+Nausea
+Control Group
+
+45
+
+UNFAIR QUALITY
+
+Figure 34: Reported chest-related health concerns by all groups since starting current role.
+30
+
+26%
+
+Participants (%)
+
+25
+19%
+
+20
+15
+8%
+
+10
+3%
+
+5
+
+4%
+
+3%
+
+1%
+
+0
+Difficulty in breathing
+Waste Pickers
+
+0%
+
+0%
+
+Asthma
+
+Safai Karamcharis
+
+5%
+
+0%
+
+0%
+Chest pain
+
+Security Guards
+
+Control Group
+
+Wastepickers also reported difficulty in breathing (26%) and chest pain (19%). Asthma
+was not reported by the studied groups, however, the PF tests showed deteriorated lung
+function for all studied groups. This further strengthens the observation that the studied
+communities did not get health checkups unless they experienced serious health impacts.
+Figure 35: Healthcare access.
+98% 96%
+
+94%
+
+100
+
+Participants (%)
+
+80
+58%
+
+60
+33%
+
+40
+20
+0
+
+40%
+25%
+
+19%
+
+10% 12%
+
+11%
+
+Annual health check up
+without any illness
+Waste Pickers
+
+46%
+
+Hospital visits since they started
+work in their current role
+
+Safai Karamcharis
+
+Security Guards
+
+Satisfaction with
+medical facility
+Control Group
+
+The following conclusions about access to healthcare were drawn from the survey.
+■ Approximately 54% and 42% of wastepickers and safai karamcharis believe that they
+do not have appropriate health care facilities.
+■ Approximately 80% safai karamcharis, 89% wastepickers, and 67% security guards do
+
+46
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+not have access to routine annual health checkups unless they experience symptoms
+of an illness. This shows that the studied groups perceive the health impacts of their
+occupation but don’t get regular health checkups. By improving healthcare access, this
+gap can be bridged.
+
+PULMONARY FUNCTION TEST RESULTS OF ALL GROUPS
+
+The present section deals with the measured lung function parameters for all the groups.
+Predicted values for FVC and FEV1 represent the normal result calculated based on
+age, height, and sex. Absolute values for FVC and FEV1 represent the values obtained upon
+conducting the spirometry test. Percent predicted values for FVC and FEV1 represent the
+percentage of the predicted FVC. As discussed previously, 80% lung function is considered
+normal for a healthy adult. The mean values were calculated to get the average values for
+the 4 categories. Standard deviation was calculated to understand the deviation of the data
+collected from the average.
+Table 13 lists the descriptive statistics of lung function parameters for studied groups.
+The table above indicates that participants from all three studied groups had lower lung
+function than the healthy limits.
+Safai karamcharis had the lowest lung function followed by security guards and
+wastepickers. In comparison, participants of the control group had better lung function than
+the studied groups.
+Table 13: Lung function parameters for studied groups and control group.
+Wastepickers
+(n=100)
+
+Safai Karamcharis
+(n=100)
+
+Security Guards
+(n=100)
+
+Control Groups
+(n=100)
+
+FVC absolute (L)
+
+2.4 ± 0.7
+
+2.1 ± 0.7
+
+3.0 ± 0.6
+
+3.2 ± 0.6
+
+FVC % predicted
+
+72.9 ± 12.5
+
+62.0 ± 14.7
+
+71 ± 12.2
+
+81.5 ± 7.8
+
+FEV1 absolute (L)
+
+2.1 ± 0.7
+
+1.8 ± 0.6
+
+2.5 ± 0.6
+
+2.7 ± 0.5
+
+FEV1 % predicted
+
+73.2 ± 15.3
+
+64.2 ± 16.1
+
+72.1 ± 13.4
+
+82.5 ± 7.7
+
+FEV1/FVC
+
+0.85 ± 0.1
+
+0.85 ± 0.1
+
+0.84 ± 0.07
+
+0.86 ± 0.05
+
+Further the data revealed the following:
+■ The gender-wise comparison concluded that women participants of all studied
+groups had lower lung volumes than the males. This signifies that females had more
+deteriorated lung function capacity.
+■ Female safai karamcharis showed maximum lung function deterioration, followed by
+security guards and wastepickers. All three groups showed average values lower than
+normal. This can be attributed to the fact that women are more exposed to indoor air
+pollution during cooking using wood or coal.
+■ In contrast, female participants from control group showed average values above 80%,
+indicating normal lung function.
+
+47
+
+UNFAIR QUALITY
+
+Figure 36: Spirometry results for all groups.
+86%
+
+86%
+
+90
+75%
+
+80
+
+Participants (%)
+
+70
+55%
+
+60
+
+45%
+
+50
+40
+30
+
+25%
+
+20
+
+14%
+
+14%
+
+10
+0
+Normal spirometry
+
+Abnormal spirometry
+
+Figure 36 illustrates the observed spirometry pattern based on the conducted PF test for
+all groups.
+The following results were obtained from the spirometry tests:
+■ Approximately 80% of the 3 groups had abnormal spirometry results.
+■ A small percentage of wastepickers (25%), safai karamcharis (14%) and security guards
+(14%) had normal spirometry patterns.
+■ In comparison, the control group accounted for 55% of normal spirometry test results.
+Figure 37: Disease severity for studied groups.
+80%
+
+77%
+
+80
+68%
+
+70
+
+55%
+
+Participants (%)
+
+60
+50
+
+43%
+
+40
+30
+
+25%
+
+20
+
+14%
+7%
+
+10
+0
+
+0%
+Waste Pickers
+Normal
+
+48
+
+14%
+1%
+
+5%
+
+Safai Karamcharis
+Only obstruction
+
+3%
+
+6%
+
+Security Guards
+Only restriction
+
+0%
+
+2%
+
+Control Group
+Obstruction+Restriction
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Distribution of respiratory disorders (obstruction, restriction and mixed) for all studied
+groups has been presented in Figure 37. The following observations were drawn.
+■ Cases of only obstruction were recorded in only 1% safai karamcharis and 3% security
+guards.
+■ Restriction disorders were dominant in all studied groups - 75% wastepickers, 85%
+safai karamcharis, and 83% security guards.
+■ In contrast, 45% participants from the control group exhibited restriction disorders.
+■ A combination of both obstruction and restriction disorders were recorded in 7%
+wastepickers, 5% safai karamcharis, 6% security guards, and only 2% participants from
+the control group.
+The following can be drawn from the disease severity assessment:
+■ Moderate and severe cases of restriction are dominant among safai karamcharis. Out
+of the total cases of restriction in safai karamcharis, 54% are moderate and 28% are
+severe.
+■ Mild cases of restriction are most common among security guards. Out of the total
+cases of restriction in security guards, approximately 48% are mild.
+■ Moderate cases were recorded in approximately 43% wastepickers.
+■ The control group has the lowest severity of respiratory disorders. Approximately 95%
+of the cases of restriction among the control group are mild.
+Gender-wise comparison between obstruction and restriction severity among all
+groups showed the following:
+Figure 38: Obstruction and restriction severity for all studied groups.
+Obstruction Severity
+6
+
+5%
+
+Participants (%)
+
+4%
+4
+
+3%
+
+3%
+
+2%
+
+2%
+2
+
+2%
+
+0%
+0
+
+2%
+
+1%
+0%
+
+Waste Pickers
+
+Safai Karamcharis
+
+Security Guards
+
+0%
+Control Group
+
+Restriction Severity
+46%
+
+Participants (%)
+
+50
+40
+30
+20
+
+30%
+
+40%
+
+32%
+
+35%
+
+24%
+13%
+
+15%
+
+8%
+
+10
+0
+
+43%
+
+Waste Pickers
+
+Safai Karamcharis
+Mild
+
+Moderate
+
+Security Guards
+
+2%
+
+0%
+
+Control Group
+
+Severe
+
+49
+
+UNFAIR QUALITY
+
+SAFAI KARAMCHARIS
+■
+■
+■
+
+Severe cases were recorded in 34% female and 23% male safai karamcharis suffering
+from restriction.
+Forty percent of obstruction cases in men were severe and moderate.
+The only case of obstruction in female safai karamcharis was severe.
+
+SECURITY GUARDS
+■
+■
+■
+
+Moderate cases were recorded in 33% female and 42% male security guards suffering
+from restriction.
+Fifty seven percent of the obstruction cases among men were moderate.
+Two cases of obstruction in female security guards were moderate and severe.
+
+WASTEPICKERS
+
+Moderate cases were recorded in 46% of the total cases of restriction among women
+and 36% of restriction cases in men.
+■ Hundred percent of the cases of obstruction in women were severe.
+The following conclusions on the gendered impact of air pollution are drawn:
+■ Female wastepickers and safai karamcharis show higher instances of severe obstructive
+and restrictive disorders. This could be due to higher use of biomass fuels and exposure
+to ambient pollutants in the workplace.
+■ Control groups working indoors also had a prevalence of respiratory impairment,
+although mild and moderate. Approximately 75% of restriction cases in men from the
+control group were moderate. The two cases of obstruction recorded in females were
+both moderate. No severe cases were observed.
+■ This suggests that air pollution poses health risks to both indoor and outdoor
+occupational groups. However, outdoor workers, particularly women, display higher
+instances of severe lung disorders.
+■
+
+50
+
+7
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Conclusions
+
+T
+
+he results suggest that the three outdoor worker groups studied are exposed to air
+pollution due to the nature of their work. All three groups perceived air pollution a
+risks to their health. This perception was also validated by the pulmonary function
+test results.
+Participants from all groups supported at least one dependent, which suggests that they
+are likely to continue working to support their families, despite the risks of their occupation.
+Lack of education was also recorded across the groups, which further makes finding better
+livelihood opportunities difficult. Additionally, participants below the age of 45 across all
+groups may experience worsening health impacts over time, which can further impact their
+work and livelihood security in the future. The following section discusses the conclusions
+drawn from the study.
+1.
+
+WORKERS IN THE STUDY PERCEIVE AIR POLLUTION TO BE THE BIGGEST
+CHALLENGE AT WORK DESPITE LOW LEVELS OF EDUCATION.
+According to the survey results, 81% of safai karamcharis, 72% of security guards, and
+86% of wastepickers agreed that one of the main challenges they experience at work
+is exposure to air pollution. This shows that people are aware of pollution levels in
+Delhi. Additionally, each group (78% of wastepickers, 61% of safai karamcharis, and
+62% of security guards) acknowledges that the nature of their jobs exposes them to
+air pollution.
+
+2.
+
+THE RISK PERCEPTION OF HARM TO HEALTH DURING WORK IS HIGH
+AMONGST ALL THE STUDIED WORKERS.
+While exposure to air pollution is cited as one of the main concerns for all studied
+groups, exposure to extreme weather conditions like heat and cold as well as cuts and
+bruises are also identified as dangers. Approximately 86% of security personnel and
+wastepickers, and 83% safai karamcharis acknowledged that exposure to heat is a top
+challenge that comes with their work. Workers are therefore clearly able to identify the
+environmental hazards they experience during work.
+
+51
+
+UNFAIR QUALITY
+
+52
+
+3.
+
+HIGH PREVALENCE OF BIOMASS BURNING FOR COOKING AND OPEN
+BURNING, PARTICULARLY AMONG WASTEPICKERS
+The study identifies that the wastepicker group has the highest incidence of using
+biomass as cooking fuels (84%) as well as burning waste and wood or coal (49%)
+during winter for insulation. For safai karamcharis and security guards the reported
+numbers for use of biomass for cooking (16% safai karamcharis, 11% security guards)
+and burning waste (5% safai karamcharis, 9% security guards) are significantly lower.
+It is possible that there is an under-reporting on open burning as it is disallowed by
+law. Unlike wastepickers, in case of safai karamcharis and security guards employed by
+government, there is a hesitation to acknowledge this as it could negatively impact job
+security.
+
+4.
+
+THE OCCUPATIONAL GROUPS, SAFAI KARAMCHARIS, SECURITY GUARDS
+AND WASTEPICKERS, SUFFER FROM WORSENED LUNG FUNCTION CAPACITY
+COMPARED TO THE CONTROL GROUP.
+The study finds that the wastepickers, safai karamcharis, and security guards, suffered
+from decreased lung function capacity when compared to the control group. While
+55% of the control group exhibited normal lung function, only 25% wastepickers, 14%
+safai karamcharis, and 14% security guards exhibited normal lung function.
+
+5.
+
+WOMEN ACROSS ALL GROUPS HAVE HIGHER INCIDENCE OF RESPIRATORY
+ILLNESS AS COMPARED TO MEN
+According to the study, women's lung capacities are deteriorated in comparison to men
+in all categories. It can thus be concluded that air pollution disproportionately affects
+and puts at risk women more. Women wastepickers, for instance, are 3.9 times more
+likely than males to have a respiratory disease, while women safai karamcharis are 6
+times more likely to deteriorated lungs, according to the results. Indoor air pollution
+through cooking particularly when using biomass exposes women to household
+pollution because they are often the carers. Thus, women are more vulnerable since
+they are exposed to both outdoor and indoor air pollution.
+
+6.
+
+WORKERS STUDIED REPORT POOR ACCESS TO HEALTHCARE FACILITIES
+The study finds that the groups surveyed reported poor access to health care services.
+While 54% of wastepickers and 42% safai karamcharis reported that they were
+unsatisfied with the health services available to them, 96% of the control group felt
+satisfied with the health services available to them.
+
+7.
+
+LOW AWARENESS OF HEALTH-PROMOTING BEHAVIOR
+Even though 80% wastepickers, 47% safai karamcharis, and 45% security guards report
+health conditions like cough, headaches, and asthma since they joined their current
+role, only 25% wastepickers, 11% safai karamcharis and 13% security guards sought
+healthcare services for the same. The study also finds that only 11% wastepickers, 19%
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+safai karamcharis, 33% security guards seek for annual health checkups regardless of
+illness. This indicates low awareness of and poor access to healthcare, even possibly
+low confidence in it.
+8.
+
+LOW USAGE AND ACCESS TO PERSONAL PROTECTIVE EQUIPMENT (PPE)
+Awareness about personal protective equipment was found to be low. The study found
+that 52% wastepickers, 61% safai karamcharis and 30% security guards did not know of
+PPEs. Moreover, due to lack of access, 52% of wastepickers, 23% of safai karamcharis
+and security guards never used PPE kits. Further, it was found that wherever available,
+no incentives are in place to encourage PPE use among these groups, indicating a need
+for further nudges in this direction.
+
+53
+
+UNFAIR QUALITY
+
+54
+
+8
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+Recommendations
+
+T
+
+his study demonstrates the pulmonary health of outdoor occupational groups
+is heavily impacted due to air pollution. Further, when compared to the control
+group, the workers surveyed suffered from significantly worse pulmonary health.
+The recommendations below are based on inputs from doctors, suggestions from those
+surveyed, and interventions based on Chintan’s work on occupational health previously.
+Prevention of pollutants reaching the eyes, nasal cavity and throat must be the first priority.
+Key amongst the combined inputs for all 3 groups were:
+■ Standardize PPE for worker groups that are common for all
+■ Hand and face washing facilities at the work place for municipal workers and all MRFs,
+composting facilities and waste dumps and landfills, along with nudges for the workers
+to use them
+■ Many workers take to cotton gamchas or cotton cloths more than to masks, which are
+often discarded rapidly, even after COVID. Hence, masks must be tried out first, and if
+the uptake is not satisfactory, gamchas may be tried out. These can be modified based
+on local cultural norms.
+■ Training to gargle every morning after night duty or at night after day duty to remove
+dust particles from the nasal cavity and throat to be conducted.
+■ Prevention of exposure also requires removal of the individual from work during peak
+pollution, and rotation of duties.
+■ Training to use protective gear and individual action to reduce occupational exposure
+■ Annual health check-ups focused on monitoring pulmonary, eye, sinus, and ENT
+illnesses should be conducted and the data shared with the worker as well as stored.
+This could be by ULBs as well as identified local government hospitals, who must be
+mandated and incentivized to undertake this data collection and identify the worse
+impacted persons.
+■ Any worker in a non-attainment city to access PFT in a government clinic or hospital or
+any affiliated health care
+The following should be made available to pregnant and lactating women security guards:
+■ Check-ups every trimester with focus on monitoring occupational illness and pathways
+for those impacted.
+■ Nutrient supplements via government schemes (like the Take Home Ration Scheme)
+which focus on pregnant and lactating mothers.
+
+55
+
+UNFAIR QUALITY
+
+Access to social security, including paid leave during pregnancy to prevent exposure to
+the fetus.
+■ Occupational safety must be incentivized and measured, including in the Swachh
+Sarvekshan and other national protocols.
+■ Guidelines on exposure prevention and its widespread dissemination
+Key to these recommendations is they be practical, sustainable in the long term and
+scalable. They are organized according to occupational groups below. In all groups, the
+workers pointed out the need to reduce vehicles on the road, as these create not only
+particulate matter pollution from vehicle exhaust pipes but also resuspend road dust,
+thereby increasing pollution levels significantly.
+■
+
+SAFAI KARAMCHARIS
+Occupational Health and Safety
+
+The following should be issued and made available to all Safai Karamcharis across ULBs:
+■ Industry standard Personal Protective eyeglasses to protect the eyes against pollution.
+■ Masks (N-95) issued every fortnight.
+■ Training to gargle every night to remove dust particles from the nasal cavity and throat.
+■ Gamcha or cotton cloth to cover the head, face, and nose in addition.
+■ Awareness on the need for removal of gamcha or cotton cloth, footwear and eyeglasses
+before entering the home.
+■ Provision of hand and face washing facilities should be mandated near the place of
+work, such as reporting point, etc.
+■ Training on effective way to use protective gear and individual action to reduce
+occupational exposure
+■ Annual health check-ups focused on monitoring occupational illness with work-rest
+pathways for those impacted
+
+Protection for pregnant and lactating women
+
+The following should be made available to pregnant and lactating women safai karamcharis:
+■ Check-ups every trimester with focus on monitoring occupational illness and pathways
+for those impacted
+■ Nutrient supplements via government schemes (like the Take Home Ration Scheme)
+which focus on pregnant and lactating mothers
+■ Flexible working hours – to prevent exposure when AQI is severe
+■ Access to washroom and resting places closeby which are open throughout working
+hours and can be used per need.
+
+Pollution Management
+■
+
+56
+
+Delegation of power to sanitary inspectors is essential to report waste burning with
+concurrent power to issue reprimands and escalate them for fining. This can reduce
+burning and hence, workers’ exposure.
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+■
+
+Use of mechanized sweepers on arterial and larger roads with traffic should be adopted
+to reduce workers’ exposure in highly polluted areas.
+
+Limiting exposure
+■
+■
+■
+■
+
+Change of work shifts from early morning to later in the day during peak pollution
+months, including when the AQI is likely to touch hazardous levels must be mandated.
+Where possible, reduction of the frequency of sweeping when AQI touches hazardous
+levels, along with public communication on the need for this must be ensured.
+Resting places for Safai Karamcharis must be re-designed as above the tail-pipe level of
+SUVs even if near any road, small or large.
+Shifting safai karamcharis working on arterial roads or landfills and other highly polluted
+sites frequently to prevent long-term exposure.
+
+Systemic
+■
+
+■
+■
+■
+■
+
+■
+■
+
+Guidelines on occupational health protection to be issued by Pollution Control Boards.
+ULBs should be mandated to file photographic compliance reports with these guidelines
+every quarter in non-attainment cities and industrial townships and annually in other cities.
+Localized action is key. Use of drones and other imagery must be adopted to identify
+garbage burning. Organizations or individuals to be fined per law based on such inputs.
+Provision of mist-spray must be ensured when AQI is 250 or higher to prevent rising
+dust during work.
+Bioremediation of landfills must be undertaken per the Swachh Bharat Urban.2
+Composting of wet waste should be adopted to prevent landfill fires. Investment in
+capital costs should be made for decentralized composting with limited buyback at
+costs sustainable to the waste generators/those undertaking the composting. Chintan
+recommends a cost price plus 10% as the purchase price. The cost price must include
+minimum wages of workers, enzymes, water costs, and repair, usually 5% of overall
+capital costs per annum.
+Improvement in in-situ horticulture waste management to prevent burning should be
+ensured.
+Increase in e-waste and used tyre collection should be initiated to prevent open burning
+and increase recycling rates.
+
+SECURITY GUARDS
+Occupational Health and Safety
+■
+■
+■
+
+Masks (N-95) to be issued during peak pollution by companies or individuals hiring
+them.
+Electric or other heated bottles must be provided, along with access to electricity to
+reduce wood burning during winter.
+Warm kits with woolen caps, thick socks, warm jackets, plug-in hot water bottles, and
+more to be provided to combat peak winter temperatures.
+
+57
+
+UNFAIR QUALITY
+
+■
+
+■
+
+Kiosks should be designed or placed to minimize road dust exposure. These should be
+closed on the side of the road, but with windows for increased comfort. Use of digital
+monitoring for security must be increased.
+Kiosks and porta cabins or any covered space for security guards must be provided,
+apart from thermal heating from hot water bottles or electric heat bottles and blankets.
+Digital surveillance devices should be optimized.
+
+Protection for pregnant and lactating women
+
+The following should be made available to pregnant and lactating women security guards:
+■ Check-ups every trimester with focus on monitoring occupational illness and pathways
+for those impacted
+■ Nutrient supplements via government schemes (like the Take Home Ration Scheme)
+which focus on pregnant and lactating mothers. Security agencies may also provide
+nutritional kits in consultation with a relevant medical practitioner
+■ Flexible working hours – to prevent exposure when AQI is severe
+■ Access to washroom and resting places closeby which are open throughout working
+hours and can be used per need.
+
+Limiting exposure
+■
+■
+■
+■
+
+Enclosed spaces to sit should be provided. Seating should be engineered at higher than
+tail-pipe level to reduce exposure.
+Trainings must be conducted for security guards to use electronic devices to monitor
+better from inside the enclosed seating.
+Rotation in duties from high pollution spots to lower pollution spots to reduce exposure
+must be mandated.
+Shifting security guards working on arterial roads or landfills and other highly polluted
+sites frequently to prevent long-term exposure.
+
+Systemic
+■
+■
+■
+
+■
+■
+
+■
+
+58
+
+Specific focus on security that works on construction sites, schools and lower income
+areas for procurement of kiosks and electric hot water bottles must be ensured.
+Trainings on dust control for security staff at construction sites must be conducted so
+they can self-monitor for a safer workplace.
+Pollution Control Boards to pass guidelines on occupational health protection. Volunteers
+to monitor adherence in light of capacity constraints, along with photographic and
+written self-reporting on compliance to be filed every quarter.
+Occupational health protection to become part of all air pollution monitoring.
+Any emergency measures to control air pollution must include occupational safety.
+This includes all stages of GRAP (Graded Rapid Action Plan) for NCR and others as they
+are formulated.
+Discounts to be provided for kiosks/porta-cabins if purchased by registered Residents
+or Market Associations for security personnel in non-attainment cities, cities with over
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+■
+
+300 AQI recorded for over 30 days in a year and industrial townships. The ULBs may
+apply to the Urban Development Department of the State for eligibility.
+Swachh Air Survey should include occupational safety for security guards.
+
+WASTEPICKERS
+Occupational Health and Safety
+
+The study found that the stereotypical gloves and masks is not the only PPE that this
+group needs. Wastepickers may also receive PPE kits from funds collected from various
+environmental fees, cess etc. by the Pollution Control Boards or an equivalent.
+The following should be issued and made available to all wastepickers across ULBs.
+■ Industry standard personal protective eyeglasses to protect the eyes against pollution.
+■ Masks (N-95) issued every fortnight. RWAs to also issue these, where possible.
+■ Use of gamcha or cotton cloth to cover the head, face and nose in addition to be made
+mandatory.
+
+Protection for pregnant and lactating women
+■
+■
+
+Free gas cylinders for all identified wastepickers. Identification can mean with I cards
+from any ULB, agency or a work contract with a bulk generator.
+Access to washroom and resting places closeby which are open throughout working
+hours and can be used per need.
+
+Pollution Management
+■
+■
+
+■
+
+Workers must be encouraged to report any waste burning to the local Sanitary Inspectors.
+Campaigns and fines to ensure waste is segregated per the law. Doorstep waste
+collectors to be empowered to pressurize residents for segregated waste. Handling of
+mixed waste to be minimized.
+Wastepickers to be enabled to shift from segregating dry waste on roadsides or dhalaos
+to well-organized dry waste collection centres or MRFs.
+
+Limiting exposure
+■
+■
+■
+■
+
+All segregation spaces and MRFs to be ideally away from main roads, and seating
+designed to be above tail-pipe level of SUVs.
+All MRFs, or Dry Waste Collection Centres must be well-ventilated.
+MRFs or DWCCs to be designed such that those working there do no hunch over for
+hyper-segregation.
+Free gas cylinders for wastepickers registered as part of an organization, with work
+contracts with waste generators or with the ULB. One a month is identified as adequate.
+
+Systemic
+■
+
+Wastepickers should be empowered to shift to other forms of recycling and circular
+economy livelihoods, instead of working on landfills. This includes doorstep collection,
+
+59
+
+UNFAIR QUALITY
+
+■
+
+■
+■
+
+■
+
+■
+■
+
+composting, running MRFs and upgrading to formally dismantling e-waste under safe
+working conditions.
+Wet waste must be composted to prevent landfill fires. Investments need to be made
+in capital costs for decentralised composting. This needs to be done with limited buy
+back at costs sustainable to the waste generators/those undertaking the composting.
+Chintan recommends cost price plus 10% as the purchase price. The cost price must
+include minimum wages of wastepickers, enzymes, water costs, and repair (usually 5%
+of overall capital costs per annum).
+In-situ horticulture waste management must be improved to prevent burning.
+Wastepickers must be involved in executing this.
+The Swachh Bharat Mission must issue guidelines on occupational health protection,
+syncing it with the Swachh Sarvekshan to create incentives. ULBs must be mandated file
+photographic compliance reports every quarter in non-attainment cities and industrial
+townships and annually in other cities.
+Access to healthcare for wastepickers carrying any ID card stating they are wastepickers
+must be improved. This may be done by identifying hospitals where they can meet
+specialists and be tested for free. No individual should have to travel more than 10
+kilometers.
+Drones and other imagery must be used to identify garbage burning. Organizations or
+individuals to be fined per law.
+Bioremediation of landfills must be undertaken to prevent fires.
+
+Such recommendations are by no means comprehensive. Rather, they provide a first
+step in the efforts to prevent exposure of vulnerable workers to air pollution.
+
+60
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+ANNEXURE 1:
+Details of Pulmonary Function Test
+
+T
+
+he pulmonary function test (PFT) results were calculated using two parameters: FVC
+(forced vital capacity), FEV1 (forced expiratory volume in one second), and FEV1/FVC
+ratios. FVC is defined as the entire volume of air that can be expelled at a maximal
+forced expiration effort. FEV1 is defined as the volume of air exhaled in the first second
+after a maximal intake. Furthermore, FEV1/FVC ratios imply the percentage of FVC expired
+in one second. These three factors were estimated based on the participants' age, gender,
+body weight, and height. Obstruction and restriction are two significant lung disorders (air
+going in or out) that can be identified with spirometry tests (Aggarwal et al., 2019). FEV1
+and FVC are measurements used to identify signs of blockage and restriction in ventilatory
+dysfunction (Linares et al., 2010). In general, FEV1 can be used as an indicator for airway
+resistance and FVC as an indicator for lung capacity. Figure 39 shows the curves for normal,
+obstructive, and restrictive lung disorders.
+
+Figure 39: Spirometry curves for normal, obstruction and restriction lung disease22.
+
+INTERPRETATION OF PF TEST RESULTS
+
+Global Lung Function Initiative (GLI) calculators23 were used to interpret the individuals'
+spirometry results. The GLI network has become the largest resource for reference values
+for routine lung function testing ever assembled. It is established as a result of international
+collaboration, and altruism between researchers, clinicians and industry partners24.
+
+61
+
+UNFAIR QUALITY
+
+ASSESSMENT OF NORMAL AND ABNORMAL LUNG FUNCTION
+
+The predicted values for normal lung functioning (FVC and FEV1 predicted) for every
+individual are calculated based on anthropometric measurements such as gender, age,
+height, and race. This value represents the lung function of a healthy individual with the
+same anthropometric measurements. The predicted values were then compared with the
+recorded (or absolute) values for each participant to obtain their respective lung function
+results.
+Normal findings of spirometry are an FEV1/FVC ratio of greater than 0.70 and both
+FEV1 and FVC above 80% of the predicted value. Values below the normal range indicate
+abnormal lung functioning.
+
+ASSESSMENT OF OBSTRUCTION AND RESTRICTION
+
+Using the 2012 GLI equations, Z-scores were calculated for FEV1, FVC, and FEV1/FVC. The
+respiratory sickness types (obstruction and restriction) and disease severity (mild, moderate,
+and severe) were then characterized based on the z-scores and the Lower Limit of Normal
+(LLN). A z-score -1.645 represents the lowest limit of normal LLN. Z-score of FVC and
+FEV1/FVC less than -1.645 indicates reduced lung capacity25. Figure 40 below depicts the
+interpretation of spirometry results.
+Figure 40: Interpretation of spirometry results based on z-scores of FVC, FEV1 and FEV1/FVC.
+Interpretation of Spirometry
+
+If FEV1/FVC
+z < -1.64
+
+If FEV1/FVC
+z > -1.64
+
+Obstruction
+
+No Obstruction
+
+If FVC
+z score > -1.64
+
+If FVC
+z score < -1.64
+
+Normal Spirometry
+
+Restriction
+
+If FEV1
+z score
+
+-1.65 to -2.5 (Mild Obstruction)
+-.2.5 to -4 (Moderate Obstruction)
+< -4 (Severe Obstruction)
+
+62
+
+-1.65 to -2.5 (Mild Restriction)
+-.2.5 to -4 (Moderate Restriction)
+< -4 (Severe Restriction)
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+STATISTICAL ANALYSIS
+
+All statistical analyses were performed using Microsoft Excel (Microsoft 365, version 2010).
+Descriptive statistics were calculated for the on-site questionnaire and PFT results. Binary
+logistic regression was applied to assess the association of independent determinants with
+the incidence of respiratory illness for the different groups of study participants.
+The association of lung capacities with age and body mass index (BMI) for the studied
+stakeholders was evaluated. For this, BMI of each participant was calculated by division
+of body weight (kg) with square of height (m). The anthropometric parameters like body
+weight and height of each participant were taken during the conduct of the PF test.
+Statistical analysis was carried out using three different variables - coefficient (b),
+standard error (SE) and odd ratios (OR) for the interpretation of the respiratory function
+results.
+Coefficient (b): It is coefficient of logistic regression and describes the relationship
+(positive or negative) between the taken variable and occurrence of respiratory illness.
+Standard Error: It is a measure of uncertainty of the logistic regression coefficient.
+It is useful for calculating the p-value and the confidence interval for the corresponding
+coefficient.
+Odd Ratio: It is calculated by the exponential function of logistic regression coefficient.
+
+63
+
+UNFAIR QUALITY
+
+ANNEXURE 2:
+Socio-demographic characteristics
+Table 14 lists the comparative summary of socio-demographic characteristics and lifestyle
+& surroundings for vulnerable communities and control groups.
+Table 14: Comparison of demographic parameters for all groups.
+Sr.
+No.
+
+Characteristics
+
+1
+
+Sex
+Male
+Female
+Age (Years)
+18-45
+46-60 or above
+Educational status
+No education
+1–8
+8 – 12 or above
+BMI
+Normal (< 25 kg/m2)
+Overweight (25-29.9 kg/m2)
+Obese (>30 kg/m2)
+Smoking status
+Smoker
+Non-smoker
+Passive smoking at home or
+workplace
+Yes
+No
+Cooking fuel
+Wood/Dung cake
+LPG
+No of dependents
+No
+1-4
+>4
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+64
+
+Waste
+Pickers
+(n=100)
+
+Safai
+Karamcharis
+(n=100)
+
+Security
+Guards
+(n=100)
+
+Control
+Groups
+(n=100)
+
+45
+55
+
+57
+43
+
+94
+6
+
+63
+37
+
+83
+17
+
+51
+49
+
+66
+34
+
+87
+13
+
+41
+45
+14
+
+42
+42
+16
+
+3
+97
+
+3
+97
+
+74
+20
+6
+
+47
+35
+18
+
+44
+47
+9
+
+56
+31
+13
+
+17
+83
+
+12
+88
+
+16
+84
+
+100
+
+24
+76
+
+8
+92
+
+6
+94
+
+100
+
+84
+16
+
+8
+92
+
+11
+89
+
+100
+
+2
+54
+44
+
+55
+45
+
+55
+45
+
+15
+55
+30
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+ANNEXURE 3:
+Results of binary logistic regression
+The detailed results of binary logistic regression for safai karamcharis is shown below.
+Table 15: Odd ratios and standard errors of questionnaire based respiratory outcomes safai karamcharis.
+coeff b
+
+Standard Error
+
+Odd ratio
+
+Gender
+
+1.80
+
+0.84
+
+6.07
+
+Smoking
+
+-0.40
+
+0.86
+
+0.67
+
+Smoker in Family
+
+0.29
+
+1.37
+
+1.34
+
+Education
+
+-0.42
+
+0.66
+
+0.66
+
+Family size
+
+0.57
+
+0.93
+
+1.77
+
+Exposed to air pollution
+
+-19.95
+
+19990.06
+
+0.00
+
+Working hours (during/after)
+
+-0.19
+
+0.64
+
+0.83
+
+The detailed results of binary logistic regression for security guards is shown below.
+Table 16: Odd ratios and standard error of questionnaire based respiratory outcomes security guards.
+coeff b
+
+Standard Error
+
+Odd ratio
+
+Smoking
+
+0.28
+
+0.83
+
+1.33
+
+Smoker in Family
+
+-0.31
+
+1.22
+
+0.73
+
+Education
+
+0.95
+
+0.66
+
+2.58
+
+Family size
+
+0.61
+
+0.88
+
+1.8
+
+Exposed to air pollution
+
+0.25
+
+0.50
+
+1.28
+
+The detailed results of binary logistic regression for wastepickers is shown below.
+Table 17: Odd ratios and standard error of questionnaire based respiratory outcomes wastepickers.
+Coeff b
+
+Standard Error
+
+Odd ratio
+
+Gender
+
+1.38
+
+0.60
+
+3.97
+
+Smoking habit
+
+0.43
+
+0.61
+
+1.54
+
+Smoker in family
+
+-0.30
+
+0.74
+
+0.74
+
+Education
+
+-0.18
+
+0.69
+
+0.83
+
+Family size
+
+0.69
+
+0.83
+
+2.00
+
+Exposed to air pollution
+
+0.95
+
+0.89
+
+2.59
+
+Working hours (during/after)
+
+0.11
+
+0.52
+
+1.12
+
+65
+
+UNFAIR QUALITY
+
+References
+
+1
+
+World Health Organization. Ambient (outdoor) air pollution fact sheet 2022. Available at: https://
+
+  
+
+World Health Organization. Household air pollution fact sheet 2022. Available at:  https://www.
+
+2
+
+Prabhakaran P., et al. Building capacity for air pollution epidemiology in India. Environ Epidemiol.
+
+3.
+
+World Health Organization. Ambient (outdoor) air pollution fact sheet 2022. Available at: https://
+
+4.
+
+World Health Organization. Household air pollution fact sheet 2022. Available at:  https://www.
+
+5.
+
+Prabhakaran P., et al. Building capacity for air pollution epidemiology in India. Environ Epidemiol.
+
+6.
+
+Lelieveld J., et al., 2020. Loss of life expectancy from air pollution compared to other risk factors: a
+
+www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health
+who.int/news-room/fact-sheets/detail/household-air-pollution-and-health
+2020. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7553192/
+www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health
+who.int/news-room/fact-sheets/detail/household-air-pollution-and-health
+2020. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7553192/
+worldwide perspective. https://academic.oup.com/cardiovascres/article/116/11/1910/5770885
+7.
+
+IQAir. World’s most polluted countries and regions. 2018-2022. Available at: https://www.iqair.
+
+8.
+
+IQAir AirVisual. World’s most polluted cities (2017-2022). Available at: https://www.iqair.com/
+
+com/world-most-polluted-countries
+in-en/world-most-polluted-cities
+9.
+
+Matooane, et al., 2004. Vulnerability of South African communities to air pollution. 22-27.
+
+10. WHO 2010. Regional consultation on the health of the urban poor. Available at: https://apps.
+who.int/iris/bitstream/handle/10665/205757/B4682.pdf?sequence=1
+11. Xia, Q., et al. 2022. The superposition effects of air pollution on government health expenditure
+in China— spatial evidence from GeoDetector. BMC Public Health 22, 1411.
+12. Habybabady, RH, et al. 2018. Effects of Dust Exposure on the Respiratory Health Symptoms
+and Pulmonary Functions of Street Sweepers. Malays J Med Sci. 25(6):76-84. doi:10.21315/
+mjms2018.25.6.8
+13. Barthwal, V., et al. 2022. Health impact assessment of Delhi’s outdoor workers exposed to air
+pollution and extreme weather events: an integrated epidemiology approach. Environ Sci Pollut
+Res 29, 44746–44758.
+14. Article of Association of National Safai Karamcharis Finance and Development Corporation
+https://www.pib.gov.in/PressReleseDetail.aspx?PRID=1897426
+15. Press Information Bureau, Ministry of Home Affairs, Government of India. Available at: https://
+pib.gov.in/newsite/PrintRelease.aspx?relid=108524
+
+66
+
+THE IMPACT OF AIR POLLUTION ON THREE OCCUPATIONS
+
+16. https://population.un.org/wpp/ Available at: https://indiankanoon.org/doc/1595530/ - security
+guards
+17. Sharma, M., Abhay, R.K. 2022. Urban growth and quality of life: inter-district and intra-district
+analysis of housing in NCT-Delhi, 2001–2011–2020. GeoJournal 87 (Suppl 4), 797–819. Available
+at: https://link.springer.com/article/10.1007/s10708-021-10570-8#:~:text=While%20the%20
+City%20of%20Delhi,being%20urban%20(16.4%20million).
+18. Lamb, K., et al., 2023. Spirometry. StatPearls - NCBI Bookshelf.
+19. Linares, B., et al. 2010. Impact of air pollution on pulmonary function and respiratory symptoms
+in children. Longitudinal repeated-measures study. BMC Pulm Med 10, 62 (2010).
+20. Agarwal, D., et al., 2019. Normal spirometry predictive values for the Western Indian adult
+population. European Respiratory Journal 2020
+21. Mannino DM, et al. 2003. Lung function and mortality in the United States: data from the First
+National Health and Nutrition Examination Survey follow up study. Thorax. 58(5):388-93.
+22. Ranu H, Wilde M, Madden B. Pulmonary function tests. Ulster Med J. 2011;80(2):84-90.
+23. Global Lung Function Initiative. Available at: http://gli-calculator.ersnet.org/
+24. Cooper, BG., et al., 2017. The Global Lung Function Initiative (GLI) Network: bringing the world's
+respiratory reference values together. Breathe (Sheff).
+25. Fragoso. C., et al. 2020. Diffusing capacity in normal-for-age spirometry and spirometric
+impairments, using reference equations from the global lung function initiative. Available at:
+https://www.resmedjournal.com/article/S0954-6111(20)30177-3/pdf
+
+67
+
+UNFAIR QUALITY
+
+68
+
+“WE
+DO NOT
+BREATHE
+THE SAME AIR”
+
+Chintan Environmental Research and Action Group
+238 Sidhartha Enclave, New Delhi-110014
+Tel: +91 11 46574172
+Email: info@chintan-india.org
+Website: www.chintan-india.org
+
+

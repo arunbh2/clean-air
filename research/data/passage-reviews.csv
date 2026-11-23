@@ -1,0 +1,78 @@
+claim_id,decision,source_ids,passage_pointer,reviewer_note,reviewed
+C004,not_located,S001;S002,,Derived comparison: 40 found in S001 table; WHO interim target 1 (35) not located in the fetched WHO page (AirClim table is the second source of C003). Kept for review.,2026-11-23
+C008,located,S005,"CPCB 11-point statement, paras quoted",Source says analysers were calibrated to 0-1000 µg/m³ and readings beyond the calibrated range are not used; those hours appear as data gaps and do not contribute to the 24-hour average.,2026-11-23
+C013,located,S004,Key achievements bullets,"108 cities, 72 over 20%, 26 over 40%, 14 meeting NAAQS, all for PM10 vs 2017-18.",2026-11-23
+C019,located,S007,Findings sentence,8.6% (95% CI 6.4-10.8) per 10 µg/m³; GBD exposure-response critique in the Background sentence.,2026-11-23
+C020,located,S007,Findings sentence,3.8 million (2.9-4.9) vs 16.6 million (13.0-21.8) attributable deaths.,2026-11-23
+C021,located,S008,Opening paragraph and key take-aways 1-2,41 µg/m³ in 2023 up from 2022; all 1.4 billion above WHO guideline; 46% above national standard.,2026-11-23
+C022,located,S008;S007,S008 key take-away; S007 Findings,46 percent (AQLI) and 81.9% (de Bont) located in their respective sources.,2026-11-23
+C023,located,S008,Opening paragraph; key take-aways,3.5 years average; 544.4 million Northern Plains residents 5 years; Delhi 8.2 years.,2026-11-23
+C025,not_located,S009,,Secondary ions 26% winter vs 17-18% summer and source ranges located; the dust figure 31-34% (summer) was not located in the extracted text. Kept for review.,2026-11-23
+C029,located,S011,Body paragraphs on DSS 10-20 November,35% local 2025 vs 27.3% 2024; NCR 36% 2023 to 25.8% 2025; vehicles 51-53% of local share.,2026-11-23
+C031,located,S012,Abstract,"About 180 h; 190 µg/m³ PM2.5 GM; ratios 1.5, 3.6, 8.4 (abstract and Table 3).",2026-11-23
+C032,located,S012,Abstract,"Roadway increment 30%, 68%, 86% of in-vehicle PM2.5, BC and PN. The sentence about fixed monitors is the site's interpretation of these figures.",2026-11-23
+C033,located,S013,Body (PTI report),About 40 per cent of districts lack a station; about half of stations provide stable data; moderate correlation with PM2.5.,2026-11-23
+C034,not_located,S014,,The 15% population and 200 million figures were not located (a different 15% target appears on the page). Kept for review.,2026-11-23
+C036,located,S015,Body paragraph on 2021-2022 refills,"9.6% no refill, 11.3% one, 56.5% four or fewer; seven refills a year needed.",2026-11-23
+C037,not_located,S015,,Delhi and Jharkhand research on autonomy and access not located in the extracted text. Kept for review.,2026-11-23
+C040,located,S017;S019,S017 para on Rs 8000 after the 25 Nov 2024 order; S019 minister's statement,Rs 8000 after GRAP-4 (2024); Rs 10000 for 16 days of GRAP III; limited to registered workers.,2026-11-23
+C042,located,S017,Survey findings,75 workers interviewed; five registered; none received Rs 8000.,2026-11-23
+C044,not_located,S017;S016,,"This is the site's synthesis of C041 to C043, not a single source passage. Labelled for review rather than as a located passage.",2026-11-23
+C045,located,S020,Abstract,Productivity suffers with pollution shocks; heterogeneous across workers and tasks; managers reassign workers.,2026-11-23
+C046,not_located,S021,,Sample size 582 and the 9-in-10 versus 1-in-10 air-conditioner figures not located in the extracted text. Kept for review.,2026-11-23
+C047,partial,S021,,"Rise in spending on pollution days dominated by medical expenses located; the symptom ranking was not located. Partial, kept for review.",2026-11-23
+C048,partial,S021,,"Mask non-use across classes located (Fig 4.4 text); the class gradient in outdoor workplace exposure was not located. Partial, kept for review.",2026-11-23
+C049,located,S022,Abstract (Methods and Results),"1285 pregnant women; 4 g decrease (95% CI 1.08, 6.76) per 10 µg/m³; OR 1.02 for low birthweight.",2026-11-23
+C050,partial,S023,,"Northern-district susceptibility and rising risk with exposure located; the 5% and 12% per 10 µg/m³ figures were not seen in the extracted text. Partial, kept for review.",2026-11-23
+C051,partial,S024,,"Mean 56.01 µg/m³, AOR 1.06 and PTB risk 1.52 (1.43-1.61) located; sample size 208,181 not re-located. Partial, kept for review.",2026-11-23
+C057,located,S029,Body (study description),"Two sites, high and low pollution; Malin's Intelligence Scale; IQ figures 80 and 98. Source is a news report of a conference abstract, as the claim states.",2026-11-23
+C058,located,S030,Body paragraphs on AMRIT,538 nodes in every block of 38 districts; winter PM2.5 in northwest Bihar routinely 210 µg/m³; standards violated on most days.,2026-11-23
+C061,not_located,S031,,"Most figures appear in extracted tables, but the dust 57% (summer) share was not located and table text is unreadable. Kept for review.",2026-11-23
+C063,partial,S032,,"359 industries and the health-harm plea located; the case number and the CMO health data were not located in the extracted text. Partial, kept for review.",2026-11-23
+C064,not_located,S033,,Fixed-site black carbon up to 95 µg/m³ located; the above-200 µg/m³ near-plant figure was not located. Kept for review.,2026-11-23
+C066,located,S034,Executive summary,"Industry 12 to 20% by receptor modelling versus under 1% from the dispersion model, attributed to sources missing from the inventory.",2026-11-23
+C067,partial,S035,,"Percentage declines (53% on 2024, 93% Punjab on 2021) located; the counts 5,114 and 662 were not located. Partial, kept for review.",2026-11-23
+C068,located,S036,Findings,"3644 participants 2018-19; FEV1 down 16% (boys 10-18) and 26% (girls 10-18) during crop-residue burning, mean PM2.5 increase 167 µg/m³.",2026-11-23
+C069,located,S037,Body paragraph on zigzag performance,"20% less coal, 75% less black carbon and PM, about eight bricks per kg of coal; cost figure in the same passage.",2026-11-23
+C070,located,S037,Body paragraph on kiln workforce,"120-150 workers per kiln, trained on the job; owner on efficiency without trained workers.",2026-11-23
+C071,partial,S038,,"96% advances and 65-80% of children working located; the 8-10-month withheld wages and payment through the male head were not located. Partial, kept for review.",2026-11-23
+C077,located,S042;S041,S042 affidavit report; S041 IIT Bombay final report,"48-56% within 20 m, 30-34% at 21-99 m; DPCC affidavit to NGT calling towers ineffective.",2026-11-23
+C078,located,S042,Body (affidavit),"About Rs 25 crore capital, Rs 15 lakh per month to run; Anand Vihar tower not operational; no significant difference at a monitor 30 m away.",2026-11-23
+C079,located,S068;S042,S068 minister's statement; S042 later evaluation,80 per cent reduction claimed in 2021; later evaluations found effects within about 200 m.,2026-11-23
+C080,located,S043;S044,S043 cost and water paragraphs; S044 coverage sentence,"250-600 guns, INR 5-12 crore, 25-90 lakh litres a day; under 0.5% of Delhi's area.",2026-11-23
+C082,located,S045,Key results,"86% sanitation workers and guards, 75% waste pickers, 45% controls abnormal; severe 27%, 17%, 10%, none in controls.",2026-11-23
+C085,partial,S046,,"5 million masks and the researchers' question located; the attribution of low use to awareness and social norms was not located. Partial, kept for review.",2026-11-23
+C087,partial,S048,,"Vulnerable groups and the circulated advisory located; the sentinel-surveillance scale-up wording was not located in the extracted text. Partial, kept for review.",2026-11-23
+C091,located,S051,Press release body,UPCAMP $299.66 million and Haryana $300 million; airshed-based programmes; clean cooking and e-three-wheelers in the UP programme.,2026-11-23
+C092,partial,S052,,"Winter plan dates, 400 tents, shelter count and expanded capacity located; the 7,092 capacity figure not seen in the same passage.",2026-11-23
+C093,located,S053,Body paragraph on NCAP and MPCCF allocations,Rs 3072 crore NCAP; Rs 16539 crore MPCCF for 48 million-plus cities; crop-residue release in the same release.,2026-11-23
+C094,partial,S053,,World Bank UP and Haryana amounts and SDC amounts located; UNDP and UNEP amounts not seen in the same passage.,2026-11-23
+C096,partial,S055,,"Median personal PM2.5 23.9 versus 70.7 µg/m³ and the birth-weight result located; enrolment of 3,200 not seen in the same passage.",2026-11-23
+C097,not_located,S055;S056,,Stunting and lung-function follow-up findings not located in the extracted text. Kept for review.,2026-11-23
+C098,not_located,S057,,Source is a search snippet; the statement about inconclusive outcome evidence was not located as a passage. Kept for review.,2026-11-23
+C099,partial,S058,,"30 riders, Ghaziabad, December 2020, breathing-zone PM figures and traffic-junction sensitivity located; benzene 19 µg/m³ and 67% unaware not seen in the same passage.",2026-11-23
+C101,partial,S060,,"Rs 49269 crore (56%) spent and Rs 38209 crore (44%) unutilised located; the total 87,478 not seen in the same passage.",2026-11-23
+C102,not_located,S060,,Federations' attribution of low disbursement to weak enrolment not located (the passage found concerns enrolment rules). Kept for review.,2026-11-23
+C103,located,S061;S066,S061 body on aggregator contributions; S066 PIB release,Aggregators contribute 1-2% of turnover capped at 5% of payments; codes effective 21 November 2025; benefit details still being worked out.,2026-11-23
+C109,partial,S063;S066,,Uniform threshold of 10 employees and coverage of even one employee in hazardous processes located; the free annual health check-up wording not seen in the same passage.,2026-11-23
+C110,not_located,S063;S062,,Site synthesis contrasting employer duties with self-employed workers; not a single source passage. Kept for review.,2026-11-23
+C120,partial,S069,,400 electric buses under a single operator per franchise and the project components located; US$290 million and the approval date not seen in the same passage.,2026-11-23
+C121,partial,S070,,About 400 enterprises adopting electric or modern biomass boilers located; US$52 million and the approval date not seen in the same passage.,2026-11-23
+C122,partial,S071,,"Programme support for the Smog Mitigation Action Plan located; amounts, units and date not seen in the same passage.",2026-11-23
+C123,partial,S072,,IGP-HF as a highly polluted airshed located; the list of operations not seen in the same passage.,2026-11-23
+C128,located,S075,"Publication page, monitoring and Haryana sections",Nearly 200 new monitors for airshed-wide management; US$300 million for Haryana; IGP airshed framing.,2026-11-23
+C129,partial,S078,,"Project name, regional scope and April 2025 TA report located; the funding-source amounts not seen in the same passage.",2026-11-23
+C133,located,S107,Figure 2 (source contributions by season and site),"Vehicles 32-41% wet season and 42-57% dry season; coal, open burning and secondary aerosol shares in the same figure.",2026-11-23
+C147,partial,S096,,Close to 84% from noncommunicable diseases and the most-at-risk groups located; 6.6 million deaths not seen in the same passage.,2026-11-23
+C151,partial,S108,,"Study design (two hundred and twenty-eight outdoor workers, written in words), severe-impact perceptions and the smoking and age association located; 63 lung tests not seen in the same passage.",2026-11-23
+C152,located,S109,Abstract (Methods and Results),"298 street vendors in Chennai; 65.4% female; cough at work 58.7%, morning phlegm 44%; PEFR associated with years vending.",2026-11-23
+C154,partial,S125,,18-month funding and open data located; 39 new awardees not seen in the same passage.,2026-11-23
+C164,located,S116;S119,Grant listings 2021 and 2023,AI-based decision support system for Lucknow (2021); Centre of Excellence core support grant (2023).,2026-11-23
+C170,located,S092;S111,Grant listings,"Stockholm University with IGSD, University of Dhaka and Maldives Climate Observatory (2024-2027); IGSD and IIT Bombay (2025-2027).",2026-11-23
+C193,located,S170,Headline and first paragraph,Dhaka had just 38 days of fresh air in six years (CAPS study).,2026-11-23
+C204,located,S142;S147,S142 home page; S147 supplier case study,100+ sensors in Jakarta; Jakarta's largest sensor network; Airly sensors constantly calibrated.,2026-11-23
+C209,located,S167,Paragraph on the ruling (Indonesian),Ruling of 13 November 2023; Koalisi IBUKOTA urged the government defendants to implement it.,2026-11-23
+C212,located,S150;S151,S150 21 October 2025 report; S151 3 September 2026 report,"House passed 309-0 on 21 October 2025; House rejected Senate changes 414-2, sending the bill to a 20-member joint committee.",2026-11-23
+C216,located,S174,Article body,"Winrock works with local partners through the USAID Reducing Pollution project on transport, open burning and other sources.",2026-11-23
+C217,not_located,S176,,"GEF project page content (IDs, dates, amounts) not present in the fetched text; the page appears to render with JavaScript. Kept for review.",2026-11-23
+C220,not_located,S178,,The soft-launch passage was not located in the fetched page text. Kept for review.,2026-11-23
