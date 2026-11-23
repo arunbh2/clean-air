@@ -103,6 +103,21 @@ Use only these four labels, and explain each judgement in words (no unexplained 
 Site pages are generated from `/research` (Markdown and CSV), not hand-written copy. Changing a rating in the
 evidence map must change the site.
 
+### 7. Three-audience governance (`docs/three-audiences-governance-brief.md`)
+Every change serves the human reader, the maintainer and the AI agent from **one canonical record** in `research/`.
+- **Voice** (`docs/editorial-voice.md`): no "should"/"must" in the site's own voice, no blame wording, no em dashes in
+  site-authored prose, no rankings, no hype; legal duties reported as "the rule requires". Enforced by `tools/check_voice.py`.
+- **Design** (`docs/design-guardrails.md`, `tools/design-tokens.json`): tokens only, four container families, no left
+  stripes, shadows or gradients, minimum 12px text, zoom-safe at 320px with 200% text. Enforced by `tools/check_design.py` and `site/qa/qa.js`.
+- **Evidence** (`docs/data-model.md`): every claim has a passage-level state in `research/data/claim-passages.csv`
+  (`research/analysis/passages.py`). New claims after C222 marked `read` need `passage_found`. Corrections and withdrawals go in
+  `research/data/corrections.csv`; claims are never deleted (status `withdrawn`). Approved, committed, disbursed and evaluated stay separate.
+- **Agent access** (`docs/agent-access.md`): Markdown mirror of every page, `llms.txt`, `llms-full.txt`, `for-ai`, packs, catalogue,
+  feed: all generated, never hand-written. Base URL only in `site/site.json`. Describe only real static-site capabilities.
+- **One command:** `python3 tools/check_all.py` (`--browser` for the Playwright/axe suite). CI runs it before deploying. Never weaken
+  a check to pass; add a narrow, documented exception instead. Maintenance steps: `docs/three-audiences-maintenance.md`.
+- Owner decisions still open (licence, AI training, security contact, custom domain): `docs/THREE_AUDIENCES_AUDIT.md` section 6.
+
 ## Which skill for which job
 
 Clean Air's own identity governs every visual output. Generic skills handle file mechanics and must
