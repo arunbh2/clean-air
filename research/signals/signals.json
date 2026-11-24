@@ -116,7 +116,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -200,7 +200,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21T03:14:45Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [],
    "country_basis": "names a region in scope (south[- ]east asia)",
    "cross_border_region": true,
@@ -396,7 +396,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:14:44Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [],
    "country_basis": "names a region in scope (south asia)",
    "cross_border_region": true,
@@ -477,7 +477,9 @@
   {
    "signal_id": "sig-1c7ff4b24bf7",
    "source_registry_id": "crossref",
-   "also_listed_by": [],
+   "also_listed_by": [
+    "europepmc"
+   ],
    "canonical_url": "https://doi.org/10.1073/pnas.2526851123",
    "previous_urls": [],
    "doi_or_persistent_id": "10.1073/pnas.2526851123",
@@ -496,7 +498,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T21:12:17Z",
    "discovered_at": "2026-11-24T01:42:06Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -551,7 +553,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -691,7 +693,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -732,7 +734,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19T07:16:28Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "thailand"
    ],
@@ -790,7 +792,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24T08:12:25Z",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "bangladesh"
    ],
@@ -990,7 +992,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "bangladesh"
    ],
@@ -1033,7 +1035,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [],
    "country_basis": "names a region in scope (asean)",
    "cross_border_region": true,
@@ -1216,7 +1218,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -1369,7 +1371,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20T19:16:58Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "bangladesh"
    ],
@@ -1469,7 +1471,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -1561,7 +1563,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -1608,7 +1610,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -1870,7 +1872,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:13:18Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -2025,7 +2027,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-17",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -2174,7 +2176,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-22T00:14:51Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -2267,7 +2269,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [],
    "country_basis": "names a region in scope (south[- ]east asia)",
    "cross_border_region": true,
@@ -2319,7 +2321,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -2364,7 +2366,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-17",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -2559,7 +2561,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -2604,7 +2606,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20T11:19:38Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "thailand"
    ],
@@ -2704,7 +2706,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T05:12:25Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -2803,7 +2805,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -2947,7 +2949,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -3099,7 +3101,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "thailand"
    ],
@@ -3144,7 +3146,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "pakistan"
    ],
@@ -3244,7 +3246,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21T17:15:51Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -3289,7 +3291,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -3429,7 +3431,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19T07:17:08Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
@@ -3481,7 +3483,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19T15:20:50Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T12:32:09Z",
+   "last_checked_at": "2026-11-24T23:29:23Z",
    "countries": [
     "india"
    ],
