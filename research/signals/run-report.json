@@ -1,16 +1,16 @@
 {
- "run_id": "run-20261123T114338Z",
- "started_at": "2026-11-23T11:43:38Z",
+ "run_id": "run-20261124T014206Z",
+ "started_at": "2026-11-24T01:42:06Z",
  "sources": [
   {
    "source": "europepmc",
    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
    "result": "ok",
    "http_status": 200,
-   "items": 300,
-   "included": 42,
-   "excluded": 258,
-   "request": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22air+pollution%22+OR+%22air+quality%22+OR+%22PM2.5%22+OR+%22particulate+matter%22+OR+%22black+carbon%22+OR+%22crop+residue+burning%22+OR+%22brick+kiln%22+OR+%22household+air+pollution%22%29+AND+%28India+OR+Delhi+OR+Bangladesh+OR+Dhaka+OR+Nepal+OR+Kathmandu+OR+Pakistan+OR+Lahore+OR+Bhutan+OR+%22Sri+Lanka%22+OR+Indonesia+OR+Thailand+OR+Vietnam+OR+%22Viet+Nam%22+OR+Philippines+OR+Cambodia+OR+Laos+OR+Malaysia+OR+Singapore+OR+Myanmar+OR+%22South+Asia%22+OR+%22Southeast+Asia%22+OR+%22Indo-Gangetic%22%29+AND+FIRST_PDATE%3A%5B2026-10-09+TO+2026-11-23%5D&format=json&resultType=core&pageSize=100&sort=FIRST_PDATE_D+desc"
+   "items": 40,
+   "included": 11,
+   "excluded": 29,
+   "request": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22air+pollution%22+OR+%22air+quality%22+OR+%22PM2.5%22+OR+%22particulate+matter%22+OR+%22black+carbon%22+OR+%22crop+residue+burning%22+OR+%22brick+kiln%22+OR+%22household+air+pollution%22%29+AND+%28India+OR+Delhi+OR+Bangladesh+OR+Dhaka+OR+Nepal+OR+Kathmandu+OR+Pakistan+OR+Lahore+OR+Bhutan+OR+%22Sri+Lanka%22+OR+Indonesia+OR+Thailand+OR+Vietnam+OR+%22Viet+Nam%22+OR+Philippines+OR+Cambodia+OR+Laos+OR+Malaysia+OR+Singapore+OR+Myanmar+OR+%22South+Asia%22+OR+%22Southeast+Asia%22+OR+%22Indo-Gangetic%22%29+AND+FIRST_PDATE%3A%5B2026-11-16+TO+2026-11-24%5D&format=json&resultType=core&pageSize=100&sort=FIRST_PDATE_D+desc"
   },
   {
    "source": "crossref",
@@ -18,9 +18,9 @@
    "result": "ok",
    "http_status": 200,
    "items": 100,
-   "included": 12,
-   "excluded": 88,
-   "request": "https://api.crossref.org/works?query.bibliographic=air+pollution+PM2.5+India+Bangladesh+Nepal+Pakistan+Indonesia+Thailand+Vietnam+Philippines&filter=from-pub-date%3A2026-10-09%2Cuntil-pub-date%3A2026-11-23%2Ctype%3Ajournal-article%2Ctype%3Aposted-content&rows=100&sort=published&order=desc"
+   "included": 13,
+   "excluded": 87,
+   "request": "https://api.crossref.org/works?query.bibliographic=air+pollution+PM2.5+India+Bangladesh+Nepal+Pakistan+Indonesia+Thailand+Vietnam+Philippines&filter=from-pub-date%3A2026-11-16%2Cuntil-pub-date%3A2026-11-24%2Ctype%3Ajournal-article%2Ctype%3Aposted-content&rows=100&sort=published&order=desc"
   },
   {
    "source": "who-news",
@@ -55,11 +55,11 @@
   {
    "source": "adb",
    "endpoint": "https://www.adb.org/rss.xml",
-   "result": "ok",
-   "http_status": 200,
-   "items": 10,
+   "result": "failed: http_error: HTTP 403",
+   "http_status": 403,
+   "items": 0,
    "included": 0,
-   "excluded": 10,
+   "excluded": 0,
    "request": "https://www.adb.org/rss.xml"
   },
   {
@@ -75,8 +75,8 @@
   {
    "source": "clean-air-fund",
    "endpoint": "https://www.cleanairfund.org/feed/",
-   "result": "ok",
-   "http_status": 200,
+   "result": "unchanged (HTTP 304)",
+   "http_status": 304,
    "items": 0,
    "included": 0,
    "excluded": 0,
@@ -85,21 +85,21 @@
   {
    "source": "urbanemissions",
    "endpoint": "https://urbanemissions.info/feed/",
-   "result": "ok",
-   "http_status": 200,
-   "items": 1,
+   "result": "unchanged (HTTP 304)",
+   "http_status": 304,
+   "items": 0,
    "included": 0,
-   "excluded": 1,
+   "excluded": 0,
    "request": "https://urbanemissions.info/feed/"
   },
   {
    "source": "mongabay-india",
    "endpoint": "https://india.mongabay.com/feed/",
-   "result": "ok",
-   "http_status": 200,
-   "items": 20,
+   "result": "unchanged (HTTP 304)",
+   "http_status": 304,
+   "items": 0,
    "included": 0,
-   "excluded": 20,
+   "excluded": 0,
    "request": "https://india.mongabay.com/feed/"
   },
   {
@@ -138,8 +138,8 @@
    "result": "ok",
    "http_status": 200,
    "items": 60,
-   "included": 6,
-   "excluded": 54,
+   "included": 4,
+   "excluded": 56,
    "request": "https://www.thehindu.com/sci-tech/energy-and-environment/feeder/default.rss"
   },
   {
@@ -148,8 +148,8 @@
    "result": "ok",
    "http_status": 200,
    "items": 10,
-   "included": 2,
-   "excluded": 8,
+   "included": 1,
+   "excluded": 9,
    "request": "https://www.thedailystar.net/environment/rss.xml"
   },
   {
@@ -167,9 +167,9 @@
    "endpoint": "https://www.dawn.com/feeds/home",
    "result": "ok",
    "http_status": 200,
-   "items": 25,
+   "items": 29,
    "included": 0,
-   "excluded": 25,
+   "excluded": 29,
    "request": "https://www.dawn.com/feeds/home"
   },
   {
@@ -206,6 +206,16 @@
  "excluded_sample": [
   {
    "source": "europepmc",
+   "title": "Efficacy and Safety of Revefenacin Versus Glycopyrronium in Indian Chronic Obstructive Pulmonary Disease (COPD) Patients: A Randomized, Active-Controlled, Phas…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "europepmc",
+   "title": "Beyond decibels alone: environmental noise, auditory diversity, and person–environment interactions in autism",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "europepmc",
    "title": "Integrated Hydrothermal Carbonization and KOH Activation of Mechanically Treated Municipal Solid Waste: Optimization of Adsorbents for BTEX Removal from Water",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
@@ -217,6 +227,11 @@
   {
    "source": "europepmc",
    "title": "From Climate Ambition to Implementation: Positioning Health and Financing at the Center of COP31",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "europepmc",
+   "title": "World Congress on Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (WCO-IOF-ESCEO 2026).",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -238,6 +253,11 @@
    "source": "europepmc",
    "title": "The associations of outdoor and indoor air pollution with cognitive function among older adults in China.",
    "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "europepmc",
+   "title": "High‐risk Klebsiella pneumoniae shows hospital‐centered genomic connectivity with divergent sublineage dissemination",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
    "source": "europepmc",
@@ -330,1168 +350,13 @@
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "europepmc",
-   "title": "Oral Health Knowledge, Practice, and Oral Health Status among Garment Employees of Bangladesh: A Cross-Sectional Study.",
+   "source": "crossref",
+   "title": "Electrical response Mechanisms of Petroleum Hydrocarbon-Contaminated Fine-Grained Soils Under Coupled Hydrochemical and Thermal Conditions",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "europepmc",
-   "title": "Comparative air fungal microbiomes in a metropolis and a provincial hospitals in Thailand.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "TB and environmental health: global research trends and opportunities for future studies in Africa.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Cardiology Beyond the Risk Factors.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Polycyclic aromatic hydrocarbons (PAHs) in Sindh, Pakistan: emission inventory, source-sector contribution, and incremental lifetime carcinogenic risk assessme…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Visible-light degradation of ciprofloxacin by hierarchical Ag3PO4/CuInS2 heterostructures: interfacial charge transfer, transformation pathways, and ecological…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Donor and corneal tissue characteristics at an eye bank in Medellín, Colombia: a cross-sectional study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Evidence for Establishing an Ammonia Critical Level using Tropical Forest Lichens.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "A prospective longitudinal population-based cohort study of non-communicable diseases (NCDs) in Ghana, India, and Nepal (The GIN NCDs Study): A study protocol.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "A systems-level mitochondrial severity index characterizes exposure duration-associated cardiac mitochondrial dysfunction during repeated diesel-derived PM₂.₅…",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Reticular Materials as Optical Sensors of Volatile Organic Compounds for Healthcare and Environmental Monitoring.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Fluoride accumulation and biological responses in kiln-affected orchard soils during subsequent tomato and alfalfa cultivation",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Ozone-induced yield losses for winter wheat at a high-altitude site in western India",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Bioadhesive calcium phosphate cement with nano-whitlockite for vascularized bone regeneration.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Spirometric Lung Function Among Rice Mill Workers in Sylhet District, Bangladesh: A Cross-Sectional Study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Oil-In-Water or Water-In-Oil Pickering Emulsion: Role of Lignocellulose-Based Nanoparticle Wettability and Geometry.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Wildfire Drivers, Impacts, and Predictive Modeling: Opportunities in Sensing and Machine Learning.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Assessment of brickfield-induced land degradation through a GIS-assisted multicriteria analytical framework.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Economic evaluations of interventions for the treatment and management of non-communicable diseases in humanitarian contexts: A scoping review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Indoor Environmental Quality, Building-Related Symptoms and Perceived Productivity in Green-Certified and Conventional Tropical Offices",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Year-Long Source Apportionment of PM₂ . ₅ in Delhi: Insights from One of the World's Most Polluted Environments",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Forecasting of aerosol optical depth over arid and semi-arid regions using time series and machine learning models.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Artificial Intelligence in Cardiovascular Medicine.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Association of Domestic Cooking Fuel Use, Thyroid Function and Complete Blood Count Among Adult Women: A Cross-Sectional Study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Invisible exposure, visible harm: air pollution and the global burden of cardiovascular disease.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "High-Resolution PM2.5 Mortality Projections With Machine Learning Reveal Global Inequities Under Future Climate and Socioeconomic Pathways.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Prescription Patterns and Adherence to GOLD 2021 Guidelines for Chronic Obstructive Pulmonary Disease Management in Pakistan: A Cross-Sectional Study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Microbiome changes following immigration: Rethinking \"Westernization\" as an explanatory concept.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Risk factors and aetiological agents of community-acquired pneumonia in children under five years in South Asia: A systematic review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Extracellular Vesicles at the Intersection of Environmental Exposure and Preterm Birth: A Research Agenda for an Emerging Field.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Node, place, people and ecology: an open-data framework and tool for screening transit-oriented development along an Indian metro corridor",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "System level life cycle and performance assessment of a sustainable Mahua cashew shell hybrid biolubricant.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Living with extreme weather: Health vulnerabilities and everyday adaptations of informal outdoor workers in urban Vietnam",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Molecularly Imprinted Polymers for Chemical Sensors: From Molecular Recognition to Advanced Architectures and Practical Sensing Platforms.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Benzo(a)pyrene Exposure Suppressed Osteogenic and Adipogenic Differentiation of Human Bone Marrow-Derived Mesenchymal Stem Cells and Was Associated with Senesc…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Comparative Susceptibility to PM2.5-Induced Pulmonary Pathology: A Lifespan-Based Perspective on Animal Models.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Institutional partnerships enable long-term use of Earth observations in water security and resilience.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Technical feasibility, sustainability and technoeconomic analysis of non-wood fibre integration in paper-based flexible packaging: a case study of India.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Insight into the adsorption mechanisms of Cr(vi) from aqueous solution using biochar prepared via conventional pyrolysis and microwave-assisted pyrolysis.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Development and LoRa-based implementation of a ZIF-8 chemiresistive CO2 sensor for air quality monitoring.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Preventable drivers of acute respiratory infections among under-five children in India's high-risk zones: application of population attributable fractions anal…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Deep Learning on Satellite Imagery Reveals Landscape Drivers of Metabolic Syndrome",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Effect of Bentonite Binder on the Critical Properties of Zeolite Extrudates in Dehumidification in Confined Space.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "China’s Clean Heating Policy and Effects on Blood Pressure in Rural Beijing Adults",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Ambient Air Pollution and Kawasaki Disease: A Systematic Review and Meta-Analysis of Epidemiological Evidence.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Integrating Meteorological Data for Drought Prediction: A Hybrid Ensemble Machine Learning Approach in Northwestern Bangladesh.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Ambient Air Pollution and Kawasaki Disease: A Systematic Review and Meta‐Analysis of Epidemiological Evidence",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Integrating Meteorological Data for Drought Prediction: A Hybrid Ensemble Machine Learning Approach in Northwestern Bangladesh",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Data-Driven Calibration and Reference-Free Drift Detection for Multi-Modal Sensor Systems.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Correction: Islam et al. Exploring the Immunological Role of the Microbial Composition of the Appendix and the Associated Risks of Appendectomies. J. Pers. Med…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Exploring over-the-counter SABA inhaler use in Malaysian community pharmacies: a mixed-methods study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Moving towards integrated people-centred primary healthcare for non-communicable diseases in Bangladesh: a qualitative study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Effectiveness of childhood pneumonia awareness program among pregnant women: A hospital based quasi experimental study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Source apportionment and non-carcinogenic health risk assessment of selected heavy metals in the Turag river area of Gazipur District, Bangladesh.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Translational nanotechnology for precision gene therapy delivery systems.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Nutritional enhancement and physiological responses to papaya (Carica papaya L.), turmeric (Curcuma longa L.), moringa (Moringa oleifera Lam.) - enriched biscu…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Anti-inflammatory potential of Astragalus polysaccharides: structural characteristics, mechanisms and clinical translation.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Emerging Roles of Surfactants in Engineering Two-Dimensional Nanomaterials for Advanced Applications.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Youth-led co-creation of a non-communicable disease risk reduction intervention in urban informal settlements of Karachi, Pakistan: a participatory action rese…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Incidence of and household responses to paediatric diarrhoeal disease and acute respiratory infection in Chitwan, Nepal: protocol for a prospective cohort stud…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Biomass to bioenergy transition through sustainable bioconversion and circular bioeconomy strategies.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Population-weighted and area-weighted ambient PM2.5 and O3 concentrations in China from 2015 to 2024.",
-   "reason": "excluded: the title names a place outside South and Southeast Asia"
-  },
-  {
-   "source": "europepmc",
-   "title": "Spatially autocorrelated and clustered associations between short-term exposure to PM2.5 and daily reported confirmed COVID-19 cases across the contiguous Unit…",
-   "reason": "excluded: the title names a place outside South and Southeast Asia"
-  },
-  {
-   "source": "europepmc",
-   "title": "Conventional and Emerging Counter Electrode Materials for Dye-Sensitized Solar Cells: A Comprehensive Review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Tracking Small Microplastics and Plastic Additives in Freshwater: An Integrated Analytical Approach.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Air pollution leaves a redox-proteomic imprint: From shared inflammation to disease-specific vulnerability.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Electronic origin of the preferential NH3 response of N-substituted SnS2 monolayers: a first-principles study with machine learning force field-assisted assess…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Valvular Heart Disease and the Importance of Inspiratory Muscle Training in Cardiovascular Rehabilitation.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Integrating physiological indicators and Precision Livestock Farming to support European animal welfare frameworks: a systematic review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Asthma in Older Adults: A Systematic Review of Real-World Burden and Outcomes.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Urban and residential environments and osteoarthritis: evidence for disease onset, symptoms, and care.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Plant-derived extracellular vesicles in musculoskeletal disorders: a narrative review of mechanisms, therapeutic efficacy, and translational prospects.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Smart nanomedicine for lung cancer: Overcoming drug resistance and therapeutic barriers through targeted delivery, phototherapy, and theranostics.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "A Spatial Decision-Support Framework for Assessing Road Network Efficiency in Emergency Healthcare Accessibility: A Case Study of Eastern Province Cities, Saud…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Extracellular Vesicles in the Respiratory System: The Prominent Role of miRNAs in Pathophysiology, Diagnostics, and Therapeutics.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Design of the internal geometry of a passive flux sampler and calibration for quantification of ammonia emissions.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Valorization of Cactus Cladodes (Opuntia ficus indica): The Effects of Different Drying Methods on Antioxidant Compounds and Physicochemical Characteristics.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Sea-level rise drives unequal erosion of global ecosystem service value.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Response to Letter to the Editor.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Environmental-economic effects of co-reduction in firm conventional pollutants and carbon emissions under digital economy drivers: An empirical study based on…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Design Suitability as the Lesson: Comparison of Research Designs and Mixed-Methods Appraisal in Urban Forestry Teaching Beyond the Classroom",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The dual role of small EVs in asthma and chronic obstructive pulmonary disease: from pathogenesis to clinical translation.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Spatial and temporal patterns of tuberculosis from 2014 to 2023 in Malaysia.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Sustainable Federated Continual Learning for environmental monitoring: a systematic review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Climate-resilient health systems barriers and challenges in Bangladesh: a systematic scoping review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Dual accounting of embodied emissions and abatement contributions among interconnected cities: Evidence from the Beijing-Tianjin-Hebei Region, China.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Maternal Exposure to Stress and Child Risk of Obesity: A Cross-Sectional Study of Women and Their Children Aged 5-15 Years Living in a Deprived Urban Peruvian…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Bibliometric Insights Into Research Trends on Insulin Resistance in Gestational Diabetes Mellitus Based on the Web of Science Core Collection (1997-2025).",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The Hidden Burden: Addressing Disparities in Childhood Cancer Incidence Trends.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "From Pain to Clarity: A Case of Pneumoperitoneum Diagnosed by Point-of-care Ultrasound.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Fog Intensity and Droplet Size-Resolved Aqueous Secondary Organic Aerosol (aqSOA) Formation in Polluted Winter Fog: New Insights from a Combined Observational…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The influence of high body mass index on asthma: A study integrating GBD 2021 and Mendelian randomization.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Association Between Retinal Layer Thickness and Hearing Performance in the UK Biobank: A Cross-Sectional Study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The 2026 Oceania Report of the MJA-Lancet Countdown on Health and Climate Change: Children Already Impacted, With a Lifetime of Exposure to Come.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Investing in pandemic prevention, preparedness, and response.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Heat stress and coping strategies among older adults in 3 Sunbelt cities in the United States.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Covalent Organic Frameworks in Smart Food Packaging: Advances, Challenges, and Future Prospects.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Widespread occurrence of volatile methyl siloxanes in settled dust from three regions in Vietnam: Geographical variations, indoor-outdoor differences, and huma…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "How artificial intelligence could improve the diagnosis and management of chronic obstructive pulmonary disease: a perspective from GOLD.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Time-series analysis of the impact of short-term exposure to atmospheric pollutants on stroke risk among residents in Guiyang City, 2016–2021",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The impact of air quality on public attention to depressive emotions: an empirical examination based on Chinese urban panel data",
-   "reason": "excluded: the title names a place outside South and Southeast Asia"
-  },
-  {
-   "source": "europepmc",
-   "title": "From menarche to menopause: a lifespan perspective on women's health in sickle cell disease",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Radon Diffusion Coefficients of Barrier Materials: A Critical Review of Measurement, Modeling, and Laboratory-to-Field Interpretation.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Lead Exposure and Nutritional Status Among Bangladeshi Children: An Analysis Based on Bangladesh Multiple Indicator Cluster Survey.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Selected Microelements and Toxic Metals in the Hair of Dairy Cows from the Bishkek Area, Kyrgyzstan.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Vegetarian dietary patterns are not associated with lower odds of noncommunicable diseases among patients presenting to a tertiary care center in North India:…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Sustainability and Integrated Energy Recovery Scheme for Health Care Waste Management for Megacity Dhaka: Through Material Flow and Life Cycle Assessment.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The State of Health in Jordan, 1990-2023: A Systematic Analysis for the Global Burden of Disease Study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Principles for a patient-centred transition to low-global warming potential pressurised metered-dose inhalers.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The evolving burden of type 2 diabetes mellitus in Asia, 1990-2023: A Global Burden of Disease Study 2023.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The role of nasal and gut microbiota in allergic rhinitis: immunomodulation and therapeutic prospects.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Built environment and emergency medical services response time in a high-density megacity: multilevel evidence from urban-suburban.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Green public facilities and residents' health from a socio-spatial perspective.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "6:2 Cl-PFESA induces sex-dependent lung inflammation through NLRP12 inflammasome activation and pulmonary microbiota dysbiosis.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Huajuhong: Insights into Botany, Phytochemistry, Pharmacology, and Applications in Food, Pharmaceuticals and Beyond.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "A physics-informed LLM agent for uncovering typhoon- and earthquake-induced turbine failures and offline yaw-pitch countermeasures",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Prevalence, Associated Factors and Quality of Life in PRISm: Findings from a Cross-Sectional Study in a Low- to Middle-Income Country.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Unlocking the electronic and adsorption origin of doping-engineered WS2 monolayers: a DFT investigation with machine learning validation.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Aircraft emissions as emerging soil pollutants: Implications for soil quality, food safety and ecosystem health.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Anatomical and Molecular Foundations of the Gut-Brain Axis in Alzheimer's Disease: From Molecular Mechanisms to Therapeutic Translation.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Extruded Cassava-Based Corn Analogs Improve Nutrient Digestibility, Gut Health, Intestinal Histology, and Egg Performance in Late-Phase Laying Hens.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Prospective field deployment of Swaasa® AI for community-based screening of tuberculosis and other respiratory diseases in Andhra Pradesh: a feasibility and im…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Integrating climate change adaptation into hypertension care: an evidence based framework for climate resilient primary healthcare and public health planning i…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "High-Temperature Corrosion in Biomass-Fired Systems: Mechanisms, Mitigation, Strategies, and Challenges for the Brazilian Bioenergy Sector.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Recurrent pulmonary infection, a vicious cycle of multifactorial interactions, and prevention/treatment strategies.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Persistent and emerging district-level hotspots of domestic violence against women in India: a spatiotemporal analysis, 2020-2024.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "FIM Motorcycling sport-specific extension of the IOC consensus statement: methods for recording and reporting of epidemiological data on injury and illness in…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Carbon nanotube and graphene-based nanomaterials for perovskite solar cells.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Pharmaceutical-derived microplastics: sources, detection, and toxicological implications for patient safety.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Divergent epidemiologic, shared risks: a comparative global analysis of COPD, ischemic stroke, and intracerebral hemorrhage.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Biomodulators and Skin Boosters in Skin Rejuvenation: Mechanisms, Applications, and Future Perspectives.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Mitochondrial stress-signaling networks in male reproductive dysfunction: redox, inflammatory, and cell-death integration with context-dependent modulation by…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Stroke in Saudi Arabia: epidemiology, prevention, clinical management, and emerging innovations-a narrative review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Noncoding RNA control of neuroinflammation in Alzheimer's disease: from immune cell states to precision therapeutics.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "NOS2 as a candidate molecular link between air pollutants and depression: an integrated computational and experimental study.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Geographic concordance of cataract and glaucoma burden and associated country-level exposures across 204 countries and territories.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Global cancer statistics among older adults in 2024 with projections to 2050: a multi-source population-based analysis.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Global Burden, Temporal Trends, Extrapolation Based on Past Trends, and Population Attributable Fractions of Risk Factors for Type 2 Diabetes Mellitus: An Ecol…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Kidney Health Biomarkers and Estimated Glomerular Filtration Rate Among Indonesian Tofu Production Workers: A Pilot Cross-Sectional Study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Revealing nonlinear and interaction mechanisms of resource and environmental carrying capacity through explainable machine learning.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Pulmonary Rehabilitation Delivered in Low-Resource Settings for People with Chronic Respiratory Disease: Protocol for a Mixed Methods Process Evaluation of a T…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The oral exposome and environment-related diseases of hard and soft oral tissues: a comprehensive review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Zang-Si-Wei and its core constituent ellagic acid alleviate LPS-induced acute lung injury by modulating PI3K/AKT signaling and NLRP3-associated pyroptosis.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Climate-smart precision poultry farming: artificial intelligence and sensor-based microclimate control for enhancing welfare and production efficiency.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Comparative oxidative and inflammatory responses to heated tobacco aerosol and cigarette smoke extracts in human lung fibroblasts.",
-   "reason": "excluded: matches 'tobacco|smoking cessation|e-cigarette'"
-  },
-  {
-   "source": "europepmc",
-   "title": "Ocular Injuries and Eye Safety Practices in Dental Settings: A Scoping Review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "A multifactorial DFT study of acceptor-tailored carbazole-based dyes with potential relevance to indoor DSSCs.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Building envelope materials, indoor environmental quality and public-health relevance in Kuwait: a narrative review of exposure pathways in a hot-arid climate.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Associations between the duration of outdoor sunlight exposure and the risk of developing 134 different diseases.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Projected Exposure of Canadian Children to Rare, High-Severity Heatwaves Under Continued Warming.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Towards Cleaner Cities: Stakeholder Solutions for Combating Urban Air Pollution Enforcement Challenges in Ghana.",
-   "reason": "excluded: the title names a place outside South and Southeast Asia"
-  },
-  {
-   "source": "europepmc",
-   "title": "Electrode performance in hybrid electrocoagulation and biochar adsorption systems for olive mill wastewater treatment.",
-   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
-  },
-  {
-   "source": "europepmc",
-   "title": "Sustainable Dyeing of Nylon 6 Fabric with Turmeric (Curcuma longa) Extract Using an Infrared-Assisted Exhaust Process.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Urbanization shapes the landscape of antibiotic resistance genes and water quality microbial markers across an urban watershed",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Impact of Climate Change on Gastrointestinal Health.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Sex- and Region-Specific Incidence and Mortality Trends in Laryngeal and Oropharyngeal Cancer: A 95,000-Case Population-Based Registry Analysis from Poland, 19…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Divergent Trends and Widening Inequalities in Digestive Tract Cancers Among Women of Childbearing Age: A Global Analysis from 1990 to 2021 and Projections to 2…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Exposomic Determinants in Heart Failure Among Older Adults - Mechanistic Links, Clinical Evidence, and Future Perspectives.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The Chemical, Physical and Biological Hazards in Bee Products: A Comprehensive Review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Environmental contamination and molecular epidemiology of Giardia duodenalis around Korean cattle farms: Implications for One Health surveillance.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Age-stratified health impacts of climate change on older adults in the Western Pacific Region: a scoping review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Traffic and combustion emission controls leave cooking as a dominant local source of primary PM1 in megacities.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Improving equity in respiratory disease outcomes in Africa using data-driven tools: National Institute of Health Care and Research's (NIHR) EQUI-RESP-AFRICA pr…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Neurodegenerative Diseases: Epidemiology, Risk Factors, Classification, Pathophysiology, Clinical Features, Diagnosis, and Therapeutic Strategies.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Air and Water Environmental DNA Enable Detection of a Large Terrestrial Bird: A Case Study of the Southern Cassowary (Casuarius casuarius).",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "First-principles investigation of hydrogen storage capacity, electronic, optical, mechanical, and thermodynamic properties of alkaline-metal-based K2LiXH6 (X =…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Radon emanation coefficients of coal fly ash and soil: Measurement, wall flux geometry correction, and indoor dose implications.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Urban greening resources and visibility-soil-moisture coordination in Dubai: Spatiotemporal patterns, spatially varying drivers, and planning implications.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Spatiotemporal monitoring of water quality degradation and trophic state in a severely polluted tropical urban lake in Southern India.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Culturally embedded affect: A grounded theory of recursive eco-emotional processing in young adults in Nepal and India",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Climate-Pollution-Pathogen Based Systems Model of Environmental Drivers of Infectious Disease Emergence Across Urban and Peri-Urban Bangladesh",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Better together: a narrative review of academia and medical device industry collaborations towards sustainable kidney care.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Progress and Future Perspectives in Hydrogen Energy and Fuel Cell Technologies for Clean Energy Applications.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Emerging Advancements in Upcycling Rice Processing Byproducts.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Effect of gasoline exposure on hematological parameters in Khartoum State, Sudan, 2023.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Highly pathogenic avian influenza in Canada: Spatial analysis of ecological hot and cold spots and environmental drivers.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The food environment as a cardiometabolic exposure: mechanisms, inequities, and interacting environmental risk.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Environmental health determinants among seasonal migrants in China: a multi-dimensional analysis.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Cardiovascular health and longevity: where are we?",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Veteran deployed burn pits exposure: headache phenotypes, trajectories, and outcomes: a mixed-methods evaluation.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The burden of bacterial antimicrobial resistance in the WHO Western Pacific Region 1990-2021: a cross-country systematic analysis with forecasts to 2050.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Investigating potential molecular mechanisms linking 6PPD-quinone exposure to Intervertebral Disc Degeneration: A network toxicology, molecular docking, and mo…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Evidence Suggests Linoleic Acid Exerts Health Benefits Beyond Cardiovascular Disease: A Brief Review of Clinical and Observational Studies.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Mining tailings dam failures and human health: a scoping review of environmental exposure, potentially toxic elements, and epidemiological evidence, 2015-2025.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Impact of exposure to environmental chemicals on the occurrence of molar incisor hypomineralisation and developmental enamel defects in children: a systematic…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Global Burden and Trends of Early-Onset Tracheal, Bronchus, and Lung Cancer Among Women From 1990 to 2021.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Large-scale plasma proteomics identifies proteins and pathways associated with incident interstitial lung disease.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Knowledge, risk perception and household practices related to indoor chemical pollution in the United Arab Emirates.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Environmental Impact of Digital Health Care Technologies in Reducing Carbon Footprints: Scoping Review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Contribution of the ROS/IRE1α Signaling Pathway to Arsenic Trioxide-Induced Apoptosis and Autophagy-Associated Responses in BEAS-2B Cells.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Chronic Intermittent Hypoxia and MASLD in Obstructive Sleep Apnea: A Critical Appraisal of Mechanistic and Causal Evidence.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Immunomodulatory Effects of Vitamin D Receptors and Serum Vitamin D Levels in COVID-19 Patients After Immunization: A Narrative Review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Biomimetic Coverage Optimization in WSNs via an Enhanced Spider-Wasp Optimizer with Adaptive Learning and Dual-Median-Point Guidance.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Semiconductor Technologies for Predictive, Preventive, and Personalized Healthcare.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Acid-induced demulsification versus alum and polyaluminium chloride coagulation for oil and turbidity removal from concentrated soybean oil-in-water emulsions.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Improving satellite-reanalysis sulfate aerosol estimates over India using ground measurements.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Occupational health risks from climate-related and infectious-disease stressors: A scoping review of worker safety and resilience.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Using implementation research frameworks to identify facilitators and barriers to implementation of ferric carboxymaltose intravenous iron among moderately ane…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Controlling ammonia in aquatic environments: a critical review linking monitoring, prevention, and recovery.",
-   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
-  },
-  {
-   "source": "europepmc",
-   "title": "Particulate Matter Exposure and Accelerated Cardiovascular Aging: Mechanistic Evidence, Biomarker Integration, and the PACA Framework.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Trends in Occupational Heat-Health Research in Low-and Middle-Income Countries: A Mapping Review.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Internet of Things (IoT) in environmental public health: Monitoring environmental hazards and supporting public health action.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Plasma-Enhanced Electrostatic Precipitator (ESP) with Self-Cleaning Electrode for Scalable Remediation of Particulate Matter in Large Diesel Engines.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Research on requirements for smart home-based older adult(s) care service platforms based on the Kano model.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Annual recurrence and period-composite persistence of child-heat priority across six contrasting urban systems.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Characteristics and perceived pathways of students' informal learning experiences in highly flexible public spaces of higher education: a mixed-method study ba…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Temperature-dependent association between ambient ozone exposure and allergic rhinitis-related outpatient visits: a time-stratified case-crossover study in Hen…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Grey relational analysis-based optimisation of bioethanol production process parameters derived from cassava peels.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Xanthine oxidase inhibitory evaluation of prenylated flavonoids from peanut (Arachis hypogaea L.) shells: in vitro and in silico molecular docking studies.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Extreme temperatures and the epithelial barrier theory.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Associations between short-term PM2.5 exposure and major cardiovascular events in high-risk population: a nationwide case-crossover study.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Integrating machine learning and geospatial technologies for spatio-temporal analysis of urban expansion and land use transformation in Gambella Town, Ethiopia.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "MUC5B/TGF-β/KL-6 Signaling in Idiopathic Pulmonary Fibrosis: Genetic Susceptibility to Profibrotic Progression and Clinical Perspectives.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "20-year analysis of protocol-driven quality improvement in cardiac homograft banking.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Suppressing radiocesium uptake and root-to-shoot translocation in crops: Molecular, agronomic, and ecological strategies.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Public brain health: a framework for action to promote and safeguard brain health.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Social Determinants of Health and Behavioral Risk Factors in the Tuberculosis-Type 2 Diabetes Syndemic: A Narrative Review",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Loss of microbial diversity from human–microbe coevolution: immune, epigenetic, and enteric nervous system mechanisms linking dysbiosis to neuropsychiatric and…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Superoxide Release from Macrophages upon Exposure to Secondary Organic Aerosols, Biomass, and Plastic Burning Particulate Matter",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Educational gradients and sex-by-education differences in environmental health literacy among adults from selected urban communities in Nanning, China",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Paradoxical PM2.5-longevity estimates in global country panels are sensitive to differential trend control: a specification analysis, 2000–2023",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Male reproductive health under environmental, pharmacological, and disease influences: a scoping review",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Interdisciplinary human-centric architectural framework for One Health surveillance, early warning, and response: leveraging AI modelling and IoT environmental…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Integration of Network Toxicology and Machine Learning to Prioritize Candidate Molecular Features Associated with NNK-Related Lung Cancer",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "What Does Sensor Performance Really Mean? A Four-Layer Framework for Interpreting Air Quality Sensor Performance Evaluations.",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "europepmc",
-   "title": "Associations between air pollution and pediatric pneumonia incidence in Ulaanbaatar, Mongolia: age and sex susceptibility.",
-   "reason": "excluded: the title names a place outside South and Southeast Asia"
-  },
-  {
-   "source": "europepmc",
-   "title": "RSM Optimized Feasibility Assessment of Hybrid Algae-Plastic Oil Blended Diesel Fuel with Binary Additives CuO-MgO on Performance and Emissions in CRDI Diesel…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Understanding and translating evolutionary adaptations in animals exposed to contaminated diets to guide strategies against human foodborne disease: a prioriti…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "The role of ponds in the retention of micro(nano)plastics, tyre wear particles and their leachates: current state of the science, research gaps and opportuniti…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "MicroRNAs as a potential missing link between environment and type 1 diabetes development.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Association between maternal antimony exposure and offspring congenital heart defects: findings from a large birth cohort study.",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "europepmc",
-   "title": "Conserved and particle-specific mitochondrial stress responses drive immunotoxicity of ultrafine particulate matter, black carbon, and polystyrene nanoplastics.",
+   "source": "crossref",
+   "title": "Pedestrians’ Exposure to Air Pollution in a Mountain Town of Boone, North Carolina",
    "reason": "excluded: no country, city or regional term in scope"
   },
   {
@@ -1516,13 +381,23 @@
   },
   {
    "source": "crossref",
-   "title": "Economic Assessment Frameworks for Coagulation-flocculation Processes in Wastewater Treatment: a Methodological Review",
-   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
+   "title": "Air Pollution Research in Latin America and the Caribbean, 2015–2025: Growth, Gaps, and Future Challenges",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "Data Centers: Cumulative air pollution impacts from on-site generators in Northern Virginia",
+   "reason": "excluded: no country, city or regional term in scope"
   },
   {
    "source": "crossref",
    "title": "Allergic Conjunctivitis and Rhinitis in Saudi Arabia Using Google Trends: Associationwith Air Pollution and Meteorological Factors",
    "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "Economic Assessment Frameworks for Coagulation-flocculation Processes in Wastewater Treatment: a Methodological Review",
+   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
   },
   {
    "source": "crossref",
@@ -1551,12 +426,12 @@
   },
   {
    "source": "crossref",
-   "title": "Leaf-Associated Elemental Loads on Living Ornamental Plants in an Automobile Welding Workshop: An Exploratory Field Study",
+   "title": "Microplastic contamination in spotted babylon (Babylonia areolata) from the artisanal fisheries along the eastern coast of Thailand",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
    "source": "crossref",
-   "title": "Microplastic contamination in spotted babylon (Babylonia areolata) from the artisanal fisheries along the eastern coast of Thailand",
+   "title": "Leaf-Associated Elemental Loads on Living Ornamental Plants in an Automobile Welding Workshop: An Exploratory Field Study",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -1691,43 +566,1333 @@
   },
   {
    "source": "crossref",
-   "title": "Global inequalities in subarachnoid hemorrhage attributable to temperature extremes and air pollution among adults over 40 years: Insights from the GBD study w…",
+   "title": "Green Chemistry for Environmental Protection: Molecular Strategies for Plastic, Water and Air Pollution Control",
    "reason": "excluded: no country, city or regional term in scope"
   },
   {
    "source": "crossref",
-   "title": "Green Chemistry for Environmental Protection: Molecular Strategies for Plastic, Water and Air Pollution Control",
+   "title": "Global inequalities in subarachnoid hemorrhage attributable to temperature extremes and air pollution among adults over 40 years: Insights from the GBD study w…",
    "reason": "excluded: no country, city or regional term in scope"
   },
   {
    "source": "crossref",
    "title": "Comparative evaluation of daytime indoor air quality parameters in four sheep housing systems under cold climate conditions: an exploratory case study",
    "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "REGULASI DANA KAMPANYE DAN INTEGRITAS PEMILU: STUDI PERBANDINGAN INDONESIA, FILIPINA, DAN MALAYSIA",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Air Pollution and the A-H Premium: Pre-Registered Evidence from Shanghai–Hong Kong Dual Listings and the Limits of Meteorological Instruments",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "The hidden carbon burden of air pollution control in Hebei, China: an augmented input–output framework with endogenous abatement strategies",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "Knowledge, Attitudes, and Clinical Practices Regarding Air Pollution and Health Among Pulmonologists in Albania: A Cross-Sectional Study",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "The Economic Cost Of “Clean Air”: Evidence From The Air Pollution Prevention And Control Action Plan In China",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "Application of petroleum hydrocarbons as an environmental quality marker for marine aquaculture areas in Lombok Island, Indonesia: Occurrence, spatio-temporal…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Responsive Caregiving, Home Learning Materials, and Subsequent Language Development in Rural Pakistan and India: A Secondary Analysis",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Pemanfaatan Warisan Budaya Indonesia dalam Pembelajaran Lintas Budaya untuk Menumbuhkan Kesadaran Budaya Siswa Sekolah Dasar di Thailand",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Abbott spent 12 years neglecting Texas air pollution – a new governor can start cleaning it up",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "Air Pollution Exposure and Human Health in Port Cities: A Systematic Review",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "Long-term air pollution exposure as a new predictor of postoperative delirium and the establishment of machine learning model",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "Diesel traffic-derived air pollution exacerbates the risk of olfactory decline: from population-based evidence to mechanistic insights",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "Association between fine particulate air pollution and the risk of death from kidney cancer in Taiwan",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "Governance and SWOT-Based Strategies for Implementing Nagari Forest Policy to Control Mangrove Land Conversion in Air Bangis, West Pasaman Regency",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Molecular markers of nitrosative stress and antioxidant defense in the blood of the Zaporizhzhia territorial community population with varying PM2.5 air pollut…",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "The Early Potential of Ex Camp Vietnam as an Instrument of Heritage Diplomacy by Re-reading Humanitarian Narratives in Indonesia-Vietnam Relations",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "The Impact of Parental Migration on Child Nutrition: A Comparative Study of Indonesia and the Philippines",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Recalibration of Pakistan-India Strategic Equation in an Era of Multi-Domain Competition",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "The Preparation of KOH-activated Sugarcane Bagasse Biochar and Its Adsorption Properties Toward p-nitrophenol in Aqueous Solution",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Exposure-Integrated Risk Prioritization of Legacy and Emerging PFAS: a Case Study of a Major River Basin in South Korea via High-Resolution Mass Spectrometry",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "The Politics of Pollution: GDP Rankings and Air Quality in China",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "Bio-Template-Derived Ta2O5/g-C3N4 Composites for Visible-Light Photocatalytic Removal of Ciprofloxacin, Oxytetracycline, and Tetracycline",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Air pollution and respiratory health in Sarajevo Canton: cross-sectional study of children and adults",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "Seasonal dynamics of land surface temperature variations and their link to air pollution in Kerman City, Iran",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "crossref",
+   "title": "Estimating differential short-term air pollution impact on cause-specific mortality from multiple pollutants",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "Pollution NO2 and C6H6 Dynamics and their Implication for the Fitness-for-purpose of Air Quality Networks. A Case Study in 2005–2022 Madrid",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "Modification of the Texture and the Surface Chemistry of Activated Carbons By Ozonation in Gaseous Phase: Impact On the Adsorption of Micropollutants",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "National macro-surveillance of overweight and obesity in India, Bangladesh, and Nepal: A systematic review of global versus Asian BMI thresholds and associated…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Understanding the Balance: a Systematic Review of Traffic-Related Air Pollutants (TRAPs) Emissions and Environmental Absorption Mechanisms",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "Suspicion as Infrastructure: Border Governance and State Making at the India–Bangladesh Frontier",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Soil Nitrogen Mineralization Responses to Land-use Change in Karst Ecosystems: Insights From in Situ Incubation and Process-based Analysis",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Performance Evaluation of Recirculating Natural Treatment Systems for Polishing Anaerobically Treated Swine Wastewater",
+   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
+  },
+  {
+   "source": "crossref",
+   "title": "Engineering Pathways for Clean-Air and Climate Resilience: Integrating Aerosol-Lightning Science, Emission-Control Technologies, and Early Warning in Eastern I…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Spatial Distribution of Water Quality and Probabilistic Health Risk Assessment Near Mining Sites in Areas with Marble and Coal Reserves in Loralai and Duki, Ba…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Diagnosing decent work inside the firm through an employee perception index for SDG 8 and its associations with organisational sustainability outcomes in India…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Microbial Community Dynamics Driving Sludge Settleability in Sequencing Batch Reactors: Mechanisms, Interactions, and Future Perspectives",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Integrated Control of Ultrafine Particles and Combustion Gases from Sugarcane Bagasse through Source Control Using Kaolin and Scrubbing in a Rectangular Venturi",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Analysing The Effect of Graphene-Based Nanomaterials for Improving Industrial Sludge Wastewater Treatment",
+   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
+  },
+  {
+   "source": "crossref",
+   "title": "Macronutrient-Based Nanoparticles for Abiotic Stress Tolerance in Agricultural Crops: A Comprehensive Review",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "The impact of ambient and wildfire-specific air pollution on upper airway disease",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "Thailand-Myanmar river pollution agreement was weakened, then signed. China remains silent",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "New WHO technical package to help countries improve health data for COVID-19 response and beyond",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "COVID-19 disrupting mental health services in most countries, WHO survey",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Global partnership to make available 120 million affordable, quality COVID-19 rapid tests for low- and middle-income countries",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Managing the COVID-19 infodemic: Promoting healthy behaviours and mitigating the harm from misinformation and disinformation",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO’s three messages for UNGA75",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "COVID-19 could reverse decades of progress toward eliminating preventable child deaths, agencies warn",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "In WHO global pulse survey, 90% of countries report disruptions to essential health services since COVID-19 pandemic",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "172 countries and multiple candidate vaccines engaged in COVID-19 vaccine Global Access Facility",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Global polio eradication initiative applauds WHO African region for wild polio-free certification",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "World Humanitarian Day 2020: A tribute to aid workers on the front lines",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Plane carrying WHO trauma and surgical supplies arrives in Beirut, Lebanon",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "COVID-19 Emergency Committee highlights need for response efforts over long term",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO statement on heated tobacco products and the US FDA decision regarding IQOS",
+   "reason": "excluded: matches 'tobacco|smoking cessation|e-cigarette'"
+  },
+  {
+   "source": "who-news",
+   "title": "World Hepatitis Day: fast-tracking the elimination of hepatitis B among mothers and children",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "New COVID-19 Law Lab to provide vital legal information and support for the global COVID-19 response",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO Director-General pays tribute to Spain’s sacrifices and leadership to confront COVID-19",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "More than 150 countries engaged in COVID-19 vaccine global access facility",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO and UNICEF warn of a decline in vaccinations during COVID-19",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "As more go hungry and malnutrition persists, achieving Zero Hunger by 2030 in doubt, UN report warns",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Independent evaluation of global COVID-19 response announced",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "UN Public Service Day",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO experts to travel to China",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO: access to HIV medicines severely impacted by COVID-19 as AIDS response stalls",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO discontinues hydroxychloroquine and lopinavir/ritonavir treatment arms for COVID-19",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Listings of WHO’s response to COVID-19",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "ACT-Accelerator update",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "IOC joins forces with WHO and the United Nations to fight COVID-19",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "The World Health Organization reminds public to remain vigilant through Mr Bean’s Essential COVID-19 Checklist",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Countries failing to prevent violence against children, agencies warn",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO welcomes preliminary results about dexamethasone use in treating critically ill COVID-19 patients",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "A cluster of COVID-19 in Beijing, People’s Republic of China",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "World Food Safety Day 2020: UN experts in Facebook live event on 5 June 2020",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Statement from Dr Mike Ryan, Executive Director, WHO Health Emergencies Programme at the Yemen High-level Pledging Conference",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Stop tobacco industry exploitation of children and young people",
+   "reason": "excluded: matches 'tobacco|smoking cessation|e-cigarette'"
+  },
+  {
+   "source": "who-news",
+   "title": "The World Health Organization, UN Foundation and Illumination partner on health messages",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Countries failing to stop harmful marketing of breast-milk substitutes, warn WHO and UNICEF",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "At least 80 million children under one at risk of diseases such as diphtheria, measles and polio as COVID-19 disrupts routine vaccination efforts, warn Gavi, W…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Smithsonian Science Education Center With Support of the World Health Organization Launches New COVID-19 Guide for Youth",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO and UNHCR join forces to improve health services for refugees, displaced and stateless people",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO and Costa Rica preview technology pooling initiative to ensure access to COVID-19 health products for all",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO: People living longer and healthier lives but COVID-19 threatens to throw progress off track",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO statement: Tobacco use and COVID-19",
+   "reason": "excluded: matches 'tobacco|smoking cessation|e-cigarette'"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO Statement on false allegations in Der Spiegel",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Billions worldwide living with herpes",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO reports fivefold increase in cyber attacks, urges vigilance",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Hard fought gains in immunization coverage at risk without critical health services, warns WHO",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "UN agencies issue urgent call to fund the global emergency supply system to fight COVID-19",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO guidance helps detect iron deficiency and protect brain development",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "ITU-WHO Joint Statement: Unleashing information technology to defeat COVID-19",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Joint statement by WTO Director-General Roberto Azevêdo and WHO Director-General Tedros Adhanom Ghebreyesus",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Children’s story book released to help children and young people cope with COVID-19",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Joint Leaders' statement - Violence against children: A hidden crisis of the COVID-19 pandemic",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO and partners call for urgent investment in nurses",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO and Global Citizen announce: 'One World: Together at home' Global Special to support healthcare workers in the fight against the COVID-19 pandemic",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "#BeActive for the UN International Day of Sport for Development and Peace",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "IPA, WHO and UNICEF launch Read the World on International Children’s Book Day to support children and young people in isolation",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO releases guidelines to help countries maintain essential health services during the COVID-19 pandemic",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Iraq needs $325 million for emergency health care, says World Health Organization",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO Director-General calls on G20 to Fight, Unite, and Ignite against COVID-19",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Statue commemorates smallpox eradication",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Ensuring continuity of TB services during the COVID-19 pandemic",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Hope for 11 million children facing death from illnesses",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Key step forward on International Health Rules",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "SARS outbreak contained worldwide",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Update 31 - Coronavirus never before seen in humans is the cause of SARS",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "End in sight, but flare-ups likely in the Ebola outbreak in the Democratic Republic of the Congo",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Shortage of personal protective equipment endangering health workers worldwide",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Global leaders intensify commitment to prevent leading childhood killer - measles",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "International spread of disease threatens public health security",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO calls on malaria-endemic countries to strengthen monitoring of antimalarial drug efficacy",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Landmark agreement improves global preparedness for influenza pandemics",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Dead and injured following attacks on Ebola responders in the Democratic Republic of the Congo",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Health in all policies: the case of air pollution, urban health and sustainability",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "who-news",
+   "title": "Major milestone for WHO-supported Ebola vaccine",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Universal Health Coverage Passes Key Global Milestone",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Multilateral agencies launch a joint plan to boost global health goals",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Call for action to reduce the harmful use of alcohol",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "Tropical Data: a WHO-led initiative to help national programmes collect and do more with their data",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO launches new report on the global tobacco epidemic",
+   "reason": "excluded: matches 'tobacco|smoking cessation|e-cigarette'"
+  },
+  {
+   "source": "who-news",
+   "title": "World hunger is still not going down after three years and obesity is still growing – UN report",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO highlights devastating global impact of drowning",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO updates personal protective equipment guidelines for Ebola response",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "who-news",
+   "title": "WHO recommends 29 ways to stop surgical infections and avoid superbugs",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "hei",
+   "title": "Position announcement: Consulting Program Coordinator – Global Initiatives",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "hei",
+   "title": "Announcing the 2026 Future Leaders Fellows",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "hei",
+   "title": "Now accepting applications for HEI's 2027 Summer Fellowship Program!",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "hei",
+   "title": "Apply for HEI's Rosenblith award",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "hei",
+   "title": "Abstract submissions and Jane Warren award applications now open",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "hei",
+   "title": "HEI publishes new report on Australian wildfires",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "hei",
+   "title": "HEI publishes protocol for a scoping review on health effects of air pollution in West Africa",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "hei",
+   "title": "HEI Energy publishes two investigators' reports",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "state-of-global-air",
+   "title": "New State of Global Air 2025 Report Shows Nearly Nine in Ten Global Air Pollution Deaths are from Noncommunicable Diseases",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "state-of-global-air",
+   "title": "State of Global Air Report 2025",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "state-of-global-air",
+   "title": "How Does Air Pollution Impact Children's Health",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "state-of-global-air",
+   "title": "Air Pollution and Your Health",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "state-of-global-air",
+   "title": "Does Clean Air have a Price Tag? Perspectives from the Africa Clean Air Forum 2026",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
+  },
+  {
+   "source": "state-of-global-air",
+   "title": "July Science on the 7th",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "icimod",
+   "title": "2026 El Niño could bring wetter, warmer conditions, and more hazards for Hindu Kush Himalaya",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "Countries call for stronger global conservation action for mountain biodiversity at the UN Biodiversity Conference",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "After Himalayan disasters, mountain nations urge COP31 to turn recognition into action",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "COP31 – Nepal and Bhutan sound the alarm on collapsing Himalayan glaciers",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "Bhutan GLOF triggers downstream alerts, underscores need for stronger early warnings systems across the Himalaya",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "RfP: Preparation of Local Disaster and Climate Resilience Frameworks (LDCRF) for Nine Municipalities/Rural Municipalities in Rautahat, Mahottari and Dhankuta D…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "Request for Proposal: Trekking and Expedition Support Services for the Collaborative Long-term Monitoring of Glacier and Permafrost in Bhutan – Shodug Glacier,…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "Himalayan yak herders launch first regional network at Bhutan’s Royal Highland Festival",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "RFP: Supply, installation and managed cloud hosting with platform support for the ICIMOD PURE platform",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Mongabay Kids launches Wild Guardians: A free education initiative to engage children with nature",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Longer droughts threaten floating health clinics as Amazon streams run dry",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "China’s mangroves have bounced back. Birds have returned too",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "In South Africa’s Limpopo, residents wonder what the next flood will bring",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Analysis: The collapse of UN climate talks, over fossil fuels, was years in the making",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Colombia president’s move on mining, oil weakens country’s Amazon protections, experts warn",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "‘We had to reinvent the system completely,’ Brazilian philanthropy leader says",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Warming seas threaten South Korea’s iconic squid fishery with collapse by 2040s",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "From farm to airline plates, a Zambia farm closes its food-waste loop",
+   "reason": "excluded: matches '\\bair force\\b|\\bair ?strike|\\bairline|\\bair india\\b|air traffic'"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Wolves help wild blueberries grow, US study finds",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Bumblebees are problem-solvers too",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Plan to breed rare Asian golden cats for pets raises conservation concerns",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Kuala Lumpur otters raise river revival hopes",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "The British island that made a deal with nature",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Extreme rainfalls flood Sri Lanka’s coastal city as wetlands, drains vanish",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "US leases American Samoan seabed for mining in auction deemed illegal by court",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Renovated BUGarium in the US aims to connect people and insects",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Philippine corn farmers investigate links between chemical farming and soil erosion",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Indigenous protesters board soy and oil barges on Brazilian Amazon river",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "It’s time to put Africa’s forest communities on the map (commentary)",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Where family foundations can help marine conservation",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Ecuador copper mine advancing despite opposition from Indigenous communities",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Could a short tail mean a new monkey species in Laos? Some scientists think so",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Quechua community in Peru builds up Andean bear camera trap project on their own reserve",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "UN climate talks slammed by activists, leaders as fossil fuels go unmentioned in draft agreement",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Japan looks to offshore wind to boost energy security, but hurdles remain",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Floating wind is building ‘A lot of momentum’ toward commercialization",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Last Javan rhino habitat caught between mining plans and relocation debate",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "One in four land reptiles depends on rock habitats. Lack of protection leaves them in a hard place",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Fossil fuels’ role in Africa’s energy transition contested as UN climate conference closes",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "Nickel linked to deforestation in Indonesia traded on London Metal Exchange, says report",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "As Nepal celebrates the crow, urban sprawl and waste drive strain",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "China’s South-South climate cooperation came to the fore at COP31",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "Johor’s AI boom is leaving communities and endangered wildlife behind",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "China accuses Chile and Belgium of ‘backroom deal’ as tensions rise over high seas treaty HQ",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "Q&A: How host countries can strike better deals with cleantech manufacturers",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "COP31: Is electrification goal a fossil trap for Latin America?",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "How to break the cycle of Indonesian forest fires?",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "Trump promises an oil bonanza in Venezuela, but critics question who will benefit",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "Q&A with Ana Toni: We need to plan how to get out of fossil fuels",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "COP31: Q&A: ‘Climate finance should not aggravate Pakistan’s debt burden’",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "dialogue-earth",
+   "title": "COP31: Latin America’s fragmented climate alliances head to Antalya",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Glyphosate-sprayed corn strips Mindanao hillsides of topsoil: farmer study",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Japan bets on offshore wind for energy security as costs bite",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "COP31 falls short, and not just on fossil fuels: What does this mean for developing Asia?",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Lawmakers push to scrap mining zone near last Javan rhino habitat",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Southeast Asia's primates still bear El Niño fire scars years on",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "COP31 draft retains adaptation finance pledge but leaves vulnerable countries without a clear funding figure",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Singapore rolls out green verification for SMEs to help them compete for big contracts",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Borneo Indigenous groups warn of new land threats after oil palm win",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Global electricity demand to rise about 37 per cent by 2035, with heatwaves and AI pushing projections higher: IEA",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Philippines seeks adaptation grants at COP31 as new strategy documents loan-heavy climate funding",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "COP31’s Finance Day offers no cheaper loans as grants stay scarce for developing Asia",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Arsenic keeps flowing into Thai rivers as China stays silent on mines",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Heatwaves push up premature births in Bangladesh: study",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Indonesia moves to protect whale shark feeding ground and possible nursery",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Domestic demand eclipses exports in Indonesia's palm oil deforestation",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "COP31: Ana Toni on the fossil-fuel transition roadmap",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Two decades on, Vietnam's freshwater dam leaves Mekong river choking",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Singapore takes Asean chair with long-delayed power grid at top of energy agenda",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Asean’s high-tech push risks deepening imported fuel dependence, analyst warns",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Can China’s clean power stations cope with a changed climate?",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Fatal disagreement: on the COP31 summit",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "India maps landslide susceptibility as part of shift from post-disaster relief to landslide management",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "COP31 ends without a deal: Is global climate diplomacy breaking? | The Hindu Analysis",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "COP31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Paper tiger: On the Green India Mission",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Three cyclones in three weeks: What’s happening in the Bay of Bengal? | Explained",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "COP31 extends into overtime in Turkiye meeting",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Earthshot Prize finalists offer climate solutions for Mumbai, from wildfire detection to coastal protection and heat resilience",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Tiger ‘Explorer’ reaches Mylavaram forest near Vijayawada; four villages on alert",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Cheetah brought from Botswana gives birth to four cubs at Kuno",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Watch | How has ‘Project Cheetah’ progressed in India?",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "As Project Cheetah completes 4 years, big cat population in India rises to 52",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Rare ‘bridal veil’ bamboo mushroom spotted near Ranganathittu Bird Sanctuary",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Indonesian fire emissions third highest on record this year, says EU’s Copernicus",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "COP 31: Nations still seeking deeper fossil fuel cuts as climate summit enters final day",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Draft of COP31 cover text drops references to fossil fuel phase-out, net zero dates",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   }
  ],
  "merge_log": [
   {
+   "title": "Ambient particulate chemical components and dengue incidence: A 10-year nationwide study in Thailand.",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Long-term cooking fuel use patterns following a clean cooking intervention: Follow-up of the multi-country HAPIN trial",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Haze and health: a mixed method approach exploring physical and psychological challenges of smog faced by university emp",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Long-term PM2.5 trends and spatial heterogeneity over Delhi-NCR: insights from detrending and meteorological normalizati",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Examining the Association between Particulate Matter (PM2.5) Exposure and Under-five Child Mortality in India Using Clus",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Estimation of spatio-temporal air pollutant emissions from wheat residue burning in the Central Part of India.",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Assessment of air quality and heavy metals in residential and commercial areas of Aizawl and Lawngtlai districts, Mizora",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Empirical analysis and adaptive policy control for air quality governance in Delhi NCR",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Mapping satellite NO2 hotspot typology: India's shifting pollution burden from Delhi-NCR to eastern energy-industrial co",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Assessing satellite and reanalysis PM2.5 datasets for air quality applications in India.",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Atmospheric trace elements in PM2.5 at a regional background site in the western Himalaya: source identification and ris",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Ambient air pollution and the sex ratio at birth: a systematic review and narrative synthesis",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Spatio-temporal air quality patterns and hotspot identification using a high-density, statewide sensor network in West B",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "When the data talked back: geography undergraduates, digital field tools and action learning on air pollution in Patna, ",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Lag-Enhanced Machine Learning Modelling of Ground-Level Ozone across Five Urban Environments in Andhra Pradesh, India",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Household air pollution and child survival in South and Southeast Asia: a multi-country analysis of trends, disparities,",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Assessment of Air Quality-Related Policy Effectiveness to Control Air Pollution in Some Urban Areas of India",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Spatiotemporal Variations of Smoke Haze in a Mountain–Valley Region of Northern Thailand Based on Microsensors and Day–N",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Mobility-driven changes in urban air quality during the COVID-19 lockdown: Evidence from the Baridhara monitoring statio",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Multi-Stakeholder Action Framework for Air Pollution Mitigation and Subjective Well-Being Enhancement in New Delhi: Less",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Health management under PM2.5 pollution: perspectives of patients, families, communities, and health-care providers in N",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Thematic analysis of urban air pollution dynamics in Delhi",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
    "title": "Estimation of spatio-temporal air pollutant emissions from wheat residue burning in the Central Part of India",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "New policy brief explores methods for assessing long-term air quality trends in India",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Wildfire smoke: advancing understanding of a transboundary air pollution challenge",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Air Pollution and Tuberculosis: Hidden Links, Shared Solutions – Report Coming in 2027!",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Transboundary Impacts of Wildfire Smoke with Borderless Consequences",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Everything I Wish I'd Known When I Started Working on Air Pollution",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Inequities in the Global Air Pollution Health Burden",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "COVID-19 lessons should inform response to air pollution",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "‘Abki baar, AQI 400-paar’: Congress takes a swipe at Modi over Delhi pollution",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Air pollution does not recognise State boundaries, coordinated action required: Union Minister",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "India’s efforts to clean its air need not slow its economic growth",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "HC asks Dhaka authorities to implement air pollution directives",
    "decision": "merged",
    "reason": "same signal ID"
   }
  ],
- "finished_at": "2026-11-23T11:44:08Z",
+ "finished_at": "2026-11-24T01:42:25Z",
  "totals": {
-  "fetched": 860,
-  "included": 68,
-  "excluded": 792,
-  "new": 67,
-  "updated": 1,
-  "duplicates": 0,
+  "fetched": 573,
+  "included": 35,
+  "excluded": 538,
+  "new": 1,
+  "updated": 0,
+  "duplicates": 34,
   "url_changed": 0,
   "skipped_old": 0,
   "held_for_review": 0
  },
- "records_in_store": 67,
- "sources_ok": 20,
+ "records_in_store": 68,
+ "sources_ok": 19,
  "sources_attempted": 20,
  "schema_errors": [],
- "outcome": "ok",
- "review_queue": 67
+ "outcome": "partial",
+ "review_queue": 68
 }
