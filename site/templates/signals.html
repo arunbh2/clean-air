@@ -28,6 +28,7 @@
 <p class="muted small" id="sig-all-none" hidden>No matching records in this feed. Source coverage is limited; this does not mean no such work or research exists.</p>
 {% endif %}
 <ul class="sig-list" id="sig-all">{% for r in items %}{{ sig_item(r, rel) }}{% endfor %}</ul>
+{% if pager %}<nav class="sans" aria-label="Parts of this month"><ul class="inline-list">{% for lbl, href, cur in pager %}<li>{% if cur %}<strong aria-current="page">{{ lbl }}</strong>{% else %}<a href="{{ rel }}{{ href }}">{{ lbl }}</a>{% endif %}</li>{% endfor %}</ul></nav>{% endif %}
 </section>
 {% elif kind != 'index' %}<p>No matching records in this feed. Source coverage is limited; this does not mean no such work or research exists.</p>{% endif %}
 {% if extra %}{% for h, rows in extra %}<section class="section-rule" aria-labelledby="x{{ loop.index }}"><h2 id="x{{ loop.index }}">{{ h }}</h2>{% if rows %}<ul class="sig-list">{% for r in rows %}{{ sig_item(r, rel) }}{% endfor %}</ul>{% else %}<p>None in this feed.</p>{% endif %}</section>{% endfor %}{% endif %}
