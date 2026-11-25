@@ -87,6 +87,11 @@ SIG_ALL = [_apply(r) for r in SIG_RECORDS]
 SIG_PUBLIC = [r for r in SIG_ALL if r["review_status"] not in ("excluded", "withdrawn")]
 SIG_WITHDRAWN = [r for r in SIG_ALL if r["review_status"] == "withdrawn"]
 SIG_TIMELINE = sorted([r for r in SIG_PUBLIC if r["_timeline"]], key=lambda r: (min(r["published_at"], r["discovered_at"]) if len(r["published_at"]) > 10 else r["published_at"], r["signal_id"]), reverse=True)
+SIG_PAGE_SIZE = 40   # records per list page, so pages stay inside the HTML byte budget as the feed grows
+_mseen = {}
+for _r in SIG_TIMELINE:   # monthly archives split into parts of SIG_PAGE_SIZE; each record's anchor page follows its part
+    _k = _mseen.get(_r["_month"], 0); _mseen[_r["_month"]] = _k + 1
+    _r["_page"] = f"signals/archive/{_r['_month']}.html" if _k < SIG_PAGE_SIZE else f"signals/archive/{_r['_month']}-p{_k // SIG_PAGE_SIZE + 1}.html"
 SIG_BY_ID = {r["signal_id"]: r for r in SIG_ALL}
 SIG_LAST = SIG_STATUS.get("last_successful_refresh")
 SIG_STALE_HOURS = 36
@@ -116,4 +121,4 @@ env.globals.update(SIG_BY_INT=SIG_BY_INT, SIG_BY_GROUP=SIG_BY_GROUP, SIG_BY_NODE
                    SIG_FUNDING=SIG_FUNDING, SIG_AWAITING=SIG_AWAITING, SIG_TIMELINE=SIG_TIMELINE, SIG_LAST=SIG_LAST, SIG_DELAYED=SIG_DELAYED,
                    SIG_TYPE_LABEL=SIG_TYPE_LABEL, SIG_PROV_LABEL=SIG_PROV_LABEL, SIG_REVIEW_LABEL=SIG_REVIEW_LABEL, SIG_THEME_LABEL=SIG_THEME_LABEL,
                    SIG_COUNTRY_LABEL=SIG_COUNTRY_LABEL, SIG_ORGTYPE_LABEL=SIG_ORGTYPE_LABEL, SIG_VIEW_LABEL=SIG_VIEW_LABEL, sig_stamp=sig_stamp,
-                   SIG_STALE_HOURS=SIG_STALE_HOURS, SIG_BY_ID=SIG_BY_ID, sig_result=sig_result)
+                   SIG_STALE_HOURS=SIG_STALE_HOURS, SIG_PAGE_SIZE=SIG_PAGE_SIZE, SIG_BY_ID=SIG_BY_ID, sig_result=sig_result)

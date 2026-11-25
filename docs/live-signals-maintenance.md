@@ -43,3 +43,13 @@ For a rights or privacy request, add a decision row with `review_status: withdra
 ## Debugging a run
 
 `research/signals/run-report.json`: per-source result, HTTP status, request (keys redacted), items, included and excluded counts, up to 300 excluded titles with reasons, the merge log, totals and the outcome. `research/signals/runs.csv` keeps one row per run. `research/signals/http-cache.json` holds ETag and Last-Modified values for conditional requests.
+
+## Page size as the feed grows
+
+List pages show at most `SIG_PAGE_SIZE` records (40, set in `site/signals_data.py`) so each stays inside the HTML byte budget in
+`tools/design-tokens.json`. The index, recently indexed and awaiting-assessment pages show the newest 40. Monthly archives split into
+parts (`archive/YYYY-MM.html`, then `archive/YYYY-MM-p2.html` and so on), and each record's anchor and `page_url` export follow its part.
+If a budget failure names a signals page, lower `SIG_PAGE_SIZE` rather than raising the budget.
+
+The refresh-honesty check in `tools/check_signals.py` ignores attribute text such as claim tooltips, which quote the register
+(claim C011 mentions "real-time" stations), and reads only the page copy.

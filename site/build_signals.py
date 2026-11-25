@@ -5,7 +5,7 @@
 # downloads/schemas/signals.schema.json, downloads/data/signals-sources.yml|signals-taxonomy.yml.
 import xml.sax.saxutils as _sx
 sig_c = home_c + [("Latest signals", "signals/index.html")]
-INDEX_LIMIT = 120
+INDEX_LIMIT = SIG_PAGE_SIZE
 _months = OrderedDict()
 for r in SIG_TIMELINE: _months.setdefault(r["_month"], []).append(r)
 month_rows = [(m, sig_date(m + "-01", "month"), len(v)) for m, v in _months.items()]
@@ -22,21 +22,28 @@ render("signals/index.html", "signals.html", "Latest signals",
        "signals", home_c, kind="index", deck="A list of new research, reports, policy and practical work on cleaner air in South and Southeast Asia, found by a scheduled feed. Each record links to its source, and none has been assessed by Clean Air unless it says so.", featured=SIG_FEATURED, lead=_lead, notes=_notes[:1],
        items=SIG_TIMELINE[:INDEX_LIMIT], filters=True, list_heading="All records, newest first",
        more_note=(f"Showing the newest {INDEX_LIMIT}; older records are in the monthly archive" if _n_more else ""), months=month_rows)
+def _apath(m, k): return f"signals/archive/{m}.html" if k == 0 else f"signals/archive/{m}-p{k + 1}.html"
 for m, rows in _months.items():
     label = sig_date(m + "-01", "month")
-    render(f"signals/archive/{m}.html", "signals.html", f"Signals published in {label}", f"Records published in {label}, newest first. Source records, not reviewed evidence.",
-           "signals", sig_c, kind="archive", deck=f"Records with a publication date in {label}.", items=rows, filters=True,
-           list_heading=f"{label}, newest first", months=month_rows)
-_indexed = sorted([r for r in SIG_PUBLIC if r["_timeline"]], key=lambda r: (r["discovered_at"], r["signal_id"]), reverse=True)[:100]
+    parts = [rows[i:i + SIG_PAGE_SIZE] for i in range(0, len(rows), SIG_PAGE_SIZE)]
+    for k, chunk in enumerate(parts):
+        part = f", part {k + 1} of {len(parts)}" if len(parts) > 1 else ""
+        render(_apath(m, k), "signals.html", f"Signals published in {label}{part}", f"Records published in {label}{part}, newest first. Source records, not reviewed evidence.",
+               "signals", sig_c, kind="archive", deck=f"Records with a publication date in {label}{part}.", items=chunk, filters=True,
+               list_heading=f"{label}, newest first{part}", months=month_rows,
+               more_note=(f"{len(rows)} records this month, split into {len(parts)} parts" if len(parts) > 1 else ""),
+               pager=[(f"Part {j + 1}", _apath(m, j), j == k) for j in range(len(parts))] if len(parts) > 1 else [])
+_indexed = sorted([r for r in SIG_PUBLIC if r["_timeline"]], key=lambda r: (r["discovered_at"], r["signal_id"]), reverse=True)[:SIG_PAGE_SIZE]
 render("signals/recently-indexed.html", "signals.html", "Recently indexed", "Records in the order this feed found them, including older papers newly added to an index, undated records and date anomalies.",
        "signals", sig_c, kind="indexed", deck="Ordered by when this feed first saw each record, not by publication date. An older paper can appear here because an index added it recently.",
-       items=_indexed, filters=False, list_heading="Newest discoveries first",
+       items=_indexed, filters=False, list_heading=f"The {SIG_PAGE_SIZE} newest discoveries",
        extra=[("Date unknown", [r for r in SIG_PUBLIC if not r["published_at"]]),
               ("Date anomalies (source date in the future)", [r for r in SIG_PUBLIC if r.get("date_flag") == "future-dated"])])
 render("signals/awaiting-assessment.html", "signals.html", "New sources awaiting assessment",
        "Research papers, preprints and reports found by the feed that no Clean Air reviewer has assessed. Candidates for the evidence register, not part of it.",
        "signals", sig_c, kind="awaiting", deck="Discovery only. A paper listed here has not been read by Clean Air, is not a claim, and does not change any evidence rating. "
-       "The route from here to the evidence register is set out in how this feed works.", items=SIG_AWAITING[:150], filters=True, list_heading="Newest first")
+       "The route from here to the evidence register is set out in how this feed works.", items=SIG_AWAITING[:SIG_PAGE_SIZE], filters=True, list_heading="Newest first",
+       more_note=(f"Showing the newest {SIG_PAGE_SIZE} of {len(SIG_AWAITING)}; older ones are in the monthly archive" if len(SIG_AWAITING) > SIG_PAGE_SIZE else ""))
 _mfm, _mbody = site_md("signals-missing.md")
 _theme_n = Counter(t for r in SIG_PUBLIC for t in r["subjects"])
 _gap_rows = "\n".join(f"| {SIG_THEME_LABEL[k]} | {_theme_n.get(k, 0)} |" for k in ["livelihoods-workers", "justice", "children-schools", "waste", "cross-border-smoke", "indoor-protection", "clean-cooking", "kilns-industry"])

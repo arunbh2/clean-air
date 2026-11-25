@@ -91,7 +91,8 @@ def check(res, dist):
     if not m or m.group(1) != (status.get("last_successful_refresh") or ""): errs.append("refresh: the index shows a refresh time different from status.json")
     if "Feed refresh delayed" not in idx: errs.append("refresh: the delayed-refresh message is missing from the index")
     if exp.get("last_successful_refresh") != status.get("last_successful_refresh"): errs.append("refresh: signals.json last_successful_refresh differs from status.json")
-    if re.search(r"updated just now|live feed|real-time", idx, re.I): errs.append("refresh: the index claims live or real-time updating")
+    idx_text = re.sub(r'\s(?:title|aria-label|data-[\w-]+)="[^"]*"', "", idx)   # claim tooltips quote register text (e.g. "real-time stations"); check page copy only
+    if re.search(r"updated just now|live feed|real-time", idx_text, re.I): errs.append("refresh: the index claims live or real-time updating")
     return errs
 
 
