@@ -116,7 +116,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -200,7 +200,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21T03:14:45Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [],
    "country_basis": "names a region in scope (south[- ]east asia)",
    "cross_border_region": true,
@@ -396,7 +396,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:14:44Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [],
    "country_basis": "names a region in scope (south asia)",
    "cross_border_region": true,
@@ -498,7 +498,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T21:12:17Z",
    "discovered_at": "2026-11-24T01:42:06Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -553,7 +553,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -693,7 +693,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -734,7 +734,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19T07:16:28Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "thailand"
    ],
@@ -792,7 +792,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24T08:12:25Z",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "bangladesh"
    ],
@@ -992,7 +992,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "bangladesh"
    ],
@@ -1035,7 +1035,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [],
    "country_basis": "names a region in scope (asean)",
    "cross_border_region": true,
@@ -1055,6 +1055,59 @@
    "inclusion_reason": "included: air-pollution term in title (\\bhaze\\b); names a region in scope (asean)",
    "content_flags": [],
    "feed_run_id": "run-20261124T123209Z"
+  },
+  {
+   "signal_id": "sig-3025a3f12e7c",
+   "source_registry_id": "crossref",
+   "also_listed_by": [],
+   "canonical_url": "https://doi.org/10.1002/tqem.70516",
+   "previous_urls": [],
+   "doi_or_persistent_id": "10.1002/tqem.70516",
+   "title_original": "Stubble Burning and Its Effect on Air Quality and Crop Health: A Case Study of Tarn Taran, Punjab, India",
+   "language": "en",
+   "publisher": "Wiley",
+   "journal": "Environmental Quality Management",
+   "publication_type_in_source": "journal-article",
+   "source_type": "research",
+   "provenance_kind": "peer_reviewed_metadata",
+   "is_preprint": false,
+   "published_at": "2026-11-24",
+   "published_date_precision": "day",
+   "date_basis": "source",
+   "date_flag": "",
+   "source_updated_at": null,
+   "indexed_at": "2026-11-25T07:16:37Z",
+   "discovered_at": "2026-11-25T11:19:57Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
+   "countries": [
+    "india"
+   ],
+   "country_basis": "title names India",
+   "cross_border_region": false,
+   "ambiguous_places": [
+    "punjab"
+   ],
+   "subjects": [
+    "agriculture",
+    "exposure",
+    "health"
+   ],
+   "organisation_ids": [],
+   "related_intervention_ids": [
+    "crop-residue-markets",
+    "health-readiness",
+    "residue-machinery"
+   ],
+   "related_claim_ids": [],
+   "funding_record_id": null,
+   "review_status": "discovered_unreviewed",
+   "correction_status": "",
+   "corrects_doi": null,
+   "external_rights": "metadata_only",
+   "related_signal_ids": [],
+   "inclusion_reason": "included: air-pollution term in title (air quality); title names India",
+   "content_flags": [],
+   "feed_run_id": "run-20261125T111957Z"
   },
   {
    "signal_id": "sig-320a5fcbda59",
@@ -1218,7 +1271,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -1350,6 +1403,51 @@
    "feed_run_id": "run-20261123T114338Z"
   },
   {
+   "signal_id": "sig-3cb3c4c5fd72",
+   "source_registry_id": "mongabay-global",
+   "also_listed_by": [],
+   "canonical_url": "https://news.mongabay.com/2026/11/study-reveals-rising-double-threat-of-wildfire-smoke-and-heatwaves-in-indonesia/",
+   "previous_urls": [],
+   "doi_or_persistent_id": null,
+   "title_original": "Study reveals rising ‘double threat’ of wildfire smoke and heatwaves in Indonesia",
+   "language": "en",
+   "publisher": "Mongabay",
+   "journal": null,
+   "publication_type_in_source": null,
+   "source_type": "news",
+   "provenance_kind": "independent_reporting",
+   "is_preprint": false,
+   "published_at": "2026-11-25T02:15:02Z",
+   "published_date_precision": "day",
+   "date_basis": "source",
+   "date_flag": "",
+   "source_updated_at": null,
+   "indexed_at": null,
+   "discovered_at": "2026-11-25T11:19:57Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
+   "countries": [
+    "indonesia"
+   ],
+   "country_basis": "title names Indonesia",
+   "cross_border_region": false,
+   "ambiguous_places": [],
+   "subjects": [
+    "cross-border-smoke"
+   ],
+   "organisation_ids": [],
+   "related_intervention_ids": [],
+   "related_claim_ids": [],
+   "funding_record_id": null,
+   "review_status": "discovered_unreviewed",
+   "correction_status": "",
+   "corrects_doi": null,
+   "external_rights": "metadata_only",
+   "related_signal_ids": [],
+   "inclusion_reason": "included: air-pollution term in title (wildfire smoke|forest fire smoke|peat(land)? fires?|transboundary haze); title names Indonesia",
+   "content_flags": [],
+   "feed_run_id": "run-20261125T111957Z"
+  },
+  {
    "signal_id": "sig-3d43e5fb26bb",
    "source_registry_id": "crossref",
    "also_listed_by": [],
@@ -1371,7 +1469,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20T19:16:58Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "bangladesh"
    ],
@@ -1563,7 +1661,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -1610,7 +1708,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -1872,7 +1970,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:13:18Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -2027,7 +2125,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-17",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -2176,7 +2274,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-22T00:14:51Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -2269,7 +2367,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [],
    "country_basis": "names a region in scope (south[- ]east asia)",
    "cross_border_region": true,
@@ -2321,7 +2419,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -2366,7 +2464,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-17",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -2561,7 +2659,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -2606,7 +2704,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20T11:19:38Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "thailand"
    ],
@@ -2706,7 +2804,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T05:12:25Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -2805,7 +2903,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -2949,7 +3047,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -3101,7 +3199,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "thailand"
    ],
@@ -3146,7 +3244,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "pakistan"
    ],
@@ -3246,7 +3344,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21T17:15:51Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -3291,7 +3389,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -3431,7 +3529,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19T07:17:08Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
@@ -3483,7 +3581,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19T15:20:50Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-24T23:29:23Z",
+   "last_checked_at": "2026-11-25T11:19:57Z",
    "countries": [
     "india"
    ],
