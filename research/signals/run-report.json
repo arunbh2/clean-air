@@ -1,16 +1,16 @@
 {
- "run_id": "run-20261125T230705Z",
- "started_at": "2026-11-25T23:07:05Z",
+ "run_id": "run-20261126T105609Z",
+ "started_at": "2026-11-26T10:56:09Z",
  "sources": [
   {
    "source": "europepmc",
    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
    "result": "ok",
    "http_status": 200,
-   "items": 38,
-   "included": 10,
-   "excluded": 28,
-   "request": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22air+pollution%22+OR+%22air+quality%22+OR+%22PM2.5%22+OR+%22particulate+matter%22+OR+%22black+carbon%22+OR+%22crop+residue+burning%22+OR+%22brick+kiln%22+OR+%22household+air+pollution%22%29+AND+%28India+OR+Delhi+OR+Bangladesh+OR+Dhaka+OR+Nepal+OR+Kathmandu+OR+Pakistan+OR+Lahore+OR+Bhutan+OR+%22Sri+Lanka%22+OR+Indonesia+OR+Thailand+OR+Vietnam+OR+%22Viet+Nam%22+OR+Philippines+OR+Cambodia+OR+Laos+OR+Malaysia+OR+Singapore+OR+Myanmar+OR+%22South+Asia%22+OR+%22Southeast+Asia%22+OR+%22Indo-Gangetic%22%29+AND+FIRST_PDATE%3A%5B2026-11-18+TO+2026-11-25%5D&format=json&resultType=core&pageSize=100&sort=FIRST_PDATE_D+desc"
+   "items": 40,
+   "included": 11,
+   "excluded": 29,
+   "request": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22air+pollution%22+OR+%22air+quality%22+OR+%22PM2.5%22+OR+%22particulate+matter%22+OR+%22black+carbon%22+OR+%22crop+residue+burning%22+OR+%22brick+kiln%22+OR+%22household+air+pollution%22%29+AND+%28India+OR+Delhi+OR+Bangladesh+OR+Dhaka+OR+Nepal+OR+Kathmandu+OR+Pakistan+OR+Lahore+OR+Bhutan+OR+%22Sri+Lanka%22+OR+Indonesia+OR+Thailand+OR+Vietnam+OR+%22Viet+Nam%22+OR+Philippines+OR+Cambodia+OR+Laos+OR+Malaysia+OR+Singapore+OR+Myanmar+OR+%22South+Asia%22+OR+%22Southeast+Asia%22+OR+%22Indo-Gangetic%22%29+AND+FIRST_PDATE%3A%5B2026-11-18+TO+2026-11-26%5D&format=json&resultType=core&pageSize=100&sort=FIRST_PDATE_D+desc"
   },
   {
    "source": "crossref",
@@ -18,18 +18,18 @@
    "result": "ok",
    "http_status": 200,
    "items": 100,
-   "included": 14,
-   "excluded": 86,
-   "request": "https://api.crossref.org/works?query.bibliographic=air+pollution+PM2.5+India+Bangladesh+Nepal+Pakistan+Indonesia+Thailand+Vietnam+Philippines&filter=from-pub-date%3A2026-11-18%2Cuntil-pub-date%3A2026-11-25%2Ctype%3Ajournal-article%2Ctype%3Aposted-content&rows=100&sort=published&order=desc"
+   "included": 12,
+   "excluded": 88,
+   "request": "https://api.crossref.org/works?query.bibliographic=air+pollution+PM2.5+India+Bangladesh+Nepal+Pakistan+Indonesia+Thailand+Vietnam+Philippines&filter=from-pub-date%3A2026-11-18%2Cuntil-pub-date%3A2026-11-26%2Ctype%3Ajournal-article%2Ctype%3Aposted-content&rows=100&sort=published&order=desc"
   },
   {
    "source": "who-news",
    "endpoint": "https://www.who.int/rss-feeds/news-english.xml",
-   "result": "ok",
-   "http_status": 200,
-   "items": 83,
+   "result": "unchanged (HTTP 304)",
+   "http_status": 304,
+   "items": 0,
    "included": 0,
-   "excluded": 83,
+   "excluded": 0,
    "request": "https://www.who.int/rss-feeds/news-english.xml"
   },
   {
@@ -65,11 +65,11 @@
   {
    "source": "icimod",
    "endpoint": "https://www.icimod.org/feed/",
-   "result": "unchanged (HTTP 304)",
-   "http_status": 304,
-   "items": 0,
+   "result": "ok",
+   "http_status": 200,
+   "items": 9,
    "included": 0,
-   "excluded": 0,
+   "excluded": 9,
    "request": "https://www.icimod.org/feed/"
   },
   {
@@ -95,11 +95,11 @@
   {
    "source": "mongabay-india",
    "endpoint": "https://india.mongabay.com/feed/",
-   "result": "unchanged (HTTP 304)",
-   "http_status": 304,
-   "items": 0,
+   "result": "ok",
+   "http_status": 200,
+   "items": 20,
    "included": 0,
-   "excluded": 0,
+   "excluded": 20,
    "request": "https://india.mongabay.com/feed/"
   },
   {
@@ -167,9 +167,9 @@
    "endpoint": "https://www.dawn.com/feeds/home",
    "result": "ok",
    "http_status": 200,
-   "items": 27,
+   "items": 25,
    "included": 0,
-   "excluded": 27,
+   "excluded": 25,
    "request": "https://www.dawn.com/feeds/home"
   },
   {
@@ -228,6 +228,11 @@
    "source": "europepmc",
    "title": "Short-term risk of pulmonary tuberculosis after influenza in adults: a population-based self-controlled case series study",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "europepmc",
+   "title": "Bi2S3 nanostructures for low temperature NO2 sensors: insights into work function tuning and band bending effect.",
+   "reason": "excluded: no country, city or regional term in scope"
   },
   {
    "source": "europepmc",
@@ -342,6 +347,56 @@
   {
    "source": "europepmc",
    "title": "Is there alignment of Tanzania's non-communicable diseases and related policies with WHO salt reduction recommendations? A policy analysis.",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Household Air Pollution from Solid Fuel Use and Cardiovascular Disease in Adults: A Systematic Review of Clinical and Measured-Exposure Evidence",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
+   "title": "When Family Resilience Protects and When It Does Not: Subsystem Pathways to Domestic Violence in Thailand",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Pathogenic Bacterial Contamination in Water from Dental Clinics in Community Hospitals in Upper Southern Thailand",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "From Access to Assessment: Demographic and Socioeconomic Correlates of Digital Health Literacy among Non-medical University Students in Punjab, India",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Mapping Behavioral Profiles of the School-going Adolescents in Bangladesh: Findings from the Youth Self-report Assessments",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "A Five-Phase Participatory Model for Primary Health Care Strategic Planning by Provincial Administrative Organizations: Evidence from Two Pilot Provinces in No…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "A review of uranium and co-occurring heavy metals in groundwater and soil of Chhattisgarh, India: hydrogeochemical controls and human health risk implications",
+   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
+  },
+  {
+   "source": "crossref",
+   "title": "Comparison of Perceptions and Health Effects among Fresh Latex Purchasers and Sellers in the Tapi River Basin, Southern Thailand",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Serviced Residential Plots in Vietnam and Indonesia: A Functional Comparison of Market-Access Gates",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Developing a Community-Based Social Support Model for Quality of Life among Older Adults in Thailand: A Delphi Study",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -471,6 +526,11 @@
   },
   {
    "source": "crossref",
+   "title": "Development and numerical simulation of a coupled 2D advection-diffusion model for urban air pollutant dispersion with vegetation capture",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
    "title": "Air pollution and hospital-treated otitis media: findings from a prospective cohort study",
    "reason": "excluded: no country, city or regional term in scope"
   },
@@ -486,13 +546,13 @@
   },
   {
    "source": "crossref",
-   "title": "Economic Assessment Frameworks for Coagulation-flocculation Processes in Wastewater Treatment: a Methodological Review",
-   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
+   "title": "Allergic Conjunctivitis and Rhinitis in Saudi Arabia Using Google Trends: Associationwith Air Pollution and Meteorological Factors",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
   },
   {
    "source": "crossref",
-   "title": "Allergic Conjunctivitis and Rhinitis in Saudi Arabia Using Google Trends: Associationwith Air Pollution and Meteorological Factors",
-   "reason": "excluded: the title names a place outside South and Southeast Asia"
+   "title": "Economic Assessment Frameworks for Coagulation-flocculation Processes in Wastewater Treatment: a Methodological Review",
+   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
   },
   {
    "source": "crossref",
@@ -546,6 +606,11 @@
   },
   {
    "source": "crossref",
+   "title": "A Systematic Review on Factors Influencing the Formation and Persistence of Winter Smog Episodes",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
    "title": "Detection of SARS-CoV-2 from Air and Surfaces of Reference COVID-19 Hospitals",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
@@ -553,11 +618,6 @@
    "source": "crossref",
    "title": "Settlement Morphology and Spatial Inequality in Compound Air Pollution: Evidence from Nanping City, China",
    "reason": "excluded: the title names a place outside South and Southeast Asia"
-  },
-  {
-   "source": "crossref",
-   "title": "A Systematic Review on Factors Influencing the Formation and Persistence of Winter Smog Episodes",
-   "reason": "excluded: no country, city or regional term in scope"
   },
   {
    "source": "crossref",
@@ -666,12 +726,12 @@
   },
   {
    "source": "crossref",
-   "title": "Green Chemistry for Environmental Protection: Molecular Strategies for Plastic, Water and Air Pollution Control",
+   "title": "Global inequalities in subarachnoid hemorrhage attributable to temperature extremes and air pollution among adults over 40 years: Insights from the GBD study w…",
    "reason": "excluded: no country, city or regional term in scope"
   },
   {
    "source": "crossref",
-   "title": "Global inequalities in subarachnoid hemorrhage attributable to temperature extremes and air pollution among adults over 40 years: Insights from the GBD study w…",
+   "title": "Green Chemistry for Environmental Protection: Molecular Strategies for Plastic, Water and Air Pollution Control",
    "reason": "excluded: no country, city or regional term in scope"
   },
   {
@@ -730,466 +790,6 @@
    "reason": "excluded: no country, city or regional term in scope"
   },
   {
-   "source": "crossref",
-   "title": "Long-term air pollution exposure as a new predictor of postoperative delirium and the establishment of machine learning model",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "crossref",
-   "title": "Diesel traffic-derived air pollution exacerbates the risk of olfactory decline: from population-based evidence to mechanistic insights",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "crossref",
-   "title": "Association between fine particulate air pollution and the risk of death from kidney cancer in Taiwan",
-   "reason": "excluded: the title names a place outside South and Southeast Asia"
-  },
-  {
-   "source": "crossref",
-   "title": "Governance and SWOT-Based Strategies for Implementing Nagari Forest Policy to Control Mangrove Land Conversion in Air Bangis, West Pasaman Regency",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "crossref",
-   "title": "Molecular markers of nitrosative stress and antioxidant defense in the blood of the Zaporizhzhia territorial community population with varying PM2.5 air pollut…",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "crossref",
-   "title": "The Early Potential of Ex Camp Vietnam as an Instrument of Heritage Diplomacy by Re-reading Humanitarian Narratives in Indonesia-Vietnam Relations",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "crossref",
-   "title": "The Impact of Parental Migration on Child Nutrition: A Comparative Study of Indonesia and the Philippines",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "crossref",
-   "title": "Recalibration of Pakistan-India Strategic Equation in an Era of Multi-Domain Competition",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "crossref",
-   "title": "The Preparation of KOH-activated Sugarcane Bagasse Biochar and Its Adsorption Properties Toward p-nitrophenol in Aqueous Solution",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "New WHO technical package to help countries improve health data for COVID-19 response and beyond",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "COVID-19 disrupting mental health services in most countries, WHO survey",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Global partnership to make available 120 million affordable, quality COVID-19 rapid tests for low- and middle-income countries",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Managing the COVID-19 infodemic: Promoting healthy behaviours and mitigating the harm from misinformation and disinformation",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO’s three messages for UNGA75",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "COVID-19 could reverse decades of progress toward eliminating preventable child deaths, agencies warn",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "In WHO global pulse survey, 90% of countries report disruptions to essential health services since COVID-19 pandemic",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "172 countries and multiple candidate vaccines engaged in COVID-19 vaccine Global Access Facility",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Global polio eradication initiative applauds WHO African region for wild polio-free certification",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "World Humanitarian Day 2020: A tribute to aid workers on the front lines",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Plane carrying WHO trauma and surgical supplies arrives in Beirut, Lebanon",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "COVID-19 Emergency Committee highlights need for response efforts over long term",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO statement on heated tobacco products and the US FDA decision regarding IQOS",
-   "reason": "excluded: matches 'tobacco|smoking cessation|e-cigarette'"
-  },
-  {
-   "source": "who-news",
-   "title": "World Hepatitis Day: fast-tracking the elimination of hepatitis B among mothers and children",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "New COVID-19 Law Lab to provide vital legal information and support for the global COVID-19 response",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO Director-General pays tribute to Spain’s sacrifices and leadership to confront COVID-19",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "More than 150 countries engaged in COVID-19 vaccine global access facility",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO and UNICEF warn of a decline in vaccinations during COVID-19",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "As more go hungry and malnutrition persists, achieving Zero Hunger by 2030 in doubt, UN report warns",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Independent evaluation of global COVID-19 response announced",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "UN Public Service Day",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO experts to travel to China",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO: access to HIV medicines severely impacted by COVID-19 as AIDS response stalls",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO discontinues hydroxychloroquine and lopinavir/ritonavir treatment arms for COVID-19",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Listings of WHO’s response to COVID-19",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "ACT-Accelerator update",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "IOC joins forces with WHO and the United Nations to fight COVID-19",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "The World Health Organization reminds public to remain vigilant through Mr Bean’s Essential COVID-19 Checklist",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Countries failing to prevent violence against children, agencies warn",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO welcomes preliminary results about dexamethasone use in treating critically ill COVID-19 patients",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "A cluster of COVID-19 in Beijing, People’s Republic of China",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "World Food Safety Day 2020: UN experts in Facebook live event on 5 June 2020",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Statement from Dr Mike Ryan, Executive Director, WHO Health Emergencies Programme at the Yemen High-level Pledging Conference",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Stop tobacco industry exploitation of children and young people",
-   "reason": "excluded: matches 'tobacco|smoking cessation|e-cigarette'"
-  },
-  {
-   "source": "who-news",
-   "title": "The World Health Organization, UN Foundation and Illumination partner on health messages",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Countries failing to stop harmful marketing of breast-milk substitutes, warn WHO and UNICEF",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "At least 80 million children under one at risk of diseases such as diphtheria, measles and polio as COVID-19 disrupts routine vaccination efforts, warn Gavi, W…",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Smithsonian Science Education Center With Support of the World Health Organization Launches New COVID-19 Guide for Youth",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO and UNHCR join forces to improve health services for refugees, displaced and stateless people",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO and Costa Rica preview technology pooling initiative to ensure access to COVID-19 health products for all",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO: People living longer and healthier lives but COVID-19 threatens to throw progress off track",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO statement: Tobacco use and COVID-19",
-   "reason": "excluded: matches 'tobacco|smoking cessation|e-cigarette'"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO Statement on false allegations in Der Spiegel",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Billions worldwide living with herpes",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO reports fivefold increase in cyber attacks, urges vigilance",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Hard fought gains in immunization coverage at risk without critical health services, warns WHO",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "UN agencies issue urgent call to fund the global emergency supply system to fight COVID-19",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO guidance helps detect iron deficiency and protect brain development",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "ITU-WHO Joint Statement: Unleashing information technology to defeat COVID-19",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Joint statement by WTO Director-General Roberto Azevêdo and WHO Director-General Tedros Adhanom Ghebreyesus",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Children’s story book released to help children and young people cope with COVID-19",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Joint Leaders' statement - Violence against children: A hidden crisis of the COVID-19 pandemic",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO and partners call for urgent investment in nurses",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO and Global Citizen announce: 'One World: Together at home' Global Special to support healthcare workers in the fight against the COVID-19 pandemic",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "#BeActive for the UN International Day of Sport for Development and Peace",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "IPA, WHO and UNICEF launch Read the World on International Children’s Book Day to support children and young people in isolation",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO releases guidelines to help countries maintain essential health services during the COVID-19 pandemic",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Iraq needs $325 million for emergency health care, says World Health Organization",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO Director-General calls on G20 to Fight, Unite, and Ignite against COVID-19",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Statue commemorates smallpox eradication",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Ensuring continuity of TB services during the COVID-19 pandemic",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Hope for 11 million children facing death from illnesses",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Key step forward on International Health Rules",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "SARS outbreak contained worldwide",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Update 31 - Coronavirus never before seen in humans is the cause of SARS",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "End in sight, but flare-ups likely in the Ebola outbreak in the Democratic Republic of the Congo",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Shortage of personal protective equipment endangering health workers worldwide",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Global leaders intensify commitment to prevent leading childhood killer - measles",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "International spread of disease threatens public health security",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO calls on malaria-endemic countries to strengthen monitoring of antimalarial drug efficacy",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Landmark agreement improves global preparedness for influenza pandemics",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Dead and injured following attacks on Ebola responders in the Democratic Republic of the Congo",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Health in all policies: the case of air pollution, urban health and sustainability",
-   "reason": "excluded: no country, city or regional term in scope"
-  },
-  {
-   "source": "who-news",
-   "title": "Major milestone for WHO-supported Ebola vaccine",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Universal Health Coverage Passes Key Global Milestone",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Multilateral agencies launch a joint plan to boost global health goals",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Call for action to reduce the harmful use of alcohol",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "Tropical Data: a WHO-led initiative to help national programmes collect and do more with their data",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO launches new report on the global tobacco epidemic",
-   "reason": "excluded: matches 'tobacco|smoking cessation|e-cigarette'"
-  },
-  {
-   "source": "who-news",
-   "title": "World hunger is still not going down after three years and obesity is still growing – UN report",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO highlights devastating global impact of drowning",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO updates personal protective equipment guidelines for Ebola response",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "who-news",
-   "title": "WHO recommends 29 ways to stop surgical infections and avoid superbugs",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
    "source": "hei",
    "title": "Position announcement: Consulting Program Coordinator – Global Initiatives",
    "reason": "excluded: no country, city or regional term in scope"
@@ -1228,6 +828,171 @@
    "source": "hei",
    "title": "HEI Energy publishes two investigators' reports",
    "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "icimod",
+   "title": "2026 El Niño could bring wetter, warmer conditions, and more hazards for Hindu Kush Himalaya",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "Countries call for stronger global conservation action for mountain biodiversity at the UN Biodiversity Conference",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "After Himalayan disasters, mountain nations urge COP31 to turn recognition into action",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "COP31 – Nepal and Bhutan sound the alarm on collapsing Himalayan glaciers",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "Bhutan GLOF triggers downstream alerts, underscores need for stronger early warnings systems across the Himalaya",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "RfP: Preparation of Local Disaster and Climate Resilience Frameworks (LDCRF) for Nine Municipalities/Rural Municipalities in Rautahat, Mahottari and Dhankuta D…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "Request for Proposal: Trekking and Expedition Support Services for the Collaborative Long-term Monitoring of Glacier and Permafrost in Bhutan – Shodug Glacier,…",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "Himalayan yak herders launch first regional network at Bhutan’s Royal Highland Festival",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "icimod",
+   "title": "RFP: Supply, installation and managed cloud hosting with platform support for the ICIMOD PURE platform",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Large-scale climate drivers influence sardine and anchovy fisheries",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "The wide-eyed “forest baby”",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Neelakurinji tourism brings crowds, but not all areas are monitored the same",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "India thought it eliminated kala-azar. The disease now gets reported from a non-endemic state",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "A climbing palm’s genetics reveals evolutionary secrets",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Fossil fuel divide fractures consensus at climate talks in Antalya",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "The climate risks behind pumped-storage expansion",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Why deforestation science gets shifting cultivation wrong [Commentary]",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Forest villagers protest tourism curbs after tiger translocation",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Global electrification push meets resistance over money and fairness",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "El Niño could deepen Tamil Nadu’s water stress and threaten agriculture",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "The world struggles to pay for the growing human cost of climate change",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "How an unfit boat design left Kerala’s fishers in debt",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "The fragility of mountains loom large over COP31",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "The secretive salamanders of the Himalayas",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "No land to call their own, migrants and elephants share Teesta’s shifting sandbars",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Institutional campuses could expand India’s conservation network, but challenges remain",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Motherhood changes how sloth bears use forests in central India",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Türkiye climate summit’s finance gap threatens its promise of action",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-india",
+   "title": "Climate movement takes its fight beyond emissions at Türkiye summit",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "US gains foothold in race for Africa’s critical minerals in Kenya’s Mrima Hill project",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "International marine biodiversity conference emphasizes the unsung and the unknown",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "How Uttarakhand’s women farmers are reviving endangered Himalayan medicinal plants",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "mongabay-global",
+   "title": "The night watchmen guarding Malaysia’s critically endangered river terrapins",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
    "source": "mongabay-global",
@@ -1365,26 +1130,6 @@
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-global",
-   "title": "Indonesian Borneo’s forests go quiet as smoke silences gibbons. Their singing matters",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-global",
-   "title": "Bush dogs are very rare. You’re 100x more likely to see a jaguar",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-global",
-   "title": "Timor-Leste issues guidelines for whale-watching, but malpractice is rife as industry booms",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-global",
-   "title": "Mongabay Kids launches Wild Guardians: A free education initiative to engage children with nature",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
    "source": "dialogue-earth",
    "title": "The Brazilian social movement working with China to help family farms",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
@@ -1432,6 +1177,31 @@
   {
    "source": "dialogue-earth",
    "title": "Q&A with Ana Toni: We need to plan how to get out of fossil fuels",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Weakening shipping carbon rules could strip poorer nations of transition finance",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Singapore Environment Council calls for expanded EPR scheme, with island's only landfill full by 2035",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "Intense rain floods Colombo as wetlands, drainage disappear",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "‘They need to eat’: Who pays to protect the Philippines’ coastal waters?",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "eco-business",
+   "title": "How can Indonesia break the forest fires cycle?",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -1501,11 +1271,6 @@
   },
   {
    "source": "eco-business",
-   "title": "Borneo Indigenous groups warn of new land threats after oil palm win",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "eco-business",
    "title": "Global electricity demand to rise about 37 per cent by 2035, with heatwaves and AI pushing projections higher: IEA",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
@@ -1515,23 +1280,13 @@
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "eco-business",
-   "title": "COP31’s Finance Day offers no cheaper loans as grants stay scarce for developing Asia",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+   "source": "the-hindu-environment",
+   "title": "A rare bird on stony rivers shows why Himalayan water needs its sediment",
+   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
   },
   {
-   "source": "eco-business",
-   "title": "Arsenic keeps flowing into Thai rivers as China stays silent on mines",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "eco-business",
-   "title": "Heatwaves push up premature births in Bangladesh: study",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "eco-business",
-   "title": "Indonesia moves to protect whale shark feeding ground and possible nursery",
+   "source": "the-hindu-environment",
+   "title": "Hostile architecture: the design choices keeping wildlife out of urban India",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -1542,6 +1297,11 @@
   {
    "source": "the-hindu-environment",
    "title": "Wildlife, forests, and culture in Gudalur: Sculptures, stories, and interactive workshops",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "COP31 and the unmet promises of climate action",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -1703,6 +1463,246 @@
    "source": "the-hindu-environment",
    "title": "Urgent climate finance pleas at COP31 face a non-urgent response",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Pollution in Yamuna increased despite huge expenditure on cleaning: Supreme Court",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Keralam’s orchids endure from highway trees to salt-sprayed shores",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Mumbai to host sixth Earthshot Prize Awards on November 17; organisers promise biggest edition yet",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Nations grapple with loss of 1.5°C target at UN climate summit",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Age of AI: behind Tarluvada’s blue wall in Visakhapatnam",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Aaditya Thackeray calls for Climate Change Councils at Centre, State levels to tackle pollution",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Why climate finance remains a recurring flashpoint at UN summits",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Why the Siang Upper Multipurpose Project has been contentious | Explained",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "What are the findings of the 2024 Hindu Kush Himalayas snow update? | Explained",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Jewellery and souvenir made from plastic discarded in the Himalayas",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Daily Quiz: On Climate Change summit",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "India and U.K. are turning climate ambition into action",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "New deal: On COP31 and lofty climate goals",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "UN climate summit pushes electrification goal as groups call for mining safeguards",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Navi Mumbai recognised as India’s cleanest city in latest Swachh Survekshan",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "India undergoing massive transformation in renewable energy: Earthshot Prize CEO",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "New shark species identified in Indian Ocean after decades of misclassification",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "On COP31 and Indonesia’s forest fires | Green Humour by Rohan Chakravarty",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Delhi’s air was already toxic before Deepavali. Here’s what a new study found",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "daily-star-environment",
+   "title": "Jamuna erosion devours homes, farmland in Jamalpur",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "daily-star-environment",
+   "title": "Geopolitics may dictate fate of Ganges water treaty: Rizwana",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "daily-star-environment",
+   "title": "A climate summit that couldn't even say 'fossil fuels'",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "daily-star-environment",
+   "title": "UK digging new reservoirs to fight persistent droughts",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "daily-star-environment",
+   "title": "Rough seas leave hundreds stranded on St Martin’s",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "daily-star-environment",
+   "title": "123 elephants die in 11 years, mostly electrocuted",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "daily-star-environment",
+   "title": "123 elephants die in 11 years, most electrocuted: Forest Department",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "daily-star-environment",
+   "title": "Cyclone Akvan-induced rain hits livelihoods, transport in Barishal, Satkhira",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "daily-star-environment",
+   "title": "Tetulia records season’s lowest temperature at 12.4°C",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Changing climate raises concerns over chauri fertility in Dolakha",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "NPL to expand to multiple venues from next season, says sports minister",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Explained: How Trump’s proposed tariffs for India compare with rival nations",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Police use tear gas to disperse fresh Bangladesh garment worker protests",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Former chief secretary Ek Narayan Aryal arrested near Nepal-India border",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "More national records in swimming bettered on Day 2",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Five lessons in golf—and politics—for Prime Minister Balendra Shah",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Shah-Modi interaction suggests a shift in Nepal-India relations",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Nepal’s fossil fuel push clashes with its clean energy ambitions",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Constitutional Bench resumes hearings after weeks of deadlock",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Kathmandu’s evicted squatters say they have no proper food, medical care at temporary centres",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "PM’s advisers turn political controversy into Facebook banter",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "The National Games in Karnali must mark a new beginning",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Was PM Shah’s visit to India really grand, or was it illusory?",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Keep Himalayan settlements out of harm’s way",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Kenyan cult leader serving 200-year murder sentence convicted of new charges",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "The man who took Nepal to Lord’s now wants a British PM in Nepal",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Bangladesh minimum wage hike misses garment workers’ demands, sparks fresh protests",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Supreme Court declines interim order in Dan Bahadur Karki’s petition",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "kathmandu-post",
+   "title": "Election Commission updates Nepali Congress leadership and amended statute",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   }
  ],
  "merge_log": [
@@ -1817,16 +1817,6 @@
    "reason": "same signal ID"
   },
   {
-   "title": "Health management under PM2.5 pollution: perspectives of patients, families, communities, and health-care providers in N",
-   "decision": "merged",
-   "reason": "same signal ID"
-  },
-  {
-   "title": "Thematic analysis of urban air pollution dynamics in Delhi",
-   "decision": "merged",
-   "reason": "same signal ID"
-  },
-  {
    "title": "New policy brief explores methods for assessing long-term air quality trends in India",
    "decision": "merged",
    "reason": "same signal ID"
@@ -1867,22 +1857,22 @@
    "reason": "same signal ID"
   }
  ],
- "finished_at": "2026-11-25T23:07:22Z",
+ "finished_at": "2026-11-26T10:56:34Z",
  "totals": {
-  "fetched": 550,
-  "included": 32,
-  "excluded": 518,
-  "new": 0,
-  "updated": 1,
-  "duplicates": 31,
+  "fetched": 496,
+  "included": 31,
+  "excluded": 465,
+  "new": 1,
+  "updated": 0,
+  "duplicates": 30,
   "url_changed": 0,
   "skipped_old": 0,
   "held_for_review": 0
  },
- "records_in_store": 74,
+ "records_in_store": 75,
  "sources_ok": 19,
  "sources_attempted": 20,
  "schema_errors": [],
  "outcome": "partial",
- "review_queue": 74
+ "review_queue": 75
 }

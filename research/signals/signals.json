@@ -116,7 +116,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -200,7 +200,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21T03:14:45Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [],
    "country_basis": "names a region in scope (south[- ]east asia)",
    "cross_border_region": true,
@@ -398,7 +398,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:14:44Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [],
    "country_basis": "names a region in scope (south asia)",
    "cross_border_region": true,
@@ -500,7 +500,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T21:12:17Z",
    "discovered_at": "2026-11-24T01:42:06Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -555,7 +555,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -695,7 +695,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -794,7 +794,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24T08:12:25Z",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "bangladesh"
    ],
@@ -994,7 +994,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "bangladesh"
    ],
@@ -1080,7 +1080,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-25T07:16:37Z",
    "discovered_at": "2026-11-25T11:19:57Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -1273,7 +1273,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -1426,7 +1426,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-25T11:19:57Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "indonesia"
    ],
@@ -1471,7 +1471,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20T19:16:58Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "bangladesh"
    ],
@@ -1663,7 +1663,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -1710,7 +1710,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -1972,7 +1972,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:13:18Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -2276,7 +2276,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-22T00:14:51Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -2369,7 +2369,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [],
    "country_basis": "names a region in scope (south[- ]east asia)",
    "cross_border_region": true,
@@ -2421,7 +2421,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -2661,7 +2661,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -2706,7 +2706,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20T11:19:38Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "thailand"
    ],
@@ -2806,7 +2806,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T05:12:25Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -2905,7 +2905,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -3049,7 +3049,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -3074,6 +3074,57 @@
    "inclusion_reason": "included: air-pollution term in title (stubble burning|stubble fire|crop[- ]residue burning|crop burning|paddy straw|farm fires?); title names India",
    "content_flags": [],
    "feed_run_id": "run-20261124T123209Z"
+  },
+  {
+   "signal_id": "sig-cc57a201f966",
+   "source_registry_id": "europepmc",
+   "also_listed_by": [],
+   "canonical_url": "https://doi.org/10.1029/2026gh002051",
+   "previous_urls": [],
+   "doi_or_persistent_id": "10.1029/2026gh002051",
+   "title_original": "Explainable Geospatial AI Reveals Associations Between Ambient Air Quality and Thermal Predictors of Child Respiratory Disease in Bangladesh.",
+   "language": "en",
+   "publisher": "GeoHealth",
+   "journal": "GeoHealth",
+   "publication_type_in_source": "Journal Article",
+   "source_type": "research",
+   "provenance_kind": "peer_reviewed_metadata",
+   "is_preprint": false,
+   "published_at": "2026-11-23",
+   "published_date_precision": "day",
+   "date_basis": "source",
+   "date_flag": "",
+   "source_updated_at": null,
+   "indexed_at": "2026-11-26",
+   "discovered_at": "2026-11-26T10:56:09Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
+   "countries": [
+    "bangladesh"
+   ],
+   "country_basis": "title names Bangladesh",
+   "cross_border_region": false,
+   "ambiguous_places": [],
+   "subjects": [
+    "children-schools",
+    "exposure",
+    "health"
+   ],
+   "organisation_ids": [],
+   "related_intervention_ids": [
+    "classroom-purifiers",
+    "health-readiness",
+    "school-education"
+   ],
+   "related_claim_ids": [],
+   "funding_record_id": null,
+   "review_status": "discovered_unreviewed",
+   "correction_status": "",
+   "corrects_doi": null,
+   "external_rights": "metadata_only",
+   "related_signal_ids": [],
+   "inclusion_reason": "included: air-pollution term in title (air quality); title names Bangladesh",
+   "content_flags": [],
+   "feed_run_id": "run-20261126T105609Z"
   },
   {
    "signal_id": "sig-d25ad40c2f47",
@@ -3201,7 +3252,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "thailand"
    ],
@@ -3246,7 +3297,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "pakistan"
    ],
@@ -3346,7 +3397,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21T17:15:51Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -3391,7 +3442,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],
@@ -3531,7 +3582,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-19T07:17:08Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-25T23:07:05Z",
+   "last_checked_at": "2026-11-26T10:56:09Z",
    "countries": [
     "india"
    ],

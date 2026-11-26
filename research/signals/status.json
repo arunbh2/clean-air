@@ -1,150 +1,150 @@
 {
- "last_run_at": "2026-11-25T23:07:05Z",
- "last_run_id": "run-20261125T230705Z",
+ "last_run_at": "2026-11-26T10:56:09Z",
+ "last_run_id": "run-20261126T105609Z",
  "last_run_outcome": "partial",
- "last_successful_refresh": "2026-11-25T23:07:05Z",
+ "last_successful_refresh": "2026-11-26T10:56:09Z",
  "sources": {
   "adb": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
-   "last_error_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
+   "last_error_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 10,
    "last_result": "failed: http_error: HTTP 403",
    "last_success_at": "2026-11-23T11:43:38Z"
   },
   "bangkok-post": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 10,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "clean-air-fund": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 0,
    "last_result": "unchanged (HTTP 304)",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "crossref": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
-   "last_included": 14,
+   "last_attempt_at": "2026-11-26T10:56:09Z",
+   "last_included": 12,
    "last_items": 100,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "daily-star-environment": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 1,
    "last_items": 10,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "dawn": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
-   "last_items": 27,
+   "last_items": 25,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "dialogue-earth": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 10,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "eco-business": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 20,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "europepmc": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
-   "last_included": 10,
-   "last_items": 38,
+   "last_attempt_at": "2026-11-26T10:56:09Z",
+   "last_included": 11,
+   "last_items": 40,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "hei": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 2,
    "last_items": 10,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "icimod": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 9,
-   "last_result": "unchanged (HTTP 304)",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_result": "ok",
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "kathmandu-post": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 40,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "mongabay-global": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 1,
    "last_items": 32,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "mongabay-india": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 20,
-   "last_result": "unchanged (HTTP 304)",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_result": "ok",
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "state-of-global-air": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 4,
    "last_items": 10,
    "last_result": "unchanged (HTTP 304)",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "straits-times-asia": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 50,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "the-hindu-environment": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 4,
    "last_items": 60,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "urbanemissions": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_error_at": "2026-11-24T12:32:09Z",
    "last_included": 0,
    "last_items": 1,
    "last_result": "unchanged (HTTP 304)",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "vnexpress": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 60,
    "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_success_at": "2026-11-26T10:56:09Z"
   },
   "who-news": {
-   "last_attempt_at": "2026-11-25T23:07:05Z",
+   "last_attempt_at": "2026-11-26T10:56:09Z",
    "last_included": 0,
    "last_items": 83,
-   "last_result": "ok",
-   "last_success_at": "2026-11-25T23:07:05Z"
+   "last_result": "unchanged (HTTP 304)",
+   "last_success_at": "2026-11-26T10:56:09Z"
   }
  }
 }
