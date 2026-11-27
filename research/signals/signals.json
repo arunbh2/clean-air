@@ -116,7 +116,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -200,7 +200,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21T03:14:45Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [],
    "country_basis": "names a region in scope (south[- ]east asia)",
    "cross_border_region": true,
@@ -398,7 +398,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:14:44Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [],
    "country_basis": "names a region in scope (south asia)",
    "cross_border_region": true,
@@ -500,7 +500,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T21:12:17Z",
    "discovered_at": "2026-11-24T01:42:06Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -555,7 +555,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -695,7 +695,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -794,7 +794,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24T08:12:25Z",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "bangladesh"
    ],
@@ -994,7 +994,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "bangladesh"
    ],
@@ -1080,7 +1080,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-25T07:16:37Z",
    "discovered_at": "2026-11-25T11:19:57Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -1273,7 +1273,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -1426,7 +1426,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-25T11:19:57Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "indonesia"
    ],
@@ -1663,7 +1663,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -1710,7 +1710,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -1972,7 +1972,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:13:18Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -2055,6 +2055,55 @@
    "inclusion_reason": "included: air-pollution term in title (brick kilns?); title names Bangladesh",
    "content_flags": [],
    "feed_run_id": "run-20261123T114338Z"
+  },
+  {
+   "signal_id": "sig-76cdb8b1e777",
+   "source_registry_id": "europepmc",
+   "also_listed_by": [],
+   "canonical_url": "https://doi.org/10.1080/10934529.2026.2764713",
+   "previous_urls": [],
+   "doi_or_persistent_id": "10.1080/10934529.2026.2764713",
+   "title_original": "Short-horizon forecasting of CAMS-derived PM2.5 and PM10 across ten Pakistani cities: a leakage-free benchmarking and explainability study.",
+   "language": "en",
+   "publisher": "Journal of environmental science and health. Part A, Toxic/hazardous substances & environmental engineering",
+   "journal": "Journal of environmental science and health. Part A, Toxic/hazardous substances & environmental engineering",
+   "publication_type_in_source": "Journal Article",
+   "source_type": "research",
+   "provenance_kind": "peer_reviewed_metadata",
+   "is_preprint": false,
+   "published_at": "2026-11-25",
+   "published_date_precision": "day",
+   "date_basis": "source",
+   "date_flag": "",
+   "source_updated_at": null,
+   "indexed_at": "2026-11-27",
+   "discovered_at": "2026-11-27T10:54:42Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
+   "countries": [
+    "pakistan"
+   ],
+   "country_basis": "title names Pakistan",
+   "cross_border_region": false,
+   "ambiguous_places": [],
+   "subjects": [
+    "exposure",
+    "monitoring"
+   ],
+   "organisation_ids": [],
+   "related_intervention_ids": [
+    "community-led-monitoring",
+    "low-cost-sensors-action"
+   ],
+   "related_claim_ids": [],
+   "funding_record_id": null,
+   "review_status": "discovered_unreviewed",
+   "correction_status": "",
+   "corrects_doi": null,
+   "external_rights": "metadata_only",
+   "related_signal_ids": [],
+   "inclusion_reason": "included: air-pollution term in title (\\bpm ?10\\b); title names Pakistan",
+   "content_flags": [],
+   "feed_run_id": "run-20261127T105442Z"
   },
   {
    "signal_id": "sig-7ca1181763c6",
@@ -2276,7 +2325,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-22T00:14:51Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -2369,7 +2418,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [],
    "country_basis": "names a region in scope (south[- ]east asia)",
    "cross_border_region": true,
@@ -2661,7 +2710,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -2806,7 +2855,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T05:12:25Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -2905,7 +2954,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -3049,7 +3098,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
@@ -3097,7 +3146,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-26",
    "discovered_at": "2026-11-26T10:56:09Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "bangladesh"
    ],
@@ -3252,7 +3301,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "thailand"
    ],
@@ -3297,7 +3346,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-20",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "pakistan"
    ],
@@ -3376,6 +3425,55 @@
    "feed_run_id": "run-20261123T114338Z"
   },
   {
+   "signal_id": "sig-e418e41a9cee",
+   "source_registry_id": "crossref",
+   "also_listed_by": [],
+   "canonical_url": "https://doi.org/10.37022/wjcmpr.v8i3.480",
+   "previous_urls": [],
+   "doi_or_persistent_id": "10.37022/wjcmpr.v8i3.480",
+   "title_original": "Perceptions of Climate Change and Air Pollution Health Risks: A Cross-Sectional Survey in an Urban Health Training Centre Catchment Area, Siddipet, Telangana",
+   "language": "en",
+   "publisher": "South Asian Academic Publications",
+   "journal": "World Journal of Current Medical and Pharmaceutical Research",
+   "publication_type_in_source": "journal-article",
+   "source_type": "research",
+   "provenance_kind": "peer_reviewed_metadata",
+   "is_preprint": false,
+   "published_at": "2026-11-25",
+   "published_date_precision": "day",
+   "date_basis": "source",
+   "date_flag": "",
+   "source_updated_at": null,
+   "indexed_at": "2026-11-27T03:14:46Z",
+   "discovered_at": "2026-11-27T10:54:42Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
+   "countries": [
+    "india"
+   ],
+   "country_basis": "title names India",
+   "cross_border_region": false,
+   "ambiguous_places": [],
+   "subjects": [
+    "climate",
+    "dust-construction",
+    "health"
+   ],
+   "organisation_ids": [],
+   "related_intervention_ids": [
+    "health-readiness"
+   ],
+   "related_claim_ids": [],
+   "funding_record_id": null,
+   "review_status": "discovered_unreviewed",
+   "correction_status": "",
+   "corrects_doi": null,
+   "external_rights": "metadata_only",
+   "related_signal_ids": [],
+   "inclusion_reason": "included: air-pollution term in title (air pollut); title names India",
+   "content_flags": [],
+   "feed_run_id": "run-20261127T105442Z"
+  },
+  {
    "signal_id": "sig-e5c1bb67e9aa",
    "source_registry_id": "crossref",
    "also_listed_by": [],
@@ -3397,7 +3495,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21T17:15:51Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-26T23:00:01Z",
+   "last_checked_at": "2026-11-27T10:54:42Z",
    "countries": [
     "india"
    ],
