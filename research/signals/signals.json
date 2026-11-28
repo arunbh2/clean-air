@@ -116,7 +116,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -280,6 +280,51 @@
    "feed_run_id": "run-20261123T114338Z"
   },
   {
+   "signal_id": "sig-0f0a4d629eff",
+   "source_registry_id": "europepmc",
+   "also_listed_by": [],
+   "canonical_url": "https://doi.org/10.21203/rs.3.rs-11617673/v1",
+   "previous_urls": [],
+   "doi_or_persistent_id": "10.21203/rs.3.rs-11617673/v1",
+   "title_original": "Data integrity auditing of model-derived PM2.5 series and reanalysis-referenced evaluation of lagged dependence networks in Luzon, Philippines",
+   "language": "en",
+   "publisher": "Research Square",
+   "journal": "Research Square",
+   "publication_type_in_source": "Preprint",
+   "source_type": "preprint",
+   "provenance_kind": "preprint",
+   "is_preprint": true,
+   "published_at": "2026-11-27",
+   "published_date_precision": "day",
+   "date_basis": "source",
+   "date_flag": "",
+   "source_updated_at": null,
+   "indexed_at": "2026-11-28",
+   "discovered_at": "2026-11-28T10:29:30Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
+   "countries": [
+    "philippines"
+   ],
+   "country_basis": "title names Philippines",
+   "cross_border_region": false,
+   "ambiguous_places": [],
+   "subjects": [
+    "exposure"
+   ],
+   "organisation_ids": [],
+   "related_intervention_ids": [],
+   "related_claim_ids": [],
+   "funding_record_id": null,
+   "review_status": "discovered_unreviewed",
+   "correction_status": "",
+   "corrects_doi": null,
+   "external_rights": "metadata_only",
+   "related_signal_ids": [],
+   "inclusion_reason": "included: air-pollution term in title (pm ?2\\.5); title names Philippines",
+   "content_flags": [],
+   "feed_run_id": "run-20261128T102930Z"
+  },
+  {
    "signal_id": "sig-13a8ad9a9f87",
    "source_registry_id": "europepmc",
    "also_listed_by": [],
@@ -398,7 +443,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:14:44Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [],
    "country_basis": "names a region in scope (south asia)",
    "cross_border_region": true,
@@ -500,7 +545,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T21:12:17Z",
    "discovered_at": "2026-11-24T01:42:06Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -555,7 +600,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -695,7 +740,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [],
    "country_basis": "",
    "cross_border_region": false,
@@ -794,7 +839,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24T08:12:25Z",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "bangladesh"
    ],
@@ -994,7 +1039,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "bangladesh"
    ],
@@ -1080,7 +1125,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-25T07:16:37Z",
    "discovered_at": "2026-11-25T11:19:57Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -1520,7 +1565,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-27T13:18:34Z",
    "discovered_at": "2026-11-27T22:43:50Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -1647,6 +1692,63 @@
    "feed_run_id": "run-20261123T114338Z"
   },
   {
+   "signal_id": "sig-468d9927cbb4",
+   "source_registry_id": "dawn",
+   "also_listed_by": [],
+   "canonical_url": "https://www.dawn.com/news/2047659/lahore-ranked-worlds-most-polluted-major-city-sargodha-peshawar-also-record-hazardous-air",
+   "previous_urls": [],
+   "doi_or_persistent_id": null,
+   "title_original": "Lahore ranked world's most polluted major city; Sargodha, Peshawar also record hazardous air",
+   "language": "en",
+   "publisher": "Dawn (Pakistan)",
+   "journal": null,
+   "publication_type_in_source": null,
+   "source_type": "news",
+   "provenance_kind": "independent_reporting",
+   "is_preprint": false,
+   "published_at": "2026-11-28T08:20:23Z",
+   "published_date_precision": "day",
+   "date_basis": "source",
+   "date_flag": "",
+   "source_updated_at": null,
+   "indexed_at": null,
+   "discovered_at": "2026-11-28T10:29:30Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
+   "countries": [
+    "india",
+    "nepal",
+    "pakistan"
+   ],
+   "country_basis": "title names Pakistan; summary names India, Nepal",
+   "cross_border_region": false,
+   "ambiguous_places": [
+    "punjab"
+   ],
+   "subjects": [
+    "exposure",
+    "health",
+    "indoor-protection"
+   ],
+   "organisation_ids": [],
+   "related_intervention_ids": [
+    "classroom-purifiers",
+    "health-readiness",
+    "mass-masks",
+    "new-clean-air-shelters",
+    "night-shelter-filtration"
+   ],
+   "related_claim_ids": [],
+   "funding_record_id": null,
+   "review_status": "discovered_unreviewed",
+   "correction_status": "",
+   "corrects_doi": null,
+   "external_rights": "metadata_only",
+   "related_signal_ids": [],
+   "inclusion_reason": "included: two or more air-pollution terms in summary; title names Pakistan; summary names India, Nepal",
+   "content_flags": [],
+   "feed_run_id": "run-20261128T102930Z"
+  },
+  {
    "signal_id": "sig-4a6f04f4d551",
    "source_registry_id": "europepmc",
    "also_listed_by": [],
@@ -1713,7 +1815,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-27T18:15:24Z",
    "discovered_at": "2026-11-27T22:43:50Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "bangladesh"
    ],
@@ -2075,7 +2177,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T06:13:18Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -2181,7 +2283,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-27",
    "discovered_at": "2026-11-27T10:54:42Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "pakistan"
    ],
@@ -2256,6 +2358,60 @@
    "inclusion_reason": "included: air-pollution term in title (black carbon); title names Nepal; names a region in scope (himalaya)",
    "content_flags": [],
    "feed_run_id": "run-20261123T114338Z"
+  },
+  {
+   "signal_id": "sig-8076af2ee6eb",
+   "source_registry_id": "crossref",
+   "also_listed_by": [],
+   "canonical_url": "https://doi.org/10.51846/ct0bg846",
+   "previous_urls": [],
+   "doi_or_persistent_id": "10.51846/ct0bg846",
+   "title_original": "Air Pollution and Human Security in Pakistan: Assessing a Multidimensional Environmental Threat",
+   "language": "en",
+   "publisher": "The University of Lahore",
+   "journal": "Lahore Institute for Research and Analysis Journal",
+   "publication_type_in_source": "journal-article",
+   "source_type": "research",
+   "provenance_kind": "peer_reviewed_metadata",
+   "is_preprint": false,
+   "published_at": "2026-11-27",
+   "published_date_precision": "day",
+   "date_basis": "source",
+   "date_flag": "",
+   "source_updated_at": null,
+   "indexed_at": "2026-11-28T00:11:46Z",
+   "discovered_at": "2026-11-28T10:29:30Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
+   "countries": [
+    "pakistan"
+   ],
+   "country_basis": "title names Pakistan",
+   "cross_border_region": false,
+   "ambiguous_places": [
+    "punjab"
+   ],
+   "subjects": [
+    "governance",
+    "livelihoods-workers"
+   ],
+   "organisation_ids": [],
+   "related_intervention_ids": [
+    "airshed-management-plans",
+    "independent-evaluation",
+    "occupational-protection",
+    "restriction-income-design",
+    "worker-community-voice"
+   ],
+   "related_claim_ids": [],
+   "funding_record_id": null,
+   "review_status": "discovered_unreviewed",
+   "correction_status": "",
+   "corrects_doi": null,
+   "external_rights": "metadata_only",
+   "related_signal_ids": [],
+   "inclusion_reason": "included: air-pollution term in title (air pollut); title names Pakistan",
+   "content_flags": [],
+   "feed_run_id": "run-20261128T102930Z"
   },
   {
    "signal_id": "sig-81d0a188108c",
@@ -2521,7 +2677,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [],
    "country_basis": "names a region in scope (south[- ]east asia)",
    "cross_border_region": true,
@@ -2813,7 +2969,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-24",
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -2958,7 +3114,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-23T05:12:25Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -3057,7 +3213,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -3201,7 +3357,7 @@
    "source_updated_at": null,
    "indexed_at": null,
    "discovered_at": "2026-11-24T12:32:09Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -3249,7 +3405,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-26",
    "discovered_at": "2026-11-26T10:56:09Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "bangladesh"
    ],
@@ -3404,7 +3560,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "thailand"
    ],
@@ -3549,7 +3705,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-27T03:14:46Z",
    "discovered_at": "2026-11-27T10:54:42Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],
@@ -3598,7 +3754,7 @@
    "source_updated_at": null,
    "indexed_at": "2026-11-21T17:15:51Z",
    "discovered_at": "2026-11-23T11:43:38Z",
-   "last_checked_at": "2026-11-27T22:43:50Z",
+   "last_checked_at": "2026-11-28T10:29:30Z",
    "countries": [
     "india"
    ],

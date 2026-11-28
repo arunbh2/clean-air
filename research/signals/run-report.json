@@ -1,16 +1,16 @@
 {
- "run_id": "run-20261127T224350Z",
- "started_at": "2026-11-27T22:43:50Z",
+ "run_id": "run-20261128T102930Z",
+ "started_at": "2026-11-28T10:29:30Z",
  "sources": [
   {
    "source": "europepmc",
    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
    "result": "ok",
    "http_status": 200,
-   "items": 34,
-   "included": 6,
+   "items": 35,
+   "included": 7,
    "excluded": 28,
-   "request": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22air+pollution%22+OR+%22air+quality%22+OR+%22PM2.5%22+OR+%22particulate+matter%22+OR+%22black+carbon%22+OR+%22crop+residue+burning%22+OR+%22brick+kiln%22+OR+%22household+air+pollution%22%29+AND+%28India+OR+Delhi+OR+Bangladesh+OR+Dhaka+OR+Nepal+OR+Kathmandu+OR+Pakistan+OR+Lahore+OR+Bhutan+OR+%22Sri+Lanka%22+OR+Indonesia+OR+Thailand+OR+Vietnam+OR+%22Viet+Nam%22+OR+Philippines+OR+Cambodia+OR+Laos+OR+Malaysia+OR+Singapore+OR+Myanmar+OR+%22South+Asia%22+OR+%22Southeast+Asia%22+OR+%22Indo-Gangetic%22%29+AND+FIRST_PDATE%3A%5B2026-11-20+TO+2026-11-27%5D&format=json&resultType=core&pageSize=100&sort=FIRST_PDATE_D+desc"
+   "request": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22air+pollution%22+OR+%22air+quality%22+OR+%22PM2.5%22+OR+%22particulate+matter%22+OR+%22black+carbon%22+OR+%22crop+residue+burning%22+OR+%22brick+kiln%22+OR+%22household+air+pollution%22%29+AND+%28India+OR+Delhi+OR+Bangladesh+OR+Dhaka+OR+Nepal+OR+Kathmandu+OR+Pakistan+OR+Lahore+OR+Bhutan+OR+%22Sri+Lanka%22+OR+Indonesia+OR+Thailand+OR+Vietnam+OR+%22Viet+Nam%22+OR+Philippines+OR+Cambodia+OR+Laos+OR+Malaysia+OR+Singapore+OR+Myanmar+OR+%22South+Asia%22+OR+%22Southeast+Asia%22+OR+%22Indo-Gangetic%22%29+AND+FIRST_PDATE%3A%5B2026-11-20+TO+2026-11-28%5D&format=json&resultType=core&pageSize=100&sort=FIRST_PDATE_D+desc"
   },
   {
    "source": "crossref",
@@ -18,9 +18,9 @@
    "result": "ok",
    "http_status": 200,
    "items": 100,
-   "included": 12,
-   "excluded": 88,
-   "request": "https://api.crossref.org/works?query.bibliographic=air+pollution+PM2.5+India+Bangladesh+Nepal+Pakistan+Indonesia+Thailand+Vietnam+Philippines&filter=from-pub-date%3A2026-11-20%2Cuntil-pub-date%3A2026-11-27%2Ctype%3Ajournal-article%2Ctype%3Aposted-content&rows=100&sort=published&order=desc"
+   "included": 11,
+   "excluded": 89,
+   "request": "https://api.crossref.org/works?query.bibliographic=air+pollution+PM2.5+India+Bangladesh+Nepal+Pakistan+Indonesia+Thailand+Vietnam+Philippines&filter=from-pub-date%3A2026-11-20%2Cuntil-pub-date%3A2026-11-28%2Ctype%3Ajournal-article%2Ctype%3Aposted-content&rows=100&sort=published&order=desc"
   },
   {
    "source": "who-news",
@@ -65,18 +65,18 @@
   {
    "source": "icimod",
    "endpoint": "https://www.icimod.org/feed/",
-   "result": "unchanged (HTTP 304)",
-   "http_status": 304,
-   "items": 0,
+   "result": "ok",
+   "http_status": 200,
+   "items": 9,
    "included": 0,
-   "excluded": 0,
+   "excluded": 9,
    "request": "https://www.icimod.org/feed/"
   },
   {
    "source": "clean-air-fund",
    "endpoint": "https://www.cleanairfund.org/feed/",
-   "result": "ok",
-   "http_status": 200,
+   "result": "unchanged (HTTP 304)",
+   "http_status": 304,
    "items": 0,
    "included": 0,
    "excluded": 0,
@@ -85,21 +85,21 @@
   {
    "source": "urbanemissions",
    "endpoint": "https://urbanemissions.info/feed/",
-   "result": "ok",
-   "http_status": 200,
-   "items": 1,
+   "result": "unchanged (HTTP 304)",
+   "http_status": 304,
+   "items": 0,
    "included": 0,
-   "excluded": 1,
+   "excluded": 0,
    "request": "https://urbanemissions.info/feed/"
   },
   {
    "source": "mongabay-india",
    "endpoint": "https://india.mongabay.com/feed/",
-   "result": "ok",
-   "http_status": 200,
-   "items": 20,
+   "result": "unchanged (HTTP 304)",
+   "http_status": 304,
+   "items": 0,
    "included": 0,
-   "excluded": 20,
+   "excluded": 0,
    "request": "https://india.mongabay.com/feed/"
   },
   {
@@ -167,9 +167,9 @@
    "endpoint": "https://www.dawn.com/feeds/home",
    "result": "ok",
    "http_status": 200,
-   "items": 28,
-   "included": 0,
-   "excluded": 28,
+   "items": 26,
+   "included": 1,
+   "excluded": 25,
    "request": "https://www.dawn.com/feeds/home"
   },
   {
@@ -346,6 +346,31 @@
   },
   {
    "source": "crossref",
+   "title": "Source-Informed Associations Between Microplastics and Polycyclic Aromatic Hydrocarbons in Sediments from the Sea of Marmara: A Multivariate Assessment",
+   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
+  },
+  {
+   "source": "crossref",
+   "title": "Integrated Campus Water Footprint Assessment Using the WEF Nexus and a DMAIC-Inspired Framework",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Microplastic Contamination in the Food Supply Chain: Sources, Health Implications, and Emerging Mitigation Strategies",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Biochar-Derived Dissolved Organic Matter: Molecular Characteristics, Environmental Functions, and Ecological Risks",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Assessing the Impact of Plant Species and Nutrient Solutions on Indoor Air Pollutant Removal and Aesthetics of a Passive Green Wall",
+   "reason": "excluded: no country, city or regional term in scope"
+  },
+  {
+   "source": "crossref",
    "title": "Association of ambient air pollution with road traffic injury risk in an urban setting in Taiwan",
    "reason": "excluded: the title names a place outside South and Southeast Asia"
   },
@@ -357,6 +382,11 @@
   {
    "source": "crossref",
    "title": "Mitigating Cadmium Toxicity Through Exogenous Application of Taurine to Enhance Antioxidant Defense and Nutrient Homeostasis for Crop Productivity",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
+   "title": "Reassessing Bangladesh–Pakistan military relations: a neoclassical realist analysis of power politics in South Asia",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -456,13 +486,13 @@
   },
   {
    "source": "crossref",
-   "title": "A review of uranium and co-occurring heavy metals in groundwater and soil of Chhattisgarh, India: hydrogeochemical controls and human health risk implications",
-   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
+   "title": "Comparison of Perceptions and Health Effects among Fresh Latex Purchasers and Sellers in the Tapi River Basin, Southern Thailand",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
    "source": "crossref",
-   "title": "Comparison of Perceptions and Health Effects among Fresh Latex Purchasers and Sellers in the Tapi River Basin, Southern Thailand",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+   "title": "A review of uranium and co-occurring heavy metals in groundwater and soil of Chhattisgarh, India: hydrogeochemical controls and human health risk implications",
+   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
   },
   {
    "source": "crossref",
@@ -636,13 +666,13 @@
   },
   {
    "source": "crossref",
-   "title": "Allergic Conjunctivitis and Rhinitis in Saudi Arabia Using Google Trends: Associationwith Air Pollution and Meteorological Factors",
-   "reason": "excluded: the title names a place outside South and Southeast Asia"
+   "title": "Economic Assessment Frameworks for Coagulation-flocculation Processes in Wastewater Treatment: a Methodological Review",
+   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
   },
   {
    "source": "crossref",
-   "title": "Economic Assessment Frameworks for Coagulation-flocculation Processes in Wastewater Treatment: a Methodological Review",
-   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
+   "title": "Allergic Conjunctivitis and Rhinitis in Saudi Arabia Using Google Trends: Associationwith Air Pollution and Meteorological Factors",
+   "reason": "excluded: the title names a place outside South and Southeast Asia"
   },
   {
    "source": "crossref",
@@ -671,17 +701,17 @@
   },
   {
    "source": "crossref",
+   "title": "PENGUATAN TATA KELOLA DATA DAN DOKUMENTASI DIGITAL DALAM PENGABDIAN KEPADA MASYARAKAT MELALUI PROGRAM PEMBANGUNAN MCK DAN PENYEDIAAN AIR BERSIH",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "crossref",
    "title": "Leaf-Associated Elemental Loads on Living Ornamental Plants in an Automobile Welding Workshop: An Exploratory Field Study",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
    "source": "crossref",
    "title": "Microplastic contamination in spotted babylon (Babylonia areolata) from the artisanal fisheries along the eastern coast of Thailand",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "crossref",
-   "title": "PENGUATAN TATA KELOLA DATA DAN DOKUMENTASI DIGITAL DALAM PENGABDIAN KEPADA MASYARAKAT MELALUI PROGRAM PEMBANGUNAN MCK DAN PENYEDIAAN AIR BERSIH",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -758,31 +788,6 @@
    "source": "crossref",
    "title": "Esterified Banana Peel Waste as a Low-Cost Biosorbent for Heavy Metal Removal from Real Paint Manufacturing Wastewater: Effects of Concentration, pH, Contact T…",
    "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
-  },
-  {
-   "source": "crossref",
-   "title": "Removal of Basic Blue 41 Dye onto with Melon Seeds and Chestnut Shells: Isotherm, Kinetics and Thermodynamic Studies",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "crossref",
-   "title": "Effectiveness of Artificial Intervention Techniques for Winter Haze Reduction in Northwestern China: A Case Study from Ganquanpu",
-   "reason": "excluded: the title names a place outside South and Southeast Asia"
-  },
-  {
-   "source": "crossref",
-   "title": "Pollution Characteristics and Quantitative Source Apportionment of Heavy Metals and Metalloids in Watershed Lake Sediments: a Comparative Application of APCS-M…",
-   "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
-  },
-  {
-   "source": "crossref",
-   "title": "Boosting Photocatalytic Degradation of C-doped TiO2 Photocatalyst Derived From Reed Biomass for Cephalosporin Antibiotics",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "crossref",
-   "title": "Engineered Brown Seaweed Biochar for Efficient Amoxicillin Removal from Aqueous Solutions: Adsorption Behaviour, Process Optimization Through RSM-CCD and ANN",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
    "source": "who-news",
@@ -1240,108 +1245,53 @@
    "reason": "excluded: no country, city or regional term in scope"
   },
   {
-   "source": "urbanemissions",
-   "title": "Protected: Summary: Comparisons from UPAQ",
+   "source": "icimod",
+   "title": "2026 El Niño could bring wetter, warmer conditions, and more hazards for Hindu Kush Himalaya",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-india",
-   "title": "An overlooked policy could help recognise chemical-free farmland [Commentary]",
+   "source": "icimod",
+   "title": "Countries call for stronger global conservation action for mountain biodiversity at the UN Biodiversity Conference",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-india",
-   "title": "Underused land can support fodder production [Commentary]",
+   "source": "icimod",
+   "title": "After Himalayan disasters, mountain nations urge COP31 to turn recognition into action",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-india",
-   "title": "Translocated tigress’ miscarriage and injuries raise welfare concerns",
+   "source": "icimod",
+   "title": "COP31 – Nepal and Bhutan sound the alarm on collapsing Himalayan glaciers",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-india",
-   "title": "Large-scale climate drivers influence sardine and anchovy fisheries",
+   "source": "icimod",
+   "title": "Bhutan GLOF triggers downstream alerts, underscores need for stronger early warnings systems across the Himalaya",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-india",
-   "title": "The wide-eyed “forest baby”",
+   "source": "icimod",
+   "title": "RfP: Preparation of Local Disaster and Climate Resilience Frameworks (LDCRF) for Nine Municipalities/Rural Municipalities in Rautahat, Mahottari and Dhankuta D…",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-india",
-   "title": "Neelakurinji tourism brings crowds, but not all areas are monitored the same",
+   "source": "icimod",
+   "title": "Request for Proposal: Trekking and Expedition Support Services for the Collaborative Long-term Monitoring of Glacier and Permafrost in Bhutan – Shodug Glacier,…",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-india",
-   "title": "India thought it eliminated kala-azar. The disease now gets reported from a non-endemic state",
+   "source": "icimod",
+   "title": "Himalayan yak herders launch first regional network at Bhutan’s Royal Highland Festival",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-india",
-   "title": "A climbing palm’s genetics reveals evolutionary secrets",
+   "source": "icimod",
+   "title": "RFP: Supply, installation and managed cloud hosting with platform support for the ICIMOD PURE platform",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-india",
-   "title": "Fossil fuel divide fractures consensus at climate talks in Antalya",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "The climate risks behind pumped-storage expansion",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "Why deforestation science gets shifting cultivation wrong [Commentary]",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "Forest villagers protest tourism curbs after tiger translocation",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "Global electrification push meets resistance over money and fairness",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "El Niño could deepen Tamil Nadu’s water stress and threaten agriculture",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "The world struggles to pay for the growing human cost of climate change",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "How an unfit boat design left Kerala’s fishers in debt",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "The fragility of mountains loom large over COP31",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "The secretive salamanders of the Himalayas",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "No land to call their own, migrants and elephants share Teesta’s shifting sandbars",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "mongabay-india",
-   "title": "Institutional campuses could expand India’s conservation network, but challenges remain",
+   "source": "mongabay-global",
+   "title": "Will my glacier go extinct? Interview with Lander Van Tricht",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -1500,11 +1450,6 @@
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
-   "source": "mongabay-global",
-   "title": "Photos: Elephants maintain an essential role in conservation in Nepal despite shifting norms",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
    "source": "dialogue-earth",
    "title": "Can the Philippines better protect its only known humpback whale breeding ground?",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
@@ -1656,17 +1601,27 @@
   },
   {
    "source": "the-hindu-environment",
+   "title": "Ozone hole largest in a decade — yet world remains on track to shrinking it",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Can 3D printing change the way we make shoes? This Delhi footwear brand seems to think so",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "COP31: India welcomes $50 million climate fund pledge, says adaptation needs far greater",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
    "title": "Bombay High Court puts road project on hold till State files report on mangrove loss, compensatory measures",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
    "source": "the-hindu-environment",
    "title": "Madagascar lemurs and the invasive strawberry guava | Green Humour by Rohan Chakravarty",
-   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
-  },
-  {
-   "source": "the-hindu-environment",
-   "title": "COP31: India welcomes $50 million climate fund pledge, says adaptation needs far greater",
    "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   },
   {
@@ -1703,6 +1658,51 @@
    "source": "the-hindu-environment",
    "title": "A rare bird on stony rivers shows why Himalayan water needs its sediment",
    "reason": "excluded: matches 'sediment|wastewater|groundwater|seawater|river water|aquatic'"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Hostile architecture: the design choices keeping wildlife out of urban India",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Wildlife, forests, and culture in Gudalur: Sculptures, stories, and interactive workshops",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "COP31 and the unmet promises of climate action",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Prey and water may be why tiger Explorer has stopped exploring in Andhra’s NTR district",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "What do lemurs and opera singers share?",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "COP31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "Fatal disagreement: on the COP31 summit",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "India maps landslide susceptibility as part of shift from post-disaster relief to landslide management",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
+  },
+  {
+   "source": "the-hindu-environment",
+   "title": "COP31 ends without a deal: Is global climate diplomacy breaking? | The Hindu Analysis",
+   "reason": "excluded: no air-pollution term in the title (and fewer than two in the summary)"
   }
  ],
  "merge_log": [
@@ -1733,6 +1733,16 @@
   },
   {
    "title": "Ambient particulate chemical components and dengue incidence: A 10-year nationwide study in Thailand.",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Spatio-Temporal Variation of Climate-Relevant Air Pollutants at Bengaluru City, Karnataka, India",
+   "decision": "merged",
+   "reason": "same signal ID"
+  },
+  {
+   "title": "Towards Sustainable Urban Air Quality Management: Integrating Field Monitoring, GIS Mapping, and Fuzzy TOPSIS for Pollut",
    "decision": "merged",
    "reason": "same signal ID"
   },
@@ -1777,16 +1787,6 @@
    "reason": "same signal ID"
   },
   {
-   "title": "Household air pollution and child survival in South and Southeast Asia: a multi-country analysis of trends, disparities,",
-   "decision": "merged",
-   "reason": "same signal ID"
-  },
-  {
-   "title": "Assessment of Air Quality-Related Policy Effectiveness to Control Air Pollution in Some Urban Areas of India",
-   "decision": "merged",
-   "reason": "same signal ID"
-  },
-  {
    "title": "New policy brief explores methods for assessing long-term air quality trends in India",
    "decision": "merged",
    "reason": "same signal ID"
@@ -1822,22 +1822,22 @@
    "reason": "same signal ID"
   }
  ],
- "finished_at": "2026-11-27T22:44:15Z",
+ "finished_at": "2026-11-28T10:29:57Z",
  "totals": {
-  "fetched": 568,
-  "included": 25,
-  "excluded": 543,
-  "new": 2,
+  "fetched": 555,
+  "included": 26,
+  "excluded": 529,
+  "new": 3,
   "updated": 0,
   "duplicates": 23,
   "url_changed": 0,
   "skipped_old": 0,
   "held_for_review": 0
  },
- "records_in_store": 79,
+ "records_in_store": 82,
  "sources_ok": 19,
  "sources_attempted": 20,
  "schema_errors": [],
  "outcome": "partial",
- "review_queue": 79
+ "review_queue": 82
 }
